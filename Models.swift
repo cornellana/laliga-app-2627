@@ -1,0 +1,176 @@
+import Foundation
+import SwiftUI
+
+// MARK: - Match
+
+struct Match: Identifiable, Codable {
+    let id: String
+    let time: String
+    let home: String
+    let away: String
+    let jornada: Int
+    let tv: String?
+    let done: Bool
+    let result: String?
+    let details: MatchDetails?
+    let stadium: String?
+    let venueCity: String?
+
+    var involvesBarcelona: Bool {
+        home == "FC Barcelona" || away == "FC Barcelona"
+    }
+
+    var homeScore: Int? {
+        guard let result, let dash = result.firstIndex(of: "-") else { return nil }
+        return Int(result[result.startIndex..<dash])
+    }
+
+    var awayScore: Int? {
+        guard let result, let dash = result.firstIndex(of: "-") else { return nil }
+        let after = result.index(after: dash)
+        return Int(result[after...])
+    }
+}
+
+// MARK: - MatchDay
+
+struct MatchDay: Identifiable, Codable {
+    var id: String { date }
+    let date: String      // "yyyy-MM-dd"
+    let jornada: Int
+    let games: [Match]
+}
+
+// MARK: - Snapshot (root JSON)
+
+struct MatchSnapshot: Codable {
+    let lastUpdated: String
+    let season: String
+    let matchDays: [MatchDay]
+    let standings: [LeagueStanding]?
+    let topScorers: [TopScorer]?
+}
+
+// MARK: - Match Details
+
+struct MatchDetails: Codable {
+    let homeLineup: TeamLineup?
+    let awayLineup: TeamLineup?
+    let events: [MatchEvent]?
+}
+
+struct TeamLineup: Codable {
+    let formation: String?
+    let players: [LineupPlayer]
+}
+
+struct LineupPlayer: Codable, Identifiable {
+    let id: String
+    let jersey: Int?
+    let name: String
+    let position: String?
+    let isStarter: Bool
+    let events: [MatchEvent]?
+}
+
+struct MatchEvent: Codable, Identifiable {
+    let id: String
+    let type: MatchEventType
+    let minute: Int
+    let extraTime: Int?
+    let playerName: String?
+    let teamName: String?
+    let text: String?
+}
+
+enum MatchEventType: String, Codable {
+    case goal = "GOAL"
+    case yellowCard = "YELLOW_CARD"
+    case redCard = "RED_CARD"
+    case substitution = "SUBSTITUTION"
+    case ownGoal = "OWN_GOAL"
+    case penalty = "PENALTY"
+    case missedPenalty = "MISSED_PENALTY"
+
+    var symbol: String {
+        switch self {
+        case .goal:          return "⚽"
+        case .yellowCard:    return "🟨"
+        case .redCard:       return "🟥"
+        case .substitution:  return "🔄"
+        case .ownGoal:       return "⚽ (pp)"
+        case .penalty:       return "⚽ (p)"
+        case .missedPenalty: return "❌"
+        }
+    }
+}
+
+// MARK: - Standings
+
+struct LeagueStanding: Identifiable, Codable, Hashable {
+    var id: String { team }
+    let position: Int
+    let team: String
+    var played: Int
+    var won: Int
+    var drawn: Int
+    var lost: Int
+    var goalsFor: Int
+    var goalsAgainst: Int
+
+    var goalDifference: Int { goalsFor - goalsAgainst }
+    var points: Int { won * 3 + drawn }
+
+    var zone: StandingZone {
+        switch position {
+        case 1...4:   return .championsLeague
+        case 5...6:   return .europaLeague
+        case 7:       return .conferenceLeague
+        case 18...20: return .relegation
+        default:      return .mid
+        }
+    }
+}
+
+enum StandingZone {
+    case championsLeague, europaLeague, conferenceLeague, mid, relegation
+
+    var color: Color {
+        switch self {
+        case .championsLeague:  return Color(hex: 0x1B8A4C)
+        case .europaLeague:     return Color(hex: 0x2471A3)
+        case .conferenceLeague: return Color(hex: 0x5DADE2)
+        case .mid:              return Color.clear
+        case .relegation:       return Color(hex: 0xC0392B)
+        }
+    }
+}
+
+// MARK: - Top Scorers
+
+struct TopScorer: Identifiable, Codable {
+    var id: String { "\(player)_\(team)" }
+    let player: String
+    let team: String
+    let goals: Int
+    let penalties: Int?
+}
+
+// MARK: - Filters
+
+enum JornadaFilter: Hashable, Equatable {
+    case all
+    case jornada(Int)
+    case team(String)
+}
+
+// MARK: - Color Helper
+
+extension Color {
+    init(hex: UInt) {
+        let r = Double((hex >> 16) & 0xFF) / 255
+        let g = Double((hex >> 8) & 0xFF) / 255
+        let b = Double(hex & 0xFF) / 255
+        self.init(red: r, green: g, blue: b)
+    }
+}
