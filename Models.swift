@@ -1,6 +1,37 @@
 import Foundation
 import SwiftUI
 
+// MARK: - App Season
+
+struct AppSeason: Identifiable, Equatable, Hashable {
+    var id: String { code }
+    let code: String           // "2627", "2526", "2425"
+    let displayName: String    // "26/27"
+    let espnYear: Int
+    let remoteURL: URL?
+    let seedName: String       // bundle resource name (without .json)
+
+    static let all: [AppSeason] = [
+        AppSeason(
+            code: "2627", displayName: "26/27", espnYear: 2026,
+            remoteURL: URL(string: "https://raw.githubusercontent.com/cornellana/laliga-app-2627/refs/heads/main/data/laliga2627.json"),
+            seedName: "laliga2627-seed"
+        ),
+        AppSeason(
+            code: "2526", displayName: "25/26", espnYear: 2025,
+            remoteURL: URL(string: "https://raw.githubusercontent.com/cornellana/laliga-app-2627/refs/heads/main/data/laliga2526.json"),
+            seedName: "laliga2526-seed"
+        ),
+        AppSeason(
+            code: "2425", displayName: "24/25", espnYear: 2024,
+            remoteURL: URL(string: "https://raw.githubusercontent.com/cornellana/laliga-app-2627/refs/heads/main/data/laliga2425.json"),
+            seedName: "laliga2425-seed"
+        ),
+    ]
+
+    static var current: AppSeason { all[0] }
+}
+
 // MARK: - Match
 
 struct Match: Identifiable, Codable {
@@ -15,6 +46,7 @@ struct Match: Identifiable, Codable {
     let details: MatchDetails?
     let stadium: String?
     let venueCity: String?
+    let espnEventID: String?
 
     var involvesBarcelona: Bool {
         home == "FC Barcelona" || away == "FC Barcelona"

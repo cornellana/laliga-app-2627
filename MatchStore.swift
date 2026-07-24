@@ -4,41 +4,52 @@ import SwiftUI
 @Observable
 @MainActor
 final class MatchStore {
-    var snapshot: MatchSnapshot?
+    private(set) var selectedSeason: AppSeason = .current
     var isLoading = false
     var errorMessage: String?
 
-    private static let remoteURL = URL(
-        string: "https://raw.githubusercontent.com/cornellana/laliga-app-2627/refs/heads/main/data/laliga2627.json"
-    )
-    private static let cacheKey = "laliga2627_cache_v1"
+    // Caché en memoria por temporada (evita refetches innecesarios al volver a la temporada)
+    private var cache: [String: MatchSnapshot] = [:]
 
-    var matchDays: [MatchDay] { snapshot?.matchDays ?? [] }
+    var snapshot: MatchSnapshot? { cache[selectedSeason.code] }
+
+    var matchDays: [MatchDay]       { snapshot?.matchDays ?? [] }
+    var topScorers: [TopScorer]     { snapshot?.topScorers ?? [] }
 
     var standings: [LeagueStanding] {
         if let remote = snapshot?.standings, !remote.isEmpty { return remote }
         return computedStandings()
     }
 
-    var topScorers: [TopScorer] { snapshot?.topScorers ?? [] }
+    // MARK: - Season selection
+
+    func selectSeason(_ season: AppSeason) async {
+        guard season != selectedSeason else { return }
+        selectedSeason = season
+        errorMessage = nil
+        if cache[season.code] == nil {
+            await refresh()
+        }
+    }
 
     // MARK: - Refresh
 
     func refresh() async {
+        let season = selectedSeason
         isLoading = true
         errorMessage = nil
         defer { isLoading = false }
 
-        // 1. Cache
-        if snapshot == nil, let cached = loadFromCache() {
-            snapshot = cached
+        // 1. UserDefaults cache (solo si no hay caché en memoria)
+        if cache[season.code] == nil, let cached = loadFromUserDefaults(season) {
+            cache[season.code] = cached
         }
 
         // 2. Remote
         do {
-            let fresh = try await fetchRemote()
-            snapshot = fresh
-            saveToCache(fresh)
+            let fresh = try await fetchRemote(season)
+            cache[season.code] = fresh
+            saveToUserDefaults(fresh, season: season)
             return
         } catch {
             let isOffline: Bool
@@ -51,16 +62,16 @@ final class MatchStore {
             if isOffline { errorMessage = "Sin conexión a Internet" }
         }
 
-        // 3. Fallback: seed del bundle (calendario completo 26/27)
-        if snapshot == nil {
-            snapshot = loadSeedFromBundle()
+        // 3. Seed del bundle
+        if cache[season.code] == nil {
+            cache[season.code] = loadSeedFromBundle(season)
         }
     }
 
     // MARK: - Remote
 
-    private func fetchRemote() async throws -> MatchSnapshot {
-        guard let base = Self.remoteURL else { throw URLError(.badURL) }
+    private func fetchRemote(_ season: AppSeason) async throws -> MatchSnapshot {
+        guard let base = season.remoteURL else { throw URLError(.badURL) }
         let urlStr = "\(base.absoluteString)?t=\(Int(Date().timeIntervalSince1970))"
         let url = URL(string: urlStr)!
         var request = URLRequest(url: url)
@@ -74,29 +85,36 @@ final class MatchStore {
 
     // MARK: - Bundle seed
 
-    private func loadSeedFromBundle() -> MatchSnapshot? {
-        guard let url = Bundle.main.url(forResource: "laliga2627-seed", withExtension: "json"),
+    private func loadSeedFromBundle(_ season: AppSeason) -> MatchSnapshot? {
+        guard let url = Bundle.main.url(forResource: season.seedName, withExtension: "json"),
               let data = try? Data(contentsOf: url) else { return nil }
         return try? JSONDecoder().decode(MatchSnapshot.self, from: data)
     }
 
-    // MARK: - Cache
+    // MARK: - UserDefaults cache
 
-    private func loadFromCache() -> MatchSnapshot? {
-        guard let data = UserDefaults.standard.data(forKey: Self.cacheKey) else { return nil }
+    private func cacheKey(_ season: AppSeason) -> String { "laliga_cache_v2_\(season.code)" }
+
+    private func loadFromUserDefaults(_ season: AppSeason) -> MatchSnapshot? {
+        guard let data = UserDefaults.standard.data(forKey: cacheKey(season)) else { return nil }
         return try? JSONDecoder().decode(MatchSnapshot.self, from: data)
     }
 
-    private func saveToCache(_ s: MatchSnapshot) {
-        guard let data = try? JSONEncoder().encode(s) else { return }
-        UserDefaults.standard.set(data, forKey: Self.cacheKey)
+    private func saveToUserDefaults(_ snapshot: MatchSnapshot, season: AppSeason) {
+        guard let data = try? JSONEncoder().encode(snapshot) else { return }
+        UserDefaults.standard.set(data, forKey: cacheKey(season))
     }
 
     // MARK: - Computed Standings
 
     private func computedStandings() -> [LeagueStanding] {
         var stats: [String: (w: Int, d: Int, l: Int, gf: Int, ga: Int)] = [:]
-        for team in MatchesData.allTeams { stats[team] = (0, 0, 0, 0, 0) }
+        for day in matchDays {
+            for match in day.games {
+                if stats[match.home] == nil { stats[match.home] = (0, 0, 0, 0, 0) }
+                if stats[match.away] == nil { stats[match.away] = (0, 0, 0, 0, 0) }
+            }
+        }
 
         for day in matchDays {
             for match in day.games where match.done {

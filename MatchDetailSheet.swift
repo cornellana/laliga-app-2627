@@ -6,8 +6,8 @@ struct RosterPlayer: Identifiable {
     let id: String
     let name: String
     let jersey: Int?
-    let position: String?      // "GK", "DF", "MF", "FW"
-    let positionGroup: String  // "Porteros", "Defensas"…
+    let position: String?
+    let positionGroup: String
 }
 
 // MARK: - MatchDetailSheet
@@ -16,9 +16,16 @@ struct MatchDetailSheet: View {
     let match: Match
     @Environment(\.dismiss) private var dismiss
 
+    // Para partidos finalizados sin detalles bundled: fetch on-demand desde ESPN
+    @State private var fetchedDetails: MatchDetails? = nil
+    @State private var isFetchingDetails = false
+
+    // Para partidos pendientes: plantillas
     @State private var homeRoster: [RosterPlayer] = []
     @State private var awayRoster:  [RosterPlayer] = []
     @State private var isLoadingRoster = false
+
+    private var effectiveDetails: MatchDetails? { match.details ?? fetchedDetails }
 
     var body: some View {
         NavigationStack {
@@ -27,7 +34,7 @@ struct MatchDetailSheet: View {
                     scoreHeader
                     Divider().background(Color.white.opacity(0.08))
 
-                    if let details = match.details {
+                    if let details = effectiveDetails {
                         if let events = details.events, !events.isEmpty {
                             eventsList(events)
                             Divider().background(Color.white.opacity(0.08))
@@ -35,6 +42,8 @@ struct MatchDetailSheet: View {
                         if let home = details.homeLineup, let away = details.awayLineup {
                             lineupSection(home: home, away: away)
                         }
+                    } else if match.done {
+                        completedNoDetailsSection
                     } else {
                         rosterSection
                     }
@@ -58,8 +67,13 @@ struct MatchDetailSheet: View {
             .preferredColorScheme(.dark)
         }
         .task {
-            guard !match.done, match.details == nil else { return }
-            await loadRosters()
+            if match.done, match.details == nil {
+                // Partido finalizado sin detalles bundled → fetch on-demand
+                await fetchMatchDetails()
+            } else if !match.done, match.details == nil {
+                // Partido pendiente → cargar plantillas
+                await loadRosters()
+            }
         }
     }
 
@@ -173,6 +187,39 @@ struct MatchDetailSheet: View {
         }
     }
 
+    // MARK: - Completed without details
+
+    @ViewBuilder
+    private var completedNoDetailsSection: some View {
+        if isFetchingDetails {
+            VStack(spacing: 14) {
+                ProgressView().tint(Color(hex: 0x004D98)).scaleEffect(1.3)
+                Text("Cargando detalles…")
+                    .font(.caption)
+                    .foregroundStyle(.white.opacity(0.4))
+            }
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 48)
+        } else {
+            VStack(spacing: 10) {
+                Image(systemName: "doc.text.magnifyingglass")
+                    .font(.system(size: 32))
+                    .foregroundStyle(.white.opacity(0.15))
+                    .padding(.top, 24)
+                Text("Detalles no disponibles")
+                    .font(.subheadline)
+                    .foregroundStyle(.white.opacity(0.4))
+                Text("No se pudieron cargar los detalles de este partido")
+                    .font(.caption)
+                    .foregroundStyle(.white.opacity(0.25))
+                    .multilineTextAlignment(.center)
+            }
+            .frame(maxWidth: .infinity)
+            .padding(.horizontal, 32)
+            .padding(.bottom, 32)
+        }
+    }
+
     // MARK: - Roster (partidos pendientes)
 
     @ViewBuilder
@@ -229,7 +276,167 @@ struct MatchDetailSheet: View {
         .background(Color(hex: 0x0D0D1A))
     }
 
-    // MARK: - Roster fetch
+    // MARK: - On-demand detail fetch (partidos históricos finalizados)
+
+    private func fetchMatchDetails() async {
+        guard let espnID = match.espnEventID else { return }
+        isFetchingDetails = true
+        defer { isFetchingDetails = false }
+
+        guard let url = URL(string: "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=\(espnID)"),
+              let (data, _) = try? await URLSession.shared.data(from: url) else { return }
+
+        fetchedDetails = parseSummary(from: data)
+    }
+
+    // Decodifica la respuesta ESPN summary → MatchDetails
+    private func parseSummary(from data: Data) -> MatchDetails? {
+        struct Resp: Decodable {
+            let rosters: [ESPNRoster]?
+            let keyEvents: [ESPNKeyEvent]?
+
+            struct ESPNRoster: Decodable {
+                let homeAway: String
+                let team: Team
+                let roster: [Player]
+                let formation: String?
+                struct Team: Decodable { let displayName: String }
+                struct Player: Decodable {
+                    let athlete: Athlete
+                    let jersey: String?
+                    let position: Pos?
+                    let starter: Bool
+                    struct Athlete: Decodable {
+                        let id: String
+                        let displayName: String?
+                        let fullName: String?
+                    }
+                    struct Pos: Decodable { let abbreviation: String? }
+                }
+            }
+
+            struct ESPNKeyEvent: Decodable {
+                let id: String
+                let type: EventType
+                let clock: Clock?
+                let text: String?
+                let team: TeamRef?
+                let scoringPlay: Bool?
+                struct EventType: Decodable { let id: String; let text: String? }
+                struct Clock: Decodable { let displayValue: String? }
+                struct TeamRef: Decodable { let displayName: String? }
+            }
+        }
+
+        guard let resp = try? JSONDecoder().decode(Resp.self, from: data) else { return nil }
+
+        // Lineups desde rosters
+        var homeLineup: TeamLineup? = nil
+        var awayLineup: TeamLineup? = nil
+
+        for roster in resp.rosters ?? [] {
+            let players: [LineupPlayer] = roster.roster.compactMap { p in
+                let name = p.athlete.displayName ?? p.athlete.fullName ?? ""
+                guard !name.isEmpty else { return nil }
+                return LineupPlayer(
+                    id: p.athlete.id,
+                    jersey: p.jersey.flatMap(Int.init),
+                    name: name,
+                    position: p.position?.abbreviation,
+                    isStarter: p.starter,
+                    events: nil
+                )
+            }
+            let lineup = TeamLineup(formation: roster.formation, players: players)
+            if roster.homeAway == "home" { homeLineup = lineup }
+            else { awayLineup = lineup }
+        }
+
+        // Eventos desde keyEvents (solo goles, tarjetas y sustituciones)
+        let relevantTypeIDs: Set<String> = ["70", "76", "94", "95", "96"]
+        var events: [MatchEvent] = []
+
+        for (idx, event) in (resp.keyEvents ?? []).enumerated() {
+            let typeID = event.type.id
+            guard relevantTypeIDs.contains(typeID) else { continue }
+
+            let clockStr = event.clock?.displayValue ?? ""
+            let clean = clockStr.replacingOccurrences(of: "'", with: "")
+            let minute: Int
+            let extraTime: Int?
+            if let plusIdx = clean.firstIndex(of: "+") {
+                minute = Int(String(clean[clean.startIndex..<plusIdx])) ?? 0
+                extraTime = Int(String(clean[clean.index(after: plusIdx)...])) ?? nil
+            } else {
+                minute = Int(clean) ?? 0
+                extraTime = nil
+            }
+
+            let eventType: MatchEventType
+            switch typeID {
+            case "70": eventType = .goal
+            case "76": eventType = .substitution
+            case "94": eventType = .yellowCard
+            case "95", "96": eventType = .redCard
+            default: continue
+            }
+
+            let playerName = extractPlayer(from: event.text, type: typeID)
+            let shortText = shortDescription(from: event.text, type: typeID)
+
+            events.append(MatchEvent(
+                id: "\(event.id)_\(idx)",
+                type: eventType,
+                minute: minute,
+                extraTime: extraTime,
+                playerName: playerName,
+                teamName: event.team?.displayName,
+                text: shortText
+            ))
+        }
+
+        return MatchDetails(
+            homeLineup: homeLineup,
+            awayLineup: awayLineup,
+            events: events.isEmpty ? nil : events
+        )
+    }
+
+    private func extractPlayer(from text: String?, type typeID: String) -> String? {
+        guard let text else { return nil }
+        switch typeID {
+        case "70": // Goal: "Goal! Team 0, Team2 1. PlayerName (Team) shot..."
+            let parts = text.components(separatedBy: ". ")
+            if parts.count > 1 {
+                let afterScore = parts[1...].joined(separator: ". ")
+                if let idx = afterScore.firstIndex(of: "(") {
+                    return String(afterScore[afterScore.startIndex..<idx]).trimmingCharacters(in: .whitespaces)
+                }
+            }
+        case "76": // Substitution: "Substitution, Team. Player1 replaces Player2."
+            let parts = text.components(separatedBy: ". ")
+            if parts.count > 1 {
+                let subParts = parts[1].components(separatedBy: " replaces ")
+                return subParts.first?.trimmingCharacters(in: .whitespaces)
+            }
+        default: // Card: "PlayerName (Team) is shown..."
+            if let idx = text.firstIndex(of: "(") {
+                let name = String(text[text.startIndex..<idx]).trimmingCharacters(in: .whitespaces)
+                if !name.isEmpty, !name.hasPrefix("Substitution") { return name }
+            }
+        }
+        return nil
+    }
+
+    private func shortDescription(from text: String?, type typeID: String) -> String? {
+        guard let text else { return nil }
+        // Return only a short description to avoid overflow in the UI
+        let max = 60
+        if text.count <= max { return text }
+        return String(text.prefix(max)) + "…"
+    }
+
+    // MARK: - Roster fetch (partidos pendientes)
 
     private func loadRosters() async {
         isLoadingRoster = true
@@ -255,7 +462,6 @@ struct MatchDetailSheet: View {
     }
 
     private func parseRoster(from data: Data) -> [RosterPlayer] {
-        // La API devuelve {"athletes": [ {id, displayName, jersey, position: {abbreviation}} ]}
         struct Resp: Decodable {
             let athletes: [Athlete]
             struct Athlete: Decodable {
@@ -312,7 +518,6 @@ struct RosterColumn: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            // Team header
             HStack(spacing: 8) {
                 TeamLogoView(teamName: team, size: 26)
                 Text(team)
@@ -323,7 +528,6 @@ struct RosterColumn: View {
             .padding(.horizontal, 10).padding(.vertical, 8)
             .background(Color(hex: 0x0D0D1A))
 
-            // Players by group
             ForEach(groups, id: \.0) { groupName, groupPlayers in
                 Text(groupName)
                     .font(.system(size: 9, weight: .bold))

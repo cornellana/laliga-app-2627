@@ -79,13 +79,32 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .principal) {
-                    VStack(spacing: 1) {
-                        Text("La Liga")
-                            .font(.headline.weight(.bold))
-                            .foregroundStyle(.white)
-                        Text("Temporada 26/27")
-                            .font(.system(size: 10, weight: .medium))
-                            .foregroundStyle(Color(hex: 0xE8460B))
+                    Menu {
+                        ForEach(AppSeason.all) { season in
+                            Button {
+                                Task { await store.selectSeason(season) }
+                            } label: {
+                                if store.selectedSeason == season {
+                                    Label("Temporada \(season.displayName)", systemImage: "checkmark")
+                                } else {
+                                    Text("Temporada \(season.displayName)")
+                                }
+                            }
+                        }
+                    } label: {
+                        VStack(spacing: 1) {
+                            Text("La Liga")
+                                .font(.headline.weight(.bold))
+                                .foregroundStyle(.white)
+                            HStack(spacing: 3) {
+                                Text("Temp. \(store.selectedSeason.displayName)")
+                                    .font(.system(size: 10, weight: .medium))
+                                    .foregroundStyle(Color(hex: 0xE8460B))
+                                Image(systemName: "chevron.down")
+                                    .font(.system(size: 7, weight: .semibold))
+                                    .foregroundStyle(Color(hex: 0xE8460B))
+                            }
+                        }
                     }
                 }
                 ToolbarItem(placement: .topBarTrailing) {
@@ -126,9 +145,13 @@ struct ContentView: View {
             }
         }
         .environment(highlightSettings)
+        .onChange(of: store.selectedSeason) { _, _ in
+            filterTeam = nil
+            filterJornada = nil
+        }
         .sheet(item: $selectedMatchItem) { item in
             MatchDetailSheet(match: item.match)
-                .presentationDetents(item.match.details != nil ? [.large] : [.medium])
+                .presentationDetents(item.match.done ? [.large] : [.medium, .large])
                 .presentationDragIndicator(.visible)
         }
         .sheet(isPresented: $showingStandings) {
@@ -232,10 +255,10 @@ struct ContentView: View {
     private var emptyView: some View {
         VStack(spacing: 20) {
             BarcelonaShieldView(size: 72).opacity(0.6)
-            Text("La Liga 26/27")
+            Text("La Liga \(store.selectedSeason.displayName)")
                 .font(.title2.weight(.bold))
                 .foregroundStyle(.white.opacity(0.8))
-            Text("El calendario se cargará automáticamente\ncuando comience la temporada")
+            Text("El calendario se cargará automáticamente\ncuando esté disponible")
                 .font(.subheadline)
                 .foregroundStyle(.white.opacity(0.4))
                 .multilineTextAlignment(.center)

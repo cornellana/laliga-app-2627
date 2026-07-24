@@ -1,0 +1,6192 @@
+{
+  "lastUpdated": "2026-07-24",
+  "season": "2025-2026",
+  "matchDays": [
+    {
+      "date": "2025-08-15",
+      "jornada": 1,
+      "games": [
+        {
+          "id": "748152",
+          "time": "19:00",
+          "home": "Girona",
+          "away": "Rayo",
+          "jornada": 1,
+          "tv": null,
+          "done": true,
+          "result": "1-3",
+          "details": null,
+          "stadium": "Municipal de Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748152"
+        },
+        {
+          "id": "748151",
+          "time": "21:30",
+          "home": "Villarreal",
+          "away": "Real Oviedo",
+          "jornada": 1,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748151"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-16",
+      "jornada": 1,
+      "games": [
+        {
+          "id": "748153",
+          "time": "19:30",
+          "home": "Mallorca",
+          "away": "FC Barcelona",
+          "jornada": 1,
+          "tv": null,
+          "done": true,
+          "result": "0-3",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748153"
+        },
+        {
+          "id": "748150",
+          "time": "21:30",
+          "home": "Alavés",
+          "away": "Levante",
+          "jornada": 1,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Mendizorroza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748150"
+        },
+        {
+          "id": "748144",
+          "time": "21:30",
+          "home": "Valencia",
+          "away": "R. Sociedad",
+          "jornada": 1,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Mestalla",
+          "venueCity": "Manises",
+          "espnEventID": "748144"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-17",
+      "jornada": 1,
+      "games": [
+        {
+          "id": "748148",
+          "time": "17:00",
+          "home": "Celta",
+          "away": "Getafe",
+          "jornada": 1,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Estadio Abanca-Balaídos",
+          "venueCity": "Vigo",
+          "espnEventID": "748148"
+        },
+        {
+          "id": "748149",
+          "time": "19:30",
+          "home": "Athletic",
+          "away": "Sevilla",
+          "jornada": 1,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748149"
+        },
+        {
+          "id": "748146",
+          "time": "21:30",
+          "home": "Espanyol",
+          "away": "Atlético",
+          "jornada": 1,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748146"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-18",
+      "jornada": 1,
+      "games": [
+        {
+          "id": "748147",
+          "time": "21:00",
+          "home": "Elche",
+          "away": "Betis",
+          "jornada": 1,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748147"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-19",
+      "jornada": 1,
+      "games": [
+        {
+          "id": "748145",
+          "time": "21:00",
+          "home": "Real Madrid",
+          "away": "Osasuna",
+          "jornada": 1,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748145"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-22",
+      "jornada": 2,
+      "games": [
+        {
+          "id": "748158",
+          "time": "21:30",
+          "home": "Betis",
+          "away": "Alavés",
+          "jornada": 2,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748158"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-23",
+      "jornada": 2,
+      "games": [
+        {
+          "id": "748154",
+          "time": "17:00",
+          "home": "Mallorca",
+          "away": "Celta",
+          "jornada": 2,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748154"
+        },
+        {
+          "id": "748161",
+          "time": "19:30",
+          "home": "Atlético",
+          "away": "Elche",
+          "jornada": 2,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748161"
+        },
+        {
+          "id": "748162",
+          "time": "21:30",
+          "home": "Levante",
+          "away": "FC Barcelona",
+          "jornada": 2,
+          "tv": null,
+          "done": true,
+          "result": "2-3",
+          "details": null,
+          "stadium": "Ciutat de Valencia",
+          "venueCity": "Manises",
+          "espnEventID": "748162"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-24",
+      "jornada": 2,
+      "games": [
+        {
+          "id": "748159",
+          "time": "17:00",
+          "home": "Osasuna",
+          "away": "Valencia",
+          "jornada": 2,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748159"
+        },
+        {
+          "id": "748156",
+          "time": "19:30",
+          "home": "R. Sociedad",
+          "away": "Espanyol",
+          "jornada": 2,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Estadio Municipal de Anoeta",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748156"
+        },
+        {
+          "id": "748163",
+          "time": "19:30",
+          "home": "Villarreal",
+          "away": "Girona",
+          "jornada": 2,
+          "tv": null,
+          "done": true,
+          "result": "5-0",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748163"
+        },
+        {
+          "id": "748155",
+          "time": "21:30",
+          "home": "Real Oviedo",
+          "away": "Real Madrid",
+          "jornada": 2,
+          "tv": null,
+          "done": true,
+          "result": "0-3",
+          "details": null,
+          "stadium": "Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748155"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-25",
+      "jornada": 2,
+      "games": [
+        {
+          "id": "748160",
+          "time": "19:30",
+          "home": "Athletic",
+          "away": "Rayo",
+          "jornada": 2,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748160"
+        },
+        {
+          "id": "748157",
+          "time": "21:30",
+          "home": "Sevilla",
+          "away": "Getafe",
+          "jornada": 2,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Ramón Sánchez-Pizjuán",
+          "venueCity": "Sevilla",
+          "espnEventID": "748157"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-27",
+      "jornada": 3,
+      "games": [
+        {
+          "id": "748198",
+          "time": "21:00",
+          "home": "Celta",
+          "away": "Betis",
+          "jornada": 3,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio Abanca-Balaídos",
+          "venueCity": "Vigo",
+          "espnEventID": "748198"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-29",
+      "jornada": 3,
+      "games": [
+        {
+          "id": "748170",
+          "time": "19:30",
+          "home": "Elche",
+          "away": "Levante",
+          "jornada": 3,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748170"
+        },
+        {
+          "id": "748168",
+          "time": "21:30",
+          "home": "Valencia",
+          "away": "Getafe",
+          "jornada": 3,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Mestalla",
+          "venueCity": "Manises",
+          "espnEventID": "748168"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-30",
+      "jornada": 3,
+      "games": [
+        {
+          "id": "748172",
+          "time": "17:00",
+          "home": "Alavés",
+          "away": "Atlético",
+          "jornada": 3,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Mendizorroza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748172"
+        },
+        {
+          "id": "748173",
+          "time": "19:00",
+          "home": "Real Oviedo",
+          "away": "R. Sociedad",
+          "jornada": 3,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748173"
+        },
+        {
+          "id": "748164",
+          "time": "19:30",
+          "home": "Girona",
+          "away": "Sevilla",
+          "jornada": 3,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Municipal de Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748164"
+        },
+        {
+          "id": "748167",
+          "time": "21:30",
+          "home": "Real Madrid",
+          "away": "Mallorca",
+          "jornada": 3,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748167"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-31",
+      "jornada": 3,
+      "games": [
+        {
+          "id": "748171",
+          "time": "17:00",
+          "home": "Celta",
+          "away": "Villarreal",
+          "jornada": 3,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio Abanca-Balaídos",
+          "venueCity": "Vigo",
+          "espnEventID": "748171"
+        },
+        {
+          "id": "748166",
+          "time": "19:00",
+          "home": "Betis",
+          "away": "Athletic",
+          "jornada": 3,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748166"
+        },
+        {
+          "id": "748169",
+          "time": "19:30",
+          "home": "Espanyol",
+          "away": "Osasuna",
+          "jornada": 3,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748169"
+        },
+        {
+          "id": "748165",
+          "time": "21:30",
+          "home": "Rayo",
+          "away": "FC Barcelona",
+          "jornada": 4,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748165"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-12",
+      "jornada": 4,
+      "games": [
+        {
+          "id": "748183",
+          "time": "21:00",
+          "home": "Sevilla",
+          "away": "Elche",
+          "jornada": 4,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Ramón Sánchez-Pizjuán",
+          "venueCity": "Sevilla",
+          "espnEventID": "748183"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "jornada": 4,
+      "games": [
+        {
+          "id": "748174",
+          "time": "14:00",
+          "home": "Getafe",
+          "away": "Real Oviedo",
+          "jornada": 4,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748174"
+        },
+        {
+          "id": "748177",
+          "time": "16:15",
+          "home": "R. Sociedad",
+          "away": "Real Madrid",
+          "jornada": 4,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Estadio Municipal de Anoeta",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748177"
+        },
+        {
+          "id": "748182",
+          "time": "18:30",
+          "home": "Athletic",
+          "away": "Alavés",
+          "jornada": 4,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748182"
+        },
+        {
+          "id": "748181",
+          "time": "21:00",
+          "home": "Atlético",
+          "away": "Villarreal",
+          "jornada": 4,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748181"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-14",
+      "jornada": 4,
+      "games": [
+        {
+          "id": "748179",
+          "time": "14:00",
+          "home": "Celta",
+          "away": "Girona",
+          "jornada": 4,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio Abanca-Balaídos",
+          "venueCity": "Vigo",
+          "espnEventID": "748179"
+        },
+        {
+          "id": "748175",
+          "time": "16:15",
+          "home": "Levante",
+          "away": "Betis",
+          "jornada": 4,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Ciutat de Valencia",
+          "venueCity": "Manises",
+          "espnEventID": "748175"
+        },
+        {
+          "id": "748176",
+          "time": "18:30",
+          "home": "Osasuna",
+          "away": "Rayo",
+          "jornada": 4,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748176"
+        },
+        {
+          "id": "748180",
+          "time": "21:00",
+          "home": "FC Barcelona",
+          "away": "Valencia",
+          "jornada": 4,
+          "tv": null,
+          "done": true,
+          "result": "6-0",
+          "details": null,
+          "stadium": "Estadi Johan Cruyff",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748180"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "jornada": 5,
+      "games": [
+        {
+          "id": "748178",
+          "time": "21:00",
+          "home": "Espanyol",
+          "away": "Mallorca",
+          "jornada": 5,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748178"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-19",
+      "jornada": 5,
+      "games": [
+        {
+          "id": "748185",
+          "time": "21:00",
+          "home": "Betis",
+          "away": "R. Sociedad",
+          "jornada": 5,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748185"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-20",
+      "jornada": 5,
+      "games": [
+        {
+          "id": "748193",
+          "time": "14:00",
+          "home": "Girona",
+          "away": "Levante",
+          "jornada": 5,
+          "tv": null,
+          "done": true,
+          "result": "0-4",
+          "details": null,
+          "stadium": "Municipal de Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748193"
+        },
+        {
+          "id": "748186",
+          "time": "16:15",
+          "home": "Real Madrid",
+          "away": "Espanyol",
+          "jornada": 5,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadio Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748186"
+        },
+        {
+          "id": "748190",
+          "time": "18:30",
+          "home": "Alavés",
+          "away": "Sevilla",
+          "jornada": 5,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Mendizorroza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748190"
+        },
+        {
+          "id": "748189",
+          "time": "18:30",
+          "home": "Villarreal",
+          "away": "Osasuna",
+          "jornada": 5,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748189"
+        },
+        {
+          "id": "748187",
+          "time": "21:00",
+          "home": "Valencia",
+          "away": "Athletic",
+          "jornada": 5,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Mestalla",
+          "venueCity": "Manises",
+          "espnEventID": "748187"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-21",
+      "jornada": 5,
+      "games": [
+        {
+          "id": "748184",
+          "time": "14:00",
+          "home": "Rayo",
+          "away": "Celta",
+          "jornada": 5,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748184"
+        },
+        {
+          "id": "748188",
+          "time": "16:15",
+          "home": "Mallorca",
+          "away": "Atlético",
+          "jornada": 5,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748188"
+        },
+        {
+          "id": "748192",
+          "time": "18:30",
+          "home": "Elche",
+          "away": "Real Oviedo",
+          "jornada": 5,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748192"
+        },
+        {
+          "id": "748191",
+          "time": "21:00",
+          "home": "FC Barcelona",
+          "away": "Getafe",
+          "jornada": 6,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Estadi Johan Cruyff",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748191"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-23",
+      "jornada": 6,
+      "games": [
+        {
+          "id": "748194",
+          "time": "19:00",
+          "home": "Athletic",
+          "away": "Girona",
+          "jornada": 6,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748194"
+        },
+        {
+          "id": "748203",
+          "time": "19:00",
+          "home": "Espanyol",
+          "away": "Valencia",
+          "jornada": 6,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748203"
+        },
+        {
+          "id": "748200",
+          "time": "21:30",
+          "home": "Levante",
+          "away": "Real Madrid",
+          "jornada": 6,
+          "tv": null,
+          "done": true,
+          "result": "1-4",
+          "details": null,
+          "stadium": "Ciutat de Valencia",
+          "venueCity": "Manises",
+          "espnEventID": "748200"
+        },
+        {
+          "id": "748196",
+          "time": "21:30",
+          "home": "Sevilla",
+          "away": "Villarreal",
+          "jornada": 6,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Ramón Sánchez-Pizjuán",
+          "venueCity": "Sevilla",
+          "espnEventID": "748196"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-24",
+      "jornada": 6,
+      "games": [
+        {
+          "id": "748199",
+          "time": "19:00",
+          "home": "Getafe",
+          "away": "Alavés",
+          "jornada": 6,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748199"
+        },
+        {
+          "id": "748195",
+          "time": "21:30",
+          "home": "Atlético",
+          "away": "Rayo",
+          "jornada": 6,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748195"
+        },
+        {
+          "id": "748197",
+          "time": "21:30",
+          "home": "R. Sociedad",
+          "away": "Mallorca",
+          "jornada": 6,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio Municipal de Anoeta",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748197"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-25",
+      "jornada": 6,
+      "games": [
+        {
+          "id": "748201",
+          "time": "19:30",
+          "home": "Osasuna",
+          "away": "Elche",
+          "jornada": 6,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748201"
+        },
+        {
+          "id": "748202",
+          "time": "21:30",
+          "home": "Real Oviedo",
+          "away": "FC Barcelona",
+          "jornada": 6,
+          "tv": null,
+          "done": true,
+          "result": "1-3",
+          "details": null,
+          "stadium": "Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748202"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-26",
+      "jornada": 7,
+      "games": [
+        {
+          "id": "748205",
+          "time": "21:00",
+          "home": "Girona",
+          "away": "Espanyol",
+          "jornada": 7,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Municipal de Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748205"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-27",
+      "jornada": 7,
+      "games": [
+        {
+          "id": "748206",
+          "time": "14:00",
+          "home": "Getafe",
+          "away": "Levante",
+          "jornada": 7,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748206"
+        },
+        {
+          "id": "748210",
+          "time": "16:15",
+          "home": "Atlético",
+          "away": "Real Madrid",
+          "jornada": 7,
+          "tv": null,
+          "done": true,
+          "result": "5-2",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748210"
+        },
+        {
+          "id": "748209",
+          "time": "18:30",
+          "home": "Mallorca",
+          "away": "Alavés",
+          "jornada": 7,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748209"
+        },
+        {
+          "id": "748204",
+          "time": "21:00",
+          "home": "Villarreal",
+          "away": "Athletic",
+          "jornada": 7,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748204"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-28",
+      "jornada": 7,
+      "games": [
+        {
+          "id": "748213",
+          "time": "14:00",
+          "home": "Rayo",
+          "away": "Sevilla",
+          "jornada": 7,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748213"
+        },
+        {
+          "id": "748207",
+          "time": "16:15",
+          "home": "Elche",
+          "away": "Celta",
+          "jornada": 7,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748207"
+        },
+        {
+          "id": "748208",
+          "time": "18:30",
+          "home": "FC Barcelona",
+          "away": "R. Sociedad",
+          "jornada": 7,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadi Olímpic Lluís Companys",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748208"
+        },
+        {
+          "id": "748212",
+          "time": "21:00",
+          "home": "Betis",
+          "away": "Osasuna",
+          "jornada": 7,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748212"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-30",
+      "jornada": 7,
+      "games": [
+        {
+          "id": "748211",
+          "time": "20:00",
+          "home": "Valencia",
+          "away": "Real Oviedo",
+          "jornada": 7,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Mestalla",
+          "venueCity": "Manises",
+          "espnEventID": "748211"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-03",
+      "jornada": 8,
+      "games": [
+        {
+          "id": "748223",
+          "time": "21:00",
+          "home": "Osasuna",
+          "away": "Getafe",
+          "jornada": 8,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748223"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-04",
+      "jornada": 8,
+      "games": [
+        {
+          "id": "748216",
+          "time": "14:00",
+          "home": "Real Oviedo",
+          "away": "Levante",
+          "jornada": 8,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748216"
+        },
+        {
+          "id": "748219",
+          "time": "16:15",
+          "home": "Girona",
+          "away": "Valencia",
+          "jornada": 8,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Municipal de Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748219"
+        },
+        {
+          "id": "748222",
+          "time": "18:30",
+          "home": "Athletic",
+          "away": "Mallorca",
+          "jornada": 8,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748222"
+        },
+        {
+          "id": "748214",
+          "time": "21:00",
+          "home": "Real Madrid",
+          "away": "Villarreal",
+          "jornada": 8,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Estadio Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748214"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-05",
+      "jornada": 8,
+      "games": [
+        {
+          "id": "748218",
+          "time": "14:00",
+          "home": "Alavés",
+          "away": "Elche",
+          "jornada": 8,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Mendizorroza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748218"
+        },
+        {
+          "id": "748215",
+          "time": "16:15",
+          "home": "Sevilla",
+          "away": "FC Barcelona",
+          "jornada": 8,
+          "tv": null,
+          "done": true,
+          "result": "4-1",
+          "details": null,
+          "stadium": "Ramón Sánchez-Pizjuán",
+          "venueCity": "Sevilla",
+          "espnEventID": "748215"
+        },
+        {
+          "id": "748220",
+          "time": "18:30",
+          "home": "Espanyol",
+          "away": "Betis",
+          "jornada": 8,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748220"
+        },
+        {
+          "id": "748217",
+          "time": "18:30",
+          "home": "R. Sociedad",
+          "away": "Rayo",
+          "jornada": 8,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadio Municipal de Anoeta",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748217"
+        },
+        {
+          "id": "748221",
+          "time": "21:00",
+          "home": "Celta",
+          "away": "Atlético",
+          "jornada": 8,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio Abanca-Balaídos",
+          "venueCity": "Vigo",
+          "espnEventID": "748221"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-17",
+      "jornada": 9,
+      "games": [
+        {
+          "id": "748229",
+          "time": "21:00",
+          "home": "Real Oviedo",
+          "away": "Espanyol",
+          "jornada": 9,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748229"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-18",
+      "jornada": 9,
+      "games": [
+        {
+          "id": "748227",
+          "time": "14:00",
+          "home": "Sevilla",
+          "away": "Mallorca",
+          "jornada": 9,
+          "tv": null,
+          "done": true,
+          "result": "1-3",
+          "details": null,
+          "stadium": "Ramón Sánchez-Pizjuán",
+          "venueCity": "Sevilla",
+          "espnEventID": "748227"
+        },
+        {
+          "id": "748228",
+          "time": "16:15",
+          "home": "FC Barcelona",
+          "away": "Girona",
+          "jornada": 9,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadi Olímpic Lluís Companys",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748228"
+        },
+        {
+          "id": "748225",
+          "time": "18:30",
+          "home": "Villarreal",
+          "away": "Betis",
+          "jornada": 9,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748225"
+        },
+        {
+          "id": "748224",
+          "time": "21:00",
+          "home": "Atlético",
+          "away": "Osasuna",
+          "jornada": 9,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748224"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-19",
+      "jornada": 9,
+      "games": [
+        {
+          "id": "748232",
+          "time": "14:00",
+          "home": "Elche",
+          "away": "Athletic",
+          "jornada": 9,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748232"
+        },
+        {
+          "id": "748233",
+          "time": "16:15",
+          "home": "Celta",
+          "away": "R. Sociedad",
+          "jornada": 9,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio Abanca-Balaídos",
+          "venueCity": "Vigo",
+          "espnEventID": "748233"
+        },
+        {
+          "id": "748230",
+          "time": "18:30",
+          "home": "Levante",
+          "away": "Rayo",
+          "jornada": 9,
+          "tv": null,
+          "done": true,
+          "result": "0-3",
+          "details": null,
+          "stadium": "Ciutat de Valencia",
+          "venueCity": "Manises",
+          "espnEventID": "748230"
+        },
+        {
+          "id": "748231",
+          "time": "21:00",
+          "home": "Getafe",
+          "away": "Real Madrid",
+          "jornada": 9,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748231"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-20",
+      "jornada": 9,
+      "games": [
+        {
+          "id": "748226",
+          "time": "21:00",
+          "home": "Alavés",
+          "away": "Valencia",
+          "jornada": 9,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Mendizorroza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748226"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-24",
+      "jornada": 10,
+      "games": [
+        {
+          "id": "748234",
+          "time": "21:00",
+          "home": "R. Sociedad",
+          "away": "Sevilla",
+          "jornada": 10,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio Municipal de Anoeta",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748234"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-25",
+      "jornada": 10,
+      "games": [
+        {
+          "id": "748239",
+          "time": "14:00",
+          "home": "Girona",
+          "away": "Real Oviedo",
+          "jornada": 10,
+          "tv": null,
+          "done": true,
+          "result": "3-3",
+          "details": null,
+          "stadium": "Municipal de Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748239"
+        },
+        {
+          "id": "748243",
+          "time": "16:15",
+          "home": "Espanyol",
+          "away": "Elche",
+          "jornada": 10,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748243"
+        },
+        {
+          "id": "748242",
+          "time": "18:30",
+          "home": "Athletic",
+          "away": "Getafe",
+          "jornada": 10,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748242"
+        },
+        {
+          "id": "748235",
+          "time": "21:00",
+          "home": "Valencia",
+          "away": "Villarreal",
+          "jornada": 10,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Mestalla",
+          "venueCity": "Manises",
+          "espnEventID": "748235"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-26",
+      "jornada": 10,
+      "games": [
+        {
+          "id": "748240",
+          "time": "15:00",
+          "home": "Mallorca",
+          "away": "Levante",
+          "jornada": 10,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748240"
+        },
+        {
+          "id": "748236",
+          "time": "17:15",
+          "home": "Real Madrid",
+          "away": "FC Barcelona",
+          "jornada": 10,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748236"
+        },
+        {
+          "id": "748241",
+          "time": "19:30",
+          "home": "Osasuna",
+          "away": "Celta",
+          "jornada": 10,
+          "tv": null,
+          "done": true,
+          "result": "2-3",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748241"
+        },
+        {
+          "id": "748238",
+          "time": "22:00",
+          "home": "Rayo",
+          "away": "Alavés",
+          "jornada": 10,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748238"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-27",
+      "jornada": 10,
+      "games": [
+        {
+          "id": "748237",
+          "time": "22:00",
+          "home": "Betis",
+          "away": "Atlético",
+          "jornada": 10,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748237"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-31",
+      "jornada": 11,
+      "games": [
+        {
+          "id": "748248",
+          "time": "22:00",
+          "home": "Getafe",
+          "away": "Girona",
+          "jornada": 11,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748248"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-01",
+      "jornada": 11,
+      "games": [
+        {
+          "id": "748249",
+          "time": "14:00",
+          "home": "Villarreal",
+          "away": "Rayo",
+          "jornada": 11,
+          "tv": null,
+          "done": true,
+          "result": "4-0",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748249"
+        },
+        {
+          "id": "748245",
+          "time": "16:15",
+          "home": "Atlético",
+          "away": "Sevilla",
+          "jornada": 11,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748245"
+        },
+        {
+          "id": "748253",
+          "time": "18:30",
+          "home": "R. Sociedad",
+          "away": "Athletic",
+          "jornada": 11,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "Estadio Municipal de Anoeta",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748253"
+        },
+        {
+          "id": "748251",
+          "time": "21:00",
+          "home": "Real Madrid",
+          "away": "Valencia",
+          "jornada": 11,
+          "tv": null,
+          "done": true,
+          "result": "4-0",
+          "details": null,
+          "stadium": "Estadio Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748251"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-02",
+      "jornada": 11,
+      "games": [
+        {
+          "id": "748244",
+          "time": "14:00",
+          "home": "Levante",
+          "away": "Celta",
+          "jornada": 11,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Ciutat de Valencia",
+          "venueCity": "Manises",
+          "espnEventID": "748244"
+        },
+        {
+          "id": "748246",
+          "time": "16:15",
+          "home": "Alavés",
+          "away": "Espanyol",
+          "jornada": 11,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Mendizorroza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748246"
+        },
+        {
+          "id": "748247",
+          "time": "18:30",
+          "home": "FC Barcelona",
+          "away": "Elche",
+          "jornada": 11,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Estadi Olímpic Lluís Companys",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748247"
+        },
+        {
+          "id": "748250",
+          "time": "21:00",
+          "home": "Betis",
+          "away": "Mallorca",
+          "jornada": 11,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748250"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-03",
+      "jornada": 11,
+      "games": [
+        {
+          "id": "748252",
+          "time": "21:00",
+          "home": "Real Oviedo",
+          "away": "Osasuna",
+          "jornada": 11,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748252"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-07",
+      "jornada": 12,
+      "games": [
+        {
+          "id": "748259",
+          "time": "21:00",
+          "home": "Elche",
+          "away": "R. Sociedad",
+          "jornada": 12,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748259"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-08",
+      "jornada": 12,
+      "games": [
+        {
+          "id": "748257",
+          "time": "14:00",
+          "home": "Girona",
+          "away": "Alavés",
+          "jornada": 12,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Municipal de Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748257"
+        },
+        {
+          "id": "748255",
+          "time": "16:15",
+          "home": "Sevilla",
+          "away": "Osasuna",
+          "jornada": 12,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Ramón Sánchez-Pizjuán",
+          "venueCity": "Sevilla",
+          "espnEventID": "748255"
+        },
+        {
+          "id": "748261",
+          "time": "18:30",
+          "home": "Atlético",
+          "away": "Levante",
+          "jornada": 12,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748261"
+        },
+        {
+          "id": "748263",
+          "time": "21:00",
+          "home": "Espanyol",
+          "away": "Villarreal",
+          "jornada": 12,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748263"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-09",
+      "jornada": 12,
+      "games": [
+        {
+          "id": "748262",
+          "time": "14:00",
+          "home": "Athletic",
+          "away": "Real Oviedo",
+          "jornada": 12,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748262"
+        },
+        {
+          "id": "748254",
+          "time": "16:15",
+          "home": "Rayo",
+          "away": "Real Madrid",
+          "jornada": 12,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748254"
+        },
+        {
+          "id": "748256",
+          "time": "18:30",
+          "home": "Mallorca",
+          "away": "Getafe",
+          "jornada": 12,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748256"
+        },
+        {
+          "id": "748258",
+          "time": "18:30",
+          "home": "Valencia",
+          "away": "Betis",
+          "jornada": 12,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Mestalla",
+          "venueCity": "Manises",
+          "espnEventID": "748258"
+        },
+        {
+          "id": "748260",
+          "time": "21:00",
+          "home": "Celta",
+          "away": "FC Barcelona",
+          "jornada": 12,
+          "tv": null,
+          "done": true,
+          "result": "2-4",
+          "details": null,
+          "stadium": "Estadio Abanca-Balaídos",
+          "venueCity": "Vigo",
+          "espnEventID": "748260"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-21",
+      "jornada": 13,
+      "games": [
+        {
+          "id": "748270",
+          "time": "21:00",
+          "home": "Valencia",
+          "away": "Levante",
+          "jornada": 13,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748270"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-22",
+      "jornada": 13,
+      "games": [
+        {
+          "id": "748273",
+          "time": "14:00",
+          "home": "Alavés",
+          "away": "Celta",
+          "jornada": 13,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748273"
+        },
+        {
+          "id": "748272",
+          "time": "16:15",
+          "home": "FC Barcelona",
+          "away": "Athletic",
+          "jornada": 13,
+          "tv": null,
+          "done": true,
+          "result": "4-0",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748272"
+        },
+        {
+          "id": "748267",
+          "time": "18:30",
+          "home": "Osasuna",
+          "away": "R. Sociedad",
+          "jornada": 13,
+          "tv": null,
+          "done": true,
+          "result": "1-3",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748267"
+        },
+        {
+          "id": "748271",
+          "time": "21:00",
+          "home": "Villarreal",
+          "away": "Mallorca",
+          "jornada": 13,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748271"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-23",
+      "jornada": 13,
+      "games": [
+        {
+          "id": "748269",
+          "time": "14:00",
+          "home": "Real Oviedo",
+          "away": "Rayo",
+          "jornada": 13,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748269"
+        },
+        {
+          "id": "748268",
+          "time": "16:15",
+          "home": "Betis",
+          "away": "Girona",
+          "jornada": 13,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748268"
+        },
+        {
+          "id": "748264",
+          "time": "18:30",
+          "home": "Getafe",
+          "away": "Atlético",
+          "jornada": 13,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748264"
+        },
+        {
+          "id": "748266",
+          "time": "21:00",
+          "home": "Elche",
+          "away": "Real Madrid",
+          "jornada": 13,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748266"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-24",
+      "jornada": 13,
+      "games": [
+        {
+          "id": "748265",
+          "time": "21:00",
+          "home": "Espanyol",
+          "away": "Sevilla",
+          "jornada": 13,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748265"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-28",
+      "jornada": 14,
+      "games": [
+        {
+          "id": "748280",
+          "time": "21:00",
+          "home": "Getafe",
+          "away": "Elche",
+          "jornada": 14,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748280"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-29",
+      "jornada": 14,
+      "games": [
+        {
+          "id": "748277",
+          "time": "14:00",
+          "home": "Mallorca",
+          "away": "Osasuna",
+          "jornada": 14,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748277"
+        },
+        {
+          "id": "748282",
+          "time": "16:15",
+          "home": "FC Barcelona",
+          "away": "Alavés",
+          "jornada": 14,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748282"
+        },
+        {
+          "id": "748278",
+          "time": "18:30",
+          "home": "Levante",
+          "away": "Athletic",
+          "jornada": 14,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748278"
+        },
+        {
+          "id": "748275",
+          "time": "21:00",
+          "home": "Atlético",
+          "away": "Real Oviedo",
+          "jornada": 14,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748275"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-30",
+      "jornada": 14,
+      "games": [
+        {
+          "id": "748274",
+          "time": "14:00",
+          "home": "R. Sociedad",
+          "away": "Villarreal",
+          "jornada": 14,
+          "tv": null,
+          "done": true,
+          "result": "2-3",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748274"
+        },
+        {
+          "id": "748283",
+          "time": "16:15",
+          "home": "Sevilla",
+          "away": "Betis",
+          "jornada": 14,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748283"
+        },
+        {
+          "id": "748281",
+          "time": "18:30",
+          "home": "Celta",
+          "away": "Espanyol",
+          "jornada": 14,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748281"
+        },
+        {
+          "id": "748279",
+          "time": "21:00",
+          "home": "Girona",
+          "away": "Real Madrid",
+          "jornada": 14,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748279"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-01",
+      "jornada": 14,
+      "games": [
+        {
+          "id": "748276",
+          "time": "21:00",
+          "home": "Rayo",
+          "away": "Valencia",
+          "jornada": 14,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748276"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-02",
+      "jornada": 15,
+      "games": [
+        {
+          "id": "748331",
+          "time": "21:00",
+          "home": "FC Barcelona",
+          "away": "Atlético",
+          "jornada": 15,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748331"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-03",
+      "jornada": 15,
+      "games": [
+        {
+          "id": "748332",
+          "time": "19:00",
+          "home": "Athletic",
+          "away": "Real Madrid",
+          "jornada": 15,
+          "tv": null,
+          "done": true,
+          "result": "0-3",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748332"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05",
+      "jornada": 15,
+      "games": [
+        {
+          "id": "748291",
+          "time": "21:00",
+          "home": "Real Oviedo",
+          "away": "Mallorca",
+          "jornada": 15,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748291"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-06",
+      "jornada": 15,
+      "games": [
+        {
+          "id": "748288",
+          "time": "14:00",
+          "home": "Villarreal",
+          "away": "Getafe",
+          "jornada": 15,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748288"
+        },
+        {
+          "id": "748287",
+          "time": "16:15",
+          "home": "Alavés",
+          "away": "R. Sociedad",
+          "jornada": 15,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748287"
+        },
+        {
+          "id": "748289",
+          "time": "18:30",
+          "home": "Betis",
+          "away": "FC Barcelona",
+          "jornada": 15,
+          "tv": null,
+          "done": true,
+          "result": "3-5",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748289"
+        },
+        {
+          "id": "748286",
+          "time": "21:00",
+          "home": "Athletic",
+          "away": "Atlético",
+          "jornada": 15,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748286"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-07",
+      "jornada": 15,
+      "games": [
+        {
+          "id": "748285",
+          "time": "14:00",
+          "home": "Elche",
+          "away": "Girona",
+          "jornada": 15,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748285"
+        },
+        {
+          "id": "748292",
+          "time": "16:15",
+          "home": "Valencia",
+          "away": "Sevilla",
+          "jornada": 15,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748292"
+        },
+        {
+          "id": "748284",
+          "time": "18:30",
+          "home": "Espanyol",
+          "away": "Rayo",
+          "jornada": 15,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748284"
+        },
+        {
+          "id": "748290",
+          "time": "21:00",
+          "home": "Real Madrid",
+          "away": "Celta",
+          "jornada": 16,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748290"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-08",
+      "jornada": 16,
+      "games": [
+        {
+          "id": "748293",
+          "time": "21:00",
+          "home": "Osasuna",
+          "away": "Levante",
+          "jornada": 16,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748293"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-12",
+      "jornada": 16,
+      "games": [
+        {
+          "id": "748294",
+          "time": "21:00",
+          "home": "R. Sociedad",
+          "away": "Girona",
+          "jornada": 16,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748294"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-13",
+      "jornada": 16,
+      "games": [
+        {
+          "id": "748296",
+          "time": "14:00",
+          "home": "Atlético",
+          "away": "Valencia",
+          "jornada": 16,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748296"
+        },
+        {
+          "id": "748303",
+          "time": "16:15",
+          "home": "Mallorca",
+          "away": "Elche",
+          "jornada": 16,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748303"
+        },
+        {
+          "id": "748299",
+          "time": "18:30",
+          "home": "FC Barcelona",
+          "away": "Osasuna",
+          "jornada": 16,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748299"
+        },
+        {
+          "id": "748301",
+          "time": "21:00",
+          "home": "Getafe",
+          "away": "Espanyol",
+          "jornada": 16,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748301"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-14",
+      "jornada": 16,
+      "games": [
+        {
+          "id": "748295",
+          "time": "14:00",
+          "home": "Sevilla",
+          "away": "Real Oviedo",
+          "jornada": 16,
+          "tv": null,
+          "done": true,
+          "result": "4-0",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748295"
+        },
+        {
+          "id": "748300",
+          "time": "16:15",
+          "home": "Celta",
+          "away": "Athletic",
+          "jornada": 16,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748300"
+        },
+        {
+          "id": "748297",
+          "time": "21:00",
+          "home": "Alavés",
+          "away": "Real Madrid",
+          "jornada": 16,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748297"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-15",
+      "jornada": 17,
+      "games": [
+        {
+          "id": "748298",
+          "time": "21:00",
+          "home": "Rayo",
+          "away": "Betis",
+          "jornada": 17,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748298"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-19",
+      "jornada": 17,
+      "games": [
+        {
+          "id": "748305",
+          "time": "21:00",
+          "home": "Valencia",
+          "away": "Mallorca",
+          "jornada": 17,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748305"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-20",
+      "jornada": 17,
+      "games": [
+        {
+          "id": "748306",
+          "time": "14:00",
+          "home": "Real Oviedo",
+          "away": "Celta",
+          "jornada": 17,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748306"
+        },
+        {
+          "id": "748310",
+          "time": "16:15",
+          "home": "Levante",
+          "away": "R. Sociedad",
+          "jornada": 17,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748310"
+        },
+        {
+          "id": "748311",
+          "time": "18:30",
+          "home": "Osasuna",
+          "away": "Alavés",
+          "jornada": 17,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748311"
+        },
+        {
+          "id": "748307",
+          "time": "21:00",
+          "home": "Real Madrid",
+          "away": "Sevilla",
+          "jornada": 17,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748307"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-21",
+      "jornada": 17,
+      "games": [
+        {
+          "id": "748309",
+          "time": "14:00",
+          "home": "Girona",
+          "away": "Atlético",
+          "jornada": 17,
+          "tv": null,
+          "done": true,
+          "result": "0-3",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748309"
+        },
+        {
+          "id": "748312",
+          "time": "16:15",
+          "home": "Villarreal",
+          "away": "FC Barcelona",
+          "jornada": 17,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748312"
+        },
+        {
+          "id": "748313",
+          "time": "18:30",
+          "home": "Elche",
+          "away": "Rayo",
+          "jornada": 17,
+          "tv": null,
+          "done": true,
+          "result": "4-0",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748313"
+        },
+        {
+          "id": "748308",
+          "time": "21:00",
+          "home": "Betis",
+          "away": "Getafe",
+          "jornada": 17,
+          "tv": null,
+          "done": true,
+          "result": "4-0",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748308"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "jornada": 18,
+      "games": [
+        {
+          "id": "748304",
+          "time": "21:00",
+          "home": "Athletic",
+          "away": "Espanyol",
+          "jornada": 18,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748304"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-02",
+      "jornada": 18,
+      "games": [
+        {
+          "id": "748316",
+          "time": "21:00",
+          "home": "Rayo",
+          "away": "Getafe",
+          "jornada": 18,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748316"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-03",
+      "jornada": 18,
+      "games": [
+        {
+          "id": "748321",
+          "time": "14:00",
+          "home": "Celta",
+          "away": "Valencia",
+          "jornada": 18,
+          "tv": null,
+          "done": true,
+          "result": "4-1",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748321"
+        },
+        {
+          "id": "748317",
+          "time": "16:15",
+          "home": "Osasuna",
+          "away": "Athletic",
+          "jornada": 18,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748317"
+        },
+        {
+          "id": "748320",
+          "time": "18:30",
+          "home": "Elche",
+          "away": "Villarreal",
+          "jornada": 18,
+          "tv": null,
+          "done": true,
+          "result": "1-3",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748320"
+        },
+        {
+          "id": "748319",
+          "time": "21:00",
+          "home": "Espanyol",
+          "away": "FC Barcelona",
+          "jornada": 18,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748319"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-04",
+      "jornada": 18,
+      "games": [
+        {
+          "id": "748323",
+          "time": "14:00",
+          "home": "Sevilla",
+          "away": "Levante",
+          "jornada": 18,
+          "tv": null,
+          "done": true,
+          "result": "0-3",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748323"
+        },
+        {
+          "id": "748315",
+          "time": "16:15",
+          "home": "Real Madrid",
+          "away": "Betis",
+          "jornada": 18,
+          "tv": null,
+          "done": true,
+          "result": "5-1",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748315"
+        },
+        {
+          "id": "748322",
+          "time": "18:30",
+          "home": "Alavés",
+          "away": "Real Oviedo",
+          "jornada": 18,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748322"
+        },
+        {
+          "id": "748318",
+          "time": "18:30",
+          "home": "Mallorca",
+          "away": "Girona",
+          "jornada": 18,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748318"
+        },
+        {
+          "id": "748314",
+          "time": "21:00",
+          "home": "R. Sociedad",
+          "away": "Atlético",
+          "jornada": 19,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748314"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-09",
+      "jornada": 19,
+      "games": [
+        {
+          "id": "748330",
+          "time": "21:00",
+          "home": "Getafe",
+          "away": "R. Sociedad",
+          "jornada": 19,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748330"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "jornada": 19,
+      "games": [
+        {
+          "id": "748326",
+          "time": "14:00",
+          "home": "Real Oviedo",
+          "away": "Betis",
+          "jornada": 19,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748326"
+        },
+        {
+          "id": "748333",
+          "time": "16:15",
+          "home": "Villarreal",
+          "away": "Alavés",
+          "jornada": 19,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748333"
+        },
+        {
+          "id": "748329",
+          "time": "18:30",
+          "home": "Girona",
+          "away": "Osasuna",
+          "jornada": 19,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748329"
+        },
+        {
+          "id": "748324",
+          "time": "21:00",
+          "home": "Valencia",
+          "away": "Elche",
+          "jornada": 19,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748324"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-11",
+      "jornada": 19,
+      "games": [
+        {
+          "id": "748327",
+          "time": "14:00",
+          "home": "Rayo",
+          "away": "Mallorca",
+          "jornada": 19,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748327"
+        },
+        {
+          "id": "748328",
+          "time": "16:15",
+          "home": "Levante",
+          "away": "Espanyol",
+          "jornada": 19,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748328"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-12",
+      "jornada": 19,
+      "games": [
+        {
+          "id": "748325",
+          "time": "21:00",
+          "home": "Sevilla",
+          "away": "Celta",
+          "jornada": 19,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748325"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-16",
+      "jornada": 19,
+      "games": [
+        {
+          "id": "748337",
+          "time": "21:00",
+          "home": "Espanyol",
+          "away": "Girona",
+          "jornada": 19,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748337"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-17",
+      "jornada": 20,
+      "games": [
+        {
+          "id": "748342",
+          "time": "14:00",
+          "home": "Real Madrid",
+          "away": "Levante",
+          "jornada": 20,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748342"
+        },
+        {
+          "id": "748339",
+          "time": "16:15",
+          "home": "Mallorca",
+          "away": "Athletic",
+          "jornada": 20,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748339"
+        },
+        {
+          "id": "748340",
+          "time": "18:30",
+          "home": "Osasuna",
+          "away": "Real Oviedo",
+          "jornada": 20,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748340"
+        },
+        {
+          "id": "748341",
+          "time": "21:00",
+          "home": "Betis",
+          "away": "Villarreal",
+          "jornada": 20,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748341"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-18",
+      "jornada": 20,
+      "games": [
+        {
+          "id": "748338",
+          "time": "14:00",
+          "home": "Getafe",
+          "away": "Valencia",
+          "jornada": 20,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748338"
+        },
+        {
+          "id": "748334",
+          "time": "16:15",
+          "home": "Atlético",
+          "away": "Alavés",
+          "jornada": 20,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748334"
+        },
+        {
+          "id": "748335",
+          "time": "18:30",
+          "home": "Celta",
+          "away": "Rayo",
+          "jornada": 20,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748335"
+        },
+        {
+          "id": "748343",
+          "time": "21:00",
+          "home": "R. Sociedad",
+          "away": "FC Barcelona",
+          "jornada": 20,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748343"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-19",
+      "jornada": 20,
+      "games": [
+        {
+          "id": "748336",
+          "time": "21:00",
+          "home": "Elche",
+          "away": "Sevilla",
+          "jornada": 20,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748336"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-23",
+      "jornada": 20,
+      "games": [
+        {
+          "id": "748353",
+          "time": "21:00",
+          "home": "Levante",
+          "away": "Elche",
+          "jornada": 20,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748353"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-24",
+      "jornada": 21,
+      "games": [
+        {
+          "id": "748348",
+          "time": "14:00",
+          "home": "Rayo",
+          "away": "Osasuna",
+          "jornada": 21,
+          "tv": null,
+          "done": true,
+          "result": "1-3",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748348"
+        },
+        {
+          "id": "748352",
+          "time": "16:15",
+          "home": "Valencia",
+          "away": "Espanyol",
+          "jornada": 21,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748352"
+        },
+        {
+          "id": "748351",
+          "time": "18:30",
+          "home": "Sevilla",
+          "away": "Athletic",
+          "jornada": 21,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748351"
+        },
+        {
+          "id": "748349",
+          "time": "21:00",
+          "home": "Villarreal",
+          "away": "Real Madrid",
+          "jornada": 21,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748349"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-25",
+      "jornada": 21,
+      "games": [
+        {
+          "id": "748345",
+          "time": "14:00",
+          "home": "Atlético",
+          "away": "Mallorca",
+          "jornada": 21,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748345"
+        },
+        {
+          "id": "748346",
+          "time": "16:15",
+          "home": "FC Barcelona",
+          "away": "Real Oviedo",
+          "jornada": 21,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748346"
+        },
+        {
+          "id": "748350",
+          "time": "18:30",
+          "home": "R. Sociedad",
+          "away": "Celta",
+          "jornada": 21,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748350"
+        },
+        {
+          "id": "748344",
+          "time": "21:00",
+          "home": "Alavés",
+          "away": "Betis",
+          "jornada": 21,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748344"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-26",
+      "jornada": 21,
+      "games": [
+        {
+          "id": "748347",
+          "time": "21:00",
+          "home": "Girona",
+          "away": "Getafe",
+          "jornada": 21,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748347"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-30",
+      "jornada": 21,
+      "games": [
+        {
+          "id": "748355",
+          "time": "21:00",
+          "home": "Espanyol",
+          "away": "Alavés",
+          "jornada": 21,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748355"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "jornada": 22,
+      "games": [
+        {
+          "id": "748362",
+          "time": "14:00",
+          "home": "Real Oviedo",
+          "away": "Girona",
+          "jornada": 22,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748362"
+        },
+        {
+          "id": "748359",
+          "time": "16:15",
+          "home": "Osasuna",
+          "away": "Villarreal",
+          "jornada": 22,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748359"
+        },
+        {
+          "id": "748357",
+          "time": "18:30",
+          "home": "Levante",
+          "away": "Atlético",
+          "jornada": 22,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748357"
+        },
+        {
+          "id": "748354",
+          "time": "21:00",
+          "home": "Elche",
+          "away": "FC Barcelona",
+          "jornada": 22,
+          "tv": null,
+          "done": true,
+          "result": "1-3",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748354"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-01",
+      "jornada": 22,
+      "games": [
+        {
+          "id": "748356",
+          "time": "14:00",
+          "home": "Real Madrid",
+          "away": "Rayo",
+          "jornada": 22,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748356"
+        },
+        {
+          "id": "748360",
+          "time": "16:15",
+          "home": "Betis",
+          "away": "Valencia",
+          "jornada": 22,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748360"
+        },
+        {
+          "id": "748361",
+          "time": "18:30",
+          "home": "Getafe",
+          "away": "Celta",
+          "jornada": 22,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748361"
+        },
+        {
+          "id": "748358",
+          "time": "21:00",
+          "home": "Athletic",
+          "away": "R. Sociedad",
+          "jornada": 22,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748358"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-02",
+      "jornada": 22,
+      "games": [
+        {
+          "id": "748363",
+          "time": "21:00",
+          "home": "Mallorca",
+          "away": "Sevilla",
+          "jornada": 22,
+          "tv": null,
+          "done": true,
+          "result": "4-1",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748363"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-06",
+      "jornada": 22,
+      "games": [
+        {
+          "id": "748371",
+          "time": "21:00",
+          "home": "Celta",
+          "away": "Osasuna",
+          "jornada": 22,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748371"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "jornada": 23,
+      "games": [
+        {
+          "id": "748370",
+          "time": "16:15",
+          "home": "FC Barcelona",
+          "away": "Mallorca",
+          "jornada": 23,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748370"
+        },
+        {
+          "id": "748366",
+          "time": "21:00",
+          "home": "R. Sociedad",
+          "away": "Elche",
+          "jornada": 23,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748366"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-08",
+      "jornada": 23,
+      "games": [
+        {
+          "id": "748367",
+          "time": "14:00",
+          "home": "Alavés",
+          "away": "Getafe",
+          "jornada": 23,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748367"
+        },
+        {
+          "id": "748373",
+          "time": "16:15",
+          "home": "Athletic",
+          "away": "Levante",
+          "jornada": 23,
+          "tv": null,
+          "done": true,
+          "result": "4-2",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748373"
+        },
+        {
+          "id": "748365",
+          "time": "16:15",
+          "home": "Sevilla",
+          "away": "Girona",
+          "jornada": 23,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748365"
+        },
+        {
+          "id": "748369",
+          "time": "18:30",
+          "home": "Atlético",
+          "away": "Betis",
+          "jornada": 23,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748369"
+        },
+        {
+          "id": "748364",
+          "time": "21:00",
+          "home": "Valencia",
+          "away": "Real Madrid",
+          "jornada": 23,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748364"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-09",
+      "jornada": 23,
+      "games": [
+        {
+          "id": "748368",
+          "time": "21:00",
+          "home": "Villarreal",
+          "away": "Espanyol",
+          "jornada": 23,
+          "tv": null,
+          "done": true,
+          "result": "4-1",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748368"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-13",
+      "jornada": 23,
+      "games": [
+        {
+          "id": "748376",
+          "time": "21:00",
+          "home": "Elche",
+          "away": "Osasuna",
+          "jornada": 23,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748376"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-14",
+      "jornada": 23,
+      "games": [
+        {
+          "id": "748377",
+          "time": "14:00",
+          "home": "Espanyol",
+          "away": "Celta",
+          "jornada": 23,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748377"
+        },
+        {
+          "id": "748378",
+          "time": "16:15",
+          "home": "Getafe",
+          "away": "Villarreal",
+          "jornada": 24,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748378"
+        },
+        {
+          "id": "748374",
+          "time": "18:30",
+          "home": "Sevilla",
+          "away": "Alavés",
+          "jornada": 24,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748374"
+        },
+        {
+          "id": "748383",
+          "time": "21:00",
+          "home": "Real Madrid",
+          "away": "R. Sociedad",
+          "jornada": 24,
+          "tv": null,
+          "done": true,
+          "result": "4-1",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748383"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "jornada": 24,
+      "games": [
+        {
+          "id": "748375",
+          "time": "14:00",
+          "home": "Real Oviedo",
+          "away": "Athletic",
+          "jornada": 24,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748375"
+        },
+        {
+          "id": "748382",
+          "time": "16:15",
+          "home": "Rayo",
+          "away": "Atlético",
+          "jornada": 24,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Estadio Municipal de Butarque",
+          "venueCity": "Leganés, Madrid",
+          "espnEventID": "748382"
+        },
+        {
+          "id": "748380",
+          "time": "18:30",
+          "home": "Levante",
+          "away": "Valencia",
+          "jornada": 24,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748380"
+        },
+        {
+          "id": "748379",
+          "time": "21:00",
+          "home": "Mallorca",
+          "away": "Betis",
+          "jornada": 24,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748379"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "jornada": 24,
+      "games": [
+        {
+          "id": "748381",
+          "time": "21:00",
+          "home": "Girona",
+          "away": "FC Barcelona",
+          "jornada": 24,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748381"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "jornada": 24,
+      "games": [
+        {
+          "id": "748302",
+          "time": "20:00",
+          "home": "Levante",
+          "away": "Villarreal",
+          "jornada": 24,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748302"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "jornada": 24,
+      "games": [
+        {
+          "id": "748388",
+          "time": "21:00",
+          "home": "Athletic",
+          "away": "Elche",
+          "jornada": 24,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748388"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-21",
+      "jornada": 25,
+      "games": [
+        {
+          "id": "748385",
+          "time": "14:00",
+          "home": "R. Sociedad",
+          "away": "Real Oviedo",
+          "jornada": 25,
+          "tv": null,
+          "done": true,
+          "result": "3-3",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748385"
+        },
+        {
+          "id": "748386",
+          "time": "16:15",
+          "home": "Betis",
+          "away": "Rayo",
+          "jornada": 25,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748386"
+        },
+        {
+          "id": "748387",
+          "time": "18:30",
+          "home": "Osasuna",
+          "away": "Real Madrid",
+          "jornada": 25,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748387"
+        },
+        {
+          "id": "748390",
+          "time": "21:00",
+          "home": "Atlético",
+          "away": "Espanyol",
+          "jornada": 25,
+          "tv": null,
+          "done": true,
+          "result": "4-2",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748390"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-22",
+      "jornada": 25,
+      "games": [
+        {
+          "id": "748384",
+          "time": "14:00",
+          "home": "Getafe",
+          "away": "Sevilla",
+          "jornada": 25,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748384"
+        },
+        {
+          "id": "748391",
+          "time": "16:15",
+          "home": "FC Barcelona",
+          "away": "Levante",
+          "jornada": 25,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748391"
+        },
+        {
+          "id": "748392",
+          "time": "18:30",
+          "home": "Celta",
+          "away": "Mallorca",
+          "jornada": 25,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748392"
+        },
+        {
+          "id": "748389",
+          "time": "21:00",
+          "home": "Villarreal",
+          "away": "Valencia",
+          "jornada": 25,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748389"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-23",
+      "jornada": 25,
+      "games": [
+        {
+          "id": "748393",
+          "time": "21:00",
+          "home": "Alavés",
+          "away": "Girona",
+          "jornada": 25,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748393"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-27",
+      "jornada": 25,
+      "games": [
+        {
+          "id": "748399",
+          "time": "21:00",
+          "home": "Levante",
+          "away": "Alavés",
+          "jornada": 25,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748399"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-28",
+      "jornada": 26,
+      "games": [
+        {
+          "id": "748397",
+          "time": "14:00",
+          "home": "Rayo",
+          "away": "Athletic",
+          "jornada": 26,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748397"
+        },
+        {
+          "id": "748402",
+          "time": "16:15",
+          "home": "FC Barcelona",
+          "away": "Villarreal",
+          "jornada": 26,
+          "tv": null,
+          "done": true,
+          "result": "4-1",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748402"
+        },
+        {
+          "id": "748403",
+          "time": "18:30",
+          "home": "Mallorca",
+          "away": "R. Sociedad",
+          "jornada": 26,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748403"
+        },
+        {
+          "id": "748394",
+          "time": "21:00",
+          "home": "Real Oviedo",
+          "away": "Atlético",
+          "jornada": 26,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748394"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-01",
+      "jornada": 26,
+      "games": [
+        {
+          "id": "748401",
+          "time": "15:00",
+          "home": "Elche",
+          "away": "Espanyol",
+          "jornada": 26,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748401"
+        },
+        {
+          "id": "748398",
+          "time": "17:15",
+          "home": "Valencia",
+          "away": "Osasuna",
+          "jornada": 26,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748398"
+        },
+        {
+          "id": "748396",
+          "time": "19:30",
+          "home": "Betis",
+          "away": "Sevilla",
+          "jornada": 26,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748396"
+        },
+        {
+          "id": "748400",
+          "time": "22:00",
+          "home": "Girona",
+          "away": "Celta",
+          "jornada": 26,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748400"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "jornada": 26,
+      "games": [
+        {
+          "id": "748395",
+          "time": "22:00",
+          "home": "Real Madrid",
+          "away": "Getafe",
+          "jornada": 26,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748395"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "jornada": 26,
+      "games": [
+        {
+          "id": "748372",
+          "time": "20:00",
+          "home": "Rayo",
+          "away": "Real Oviedo",
+          "jornada": 26,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748372"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "jornada": 27,
+      "games": [
+        {
+          "id": "748411",
+          "time": "22:00",
+          "home": "Celta",
+          "away": "Real Madrid",
+          "jornada": 27,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748411"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "jornada": 27,
+      "games": [
+        {
+          "id": "748406",
+          "time": "15:00",
+          "home": "Osasuna",
+          "away": "Mallorca",
+          "jornada": 27,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748406"
+        },
+        {
+          "id": "748407",
+          "time": "17:15",
+          "home": "Levante",
+          "away": "Girona",
+          "jornada": 27,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748407"
+        },
+        {
+          "id": "748410",
+          "time": "19:30",
+          "home": "Atlético",
+          "away": "R. Sociedad",
+          "jornada": 27,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748410"
+        },
+        {
+          "id": "748409",
+          "time": "22:00",
+          "home": "Athletic",
+          "away": "FC Barcelona",
+          "jornada": 27,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748409"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-08",
+      "jornada": 27,
+      "games": [
+        {
+          "id": "748408",
+          "time": "15:00",
+          "home": "Villarreal",
+          "away": "Elche",
+          "jornada": 27,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748408"
+        },
+        {
+          "id": "748413",
+          "time": "17:15",
+          "home": "Getafe",
+          "away": "Betis",
+          "jornada": 27,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748413"
+        },
+        {
+          "id": "748405",
+          "time": "19:30",
+          "home": "Sevilla",
+          "away": "Rayo",
+          "jornada": 27,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748405"
+        },
+        {
+          "id": "748404",
+          "time": "22:00",
+          "home": "Valencia",
+          "away": "Alavés",
+          "jornada": 27,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748404"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "jornada": 27,
+      "games": [
+        {
+          "id": "748412",
+          "time": "22:00",
+          "home": "Espanyol",
+          "away": "Real Oviedo",
+          "jornada": 27,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748412"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "jornada": 28,
+      "games": [
+        {
+          "id": "748422",
+          "time": "22:00",
+          "home": "Alavés",
+          "away": "Villarreal",
+          "jornada": 28,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748422"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "jornada": 28,
+      "games": [
+        {
+          "id": "748414",
+          "time": "15:00",
+          "home": "Girona",
+          "away": "Athletic",
+          "jornada": 28,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748414"
+        },
+        {
+          "id": "748423",
+          "time": "17:15",
+          "home": "Atlético",
+          "away": "Getafe",
+          "jornada": 28,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748423"
+        },
+        {
+          "id": "748419",
+          "time": "19:30",
+          "home": "Real Oviedo",
+          "away": "Valencia",
+          "jornada": 28,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748419"
+        },
+        {
+          "id": "748418",
+          "time": "22:00",
+          "home": "Real Madrid",
+          "away": "Elche",
+          "jornada": 28,
+          "tv": null,
+          "done": true,
+          "result": "4-1",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748418"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-15",
+      "jornada": 28,
+      "games": [
+        {
+          "id": "748421",
+          "time": "15:00",
+          "home": "Mallorca",
+          "away": "Espanyol",
+          "jornada": 28,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748421"
+        },
+        {
+          "id": "748415",
+          "time": "17:15",
+          "home": "FC Barcelona",
+          "away": "Sevilla",
+          "jornada": 28,
+          "tv": null,
+          "done": true,
+          "result": "5-2",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748415"
+        },
+        {
+          "id": "748417",
+          "time": "19:30",
+          "home": "Betis",
+          "away": "Celta",
+          "jornada": 28,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748417"
+        },
+        {
+          "id": "748420",
+          "time": "22:00",
+          "home": "R. Sociedad",
+          "away": "Osasuna",
+          "jornada": 28,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748420"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "jornada": 28,
+      "games": [
+        {
+          "id": "748416",
+          "time": "22:00",
+          "home": "Rayo",
+          "away": "Levante",
+          "jornada": 28,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748416"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-20",
+      "jornada": 29,
+      "games": [
+        {
+          "id": "748429",
+          "time": "22:00",
+          "home": "Villarreal",
+          "away": "R. Sociedad",
+          "jornada": 29,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748429"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-21",
+      "jornada": 29,
+      "games": [
+        {
+          "id": "748430",
+          "time": "15:00",
+          "home": "Elche",
+          "away": "Mallorca",
+          "jornada": 29,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748430"
+        },
+        {
+          "id": "748425",
+          "time": "17:15",
+          "home": "Espanyol",
+          "away": "Getafe",
+          "jornada": 29,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748425"
+        },
+        {
+          "id": "748426",
+          "time": "19:30",
+          "home": "Levante",
+          "away": "Real Oviedo",
+          "jornada": 29,
+          "tv": null,
+          "done": true,
+          "result": "4-2",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748426"
+        },
+        {
+          "id": "748427",
+          "time": "19:30",
+          "home": "Osasuna",
+          "away": "Girona",
+          "jornada": 29,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748427"
+        },
+        {
+          "id": "748428",
+          "time": "22:00",
+          "home": "Sevilla",
+          "away": "Valencia",
+          "jornada": 29,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748428"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "jornada": 29,
+      "games": [
+        {
+          "id": "748432",
+          "time": "15:00",
+          "home": "FC Barcelona",
+          "away": "Rayo",
+          "jornada": 29,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748432"
+        },
+        {
+          "id": "748431",
+          "time": "17:15",
+          "home": "Celta",
+          "away": "Alavés",
+          "jornada": 29,
+          "tv": null,
+          "done": true,
+          "result": "3-4",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748431"
+        },
+        {
+          "id": "748424",
+          "time": "19:30",
+          "home": "Athletic",
+          "away": "Betis",
+          "jornada": 29,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748424"
+        },
+        {
+          "id": "748433",
+          "time": "22:00",
+          "home": "Real Madrid",
+          "away": "Atlético",
+          "jornada": 29,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748433"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "jornada": 30,
+      "games": [
+        {
+          "id": "748443",
+          "time": "21:00",
+          "home": "Rayo",
+          "away": "Elche",
+          "jornada": 30,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748443"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-04",
+      "jornada": 30,
+      "games": [
+        {
+          "id": "748442",
+          "time": "14:00",
+          "home": "R. Sociedad",
+          "away": "Levante",
+          "jornada": 30,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748442"
+        },
+        {
+          "id": "748437",
+          "time": "16:15",
+          "home": "Mallorca",
+          "away": "Real Madrid",
+          "jornada": 30,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748437"
+        },
+        {
+          "id": "748439",
+          "time": "18:30",
+          "home": "Betis",
+          "away": "Espanyol",
+          "jornada": 30,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748439"
+        },
+        {
+          "id": "748434",
+          "time": "21:00",
+          "home": "Atlético",
+          "away": "FC Barcelona",
+          "jornada": 30,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748434"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "jornada": 30,
+      "games": [
+        {
+          "id": "748435",
+          "time": "14:00",
+          "home": "Getafe",
+          "away": "Athletic",
+          "jornada": 30,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748435"
+        },
+        {
+          "id": "748440",
+          "time": "16:15",
+          "home": "Valencia",
+          "away": "Celta",
+          "jornada": 30,
+          "tv": null,
+          "done": true,
+          "result": "2-3",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748440"
+        },
+        {
+          "id": "748441",
+          "time": "18:30",
+          "home": "Real Oviedo",
+          "away": "Sevilla",
+          "jornada": 30,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748441"
+        },
+        {
+          "id": "748438",
+          "time": "21:00",
+          "home": "Alavés",
+          "away": "Osasuna",
+          "jornada": 30,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748438"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-06",
+      "jornada": 30,
+      "games": [
+        {
+          "id": "748436",
+          "time": "21:00",
+          "home": "Girona",
+          "away": "Villarreal",
+          "jornada": 30,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748436"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "jornada": 31,
+      "games": [
+        {
+          "id": "748453",
+          "time": "21:00",
+          "home": "Real Madrid",
+          "away": "Girona",
+          "jornada": 31,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748453"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "jornada": 31,
+      "games": [
+        {
+          "id": "748452",
+          "time": "14:00",
+          "home": "R. Sociedad",
+          "away": "Alavés",
+          "jornada": 31,
+          "tv": null,
+          "done": true,
+          "result": "3-3",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748452"
+        },
+        {
+          "id": "748447",
+          "time": "16:15",
+          "home": "Elche",
+          "away": "Valencia",
+          "jornada": 31,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748447"
+        },
+        {
+          "id": "748449",
+          "time": "18:30",
+          "home": "FC Barcelona",
+          "away": "Espanyol",
+          "jornada": 31,
+          "tv": null,
+          "done": true,
+          "result": "4-1",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748449"
+        },
+        {
+          "id": "748450",
+          "time": "21:00",
+          "home": "Sevilla",
+          "away": "Atlético",
+          "jornada": 31,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748450"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "jornada": 31,
+      "games": [
+        {
+          "id": "748444",
+          "time": "14:00",
+          "home": "Osasuna",
+          "away": "Betis",
+          "jornada": 31,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748444"
+        },
+        {
+          "id": "748445",
+          "time": "16:15",
+          "home": "Mallorca",
+          "away": "Rayo",
+          "jornada": 31,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748445"
+        },
+        {
+          "id": "748448",
+          "time": "18:30",
+          "home": "Celta",
+          "away": "Real Oviedo",
+          "jornada": 31,
+          "tv": null,
+          "done": true,
+          "result": "0-3",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748448"
+        },
+        {
+          "id": "748451",
+          "time": "21:00",
+          "home": "Athletic",
+          "away": "Villarreal",
+          "jornada": 31,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748451"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "jornada": 31,
+      "games": [
+        {
+          "id": "748446",
+          "time": "21:00",
+          "home": "Levante",
+          "away": "Getafe",
+          "jornada": 31,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748446"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "jornada": 32,
+      "games": [
+        {
+          "id": "748469",
+          "time": "19:00",
+          "home": "Athletic",
+          "away": "Osasuna",
+          "jornada": 32,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748469"
+        },
+        {
+          "id": "748468",
+          "time": "19:00",
+          "home": "Mallorca",
+          "away": "Valencia",
+          "jornada": 32,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748468"
+        },
+        {
+          "id": "748467",
+          "time": "21:30",
+          "home": "Girona",
+          "away": "Betis",
+          "jornada": 32,
+          "tv": null,
+          "done": true,
+          "result": "2-3",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748467"
+        },
+        {
+          "id": "748471",
+          "time": "21:30",
+          "home": "Real Madrid",
+          "away": "Alavés",
+          "jornada": 32,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748471"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-22",
+      "jornada": 32,
+      "games": [
+        {
+          "id": "748466",
+          "time": "19:00",
+          "home": "Elche",
+          "away": "Atlético",
+          "jornada": 32,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748466"
+        },
+        {
+          "id": "748472",
+          "time": "20:00",
+          "home": "R. Sociedad",
+          "away": "Getafe",
+          "jornada": 32,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748472"
+        },
+        {
+          "id": "748465",
+          "time": "21:30",
+          "home": "FC Barcelona",
+          "away": "Celta",
+          "jornada": 32,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748465"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "jornada": 32,
+      "games": [
+        {
+          "id": "748473",
+          "time": "19:00",
+          "home": "Levante",
+          "away": "Sevilla",
+          "jornada": 32,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748473"
+        },
+        {
+          "id": "748470",
+          "time": "20:00",
+          "home": "Rayo",
+          "away": "Espanyol",
+          "jornada": 32,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748470"
+        },
+        {
+          "id": "748464",
+          "time": "21:30",
+          "home": "Real Oviedo",
+          "away": "Villarreal",
+          "jornada": 32,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748464"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "jornada": 33,
+      "games": [
+        {
+          "id": "748457",
+          "time": "21:00",
+          "home": "Betis",
+          "away": "Real Madrid",
+          "jornada": 33,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748457"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "jornada": 33,
+      "games": [
+        {
+          "id": "748455",
+          "time": "14:00",
+          "home": "Alavés",
+          "away": "Mallorca",
+          "jornada": 33,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748455"
+        },
+        {
+          "id": "748460",
+          "time": "16:15",
+          "home": "Getafe",
+          "away": "FC Barcelona",
+          "jornada": 33,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748460"
+        },
+        {
+          "id": "748454",
+          "time": "18:30",
+          "home": "Valencia",
+          "away": "Girona",
+          "jornada": 33,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748454"
+        },
+        {
+          "id": "748462",
+          "time": "21:00",
+          "home": "Atlético",
+          "away": "Athletic",
+          "jornada": 33,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748462"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "jornada": 33,
+      "games": [
+        {
+          "id": "748458",
+          "time": "14:00",
+          "home": "Rayo",
+          "away": "R. Sociedad",
+          "jornada": 33,
+          "tv": null,
+          "done": true,
+          "result": "3-3",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748458"
+        },
+        {
+          "id": "748456",
+          "time": "16:15",
+          "home": "Real Oviedo",
+          "away": "Elche",
+          "jornada": 33,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748456"
+        },
+        {
+          "id": "748459",
+          "time": "18:30",
+          "home": "Osasuna",
+          "away": "Sevilla",
+          "jornada": 33,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748459"
+        },
+        {
+          "id": "748463",
+          "time": "21:00",
+          "home": "Villarreal",
+          "away": "Celta",
+          "jornada": 33,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748463"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "jornada": 33,
+      "games": [
+        {
+          "id": "748461",
+          "time": "21:00",
+          "home": "Espanyol",
+          "away": "Levante",
+          "jornada": 33,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748461"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-01",
+      "jornada": 34,
+      "games": [
+        {
+          "id": "748476",
+          "time": "21:00",
+          "home": "Girona",
+          "away": "Mallorca",
+          "jornada": 34,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748476"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-02",
+      "jornada": 34,
+      "games": [
+        {
+          "id": "748477",
+          "time": "14:00",
+          "home": "Villarreal",
+          "away": "Levante",
+          "jornada": 34,
+          "tv": null,
+          "done": true,
+          "result": "5-1",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748477"
+        },
+        {
+          "id": "748481",
+          "time": "16:15",
+          "home": "Valencia",
+          "away": "Atlético",
+          "jornada": 34,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748481"
+        },
+        {
+          "id": "748482",
+          "time": "18:30",
+          "home": "Alavés",
+          "away": "Athletic",
+          "jornada": 34,
+          "tv": null,
+          "done": true,
+          "result": "2-4",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748482"
+        },
+        {
+          "id": "748480",
+          "time": "21:00",
+          "home": "Osasuna",
+          "away": "FC Barcelona",
+          "jornada": 34,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748480"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "jornada": 34,
+      "games": [
+        {
+          "id": "748483",
+          "time": "14:00",
+          "home": "Celta",
+          "away": "Elche",
+          "jornada": 34,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748483"
+        },
+        {
+          "id": "748474",
+          "time": "16:15",
+          "home": "Getafe",
+          "away": "Rayo",
+          "jornada": 34,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748474"
+        },
+        {
+          "id": "748479",
+          "time": "18:30",
+          "home": "Betis",
+          "away": "Real Oviedo",
+          "jornada": 34,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748479"
+        },
+        {
+          "id": "748475",
+          "time": "21:00",
+          "home": "Espanyol",
+          "away": "Real Madrid",
+          "jornada": 34,
+          "tv": null,
+          "done": true,
+          "result": "0-2",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748475"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "jornada": 34,
+      "games": [
+        {
+          "id": "748478",
+          "time": "21:00",
+          "home": "Sevilla",
+          "away": "R. Sociedad",
+          "jornada": 34,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748478"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "jornada": 35,
+      "games": [
+        {
+          "id": "748491",
+          "time": "21:00",
+          "home": "Levante",
+          "away": "Osasuna",
+          "jornada": 35,
+          "tv": null,
+          "done": true,
+          "result": "3-2",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748491"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "jornada": 35,
+      "games": [
+        {
+          "id": "748492",
+          "time": "14:00",
+          "home": "Elche",
+          "away": "Alavés",
+          "jornada": 35,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748492"
+        },
+        {
+          "id": "748486",
+          "time": "16:15",
+          "home": "Sevilla",
+          "away": "Espanyol",
+          "jornada": 35,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748486"
+        },
+        {
+          "id": "748487",
+          "time": "18:30",
+          "home": "Atlético",
+          "away": "Celta",
+          "jornada": 35,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748487"
+        },
+        {
+          "id": "748485",
+          "time": "21:00",
+          "home": "R. Sociedad",
+          "away": "Betis",
+          "jornada": 35,
+          "tv": null,
+          "done": true,
+          "result": "2-2",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748485"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "jornada": 35,
+      "games": [
+        {
+          "id": "748490",
+          "time": "14:00",
+          "home": "Mallorca",
+          "away": "Villarreal",
+          "jornada": 35,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748490"
+        },
+        {
+          "id": "748488",
+          "time": "16:15",
+          "home": "Athletic",
+          "away": "Valencia",
+          "jornada": 35,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748488"
+        },
+        {
+          "id": "748493",
+          "time": "18:30",
+          "home": "Real Oviedo",
+          "away": "Getafe",
+          "jornada": 35,
+          "tv": null,
+          "done": true,
+          "result": "0-0",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748493"
+        },
+        {
+          "id": "748484",
+          "time": "21:00",
+          "home": "FC Barcelona",
+          "away": "Real Madrid",
+          "jornada": 35,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748484"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "jornada": 35,
+      "games": [
+        {
+          "id": "748489",
+          "time": "21:00",
+          "home": "Rayo",
+          "away": "Girona",
+          "jornada": 35,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748489"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "jornada": 36,
+      "games": [
+        {
+          "id": "748500",
+          "time": "19:00",
+          "home": "Celta",
+          "away": "Levante",
+          "jornada": 36,
+          "tv": null,
+          "done": true,
+          "result": "2-3",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748500"
+        },
+        {
+          "id": "748499",
+          "time": "20:00",
+          "home": "Betis",
+          "away": "Elche",
+          "jornada": 36,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748499"
+        },
+        {
+          "id": "748494",
+          "time": "21:30",
+          "home": "Osasuna",
+          "away": "Atlético",
+          "jornada": 36,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748494"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "jornada": 36,
+      "games": [
+        {
+          "id": "748497",
+          "time": "19:00",
+          "home": "Espanyol",
+          "away": "Athletic",
+          "jornada": 36,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748497"
+        },
+        {
+          "id": "748501",
+          "time": "19:00",
+          "home": "Villarreal",
+          "away": "Sevilla",
+          "jornada": 36,
+          "tv": null,
+          "done": true,
+          "result": "2-3",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748501"
+        },
+        {
+          "id": "748498",
+          "time": "21:30",
+          "home": "Alavés",
+          "away": "FC Barcelona",
+          "jornada": 36,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748498"
+        },
+        {
+          "id": "748496",
+          "time": "21:30",
+          "home": "Getafe",
+          "away": "Mallorca",
+          "jornada": 36,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748496"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "jornada": 36,
+      "games": [
+        {
+          "id": "748502",
+          "time": "19:00",
+          "home": "Valencia",
+          "away": "Rayo",
+          "jornada": 36,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748502"
+        },
+        {
+          "id": "748495",
+          "time": "20:00",
+          "home": "Girona",
+          "away": "R. Sociedad",
+          "jornada": 36,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748495"
+        },
+        {
+          "id": "748503",
+          "time": "21:30",
+          "home": "Real Madrid",
+          "away": "Real Oviedo",
+          "jornada": 36,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748503"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-17",
+      "jornada": 37,
+      "games": [
+        {
+          "id": "748506",
+          "time": "19:00",
+          "home": "Athletic",
+          "away": "Celta",
+          "jornada": 37,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "espnEventID": "748506"
+        },
+        {
+          "id": "748509",
+          "time": "19:00",
+          "home": "Atlético",
+          "away": "Girona",
+          "jornada": 37,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "espnEventID": "748509"
+        },
+        {
+          "id": "748507",
+          "time": "19:00",
+          "home": "Elche",
+          "away": "Getafe",
+          "jornada": 37,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
+          "espnEventID": "748507"
+        },
+        {
+          "id": "748510",
+          "time": "19:00",
+          "home": "Levante",
+          "away": "Mallorca",
+          "jornada": 37,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
+          "espnEventID": "748510"
+        },
+        {
+          "id": "748511",
+          "time": "19:00",
+          "home": "Osasuna",
+          "away": "Espanyol",
+          "jornada": 37,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "espnEventID": "748511"
+        },
+        {
+          "id": "748512",
+          "time": "19:00",
+          "home": "Rayo",
+          "away": "Villarreal",
+          "jornada": 37,
+          "tv": null,
+          "done": true,
+          "result": "2-0",
+          "details": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
+          "espnEventID": "748512"
+        },
+        {
+          "id": "748513",
+          "time": "19:00",
+          "home": "Real Oviedo",
+          "away": "Alavés",
+          "jornada": 37,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Estadio Carlos Tartiere",
+          "venueCity": "Oviedo",
+          "espnEventID": "748513"
+        },
+        {
+          "id": "748505",
+          "time": "19:00",
+          "home": "R. Sociedad",
+          "away": "Valencia",
+          "jornada": 37,
+          "tv": null,
+          "done": true,
+          "result": "3-4",
+          "details": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "espnEventID": "748505"
+        },
+        {
+          "id": "748504",
+          "time": "19:00",
+          "home": "Sevilla",
+          "away": "Real Madrid",
+          "jornada": 37,
+          "tv": null,
+          "done": true,
+          "result": "0-1",
+          "details": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
+          "espnEventID": "748504"
+        },
+        {
+          "id": "748508",
+          "time": "21:15",
+          "home": "FC Barcelona",
+          "away": "Betis",
+          "jornada": 37,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748508"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "jornada": 38,
+      "games": [
+        {
+          "id": "748523",
+          "time": "21:00",
+          "home": "Alavés",
+          "away": "Rayo",
+          "jornada": 38,
+          "tv": null,
+          "done": true,
+          "result": "1-2",
+          "details": null,
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
+          "espnEventID": "748523"
+        },
+        {
+          "id": "748517",
+          "time": "21:00",
+          "home": "Celta",
+          "away": "Sevilla",
+          "jornada": 38,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "espnEventID": "748517"
+        },
+        {
+          "id": "748516",
+          "time": "21:00",
+          "home": "Espanyol",
+          "away": "R. Sociedad",
+          "jornada": 38,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "FC Barcelona",
+          "espnEventID": "748516"
+        },
+        {
+          "id": "748518",
+          "time": "21:00",
+          "home": "Getafe",
+          "away": "Osasuna",
+          "jornada": 38,
+          "tv": null,
+          "done": true,
+          "result": "1-0",
+          "details": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "espnEventID": "748518"
+        },
+        {
+          "id": "748520",
+          "time": "21:00",
+          "home": "Girona",
+          "away": "Elche",
+          "jornada": 38,
+          "tv": null,
+          "done": true,
+          "result": "1-1",
+          "details": null,
+          "stadium": "Estadi Montilivi",
+          "venueCity": "Girona",
+          "espnEventID": "748520"
+        },
+        {
+          "id": "748521",
+          "time": "21:00",
+          "home": "Mallorca",
+          "away": "Real Oviedo",
+          "jornada": 38,
+          "tv": null,
+          "done": true,
+          "result": "3-0",
+          "details": null,
+          "stadium": "Estadi Mallorca Son Moix",
+          "venueCity": "Palma de Mallorca",
+          "espnEventID": "748521"
+        },
+        {
+          "id": "748522",
+          "time": "21:00",
+          "home": "Betis",
+          "away": "Levante",
+          "jornada": 38,
+          "tv": null,
+          "done": true,
+          "result": "2-1",
+          "details": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "espnEventID": "748522"
+        },
+        {
+          "id": "748514",
+          "time": "21:00",
+          "home": "Real Madrid",
+          "away": "Athletic",
+          "jornada": 38,
+          "tv": null,
+          "done": true,
+          "result": "4-2",
+          "details": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
+          "espnEventID": "748514"
+        },
+        {
+          "id": "748519",
+          "time": "21:00",
+          "home": "Valencia",
+          "away": "FC Barcelona",
+          "jornada": 38,
+          "tv": null,
+          "done": true,
+          "result": "3-1",
+          "details": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "espnEventID": "748519"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "jornada": 38,
+      "games": [
+        {
+          "id": "748515",
+          "time": "21:00",
+          "home": "Villarreal",
+          "away": "Atlético",
+          "jornada": 38,
+          "tv": null,
+          "done": true,
+          "result": "5-1",
+          "details": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "espnEventID": "748515"
+        }
+      ]
+    }
+  ],
+  "standings": [],
+  "topScorers": []
+}
