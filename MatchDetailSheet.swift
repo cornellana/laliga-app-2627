@@ -606,12 +606,9 @@ struct EventRow: View {
     }
 
     private func eventInfo(alignment: HorizontalAlignment) -> some View {
-        VStack(alignment: alignment, spacing: 2) {
-            Text(event.playerName ?? "").font(.subheadline).foregroundStyle(.white)
-            if let txt = event.text {
-                Text(txt).font(.caption).foregroundStyle(.white.opacity(0.4))
-            }
-        }
+        Text(event.playerName ?? "")
+            .font(.subheadline)
+            .foregroundStyle(.white)
     }
 
     private var minuteLabel: some View {
