@@ -352,14 +352,18 @@ struct MatchDetailSheet: View {
             else { awayLineup = lineup }
         }
 
-        // Eventos desde keyEvents (goles, penaltis, goles en propia, tarjetas y sustituciones)
-        // type 70=gol, 72=en propia, 98=penalti, 76=sustitución, 94=amarilla, 95/96=roja
-        let relevantTypeIDs: Set<String> = ["70", "72", "98", "76", "94", "95", "96"]
+        // Eventos desde keyEvents
+        // ESPN usa múltiples tipos para goles (70, 97, 98, 137, 138, 173…);
+        // usamos scoringPlay:true como indicador universal de gol.
+        // type 97=en propia, 98=penalti, resto con scoringPlay=gol normal
+        // type 76=sustitución, 94=amarilla, 95/96=roja
+        let nonGoalTypeIDs: Set<String> = ["76", "94", "95", "96"]
         var events: [MatchEvent] = []
 
         for (idx, event) in (resp.keyEvents ?? []).enumerated() {
             let typeID = event.type.id
-            guard relevantTypeIDs.contains(typeID) else { continue }
+            let isGoal = event.scoringPlay == true
+            guard isGoal || nonGoalTypeIDs.contains(typeID) else { continue }
 
             let clockStr = event.clock?.displayValue ?? ""
             let clean = clockStr.replacingOccurrences(of: "'", with: "")
@@ -374,14 +378,22 @@ struct MatchDetailSheet: View {
             }
 
             let eventType: MatchEventType
-            switch typeID {
-            case "70": eventType = .goal
-            case "72": eventType = .ownGoal
-            case "98": eventType = .penalty
-            case "76": eventType = .substitution
-            case "94": eventType = .yellowCard
-            case "95", "96": eventType = .redCard
-            default: continue
+            if isGoal {
+                let text = event.text?.lowercased() ?? ""
+                if typeID == "97" || text.hasPrefix("own goal") {
+                    eventType = .ownGoal
+                } else if typeID == "98" {
+                    eventType = .penalty
+                } else {
+                    eventType = .goal
+                }
+            } else {
+                switch typeID {
+                case "76": eventType = .substitution
+                case "94": eventType = .yellowCard
+                case "95", "96": eventType = .redCard
+                default: continue
+                }
             }
 
             let playerName = extractPlayer(from: event.text, type: typeID)
@@ -408,7 +420,29 @@ struct MatchDetailSheet: View {
     private func extractPlayer(from text: String?, type typeID: String) -> String? {
         guard let text else { return nil }
         switch typeID {
-        case "70", "72", "98": // Goal/OwnGoal/Penalty: "Goal! Team 0, Team2 1. PlayerName (Team) ..."
+        case "97": // Own goal: "Own Goal by Player, Team. Score."
+            let lower = text.lowercased()
+            if lower.hasPrefix("own goal by ") {
+                let after = text.dropFirst("Own Goal by ".count)
+                if let comma = after.firstIndex(of: ",") {
+                    return String(after[after.startIndex..<comma]).trimmingCharacters(in: .whitespaces)
+                }
+            }
+            return nil
+        case "76": // Substitution: "Substitution, Team. Player1 replaces Player2."
+            let parts = text.components(separatedBy: ". ")
+            if parts.count > 1 {
+                let subParts = parts[1].components(separatedBy: " replaces ")
+                return subParts.first?.trimmingCharacters(in: .whitespaces)
+            }
+            return nil
+        case "94", "95", "96": // Card: "PlayerName (Team) is shown..."
+            if let idx = text.firstIndex(of: "(") {
+                let name = String(text[text.startIndex..<idx]).trimmingCharacters(in: .whitespaces)
+                if !name.isEmpty { return name }
+            }
+            return nil
+        default: // All goal types (70, 98, 137, 138, 173...): "Goal! Team 0, Team2 1. PlayerName (Team) ..."
             let parts = text.components(separatedBy: ". ")
             if parts.count > 1 {
                 let afterScore = parts[1...].joined(separator: ". ")
@@ -416,19 +450,8 @@ struct MatchDetailSheet: View {
                     return String(afterScore[afterScore.startIndex..<idx]).trimmingCharacters(in: .whitespaces)
                 }
             }
-        case "76": // Substitution: "Substitution, Team. Player1 replaces Player2."
-            let parts = text.components(separatedBy: ". ")
-            if parts.count > 1 {
-                let subParts = parts[1].components(separatedBy: " replaces ")
-                return subParts.first?.trimmingCharacters(in: .whitespaces)
-            }
-        default: // Card: "PlayerName (Team) is shown..."
-            if let idx = text.firstIndex(of: "(") {
-                let name = String(text[text.startIndex..<idx]).trimmingCharacters(in: .whitespaces)
-                if !name.isEmpty, !name.hasPrefix("Substitution") { return name }
-            }
+            return nil
         }
-        return nil
     }
 
     private func shortDescription(from text: String?, type typeID: String) -> String? {

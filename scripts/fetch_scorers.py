@@ -86,25 +86,37 @@ def fetch_summary(event_id):
     except Exception:
         return None
 
+OWN_GOAL_TEXT_RE = re.compile(r'^Own Goal by\s+(.+?),\s*(.+?)\.', re.IGNORECASE)
+
 def parse_goals(summary):
     """Returns list of (player_name, app_team_name, is_own_goal, is_penalty)"""
     goals = []
     events = summary.get("keyEvents", [])
     for e in events:
-        type_id = str(e.get("type", {}).get("id", ""))
-        # 70=gol normal, 72=en propia, 98=penalti
-        if type_id not in ("70", "72", "98"):
+        # ESPN usa scoringPlay:true como indicador universal de gol
+        # (tipos: 70=normal, 97=en propia, 98=penalti, 137/138/173=otros goles)
+        if not e.get("scoringPlay"):
             continue
+        type_id = str(e.get("type", {}).get("id", ""))
         text = e.get("text", "")
+        is_own = type_id == "97" or bool(OWN_GOAL_MARKER_RE.search(text))
+        is_pen = type_id == "98"
+
+        if is_own:
+            # "Own Goal by Player, Team. Score."
+            m = OWN_GOAL_TEXT_RE.match(text)
+            if m:
+                player = m.group(1).strip()
+                espn_team = m.group(2).strip()
+                goals.append((player, normalize_team(espn_team), True, False))
+            continue
+
         m = GOAL_FULL_RE.search(text)
         if not m:
             continue
         player = m.group(1).strip()
         espn_team = m.group(2).strip()
-        app_team = normalize_team(espn_team)
-        is_own = type_id == "72" or bool(OWN_GOAL_MARKER_RE.search(text))
-        is_pen = type_id == "98" or bool(PENALTY_MARKER_RE.search(text))
-        goals.append((player, app_team, is_own, is_pen))
+        goals.append((player, normalize_team(espn_team), False, is_pen))
     return goals
 
 def main():
