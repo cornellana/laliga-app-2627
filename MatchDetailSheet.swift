@@ -239,54 +239,55 @@ struct MatchDetailSheet: View {
         (homeRoster, awayRoster) = await (home, away)
     }
 
+    // ESPN devuelve lista plana de atletas; fallback por temporada si hay pocos jugadores.
     private func fetchRoster(for team: String) async -> [RosterPlayer] {
         guard let id = MatchesData.espnTeamIDs[team] else { return [] }
-        let urlStr = "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/teams/\(id)/roster"
-        guard let url = URL(string: urlStr),
-              let (data, _) = try? await URLSession.shared.data(from: url) else { return [] }
+        let base = "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/teams/\(id)/roster"
+        let year = Calendar.current.component(.year, from: Date())
 
+        for suffix in ["", "?season=\(year)", "?season=\(year - 1)"] {
+            guard let url = URL(string: base + suffix),
+                  let (data, _) = try? await URLSession.shared.data(from: url) else { continue }
+            let players = parseRoster(from: data)
+            if players.count >= 10 { return players }
+        }
+        return []
+    }
+
+    private func parseRoster(from data: Data) -> [RosterPlayer] {
+        // La API devuelve {"athletes": [ {id, displayName, jersey, position: {abbreviation}} ]}
         struct Resp: Decodable {
-            let athletes: [Group]
-            struct Group: Decodable {
-                let position: String?
-                let items: [Athlete]
-            }
+            let athletes: [Athlete]
             struct Athlete: Decodable {
                 let id: String
                 let displayName: String?
                 let fullName: String?
                 let jersey: String?
                 let position: Pos?
-                struct Pos: Decodable {
-                    let abbreviation: String?
-                }
+                struct Pos: Decodable { let abbreviation: String? }
             }
         }
-
         guard let resp = try? JSONDecoder().decode(Resp.self, from: data) else { return [] }
 
-        let groupTranslations: [String: String] = [
-            "Goalkeepers": "Porteros",
-            "Defenders":   "Defensas",
-            "Midfielders": "Centrocampistas",
-            "Forwards":    "Delanteros",
+        let groupMap: [String: String] = [
+            "G": "Porteros", "GK": "Porteros",
+            "D": "Defensas", "DF": "Defensas",
+            "M": "Centrocampistas", "MF": "Centrocampistas",
+            "F": "Delanteros", "FW": "Delanteros",
         ]
 
-        var players: [RosterPlayer] = []
-        for group in resp.athletes {
-            let groupName = group.position.flatMap { groupTranslations[$0] } ?? (group.position ?? "")
-            for a in group.items {
-                let name = a.displayName ?? a.fullName ?? "—"
-                players.append(RosterPlayer(
-                    id: a.id,
-                    name: name,
-                    jersey: a.jersey.flatMap(Int.init),
-                    position: a.position?.abbreviation,
-                    positionGroup: groupName
-                ))
-            }
+        return resp.athletes.compactMap { a in
+            let name = a.displayName ?? a.fullName ?? ""
+            guard !name.isEmpty else { return nil }
+            let abbr = a.position?.abbreviation ?? ""
+            return RosterPlayer(
+                id: a.id,
+                name: name,
+                jersey: a.jersey.flatMap(Int.init),
+                position: abbr,
+                positionGroup: groupMap[abbr] ?? "Otros"
+            )
         }
-        return players
     }
 }
 
