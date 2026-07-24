@@ -397,6 +397,12 @@ struct MatchDetailSheet: View {
             }
 
             let playerName = extractPlayer(from: event.text, type: typeID)
+
+            // Extraer equipo del texto (más fiable que el campo team de la API)
+            // y resolverlo al nombre canónico de la app (match.home / match.away)
+            let rawTeamFromText: String? = teamFromText(event.text, typeID: typeID)
+            let resolvedTeam = resolveTeam(rawTeamFromText ?? event.team?.displayName)
+
             // Para sustituciones: guardar el jugador que SALE en text
             let shortText: String?
             if typeID == "76", let raw = event.text {
@@ -417,7 +423,7 @@ struct MatchDetailSheet: View {
                 minute: minute,
                 extraTime: extraTime,
                 playerName: playerName,
-                teamName: event.team?.displayName,
+                teamName: resolvedTeam,
                 text: shortText
             ))
         }
@@ -427,6 +433,36 @@ struct MatchDetailSheet: View {
             awayLineup: awayLineup,
             events: events.isEmpty ? nil : events
         )
+    }
+
+    // Extrae el nombre ESPN del equipo directamente del texto del evento
+    private func teamFromText(_ text: String?, typeID: String) -> String? {
+        guard let text else { return nil }
+        switch typeID {
+        case "76": // "Substitution, ESPN_Team. PlayerIN replaces PlayerOUT."
+            if text.hasPrefix("Substitution, ") {
+                let after = text.dropFirst("Substitution, ".count)
+                if let first = after.components(separatedBy: ". ").first { return first }
+            }
+        case "94", "95", "96": // "Player (ESPN_Team) is shown..."
+            if let open = text.firstIndex(of: "("), let close = text.firstIndex(of: ")") {
+                return String(text[text.index(after: open)..<close])
+            }
+        default: break
+        }
+        return nil
+    }
+
+    // Resuelve un nombre ESPN de equipo al nombre canónico de la app (match.home o match.away)
+    private func resolveTeam(_ espnName: String?) -> String? {
+        guard let name = espnName, !name.isEmpty else { return nil }
+        func fold(_ s: String) -> String {
+            s.lowercased().folding(options: .diacriticInsensitive, locale: .current)
+        }
+        let n = fold(name), h = fold(match.home), a = fold(match.away)
+        if h == n || h.contains(n) || n.contains(h) { return match.home }
+        if a == n || a.contains(n) || n.contains(a) { return match.away }
+        return name
     }
 
     private func extractPlayer(from text: String?, type typeID: String) -> String? {
