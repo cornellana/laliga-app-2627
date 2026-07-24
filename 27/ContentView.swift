@@ -265,24 +265,8 @@ struct JornadaFilterBar: View {
     let teams: [String]
     let jornadaDates: [(jornada: Int, date: String)]
 
-    private var isAll: Bool { filterTeam == nil && filterJornada == nil }
-
     var body: some View {
         HStack(spacing: 8) {
-
-            // ── Todos (resetea ambos filtros) ─────────────────────
-            Button {
-                filterTeam = nil
-                filterJornada = nil
-            } label: {
-                Text("Todos")
-                    .font(.caption.weight(isAll ? .bold : .regular))
-                    .foregroundStyle(isAll ? .white : .white.opacity(0.65))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 9)
-                    .background(isAll ? Color(hex: 0x004D98) : Color.white.opacity(0.08))
-                    .clipShape(Capsule())
-            }
 
             // ── Selector de equipo ───────────────────────────────
             Menu {
