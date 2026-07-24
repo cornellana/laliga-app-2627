@@ -397,7 +397,19 @@ struct MatchDetailSheet: View {
             }
 
             let playerName = extractPlayer(from: event.text, type: typeID)
-            let shortText = shortDescription(from: event.text, type: typeID)
+            // Para sustituciones: guardar el jugador que SALE en text
+            let shortText: String?
+            if typeID == "76", let raw = event.text {
+                let parts = raw.components(separatedBy: ". ")
+                if parts.count > 1 {
+                    let sub = parts[1].components(separatedBy: " replaces ")
+                    shortText = sub.count > 1
+                        ? sub[1].trimmingCharacters(in: .punctuationCharacters).trimmingCharacters(in: .whitespaces)
+                        : nil
+                } else { shortText = nil }
+            } else {
+                shortText = nil
+            }
 
             events.append(MatchEvent(
                 id: "\(event.id)_\(idx)",
@@ -605,10 +617,22 @@ struct EventRow: View {
         .padding(.horizontal, 16).padding(.vertical, 8)
     }
 
+    @ViewBuilder
     private func eventInfo(alignment: HorizontalAlignment) -> some View {
-        Text(event.playerName ?? "")
-            .font(.subheadline)
-            .foregroundStyle(.white)
+        if event.type == .substitution, let outgoing = event.text, !outgoing.isEmpty {
+            VStack(alignment: alignment, spacing: 2) {
+                Text(event.playerName ?? "")
+                    .font(.subheadline)
+                    .foregroundStyle(.white)
+                Text(outgoing)
+                    .font(.caption)
+                    .foregroundStyle(.white.opacity(0.45))
+            }
+        } else {
+            Text(event.playerName ?? "")
+                .font(.subheadline)
+                .foregroundStyle(.white)
+        }
     }
 
     private var minuteLabel: some View {
