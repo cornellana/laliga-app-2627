@@ -352,8 +352,9 @@ struct MatchDetailSheet: View {
             else { awayLineup = lineup }
         }
 
-        // Eventos desde keyEvents (solo goles, tarjetas y sustituciones)
-        let relevantTypeIDs: Set<String> = ["70", "76", "94", "95", "96"]
+        // Eventos desde keyEvents (goles, penaltis, goles en propia, tarjetas y sustituciones)
+        // type 70=gol, 72=en propia, 98=penalti, 76=sustitución, 94=amarilla, 95/96=roja
+        let relevantTypeIDs: Set<String> = ["70", "72", "98", "76", "94", "95", "96"]
         var events: [MatchEvent] = []
 
         for (idx, event) in (resp.keyEvents ?? []).enumerated() {
@@ -375,6 +376,8 @@ struct MatchDetailSheet: View {
             let eventType: MatchEventType
             switch typeID {
             case "70": eventType = .goal
+            case "72": eventType = .ownGoal
+            case "98": eventType = .penalty
             case "76": eventType = .substitution
             case "94": eventType = .yellowCard
             case "95", "96": eventType = .redCard
@@ -405,7 +408,7 @@ struct MatchDetailSheet: View {
     private func extractPlayer(from text: String?, type typeID: String) -> String? {
         guard let text else { return nil }
         switch typeID {
-        case "70": // Goal: "Goal! Team 0, Team2 1. PlayerName (Team) shot..."
+        case "70", "72", "98": // Goal/OwnGoal/Penalty: "Goal! Team 0, Team2 1. PlayerName (Team) ..."
             let parts = text.components(separatedBy: ". ")
             if parts.count > 1 {
                 let afterScore = parts[1...].joined(separator: ". ")

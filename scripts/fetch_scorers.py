@@ -92,7 +92,8 @@ def parse_goals(summary):
     events = summary.get("keyEvents", [])
     for e in events:
         type_id = str(e.get("type", {}).get("id", ""))
-        if type_id not in ("70", "72", "73"):
+        # 70=gol normal, 72=en propia, 98=penalti
+        if type_id not in ("70", "72", "98"):
             continue
         text = e.get("text", "")
         m = GOAL_FULL_RE.search(text)
@@ -101,8 +102,8 @@ def parse_goals(summary):
         player = m.group(1).strip()
         espn_team = m.group(2).strip()
         app_team = normalize_team(espn_team)
-        is_own = bool(OWN_GOAL_MARKER_RE.search(text))
-        is_pen = bool(PENALTY_MARKER_RE.search(text))
+        is_own = type_id == "72" or bool(OWN_GOAL_MARKER_RE.search(text))
+        is_pen = type_id == "98" or bool(PENALTY_MARKER_RE.search(text))
         goals.append((player, app_team, is_own, is_pen))
     return goals
 
