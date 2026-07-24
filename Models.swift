@@ -156,21 +156,24 @@ struct TopScorer: Identifiable, Codable {
     let penalties: Int?
 }
 
-// MARK: - Filters
-
-enum JornadaFilter: Hashable, Equatable {
-    case all
-    case jornada(Int)
-    case team(String)
-}
-
-// MARK: - Color Helper
+// MARK: - Color Helpers
 
 extension Color {
     init(hex: UInt) {
         let r = Double((hex >> 16) & 0xFF) / 255
-        let g = Double((hex >> 8) & 0xFF) / 255
-        let b = Double(hex & 0xFF) / 255
+        let g = Double((hex >> 8)  & 0xFF) / 255
+        let b = Double(hex         & 0xFF) / 255
         self.init(red: r, green: g, blue: b)
+    }
+
+    /// Convierte un Color a entero hex RGB (para persistir en UserDefaults).
+    func toHex() -> UInt {
+        let ui = UIColor(self)
+        var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
+        ui.getRed(&r, green: &g, blue: &b, alpha: &a)
+        let ri = UInt(max(0, min(255, r * 255)))
+        let gi = UInt(max(0, min(255, g * 255)))
+        let bi = UInt(max(0, min(255, b * 255)))
+        return (ri << 16) | (gi << 8) | bi
     }
 }

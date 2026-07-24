@@ -12,12 +12,14 @@ struct MatchItem: Identifiable, Equatable {
 
 struct ContentView: View {
     @State private var store = MatchStore()
-    @State private var activeFilter: JornadaFilter = .all
-    @State private var selectedTeam: String = "FC Barcelona"
-    @State private var selectedJornada: Int = 1
+    // Filtros independientes y combinables
+    @State private var filterTeam: String? = nil
+    @State private var filterJornada: Int? = nil
     @State private var selectedMatchItem: MatchItem?
     @State private var showingStandings = false
     @State private var showingTopScorers = false
+    @State private var showingSettings = false
+    @State private var highlightSettings = HighlightSettings()
     @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
@@ -44,19 +46,13 @@ struct ContentView: View {
                 .task(id: scenePhase) {
                     guard scenePhase == .active else { return }
                     await store.refresh()
-                    selectedJornada = nearestJornada
                     guard let target = scrollTargetDate else { return }
                     try? await Task.sleep(nanoseconds: 350_000_000)
                     withAnimation(.easeInOut(duration: 0.5)) { proxy.scrollTo(target, anchor: .top) }
                 }
-                .onChange(of: activeFilter) { _, newVal in
-                    if case .all = newVal, let target = scrollTargetDate {
-                        Task {
-                            try? await Task.sleep(nanoseconds: 150_000_000)
-                            withAnimation { proxy.scrollTo(target, anchor: .top) }
-                        }
-                    }
-                }
+                // Scroll a jornada actual solo cuando ambos filtros quedan en nil (botón Todos)
+                .onChange(of: filterTeam) { _, _ in scrollIfShowingAll(proxy: proxy) }
+                .onChange(of: filterJornada) { _, _ in scrollIfShowingAll(proxy: proxy) }
                 .onChange(of: showingStandings) { _, isShowing in
                     guard !isShowing, let target = scrollTargetDate else { return }
                     Task {
@@ -102,6 +98,14 @@ struct ContentView: View {
                             Image(systemName: "list.number")
                                 .foregroundStyle(Color(hex: 0x004D98))
                         }
+                        Button { showingSettings = true } label: {
+                            Image(systemName: "star.fill")
+                                .foregroundStyle(
+                                    highlightSettings.highlights.count > 1
+                                        ? Color(hex: 0xE8460B)
+                                        : .white.opacity(0.6)
+                                )
+                        }
                     }
                 }
                 ToolbarItem(placement: .topBarLeading) {
@@ -114,14 +118,14 @@ struct ContentView: View {
             }
             .safeAreaInset(edge: .top, spacing: 0) {
                 JornadaFilterBar(
-                    activeFilter: $activeFilter,
-                    selectedTeam: $selectedTeam,
-                    selectedJornada: $selectedJornada,
+                    filterTeam: $filterTeam,
+                    filterJornada: $filterJornada,
                     teams: allTeams,
                     jornadaDates: jornadaStartDates
                 )
             }
         }
+        .environment(highlightSettings)
         .sheet(item: $selectedMatchItem) { item in
             MatchDetailSheet(match: item.match)
                 .presentationDetents(item.match.details != nil ? [.large] : [.medium])
@@ -133,23 +137,36 @@ struct ContentView: View {
         .sheet(isPresented: $showingTopScorers) {
             TopScorersSheet(scorers: store.topScorers)
         }
+        .sheet(isPresented: $showingSettings) {
+            HighlightSettingsSheet(settings: highlightSettings, allTeams: allTeams)
+        }
         .preferredColorScheme(.dark)
     }
 
-    // MARK: - Computed
+    // MARK: - Scroll helper
+
+    private func scrollIfShowingAll(proxy: ScrollViewProxy) {
+        guard filterTeam == nil, filterJornada == nil, let target = scrollTargetDate else { return }
+        Task {
+            try? await Task.sleep(nanoseconds: 150_000_000)
+            withAnimation { proxy.scrollTo(target, anchor: .top) }
+        }
+    }
+
+    // MARK: - Filtrado combinado
 
     private var filteredMatchDays: [MatchDay] {
-        switch activeFilter {
-        case .all:
-            return store.matchDays
-        case .jornada(let n):
-            return store.matchDays.filter { $0.jornada == n }
-        case .team(let t):
-            return store.matchDays.compactMap { day in
-                let games = day.games.filter { $0.home == t || $0.away == t }
+        var days = store.matchDays
+        if let team = filterTeam {
+            days = days.compactMap { day in
+                let games = day.games.filter { $0.home == team || $0.away == team }
                 return games.isEmpty ? nil : MatchDay(date: day.date, jornada: day.jornada, games: games)
             }
         }
+        if let jornada = filterJornada {
+            days = days.filter { $0.jornada == jornada }
+        }
+        return days
     }
 
     private var filteredJornadas: [JornadaGroup] {
@@ -160,35 +177,21 @@ struct ContentView: View {
         }
     }
 
+    // MARK: - Scroll target
+
     private var scrollTargetDate: String? {
         let fmt = DateFormatter()
         fmt.dateFormat = "yyyy-MM-dd"
         let today = fmt.string(from: Date())
         let all = store.matchDays
         guard !all.isEmpty else { return nil }
-
-        if let dayToday = all.first(where: { $0.date == today }) {
-            return "jornada-\(dayToday.jornada)"
-        }
-        if let nextDay = all.first(where: { $0.date > today }) {
-            return "jornada-\(nextDay.jornada)"
-        }
-        if let lastDay = all.last {
-            return "jornada-\(lastDay.jornada)"
-        }
+        if let dayToday = all.first(where: { $0.date == today }) { return "jornada-\(dayToday.jornada)" }
+        if let nextDay  = all.first(where: { $0.date > today })  { return "jornada-\(nextDay.jornada)" }
+        if let lastDay  = all.last                               { return "jornada-\(lastDay.jornada)" }
         return nil
     }
 
-    private var nearestJornada: Int {
-        let fmt = DateFormatter()
-        fmt.dateFormat = "yyyy-MM-dd"
-        let today = fmt.string(from: Date())
-        let all = store.matchDays
-        guard !all.isEmpty else { return 1 }
-        if let day = all.first(where: { $0.date == today }) { return day.jornada }
-        if let day = all.first(where: { $0.date > today }) { return day.jornada }
-        return all.last?.jornada ?? 1
-    }
+    // MARK: - Auxiliares
 
     private var jornadaStartDates: [(jornada: Int, date: String)] {
         var firstDate: [Int: String] = [:]
@@ -216,7 +219,7 @@ struct ContentView: View {
         return sorted
     }
 
-    // MARK: - State Views
+    // MARK: - State views
 
     private var loadingView: some View {
         VStack(spacing: 16) {
@@ -228,8 +231,7 @@ struct ContentView: View {
 
     private var emptyView: some View {
         VStack(spacing: 20) {
-            BarcelonaShieldView(size: 72)
-                .opacity(0.6)
+            BarcelonaShieldView(size: 72).opacity(0.6)
             Text("La Liga 26/27")
                 .font(.title2.weight(.bold))
                 .foregroundStyle(.white.opacity(0.8))
@@ -258,58 +260,72 @@ struct ContentView: View {
 // MARK: - Jornada Filter Bar
 
 struct JornadaFilterBar: View {
-    @Binding var activeFilter: JornadaFilter
-    @Binding var selectedTeam: String
-    @Binding var selectedJornada: Int
+    @Binding var filterTeam: String?
+    @Binding var filterJornada: Int?
     let teams: [String]
     let jornadaDates: [(jornada: Int, date: String)]
 
-    private var teamFilterActive: Bool { activeFilter == .team(selectedTeam) }
-    private var jornadaFilterActive: Bool { activeFilter == .jornada(selectedJornada) }
+    private var isAll: Bool { filterTeam == nil && filterJornada == nil }
 
     var body: some View {
         HStack(spacing: 8) {
 
-            // ── Todos ────────────────────────────────────────────
-            Button { activeFilter = .all } label: {
+            // ── Todos (resetea ambos filtros) ─────────────────────
+            Button {
+                filterTeam = nil
+                filterJornada = nil
+            } label: {
                 Text("Todos")
-                    .font(.caption.weight(activeFilter == .all ? .bold : .regular))
-                    .foregroundStyle(activeFilter == .all ? .white : .white.opacity(0.65))
+                    .font(.caption.weight(isAll ? .bold : .regular))
+                    .foregroundStyle(isAll ? .white : .white.opacity(0.65))
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 9)
-                    .background(activeFilter == .all ? Color(hex: 0x004D98) : Color.white.opacity(0.08))
+                    .background(isAll ? Color(hex: 0x004D98) : Color.white.opacity(0.08))
                     .clipShape(Capsule())
             }
 
             // ── Selector de equipo ───────────────────────────────
             Menu {
+                Button {
+                    filterTeam = nil
+                } label: {
+                    if filterTeam == nil {
+                        Label("Todos los equipos", systemImage: "checkmark")
+                    } else {
+                        Text("Todos los equipos")
+                    }
+                }
+                Divider()
                 ForEach(teams, id: \.self) { team in
-                    Button {
-                        selectedTeam = team
-                        activeFilter = .team(team)
-                    } label: { Text(team) }
+                    Button { filterTeam = team } label: {
+                        filterTeam == team
+                            ? Label(team, systemImage: "checkmark")
+                            : Label(team, systemImage: "")
+                    }
                 }
             } label: {
                 HStack(spacing: 5) {
-                    if selectedTeam == "FC Barcelona" {
-                        BarcelonaShieldView(size: 16)
+                    if let team = filterTeam {
+                        TeamLogoView(teamName: team, size: 16)
+                        Text(shortTeamName(team))
+                            .font(.caption.weight(.bold))
+                            .foregroundStyle(.white)
+                            .lineLimit(1)
                     } else {
-                        TeamLogoView(teamName: selectedTeam, size: 16)
+                        Text("Equipo")
+                            .font(.caption)
+                            .foregroundStyle(.white.opacity(0.65))
                     }
-                    Text(shortTeamName(selectedTeam))
-                        .font(.caption.weight(teamFilterActive ? .bold : .regular))
-                        .foregroundStyle(teamFilterActive ? .white : .white.opacity(0.65))
-                        .lineLimit(1)
                     Spacer(minLength: 0)
                     Image(systemName: "chevron.down")
                         .font(.system(size: 8, weight: .semibold))
-                        .foregroundStyle(teamFilterActive ? .white : .white.opacity(0.5))
+                        .foregroundStyle(filterTeam != nil ? .white : .white.opacity(0.5))
                 }
                 .padding(.horizontal, 10)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 9)
                 .background(
-                    teamFilterActive
+                    filterTeam != nil
                         ? AnyShapeStyle(LinearGradient(
                             colors: [Color(hex: 0x004D98), Color(hex: 0xA50044)],
                             startPoint: .leading, endPoint: .trailing))
@@ -320,25 +336,31 @@ struct JornadaFilterBar: View {
 
             // ── Selector de jornada ──────────────────────────────
             Menu {
+                Button {
+                    filterJornada = nil
+                } label: {
+                    if filterJornada == nil {
+                        Label("Todas las jornadas", systemImage: "checkmark")
+                    } else {
+                        Text("Todas las jornadas")
+                    }
+                }
+                Divider()
                 ForEach(jornadaDates, id: \.jornada) { item in
-                    Button {
-                        selectedJornada = item.jornada
-                        activeFilter = .jornada(item.jornada)
-                    } label: {
-                        Text("J\(item.jornada)  ·  \(shortDate(item.date))")
+                    Button { filterJornada = item.jornada } label: {
+                        filterJornada == item.jornada
+                            ? Label("J\(item.jornada)  ·  \(shortDate(item.date))", systemImage: "checkmark")
+                            : Label("J\(item.jornada)  ·  \(shortDate(item.date))", systemImage: "")
                     }
                 }
             } label: {
                 HStack(spacing: 4) {
-                    if jornadaFilterActive {
-                        Text("J\(selectedJornada)")
+                    if let j = filterJornada {
+                        Text("J\(j)")
                             .font(.caption.weight(.bold))
                             .foregroundStyle(.white)
-                        if let d = jornadaDates.first(where: { $0.jornada == selectedJornada })?.date {
-                            Text("·")
-                                .font(.caption2)
-                                .foregroundStyle(.white.opacity(0.6))
-                            Text(shortDate(d))
+                        if let d = jornadaDates.first(where: { $0.jornada == j })?.date {
+                            Text("· \(shortDate(d))")
                                 .font(.caption)
                                 .foregroundStyle(.white.opacity(0.85))
                         }
@@ -350,12 +372,12 @@ struct JornadaFilterBar: View {
                     Spacer(minLength: 0)
                     Image(systemName: "chevron.down")
                         .font(.system(size: 8, weight: .semibold))
-                        .foregroundStyle(jornadaFilterActive ? .white : .white.opacity(0.5))
+                        .foregroundStyle(filterJornada != nil ? .white : .white.opacity(0.5))
                 }
                 .padding(.horizontal, 10)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 9)
-                .background(jornadaFilterActive ? Color(hex: 0x004D98) : Color.white.opacity(0.08))
+                .background(filterJornada != nil ? Color(hex: 0x004D98) : Color.white.opacity(0.08))
                 .clipShape(Capsule())
             }
         }
@@ -386,23 +408,6 @@ struct JornadaFilterBar: View {
     }
 }
 
-struct FilterChip: View {
-    let label: String
-    let isActive: Bool
-    let action: () -> Void
-
-    var body: some View {
-        Button(action: action) {
-            Text(label)
-                .font(.caption.weight(isActive ? .bold : .regular))
-                .foregroundStyle(isActive ? .white : .white.opacity(0.65))
-                .padding(.horizontal, 12).padding(.vertical, 6)
-                .background(isActive ? Color(hex: 0x004D98) : Color.white.opacity(0.08))
-                .clipShape(Capsule())
-        }
-    }
-}
-
 // MARK: - Jornada Group
 
 struct JornadaGroup: Identifiable {
@@ -419,8 +424,6 @@ struct JornadaSectionView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-
-            // ── Cabecera de jornada ──────────────────────────────
             HStack {
                 Text("JORNADA \(group.jornada)")
                     .font(.caption.weight(.heavy))
@@ -435,9 +438,7 @@ struct JornadaSectionView: View {
             .background(Color(hex: 0x0F0F1E))
             .id("jornada-\(group.jornada)")
 
-            // ── Días de la jornada ───────────────────────────────
             ForEach(group.days) { day in
-                // Sub-cabecera del día
                 HStack {
                     Text(formattedDate(day.date))
                         .font(.caption.weight(.semibold))
@@ -470,7 +471,8 @@ struct JornadaSectionView: View {
     private var dateRange: String {
         guard let first = group.days.first, let last = group.days.last else { return "" }
         let parse = DateFormatter(); parse.dateFormat = "yyyy-MM-dd"
-        let display = DateFormatter(); display.locale = Locale(identifier: "es_ES"); display.dateFormat = "d MMM"
+        let display = DateFormatter()
+        display.locale = Locale(identifier: "es_ES"); display.dateFormat = "d MMM"
         guard let d1 = parse.date(from: first.date), let d2 = parse.date(from: last.date) else { return "" }
         if first.date == last.date { return display.string(from: d1) }
         return "\(display.string(from: d1)) – \(display.string(from: d2))"
@@ -490,39 +492,35 @@ struct JornadaSectionView: View {
 
 struct MatchRowView: View {
     let match: Match
+    @Environment(HighlightSettings.self) private var highlights
 
     private var homeWins: Bool? { match.done ? (match.homeScore ?? 0) > (match.awayScore ?? 0) : nil }
     private var awayWins: Bool? { match.done ? (match.awayScore ?? 0) > (match.homeScore ?? 0) : nil }
 
-    private let barcaBlue = Color(hex: 0x004D98)
-    private let barcaRed  = Color(hex: 0xA50044)
-    private let barcaText = Color(hex: 0x6EC0F0)
+    private var homeHL: TeamHighlight? { highlights.highlight(for: match.home) }
+    private var awayHL: TeamHighlight? { highlights.highlight(for: match.away) }
+    private var activeHL: TeamHighlight? { homeHL ?? awayHL }
 
     var body: some View {
         HStack(spacing: 0) {
 
-            // ── Escudo local ────────────────────────────────────
             TeamLogoView(teamName: match.home, size: 28)
                 .opacity(homeWins == false ? 0.45 : 1.0)
                 .padding(.leading, 12)
                 .padding(.trailing, 8)
 
-            // ── Nombres (sin Spacer interno, ancho natural) ─────
             VStack(alignment: .leading, spacing: 5) {
                 Text(match.home)
-                    .font(.subheadline.weight(match.home == "FC Barcelona" ? .bold : .regular))
-                    .foregroundStyle(match.home == "FC Barcelona" ? barcaText
-                                     : homeWins == true ? .white : .white.opacity(0.7))
+                    .font(.subheadline.weight(nameWeight(for: match.home)))
+                    .foregroundStyle(nameColor(for: match.home, wins: homeWins))
                     .lineLimit(1)
                 Text(match.away)
-                    .font(.subheadline.weight(match.away == "FC Barcelona" ? .bold : .regular))
-                    .foregroundStyle(match.away == "FC Barcelona" ? barcaText
-                                     : awayWins == true ? .white : .white.opacity(0.7))
+                    .font(.subheadline.weight(nameWeight(for: match.away)))
+                    .foregroundStyle(nameColor(for: match.away, wins: awayWins))
                     .lineLimit(1)
             }
             .padding(.vertical, 12)
 
-            // ── Marcador (si finalizado) ─────────────────────────
             if match.done {
                 VStack(alignment: .trailing, spacing: 5) {
                     Text("\(match.homeScore ?? 0)")
@@ -539,16 +537,13 @@ struct MatchRowView: View {
                 .padding(.vertical, 12)
             }
 
-            // ── Escudo visitante (justo a la derecha de nombres) ─
             TeamLogoView(teamName: match.away, size: 28)
                 .opacity(awayWins == false ? 0.45 : 1.0)
                 .padding(.leading, 6)
                 .padding(.trailing, 4)
 
-            // ── Espacio flexible ─────────────────────────────────
             Spacer(minLength: 4)
 
-            // ── Hora / TV ────────────────────────────────────────
             VStack(alignment: .trailing, spacing: 5) {
                 if match.done {
                     Text("Final")
@@ -567,30 +562,39 @@ struct MatchRowView: View {
             .padding(.trailing, 14)
         }
         .background(alignment: .leading) {
-            if match.involvesBarcelona {
+            if let h = activeHL {
                 ZStack(alignment: .leading) {
-                    Color(hex: 0x001D4E)
-                    LinearGradient(
-                        colors: [Color(hex: 0xA50044), Color(hex: 0x004D98)],
-                        startPoint: .top, endPoint: .bottom
-                    )
-                    .frame(width: 3)
+                    h.color.opacity(0.12)
+                    h.color.frame(width: 3)
                 }
             }
         }
     }
+
+    private func nameColor(for team: String, wins: Bool?) -> Color {
+        if let h = highlights.highlight(for: team) {
+            return h.color.opacity(0.9)
+        }
+        return wins == true ? .white : .white.opacity(0.7)
+    }
+
+    private func nameWeight(for team: String) -> Font.Weight {
+        highlights.highlight(for: team) != nil ? .bold : .regular
+    }
 }
+
+// MARK: - TV Badge
 
 struct TVBadge: View {
     let channel: String
 
     private var bgColor: Color {
         switch channel.uppercased() {
-        case "DAZN":              return Color(hex: 0xF5A623)
-        case "MOVISTAR", "M+":   return Color(hex: 0x0077B6)
-        case "GOL":               return Color(hex: 0x43AA8B)
-        case "TVE", "LA 1":      return Color(hex: 0xE63946)
-        default:                  return Color(hex: 0x444455)
+        case "DAZN":             return Color(hex: 0xF5A623)
+        case "MOVISTAR", "M+":  return Color(hex: 0x0077B6)
+        case "GOL":              return Color(hex: 0x43AA8B)
+        case "TVE", "LA 1":     return Color(hex: 0xE63946)
+        default:                 return Color(hex: 0x444455)
         }
     }
 
@@ -602,8 +606,4 @@ struct TVBadge: View {
             .background(bgColor)
             .clipShape(RoundedRectangle(cornerRadius: 3))
     }
-}
-
-#Preview {
-    ContentView()
 }
