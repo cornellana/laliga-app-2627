@@ -2,6 +2,7 @@ import SwiftUI
 
 struct StandingsSheet: View {
     let standings: [LeagueStanding]
+    let seasonName: String
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {
@@ -30,7 +31,7 @@ struct StandingsSheet: View {
                 ToolbarItem(placement: .principal) {
                     VStack(spacing: 1) {
                         Text("Clasificación").font(.headline).foregroundStyle(.white)
-                        Text("La Liga 26/27").font(.caption2).foregroundStyle(Color(hex: 0xE8460B))
+                        Text("La Liga \(seasonName)").font(.caption2).foregroundStyle(Color(hex: 0xE8460B))
                     }
                 }
                 ToolbarItem(placement: .topBarTrailing) {

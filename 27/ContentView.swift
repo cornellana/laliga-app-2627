@@ -155,10 +155,10 @@ struct ContentView: View {
                 .presentationDragIndicator(.visible)
         }
         .sheet(isPresented: $showingStandings) {
-            StandingsSheet(standings: store.standings)
+            StandingsSheet(standings: store.standings, seasonName: store.selectedSeason.displayName)
         }
         .sheet(isPresented: $showingTopScorers) {
-            TopScorersSheet(scorers: store.topScorers)
+            TopScorersSheet(scorers: store.topScorers, seasonName: store.selectedSeason.displayName)
         }
         .sheet(isPresented: $showingSettings) {
             HighlightSettingsSheet(settings: highlightSettings, allTeams: allTeams)

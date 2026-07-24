@@ -6188,5 +6188,1196 @@
     }
   ],
   "standings": [],
-  "topScorers": []
+  "topScorers": [
+    {
+      "player": "Kylian Mbappé",
+      "team": "Real Madrid",
+      "goals": 17
+    },
+    {
+      "player": "Ferran Torres",
+      "team": "FC Barcelona",
+      "goals": 15
+    },
+    {
+      "player": "Georges Mikautadze",
+      "team": "Villarreal",
+      "goals": 12
+    },
+    {
+      "player": "Lamine Yamal",
+      "team": "FC Barcelona",
+      "goals": 12
+    },
+    {
+      "player": "Vinícius Júnior",
+      "team": "Real Madrid",
+      "goals": 12
+    },
+    {
+      "player": "Vedat Muriqi",
+      "team": "Mallorca",
+      "goals": 11
+    },
+    {
+      "player": "Alberto Moleiro",
+      "team": "Villarreal",
+      "goals": 10
+    },
+    {
+      "player": "Abde Ezzalzouli",
+      "team": "Betis",
+      "goals": 9
+    },
+    {
+      "player": "Ferran Jutglà",
+      "team": "Celta",
+      "goals": 9
+    },
+    {
+      "player": "Robert Lewandowski",
+      "team": "FC Barcelona",
+      "goals": 9
+    },
+    {
+      "player": "Toni Martínez",
+      "team": "Alaves",
+      "goals": 9
+    },
+    {
+      "player": "Antony",
+      "team": "Betis",
+      "goals": 8
+    },
+    {
+      "player": "Borja Iglesias",
+      "team": "Celta",
+      "goals": 8
+    },
+    {
+      "player": "Cucho Hernández",
+      "team": "Betis",
+      "goals": 8
+    },
+    {
+      "player": "Jorge de Frutos",
+      "team": "Rayo",
+      "goals": 8
+    },
+    {
+      "player": "Raphinha",
+      "team": "FC Barcelona",
+      "goals": 8
+    },
+    {
+      "player": "Alexander Sørloth",
+      "team": "Atlético",
+      "goals": 7
+    },
+    {
+      "player": "Antoine Griezmann",
+      "team": "Atlético",
+      "goals": 7
+    },
+    {
+      "player": "Dani Olmo",
+      "team": "FC Barcelona",
+      "goals": 7
+    },
+    {
+      "player": "Gonçalo Guedes",
+      "team": "R. Sociedad",
+      "goals": 7
+    },
+    {
+      "player": "Iván Romero",
+      "team": "Levante",
+      "goals": 7
+    },
+    {
+      "player": "Mikel Oyarzabal",
+      "team": "R. Sociedad",
+      "goals": 7
+    },
+    {
+      "player": "Nicolas Pépé",
+      "team": "Villarreal",
+      "goals": 7
+    },
+    {
+      "player": "Pablo Fornals",
+      "team": "Betis",
+      "goals": 7
+    },
+    {
+      "player": "Tajon Buchanan",
+      "team": "Villarreal",
+      "goals": 7
+    },
+    {
+      "player": "Akor Adams",
+      "team": "Sevilla",
+      "goals": 6
+    },
+    {
+      "player": "Carlos Espí",
+      "team": "Levante",
+      "goals": 6
+    },
+    {
+      "player": "Fermín López",
+      "team": "FC Barcelona",
+      "goals": 6
+    },
+    {
+      "player": "Gorka Guruzeta",
+      "team": "Athletic",
+      "goals": 6
+    },
+    {
+      "player": "Kike García",
+      "team": "Espanyol",
+      "goals": 6
+    },
+    {
+      "player": "Orri Óskarsson",
+      "team": "R. Sociedad",
+      "goals": 6
+    },
+    {
+      "player": "Rafa Mir",
+      "team": "Elche",
+      "goals": 6
+    },
+    {
+      "player": "Carlos Romero",
+      "team": "Espanyol",
+      "goals": 5
+    },
+    {
+      "player": "Federico Valverde",
+      "team": "Real Madrid",
+      "goals": 5
+    },
+    {
+      "player": "Gonzalo García",
+      "team": "Real Madrid",
+      "goals": 5
+    },
+    {
+      "player": "Hugo Duro",
+      "team": "Valencia",
+      "goals": 5
+    },
+    {
+      "player": "Ilyas Chaira",
+      "team": "Real Oviedo",
+      "goals": 5
+    },
+    {
+      "player": "Lucas Boyé",
+      "team": "Alaves",
+      "goals": 5
+    },
+    {
+      "player": "Marcus Rashford",
+      "team": "FC Barcelona",
+      "goals": 5
+    },
+    {
+      "player": "Nico Williams",
+      "team": "Athletic",
+      "goals": 5
+    },
+    {
+      "player": "Raúl García",
+      "team": "Osasuna",
+      "goals": 5
+    },
+    {
+      "player": "Robert Navarro",
+      "team": "Athletic",
+      "goals": 5
+    },
+    {
+      "player": "Samú Costa",
+      "team": "Mallorca",
+      "goals": 5
+    },
+    {
+      "player": "Sergio Camello",
+      "team": "Rayo",
+      "goals": 5
+    },
+    {
+      "player": "Vladyslav Vanat",
+      "team": "Girona",
+      "goals": 5
+    },
+    {
+      "player": "Álvaro Rodríguez",
+      "team": "Elche",
+      "goals": 5
+    },
+    {
+      "player": "Alberto Reina",
+      "team": "Real Oviedo",
+      "goals": 4
+    },
+    {
+      "player": "André Silva",
+      "team": "Elche",
+      "goals": 4
+    },
+    {
+      "player": "Ante Budimir",
+      "team": "Osasuna",
+      "goals": 4
+    },
+    {
+      "player": "Azzedine Ounahi",
+      "team": "Girona",
+      "goals": 4
+    },
+    {
+      "player": "Brais Méndez",
+      "team": "R. Sociedad",
+      "goals": 4
+    },
+    {
+      "player": "Diego López",
+      "team": "Valencia",
+      "goals": 4
+    },
+    {
+      "player": "Djibril Sow",
+      "team": "Sevilla",
+      "goals": 4
+    },
+    {
+      "player": "Gerard Moreno",
+      "team": "Villarreal",
+      "goals": 4
+    },
+    {
+      "player": "Germán Valera",
+      "team": "Elche",
+      "goals": 4
+    },
+    {
+      "player": "Giuliano Simeone",
+      "team": "Atlético",
+      "goals": 4
+    },
+    {
+      "player": "Hugo Álvarez",
+      "team": "Celta",
+      "goals": 4
+    },
+    {
+      "player": "Isaac Romero",
+      "team": "Sevilla",
+      "goals": 4
+    },
+    {
+      "player": "Javi Guerra",
+      "team": "Valencia",
+      "goals": 4
+    },
+    {
+      "player": "Jude Bellingham",
+      "team": "Real Madrid",
+      "goals": 4
+    },
+    {
+      "player": "Julián Alvarez",
+      "team": "Atlético",
+      "goals": 4
+    },
+    {
+      "player": "Pape Gueye",
+      "team": "Villarreal",
+      "goals": 4
+    },
+    {
+      "player": "Viktor Tsygankov",
+      "team": "Girona",
+      "goals": 4
+    },
+    {
+      "player": "Víctor Muñoz",
+      "team": "Osasuna",
+      "goals": 4
+    },
+    {
+      "player": "Williot Swedberg",
+      "team": "Celta",
+      "goals": 4
+    },
+    {
+      "player": "Álvaro García",
+      "team": "Rayo",
+      "goals": 4
+    },
+    {
+      "player": "Adrián Liso",
+      "team": "Getafe",
+      "goals": 3
+    },
+    {
+      "player": "Arda Güler",
+      "team": "Real Madrid",
+      "goals": 3
+    },
+    {
+      "player": "Arnaut Danjuma",
+      "team": "Valencia",
+      "goals": 3
+    },
+    {
+      "player": "Ayoze Pérez",
+      "team": "Villarreal",
+      "goals": 3
+    },
+    {
+      "player": "Borja Mayoral",
+      "team": "Getafe",
+      "goals": 3
+    },
+    {
+      "player": "Etta Eyong",
+      "team": "Levante",
+      "goals": 3
+    },
+    {
+      "player": "Guido Rodríguez",
+      "team": "Valencia",
+      "goals": 3
+    },
+    {
+      "player": "Iago Aspas",
+      "team": "Celta",
+      "goals": 3
+    },
+    {
+      "player": "Iker Losada",
+      "team": "Levante",
+      "goals": 3
+    },
+    {
+      "player": "Joel Roca",
+      "team": "Girona",
+      "goals": 3
+    },
+    {
+      "player": "Luis Rioja",
+      "team": "Valencia",
+      "goals": 3
+    },
+    {
+      "player": "Luka Sucic",
+      "team": "R. Sociedad",
+      "goals": 3
+    },
+    {
+      "player": "Manu Morlanes",
+      "team": "Mallorca",
+      "goals": 3
+    },
+    {
+      "player": "Pablo Torre",
+      "team": "Mallorca",
+      "goals": 3
+    },
+    {
+      "player": "Pere Milla",
+      "team": "Espanyol",
+      "goals": 3
+    },
+    {
+      "player": "Randy Nteka",
+      "team": "Rayo",
+      "goals": 3
+    },
+    {
+      "player": "Roberto Fernández",
+      "team": "Espanyol",
+      "goals": 3
+    },
+    {
+      "player": "Thiago Almada",
+      "team": "Atlético",
+      "goals": 3
+    },
+    {
+      "player": "Thomas Lemar",
+      "team": "Girona",
+      "goals": 3
+    },
+    {
+      "player": "Ademola Lookman",
+      "team": "Atlético",
+      "goals": 2
+    },
+    {
+      "player": "Aitor Ruibal",
+      "team": "Betis",
+      "goals": 2
+    },
+    {
+      "player": "Aleix Febas",
+      "team": "Elche",
+      "goals": 2
+    },
+    {
+      "player": "Alemão",
+      "team": "Rayo",
+      "goals": 2
+    },
+    {
+      "player": "Alex Berenguer",
+      "team": "Athletic",
+      "goals": 2
+    },
+    {
+      "player": "Alexis Sánchez",
+      "team": "Sevilla",
+      "goals": 2
+    },
+    {
+      "player": "Alfon González",
+      "team": "Sevilla",
+      "goals": 2
+    },
+    {
+      "player": "Ander Barrenetxea",
+      "team": "R. Sociedad",
+      "goals": 2
+    },
+    {
+      "player": "Arnau Martínez",
+      "team": "Girona",
+      "goals": 2
+    },
+    {
+      "player": "Carlos Soler",
+      "team": "R. Sociedad",
+      "goals": 2
+    },
+    {
+      "player": "Carlos Vicente",
+      "team": "Alaves",
+      "goals": 2
+    },
+    {
+      "player": "Carlos Álvarez",
+      "team": "Levante",
+      "goals": 2
+    },
+    {
+      "player": "Conor Gallagher",
+      "team": "Atlético",
+      "goals": 2
+    },
+    {
+      "player": "Cédric Bakambu",
+      "team": "Betis",
+      "goals": 2
+    },
+    {
+      "player": "Federico Viñas",
+      "team": "Real Oviedo",
+      "goals": 2
+    },
+    {
+      "player": "Fran Pérez",
+      "team": "Rayo",
+      "goals": 2
+    },
+    {
+      "player": "Héctor Bellerín",
+      "team": "Betis",
+      "goals": 2
+    },
+    {
+      "player": "Héctor Fort",
+      "team": "Elche",
+      "goals": 2
+    },
+    {
+      "player": "Ibrahim Diabate",
+      "team": "Alaves",
+      "goals": 2
+    },
+    {
+      "player": "Ilaix Moriba",
+      "team": "Celta",
+      "goals": 2
+    },
+    {
+      "player": "Javi Rueda",
+      "team": "Celta",
+      "goals": 2
+    },
+    {
+      "player": "Jones El Abdellaoui",
+      "team": "Celta",
+      "goals": 2
+    },
+    {
+      "player": "João Cancelo",
+      "team": "FC Barcelona",
+      "goals": 2
+    },
+    {
+      "player": "Kervin Arriaga",
+      "team": "Levante",
+      "goals": 2
+    },
+    {
+      "player": "Koke",
+      "team": "Atlético",
+      "goals": 2
+    },
+    {
+      "player": "Largie Ramazani",
+      "team": "Valencia",
+      "goals": 2
+    },
+    {
+      "player": "Luis Vázquez",
+      "team": "Getafe",
+      "goals": 2
+    },
+    {
+      "player": "Marc Bernal",
+      "team": "FC Barcelona",
+      "goals": 2
+    },
+    {
+      "player": "Martim Neto",
+      "team": "Elche",
+      "goals": 2
+    },
+    {
+      "player": "Martín Satriano",
+      "team": "Getafe",
+      "goals": 2
+    },
+    {
+      "player": "Mateo Joseph",
+      "team": "Mallorca",
+      "goals": 2
+    },
+    {
+      "player": "Mauro Arambarri",
+      "team": "Getafe",
+      "goals": 2
+    },
+    {
+      "player": "Mikel Jauregizar",
+      "team": "Athletic",
+      "goals": 2
+    },
+    {
+      "player": "Nahuel Molina",
+      "team": "Atlético",
+      "goals": 2
+    },
+    {
+      "player": "Nico González",
+      "team": "Atlético",
+      "goals": 2
+    },
+    {
+      "player": "Oihan Sancet",
+      "team": "Athletic",
+      "goals": 2
+    },
+    {
+      "player": "Pablo Durán",
+      "team": "Celta",
+      "goals": 2
+    },
+    {
+      "player": "Pacha Espino",
+      "team": "Rayo",
+      "goals": 2
+    },
+    {
+      "player": "Pedri",
+      "team": "FC Barcelona",
+      "goals": 2
+    },
+    {
+      "player": "Peque Fernández",
+      "team": "Sevilla",
+      "goals": 2
+    },
+    {
+      "player": "Pol Lozano",
+      "team": "Espanyol",
+      "goals": 2
+    },
+    {
+      "player": "Rubén Vargas",
+      "team": "Sevilla",
+      "goals": 2
+    },
+    {
+      "player": "Santi Comesaña",
+      "team": "Villarreal",
+      "goals": 2
+    },
+    {
+      "player": "Sergio Carreira",
+      "team": "Celta",
+      "goals": 2
+    },
+    {
+      "player": "Tani Oluwaseyi",
+      "team": "Villarreal",
+      "goals": 2
+    },
+    {
+      "player": "Tyrhys Dolan",
+      "team": "Espanyol",
+      "goals": 2
+    },
+    {
+      "player": "Álex Baena",
+      "team": "Atlético",
+      "goals": 2
+    },
+    {
+      "player": "Álvaro Carreras",
+      "team": "Real Madrid",
+      "goals": 2
+    },
+    {
+      "player": "Abde Rebbach",
+      "team": "Alaves",
+      "goals": 1
+    },
+    {
+      "player": "Abel Bretones",
+      "team": "Osasuna",
+      "goals": 1
+    },
+    {
+      "player": "Adrià Pedrosa",
+      "team": "Elche",
+      "goals": 1
+    },
+    {
+      "player": "Adrián de la Fuente",
+      "team": "Levante",
+      "goals": 1
+    },
+    {
+      "player": "Aihen Muñoz",
+      "team": "R. Sociedad",
+      "goals": 1
+    },
+    {
+      "player": "Alejandro Rego",
+      "team": "Athletic",
+      "goals": 1
+    },
+    {
+      "player": "Alfonso Pedraza",
+      "team": "Villarreal",
+      "goals": 1
+    },
+    {
+      "player": "Ander Guevara",
+      "team": "Alaves",
+      "goals": 1
+    },
+    {
+      "player": "Andrés Castrín",
+      "team": "Sevilla",
+      "goals": 1
+    },
+    {
+      "player": "Antonio Blanco",
+      "team": "Alaves",
+      "goals": 1
+    },
+    {
+      "player": "Asier Osambela",
+      "team": "Osasuna",
+      "goals": 1
+    },
+    {
+      "player": "Aurélien Tchouaméni",
+      "team": "Real Madrid",
+      "goals": 1
+    },
+    {
+      "player": "Batista Mendy",
+      "team": "Sevilla",
+      "goals": 1
+    },
+    {
+      "player": "Brahim Díaz",
+      "team": "Real Madrid",
+      "goals": 1
+    },
+    {
+      "player": "Charles Pickel",
+      "team": "Espanyol",
+      "goals": 1
+    },
+    {
+      "player": "Chidera Ejuke",
+      "team": "Sevilla",
+      "goals": 1
+    },
+    {
+      "player": "Christantus Uche",
+      "team": "Getafe",
+      "goals": 1
+    },
+    {
+      "player": "Claudio Echeverri",
+      "team": "Girona",
+      "goals": 1
+    },
+    {
+      "player": "Cristhian Stuani",
+      "team": "Girona",
+      "goals": 1
+    },
+    {
+      "player": "Cubo",
+      "team": "Atlético",
+      "goals": 1
+    },
+    {
+      "player": "Dani Vivian",
+      "team": "Athletic",
+      "goals": 1
+    },
+    {
+      "player": "David Carmo",
+      "team": "Real Oviedo",
+      "goals": 1
+    },
+    {
+      "player": "David Costas",
+      "team": "Real Oviedo",
+      "goals": 1
+    },
+    {
+      "player": "Dean Huijsen",
+      "team": "Real Madrid",
+      "goals": 1
+    },
+    {
+      "player": "Denis Suárez",
+      "team": "Alaves",
+      "goals": 1
+    },
+    {
+      "player": "Diego Llorente",
+      "team": "Betis",
+      "goals": 1
+    },
+    {
+      "player": "Dodi Lukébakio",
+      "team": "Sevilla",
+      "goals": 1
+    },
+    {
+      "player": "Edu Expósito",
+      "team": "Espanyol",
+      "goals": 1
+    },
+    {
+      "player": "Enzo Boyomo",
+      "team": "Osasuna",
+      "goals": 1
+    },
+    {
+      "player": "Eric García",
+      "team": "FC Barcelona",
+      "goals": 1
+    },
+    {
+      "player": "Fer López",
+      "team": "Celta",
+      "goals": 1
+    },
+    {
+      "player": "Florian Lejeune",
+      "team": "Rayo",
+      "goals": 1
+    },
+    {
+      "player": "Fran Beltrán",
+      "team": "Girona",
+      "goals": 1
+    },
+    {
+      "player": "Fran García",
+      "team": "Real Madrid",
+      "goals": 1
+    },
+    {
+      "player": "Franco Mastantuono",
+      "team": "Real Madrid",
+      "goals": 1
+    },
+    {
+      "player": "Giovani Lo Celso",
+      "team": "Betis",
+      "goals": 1
+    },
+    {
+      "player": "Goduine Koyalipou",
+      "team": "Levante",
+      "goals": 1
+    },
+    {
+      "player": "Gonzalo Villar",
+      "team": "Elche",
+      "goals": 1
+    },
+    {
+      "player": "Grady Diangana",
+      "team": "Elche",
+      "goals": 1
+    },
+    {
+      "player": "Hugo Rincón",
+      "team": "Girona",
+      "goals": 1
+    },
+    {
+      "player": "Iker Benito",
+      "team": "Osasuna",
+      "goals": 1
+    },
+    {
+      "player": "Iker Luque",
+      "team": "Atlético",
+      "goals": 1
+    },
+    {
+      "player": "Isi Palazón",
+      "team": "Rayo",
+      "goals": 1
+    },
+    {
+      "player": "Iñaki Williams",
+      "team": "Athletic",
+      "goals": 1
+    },
+    {
+      "player": "Jan Virgili",
+      "team": "Mallorca",
+      "goals": 1
+    },
+    {
+      "player": "Jeremy Toljan",
+      "team": "Levante",
+      "goals": 1
+    },
+    {
+      "player": "Jofre Carreras",
+      "team": "Espanyol",
+      "goals": 1
+    },
+    {
+      "player": "John Donald",
+      "team": "Elche",
+      "goals": 1
+    },
+    {
+      "player": "Jon Gorrotxategi",
+      "team": "R. Sociedad",
+      "goals": 1
+    },
+    {
+      "player": "José Gayà",
+      "team": "Valencia",
+      "goals": 1
+    },
+    {
+      "player": "José Ángel Carmona",
+      "team": "Sevilla",
+      "goals": 1
+    },
+    {
+      "player": "Juan Iglesias",
+      "team": "Getafe",
+      "goals": 1
+    },
+    {
+      "player": "Kike Barja",
+      "team": "Osasuna",
+      "goals": 1
+    },
+    {
+      "player": "Kike Salas",
+      "team": "Sevilla",
+      "goals": 1
+    },
+    {
+      "player": "Leander Dendoncker",
+      "team": "Real Oviedo",
+      "goals": 1
+    },
+    {
+      "player": "Lucas Beltrán",
+      "team": "Valencia",
+      "goals": 1
+    },
+    {
+      "player": "Lucas Cepeda",
+      "team": "Elche",
+      "goals": 1
+    },
+    {
+      "player": "Lucien Agoumé",
+      "team": "Sevilla",
+      "goals": 1
+    },
+    {
+      "player": "Luis Milla",
+      "team": "Getafe",
+      "goals": 1
+    },
+    {
+      "player": "Luka Ilic",
+      "team": "Real Oviedo",
+      "goals": 1
+    },
+    {
+      "player": "Manor Solomon",
+      "team": "Villarreal",
+      "goals": 1
+    },
+    {
+      "player": "Marc Aguado",
+      "team": "Elche",
+      "goals": 1
+    },
+    {
+      "player": "Marc Roca",
+      "team": "Betis",
+      "goals": 1
+    },
+    {
+      "player": "Maroan Sannadi",
+      "team": "Athletic",
+      "goals": 1
+    },
+    {
+      "player": "Mateu Morey",
+      "team": "Mallorca",
+      "goals": 1
+    },
+    {
+      "player": "Miguel Román",
+      "team": "Celta",
+      "goals": 1
+    },
+    {
+      "player": "Miguel Rubio",
+      "team": "Espanyol",
+      "goals": 1
+    },
+    {
+      "player": "Nahuel Tenaglia",
+      "team": "Alaves",
+      "goals": 1
+    },
+    {
+      "player": "Neal Maupay",
+      "team": "Sevilla",
+      "goals": 1
+    },
+    {
+      "player": "Nemanja Gudelj",
+      "team": "Sevilla",
+      "goals": 1
+    },
+    {
+      "player": "Nico Serrano",
+      "team": "Athletic",
+      "goals": 1
+    },
+    {
+      "player": "Omar Mascarell",
+      "team": "Mallorca",
+      "goals": 1
+    },
+    {
+      "player": "Oso",
+      "team": "Sevilla",
+      "goals": 1
+    },
+    {
+      "player": "Pablo Barrios",
+      "team": "Atlético",
+      "goals": 1
+    },
+    {
+      "player": "Pablo Ibáñez",
+      "team": "Alaves",
+      "goals": 1
+    },
+    {
+      "player": "Pablo Maffeo",
+      "team": "Mallorca",
+      "goals": 1
+    },
+    {
+      "player": "Pathé Ciss",
+      "team": "Rayo",
+      "goals": 1
+    },
+    {
+      "player": "Pedro Bigas",
+      "team": "Elche",
+      "goals": 1
+    },
+    {
+      "player": "Pep Chavarría",
+      "team": "Rayo",
+      "goals": 1
+    },
+    {
+      "player": "Pepelu",
+      "team": "Valencia",
+      "goals": 1
+    },
+    {
+      "player": "Ramon Terrats",
+      "team": "Espanyol",
+      "goals": 1
+    },
+    {
+      "player": "Rodrigo Mendoza",
+      "team": "Elche",
+      "goals": 1
+    },
+    {
+      "player": "Rodrigo Riquelme",
+      "team": "Betis",
+      "goals": 1
+    },
+    {
+      "player": "Rodrygo",
+      "team": "Real Madrid",
+      "goals": 1
+    },
+    {
+      "player": "Ronald Araujo",
+      "team": "FC Barcelona",
+      "goals": 1
+    },
+    {
+      "player": "Roony Bardghji",
+      "team": "FC Barcelona",
+      "goals": 1
+    },
+    {
+      "player": "Rubén García",
+      "team": "Osasuna",
+      "goals": 1
+    },
+    {
+      "player": "Salomón Rondón",
+      "team": "Real Oviedo",
+      "goals": 1
+    },
+    {
+      "player": "Santiago Mouriño",
+      "team": "Villarreal",
+      "goals": 1
+    },
+    {
+      "player": "Sergi Altimira",
+      "team": "Betis",
+      "goals": 1
+    },
+    {
+      "player": "Sergi Darder",
+      "team": "Mallorca",
+      "goals": 1
+    },
+    {
+      "player": "Takefusa Kubo",
+      "team": "R. Sociedad",
+      "goals": 1
+    },
+    {
+      "player": "Takuma Asano",
+      "team": "Mallorca",
+      "goals": 1
+    },
+    {
+      "player": "Umar Sadiq",
+      "team": "Valencia",
+      "goals": 1
+    },
+    {
+      "player": "Unai Gómez",
+      "team": "Athletic",
+      "goals": 1
+    },
+    {
+      "player": "Valentin Rosier",
+      "team": "Osasuna",
+      "goals": 1
+    },
+    {
+      "player": "Victor Chust",
+      "team": "Elche",
+      "goals": 1
+    },
+    {
+      "player": "Víctor García",
+      "team": "Levante",
+      "goals": 1
+    },
+    {
+      "player": "Álvaro Fidalgo",
+      "team": "Betis",
+      "goals": 1
+    },
+    {
+      "player": "Álvaro Odriozola",
+      "team": "R. Sociedad",
+      "goals": 1
+    },
+    {
+      "player": "Ángel Pérez",
+      "team": "Alaves",
+      "goals": 1
+    },
+    {
+      "player": "Éder Militão",
+      "team": "Real Madrid",
+      "goals": 1
+    },
+    {
+      "player": "Íñigo Ruíz de Galarreta",
+      "team": "Athletic",
+      "goals": 1
+    },
+    {
+      "player": "Óscar Mingueza",
+      "team": "Celta",
+      "goals": 1
+    },
+    {
+      "player": "Óscar Valentín",
+      "team": "Rayo",
+      "goals": 1
+    }
+  ]
 }
