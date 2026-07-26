@@ -1,4 +1,5 @@
 import SwiftUI
+import Charts
 
 // MARK: - Roster model
 
@@ -10,47 +11,35 @@ struct RosterPlayer: Identifiable {
     let positionGroup: String
 }
 
-// MARK: - MatchDetailSheet
+// MARK: - MatchDetailSheet (wrapper con swipe entre partidos)
 
 struct MatchDetailSheet: View {
-    let match: Match
+    let allMatches: [Match]
+    let season: AppSeason
+    @State private var selectedIndex: Int
     @Environment(\.dismiss) private var dismiss
 
-    // Para partidos finalizados sin detalles bundled: fetch on-demand desde ESPN
-    @State private var fetchedDetails: MatchDetails? = nil
-    @State private var isFetchingDetails = false
+    init(match: Match, season: AppSeason, allMatches: [Match] = []) {
+        let matches = allMatches.isEmpty ? [match] : allMatches
+        self.allMatches = matches
+        self.season = season
+        _selectedIndex = State(initialValue: matches.firstIndex(where: { $0.id == match.id }) ?? 0)
+    }
 
-    // Para partidos pendientes: plantillas
-    @State private var homeRoster: [RosterPlayer] = []
-    @State private var awayRoster:  [RosterPlayer] = []
-    @State private var isLoadingRoster = false
-
-    private var effectiveDetails: MatchDetails? { match.details ?? fetchedDetails }
+    private var currentMatch: Match {
+        guard selectedIndex >= 0, selectedIndex < allMatches.count else { return allMatches[0] }
+        return allMatches[selectedIndex]
+    }
 
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack(spacing: 0) {
-                    scoreHeader
-                    Divider().background(Color.white.opacity(0.08))
-
-                    if let details = effectiveDetails {
-                        if let events = details.events, !events.isEmpty {
-                            eventsList(events)
-                            Divider().background(Color.white.opacity(0.08))
-                        }
-                        if let home = details.homeLineup, let away = details.awayLineup {
-                            lineupSection(home: home, away: away)
-                        }
-                    } else if match.done {
-                        completedNoDetailsSection
-                    } else {
-                        rosterSection
-                    }
-
-                    Spacer(minLength: 40)
+            TabView(selection: $selectedIndex) {
+                ForEach(Array(allMatches.enumerated()), id: \.offset) { idx, match in
+                    MatchDetailPage(match: match, season: season)
+                        .tag(idx)
                 }
             }
+            .tabViewStyle(.page(indexDisplayMode: .never))
             .background(Color(hex: 0x0A0A14))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -59,21 +48,84 @@ struct MatchDetailSheet: View {
                         .foregroundStyle(Color(hex: 0x004D98))
                 }
                 ToolbarItem(placement: .principal) {
-                    Text("Jornada \(match.jornada)")
-                        .font(.headline)
-                        .foregroundStyle(.white)
+                    HStack(spacing: 6) {
+                        Text("Jornada \(currentMatch.jornada)")
+                            .font(.headline)
+                            .foregroundStyle(.white)
+                        if allMatches.count > 1 {
+                            Image(systemName: "chevron.left.chevron.right")
+                                .font(.system(size: 9, weight: .medium))
+                                .foregroundStyle(.white.opacity(0.3))
+                        }
+                    }
                 }
             }
             .preferredColorScheme(.dark)
         }
+    }
+}
+
+// MARK: - MatchDetailPage (una página por partido)
+
+private struct MatchDetailPage: View {
+    let match: Match
+    let season: AppSeason
+    @Environment(HighlightSettings.self) private var highlights
+
+    @State private var fetchedDetails: MatchDetails? = nil
+    @State private var isFetchingDetails = false
+    @State private var homeRoster: [RosterPlayer] = []
+    @State private var awayRoster:  [RosterPlayer] = []
+    @State private var isLoadingRoster = false
+    @State private var momentum: [MomentumPoint]? = nil
+    @State private var isFetchingMomentum = false
+    @State private var selectedPlayer: PlayerSelection? = nil
+
+    private var effectiveDetails: MatchDetails? { match.details ?? fetchedDetails }
+
+    var body: some View {
+        ScrollView {
+            VStack(spacing: 0) {
+                scoreHeader
+                Divider().background(Color.white.opacity(0.08))
+
+                if let pts = momentum, !pts.isEmpty {
+                    momentumSection(pts)
+                    Divider().background(Color.white.opacity(0.08))
+                }
+
+                if let details = effectiveDetails {
+                    if let events = details.events, !events.isEmpty {
+                        eventsList(events, matchCtx: match)
+                        Divider().background(Color.white.opacity(0.08))
+                    }
+                    if let home = details.homeLineup, let away = details.awayLineup {
+                        lineupSection(home: home, away: away, matchCtx: match)
+                    }
+                } else if match.done {
+                    completedNoDetailsSection
+                } else {
+                    rosterSection
+                }
+
+                Spacer(minLength: 40)
+            }
+        }
+        .background(Color(hex: 0x0A0A14))
         .task {
             if match.done, match.details == nil {
-                // Partido finalizado sin detalles bundled → fetch on-demand
                 await fetchMatchDetails()
             } else if !match.done, match.details == nil {
-                // Partido pendiente → cargar plantillas
                 await loadRosters()
             }
+            if match.done {
+                await loadMomentum()
+            }
+        }
+        .sheet(item: $selectedPlayer) { sel in
+            PlayerStatsSheet(selection: sel, season: season)
+                .presentationDetents([.medium, .large])
+                .presentationDragIndicator(.visible)
         }
     }
 
@@ -130,18 +182,23 @@ struct MatchDetailSheet: View {
             }
             .padding(.vertical, 14)
         }
-        .background(
-            match.involvesBarcelona
-                ? LinearGradient(
-                    stops: [.init(color: Color(hex: 0x004D98).opacity(0.22), location: 0),
-                            .init(color: Color(hex: 0xA50044).opacity(0.10), location: 1)],
-                    startPoint: .topLeading, endPoint: .bottomTrailing)
-                : LinearGradient(colors: [Color(hex: 0x0F0F1E)], startPoint: .top, endPoint: .bottom)
-        )
+        .background(scoreHeaderBackground)
+    }
+
+    private var scoreHeaderBackground: LinearGradient {
+        let homeHL = highlights.highlight(for: match.home)
+        let awayHL = highlights.highlight(for: match.away)
+        if let h = homeHL ?? awayHL {
+            return LinearGradient(
+                stops: [.init(color: h.color.opacity(0.22), location: 0),
+                        .init(color: h.color.opacity(0.08), location: 1)],
+                startPoint: .topLeading, endPoint: .bottomTrailing)
+        }
+        return LinearGradient(colors: [Color(hex: 0x0F0F1E)], startPoint: .top, endPoint: .bottom)
     }
 
     private func teamColumn(name: String, isHome: Bool) -> some View {
-        let isBarça = name == "FC Barcelona"
+        let hl = highlights.highlight(for: name)
         let isWinner: Bool? = match.done
             ? (isHome ? (match.homeScore ?? 0) > (match.awayScore ?? 0)
                       : (match.awayScore ?? 0) > (match.homeScore ?? 0))
@@ -149,12 +206,12 @@ struct MatchDetailSheet: View {
 
         return VStack(spacing: 10) {
             TeamLogoView(teamName: name, size: 72)
-                .shadow(color: isBarça ? Color(hex: 0x004D98).opacity(0.5) : .clear, radius: 12)
+                .shadow(color: hl.map { $0.color.opacity(0.5) } ?? .clear, radius: 12)
                 .opacity(isWinner == false ? 0.55 : 1.0)
 
             Text(name)
-                .font(.system(size: 13, weight: isBarça ? .bold : .medium))
-                .foregroundStyle(isBarça ? Color(hex: 0x6EC0F0) : .white.opacity(0.9))
+                .font(.system(size: 13, weight: hl != nil ? .bold : .medium))
+                .foregroundStyle(hl?.color ?? .white.opacity(0.9))
                 .multilineTextAlignment(.center)
                 .lineLimit(2)
                 .fixedSize(horizontal: false, vertical: true)
@@ -164,25 +221,51 @@ struct MatchDetailSheet: View {
 
     // MARK: - Events
 
-    private func eventsList(_ events: [MatchEvent]) -> some View {
+    private func eventsList(_ events: [MatchEvent], matchCtx: Match) -> some View {
         VStack(alignment: .leading, spacing: 0) {
             sectionHeader("Eventos del partido")
             ForEach(events) { event in
-                EventRow(event: event, homeTeam: match.home)
+                EventRow(event: event, homeTeam: match.home, matchContext: matchCtx, onSelectPlayer: { sel in
+                    selectedPlayer = PlayerSelection(
+                        playerName: sel.playerName,
+                        teamName: sel.teamName,
+                        athleteID: sel.athleteID,
+                        matchContext: sel.matchContext,
+                        matchDetails: effectiveDetails
+                    )
+                })
                 Divider().background(Color.white.opacity(0.04)).padding(.leading, 16)
             }
         }
     }
 
-    // MARK: - Lineups (partidos finalizados)
+    // MARK: - Lineups
 
-    private func lineupSection(home: TeamLineup, away: TeamLineup) -> some View {
+    private func lineupSection(home: TeamLineup, away: TeamLineup, matchCtx: Match) -> some View {
         VStack(spacing: 0) {
             sectionHeader("Alineaciones")
             HStack(alignment: .top, spacing: 0) {
-                LineupColumn(lineup: home, team: match.home)
+                LineupColumn(lineup: home, team: match.home, matchContext: matchCtx, onSelectPlayer: { sel in
+                    selectedPlayer = PlayerSelection(
+                        playerName: sel.playerName,
+                        teamName: sel.teamName,
+                        athleteID: sel.athleteID,
+                        matchContext: sel.matchContext,
+                        matchDetails: effectiveDetails,
+                        position: sel.position
+                    )
+                })
                 Divider().background(Color.white.opacity(0.06))
-                LineupColumn(lineup: away, team: match.away)
+                LineupColumn(lineup: away, team: match.away, matchContext: matchCtx, onSelectPlayer: { sel in
+                    selectedPlayer = PlayerSelection(
+                        playerName: sel.playerName,
+                        teamName: sel.teamName,
+                        athleteID: sel.athleteID,
+                        matchContext: sel.matchContext,
+                        matchDetails: effectiveDetails,
+                        position: sel.position
+                    )
+                })
             }
         }
     }
@@ -254,9 +337,13 @@ struct MatchDetailSheet: View {
             VStack(spacing: 0) {
                 sectionHeader("Plantillas")
                 HStack(alignment: .top, spacing: 0) {
-                    RosterColumn(players: homeRoster, team: match.home)
+                    RosterColumn(players: homeRoster, team: match.home, onSelectPlayer: { sel in
+                        selectedPlayer = sel
+                    })
                     Divider().background(Color.white.opacity(0.06))
-                    RosterColumn(players: awayRoster, team: match.away)
+                    RosterColumn(players: awayRoster, team: match.away, onSelectPlayer: { sel in
+                        selectedPlayer = sel
+                    })
                 }
             }
         }
@@ -276,7 +363,77 @@ struct MatchDetailSheet: View {
         .background(Color(hex: 0x0D0D1A))
     }
 
-    // MARK: - On-demand detail fetch (partidos históricos finalizados)
+    // MARK: - Momentum
+
+    private func loadMomentum() async {
+        isFetchingMomentum = true
+        defer { isFetchingMomentum = false }
+        if let eventID = await SofaScoreService.resolveEventID(
+            espnYear: season.espnYear,
+            jornada: match.jornada,
+            home: match.home,
+            away: match.away
+        ) {
+            momentum = await SofaScoreService.fetchMomentum(eventID: eventID)
+        }
+    }
+
+    @ViewBuilder
+    private func momentumSection(_ points: [MomentumPoint]) -> some View {
+        VStack(spacing: 0) {
+            sectionHeader("Momentum del partido")
+
+            VStack(spacing: 4) {
+                Text(match.home)
+                    .font(.system(size: 10, weight: .semibold))
+                    .foregroundStyle(highlights.highlight(for: match.home)?.color ?? Color.white.opacity(0.55))
+                    .lineLimit(1)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                let homeColor: Color = highlights.highlight(for: match.home)?.color ?? Color(hex: 0xE8460B)
+                let awayColor: Color = highlights.highlight(for: match.away)?.color ?? Color(hex: 0x4A5568)
+                let maxVal = points.map { abs($0.value) }.max() ?? 1.0
+
+                Chart(points) { p in
+                    BarMark(
+                        x: .value("min", p.minute),
+                        y: .value("presión", p.value)
+                    )
+                    .foregroundStyle(p.value >= 0 ? homeColor : awayColor)
+
+                    RuleMark(y: .value("", 0))
+                        .lineStyle(StrokeStyle(lineWidth: 1))
+                        .foregroundStyle(Color.white.opacity(0.18))
+                }
+                .chartYScale(domain: -maxVal ... maxVal)
+                .chartYAxis(.hidden)
+                .chartXAxis {
+                    AxisMarks(values: [15, 30, 45, 60, 75, 90]) { val in
+                        AxisValueLabel {
+                            if let m = val.as(Int.self) {
+                                Text("\(m)'")
+                                    .font(.system(size: 9))
+                                    .foregroundStyle(Color.white.opacity(0.4))
+                            }
+                        }
+                        AxisGridLine(stroke: StrokeStyle(lineWidth: 0.5, dash: [2, 4]))
+                            .foregroundStyle(Color.white.opacity(0.08))
+                    }
+                }
+                .frame(height: 130)
+
+                Text(match.away)
+                    .font(.system(size: 10, weight: .semibold))
+                    .foregroundStyle(highlights.highlight(for: match.away)?.color ?? Color.white.opacity(0.55))
+                    .lineLimit(1)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
+        }
+    }
+
+    // MARK: - On-demand detail fetch
 
     private func fetchMatchDetails() async {
         guard let espnID = match.espnEventID else { return }
@@ -289,7 +446,6 @@ struct MatchDetailSheet: View {
         fetchedDetails = parseSummary(from: data)
     }
 
-    // Decodifica la respuesta ESPN summary → MatchDetails
     private func parseSummary(from data: Data) -> MatchDetails? {
         struct Resp: Decodable {
             let rosters: [ESPNRoster]?
@@ -330,7 +486,6 @@ struct MatchDetailSheet: View {
 
         guard let resp = try? JSONDecoder().decode(Resp.self, from: data) else { return nil }
 
-        // Lineups desde rosters
         var homeLineup: TeamLineup? = nil
         var awayLineup: TeamLineup? = nil
 
@@ -352,11 +507,6 @@ struct MatchDetailSheet: View {
             else { awayLineup = lineup }
         }
 
-        // Eventos desde keyEvents
-        // ESPN usa múltiples tipos para goles (70, 97, 98, 137, 138, 173…);
-        // usamos scoringPlay:true como indicador universal de gol.
-        // type 97=en propia, 98=penalti, resto con scoringPlay=gol normal
-        // type 76=sustitución, 94=amarilla, 95/96=roja
         let nonGoalTypeIDs: Set<String> = ["76", "94", "95", "96"]
         var events: [MatchEvent] = []
 
@@ -397,13 +547,9 @@ struct MatchDetailSheet: View {
             }
 
             let playerName = extractPlayer(from: event.text, type: typeID)
-
-            // Extraer equipo del texto (más fiable que el campo team de la API)
-            // y resolverlo al nombre canónico de la app (match.home / match.away)
             let rawTeamFromText: String? = teamFromText(event.text, typeID: typeID)
             let resolvedTeam = resolveTeam(rawTeamFromText ?? event.team?.displayName)
 
-            // Para sustituciones: guardar el jugador que SALE en text
             let shortText: String?
             if typeID == "76", let raw = event.text {
                 let parts = raw.components(separatedBy: ". ")
@@ -435,16 +581,15 @@ struct MatchDetailSheet: View {
         )
     }
 
-    // Extrae el nombre ESPN del equipo directamente del texto del evento
     private func teamFromText(_ text: String?, typeID: String) -> String? {
         guard let text else { return nil }
         switch typeID {
-        case "76": // "Substitution, ESPN_Team. PlayerIN replaces PlayerOUT."
+        case "76":
             if text.hasPrefix("Substitution, ") {
                 let after = text.dropFirst("Substitution, ".count)
                 if let first = after.components(separatedBy: ". ").first { return first }
             }
-        case "94", "95", "96": // "Player (ESPN_Team) is shown..."
+        case "94", "95", "96":
             if let open = text.firstIndex(of: "("), let close = text.firstIndex(of: ")") {
                 return String(text[text.index(after: open)..<close])
             }
@@ -453,7 +598,6 @@ struct MatchDetailSheet: View {
         return nil
     }
 
-    // Resuelve un nombre ESPN de equipo al nombre canónico de la app (match.home o match.away)
     private func resolveTeam(_ espnName: String?) -> String? {
         guard let name = espnName, !name.isEmpty else { return nil }
         func fold(_ s: String) -> String {
@@ -468,7 +612,7 @@ struct MatchDetailSheet: View {
     private func extractPlayer(from text: String?, type typeID: String) -> String? {
         guard let text else { return nil }
         switch typeID {
-        case "97": // Own goal: "Own Goal by Player, Team. Score."
+        case "97":
             let lower = text.lowercased()
             if lower.hasPrefix("own goal by ") {
                 let after = text.dropFirst("Own Goal by ".count)
@@ -477,20 +621,20 @@ struct MatchDetailSheet: View {
                 }
             }
             return nil
-        case "76": // Substitution: "Substitution, Team. Player1 replaces Player2."
+        case "76":
             let parts = text.components(separatedBy: ". ")
             if parts.count > 1 {
                 let subParts = parts[1].components(separatedBy: " replaces ")
                 return subParts.first?.trimmingCharacters(in: .whitespaces)
             }
             return nil
-        case "94", "95", "96": // Card: "PlayerName (Team) is shown..."
+        case "94", "95", "96":
             if let idx = text.firstIndex(of: "(") {
                 let name = String(text[text.startIndex..<idx]).trimmingCharacters(in: .whitespaces)
                 if !name.isEmpty { return name }
             }
             return nil
-        default: // All goal types (70, 98, 137, 138, 173...): "Goal! Team 0, Team2 1. PlayerName (Team) ..."
+        default:
             let parts = text.components(separatedBy: ". ")
             if parts.count > 1 {
                 let afterScore = parts[1...].joined(separator: ". ")
@@ -502,15 +646,7 @@ struct MatchDetailSheet: View {
         }
     }
 
-    private func shortDescription(from text: String?, type typeID: String) -> String? {
-        guard let text else { return nil }
-        // Return only a short description to avoid overflow in the UI
-        let max = 60
-        if text.count <= max { return text }
-        return String(text.prefix(max)) + "…"
-    }
-
-    // MARK: - Roster fetch (partidos pendientes)
+    // MARK: - Roster fetch
 
     private func loadRosters() async {
         isLoadingRoster = true
@@ -520,7 +656,6 @@ struct MatchDetailSheet: View {
         (homeRoster, awayRoster) = await (home, away)
     }
 
-    // ESPN devuelve lista plana de atletas; fallback por temporada si hay pocos jugadores.
     private func fetchRoster(for team: String) async -> [RosterPlayer] {
         guard let id = MatchesData.espnTeamIDs[team] else { return [] }
         let base = "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/teams/\(id)/roster"
@@ -564,7 +699,7 @@ struct MatchDetailSheet: View {
                 id: a.id,
                 name: name,
                 jersey: a.jersey.flatMap(Int.init),
-                position: abbr,
+                position: abbr.isEmpty ? nil : abbr,
                 positionGroup: groupMap[abbr] ?? "Otros"
             )
         }
@@ -576,6 +711,8 @@ struct MatchDetailSheet: View {
 struct RosterColumn: View {
     let players: [RosterPlayer]
     let team: String
+    var onSelectPlayer: ((PlayerSelection) -> Void)? = nil
+    @Environment(HighlightSettings.self) private var highlights
 
     private var groups: [(String, [RosterPlayer])] {
         let order = ["Porteros", "Defensas", "Centrocampistas", "Delanteros"]
@@ -596,7 +733,7 @@ struct RosterColumn: View {
                 TeamLogoView(teamName: team, size: 26)
                 Text(team)
                     .font(.caption.weight(.bold))
-                    .foregroundStyle(team == "FC Barcelona" ? Color(hex: 0x6EC0F0) : .white.opacity(0.8))
+                    .foregroundStyle(highlights.highlight(for: team)?.color ?? .white.opacity(0.8))
                     .lineLimit(1)
             }
             .padding(.horizontal, 10).padding(.vertical, 8)
@@ -609,18 +746,29 @@ struct RosterColumn: View {
                     .padding(.horizontal, 10).padding(.top, 6).padding(.bottom, 2)
 
                 ForEach(groupPlayers) { player in
-                    HStack(spacing: 6) {
-                        Text(player.jersey.map { "\($0)" } ?? "–")
-                            .font(.system(size: 11, weight: .bold))
-                            .foregroundStyle(.white.opacity(0.3))
-                            .frame(width: 22, alignment: .trailing)
-                        Text(player.name)
-                            .font(.system(size: 13))
-                            .foregroundStyle(.white.opacity(0.85))
-                            .lineLimit(1)
-                        Spacer()
+                    Button(action: {
+                        let sel = PlayerSelection(
+                            playerName: player.name,
+                            teamName: team,
+                            athleteID: player.id,
+                            position: player.position
+                        )
+                        onSelectPlayer?(sel)
+                    }) {
+                        HStack(spacing: 6) {
+                            Text(player.jersey.map { "\($0)" } ?? "–")
+                                .font(.system(size: 11, weight: .bold))
+                                .foregroundStyle(.white.opacity(0.3))
+                                .frame(width: 22, alignment: .trailing)
+                            Text(player.name)
+                                .font(.system(size: 13))
+                                .foregroundStyle(.white.opacity(0.85))
+                                .lineLimit(1)
+                            Spacer()
+                        }
+                        .padding(.horizontal, 8).padding(.vertical, 3)
                     }
-                    .padding(.horizontal, 8).padding(.vertical, 3)
+                    .buttonStyle(.plain)
                 }
             }
         }
@@ -633,6 +781,8 @@ struct RosterColumn: View {
 struct EventRow: View {
     let event: MatchEvent
     let homeTeam: String
+    var matchContext: Match? = nil
+    var onSelectPlayer: ((PlayerSelection) -> Void)? = nil
 
     private var isHome: Bool { event.teamName == homeTeam }
 
@@ -657,15 +807,30 @@ struct EventRow: View {
     private func eventInfo(alignment: HorizontalAlignment) -> some View {
         if event.type == .substitution, let outgoing = event.text, !outgoing.isEmpty {
             VStack(alignment: alignment, spacing: 2) {
-                Text(event.playerName ?? "")
-                    .font(.subheadline)
-                    .foregroundStyle(.white)
+                playerNameView(event.playerName ?? "", alignment: alignment)
                 Text(outgoing)
                     .font(.caption)
                     .foregroundStyle(.white.opacity(0.45))
             }
         } else {
-            Text(event.playerName ?? "")
+            playerNameView(event.playerName ?? "", alignment: alignment)
+        }
+    }
+
+    @ViewBuilder
+    private func playerNameView(_ name: String, alignment: HorizontalAlignment) -> some View {
+        if !name.isEmpty {
+            Button(action: {
+                let sel = PlayerSelection(playerName: name, teamName: event.teamName, athleteID: nil, matchContext: matchContext)
+                onSelectPlayer?(sel)
+            }) {
+                Text(name)
+                    .font(.subheadline)
+                    .foregroundStyle(.white)
+            }
+            .buttonStyle(.plain)
+        } else {
+            Text(name)
                 .font(.subheadline)
                 .foregroundStyle(.white)
         }
@@ -679,11 +844,14 @@ struct EventRow: View {
     }
 }
 
-// MARK: - Lineup Column (partidos finalizados)
+// MARK: - Lineup Column
 
 struct LineupColumn: View {
     let lineup: TeamLineup
     let team: String
+    var matchContext: Match? = nil
+    var onSelectPlayer: ((PlayerSelection) -> Void)? = nil
+    @Environment(HighlightSettings.self) private var highlights
 
     private var starters: [LineupPlayer] { lineup.players.filter(\.isStarter) }
     private var subs:     [LineupPlayer] { lineup.players.filter { !$0.isStarter } }
@@ -695,7 +863,7 @@ struct LineupColumn: View {
                 VStack(alignment: .leading, spacing: 1) {
                     Text(team)
                         .font(.caption.weight(.bold))
-                        .foregroundStyle(team == "FC Barcelona" ? Color(hex: 0x6EC0F0) : .white.opacity(0.8))
+                        .foregroundStyle(highlights.highlight(for: team)?.color ?? .white.opacity(0.8))
                         .lineLimit(1)
                     if let f = lineup.formation {
                         Text(f).font(.system(size: 10)).foregroundStyle(.white.opacity(0.3))
@@ -705,14 +873,18 @@ struct LineupColumn: View {
             .padding(.horizontal, 10).padding(.vertical, 8)
             .background(Color(hex: 0x0D0D1A))
 
-            ForEach(starters) { p in PlayerRow(player: p) }
+            ForEach(starters) { p in
+                PlayerRow(player: p, team: team, matchContext: matchContext, onSelectPlayer: onSelectPlayer)
+            }
 
             if !subs.isEmpty {
                 Text("Suplentes")
                     .font(.system(size: 9, weight: .bold))
                     .foregroundStyle(.white.opacity(0.22))
                     .padding(.horizontal, 10).padding(.top, 6).padding(.bottom, 2)
-                ForEach(subs) { p in PlayerRow(player: p) }
+                ForEach(subs) { p in
+                    PlayerRow(player: p, team: team, matchContext: matchContext, onSelectPlayer: onSelectPlayer)
+                }
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -721,19 +893,34 @@ struct LineupColumn: View {
 
 struct PlayerRow: View {
     let player: LineupPlayer
+    var team: String? = nil
+    var matchContext: Match? = nil
+    var onSelectPlayer: ((PlayerSelection) -> Void)? = nil
 
     var body: some View {
-        HStack(spacing: 6) {
-            Text(player.jersey.map { "\($0)" } ?? "-")
-                .font(.system(size: 11, weight: .bold))
-                .foregroundStyle(.white.opacity(0.3))
-                .frame(width: 22, alignment: .trailing)
-            Text(player.name)
-                .font(.system(size: 13))
-                .foregroundStyle(.white.opacity(0.85))
-                .lineLimit(1)
-            Spacer()
+        Button(action: {
+            let sel = PlayerSelection(
+                playerName: player.name,
+                teamName: team,
+                athleteID: player.id,
+                matchContext: matchContext,
+                position: player.position
+            )
+            onSelectPlayer?(sel)
+        }) {
+            HStack(spacing: 6) {
+                Text(player.jersey.map { "\($0)" } ?? "-")
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundStyle(.white.opacity(0.3))
+                    .frame(width: 22, alignment: .trailing)
+                Text(player.name)
+                    .font(.system(size: 13))
+                    .foregroundStyle(.white.opacity(0.85))
+                    .lineLimit(1)
+                Spacer()
+            }
+            .padding(.horizontal, 8).padding(.vertical, 3)
         }
-        .padding(.horizontal, 8).padding(.vertical, 3)
+        .buttonStyle(.plain)
     }
 }

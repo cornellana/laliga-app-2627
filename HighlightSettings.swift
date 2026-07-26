@@ -11,24 +11,58 @@ struct TeamHighlight: Codable, Identifiable, Equatable {
     var color: Color { Color(hex: colorHex) }
 }
 
+// MARK: - NotificationPrefs
+
+struct NotificationPrefs: Codable, Equatable {
+    var enabled:    Bool = false
+    var goals:      Bool = true
+    var penalties:  Bool = true
+    var redCards:   Bool = true
+    var startEnd:   Bool = true
+}
+
 // MARK: - HighlightSettings
 
 @Observable
 final class HighlightSettings {
-    private static let key = "highlight_settings_v1"
+    private static let highlightKey = "highlight_settings_v1"
+    private static let notifKey     = "notification_prefs_v1"
 
     var highlights: [TeamHighlight] {
-        didSet { persist() }
+        didSet {
+            persist()
+            NotificationService.shared.sync(teams: highlights.map(\.team), prefs: notifications)
+        }
+    }
+
+    var notifications: NotificationPrefs {
+        didSet {
+            persistNotifications()
+            NotificationService.shared.sync(teams: highlights.map(\.team), prefs: notifications)
+        }
     }
 
     init() {
-        if let data = UserDefaults.standard.data(forKey: Self.key),
+        if let data = UserDefaults.standard.data(forKey: Self.highlightKey),
            let decoded = try? JSONDecoder().decode([TeamHighlight].self, from: data) {
             self.highlights = decoded
         } else {
-            // Default: FC Barcelona blaugrana
-            self.highlights = [TeamHighlight(team: "FC Barcelona", colorHex: 0x004D98)]
+            self.highlights = []
         }
+
+        if let data = UserDefaults.standard.data(forKey: Self.notifKey),
+           let decoded = try? JSONDecoder().decode(NotificationPrefs.self, from: data) {
+            self.notifications = decoded
+        } else {
+            self.notifications = NotificationPrefs()
+        }
+
+        // Cachea teams y prefs para que NotificationService pueda registrar
+        // en cuanto APNs entregue el token
+        NotificationService.shared.updateCache(
+            teams: self.highlights.map(\.team),
+            prefs: self.notifications
+        )
     }
 
     func highlight(for team: String) -> TeamHighlight? {
@@ -51,7 +85,13 @@ final class HighlightSettings {
 
     private func persist() {
         if let data = try? JSONEncoder().encode(highlights) {
-            UserDefaults.standard.set(data, forKey: Self.key)
+            UserDefaults.standard.set(data, forKey: Self.highlightKey)
+        }
+    }
+
+    private func persistNotifications() {
+        if let data = try? JSONEncoder().encode(notifications) {
+            UserDefaults.standard.set(data, forKey: Self.notifKey)
         }
     }
 }

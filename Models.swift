@@ -188,6 +188,34 @@ struct TopScorer: Identifiable, Codable {
     let penalties: Int?
 }
 
+// MARK: - Player Selection
+
+struct PlayerSelection: Identifiable, Equatable {
+    var id: String { "\(playerName)_\(teamName ?? "")_\(athleteID ?? "")_\(matchContext?.id ?? "")" }
+    let playerName: String
+    let teamName: String?
+    let athleteID: String?
+    let matchContext: Match?
+    let matchDetails: MatchDetails?  // effectiveDetails from MatchDetailSheet (may differ from match.details)
+    let position: String?            // abbreviation like "G", "D", "M", "F" — nil if unknown
+
+    init(playerName: String, teamName: String?, athleteID: String?, matchContext: Match? = nil, matchDetails: MatchDetails? = nil, position: String? = nil) {
+        self.playerName = playerName
+        self.teamName = teamName
+        self.athleteID = athleteID
+        self.matchContext = matchContext
+        self.matchDetails = matchDetails
+        self.position = position
+    }
+
+    static func == (lhs: PlayerSelection, rhs: PlayerSelection) -> Bool {
+        lhs.playerName == rhs.playerName &&
+        lhs.teamName == rhs.teamName &&
+        lhs.athleteID == rhs.athleteID &&
+        lhs.matchContext?.id == rhs.matchContext?.id
+    }
+}
+
 // MARK: - Color Helpers
 
 extension Color {

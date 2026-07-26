@@ -1,9 +1,18 @@
 import SwiftUI
 
+// Wrapper to make String work with .sheet(item:)
+private struct IdentifiableString: Identifiable {
+    let id: String
+}
+
 struct StandingsSheet: View {
     let standings: [LeagueStanding]
     let seasonName: String
+    let matchDays: [MatchDay]
+    let season: AppSeason
+
     @Environment(\.dismiss) private var dismiss
+    @State private var teamItem: IdentifiableString? = nil
 
     var body: some View {
         NavigationStack {
@@ -16,7 +25,10 @@ struct StandingsSheet: View {
                         emptyView
                     } else {
                         ForEach(Array(standings.enumerated()), id: \.element.id) { idx, standing in
-                            StandingRow(standing: standing, isBarcelona: standing.team == "FC Barcelona")
+                            StandingRow(
+                                standing: standing,
+                                onTap: { teamItem = IdentifiableString(id: standing.team) }
+                            )
                             if idx < standings.count - 1 {
                                 Divider()
                                     .background(Color.white.opacity(standing.position == 4 || standing.position == 6 || standing.position == 7 || standing.position == 17 ? 0.25 : 0.05))
@@ -40,6 +52,11 @@ struct StandingsSheet: View {
             }
             .safeAreaInset(edge: .bottom) { zoneLegend }
             .preferredColorScheme(.dark)
+        }
+        .sheet(item: $teamItem) { item in
+            TeamResultsSheet(team: item.id, matchDays: matchDays, seasonName: seasonName)
+                .presentationDetents([.medium, .large])
+                .presentationDragIndicator(.visible)
         }
     }
 
@@ -90,54 +107,56 @@ struct StandingsSheet: View {
 
 struct StandingRow: View {
     let standing: LeagueStanding
-    let isBarcelona: Bool
+    var onTap: (() -> Void)? = nil
+    @Environment(HighlightSettings.self) private var highlights
 
     var body: some View {
-        HStack(spacing: 0) {
-            // Zone indicator
-            Rectangle()
-                .fill(standing.zone.color)
-                .frame(width: 3)
+        let hl = highlights.highlight(for: standing.team)
+        Button(action: { onTap?() }) {
+            HStack(spacing: 0) {
+                // Zone indicator
+                Rectangle()
+                    .fill(standing.zone.color)
+                    .frame(width: 3)
 
-            // Position
-            Text("\(standing.position)")
-                .font(.system(size: 13, weight: .semibold))
-                .foregroundStyle(.white.opacity(0.55))
-                .frame(width: 28, alignment: .center)
+                // Position
+                Text("\(standing.position)")
+                    .font(.system(size: 13, weight: .semibold))
+                    .foregroundStyle(.white.opacity(0.55))
+                    .frame(width: 28, alignment: .center)
 
-            // Team name
-            Text(standing.team)
-                .font(.system(size: 13, weight: isBarcelona ? .bold : .regular))
-                .foregroundStyle(isBarcelona ? Color(hex: 0x6EC0F0) : .white)
-                .lineLimit(1)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(.leading, 4)
+                // Team name
+                Text(standing.team)
+                    .font(.system(size: 13, weight: hl != nil ? .bold : .regular))
+                    .foregroundStyle(hl?.color ?? .white)
+                    .lineLimit(1)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading, 4)
 
-            Group {
-                Text("\(standing.played)").frame(width: 28, alignment: .center)
-                Text("\(standing.won)").frame(width: 28, alignment: .center)
-                Text("\(standing.drawn)").frame(width: 28, alignment: .center)
-                Text("\(standing.lost)").frame(width: 28, alignment: .center)
-                Text(standing.goalDifference >= 0 ? "+\(standing.goalDifference)" : "\(standing.goalDifference)")
-                    .frame(width: 32, alignment: .center)
-                    .foregroundStyle(standing.goalDifference > 0 ? Color(hex: 0x1B8A4C) : standing.goalDifference < 0 ? Color(hex: 0xC0392B) : .white.opacity(0.55))
-                Text("\(standing.points)")
-                    .font(.system(size: 13, weight: .bold))
-                    .frame(width: 32, alignment: .center)
-                    .foregroundStyle(.white)
+                Group {
+                    Text("\(standing.played)").frame(width: 28, alignment: .center)
+                    Text("\(standing.won)").frame(width: 28, alignment: .center)
+                    Text("\(standing.drawn)").frame(width: 28, alignment: .center)
+                    Text("\(standing.lost)").frame(width: 28, alignment: .center)
+                    Text(standing.goalDifference >= 0 ? "+\(standing.goalDifference)" : "\(standing.goalDifference)")
+                        .frame(width: 32, alignment: .center)
+                        .foregroundStyle(standing.goalDifference > 0 ? Color(hex: 0x1B8A4C) : standing.goalDifference < 0 ? Color(hex: 0xC0392B) : .white.opacity(0.55))
+                    Text("\(standing.points)")
+                        .font(.system(size: 13, weight: .bold))
+                        .frame(width: 32, alignment: .center)
+                        .foregroundStyle(.white)
+                }
+                .font(.system(size: 12))
+                .foregroundStyle(.white.opacity(0.65))
             }
-            .font(.system(size: 12))
-            .foregroundStyle(.white.opacity(0.65))
+            .padding(.vertical, 9)
+            .background(
+                hl != nil
+                    ? AnyShapeStyle(hl!.color.opacity(0.12))
+                    : AnyShapeStyle(Color.clear)
+            )
         }
-        .padding(.vertical, 9)
-        .background(
-            isBarcelona
-                ? LinearGradient(
-                    stops: [.init(color: Color(hex: 0x004D98).opacity(0.2), location: 0),
-                            .init(color: Color(hex: 0xA50044).opacity(0.08), location: 1)],
-                    startPoint: .leading, endPoint: .trailing)
-                : LinearGradient(colors: [Color.clear], startPoint: .leading, endPoint: .trailing)
-        )
+        .buttonStyle(.plain)
     }
 }
 

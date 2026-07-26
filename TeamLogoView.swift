@@ -80,6 +80,7 @@ struct TeamLogoView: View {
         "Las Palmas":   3842,
         "Leganés":      6900,
         "Valladolid":   100,
+        "Real Oviedo":  92,
     ]
 
     // Color representativo de cada equipo para el fallback
@@ -105,6 +106,7 @@ struct TeamLogoView: View {
         case "Deportivo":    return Color(hex: 0x003087)
         case "Elche":        return Color(hex: 0x007A33)
         case "Málaga":       return Color(hex: 0x0055A5)
+        case "Real Oviedo":  return Color(hex: 0x003087)
         default:             return Color(hex: 0x555566)
         }
     }

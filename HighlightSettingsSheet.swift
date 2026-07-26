@@ -1,4 +1,5 @@
 import SwiftUI
+import UserNotifications
 
 // MARK: - Highlight Settings Sheet
 
@@ -7,6 +8,7 @@ struct HighlightSettingsSheet: View {
     let allTeams: [String]
 
     @State private var showingAddTeam = false
+    @State private var authStatus: UNAuthorizationStatus = .notDetermined
 
     private var availableTeams: [String] {
         let highlighted = Set(settings.highlights.map(\.team))
@@ -16,6 +18,7 @@ struct HighlightSettingsSheet: View {
     var body: some View {
         NavigationStack {
             List {
+                // MARK: Equipos resaltados
                 Section {
                     if settings.highlights.isEmpty {
                         Text("Ningún equipo resaltado")
@@ -42,6 +45,39 @@ struct HighlightSettingsSheet: View {
                     }
                     .disabled(availableTeams.isEmpty)
                 }
+
+                // MARK: Avisos
+                Section {
+                    Toggle("Activar avisos", isOn: $settings.notifications.enabled)
+
+                    if settings.notifications.enabled {
+                        Toggle("Goles", isOn: $settings.notifications.goals)
+                        Toggle("Penaltis", isOn: $settings.notifications.penalties)
+                        Toggle("Expulsiones", isOn: $settings.notifications.redCards)
+                        Toggle("Inicio y final", isOn: $settings.notifications.startEnd)
+                    }
+
+                    if authStatus == .denied {
+                        HStack(spacing: 8) {
+                            Image(systemName: "bell.slash.fill")
+                                .foregroundStyle(.orange)
+                            Text("Sin permiso de notificaciones")
+                                .font(.subheadline)
+                                .foregroundStyle(.orange)
+                        }
+                        Button("Activar en Ajustes del sistema") {
+                            if let url = URL(string: UIApplication.openSettingsURLString) {
+                                UIApplication.shared.open(url)
+                            }
+                        }
+                        .font(.subheadline)
+                    }
+                } header: {
+                    Text("Avisos")
+                } footer: {
+                    Text("Recibirás avisos de los partidos de tus equipos resaltados, aunque la app esté cerrada.")
+                        .font(.caption)
+                }
             }
             .navigationTitle("Resaltado de equipos")
             .navigationBarTitleDisplayMode(.inline)
@@ -54,6 +90,10 @@ struct HighlightSettingsSheet: View {
                 AddHighlightSheet(teams: availableTeams) { team, color in
                     settings.add(team: team, color: color)
                 }
+            }
+            .task {
+                let s = await UNUserNotificationCenter.current().notificationSettings()
+                authStatus = s.authorizationStatus
             }
         }
         .preferredColorScheme(.dark)
@@ -69,7 +109,6 @@ private struct HighlightRow: View {
 
     var body: some View {
         HStack(spacing: 12) {
-            // Color bar preview
             RoundedRectangle(cornerRadius: 3)
                 .fill(highlight.color)
                 .frame(width: 4, height: 36)
@@ -124,7 +163,6 @@ struct AddHighlightSheet: View {
                 Section("Color de resaltado") {
                     ColorPicker("Color del equipo", selection: $selectedColor, supportsOpacity: false)
 
-                    // Preview
                     HStack(spacing: 12) {
                         RoundedRectangle(cornerRadius: 3)
                             .fill(selectedColor)

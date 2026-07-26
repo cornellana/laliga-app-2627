@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Liga App — Manual de Usuario</title>
+<style>
+  /* ── Reset y tipografía ── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #1a1a2e;
+    background: #fff;
+  }
+
+  /* ── Portada ── */
+  .cover {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg, #0a0a14 0%, #1a1a3e 60%, #0a0a14 100%);
+    color: #fff;
+    text-align: center;
+    padding: 60px 40px;
+    page-break-after: always;
+  }
+
+  .cover-badge {
+    display: inline-block;
+    background: #e8460b;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+  }
+
+  .cover h1 {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+  }
+
+  .cover h1 span { color: #e8460b; }
+
+  .cover .subtitle {
+    font-size: 20px;
+    color: rgba(255,255,255,0.55);
+    margin-bottom: 48px;
+  }
+
+  .cover .version {
+    margin-top: 60px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.3);
+  }
+
+  /* ── Índice ── */
+  .toc {
+    padding: 60px 72px;
+    page-break-after: always;
+  }
+
+  .toc h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0a0a14;
+    margin-bottom: 32px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #e8460b;
+  }
+
+  .toc ol {
+    list-style: none;
+    counter-reset: toc;
+  }
+
+  .toc ol li {
+    counter-increment: toc;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+  }
+
+  .toc ol li::before {
+    content: counter(toc) ".";
+    font-weight: 700;
+    color: #e8460b;
+    min-width: 24px;
+  }
+
+  .toc ol li .dots {
+    flex: 1;
+    border-bottom: 1px dotted #ccc;
+    margin: 0 8px;
+    position: relative;
+    top: -4px;
+  }
+
+  /* ── Secciones ── */
+  .section {
+    padding: 56px 72px;
+    page-break-inside: avoid;
+  }
+
+  .section + .section {
+    page-break-before: always;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 28px;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #e8460b;
+  }
+
+  .section-number {
+    background: #e8460b;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .section h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0a0a14;
+  }
+
+  /* ── Layout con imagen ── */
+  .content-with-image {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+  }
+
+  .content-with-image.image-right { flex-direction: row; }
+  .content-with-image.image-left  { flex-direction: row-reverse; }
+
+  .text-block { flex: 1; }
+  .image-block { flex: 0 0 260px; }
+
+  .image-block img {
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    display: block;
+  }
+
+  .image-caption {
+    text-align: center;
+    font-size: 11px;
+    color: #888;
+    margin-top: 8px;
+    font-style: italic;
+  }
+
+  /* ── Dos imágenes lado a lado ── */
+  .two-images {
+    display: flex;
+    gap: 24px;
+    margin-top: 28px;
+  }
+
+  .two-images .image-block {
+    flex: 1;
+  }
+
+  /* ── Texto ── */
+  .text-block p {
+    color: #2d2d4e;
+    margin-bottom: 16px;
+  }
+
+  .text-block h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #0a0a14;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .text-block h3:first-child { margin-top: 0; }
+
+  /* ── Callout ── */
+  .callout {
+    background: #f5f5ff;
+    border-left: 4px solid #004d98;
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-size: 14px;
+    color: #1a1a3e;
+  }
+
+  .callout.tip    { border-color: #1b8a4c; background: #f0fff4; }
+  .callout.info   { border-color: #004d98; background: #f0f4ff; }
+  .callout.warn   { border-color: #e8460b; background: #fff5f0; }
+
+  .callout strong { display: block; margin-bottom: 4px; }
+
+  /* ── Lista de funciones ── */
+  .feature-list {
+    list-style: none;
+    margin: 12px 0 16px;
+  }
+
+  .feature-list li {
+    padding: 7px 0 7px 24px;
+    position: relative;
+    color: #2d2d4e;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .feature-list li:last-child { border-bottom: none; }
+
+  .feature-list li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #e8460b;
+    font-weight: 700;
+  }
+
+  /* ── Tabla de eventos ── */
+  .events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+
+  .events-table th {
+    background: #0a0a14;
+    color: #fff;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .events-table td {
+    padding: 9px 14px;
+    border-bottom: 1px solid #eee;
+    color: #2d2d4e;
+  }
+
+  .events-table tr:nth-child(even) td { background: #f8f8fc; }
+
+  /* ── Footer de sección ── */
+  .section-footer {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+    font-size: 12px;
+    color: #aaa;
+    text-align: right;
+  }
+
+  /* ── Estilos de impresión ── */
+  @media print {
+    body { font-size: 13px; }
+    .cover { min-height: 100vh; }
+    .section { padding: 40px 56px; }
+    .toc { padding: 40px 56px; }
+    @page { margin: 0; size: A4; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════ PORTADA -->
+<div class="cover">
+  <div class="cover-badge">Manual de Usuario</div>
+  <h1>La Liga <span>App</span></h1>
+  <div class="subtitle">Guía completa de todas las funciones</div>
+  <div style="display:flex;gap:32px;margin-top:20px;opacity:0.5;font-size:13px;">
+    <span>Temporadas 24/25 · 25/26 · 26/27</span>
+    <span>|</span>
+    <span>iOS 17+</span>
+  </div>
+  <div class="version">Julio 2026</div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ ÍNDICE -->
+<div class="toc">
+  <h2>Contenido</h2>
+  <ol>
+    <li><span>Pantalla principal</span><span class="dots"></span></li>
+    <li><span>Cambio de temporada</span><span class="dots"></span></li>
+    <li><span>Filtros: equipo y jornada</span><span class="dots"></span></li>
+    <li><span>Detalle de partido</span><span class="dots"></span></li>
+    <li><span>Clasificación</span><span class="dots"></span></li>
+    <li><span>Máximos goleadores</span><span class="dots"></span></li>
+    <li><span>Calendario de equipo</span><span class="dots"></span></li>
+    <li><span>Equipos resaltados y avisos push</span><span class="dots"></span></li>
+  </ol>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ 1. PANTALLA PRINCIPAL -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">1</div>
+    <h2>Pantalla principal</h2>
+  </div>
+
+  <div class="content-with-image image-right">
+    <div class="text-block">
+      <p>Al abrir la app aparece el calendario completo de La Liga ordenado por jornadas. Cada jornada agrupa los partidos de los días en que se disputa, mostrando fecha, equipos, resultado y canal de televisión.</p>
+
+      <h3>Scroll automático</h3>
+      <p>La app se desplaza automáticamente a la jornada del día actual o, si no hay partidos ese día, a la siguiente jornada programada. Esto hace que siempre veas lo más relevante al abrir la app sin tener que buscar.</p>
+
+      <h3>Información de cada partido</h3>
+      <ul class="feature-list">
+        <li>Escudos de los equipos local y visitante</li>
+        <li>Resultado final (en negrita el equipo ganador, atenuado el perdedor)</li>
+        <li>Hora del partido o estado "Final"</li>
+        <li>Indicador del canal de TV (DAZN, Movistar, etc.)</li>
+      </ul>
+
+      <h3>Equipos resaltados</h3>
+      <p>Los partidos de los equipos que hayas marcado como favoritos aparecen con una barra de color lateral y un fondo tintado. En el ejemplo, FC Barcelona aparece destacado en azul.</p>
+
+      <h3>Actualización</h3>
+      <p>Los datos se actualizan automáticamente cada vez que abres la app. También puedes forzar la actualización deslizando hacia abajo (pull-to-refresh). Si no hay conexión, la app usa los datos de la última sesión.</p>
+
+      <div class="callout tip">
+        <strong>Consejo</strong>
+        El indicador de carga (círculo rojo) en la esquina superior izquierda del toolbar aparece mientras la app descarga los datos más recientes.
+      </div>
+    </div>
+    <div class="image-block">
+      <img src="manual-imagenes/01-pantalla-principal.png" alt="Pantalla principal">
+      <div class="image-caption">Pantalla principal con FC Barcelona resaltado en azul (Jornada 1)</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ 2. TEMPORADA -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">2</div>
+    <h2>Cambio de temporada</h2>
+  </div>
+
+  <div class="content-with-image image-left">
+    <div class="text-block">
+      <p>La app incluye los datos de tres temporadas de La Liga: <strong>26/27</strong>, <strong>25/26</strong> y <strong>24/25</strong>. Puedes cambiar entre ellas en cualquier momento sin reiniciar la app.</p>
+
+      <h3>Cómo cambiar de temporada</h3>
+      <p>Toca el título central del toolbar — donde aparece "La Liga" y debajo la temporada activa en naranja. Se despliega un menú con las tres opciones disponibles. La temporada seleccionada aparece marcada con un ✓.</p>
+
+      <h3>Comportamiento al cambiar</h3>
+      <ul class="feature-list">
+        <li>Se carga el calendario completo de la temporada elegida</li>
+        <li>Los filtros de equipo y jornada se reinician automáticamente</li>
+        <li>El scroll se ajusta a la jornada correspondiente</li>
+        <li>Los datos de cada temporada se guardan en caché por separado</li>
+      </ul>
+
+      <div class="callout info">
+        <strong>Por defecto</strong>
+        La app siempre arranca en la temporada 26/27 (la más reciente). Si cambias a otra temporada y cierras la app, al volver mostrará de nuevo la 26/27.
+      </div>
+    </div>
+    <div class="image-block">
+      <img src="manual-imagenes/02-selector-temporada.png" alt="Selector de temporada">
+      <div class="image-caption">Menú de cambio de temporada (Temp. 25/26 activa)</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ 3. FILTROS -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">3</div>
+    <h2>Filtros: equipo y jornada</h2>
+  </div>
+
+  <div class="text-block" style="margin-bottom:28px;">
+    <p>Bajo el toolbar hay una barra de filtros con dos selectores que puedes combinar libremente. Cuando un filtro está activo, su cápsula cambia de color (fondo degradado azul-rojo para equipo, azul sólido para jornada).</p>
+
+    <div class="callout tip">
+      <strong>Combinar filtros</strong>
+      Puedes activar ambos a la vez. Por ejemplo: filtrar por "FC Barcelona" + "Jornada 12" para ver exactamente el partido del Barça de esa jornada.
+    </div>
+  </div>
+
+  <div class="two-images">
+    <div class="image-block">
+      <img src="manual-imagenes/04-filtro-equipo.png" alt="Filtro por equipo">
+      <div class="image-caption">Filtro por equipo activo — solo aparecen los partidos del FC Barcelona en todas las jornadas</div>
+    </div>
+    <div class="image-block">
+      <img src="manual-imagenes/03-filtro-jornada.png" alt="Filtro por jornada">
+      <div class="image-caption">Filtro por jornada activo — vista completa de la Jornada 12 (7-9 nov)</div>
+    </div>
+  </div>
+
+  <div class="text-block" style="margin-top:28px;">
+    <h3>Filtro por equipo</h3>
+    <p>Toca la cápsula "Equipo" para ver el listado de todos los equipos de la temporada. Al seleccionar uno, la vista muestra únicamente los partidos de ese equipo a lo largo de toda la temporada (todas las jornadas juntas). El chip adopta el degradado azul-rojo con el escudo del equipo.</p>
+
+    <h3>Filtro por jornada</h3>
+    <p>Toca "Jornada" para ver el listado de las 38 jornadas con su fecha aproximada. Al seleccionar una, la vista muestra todos los partidos de esa jornada. La cápsula muestra el número de jornada y la fecha de inicio.</p>
+
+    <h3>Quitar filtros</h3>
+    <p>Toca el selector activo y elige "Todos los equipos" o "Todas las jornadas" para volver a la vista completa. Al quitar ambos filtros, el scroll vuelve automáticamente a la jornada actual.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ 4. DETALLE -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">4</div>
+    <h2>Detalle de partido</h2>
+  </div>
+
+  <div class="content-with-image image-right">
+    <div class="text-block">
+      <p>Toca cualquier partido de la lista para abrir su ficha completa. La ficha aparece como un panel deslizante desde la parte inferior.</p>
+
+      <h3>Información disponible</h3>
+      <ul class="feature-list">
+        <li>Resultado final con escudos de ambos equipos</li>
+        <li>Estadio y ciudad donde se disputó</li>
+        <li>Gráfico de <em>momentum</em> del partido (dominio de cada equipo por tramos)</li>
+        <li>Eventos del partido en orden cronológico</li>
+        <li>Alineaciones (titulares y suplentes) si están disponibles</li>
+      </ul>
+
+      <h3>Eventos del partido</h3>
+      <table class="events-table">
+        <thead>
+          <tr><th>Símbolo</th><th>Evento</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⚽</td><td>Gol</td></tr>
+          <tr><td>⚽ (p)</td><td>Gol de penalti</td></tr>
+          <tr><td>⚽ (pp)</td><td>Gol en propia puerta</td></tr>
+          <tr><td>🟨</td><td>Tarjeta amarilla</td></tr>
+          <tr><td>🟥</td><td>Tarjeta roja / doble amarilla</td></tr>
+          <tr><td>🔄</td><td>Sustitución (entra · sale)</td></tr>
+          <tr><td>❌</td><td>Penalti fallado</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Tamaño del panel</h3>
+      <p>En partidos ya terminados el panel se abre a pantalla completa para mostrar todos los datos. En partidos pendientes se abre a media pantalla (puedes arrastrarlo hacia arriba para expandirlo).</p>
+
+      <div class="callout tip">
+        <strong>Estadísticas de jugador</strong>
+        Si tocas el nombre de un jugador en la alineación, se abre una ficha individual con sus estadísticas de la temporada (goles, asistencias, partidos jugados).
+      </div>
+    </div>
+    <div class="image-block">
+      <img src="manual-imagenes/05-detalle-partido.png" alt="Detalle de partido">
+      <div class="image-caption">Ficha del partido Mallorca 0–3 FC Barcelona (Jornada 1) con gráfico de momentum y eventos</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ 5. CLASIFICACIÓN -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">5</div>
+    <h2>Clasificación</h2>
+  </div>
+
+  <div class="content-with-image image-left">
+    <div class="text-block">
+      <p>Toca el icono <strong>≡</strong> (lista numerada) del toolbar para ver la clasificación completa de la temporada activa.</p>
+
+      <h3>Columnas</h3>
+      <ul class="feature-list">
+        <li><strong>PJ</strong> — Partidos jugados</li>
+        <li><strong>PG</strong> — Partidos ganados</li>
+        <li><strong>PE</strong> — Partidos empatados</li>
+        <li><strong>PP</strong> — Partidos perdidos</li>
+        <li><strong>DG</strong> — Diferencia de goles</li>
+        <li><strong>Pts</strong> — Puntos totales</li>
+      </ul>
+
+      <h3>Zonas de color</h3>
+      <p>Cada posición lleva un indicador de color según la zona de clasificación:</p>
+      <ul class="feature-list">
+        <li><span style="color:#1b8a4c;font-weight:700;">Verde</span> — Posiciones 1–4: Champions League</li>
+        <li><span style="color:#2471a3;font-weight:700;">Azul</span> — Posiciones 5–6: Europa League</li>
+        <li><span style="color:#5dade2;font-weight:700;">Azul claro</span> — Posición 7: Conference League</li>
+        <li><span style="color:#c0392b;font-weight:700;">Rojo</span> — Posiciones 18–20: Descenso</li>
+      </ul>
+
+      <p>Los equipos resaltados aparecen con su nombre en color dentro de la tabla.</p>
+
+      <div class="callout info">
+        <strong>Fuente de los datos</strong>
+        La clasificación se obtiene del mismo JSON remoto que el calendario. Si no hay datos remotos disponibles, se calcula automáticamente a partir de los resultados del calendario.
+      </div>
+    </div>
+    <div class="image-block">
+      <img src="manual-imagenes/06-clasificacion.png" alt="Clasificación">
+      <div class="image-caption">Clasificación de La Liga 25/26 al final de la temporada</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ 6. GOLEADORES -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">6</div>
+    <h2>Máximos goleadores</h2>
+  </div>
+
+  <div class="content-with-image image-right">
+    <div class="text-block">
+      <p>Toca el icono del balón <strong>⚽</strong> en el toolbar para ver el ranking de máximos goleadores de la temporada seleccionada.</p>
+
+      <h3>Información de cada jugador</h3>
+      <ul class="feature-list">
+        <li>Posición en el ranking</li>
+        <li>Nombre completo y equipo</li>
+        <li>Total de goles marcados</li>
+        <li>Goles de penalti (entre paréntesis si los hay)</li>
+      </ul>
+
+      <h3>Equipos resaltados</h3>
+      <p>Los jugadores de los equipos que hayas marcado como favoritos aparecen con su nombre y escudo en el color del equipo resaltado (en el ejemplo, los jugadores del FC Barcelona aparecen en azul).</p>
+    </div>
+    <div class="image-block">
+      <img src="manual-imagenes/07-goleadores.png" alt="Goleadores">
+      <div class="image-caption">Ranking de goleadores de La Liga 25/26. Los jugadores del Barça aparecen en azul.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ 7. CALENDARIO -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">7</div>
+    <h2>Calendario de equipo</h2>
+  </div>
+
+  <div class="content-with-image image-left">
+    <div class="text-block">
+      <p>Toca el icono del <strong>calendario</strong> en el toolbar para ver todos los partidos de la temporada en formato de calendario mensual, con la opción de seleccionar cualquier equipo.</p>
+
+      <h3>Vista de calendario</h3>
+      <p>Cada mes muestra los días del mes con los partidos marcados directamente en el día correspondiente. Los días con partido muestran el escudo del equipo rival y el resultado (si el partido ya se ha disputado).</p>
+
+      <ul class="feature-list">
+        <li>Fondo <strong>verde</strong> en el día: victoria</li>
+        <li>Fondo <strong>rojo</strong> en el día: derrota</li>
+        <li>Fondo <strong>gris</strong> en el día: empate</li>
+        <li>Sin color de fondo: partido aún no disputado</li>
+      </ul>
+
+      <h3>Cambiar de equipo</h3>
+      <p>Toca el nombre del equipo en la parte superior para cambiar y ver el calendario de cualquier otro equipo de la liga.</p>
+
+      <div class="callout tip">
+        <strong>Consejo</strong>
+        Esta vista es ideal para planificar con antelación: puedes ver de un vistazo todos los partidos del mes de tu equipo favorito y cuándo juega en casa o fuera.
+      </div>
+    </div>
+    <div class="image-block">
+      <img src="manual-imagenes/08-calendario.png" alt="Calendario de equipo">
+      <div class="image-caption">Calendario de FC Barcelona — agosto y septiembre 2025</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ 8. AJUSTES -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">8</div>
+    <h2>Equipos resaltados y avisos push</h2>
+  </div>
+
+  <div class="content-with-image image-right">
+    <div class="text-block">
+      <p>Toca el icono de <strong>ajustes ⚙</strong> en el toolbar para personalizar la app: qué equipos resaltar y qué notificaciones recibir.</p>
+
+      <h3>Equipos resaltados</h3>
+      <p>Los equipos resaltados aparecen destacados en la lista de partidos (barra lateral de color y fondo tintado) y en la clasificación y goleadores. Puedes añadir tantos equipos como quieras, cada uno con su propio color.</p>
+
+      <ul class="feature-list">
+        <li>Toca <strong>Añadir equipo</strong> para seleccionar un equipo y asignarle color</li>
+        <li>Toca el <strong>círculo de color</strong> junto al equipo para cambiarlo</li>
+        <li>Desliza hacia la izquierda sobre un equipo para eliminarlo</li>
+        <li>Toca <strong>Editar</strong> (esquina superior derecha) para reordenar</li>
+      </ul>
+
+      <h3>Avisos push</h3>
+      <p>Los avisos push te informan en tiempo real de los eventos clave de los partidos de tus equipos resaltados, <strong>aunque la app esté cerrada</strong>. El backend en el NAS monitoriza todos los partidos de La Liga cada 30 segundos y envía la notificación en cuanto se produce el evento.</p>
+
+      <p>Activa el interruptor <strong>Activar avisos</strong> y elige qué eventos quieres recibir:</p>
+
+      <table class="events-table">
+        <thead>
+          <tr><th>Aviso</th><th>Qué notifica</th><th>Ejemplo</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Goles</strong></td>
+            <td>Cada gol marcado (incluye propios)</td>
+            <td>⚽ GOL (23') · Raphinha · Barça 1–0 Real Madrid</td>
+          </tr>
+          <tr>
+            <td><strong>Penaltis</strong></td>
+            <td>Goles de penalti y penaltis fallados</td>
+            <td>❌ Penalti fallado (55') · Mbappé · Real Madrid · 0–1</td>
+          </tr>
+          <tr>
+            <td><strong>Expulsiones</strong></td>
+            <td>Tarjeta roja o doble amarilla</td>
+            <td>🟥 Expulsión (67') · Vinicius · Real Madrid · 1–2</td>
+          </tr>
+          <tr>
+            <td><strong>Inicio y final</strong></td>
+            <td>Pitido inicial y resultado final</td>
+            <td>🏁 Partido terminado · FC Barcelona 3–1 Real Madrid</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout warn">
+        <strong>Permiso necesario</strong>
+        La primera vez que actives los avisos, iOS te pedirá permiso para enviar notificaciones. Si lo rechazas, puedes activarlo manualmente en <em>Ajustes del iPhone → Notificaciones → 27</em>.
+      </div>
+
+      <div class="callout info">
+        <strong>¿Cómo funcionan los avisos?</strong>
+        Las notificaciones las genera el backend propio instalado en el NAS de casa, que consulta los datos de SofaScore cada 30 segundos durante los partidos. No dependen de que la app esté abierta ni de ningún servicio de pago externo.
+      </div>
+    </div>
+    <div class="image-block">
+      <img src="manual-imagenes/09-ajustes.png" alt="Ajustes">
+      <div class="image-caption">Pantalla de ajustes con FC Barcelona y Real Madrid resaltados, y todos los avisos activados</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ PIE -->
+<div style="padding:40px 72px;text-align:center;border-top:2px solid #e8460b;margin-top:40px;">
+  <div style="font-size:22px;font-weight:800;color:#0a0a14;">La Liga <span style="color:#e8460b;">App</span></div>
+  <div style="font-size:13px;color:#aaa;margin-top:8px;">Temporadas 24/25 · 25/26 · 26/27 &nbsp;·&nbsp; iOS 17+ &nbsp;·&nbsp; Julio 2026</div>
+</div>
+
+</body>
+</html>

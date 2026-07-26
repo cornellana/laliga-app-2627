@@ -5,6 +5,7 @@ import SwiftUI
 struct MatchItem: Identifiable, Equatable {
     var id: String { match.id }
     let match: Match
+    var allMatches: [Match] = []
     static func == (lhs: MatchItem, rhs: MatchItem) -> Bool { lhs.id == rhs.id }
 }
 
@@ -19,6 +20,7 @@ struct ContentView: View {
     @State private var showingStandings = false
     @State private var showingTopScorers = false
     @State private var showingSettings = false
+    @State private var showingCalendar = false
     @State private var highlightSettings = HighlightSettings()
     @Environment(\.scenePhase) private var scenePhase
 
@@ -34,7 +36,7 @@ struct ContentView: View {
                         } else {
                             ForEach(filteredJornadas) { group in
                                 JornadaSectionView(group: group) { match in
-                                    selectedMatchItem = MatchItem(match: match)
+                                    selectedMatchItem = MatchItem(match: match, allMatches: allFilteredMatches)
                                 }
                             }
                         }
@@ -50,9 +52,18 @@ struct ContentView: View {
                     try? await Task.sleep(nanoseconds: 350_000_000)
                     withAnimation(.easeInOut(duration: 0.5)) { proxy.scrollTo(target, anchor: .top) }
                 }
-                // Scroll a jornada actual solo cuando ambos filtros quedan en nil (botón Todos)
                 .onChange(of: filterTeam) { _, _ in scrollIfShowingAll(proxy: proxy) }
-                .onChange(of: filterJornada) { _, _ in scrollIfShowingAll(proxy: proxy) }
+                .onChange(of: filterJornada) { _, newJornada in
+                    if let j = newJornada {
+                        // Scroll a la jornada seleccionada, las siguientes quedan visibles debajo
+                        Task {
+                            try? await Task.sleep(nanoseconds: 150_000_000)
+                            withAnimation { proxy.scrollTo("jornada-\(j)", anchor: .top) }
+                        }
+                    } else {
+                        scrollIfShowingAll(proxy: proxy)
+                    }
+                }
                 .onChange(of: showingStandings) { _, isShowing in
                     guard !isShowing, let target = scrollTargetDate else { return }
                     Task {
@@ -78,6 +89,19 @@ struct ContentView: View {
             .background(Color(hex: 0x0A0A14))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    HStack(spacing: 10) {
+                        Button { showingSettings = true } label: {
+                            Image(systemName: "gear")
+                                .foregroundStyle(.white)
+                        }
+                        if store.isLoading {
+                            ProgressView()
+                                .tint(Color(hex: 0xE8460B))
+                                .scaleEffect(0.8)
+                        }
+                    }
+                }
                 ToolbarItem(placement: .principal) {
                     Menu {
                         ForEach(AppSeason.all) { season in
@@ -109,29 +133,18 @@ struct ContentView: View {
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     HStack(spacing: 10) {
+                        Button { showingCalendar = true } label: {
+                            Image(systemName: "calendar")
+                                .foregroundStyle(.white)
+                        }
                         Button { showingTopScorers = true } label: {
                             Image(systemName: "soccerball")
-                                .foregroundStyle(Color(hex: 0xE8460B))
+                                .foregroundStyle(.white)
                         }
                         Button { showingStandings = true } label: {
                             Image(systemName: "list.number")
-                                .foregroundStyle(Color(hex: 0x004D98))
+                                .foregroundStyle(.white)
                         }
-                        Button { showingSettings = true } label: {
-                            Image(systemName: "star.fill")
-                                .foregroundStyle(
-                                    highlightSettings.highlights.count > 1
-                                        ? Color(hex: 0xE8460B)
-                                        : .white.opacity(0.6)
-                                )
-                        }
-                    }
-                }
-                ToolbarItem(placement: .topBarLeading) {
-                    if store.isLoading {
-                        ProgressView()
-                            .tint(Color(hex: 0xE8460B))
-                            .scaleEffect(0.8)
                     }
                 }
             }
@@ -140,7 +153,8 @@ struct ContentView: View {
                     filterTeam: $filterTeam,
                     filterJornada: $filterJornada,
                     teams: allTeams,
-                    jornadaDates: jornadaStartDates
+                    jornadaDates: jornadaStartDates,
+                    filterTeamHighlightColor: filterTeam.flatMap { highlightSettings.highlight(for: $0)?.color }
                 )
             }
         }
@@ -150,18 +164,35 @@ struct ContentView: View {
             filterJornada = nil
         }
         .sheet(item: $selectedMatchItem) { item in
-            MatchDetailSheet(match: item.match)
-                .presentationDetents(item.match.done ? [.large] : [.medium, .large])
+            MatchDetailSheet(match: item.match, season: store.selectedSeason, allMatches: item.allMatches)
+                .environment(highlightSettings)
+                .presentationDetents([.large])
                 .presentationDragIndicator(.visible)
         }
         .sheet(isPresented: $showingStandings) {
-            StandingsSheet(standings: store.standings, seasonName: store.selectedSeason.displayName)
+            StandingsSheet(
+                standings: store.standings,
+                seasonName: store.selectedSeason.displayName,
+                matchDays: store.matchDays,
+                season: store.selectedSeason
+            )
+            .environment(highlightSettings)
         }
         .sheet(isPresented: $showingTopScorers) {
-            TopScorersSheet(scorers: store.topScorers, seasonName: store.selectedSeason.displayName)
+            TopScorersSheet(
+                scorers: store.topScorers,
+                seasonName: store.selectedSeason.displayName,
+                season: store.selectedSeason
+            )
+            .environment(highlightSettings)
+        }
+        .sheet(isPresented: $showingCalendar) {
+            TeamCalendarSheet(matchDays: store.matchDays, season: store.selectedSeason)
+                .environment(highlightSettings)
         }
         .sheet(isPresented: $showingSettings) {
             HighlightSettingsSheet(settings: highlightSettings, allTeams: allTeams)
+                .environment(highlightSettings)
         }
         .preferredColorScheme(.dark)
     }
@@ -187,7 +218,8 @@ struct ContentView: View {
             }
         }
         if let jornada = filterJornada {
-            days = days.filter { $0.jornada == jornada }
+            // Muestra la jornada seleccionada y todas las siguientes
+            days = days.filter { $0.jornada >= jornada }
         }
         return days
     }
@@ -197,6 +229,12 @@ struct ContentView: View {
         let grouped = Dictionary(grouping: days, by: \.jornada)
         return grouped.keys.sorted().map { j in
             JornadaGroup(jornada: j, days: grouped[j]!.sorted { $0.date < $1.date })
+        }
+    }
+
+    private var allFilteredMatches: [Match] {
+        filteredJornadas.flatMap { group in
+            group.days.flatMap { $0.games }
         }
     }
 
@@ -226,20 +264,19 @@ struct ContentView: View {
         return firstDate.keys.sorted().map { j in (jornada: j, date: firstDate[j]!) }
     }
 
+    // Equipos resaltados primero, luego el resto en orden alfabético
     private var allTeams: [String] {
         var teams = Set(store.matchDays.flatMap { $0.games.flatMap { [$0.home, $0.away] } })
         if teams.isEmpty {
-            teams = ["FC Barcelona", "Real Madrid", "Atlético", "Athletic", "R. Sociedad",
+            teams = Set(["Real Madrid", "FC Barcelona", "Atlético", "Athletic", "R. Sociedad",
                      "Betis", "Villarreal", "Valencia", "Sevilla", "Osasuna", "Celta",
                      "Getafe", "Rayo", "Alavés", "Espanyol", "Levante", "Racing",
-                     "Deportivo", "Elche", "Málaga"]
+                     "Deportivo", "Elche", "Málaga"])
         }
-        var sorted = teams.sorted()
-        if let idx = sorted.firstIndex(of: "FC Barcelona") {
-            sorted.remove(at: idx)
-            sorted.insert("FC Barcelona", at: 0)
-        }
-        return sorted
+        let sorted = teams.sorted()
+        let highlighted = highlightSettings.highlights.map(\.team).filter { sorted.contains($0) }
+        let rest = sorted.filter { !highlighted.contains($0) }
+        return highlighted + rest
     }
 
     // MARK: - State views
@@ -254,7 +291,7 @@ struct ContentView: View {
 
     private var emptyView: some View {
         VStack(spacing: 20) {
-            BarcelonaShieldView(size: 72).opacity(0.6)
+            LaLigaLogoView(size: 72).opacity(0.85)
             Text("La Liga \(store.selectedSeason.displayName)")
                 .font(.title2.weight(.bold))
                 .foregroundStyle(.white.opacity(0.8))
@@ -287,6 +324,7 @@ struct JornadaFilterBar: View {
     @Binding var filterJornada: Int?
     let teams: [String]
     let jornadaDates: [(jornada: Int, date: String)]
+    let filterTeamHighlightColor: Color?
 
     var body: some View {
         HStack(spacing: 8) {
@@ -331,13 +369,7 @@ struct JornadaFilterBar: View {
                 .padding(.horizontal, 10)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 9)
-                .background(
-                    filterTeam != nil
-                        ? AnyShapeStyle(LinearGradient(
-                            colors: [Color(hex: 0x004D98), Color(hex: 0xA50044)],
-                            startPoint: .leading, endPoint: .trailing))
-                        : AnyShapeStyle(Color.white.opacity(0.08))
-                )
+                .background(teamSelectorBackground)
                 .clipShape(Capsule())
             }
 
@@ -393,6 +425,15 @@ struct JornadaFilterBar: View {
         .overlay(alignment: .bottom) {
             Divider().background(Color.white.opacity(0.05))
         }
+    }
+
+    // Color del selector de equipo: usa el color del equipo resaltado si está seleccionado
+    private var teamSelectorBackground: AnyShapeStyle {
+        guard filterTeam != nil else { return AnyShapeStyle(Color.white.opacity(0.08)) }
+        if let color = filterTeamHighlightColor {
+            return AnyShapeStyle(color.opacity(0.75))
+        }
+        return AnyShapeStyle(Color(hex: 0x004D98))
     }
 
     private func shortTeamName(_ name: String) -> String {

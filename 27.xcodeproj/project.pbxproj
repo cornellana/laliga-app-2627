@@ -17,6 +17,11 @@
 		0BC634DE2FF7BA9100C75B28 /* TeamLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC634DD2FF7BA9100C75B28 /* TeamLogoView.swift */; };
 		0BCE41B430136A750069DE8D /* HighlightSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE41B330136A750069DE8D /* HighlightSettings.swift */; };
 		0BCE41B630136A870069DE8D /* HighlightSettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE41B530136A870069DE8D /* HighlightSettingsSheet.swift */; };
+		0BCE41C0301389C60069DE8D /* TeamResultsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE41BF301389C60069DE8D /* TeamResultsSheet.swift */; };
+		0BCE41C2301389F60069DE8D /* PlayerStatsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE41C1301389F60069DE8D /* PlayerStatsSheet.swift */; };
+		0BCE41C43014A7860069DE8D /* TeamCalendarSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE41C33014A7860069DE8D /* TeamCalendarSheet.swift */; };
+		0BCE41C63014B6EA0069DE8D /* LaLigaLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE41C53014B6EA0069DE8D /* LaLigaLogoView.swift */; };
+		0BCE41C83015192A0069DE8D /* SofaScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE41C73015192A0069DE8D /* SofaScoreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,11 @@
 		0BC634DD2FF7BA9100C75B28 /* TeamLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamLogoView.swift; sourceTree = "<group>"; };
 		0BCE41B330136A750069DE8D /* HighlightSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightSettings.swift; sourceTree = "<group>"; };
 		0BCE41B530136A870069DE8D /* HighlightSettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightSettingsSheet.swift; sourceTree = "<group>"; };
+		0BCE41BF301389C60069DE8D /* TeamResultsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamResultsSheet.swift; sourceTree = "<group>"; };
+		0BCE41C1301389F60069DE8D /* PlayerStatsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatsSheet.swift; sourceTree = "<group>"; };
+		0BCE41C33014A7860069DE8D /* TeamCalendarSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCalendarSheet.swift; sourceTree = "<group>"; };
+		0BCE41C53014B6EA0069DE8D /* LaLigaLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaLigaLogoView.swift; sourceTree = "<group>"; };
+		0BCE41C73015192A0069DE8D /* SofaScoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofaScoreService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -112,6 +122,11 @@
 				0BC634DD2FF7BA9100C75B28 /* TeamLogoView.swift */,
 				0BCE41B330136A750069DE8D /* HighlightSettings.swift */,
 				0BCE41B530136A870069DE8D /* HighlightSettingsSheet.swift */,
+				0BCE41BF301389C60069DE8D /* TeamResultsSheet.swift */,
+				0BCE41C1301389F60069DE8D /* PlayerStatsSheet.swift */,
+				0BCE41C33014A7860069DE8D /* TeamCalendarSheet.swift */,
+				0BCE41C53014B6EA0069DE8D /* LaLigaLogoView.swift */,
+				0BCE41C73015192A0069DE8D /* SofaScoreService.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -269,14 +284,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BCE41C0301389C60069DE8D /* TeamResultsSheet.swift in Sources */,
 				0BC634CE2FF79D2B00C75B28 /* Models.swift in Sources */,
 				0BC634DA2FF79DCF00C75B28 /* TopScorersSheet.swift in Sources */,
+				0BCE41C83015192A0069DE8D /* SofaScoreService.swift in Sources */,
 				0BC634D22FF79D4300C75B28 /* MatchesData.swift in Sources */,
 				0BC634D02FF79D3A00C75B28 /* MatchStore.swift in Sources */,
+				0BCE41C63014B6EA0069DE8D /* LaLigaLogoView.swift in Sources */,
 				0BC634D82FF79DC000C75B28 /* StandingsSheet.swift in Sources */,
 				0BCE41B630136A870069DE8D /* HighlightSettingsSheet.swift in Sources */,
 				0BCE41B430136A750069DE8D /* HighlightSettings.swift in Sources */,
+				0BCE41C2301389F60069DE8D /* PlayerStatsSheet.swift in Sources */,
 				0BC634D62FF79DAB00C75B28 /* MatchDetailSheet.swift in Sources */,
+				0BCE41C43014A7860069DE8D /* TeamCalendarSheet.swift in Sources */,
 				0BC634DE2FF7BA9100C75B28 /* TeamLogoView.swift in Sources */,
 				0BC634D42FF79D5200C75B28 /* BarcelonaShieldView.swift in Sources */,
 			);
@@ -438,12 +458,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 27/27.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = TJ6V4QM3GB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -472,12 +494,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 27/27.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = TJ6V4QM3GB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
