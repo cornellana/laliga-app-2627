@@ -29,7 +29,9 @@ IMG = {
     "clasif":     os.path.join(IMGS, "06-clasificacion.png"),
     "goleadores": os.path.join(IMGS, "07-goleadores.png"),
     "calendario": os.path.join(IMGS, "08-calendario.png"),
-    "ajustes":    os.path.join(IMGS, "09-ajustes.png"),
+    "ajustes":      os.path.join(IMGS, "09-ajustes.png"),
+    "stats_partido": os.path.join(IMGS, "10-stats-partido.png"),
+    "stats_global":  os.path.join(IMGS, "11-stats-global.png"),
 }
 
 # ── Colores ────────────────────────────────────────────────────────────────────
@@ -111,7 +113,9 @@ def two_col(text_items, img_key, img_on_right=True, img_width=4.8*cm):
         "clasif":     "Clasificacion de La Liga 25/26\nal final de la temporada",
         "goleadores": "Ranking de goleadores 25/26.\nJugadores del Barca en azul.",
         "calendario": "Calendario de FC Barcelona:\nagosto y septiembre 2025",
-        "ajustes":    "Ajustes: Barca y Real Madrid\nresaltados, avisos activados",
+        "ajustes":       "Ajustes: Barca y Real Madrid\nresaltados, avisos activados",
+        "stats_partido": "Raphinha (Barca) — tabla Partido / Media / Total",
+        "stats_global":  "Mbappe (R. Madrid) — solo columnas Media y Total",
     }[img_key]
 
     img_cell  = [image, Paragraph(caption_key, S_CAPTION)]
@@ -261,6 +265,7 @@ def build_toc():
         "Maximos goleadores",
         "Calendario de equipo",
         "Equipos resaltados y avisos push",
+        "Estadisticas de jugador",
     ]
     for i, ch in enumerate(chapters, 1):
         row = Table(
@@ -295,13 +300,13 @@ def build_sections():
         Paragraph("<b>Informacion de cada partido</b>", S_H3),
         bullet("Escudos de los equipos local y visitante"),
         bullet("Resultado final — en negrita el equipo ganador, atenuado el perdedor"),
-        bullet("Hora del partido o estado “Final”"),
+        bullet('Hora del partido o estado "Final"'),
         bullet("Canal de TV (DAZN, Movistar, GOL...)"),
         Spacer(1, 8),
         Paragraph("<b>Equipos resaltados</b>", S_H3),
-        Paragraph("Los partidos de los equipos favoritos aparecen con una barra de color lateral y un fondo tintado. En el ejemplo, FC Barcelona aparece destacado en azul.", S_BODY),
+        Paragraph("Los partidos de los equipos que hayas configurado como favoritos aparecen con una barra de color lateral y fondo tintado en su color. Puedes resaltar cualquier equipo de la liga con el color que quieras desde los ajustes (engranaje, esquina superior izquierda).", S_BODY),
         Spacer(1, 8),
-        callout("Actualizacion", "Los datos se actualizan automaticamente cada vez que abres la app. Desliza hacia abajo para forzar la actualizacion. El circulo rojo en el toolbar indica que se estan descargando datos."),
+        callout("Actualizacion", "Los datos se actualizan automaticamente cada vez que abres la app. Desliza hacia abajo para forzar la actualizacion. El circulo rojo en la esquina superior izquierda del toolbar indica que se estan descargando datos."),
     ], "principal", img_on_right=True))
     story.append(PageBreak())
 
@@ -310,7 +315,7 @@ def build_sections():
     story.append(two_col([
         Paragraph("La app incluye los datos de tres temporadas: <b>26/27</b>, <b>25/26</b> y <b>24/25</b>. Puedes cambiar entre ellas en cualquier momento sin reiniciar la app.", S_BODY),
         Paragraph("<b>Como cambiar de temporada</b>", S_H3),
-        Paragraph("Toca el titulo central del toolbar — donde aparece “La Liga” y debajo la temporada activa en naranja. Se despliega un menu con las tres opciones disponibles. La temporada seleccionada aparece marcada con un ✓.", S_BODY),
+        Paragraph('Toca el titulo central del toolbar — donde aparece "La Liga" y debajo la temporada activa en naranja. Se despliega un menu con las tres opciones disponibles. La temporada seleccionada aparece marcada con un ✓.', S_BODY),
         Paragraph("<b>Comportamiento al cambiar</b>", S_H3),
         bullet("Se carga el calendario completo de la temporada elegida"),
         bullet("Los filtros de equipo y jornada se reinician automaticamente"),
@@ -325,7 +330,7 @@ def build_sections():
     story += section_header(3, "Filtros: equipo y jornada")
     story.append(Paragraph("Bajo el toolbar hay una barra de filtros con dos selectores que puedes combinar libremente. Cuando un filtro esta activo su capsula cambia de color: degradado azul-rojo para equipo, azul solido para jornada.", S_BODY))
     story.append(Spacer(1, 10))
-    story.append(callout("Combinar filtros", "Puedes activar ambos a la vez. Por ejemplo: filtrar por “FC Barcelona” + “Jornada 12” para ver exactamente el partido del Barca en esa jornada.", VERDE))
+    story.append(callout("Combinar filtros", 'Puedes activar ambos a la vez. Por ejemplo: filtrar por "FC Barcelona" + "Jornada 12" para ver exactamente el partido del Barca en esa jornada.', VERDE))
     story.append(Spacer(1, 14))
 
     # Dos imagenes lado a lado
@@ -350,11 +355,11 @@ def build_sections():
     story.append(Spacer(1, 14))
 
     story.append(Paragraph("<b>Filtro por equipo</b>", S_H3))
-    story.append(Paragraph("Toca la capsula “Equipo” para ver todos los equipos de la temporada. Al seleccionar uno, la vista muestra unicamente sus partidos en todas las jornadas.", S_BODY))
+    story.append(Paragraph("Toca la capsula \"Equipo\" para ver todos los equipos de la temporada. Los equipos resaltados aparecen siempre al principio de la lista. Al seleccionar uno, la vista muestra unicamente sus partidos en todas las jornadas. La capsula adopta el color del equipo si tienes ese equipo resaltado.", S_BODY))
     story.append(Paragraph("<b>Filtro por jornada</b>", S_H3))
-    story.append(Paragraph("Toca “Jornada” para ver las 38 jornadas con su fecha aproximada. Al seleccionar una, la vista muestra todos los partidos de esa jornada.", S_BODY))
+    story.append(Paragraph("Toca \"Jornada\" para ver las 38 jornadas con su fecha aproximada. Al seleccionar una, la vista muestra esa jornada y todas las siguientes, haciendo scroll automatico hasta la jornada elegida.", S_BODY))
     story.append(Paragraph("<b>Quitar filtros</b>", S_H3))
-    story.append(Paragraph("Toca el selector activo y elige “Todos los equipos” o “Todas las jornadas”. Al quitar ambos filtros el scroll vuelve automaticamente a la jornada actual.", S_BODY))
+    story.append(Paragraph("Toca el selector activo y elige \"Todos los equipos\" o \"Todas las jornadas\". Al quitar ambos filtros el scroll vuelve automaticamente a la jornada actual.", S_BODY))
     story.append(PageBreak())
 
     # ── 4. Detalle de partido ────────────────────────────────────────────────
@@ -401,7 +406,11 @@ def build_sections():
             ["Icono", "Evento"]
         ),
         Spacer(1, 8),
-        callout("Estadisticas de jugador", "Toca el nombre de cualquier jugador en la alineacion para ver sus estadisticas individuales de la temporada."),
+        Paragraph("<b>Navegar entre partidos</b>", S_H3),
+        Paragraph("Con la ficha de un partido abierta, desliza hacia la izquierda o la derecha para pasar al partido siguiente o anterior de la lista — sin cerrar el panel. El titulo de la barra muestra siempre la jornada del partido actual.", S_BODY),
+        Spacer(1, 8),
+        Paragraph("<b>Estadisticas de jugador</b>", S_H3),
+        Paragraph("Toca el nombre de cualquier jugador en la alineacion para abrir su ficha. La ficha muestra la posicion del jugador (Portero, Defensa, Centrocampista o Delantero) y, si el partido ya termino, una tabla de estadisticas con tres columnas — <b>Partido / Media / Total</b> — agrupadas por tipologia (Ataque, Pases, Defensa...). Ver seccion 9 para mas detalle.", S_BODY),
     ], "detalle", img_on_right=True))
     story.append(PageBreak())
 
@@ -442,6 +451,10 @@ def build_sections():
         Spacer(1, 8),
         Paragraph("<b>Equipos resaltados</b>", S_H3),
         Paragraph("Los jugadores de los equipos favoritos aparecen con su nombre y escudo en el color del equipo resaltado. En el ejemplo, los jugadores del FC Barcelona aparecen en azul.", S_BODY),
+        Spacer(1, 8),
+        Paragraph("<b>Estadisticas de jugador</b>", S_H3),
+        Paragraph("Toca cualquier jugador del ranking para abrir su ficha individual. Desde esta pantalla se muestran las columnas <b>Media</b> y <b>Total</b> de la temporada — sin la columna Partido, que solo aparece al entrar desde la alineacion de un partido terminado.", S_BODY),
+        callout("Consejo", "Para ver las estadisticas de un partido concreto accede al jugador desde la alineacion del detalle de partido. Ahi aparecera la columna adicional Partido con los datos especificos de ese encuentro. Ver seccion 9."),
     ], "goleadores", img_on_right=True))
     story.append(PageBreak())
 
@@ -456,8 +469,11 @@ def build_sections():
         bullet("Fondo <b>gris</b>: empate"),
         bullet("Sin fondo: partido pendiente"),
         Spacer(1, 8),
-        Paragraph("<b>Cambiar de equipo</b>", S_H3),
-        Paragraph("Toca el nombre del equipo en la parte superior para ver el calendario de cualquier otro equipo de la liga.", S_BODY),
+        Paragraph("<b>Navegar entre equipos</b>", S_H3),
+        Paragraph("Desliza hacia la izquierda o la derecha para pasar al equipo siguiente o anterior de la lista. Los equipos resaltados aparecen al principio. El nombre del equipo en la barra superior se actualiza al deslizar.", S_BODY),
+        Spacer(1, 8),
+        Paragraph("<b>Ver la ficha de un partido</b>", S_H3),
+        Paragraph("Toca cualquier dia con partido para abrir su ficha de eventos. Una vez dentro, puedes deslizar izquierda/derecha para navegar entre los partidos de ese equipo en orden cronologico.", S_BODY),
         Spacer(1, 8),
         callout("Consejo", "Ideal para planificar: puedes ver de un vistazo todos los partidos del mes de tu equipo y cuando juega en casa o fuera.", VERDE),
     ], "calendario", img_on_right=False))
@@ -466,9 +482,9 @@ def build_sections():
     # ── 8. Resaltado y avisos ─────────────────────────────────────────────────
     story += section_header(8, "Equipos resaltados y avisos push")
     story.append(two_col([
-        Paragraph("Toca el icono de ajustes (engranaje) en el toolbar para personalizar la app: que equipos resaltar y que notificaciones recibir.", S_BODY),
+        Paragraph("Toca el icono de ajustes (engranaje) en la <b>esquina superior izquierda</b> del toolbar para personalizar la app: que equipos resaltar y que notificaciones recibir.", S_BODY),
         Paragraph("<b>Equipos resaltados</b>", S_H3),
-        Paragraph("Los equipos resaltados aparecen destacados en la lista de partidos (barra lateral de color + fondo tintado), en la clasificacion y en el ranking de goleadores.", S_BODY),
+        Paragraph("Los equipos resaltados aparecen destacados en la lista de partidos (barra lateral de color + fondo tintado), primeros en los selectores de equipo, en su color en la clasificacion y en el ranking de goleadores. Puedes resaltar cualquier equipo de la liga — no hay ningun equipo preconfigurado por defecto.", S_BODY),
         bullet("Toca <b>Anadir equipo</b> para seleccionar un equipo y asignarle color"),
         bullet("Toca el circulo de color para cambiarlo con el selector de color del sistema"),
         bullet("Desliza a la izquierda sobre un equipo para eliminarlo"),
@@ -487,6 +503,70 @@ def build_sections():
         Spacer(1, 8),
         callout("Permiso necesario", "La primera vez que actives los avisos, iOS pedira permiso para notificaciones. Si lo rechazas, activalo en Ajustes del iPhone > Notificaciones > 27."),
     ], "ajustes", img_on_right=True))
+
+    # ── 9. Estadisticas de jugador ────────────────────────────────────────────
+    story.append(PageBreak())
+    story += section_header(9, "Estadisticas de jugador")
+    story.append(Paragraph("La ficha de estadisticas muestra una tabla con las filas agrupadas por tipologia y hasta tres columnas de valores. El contenido varia segun desde donde se abra la ficha.", S_BODY))
+    story.append(Spacer(1, 14))
+
+    # Dos columnas con las dos imagenes
+    img_p = img("stats_partido", 4.8*cm)
+    img_g = img("stats_global",  4.8*cm)
+    cap_p = Paragraph("Desde la alineacion de un partido:\nRaphinha (Barca) — Partido / Media / Total", S_CAPTION)
+    cap_g = Paragraph("Desde el ranking de goleadores:\nMbappe (R. Madrid) — solo Media y Total", S_CAPTION)
+
+    t = Table(
+        [[img_p, img_g],
+         [cap_p, cap_g]],
+        colWidths=[CW/2 - 0.3*cm, CW/2 - 0.3*cm],
+        hAlign="CENTER"
+    )
+    t.setStyle(TableStyle([
+        ("VALIGN",        (0,0), (-1,-1), "TOP"),
+        ("ALIGN",         (0,0), (-1,-1), "CENTER"),
+        ("COLPADDING",    (0,0), (-1,-1), 10),
+        ("TOPPADDING",    (0,0), (-1,-1), 0),
+        ("BOTTOMPADDING", (0,0), (-1,-1), 4),
+    ]))
+    story.append(t)
+    story.append(Spacer(1, 18))
+
+    story.append(Paragraph("<b>Las tres columnas</b>", S_H3))
+    story.append(events_table(
+        [["Partido",
+          "Lo que hizo el jugador en ese partido concreto (chip azul). Solo aparece al abrir "
+          "la ficha desde la alineacion de un partido ya terminado."],
+         ["Media",
+          "Media por partido durante la temporada: Total de temporada dividido entre partidos "
+          "jugados. En Valoracion es la media de sus notas de temporada en SofaScore."],
+         ["Total",
+          "Acumulado completo de la temporada (goles, pases, entradas, etc.)."]],
+        ["Columna", "Que muestra"]
+    ))
+    story.append(Spacer(1, 14))
+
+    story.append(Paragraph("<b>Grupos de estadisticas</b>", S_H3))
+    story.append(events_table(
+        [["General",    "Minutos jugados, valoracion, partidos disputados, veces de titular."],
+         ["Ataque",     "Goles, asistencias, disparos totales, remates a puerta, pases clave, ocasiones claras creadas."],
+         ["Pases",      "Pases totales, pases exactos y porcentaje de precision."],
+         ["Defensa",    "Entradas, entradas efectivas, intercepciones, despejes, recuperaciones, duelos aereos ganados."],
+         ["Disciplina", "Faltas cometidas, perdidas de balon, tarjetas amarillas y rojas."],
+         ["Fisico",     "Kilometros recorridos y toques de balon en el partido."],
+         ["Portero",    "Paradas, paradas dentro del area, goles evitados y porterias a cero (solo porteros)."]],
+        ["Grupo", "Estadisticas incluidas"]
+    ))
+    story.append(Spacer(1, 14))
+
+    story.append(Paragraph("<b>Desde la alineacion de un partido terminado</b>", S_H3))
+    story.append(Paragraph("Toca el nombre de cualquier jugador en la alineacion. Aparece un banner en la parte superior con la jornada, el rival y el marcador. La tabla muestra las tres columnas: Partido (chip azul con el dato de ese encuentro), Media y Total.", S_BODY))
+    story.append(Spacer(1, 8))
+
+    story.append(Paragraph("<b>Desde el ranking de goleadores</b>", S_H3))
+    story.append(Paragraph("Toca cualquier jugador del ranking. La ficha no incluye el banner de partido ni la columna Partido — muestra directamente las columnas Media y Total de la temporada. Solo aparecen los grupos con datos disponibles.", S_BODY))
+    story.append(Spacer(1, 8))
+    story.append(callout("Informacion adicional", "En ambos casos la ficha muestra la foto del jugador, el equipo, la posicion en espanol (Portero, Defensa, Centrocampista o Delantero), la edad y su valor de mercado actual en millones de euros.", VERDE))
 
     return story
 

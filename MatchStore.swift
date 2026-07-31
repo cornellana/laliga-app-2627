@@ -5,7 +5,7 @@ import SwiftUI
 @MainActor
 final class MatchStore {
     private(set) var selectedSeason: AppSeason = .current
-    var isLoading = false
+    var isLoading = true   // spinner desde el primer render, sin esperar al .task
     var errorMessage: String?
 
     // Caché en memoria por temporada (evita refetches innecesarios al volver a la temporada)
@@ -36,41 +36,58 @@ final class MatchStore {
 
     func refresh() async {
         let season = selectedSeason
-        isLoading = true
         errorMessage = nil
-        defer { isLoading = false }
 
-        // 1. UserDefaults cache (solo si no hay caché en memoria)
-        if cache[season.code] == nil, let cached = loadFromUserDefaults(season) {
-            cache[season.code] = cached
+        // 1. Memoria — si ya hay datos, no bloquear la UI en absoluto
+        if cache[season.code] != nil {
+            await silentRemoteRefresh(season: season)
+            return
         }
 
-        // 2. Remote
+        // 2. UserDefaults — mostrar datos en caché antes de ir a la red
+        isLoading = true
+        if let cached = await decodeOffMain({ self.loadFromUserDefaults(season) }) {
+            cache[season.code] = cached
+            isLoading = false          // datos disponibles: UI visible mientras se refresca la red
+        }
+
+        // 3. Sin caché: ir a red con spinner visible
+        await silentRemoteRefresh(season: season)
+
+        // 4. Seed del bundle si la red falló y seguimos sin datos
+        if cache[season.code] == nil {
+            isLoading = true
+            if let seed = await decodeOffMain({ self.loadSeedFromBundle(season) }) {
+                cache[season.code] = seed
+            }
+            isLoading = false
+        }
+    }
+
+    /// Refresca desde la red sin tocar isLoading (silent background update).
+    private func silentRemoteRefresh(season: AppSeason) async {
         do {
             let fresh = try await fetchRemote(season)
             cache[season.code] = fresh
             saveToUserDefaults(fresh, season: season)
-            return
         } catch {
-            let isOffline: Bool
-            if let urlError = error as? URLError {
-                isOffline = [.notConnectedToInternet, .networkConnectionLost,
-                             .timedOut, .cannotConnectToHost].contains(urlError.code)
-            } else {
-                isOffline = false
+            if let urlError = error as? URLError,
+               [.notConnectedToInternet, .networkConnectionLost,
+                .timedOut, .cannotConnectToHost].contains(urlError.code) {
+                errorMessage = "Sin conexión a Internet"
             }
-            if isOffline { errorMessage = "Sin conexión a Internet" }
         }
+        isLoading = false
+    }
 
-        // 3. Seed del bundle
-        if cache[season.code] == nil {
-            cache[season.code] = loadSeedFromBundle(season)
-        }
+    /// Ejecuta un decode JSON pesado en un hilo de fondo para no bloquear el main actor.
+    private func decodeOffMain<T: Sendable>(_ work: @escaping @Sendable () -> T?) async -> T? {
+        await Task.detached(priority: .userInitiated) { work() }.value
     }
 
     // MARK: - Remote
 
-    private func fetchRemote(_ season: AppSeason) async throws -> MatchSnapshot {
+    nonisolated private func fetchRemote(_ season: AppSeason) async throws -> MatchSnapshot {
         guard let base = season.remoteURL else { throw URLError(.badURL) }
         let urlStr = "\(base.absoluteString)?t=\(Int(Date().timeIntervalSince1970))"
         let url = URL(string: urlStr)!
@@ -80,12 +97,15 @@ final class MatchStore {
         if let http = response as? HTTPURLResponse, http.statusCode != 200 {
             throw URLError(.badServerResponse)
         }
-        return try JSONDecoder().decode(MatchSnapshot.self, from: data)
+        // Decode off main thread — ~180KB JSON puede bloquear el hilo principal ~80ms
+        return try await Task.detached(priority: .userInitiated) {
+            try JSONDecoder().decode(MatchSnapshot.self, from: data)
+        }.value
     }
 
     // MARK: - Bundle seed
 
-    private func loadSeedFromBundle(_ season: AppSeason) -> MatchSnapshot? {
+    nonisolated private func loadSeedFromBundle(_ season: AppSeason) -> MatchSnapshot? {
         guard let url = Bundle.main.url(forResource: season.seedName, withExtension: "json"),
               let data = try? Data(contentsOf: url) else { return nil }
         return try? JSONDecoder().decode(MatchSnapshot.self, from: data)
@@ -93,14 +113,14 @@ final class MatchStore {
 
     // MARK: - UserDefaults cache
 
-    private func cacheKey(_ season: AppSeason) -> String { "laliga_cache_v2_\(season.code)" }
+    nonisolated private func cacheKey(_ season: AppSeason) -> String { "laliga_cache_v2_\(season.code)" }
 
-    private func loadFromUserDefaults(_ season: AppSeason) -> MatchSnapshot? {
+    nonisolated private func loadFromUserDefaults(_ season: AppSeason) -> MatchSnapshot? {
         guard let data = UserDefaults.standard.data(forKey: cacheKey(season)) else { return nil }
         return try? JSONDecoder().decode(MatchSnapshot.self, from: data)
     }
 
-    private func saveToUserDefaults(_ snapshot: MatchSnapshot, season: AppSeason) {
+    nonisolated private func saveToUserDefaults(_ snapshot: MatchSnapshot, season: AppSeason) {
         guard let data = try? JSONEncoder().encode(snapshot) else { return }
         UserDefaults.standard.set(data, forKey: cacheKey(season))
     }

@@ -1,19 +1,19 @@
 import SwiftUI
 
-// MARK: - Stat Item
+// MARK: - Modelo de tabla (Partido / Media / Total)
 
-private struct StatItem: Identifiable {
+private struct StatConcept: Identifiable {
     let id: String
     let label: String
-    let value: String
+    let matchText: String?   // valor en este partido (nil → sin dato)
+    let mediaText: String?   // media por partido (nil → —)
+    let totalText: String?   // total de temporada (nil → —)
 }
 
-// MARK: - Stats Section
-
-private struct StatsSection: Identifiable {
+private struct StatGroup: Identifiable {
     let id: String
     let title: String
-    var items: [StatItem]
+    var concepts: [StatConcept]
 }
 
 // MARK: - PlayerStatsSheet
@@ -24,14 +24,19 @@ struct PlayerStatsSheet: View {
 
     @Environment(\.dismiss) private var dismiss
 
-    @State private var sections: [StatsSection] = []
+    @State private var groups: [StatGroup] = []
     @State private var isLoading = true
     @State private var failed = false
+    @State private var hasMatchData = false
     @State private var playerAge: Int? = nil
     @State private var playerPosition: String? = nil
     @State private var sofascoreID: Int? = nil
     @State private var marketValue: Int? = nil
-    @State private var matchStats: [StatItem] = []
+
+    // Anchos fijos de las columnas de valores (para alinear cabecera y filas)
+    private let colChip:  CGFloat = 58
+    private let colMedia: CGFloat = 58
+    private let colTotal: CGFloat = 68
 
     var body: some View {
         NavigationStack {
@@ -39,13 +44,9 @@ struct PlayerStatsSheet: View {
                 VStack(spacing: 0) {
                     playerHeader
 
-                    if let matchCtx = selection.matchContext, matchCtx.done, !matchStats.isEmpty {
-                        matchSectionView(matchCtx)
-                    }
-
                     if isLoading {
                         loadingView
-                    } else if failed || sections.isEmpty {
+                    } else if failed || groups.isEmpty {
                         noDataView
                     } else {
                         statsContent
@@ -168,59 +169,134 @@ struct PlayerStatsSheet: View {
         }
     }
 
-    // MARK: - Stats content
+    // MARK: - Tabla de estadísticas
 
     private var statsContent: some View {
         VStack(spacing: 0) {
-            ForEach(sections) { section in
-                sectionView(section)
-            }
-        }
-    }
-
-    private func sectionView(_ section: StatsSection) -> some View {
-        VStack(spacing: 0) {
-            HStack {
-                Text(section.title.uppercased())
-                    .font(.system(size: 9, weight: .heavy))
-                    .foregroundStyle(Color(hex: 0xE8460B))
-                    .tracking(0.8)
-                Spacer()
-            }
-            .padding(.horizontal, 14)
-            .padding(.vertical, 6)
-            .background(Color(hex: 0x0D0D1A))
-
-            LazyVGrid(
-                columns: [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())],
-                spacing: 6
-            ) {
-                ForEach(section.items) { item in
-                    statCell(item: item)
+            if hasMatchData { matchBanner }
+            columnHeader
+            ForEach(groups) { group in
+                VStack(spacing: 2) {
+                    groupHeader(group.title)
+                    ForEach(group.concepts) { concept in
+                        conceptRow(concept)
+                    }
                 }
+                .padding(.bottom, 6)
             }
-            .padding(.horizontal, 10)
-            .padding(.vertical, 8)
         }
     }
 
-    private func statCell(item: StatItem) -> some View {
-        VStack(spacing: 2) {
-            Text(item.value)
-                .font(.system(size: 20, weight: .bold, design: .rounded))
-                .foregroundStyle(.white)
-                .monospacedDigit()
-            Text(item.label)
-                .font(.system(size: 9, weight: .medium))
+    private var matchBanner: some View {
+        let m = selection.matchContext
+        let teamName = selection.teamName ?? ""
+        let isHome = teamName == m?.home
+        let opponent = isHome ? (m?.away ?? "") : (m?.home ?? "")
+        let hs = m?.homeScore ?? 0
+        let as_ = m?.awayScore ?? 0
+        let score = isHome ? "\(hs)-\(as_)" : "\(as_)-\(hs)"
+
+        return HStack(spacing: 8) {
+            Text("PARTIDO · J\(m?.jornada ?? 0)")
+                .font(.system(size: 9, weight: .heavy))
+                .foregroundStyle(Color(hex: 0x4A9EDF))
+                .tracking(0.8)
+            Spacer()
+            Text("vs \(opponent)")
+                .font(.system(size: 11))
                 .foregroundStyle(.white.opacity(0.4))
-                .multilineTextAlignment(.center)
-                .lineLimit(2)
-                .fixedSize(horizontal: false, vertical: true)
+                .lineLimit(1)
+            TeamLogoView(teamName: opponent, size: 16)
+            Text(score)
+                .font(.system(size: 12, weight: .bold, design: .rounded))
+                .foregroundStyle(.white.opacity(0.7))
+                .monospacedDigit()
         }
-        .frame(maxWidth: .infinity)
+        .padding(.horizontal, 14)
+        .padding(.vertical, 7)
+        .background(Color(hex: 0x0D0D1A))
+    }
+
+    private var columnHeader: some View {
+        HStack(spacing: 0) {
+            Spacer(minLength: 0)
+            if hasMatchData {
+                Text("PARTIDO")
+                    .foregroundStyle(Color(hex: 0x4A9EDF))
+                    .frame(width: colChip)
+            }
+            Text("MEDIA")
+                .foregroundStyle(.white.opacity(0.4))
+                .frame(width: colMedia, alignment: .trailing)
+            Text("TOTAL")
+                .foregroundStyle(.white.opacity(0.4))
+                .frame(width: colTotal, alignment: .trailing)
+        }
+        .font(.system(size: 9, weight: .heavy))
+        .tracking(0.6)
+        .padding(.horizontal, 26)
+        .padding(.vertical, 8)
+    }
+
+    private func groupHeader(_ title: String) -> some View {
+        HStack {
+            Text(title.uppercased())
+                .font(.system(size: 9, weight: .heavy))
+                .foregroundStyle(Color(hex: 0xE8460B))
+                .tracking(0.8)
+            Spacer()
+        }
+        .padding(.horizontal, 14)
+        .padding(.vertical, 6)
+        .background(Color(hex: 0x0D0D1A))
+    }
+
+    private func conceptRow(_ c: StatConcept) -> some View {
+        HStack(spacing: 0) {
+            Text(c.label)
+                .font(.system(size: 13))
+                .foregroundStyle(.white.opacity(0.72))
+                .lineLimit(1)
+                .frame(maxWidth: .infinity, alignment: .leading)
+
+            if hasMatchData {
+                matchChip(c.matchText).frame(width: colChip)
+            }
+
+            Text(c.mediaText ?? "—")
+                .font(.system(size: 14, weight: .semibold, design: .rounded))
+                .monospacedDigit()
+                .foregroundStyle(c.mediaText == nil ? .white.opacity(0.25) : .white.opacity(0.85))
+                .frame(width: colMedia, alignment: .trailing)
+
+            Text(c.totalText ?? "—")
+                .font(.system(size: 14, weight: .bold, design: .rounded))
+                .monospacedDigit()
+                .foregroundStyle(c.totalText == nil ? .white.opacity(0.25) : .white)
+                .frame(width: colTotal, alignment: .trailing)
+        }
+        .padding(.horizontal, 14)
         .padding(.vertical, 10)
-        .background(Color(hex: 0x0F0F1E))
-        .clipShape(RoundedRectangle(cornerRadius: 8))
+        .background(RoundedRectangle(cornerRadius: 8).fill(Color(hex: 0x0F0F1E)))
+        .padding(.horizontal, 12)
+        .padding(.vertical, 1)
+    }
+
+    @ViewBuilder
+    private func matchChip(_ text: String?) -> some View {
+        if let text {
+            Text(text)
+                .font(.system(size: 13, weight: .bold, design: .rounded))
+                .monospacedDigit()
+                .foregroundStyle(.white)
+                .padding(.horizontal, 9)
+                .padding(.vertical, 4)
+                .background(Capsule().fill(Color(hex: 0x1B3A5C)))
+        } else {
+            Text("—")
+                .font(.system(size: 14))
+                .foregroundStyle(.white.opacity(0.25))
+        }
     }
 
     // MARK: - State views
@@ -254,14 +330,14 @@ struct PlayerStatsSheet: View {
         .padding(.top, 50)
     }
 
-    // MARK: - ESPN fetch logic
+    // MARK: - Carga de datos
 
     private func loadStats() async {
         isLoading = true
         failed = false
         defer { isLoading = false }
 
-        // 1. Resolve athlete ID + age from roster
+        // 1. Resolver athleteID + edad desde el roster de ESPN
         var athleteID = selection.athleteID
 
         if athleteID == nil || athleteID!.isEmpty {
@@ -276,7 +352,7 @@ struct PlayerStatsSheet: View {
             return
         }
 
-        // 2. Fetch season stats, SofaScore player data, and per-match stats concurrently
+        // 2. Estadísticas de temporada (ESPN), datos SofaScore y stats por partido en paralelo
         async let statsTask = fetchStats(athleteID: id)
         async let sofaTask = searchSofaScore()
         async let sofaMatchTask = fetchSofaScoreMatchStats()
@@ -288,13 +364,14 @@ struct PlayerStatsSheet: View {
         sofascoreID = sfID
         marketValue = sfValue
 
-        let perMatchItems = buildMatchStatItems(from: sofaMatchRaw)
-        if !perMatchItems.isEmpty {
-            matchStats = perMatchItems
-        }
+        // 3. Valoración media de temporada (SofaScore) — requiere el playerID
+        var seasonRating: Double? = nil
+        if let sfID { seasonRating = await fetchSeasonRating(playerID: sfID) }
 
-        let built = buildSections(from: rawStats)
-        sections = built
+        hasMatchData = (selection.matchContext?.done ?? false) && !sofaMatchRaw.isEmpty
+
+        let built = buildGroups(season: rawStats, match: sofaMatchRaw, seasonRating: seasonRating)
+        groups = built
         if built.isEmpty { failed = true }
     }
 
@@ -422,7 +499,26 @@ struct PlayerStatsSheet: View {
         return (playerID, value)
     }
 
-    /// Fetches raw stats [name: value] from ESPN APIs
+    /// Valoración media de temporada del jugador en La Liga (SofaScore).
+    private func fetchSeasonRating(playerID: Int) async -> Double? {
+        guard let seasonID = SofaScoreService.seasonIDs[season.espnYear],
+              let url = URL(string: "https://api.sofascore.com/api/v1/player/\(playerID)/unique-tournament/8/season/\(seasonID)/statistics/overall") else {
+            return nil
+        }
+        var req = URLRequest(url: url)
+        req.setValue("Mozilla/5.0", forHTTPHeaderField: "User-Agent")
+
+        guard let (data, resp) = try? await URLSession.shared.data(for: req),
+              (resp as? HTTPURLResponse)?.statusCode == 200,
+              let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
+              let stats = json["statistics"] as? [String: Any] else { return nil }
+
+        if let r = stats["rating"] as? Double { return r }
+        if let r = stats["rating"] as? Int { return Double(r) }
+        return nil
+    }
+
+    /// Fetches raw season stats [name: value] from ESPN APIs
     private func fetchStats(athleteID: String) async -> [String: Double] {
         let year = season.espnYear
         // Only fetch stats for the requested season — no fallback to prior year
@@ -461,99 +557,145 @@ struct PlayerStatsSheet: View {
         return result
     }
 
-    // MARK: - Build display sections
+    // MARK: - Construcción de grupos (fusión partido + temporada)
 
-    private func buildSections(from stats: [String: Double]) -> [StatsSection] {
-        func val(_ keys: [String]) -> Double? {
-            for k in keys { if let v = stats[k] { return v } }
+    private func buildGroups(season seasonStats: [String: Double],
+                             match: [String: Any],
+                             seasonRating: Double?) -> [StatGroup] {
+        let hasMatch = hasMatchData
+        let apps = seasonStats["appearances"] ?? 0
+
+        func sVal(_ keys: [String]) -> Double? {
+            for k in keys { if let v = seasonStats[k] { return v } }
+            return nil
+        }
+        func mVal(_ key: String) -> Double? {
+            if let v = match[key] as? Double { return v }
+            if let v = match[key] as? Int    { return Double(v) }
             return nil
         }
 
-        var general: [StatItem] = []
-        var ataque: [StatItem] = []
-        var pases: [StatItem] = []
-        var defensa: [StatItem] = []
-        var disciplina: [StatItem] = []
-
-        // General — ESPN uses "appearances" and "minutes" (not minutesPlayed)
-        if let v = val(["appearances"]), v > 0 {
-            general.append(StatItem(id: "partidos", label: "Partidos", value: formatInt(v)))
-        }
-        if let v = val(["starts"]), v > 0 {
-            general.append(StatItem(id: "titulares", label: "Titular", value: formatInt(v)))
-        }
-        if let v = val(["minutes"]), v > 0 {
-            general.append(StatItem(id: "minutos", label: "Minutos", value: formatInt(v)))
+        // Concepto contable: chip (partido) + media (total/partidos) + total
+        func count(_ id: String, _ label: String,
+                   match mKey: String?, season sKeys: [String], media: Bool = true) -> StatConcept? {
+            let m = mKey.flatMap { mVal($0) }
+            let s = sVal(sKeys)
+            let mHas = (m ?? 0) > 0
+            let sHas = (s ?? 0) > 0
+            guard mHas || sHas else { return nil }
+            let matchText = (hasMatch && mHas) ? formatInt(m!) : nil
+            let totalText = sHas ? grouped(Int(s!.rounded())) : nil
+            var mediaText: String? = nil
+            if media, sHas, apps > 0 { mediaText = formatMedia(s! / apps) }
+            return StatConcept(id: id, label: label, matchText: matchText, mediaText: mediaText, totalText: totalText)
         }
 
-        // Ataque — ESPN uses "totalGoals", "goalAssists", "totalShots", "shotsOnTarget"
-        if let v = val(["totalGoals"]), v > 0 {
-            ataque.append(StatItem(id: "goles", label: "Goles", value: formatInt(v)))
-        }
-        if let v = val(["goalAssists"]), v > 0 {
-            ataque.append(StatItem(id: "asistencias", label: "Asistencias", value: formatInt(v)))
-        }
-        if let v = val(["totalShots"]), v > 0 {
-            ataque.append(StatItem(id: "disparos", label: "Disparos", value: formatInt(v)))
-        }
-        if let v = val(["shotsOnTarget"]), v > 0 {
-            ataque.append(StatItem(id: "apuerta", label: "A puerta", value: formatInt(v)))
-        }
-        // Goalkeeper stats
-        if let v = val(["saves"]), v > 0 {
-            ataque.append(StatItem(id: "paradas", label: "Paradas", value: formatInt(v)))
-        }
-        if let v = val(["cleanSheet"]), v > 0 {
-            ataque.append(StatItem(id: "pimbatido", label: "P. imbatido", value: formatInt(v)))
+        // % Pases: porcentaje del partido + porcentaje medio de temporada (sin total)
+        func passPercent() -> StatConcept? {
+            var matchPct: Double? = nil
+            if let t = mVal("totalPass"), let a = mVal("accuratePass"), t > 0 {
+                matchPct = a / t * 100
+            }
+            let sPct = sVal(["passPct"])
+            let mHas = matchPct != nil
+            let sHas = (sPct ?? 0) > 0
+            guard mHas || sHas else { return nil }
+            let matchText = (hasMatch && mHas) ? formatPct0(matchPct!) : nil
+            let mediaText = sHas ? formatPct0(sPct!) : nil
+            return StatConcept(id: "pcpases", label: "% Pases", matchText: matchText, mediaText: mediaText, totalText: nil)
         }
 
-        // Pases — ESPN uses "totalPasses", "accuratePasses", "passPct" (0–1 fraction)
-        if let v = val(["totalPasses"]), v > 0 {
-            pases.append(StatItem(id: "pases", label: "Pases", value: formatInt(v)))
-        }
-        if let v = val(["accuratePasses"]), v > 0 {
-            pases.append(StatItem(id: "pasesok", label: "Pases exactos", value: formatInt(v)))
-        }
-        if let v = val(["passPct"]), v > 0 {
-            pases.append(StatItem(id: "pcpases", label: "% Pases", value: formatPct(v)))
-        }
-
-        // Defensa
-        if let v = val(["totalTackles"]), v > 0 {
-            defensa.append(StatItem(id: "entradas", label: "Entradas", value: formatInt(v)))
-        }
-        if let v = val(["interceptions"]), v > 0 {
-            defensa.append(StatItem(id: "intercepciones", label: "Intercepciones", value: formatInt(v)))
-        }
-        if let v = val(["foulsCommitted"]), v > 0 {
-            defensa.append(StatItem(id: "faltas", label: "Faltas", value: formatInt(v)))
+        // Valoración: nota del partido + media de temporada (sin total)
+        func ratingConcept() -> StatConcept? {
+            let m = mVal("rating")
+            let mHas = (m ?? 0) > 0
+            let sHas = (seasonRating ?? 0) > 0
+            guard mHas || sHas else { return nil }
+            let matchText = (hasMatch && mHas) ? String(format: "%.1f", m!) : nil
+            let mediaText = sHas ? String(format: "%.1f", seasonRating!) : nil
+            return StatConcept(id: "valoracion", label: "Valoración", matchText: matchText, mediaText: mediaText, totalText: nil)
         }
 
-        // Disciplina
-        if let v = val(["yellowCards"]), v > 0 {
-            disciplina.append(StatItem(id: "amarillas", label: "Amarillas", value: formatInt(v)))
-        }
-        if let v = val(["redCards"]), v > 0 {
-            disciplina.append(StatItem(id: "rojas", label: "Rojas", value: formatInt(v)))
+        // Dato decimal solo de partido (Km, goles evitados…)
+        func matchDecimal(_ id: String, _ label: String, _ key: String) -> StatConcept? {
+            guard hasMatch, let v = mVal(key), v > 0 else { return nil }
+            return StatConcept(id: id, label: label, matchText: String(format: "%.1f", v), mediaText: nil, totalText: nil)
         }
 
-        var result: [StatsSection] = []
-        if !general.isEmpty    { result.append(StatsSection(id: "general",    title: "General",    items: general)) }
-        if !ataque.isEmpty     { result.append(StatsSection(id: "ataque",     title: "Ataque",     items: ataque)) }
-        if !pases.isEmpty      { result.append(StatsSection(id: "pases",      title: "Pases",      items: pases)) }
-        if !defensa.isEmpty    { result.append(StatsSection(id: "defensa",    title: "Defensa",    items: defensa)) }
-        if !disciplina.isEmpty { result.append(StatsSection(id: "disciplina", title: "Disciplina", items: disciplina)) }
-        return result
+        func group(_ id: String, _ title: String, _ items: [StatConcept?]) -> StatGroup? {
+            let concepts = items.compactMap { $0 }
+            return concepts.isEmpty ? nil : StatGroup(id: id, title: title, concepts: concepts)
+        }
+
+        let all: [StatGroup?] = [
+            group("general", "General", [
+                count("min", "Minutos", match: "minutesPlayed", season: ["minutes"]),
+                ratingConcept(),
+                count("part", "Partidos", match: nil, season: ["appearances"], media: false),
+                count("tit", "Titular", match: nil, season: ["starts"], media: false),
+            ]),
+            group("ataque", "Ataque", [
+                count("goles", "Goles", match: "goals", season: ["totalGoals"]),
+                count("asist", "Asistencias", match: "goalAssist", season: ["goalAssists"]),
+                count("disp", "Disparos", match: "totalShots", season: ["totalShots"]),
+                count("apuerta", "A puerta", match: "onTargetScoringAttempt", season: ["shotsOnTarget"]),
+                count("kpass", "Pases clave", match: "keyPass", season: [], media: false),
+                count("bcc", "Ocas. claras", match: "bigChanceCreated", season: [], media: false),
+            ]),
+            group("pases", "Pases", [
+                count("pases", "Pases", match: "totalPass", season: ["totalPasses"]),
+                count("pasesok", "Pases exactos", match: "accuratePass", season: ["accuratePasses"]),
+                passPercent(),
+            ]),
+            group("defensa", "Defensa", [
+                count("entradas", "Entradas", match: "totalTackle", season: ["totalTackles"]),
+                count("entef", "Entradas ef.", match: "wonTackle", season: [], media: false),
+                count("inter", "Intercepciones", match: "interceptionWon", season: ["interceptions"]),
+                count("despejes", "Despejes", match: "totalClearance", season: [], media: false),
+                count("recup", "Recuperaciones", match: "ballRecovery", season: [], media: false),
+                count("aereos", "Aéreos gd.", match: "aerialWon", season: [], media: false),
+            ]),
+            group("disciplina", "Disciplina", [
+                count("faltas", "Faltas", match: "fouls", season: ["foulsCommitted"]),
+                count("perdidas", "Pérdidas", match: "possessionLostCtrl", season: [], media: false),
+                count("amarillas", "Amarillas", match: nil, season: ["yellowCards"], media: false),
+                count("rojas", "Rojas", match: nil, season: ["redCards"], media: false),
+            ]),
+            group("fisico", "Físico", [
+                matchDecimal("km", "Km recorridos", "kilometersCovered"),
+                count("toques", "Toques", match: "touches", season: [], media: false),
+            ]),
+            group("portero", "Portero", [
+                count("paradas", "Paradas", match: "saves", season: ["saves"]),
+                count("pararea", "Paradas (área)", match: "savedShotsFromInsideTheBox", season: [], media: false),
+                matchDecimal("gevit", "G. evitados", "goalsPrevented"),
+                count("pimbatido", "P. imbatido", match: nil, season: ["cleanSheet"], media: false),
+            ]),
+        ]
+        return all.compactMap { $0 }
     }
 
-    private func formatInt(_ v: Double) -> String {
-        String(Int(v))
+    // MARK: - Formateadores
+
+    private func formatInt(_ v: Double) -> String { String(Int(v.rounded())) }
+
+    /// Media por partido: entero si ≥ 10, un decimal si < 10.
+    private func formatMedia(_ v: Double) -> String {
+        v >= 10 ? String(Int(v.rounded())) : String(format: "%.1f", v)
     }
 
-    private func formatPct(_ v: Double) -> String {
-        // value may already be a percentage (e.g. 85.3) or a fraction (0.853)
+    private func formatPct0(_ v: Double) -> String {
         let pct = v > 1 ? v : v * 100
-        return String(format: "%.1f%%", pct)
+        return String(format: "%.0f%%", pct)
+    }
+
+    /// Entero con separador de miles "." (1024 → "1.024").
+    private func grouped(_ n: Int) -> String {
+        let f = NumberFormatter()
+        f.numberStyle = .decimal
+        f.usesGroupingSeparator = true
+        f.groupingSeparator = "."
+        return f.string(from: NSNumber(value: n)) ?? "\(n)"
     }
 
     private func formatMarketValue(_ value: Int) -> String {
@@ -564,52 +706,6 @@ struct PlayerStatsSheet: View {
             return "\(value / 1_000)K€"
         }
         return "\(value)€"
-    }
-
-    // MARK: - Match section
-
-    private func matchSectionView(_ match: Match) -> some View {
-        let teamName = selection.teamName ?? ""
-        let isHome = teamName == match.home
-        let isAway = teamName == match.away
-        let opponent = isHome ? match.away : (isAway ? match.home : match.away)
-        let hs = match.homeScore ?? 0
-        let as_ = match.awayScore ?? 0
-        let score = isHome ? "\(hs)-\(as_)" : "\(as_)-\(hs)"
-
-        return VStack(spacing: 0) {
-            HStack(spacing: 8) {
-                Text("ESTE PARTIDO")
-                    .font(.system(size: 9, weight: .heavy))
-                    .foregroundStyle(Color(hex: 0x4A9EDF))
-                    .tracking(0.8)
-                Spacer()
-                HStack(spacing: 5) {
-                    Text("J\(match.jornada)")
-                        .font(.system(size: 9, weight: .bold))
-                        .foregroundStyle(.white.opacity(0.35))
-                    TeamLogoView(teamName: opponent, size: 15)
-                    Text(score)
-                        .font(.system(size: 11, weight: .bold, design: .rounded))
-                        .foregroundStyle(.white.opacity(0.65))
-                        .monospacedDigit()
-                }
-            }
-            .padding(.horizontal, 14)
-            .padding(.vertical, 6)
-            .background(Color(hex: 0x0D0D1A))
-
-            LazyVGrid(
-                columns: [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())],
-                spacing: 6
-            ) {
-                ForEach(matchStats) { item in
-                    statCell(item: item)
-                }
-            }
-            .padding(.horizontal, 10)
-            .padding(.vertical, 8)
-        }
     }
 
     // MARK: - SofaScore per-match stats
@@ -649,67 +745,5 @@ struct PlayerStatsSheet: View {
         return findStats(in: lineupsJSON["home"] as? [String: Any])
             ?? findStats(in: lineupsJSON["away"] as? [String: Any])
             ?? [:]
-    }
-
-    private func buildMatchStatItems(from stats: [String: Any]) -> [StatItem] {
-        guard !stats.isEmpty else { return [] }
-
-        func num(_ key: String) -> Double? {
-            if let v = stats[key] as? Double { return v }
-            if let v = stats[key] as? Int    { return Double(v) }
-            return nil
-        }
-
-        var items: [StatItem] = []
-
-        // Tiempo y valoración
-        if let v = num("minutesPlayed"),  v > 0 { items.append(StatItem(id: "m_min",      label: "Minutos",        value: formatInt(v))) }
-        if let v = num("rating"),         v > 0 { items.append(StatItem(id: "m_rating",   label: "Valoración",     value: String(format: "%.1f", v))) }
-
-        // Ataque
-        if let v = num("goalAssist"),              v > 0 { items.append(StatItem(id: "m_asist",    label: "Asistencias",    value: formatInt(v))) }
-        if let v = num("keyPass"),                 v > 0 { items.append(StatItem(id: "m_kpass",    label: "Pases clave",    value: formatInt(v))) }
-        if let v = num("bigChanceCreated"),        v > 0 { items.append(StatItem(id: "m_bcc",      label: "Ocast. clave",   value: formatInt(v))) }
-        if let v = num("totalShots"),              v > 0 { items.append(StatItem(id: "m_disparos", label: "Chutes",         value: formatInt(v))) }
-        if let v = num("onTargetScoringAttempt"),  v > 0 { items.append(StatItem(id: "m_apuerta",  label: "A puerta",       value: formatInt(v))) }
-
-        // Pases
-        if let v = num("totalPass"),  v > 0 { items.append(StatItem(id: "m_pases",   label: "Pases",          value: formatInt(v))) }
-        if let v = num("accuratePass"), v > 0 { items.append(StatItem(id: "m_pasesok", label: "Pases exactos",  value: formatInt(v))) }
-        if let total = num("totalPass"), let acc = num("accuratePass"), total > 0 {
-            items.append(StatItem(id: "m_pcpases", label: "% Pases", value: String(format: "%.0f%%", acc / total * 100)))
-        }
-
-        // Defensa
-        if let v = num("totalTackle"),    v > 0 { items.append(StatItem(id: "m_entradas",  label: "Entradas",       value: formatInt(v))) }
-        if let v = num("wonTackle"),      v > 0 { items.append(StatItem(id: "m_entef",     label: "Entradas ef.",   value: formatInt(v))) }
-        if let v = num("interceptionWon"),v > 0 { items.append(StatItem(id: "m_inter",     label: "Intercepciones", value: formatInt(v))) }
-        if let v = num("totalClearance"), v > 0 { items.append(StatItem(id: "m_despejes",  label: "Despejes",       value: formatInt(v))) }
-        if let v = num("ballRecovery"),   v > 0 { items.append(StatItem(id: "m_recup",     label: "Recuperaciones", value: formatInt(v))) }
-
-        // Duelos
-        let duelW = num("duelWon") ?? 0
-        let duelL = num("duelLost") ?? 0
-        if duelW + duelL > 0 {
-            items.append(StatItem(id: "m_duelos", label: "Duelos", value: "\(Int(duelW))/\(Int(duelW + duelL))"))
-        }
-        if let v = num("aerialWon"),  v > 0 { items.append(StatItem(id: "m_aereos",  label: "Aéreos gd.",     value: formatInt(v))) }
-
-        // Faltas y pérdidas
-        if let v = num("fouls"),              v > 0 { items.append(StatItem(id: "m_faltas",  label: "Faltas",         value: formatInt(v))) }
-        if let v = num("possessionLostCtrl"), v > 0 { items.append(StatItem(id: "m_perdidas",label: "Pérdidas",       value: formatInt(v))) }
-        if let v = num("touches"),            v > 0 { items.append(StatItem(id: "m_toques",  label: "Toques",         value: formatInt(v))) }
-
-        // Físico
-        if let v = num("kilometersCovered"), v > 0 {
-            items.append(StatItem(id: "m_km", label: "Km recorridos", value: String(format: "%.1f", v)))
-        }
-
-        // Portero
-        if let v = num("saves"),                      v > 0 { items.append(StatItem(id: "m_paradas",  label: "Paradas",        value: formatInt(v))) }
-        if let v = num("savedShotsFromInsideTheBox"), v > 0 { items.append(StatItem(id: "m_paradarea",label: "Paradas (área)",  value: formatInt(v))) }
-        if let v = num("goalsPrevented"),             v > 0 { items.append(StatItem(id: "m_gevit",    label: "G. evitados",    value: String(format: "%.1f", v))) }
-
-        return items
     }
 }
