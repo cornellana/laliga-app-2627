@@ -164,7 +164,7 @@ struct ContentView: View {
             filterJornada = nil
         }
         .sheet(item: $selectedMatchItem) { item in
-            MatchDetailSheet(match: item.match, season: store.selectedSeason, allMatches: item.allMatches)
+            MatchDetailSheet(match: item.match, season: store.selectedSeason, allMatches: item.allMatches, matchDays: store.matchDays)
                 .environment(highlightSettings)
                 .presentationDetents([.large])
                 .presentationDragIndicator(.visible)

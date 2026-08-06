@@ -16,13 +16,15 @@ struct RosterPlayer: Identifiable {
 struct MatchDetailSheet: View {
     let allMatches: [Match]
     let season: AppSeason
+    let matchDays: [MatchDay]
     @State private var selectedIndex: Int
     @Environment(\.dismiss) private var dismiss
 
-    init(match: Match, season: AppSeason, allMatches: [Match] = []) {
+    init(match: Match, season: AppSeason, allMatches: [Match] = [], matchDays: [MatchDay] = []) {
         let matches = allMatches.isEmpty ? [match] : allMatches
         self.allMatches = matches
         self.season = season
+        self.matchDays = matchDays
         _selectedIndex = State(initialValue: matches.firstIndex(where: { $0.id == match.id }) ?? 0)
     }
 
@@ -35,7 +37,7 @@ struct MatchDetailSheet: View {
         NavigationStack {
             TabView(selection: $selectedIndex) {
                 ForEach(Array(allMatches.enumerated()), id: \.offset) { idx, match in
-                    MatchDetailPage(match: match, season: season)
+                    MatchDetailPage(match: match, season: season, matchDays: matchDays)
                         .tag(idx)
                 }
             }
@@ -70,6 +72,7 @@ struct MatchDetailSheet: View {
 private struct MatchDetailPage: View {
     let match: Match
     let season: AppSeason
+    let matchDays: [MatchDay]
     @Environment(HighlightSettings.self) private var highlights
 
     @State private var fetchedDetails: MatchDetails? = nil
@@ -80,6 +83,9 @@ private struct MatchDetailPage: View {
     @State private var momentum: [MomentumPoint]? = nil
     @State private var isFetchingMomentum = false
     @State private var selectedPlayer: PlayerSelection? = nil
+    @State private var showPredictionDetail = false
+    /// Pronóstico para partidos aún no jugados; se calcula una vez en `.task`.
+    @State private var prediction: MatchPrediction? = nil
 
     private var effectiveDetails: MatchDetails? { match.details ?? fetchedDetails }
 
@@ -87,6 +93,11 @@ private struct MatchDetailPage: View {
         ScrollView {
             VStack(spacing: 0) {
                 scoreHeader
+
+                if let prediction, showPredictionDetail {
+                    predictionDetail(prediction)
+                }
+
                 Divider().background(Color.white.opacity(0.08))
 
                 if let pts = momentum, !pts.isEmpty {
@@ -113,6 +124,10 @@ private struct MatchDetailPage: View {
         }
         .background(Color(hex: 0x0A0A14))
         .task {
+            if !match.done, prediction == nil {
+                let m = match, days = matchDays, s = season
+                prediction = PredictionEngine.predict(match: m, matchDays: days, season: s)
+            }
             if match.done, match.details == nil {
                 await fetchMatchDetails()
             } else if !match.done, match.details == nil {
@@ -166,6 +181,22 @@ private struct MatchDetailPage: View {
             .padding(.top, 20)
             .padding(.horizontal, 12)
 
+            if let prediction {
+                Button {
+                    withAnimation(.easeInOut(duration: 0.22)) { showPredictionDetail.toggle() }
+                } label: {
+                    PredictionBar(
+                        prediction: prediction,
+                        homeColor: highlights.highlight(for: match.home)?.color ?? Color(hex: 0x004D98),
+                        awayColor: highlights.highlight(for: match.away)?.color ?? Color(hex: 0xE8460B),
+                        isExpanded: showPredictionDetail
+                    )
+                }
+                .buttonStyle(.plain)
+                .padding(.horizontal, 20)
+                .padding(.top, 16)
+            }
+
             HStack(spacing: 16) {
                 if let stadium = match.stadium {
                     Label(
@@ -217,6 +248,60 @@ private struct MatchDetailPage: View {
                 .fixedSize(horizontal: false, vertical: true)
         }
         .frame(maxWidth: .infinity)
+    }
+
+    // MARK: - Prediction detail
+
+    private func predictionDetail(_ prediction: MatchPrediction) -> some View {
+        let homeColor = highlights.highlight(for: match.home)?.color ?? Color(hex: 0x004D98)
+        let awayColor = highlights.highlight(for: match.away)?.color ?? Color(hex: 0xE8460B)
+        return VStack(spacing: 0) {
+            sectionHeader("Pronóstico")
+            VStack(spacing: 0) {
+                HStack {
+                    Text(match.home)
+                        .foregroundStyle(homeColor)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    Text("vs")
+                        .foregroundStyle(.white.opacity(0.3))
+                    Text(match.away)
+                        .foregroundStyle(awayColor)
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                }
+                .font(.caption2.weight(.bold))
+                .lineLimit(1)
+                .padding(.bottom, 8)
+
+                ForEach(prediction.factors) { factor in
+                    HStack(spacing: 8) {
+                        Text(factor.homeValue)
+                            .foregroundStyle(.white.opacity(0.9))
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        Text(factor.label)
+                            .foregroundStyle(.white.opacity(0.4))
+                            .frame(width: 130)
+                        Text(factor.awayValue)
+                            .foregroundStyle(.white.opacity(0.9))
+                            .frame(maxWidth: .infinity, alignment: .trailing)
+                    }
+                    .font(.caption)
+                    .monospacedDigit()
+                    .padding(.vertical, 5)
+                    if factor.id != prediction.factors.last?.id {
+                        Divider().background(Color.white.opacity(0.04))
+                    }
+                }
+            }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
+            Text("Estimación estadística basada en resultados de la temporada y anteriores.")
+                .font(.system(size: 10))
+                .foregroundStyle(.white.opacity(0.3))
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, 16)
+                .padding(.bottom, 12)
+        }
+        .background(Color(hex: 0x0A0A14))
     }
 
     // MARK: - Events
@@ -922,5 +1007,59 @@ struct PlayerRow: View {
             .padding(.horizontal, 8).padding(.vertical, 3)
         }
         .buttonStyle(.plain)
+    }
+}
+
+// MARK: - PredictionBar
+
+/// Barra tricolor (gana local / empate / gana visitante) con los tres porcentajes debajo.
+struct PredictionBar: View {
+    let prediction: MatchPrediction
+    let homeColor: Color
+    let awayColor: Color
+    let isExpanded: Bool
+
+    private let drawColor = Color.white.opacity(0.35)
+
+    var body: some View {
+        VStack(spacing: 6) {
+            GeometryReader { geo in
+                let w = geo.size.width
+                HStack(spacing: 0) {
+                    Rectangle().fill(homeColor)
+                        .frame(width: max(0, w * prediction.homeWin))
+                    Rectangle().fill(drawColor)
+                        .frame(width: max(0, w * prediction.draw))
+                    Rectangle().fill(awayColor)
+                        .frame(width: max(0, w * prediction.awayWin))
+                }
+            }
+            .frame(height: 10)
+            .clipShape(Capsule())
+
+            HStack {
+                percentLabel("\(prediction.homePercent)%", color: homeColor, alignment: .leading)
+                Text("\(prediction.drawPercent)%")
+                    .foregroundStyle(.white.opacity(0.5))
+                    .frame(maxWidth: .infinity)
+                percentLabel("\(prediction.awayPercent)%", color: awayColor, alignment: .trailing)
+            }
+            .font(.system(size: 12, weight: .semibold, design: .rounded))
+            .monospacedDigit()
+
+            HStack(spacing: 4) {
+                Text("Pronóstico")
+                Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
+                    .font(.system(size: 8, weight: .bold))
+            }
+            .font(.system(size: 10))
+            .foregroundStyle(.white.opacity(0.35))
+        }
+    }
+
+    private func percentLabel(_ text: String, color: Color, alignment: Alignment) -> some View {
+        Text(text)
+            .foregroundStyle(color)
+            .frame(maxWidth: .infinity, alignment: alignment)
     }
 }

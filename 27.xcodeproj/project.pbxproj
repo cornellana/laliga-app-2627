@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B07635030231D2F00123BAF /* MatchPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B07634F30231D2F00123BAF /* MatchPrediction.swift */; };
 		0BC634CE2FF79D2B00C75B28 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC634CD2FF79D2B00C75B28 /* Models.swift */; };
 		0BC634D02FF79D3A00C75B28 /* MatchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC634CF2FF79D3A00C75B28 /* MatchStore.swift */; };
 		0BC634D22FF79D4300C75B28 /* MatchesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC634D12FF79D4300C75B28 /* MatchesData.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B07634F30231D2F00123BAF /* MatchPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPrediction.swift; sourceTree = "<group>"; };
 		0BC634A32FF798FD00C75B28 /* 27.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 27.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC634B02FF798FE00C75B28 /* 27Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 27Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC634BA2FF798FE00C75B28 /* 27UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 27UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 				0BCE41C33014A7860069DE8D /* TeamCalendarSheet.swift */,
 				0BCE41C53014B6EA0069DE8D /* LaLigaLogoView.swift */,
 				0BCE41C73015192A0069DE8D /* SofaScoreService.swift */,
+				0B07634F30231D2F00123BAF /* MatchPrediction.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -295,6 +298,7 @@
 				0BCE41B630136A870069DE8D /* HighlightSettingsSheet.swift in Sources */,
 				0BCE41B430136A750069DE8D /* HighlightSettings.swift in Sources */,
 				0BCE41C2301389F60069DE8D /* PlayerStatsSheet.swift in Sources */,
+				0B07635030231D2F00123BAF /* MatchPrediction.swift in Sources */,
 				0BC634D62FF79DAB00C75B28 /* MatchDetailSheet.swift in Sources */,
 				0BCE41C43014A7860069DE8D /* TeamCalendarSheet.swift in Sources */,
 				0BC634DE2FF7BA9100C75B28 /* TeamLogoView.swift in Sources */,
@@ -460,7 +464,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 27/27.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = TJ6V4QM3GB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -499,7 +503,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 27/27.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = TJ6V4QM3GB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

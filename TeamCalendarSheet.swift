@@ -45,7 +45,7 @@ struct TeamCalendarSheet: View {
         }
         .preferredColorScheme(.dark)
         .sheet(item: $selectedMatch) { item in
-            MatchDetailSheet(match: item.match, season: season, allMatches: item.allMatches)
+            MatchDetailSheet(match: item.match, season: season, allMatches: item.allMatches, matchDays: matchDays)
                 .environment(highlights)
                 .presentationDetents([.large])
                 .presentationDragIndicator(.visible)

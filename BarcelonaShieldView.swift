@@ -6,6 +6,7 @@ struct BarcelonaShieldView: View {
 
     var body: some View {
         Image("BarcelonaShield")
+            .renderingMode(.original)
             .resizable()
             .scaledToFit()
             .frame(width: size, height: size)

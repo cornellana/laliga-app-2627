@@ -9,6 +9,7 @@ struct TeamLogoView: View {
         Group {
             if teamName == "FC Barcelona" {
                 Image("BarcelonaShield")
+                    .renderingMode(.original)
                     .resizable()
                     .scaledToFit()
             } else if let url = Self.logoURL(for: teamName) {
