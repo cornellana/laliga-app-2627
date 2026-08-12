@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T23:38:11Z",
+  "lastUpdated": "2026-08-12T00:40:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41,7 +41,7 @@
         {
           "id": "401882920",
           "time": "17:00",
-          "home": "Racing",
+          "home": "Racing Santander",
           "away": "Villarreal",
           "jornada": 1,
           "tv": null,
@@ -67,7 +67,7 @@
         {
           "id": "401882924",
           "time": "21:30",
-          "home": "Celta",
+          "home": "Celta Vigo",
           "away": "Osasuna",
           "jornada": 1,
           "tv": null,
