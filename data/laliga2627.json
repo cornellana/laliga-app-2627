@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T09:22:21Z",
+  "lastUpdated": "2026-08-13T10:32:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62,19 +62,6 @@
           "result": null,
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
-          "details": null
-        },
-        {
-          "id": "401882924",
-          "time": "21:30",
-          "home": "Celta Vigo",
-          "away": "Osasuna",
-          "jornada": 1,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "stadium": "Balaidos",
-          "venueCity": "Vigo",
           "details": null
         }
       ]
