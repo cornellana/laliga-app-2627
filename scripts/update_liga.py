@@ -22,9 +22,17 @@ ESPN_SUMMARY    = "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/su
 DATA_FILE       = os.path.join(os.path.dirname(__file__), "..", "data", "laliga2627.json")
 FORCE_REFRESH   = os.environ.get("FORCE_REFRESH", "false").lower() == "true"
 
+# Nombre en ESPN → nombre canónico de la app.
+# Los nombres canónicos son los de MatchesData.espnTeamIDs y TeamLogoView.logoIDs:
+# si aquí se cuela un nombre distinto, la app se queda sin escudo y sin plantilla.
+# Los displayName de ESPN están verificados contra /soccer/esp.1/teams.
 TEAM_NAME_MAP = {
+    # ── Temporada 26/27 ──────────────────────────────────────────────
     "Real Madrid":        "Real Madrid",
     "Barcelona":          "FC Barcelona",
+    "Atlético Madrid":    "Atlético",      # displayName actual de ESPN
+    "Atletico Madrid":    "Atlético",
+    "Atlético de Madrid": "Atlético",
     "Atletico de Madrid": "Atlético",
     "Athletic Club":      "Athletic",
     "Real Sociedad":      "R. Sociedad",
@@ -33,17 +41,36 @@ TEAM_NAME_MAP = {
     "Valencia":           "Valencia",
     "Sevilla":            "Sevilla",
     "Osasuna":            "Osasuna",
-    "Girona":             "Girona",
-    "Getafe":             "Getafe",
+    "Celta Vigo":         "Celta",         # displayName actual de ESPN
     "Celta de Vigo":      "Celta",
+    "Getafe":             "Getafe",
     "Rayo Vallecano":     "Rayo",
+    "Alavés":             "Alavés",
+    "Alaves":             "Alavés",
+    "Espanyol":           "Espanyol",
+    "Levante":            "Levante",
+    "Racing Santander":   "Racing",        # displayName actual de ESPN
+    "Racing de Santander":"Racing",
+    "Deportivo":          "Deportivo",
+    "Elche":              "Elche",
+    "Málaga":             "Málaga",
+    "Malaga":             "Málaga",
+    # ── Temporadas anteriores ────────────────────────────────────────
+    "Girona":             "Girona",
     "Mallorca":           "Mallorca",
     "Las Palmas":         "Las Palmas",
-    "Alaves":             "Alavés",
     "Leganes":            "Leganés",
+    "Leganés":            "Leganés",
     "Real Valladolid":    "Valladolid",
-    "Espanyol":           "Espanyol",
+    "Real Oviedo":        "Real Oviedo",
+    "Cadiz":              "Cádiz",
+    "Granada":            "Granada",
+    "Almeria":            "Almería",
 }
+
+# Nombres que la app sabe resolver. Sirve para detectar renombrados de ESPN
+# antes de que se cuelen en el JSON y rompan escudos y plantillas.
+KNOWN_TEAMS = set(TEAM_NAME_MAP.values())
 
 TV_MAP = {
     "DAZN ES": "DAZN",
@@ -78,8 +105,22 @@ def madrid_date_from_utc(utc_str):
     madrid = dt + timedelta(hours=offset)
     return madrid.strftime("%Y-%m-%d"), madrid.strftime("%H:%M")
 
+_warned_teams = set()
+
 def normalize_team(name):
-    return TEAM_NAME_MAP.get(name, name)
+    """ESPN → nombre canónico. Avisa si aparece un nombre desconocido.
+
+    Un nombre sin equivalencia se escribiría tal cual en el JSON y la app se
+    quedaría sin escudo ni plantilla para ese equipo, en silencio. Mejor que
+    salte en el log del workflow.
+    """
+    if name in TEAM_NAME_MAP:
+        return TEAM_NAME_MAP[name]
+    if name and name not in KNOWN_TEAMS and name not in _warned_teams:
+        _warned_teams.add(name)
+        print(f"  ⚠️  Equipo sin equivalencia en TEAM_NAME_MAP: {name!r} "
+              f"— la app no le encontrará escudo ni plantilla")
+    return name
 
 def match_key(date, home, away):
     return f"{date}|{home}|{away}"
@@ -212,7 +253,22 @@ def load_data():
             "topScorers": []
         }
     with open(DATA_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+
+    # Sanea nombres ya guardados: repara los que se escribieron sin equivalencia
+    # antes de completar el mapa, aunque su partido caiga fuera de la ventana.
+    fixed = 0
+    for day in data.get("matchDays", []):
+        for game in day.get("games", []):
+            for side in ("home", "away"):
+                canonical = TEAM_NAME_MAP.get(game.get(side))
+                if canonical and canonical != game[side]:
+                    game[side] = canonical
+                    fixed += 1
+    if fixed:
+        print(f"Nombres de equipo normalizados en datos existentes: {fixed}")
+
+    return data
 
 def save_data(data):
     data["lastUpdated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
