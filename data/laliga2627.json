@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T21:34:33Z",
+  "lastUpdated": "2026-08-15T21:46:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5791,5 +5791,24 @@
     }
   ],
   "standings": [],
-  "topScorers": []
+  "topScorers": [
+    {
+      "player": "Mariano Díaz",
+      "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Mikel Rodríguez",
+      "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Nahuel Tenaglia",
+      "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    }
+  ]
 }
