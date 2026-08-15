@@ -152,6 +152,42 @@ def extract_player(text, type_id):
             return after_score[:after_score.index("(")].strip() or None
     return None
 
+def build_top_scorers(match_days):
+    """Tabla de goleadores a partir de los goles ya parseados en los partidos.
+
+    No cuesta ninguna petición extra y queda siempre coherente con lo que la
+    app muestra en la ficha de cada partido. Los goles en propia meta no se
+    atribuyen a su autor.
+    """
+    tally = {}
+    for day in match_days:
+        for game in day.get("games", []):
+            details = game.get("details") or {}
+            for ev in (details.get("events") or []):
+                if ev.get("type") not in ("GOAL", "PENALTY"):
+                    continue
+                player = (ev.get("playerName") or "").strip()
+                if not player:
+                    continue
+                entry = tally.setdefault(player, {"goals": 0, "penalties": 0, "team": None})
+                entry["goals"] += 1
+                if ev.get("type") == "PENALTY":
+                    entry["penalties"] += 1
+                if not entry["team"] and ev.get("teamName"):
+                    entry["team"] = ev["teamName"]
+
+    scorers = [
+        {
+            "player":    player,
+            "team":      stats["team"] or "?",
+            "goals":     stats["goals"],
+            "penalties": stats["penalties"] or None,
+        }
+        for player, stats in tally.items()
+    ]
+    scorers.sort(key=lambda s: (-s["goals"], s["player"]))
+    return scorers
+
 def build_jornada_index(data):
     """(local, visitante) -> jornada, tomado del calendario ya guardado.
 
@@ -389,10 +425,13 @@ def main():
             key = match_key(date, game["home"], game["away"])
             game_id = game.get("id", "")
 
-            # Si ya existe y está finalizado y no forzamos, saltamos
-            if key in existing and existing[key][1].get("done") and not FORCE_REFRESH:
+            # Si ya existe, está finalizado y tiene detalles, saltamos.
+            # Si le faltan los detalles (falló el resumen en su día) se reintenta:
+            # de lo contrario sus goles no entrarían nunca en los goleadores.
+            prev = existing[key][1] if key in existing else None
+            if prev and prev.get("done") and prev.get("details") and not FORCE_REFRESH:
                 # Mantener detalles existentes
-                game["details"] = existing[key][1].get("details")
+                game["details"] = prev.get("details")
                 if date not in new_days:
                     new_days[date] = []
                 if not any(g["home"] == game["home"] and g["away"] == game["away"] for g in new_days[date]):
@@ -441,6 +480,13 @@ def main():
         })
 
     data["matchDays"] = match_days_list
+
+    scorers = build_top_scorers(match_days_list)
+    if scorers != data.get("topScorers"):
+        data["topScorers"] = scorers
+        changed = True
+    top = ", ".join(f"{s['player']} {s['goals']}" for s in scorers[:3])
+    print(f"Goleadores: {len(scorers)}" + (f" (líderes: {top})" if top else ""))
 
     if changed or FORCE_REFRESH:
         save_data(data)
