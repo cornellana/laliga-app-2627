@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T19:12:58Z",
+  "lastUpdated": "2026-08-15T21:33:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13,11 +13,565 @@
           "away": "Getafe",
           "jornada": 1,
           "tv": null,
-          "done": false,
-          "result": null,
+          "done": true,
+          "result": "3-0",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
-          "details": null
+          "details": {
+            "homeLineup": {
+              "formation": "3-5-2",
+              "players": [
+                {
+                  "id": "200910",
+                  "jersey": 1,
+                  "name": "Antonio Sivera",
+                  "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "149306",
+                  "jersey": 16,
+                  "name": "Ville Koski",
+                  "position": "CD",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "176312",
+                  "jersey": 17,
+                  "name": "Jonny",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "262491",
+                  "jersey": 14,
+                  "name": "Nahuel Tenaglia",
+                  "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "163068",
+                  "jersey": 4,
+                  "name": "Denis Suárez",
+                  "position": "CM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "106326",
+                  "jersey": 19,
+                  "name": "Pablo Ibáñez",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "265997",
+                  "jersey": 8,
+                  "name": "Antonio Blanco",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "345991",
+                  "jersey": 21,
+                  "name": "Abde Rebbach",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "374621",
+                  "jersey": 7,
+                  "name": "Ángel Pérez",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "379231",
+                  "jersey": 20,
+                  "name": "Aitor Mañas",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "181757",
+                  "jersey": 11,
+                  "name": "Toni Martínez",
+                  "position": "CF-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "346534",
+                  "jersey": 31,
+                  "name": "Grégoire Swiderski",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "233802",
+                  "jersey": 10,
+                  "name": "Carles Aleñá",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "198832",
+                  "jersey": 9,
+                  "name": "Mariano",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "396612",
+                  "jersey": 18,
+                  "name": "Mikel Rodriguez",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "150374",
+                  "jersey": 13,
+                  "name": "Adrián Rodríguez",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "253754",
+                  "jersey": 23,
+                  "name": "Carlos Protesoni",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "305608",
+                  "jersey": 12,
+                  "name": "Hugo Novoa",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "213535",
+                  "jersey": 24,
+                  "name": "Moussa Diarra",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "415276",
+                  "jersey": 27,
+                  "name": "Xanet Oláiz",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "382532",
+                  "jersey": 3,
+                  "name": "Youssef Lekhedim",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "83494",
+                  "jersey": 22,
+                  "name": "Miguel Rodríguez",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "260256",
+                  "jersey": 6,
+                  "name": "Ander Guevara",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                }
+              ]
+            },
+            "awayLineup": {
+              "formation": "3-5-2",
+              "players": [
+                {
+                  "id": "196339",
+                  "jersey": 13,
+                  "name": "David Soria",
+                  "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "277876",
+                  "jersey": 5,
+                  "name": "Abdel Abqar",
+                  "position": "CD",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "300111",
+                  "jersey": 24,
+                  "name": "Zaid Romero",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "181355",
+                  "jersey": 2,
+                  "name": "Djené",
+                  "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "357147",
+                  "jersey": 6,
+                  "name": "Mario Martín",
+                  "position": "CM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "309838",
+                  "jersey": 11,
+                  "name": "Ramón Terrats",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "228424",
+                  "jersey": 23,
+                  "name": "Orel Mangala",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "406832",
+                  "jersey": 3,
+                  "name": "Davinchi",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "125749",
+                  "jersey": 17,
+                  "name": "Kiko Femenía",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "284854",
+                  "jersey": 10,
+                  "name": "Martín Satriano",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "356080",
+                  "jersey": 21,
+                  "name": "Andrés García",
+                  "position": "CF-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "395479",
+                  "jersey": 26,
+                  "name": "Jean Ives Valou",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "383912",
+                  "jersey": 28,
+                  "name": "Alberto Risco",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "359826",
+                  "jersey": 15,
+                  "name": "Sebastián Boselli",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "218793",
+                  "jersey": 9,
+                  "name": "Borja Mayoral",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "3124560",
+                  "jersey": 27,
+                  "name": "Ibra Drammeh",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "388898",
+                  "jersey": 35,
+                  "name": "Diego Ferrer",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "218122",
+                  "jersey": 19,
+                  "name": "Enes Ünal",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "344245",
+                  "jersey": 1,
+                  "name": "Jirí Letácek",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "173247",
+                  "jersey": 22,
+                  "name": "Johan Mojica",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "314403",
+                  "jersey": 4,
+                  "name": "Saba Sazonov",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                }
+              ]
+            },
+            "events": [
+              {
+                "id": "50900342_1",
+                "type": "YELLOW_CARD",
+                "minute": 10,
+                "extraTime": null,
+                "playerName": "Davinchi",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "50901830_2",
+                "type": "YELLOW_CARD",
+                "minute": 23,
+                "extraTime": null,
+                "playerName": "Mario Martín",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "50904159_9",
+                "type": "RED_CARD",
+                "minute": 42,
+                "extraTime": null,
+                "playerName": "Kiko Femenía",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "50904840_10",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 3,
+                "playerName": "Denis Suárez",
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "50905861_12",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Enes Ünal",
+                "teamName": "Getafe",
+                "text": "Davinchi"
+              },
+              {
+                "id": "50907126_18",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Mariano Díaz",
+                "teamName": "Alavés",
+                "text": "Aitor Mañas"
+              },
+              {
+                "id": "50907127_19",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Mikel Rodríguez",
+                "teamName": "Alavés",
+                "text": "Denis Suárez"
+              },
+              {
+                "id": "50907937_24",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Youssef Enriquez",
+                "teamName": "Alavés",
+                "text": "Ángel Pérez"
+              },
+              {
+                "id": "50907938_25",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Alberto Risco",
+                "teamName": "Getafe",
+                "text": "Mario Martín because of an injury"
+              },
+              {
+                "id": "50907890_26",
+                "type": "YELLOW_CARD",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Abde Rebbach",
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "50908345_27",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Jean Valou",
+                "teamName": "Getafe",
+                "text": "Martín Satriano"
+              },
+              {
+                "id": "50908504_28",
+                "type": "GOAL",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Nahuel Tenaglia",
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "50908917_31",
+                "type": "YELLOW_CARD",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Djené Dakonam",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "50909543_34",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Sebastián Boselli",
+                "teamName": "Getafe",
+                "text": "Andrés García"
+              },
+              {
+                "id": "50909544_35",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Saba Sazonov",
+                "teamName": "Getafe",
+                "text": "Djené Dakonam"
+              },
+              {
+                "id": "50910023_36",
+                "type": "YELLOW_CARD",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Antonio Blanco",
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "50910904_37",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Mariano Díaz",
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "50911085_38",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Mariano Díaz",
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "50911536_39",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Carles Aleñá",
+                "teamName": "Alavés",
+                "text": "Abde Rebbach"
+              },
+              {
+                "id": "50911537_40",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Ander Guevara",
+                "teamName": "Alavés",
+                "text": "Antonio Blanco"
+              },
+              {
+                "id": "50911391_41",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Mikel Rodríguez",
+                "teamName": "Alavés",
+                "text": null
+              }
+            ]
+          }
         },
         {
           "id": "401882918",
