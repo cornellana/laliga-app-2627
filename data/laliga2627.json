@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T21:46:10Z",
+  "lastUpdated": "2026-08-15T21:51:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -580,11 +580,582 @@
           "away": "Rayo",
           "jornada": 1,
           "tv": null,
-          "done": false,
-          "result": null,
+          "done": true,
+          "result": "2-1",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
-          "details": null
+          "details": {
+            "homeLineup": {
+              "formation": "4-2-3-1",
+              "players": [
+                {
+                  "id": "159135",
+                  "jersey": 1,
+                  "name": "Odisseas Vlachodimos",
+                  "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "334163",
+                  "jersey": 4,
+                  "name": "Enrique Salas",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "304213",
+                  "jersey": 12,
+                  "name": "Arouna Sangante",
+                  "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "222037",
+                  "jersey": 17,
+                  "name": "Gabriel Suazo",
+                  "position": "LB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "279738",
+                  "jersey": 2,
+                  "name": "Juan Iglesias",
+                  "position": "RB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "254320",
+                  "jersey": 18,
+                  "name": "Jon Guridi",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "422137",
+                  "jersey": 27,
+                  "name": "Nico Guillén",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "282289",
+                  "jersey": 6,
+                  "name": "Lucien Agoumé",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "365821",
+                  "jersey": 16,
+                  "name": "Isaac Romero",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "377782",
+                  "jersey": 19,
+                  "name": "Oso",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "375514",
+                  "jersey": 30,
+                  "name": "Miguel Sierra",
+                  "position": "AM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "371543",
+                  "jersey": 37,
+                  "name": "Ibrahima Sow",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "254270",
+                  "jersey": 21,
+                  "name": "Chidera Ejuke",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "415742",
+                  "jersey": 34,
+                  "name": "Iker Ortín",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "347359",
+                  "jersey": 10,
+                  "name": "Peque",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "409486",
+                  "jersey": 39,
+                  "name": "Edu Altozano",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "387493",
+                  "jersey": 3,
+                  "name": "Julio Díaz",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "332246",
+                  "jersey": 5,
+                  "name": "Andrés Castrín",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "250508",
+                  "jersey": 22,
+                  "name": "José Ángel Carmona",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "356228",
+                  "jersey": 28,
+                  "name": "Manu Bueno",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "259513",
+                  "jersey": 11,
+                  "name": "Rubén Vargas",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "322993",
+                  "jersey": 9,
+                  "name": "Robbie Ure",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "362874",
+                  "jersey": 13,
+                  "name": "Fran González",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                }
+              ]
+            },
+            "awayLineup": {
+              "formation": "4-2-3-1",
+              "players": [
+                {
+                  "id": "195032",
+                  "jersey": 13,
+                  "name": "Augusto Batalla",
+                  "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "294228",
+                  "jersey": 6,
+                  "name": "Pathé Ciss",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "140754",
+                  "jersey": 24,
+                  "name": "Florian Lejeune",
+                  "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "158151",
+                  "jersey": 20,
+                  "name": "Iván Balliu",
+                  "position": "LB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "287224",
+                  "jersey": 2,
+                  "name": "Andrei Ratiu",
+                  "position": "RB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "264197",
+                  "jersey": 7,
+                  "name": "Isi Palazón",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "264217",
+                  "jersey": 23,
+                  "name": "Óscar Valentín",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "203711",
+                  "jersey": 8,
+                  "name": "Unai López",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "276847",
+                  "jersey": 11,
+                  "name": "Randy Nteka",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "125200",
+                  "jersey": 18,
+                  "name": "Álvaro García",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "260740",
+                  "jersey": 19,
+                  "name": "Jorge de Frutos",
+                  "position": "AM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "192893",
+                  "jersey": 1,
+                  "name": "Daniel Cárdenas",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "415410",
+                  "jersey": 31,
+                  "name": "Marco Román",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "3128651",
+                  "jersey": 34,
+                  "name": "Iván Alonso Martín",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "386579",
+                  "jersey": 22,
+                  "name": "Pelayo Fernández",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "313024",
+                  "jersey": 9,
+                  "name": "Alexandre Alemão",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "268751",
+                  "jersey": 27,
+                  "name": "Sergio Lozano",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "389447",
+                  "jersey": 26,
+                  "name": "Marco de las Sias",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "324505",
+                  "jersey": 21,
+                  "name": "Fran Pérez",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "319231",
+                  "jersey": 33,
+                  "name": "Jozhua Vertrouwd",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "276652",
+                  "jersey": 10,
+                  "name": "Sergio Camello",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "264078",
+                  "jersey": 4,
+                  "name": "Pedro Díaz",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                }
+              ]
+            },
+            "events": [
+              {
+                "id": "50913635_2",
+                "type": "GOAL",
+                "minute": 4,
+                "extraTime": null,
+                "playerName": "Álvaro García",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "50918946_9",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 3,
+                "playerName": "Isaac Romero",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "50920893_11",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Peque Fernández",
+                "teamName": "Sevilla",
+                "text": "Nico Guillén"
+              },
+              {
+                "id": "50921069_12",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Robbie Ure",
+                "teamName": "Sevilla",
+                "text": "Isaac Romero"
+              },
+              {
+                "id": "50921887_14",
+                "type": "PENALTY",
+                "minute": 52,
+                "extraTime": null,
+                "playerName": "Jon Guridi",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "50922739_15",
+                "type": "YELLOW_CARD",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Jon Guridi",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "50923069_16",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Sergio Camello",
+                "teamName": "Rayo",
+                "text": "Isi Palazón"
+              },
+              {
+                "id": "50923068_17",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Alemão",
+                "teamName": "Rayo",
+                "text": "Randy Nteka"
+              },
+              {
+                "id": "50923201_18",
+                "type": "YELLOW_CARD",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Álvaro García",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "50923474_19",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Rubén Vargas",
+                "teamName": "Sevilla",
+                "text": "Miguel Sierra"
+              },
+              {
+                "id": "50923475_20",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Fran Pérez",
+                "teamName": "Rayo",
+                "text": "Álvaro García"
+              },
+              {
+                "id": "50923669_25",
+                "type": "YELLOW_CARD",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Unai López",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "50923858_26",
+                "type": "YELLOW_CARD",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Fran Pérez",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "50923949_27",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Chidera Ejuke",
+                "teamName": "Sevilla",
+                "text": "Oso"
+              },
+              {
+                "id": "50924050_28",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Pedro Díaz",
+                "teamName": "Rayo",
+                "text": "Unai López"
+              },
+              {
+                "id": "50924051_29",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Pelayo Fernández",
+                "teamName": "Rayo",
+                "text": "Óscar Valentín"
+              },
+              {
+                "id": "50924115_30",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Gabriel Suazo",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "50924195_31",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Manu Bueno",
+                "teamName": "Sevilla",
+                "text": "Jon Guridi because of an injury"
+              },
+              {
+                "id": "50924422_32",
+                "type": "RED_CARD",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Kike Salas",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "50924976_37",
+                "type": "PENALTY",
+                "minute": 90,
+                "extraTime": 7,
+                "playerName": "Peque Fernández",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "50925414_40",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 12,
+                "playerName": "Lucien Agoumé",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "50925415_41",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 12,
+                "playerName": "Alemão",
+                "teamName": "Rayo",
+                "text": null
+              }
+            ]
+          }
         }
       ]
     },
@@ -5793,6 +6364,12 @@
   "standings": [],
   "topScorers": [
     {
+      "player": "Jon Guridi",
+      "team": "Sevilla",
+      "goals": 1,
+      "penalties": 1
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 1,
@@ -5807,6 +6384,18 @@
     {
       "player": "Nahuel Tenaglia",
       "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Peque Fernández",
+      "team": "Sevilla",
+      "goals": 1,
+      "penalties": 1
+    },
+    {
+      "player": "Álvaro García",
+      "team": "Rayo",
       "goals": 1,
       "penalties": null
     }
