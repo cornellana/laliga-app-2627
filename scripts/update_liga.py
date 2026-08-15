@@ -56,13 +56,16 @@ TV_MAP = {
 }
 
 # ESPN identifica los keyEvents con ids numéricos, no con nombres.
-# Los goles no tienen un id fijo (hay 6 variantes), se detectan con `scoringPlay`.
+# Los goles no tienen un id fijo (70/137/138/173/97/98), se detectan con `scoringPlay`.
+# Ids verificados sobre 74 partidos reales de LaLiga.
 NON_GOAL_TYPE_IDS = {
-    "76": "SUBSTITUTION",
-    "94": "YELLOW_CARD",
-    "95": "RED_CARD",
-    "96": "RED_CARD",
+    "76":  "SUBSTITUTION",
+    "94":  "YELLOW_CARD",
+    "93":  "RED_CARD",        # el rojo es 93; 95/96 no existen en LaLiga
+    "114": "MISSED_PENALTY",  # Penalty - Saved
+    "140": "MISSED_PENALTY",  # Penalty - Hit Woodwork
 }
+CARD_TYPE_IDS    = ("93", "94")
 OWN_GOAL_TYPE_ID = "97"
 PENALTY_TYPE_ID  = "98"
 
@@ -117,7 +120,7 @@ def team_from_text(text, type_id):
         return None
     if type_id == "76" and text.startswith("Substitution, "):
         return text[len("Substitution, "):].split(". ")[0] or None
-    if type_id in ("94", "95", "96") and "(" in text and ")" in text:
+    if type_id in CARD_TYPE_IDS and "(" in text and ")" in text:
         return text[text.index("(") + 1:text.index(")")] or None
     return None
 
@@ -135,11 +138,13 @@ def extract_player(text, type_id):
         if len(parts) > 1:
             return parts[1].split(" replaces ")[0].strip() or None
         return None
-    if type_id in ("94", "95", "96"):
+    if type_id in CARD_TYPE_IDS:
         if "(" in text:
             return text[:text.index("(")].strip() or None
         return None
-    # Goles: "Goal! Alavés 1, Getafe 0. Jugador (Alavés) right footed shot..."
+    # Goles y penaltis fallados, que llevan el marcador delante:
+    # "Goal! Alavés 1, Getafe 0. Jugador (Alavés) right footed shot..."
+    # "Penalty saved. Pepelu (Valencia) right footed shot saved..."
     parts = text.split(". ")
     if len(parts) > 1:
         after_score = ". ".join(parts[1:])
