@@ -11,6 +11,7 @@ Uso manual:
 import json
 import os
 import sys
+import unicodedata
 import requests
 from datetime import datetime, timezone, timedelta
 
@@ -54,6 +55,17 @@ TV_MAP = {
     "TVE":     "TVE",
 }
 
+# ESPN identifica los keyEvents con ids numéricos, no con nombres.
+# Los goles no tienen un id fijo (hay 6 variantes), se detectan con `scoringPlay`.
+NON_GOAL_TYPE_IDS = {
+    "76": "SUBSTITUTION",
+    "94": "YELLOW_CARD",
+    "95": "RED_CARD",
+    "96": "RED_CARD",
+}
+OWN_GOAL_TYPE_ID = "97"
+PENALTY_TYPE_ID  = "98"
+
 # ── Utilidades ───────────────────────────────────────────────────────────────
 
 def madrid_date_from_utc(utc_str):
@@ -68,6 +80,86 @@ def normalize_team(name):
 
 def match_key(date, home, away):
     return f"{date}|{home}|{away}"
+
+def fold(s):
+    """Minúsculas sin tildes, para comparar nombres de equipo."""
+    return "".join(
+        c for c in unicodedata.normalize("NFKD", (s or "").lower())
+        if not unicodedata.combining(c)
+    )
+
+def resolve_team(espn_name, home, away):
+    """Mapea el nombre de equipo de ESPN al nombre usado en la app."""
+    if not espn_name:
+        return None
+    n = fold(normalize_team(espn_name))
+    for team in (home, away):
+        t = fold(team)
+        if t and (t == n or t in n or n in t):
+            return team
+    return espn_name
+
+def parse_clock(display):
+    """'90'+9'' -> (90, 9);  '23'' -> (23, None);  '' -> (0, None)."""
+    clean = (display or "").replace("'", "").strip()
+    if not clean:
+        return 0, None
+    if "+" in clean:
+        base, _, extra = clean.partition("+")
+        base, extra = base.strip(), extra.strip()
+        return (int(base) if base.isdigit() else 0,
+                int(extra) if extra.isdigit() else None)
+    return (int(clean) if clean.isdigit() else 0), None
+
+def team_from_text(text, type_id):
+    """ESPN deja `team` a null en muchos eventos; el nombre va dentro del texto."""
+    if not text:
+        return None
+    if type_id == "76" and text.startswith("Substitution, "):
+        return text[len("Substitution, "):].split(". ")[0] or None
+    if type_id in ("94", "95", "96") and "(" in text and ")" in text:
+        return text[text.index("(") + 1:text.index(")")] or None
+    return None
+
+def extract_player(text, type_id):
+    """ESPN deja `athlete` a null en los keyEvents; el jugador va dentro del texto."""
+    if not text:
+        return None
+    if type_id == OWN_GOAL_TYPE_ID:
+        if text.lower().startswith("own goal by "):
+            after = text[len("Own Goal by "):]
+            return after.split(",")[0].strip() or None
+        return None
+    if type_id == "76":
+        parts = text.split(". ")
+        if len(parts) > 1:
+            return parts[1].split(" replaces ")[0].strip() or None
+        return None
+    if type_id in ("94", "95", "96"):
+        if "(" in text:
+            return text[:text.index("(")].strip() or None
+        return None
+    # Goles: "Goal! Alavés 1, Getafe 0. Jugador (Alavés) right footed shot..."
+    parts = text.split(". ")
+    if len(parts) > 1:
+        after_score = ". ".join(parts[1:])
+        if "(" in after_score:
+            return after_score[:after_score.index("(")].strip() or None
+    return None
+
+def build_jornada_index(data):
+    """(local, visitante) -> jornada, tomado del calendario ya guardado.
+
+    ESPN dejó de exponer `week` en el scoreboard de LaLiga, así que la jornada
+    se recupera del JSON existente, que tiene el calendario completo 1-38.
+    """
+    index = {}
+    for day in data.get("matchDays", []):
+        for game in day.get("games", []):
+            jornada = game.get("jornada")
+            if jornada:
+                index[(game.get("home"), game.get("away"))] = jornada
+    return index
 
 def load_data():
     if not os.path.exists(DATA_FILE):
@@ -109,7 +201,7 @@ def fetch_summary(event_id):
         print(f"  Error fetchando summary {event_id}: {e}")
         return None
 
-def parse_event(event):
+def parse_event(event, jornada_index):
     """Convierte un evento ESPN en un dict de partido."""
     comps = event.get("competitions", [{}])[0]
     competitors = comps.get("competitors", [])
@@ -132,9 +224,15 @@ def parse_event(event):
     date_str = event.get("date", "")
     date, time = madrid_date_from_utc(date_str) if date_str else ("", "TBD")
 
-    # Jornada (matchweek)
-    season_type = event.get("season", {}).get("type", 2)
-    week = event.get("week", {}).get("number", 1) if season_type == 2 else 1
+    # Jornada (matchweek): ESPN ya no la publica, se recupera del calendario guardado
+    week = jornada_index.get((home_team, away_team))
+    if week is None:
+        raw_week = event.get("week")
+        if isinstance(raw_week, dict):
+            week = raw_week.get("number")
+    if week is None:
+        week = 1
+        print(f"  ⚠️  Jornada desconocida para {home_team} vs {away_team}, usando 1")
 
     venue = comps.get("venue", {})
     stadium = venue.get("fullName", None)
@@ -167,52 +265,77 @@ def parse_event(event):
     }
     return game, date
 
-def parse_summary_details(summary):
+def parse_summary_details(summary, home, away):
     """Extrae detalles del resumen (alineaciones, eventos)."""
     if not summary:
         return None
 
-    events_raw = summary.get("keyEvents", []) or summary.get("commentary", [])
     events = []
-    for ev in events_raw:
-        ev_type = ev.get("type", {}).get("id", "")
-        type_map = {
-            "goal":        "GOAL",
-            "yellowCard":  "YELLOW_CARD",
-            "redCard":     "RED_CARD",
-            "substitution":"SUBSTITUTION",
-        }
-        mapped = type_map.get(ev_type)
-        if not mapped:
+    for idx, ev in enumerate(summary.get("keyEvents") or []):
+        type_id = str(((ev.get("type") or {}).get("id")) or "")
+        is_goal = ev.get("scoringPlay") is True
+        if not is_goal and type_id not in NON_GOAL_TYPE_IDS:
             continue
+
+        text = ev.get("text")
+        if is_goal:
+            if type_id == OWN_GOAL_TYPE_ID or (text or "").lower().startswith("own goal"):
+                mapped = "OWN_GOAL"
+            elif type_id == PENALTY_TYPE_ID:
+                mapped = "PENALTY"
+            else:
+                mapped = "GOAL"
+        else:
+            mapped = NON_GOAL_TYPE_IDS[type_id]
+
+        minute, extra_time = parse_clock((ev.get("clock") or {}).get("displayValue"))
+        raw_team = team_from_text(text, type_id) or (ev.get("team") or {}).get("displayName")
+
+        # En los cambios, guardar solo el jugador que entra como texto auxiliar
+        short_text = None
+        if type_id == "76" and text:
+            parts = text.split(". ")
+            if len(parts) > 1:
+                sub = parts[1].split(" replaces ")
+                if len(sub) > 1:
+                    short_text = sub[1].strip().strip(".,;:!?") or None
+
         events.append({
-            "id":         str(ev.get("id", "")),
+            "id":         f"{ev.get('id', '')}_{idx}",
             "type":       mapped,
-            "minute":     ev.get("clock", {}).get("value", 0),
-            "extraTime":  None,
-            "playerName": ev.get("athlete", {}).get("displayName"),
-            "teamName":   normalize_team(ev.get("team", {}).get("displayName", "")),
-            "text":       ev.get("text"),
+            "minute":     minute,
+            "extraTime":  extra_time,
+            "playerName": extract_player(text, type_id),
+            "teamName":   resolve_team(raw_team, home, away),
+            "text":       short_text,
         })
 
     # Lineups
-    rosters = summary.get("rosters", [])
     home_lineup = away_lineup = None
-    for roster in rosters:
-        formation = roster.get("formation", {}).get("displayName")
-        home_away = roster.get("homeAway", "")
+    for roster in summary.get("rosters") or []:
+        # ESPN devuelve `formation` como string plano ("3-5-2"), no como objeto
+        raw_formation = roster.get("formation")
+        formation = (raw_formation.get("displayName")
+                     if isinstance(raw_formation, dict) else raw_formation)
+
         players = []
-        for p in roster.get("athletes", []):
+        for p in (roster.get("roster") or roster.get("athletes") or []):
+            athlete = p.get("athlete") or {}
+            name = athlete.get("displayName") or athlete.get("fullName") or ""
+            if not name:
+                continue
+            jersey = p.get("jersey")
             players.append({
-                "id":       str(p.get("athlete", {}).get("id", "")),
-                "jersey":   int(p.get("jersey", 0)) if p.get("jersey") else None,
-                "name":     p.get("athlete", {}).get("displayName", ""),
-                "position": p.get("position", {}).get("abbreviation"),
-                "isStarter":p.get("starter", False),
-                "events":   None,
+                "id":        str(athlete.get("id", "")),
+                "jersey":    int(jersey) if str(jersey or "").isdigit() else None,
+                "name":      name,
+                "position":  (p.get("position") or {}).get("abbreviation"),
+                "isStarter": bool(p.get("starter", False)),
+                "events":    None,
             })
+
         lineup = {"formation": formation, "players": players}
-        if home_away == "home":
+        if roster.get("homeAway") == "home":
             home_lineup = lineup
         else:
             away_lineup = lineup
@@ -227,6 +350,7 @@ def parse_summary_details(summary):
 
 def main():
     data = load_data()
+    jornada_index = build_jornada_index(data)
 
     # Build lookup de partidos existentes para actualizacion incremental
     existing = {}
@@ -249,7 +373,11 @@ def main():
     for date_str in dates_to_check:
         events = fetch_scoreboard(date_str)
         for event in events:
-            parsed = parse_event(event)
+            try:
+                parsed = parse_event(event, jornada_index)
+            except Exception as e:
+                print(f"  ⚠️  Evento ESPN ilegible en {date_str}: {e}")
+                continue
             if not parsed:
                 continue
             game, date = parsed
@@ -266,11 +394,16 @@ def main():
                     new_days[date].append(game)
                 continue
 
-            # Obtener detalles si el partido terminó y tenemos ID
+            # Obtener detalles si el partido terminó y tenemos ID.
+            # Nunca debe abortar el run: el marcador es más importante que los detalles.
             if game.get("done") and game_id:
                 print(f"  Fetchando detalles: {game['home']} vs {game['away']} ({date})")
-                summary = fetch_summary(game_id)
-                game["details"] = parse_summary_details(summary)
+                try:
+                    summary = fetch_summary(game_id)
+                    game["details"] = parse_summary_details(summary, game["home"], game["away"])
+                except Exception as e:
+                    print(f"  ⚠️  Detalles no parseables ({game['home']} vs {game['away']}): {e}")
+                    game["details"] = existing[key][1].get("details") if key in existing else None
 
             if date not in new_days:
                 new_days[date] = []
@@ -289,7 +422,13 @@ def main():
         games = new_days[date]
         if not games:
             continue
-        jornada = games[0].get("jornada", 1)
+        # Jornada del día = la más frecuente entre sus partidos (hay días a caballo
+        # entre dos jornadas y games[0] no siempre es representativo)
+        counts = {}
+        for g in games:
+            j = g.get("jornada", 1)
+            counts[j] = counts.get(j, 0) + 1
+        jornada = max(counts, key=counts.get)
         match_days_list.append({
             "date":    date,
             "jornada": jornada,
