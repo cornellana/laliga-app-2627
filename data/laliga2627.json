@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T17:40:42Z",
+  "lastUpdated": "2026-08-16T18:28:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15,6 +15,9 @@
           "tv": null,
           "done": true,
           "result": "3-0",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
@@ -582,6 +585,9 @@
           "tv": null,
           "done": true,
           "result": "2-1",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
@@ -1172,6 +1178,9 @@
           "tv": null,
           "done": true,
           "result": "2-2",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -1745,7 +1754,10 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": null,
+          "result": "2-0",
+          "state": "in",
+          "clock": "63'",
+          "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": null
@@ -1765,6 +1777,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": null
@@ -1784,6 +1799,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": null
@@ -1803,6 +1821,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
           "details": null
