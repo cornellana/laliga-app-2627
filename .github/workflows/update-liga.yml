@@ -36,7 +36,9 @@ jobs:
       # Duración máxima del bucle. Algo por encima del cron para cubrir sus
       # retrasos: si se solapan, la concurrencia encadena una tras otra.
       LOOP_MAX_SECONDS: 1500
-      ACTIVE_FLAG_FILE: ${{ runner.temp }}/laliga_active
+      # OJO: ACTIVE_FLAG_FILE se define dentro del paso, no aquí. El contexto
+      # `runner` no existe en el env del job y usarlo invalida el workflow
+      # entero: el run falla antes de crear siquiera el job.
 
     steps:
       - uses: actions/checkout@v4
@@ -53,6 +55,7 @@ jobs:
           INPUT_FORCE_REFRESH: ${{ github.event.inputs.force_refresh || 'false' }}
         run: |
           set -uo pipefail
+          export ACTIVE_FLAG_FILE="${RUNNER_TEMP:-/tmp}/laliga_active"
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
