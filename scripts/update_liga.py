@@ -22,6 +22,15 @@ ESPN_SUMMARY    = "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/su
 DATA_FILE       = os.path.join(os.path.dirname(__file__), "..", "data", "laliga2627.json")
 FORCE_REFRESH   = os.environ.get("FORCE_REFRESH", "false").lower() == "true"
 
+# El workflow consulta este archivo para decidir si sigue en bucle con
+# intervalo corto o si termina y espera al siguiente cron. Si la variable no
+# está definida, el script se comporta como una ejecución suelta de siempre.
+ACTIVE_FLAG_FILE = os.environ.get("ACTIVE_FLAG_FILE", "")
+
+# Un partido "activo" mantiene el bucle vivo: en juego, o a punto de empezar.
+# El margen previo cubre el retraso del cron y los saques de centro tardíos.
+PRE_MATCH_MINUTES = int(os.environ.get("PRE_MATCH_MINUTES", "20"))
+
 # Nombre en ESPN → nombre canónico de la app.
 # Los nombres canónicos son los de MatchesData.espnTeamIDs y TeamLogoView.logoIDs:
 # si aquí se cuela un nombre distinto, la app se queda sin escudo y sin plantilla.
@@ -193,6 +202,38 @@ def extract_player(text, type_id):
             return after_score[:after_score.index("(")].strip() or None
     return None
 
+def is_match_active(event, now):
+    """¿Este partido justifica seguir sondeando cada pocos minutos?
+
+    Cuenta como activo si está en juego o si arranca dentro del margen previo.
+    Los ya terminados no: sus datos definitivos se escriben en el mismo ciclo
+    en que pasan a `post`.
+    """
+    state = ((event.get("status") or {}).get("type") or {}).get("state")
+    if state == "in":
+        return True
+    if state != "pre":
+        return False
+    raw = event.get("date")
+    if not raw:
+        return False
+    try:
+        kickoff = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    minutes_to_kickoff = (kickoff - now).total_seconds() / 60
+    return 0 <= minutes_to_kickoff <= PRE_MATCH_MINUTES
+
+def write_active_flag(active):
+    """Deja o retira la señal que el workflow usa para decidir si sigue."""
+    if not ACTIVE_FLAG_FILE:
+        return
+    if active:
+        with open(ACTIVE_FLAG_FILE, "w", encoding="utf-8") as f:
+            f.write("1")
+    elif os.path.exists(ACTIVE_FLAG_FILE):
+        os.remove(ACTIVE_FLAG_FILE)
+
 def build_top_scorers(match_days):
     """Tabla de goleadores a partir de los goles ya parseados en los partidos.
 
@@ -315,8 +356,12 @@ def parse_event(event, jornada_index):
     if not home_team or not away_team:
         return None
 
-    status_type = (event.get("status") or {}).get("type") or {}
+    status = event.get("status") or {}
+    status_type = status.get("type") or {}
     completed = status_type.get("completed", False)
+    # 'pre' sin empezar | 'in' en juego | 'post' terminado
+    state = status_type.get("state")
+    live = state == "in"
 
     date_str = event.get("date", "")
     date, time = madrid_date_from_utc(date_str) if date_str else ("", "TBD")
@@ -355,7 +400,14 @@ def parse_event(event, jornada_index):
         "jornada":   week,
         "tv":        tv,
         "done":      completed,
-        "result":    f"{home_score}-{away_score}" if completed else None,
+        # El marcador se publica también en directo, no solo al final. `done`
+        # sigue significando "terminado": la clasificación depende de él y un
+        # partido en curso no debe contar como jugado.
+        "result":    f"{home_score}-{away_score}" if (completed or live) else None,
+        "state":     state,
+        # Minuto en curso tal cual lo da ESPN: "45'+2'", "HT"…
+        "clock":     (status.get("displayClock") or None) if live else None,
+        "statusText": status_type.get("description") if live else None,
         "stadium":   stadium,
         "venueCity": city,
         "details":   None,
@@ -465,11 +517,14 @@ def main():
 
     changed = False
     new_days = {}
+    active_matches = []
 
     print(f"Consultando {len(dates_to_check)} fechas...")
     for date_str in dates_to_check:
         events = fetch_scoreboard(date_str)
         for event in events:
+            if is_match_active(event, today):
+                active_matches.append(event.get("name") or event.get("id"))
             try:
                 parsed = parse_event(event, jornada_index)
             except Exception as e:
@@ -549,6 +604,13 @@ def main():
         print(f"✓ Actualizado con {len(match_days_list)} días de partido")
     else:
         print("Sin cambios — datos ya actualizados")
+
+    write_active_flag(bool(active_matches))
+    if active_matches:
+        print(f"En juego o a punto de empezar ({len(active_matches)}): "
+              + "; ".join(str(m) for m in active_matches[:4]))
+    else:
+        print("Sin partidos activos")
 
 if __name__ == "__main__":
     main()

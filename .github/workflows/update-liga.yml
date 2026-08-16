@@ -1,8 +1,13 @@
 name: Actualizar datos de La Liga 26/27
 
+# El cron de GitHub es el despertador, no el reloj: no baja de 5 minutos y en
+# la práctica llega tarde (con */15 se han medido intervalos de 16 a 34 min).
+# Por eso cada ejecución, si encuentra partidos en juego, se queda en bucle
+# actualizando cada pocos minutos en lugar de terminar y esperar al siguiente
+# disparo. Fuera de horario de partidos hace una pasada y sale en segundos.
+
 on:
   schedule:
-    # Cada 15 minutos (máxima frecuencia en GitHub Actions)
     - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
@@ -14,10 +19,24 @@ on:
 permissions:
   contents: write
 
+# Evita que dos ejecuciones se pisen al hacer push. GitHub mantiene como mucho
+# una en cola, así que no se acumulan.
+concurrency:
+  group: update-liga
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 35
+
+    env:
+      # Intervalo entre actualizaciones mientras hay partidos
+      LIVE_INTERVAL_SECONDS: 180
+      # Duración máxima del bucle. Algo por encima del cron para cubrir sus
+      # retrasos: si se solapan, la concurrencia encadena una tras otra.
+      LOOP_MAX_SECONDS: 1500
+      ACTIVE_FLAG_FILE: ${{ runner.temp }}/laliga_active
 
     steps:
       - uses: actions/checkout@v4
@@ -29,19 +48,55 @@ jobs:
       - name: Instalar dependencias
         run: pip install --quiet requests
 
-      - name: Actualizar JSON desde ESPN
+      - name: Actualizar y publicar mientras haya partidos
         env:
-          FORCE_REFRESH: ${{ github.event.inputs.force_refresh || 'false' }}
-        run: python3 scripts/update_liga.py
-
-      - name: Commit y push si hay cambios
+          INPUT_FORCE_REFRESH: ${{ github.event.inputs.force_refresh || 'false' }}
         run: |
+          set -uo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/laliga2627.json
-          if git diff --cached --quiet; then
-            echo "Sin cambios en los datos."
-          else
-            git commit -m "chore: actualización automática LaLiga $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-            git push
-          fi
+
+          DEADLINE=$(( $(date +%s) + LOOP_MAX_SECONDS ))
+          CICLO=0
+
+          while true; do
+            CICLO=$(( CICLO + 1 ))
+            echo "──────── ciclo $CICLO ($(date -u +'%H:%M:%S') UTC) ────────"
+
+            # El reproceso forzado solo tiene sentido en la primera pasada
+            if [ "$CICLO" -eq 1 ]; then
+              export FORCE_REFRESH="$INPUT_FORCE_REFRESH"
+            else
+              export FORCE_REFRESH=false
+            fi
+
+            if ! python3 scripts/update_liga.py; then
+              echo "⚠️  El updater ha fallado en este ciclo; se reintenta en el siguiente."
+            fi
+
+            git add data/laliga2627.json
+            if git diff --cached --quiet; then
+              echo "Sin cambios que publicar."
+            else
+              git commit -q -m "chore: actualización automática LaLiga $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+              if ! git push -q; then
+                echo "Push rechazado, reintentando sobre el remoto..."
+                git pull -q --rebase && git push -q
+              fi
+            fi
+
+            if [ ! -f "$ACTIVE_FLAG_FILE" ]; then
+              echo "No hay partidos activos. Fin de la ejecución."
+              break
+            fi
+
+            if [ $(( $(date +%s) + LIVE_INTERVAL_SECONDS )) -ge "$DEADLINE" ]; then
+              echo "Fin de la ventana de esta ejecución; continúa el siguiente cron."
+              break
+            fi
+
+            echo "Partidos en juego → siguiente actualización en ${LIVE_INTERVAL_SECONDS}s"
+            sleep "$LIVE_INTERVAL_SECONDS"
+          done
+
+          echo "Ciclos ejecutados: $CICLO"

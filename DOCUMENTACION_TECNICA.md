@@ -142,7 +142,35 @@ GitHub Actions (cron */15)
 - Cron `*/15 * * * *`, más `workflow_dispatch` manual con opción `force_refresh`.
 - Solo mantiene `data/laliga2627.json`. Las temporadas cerradas son estáticas.
 - Commitea como `github-actions[bot]` únicamente si hay cambios reales.
-- En la práctica GitHub retrasa el cron: los intervalos reales son de 15 a 30 minutos.
+- `concurrency: update-liga` con `cancel-in-progress: false`, para que dos ejecuciones no se pisen al hacer push. GitHub mantiene como mucho una en cola.
+
+#### Cadencia adaptativa
+
+**El cron es el despertador, no el reloj.** No baja de 5 minutos y además llega tarde: con `*/15` se han medido intervalos reales de 16, 20, 27 y 34 minutos. Subirlo a `*/5` daría unos 12 minutos reales con doce veces más ejecuciones.
+
+Por eso cada ejecución decide cuánto se queda:
+
+| Situación | Comportamiento |
+|---|---|
+| Hay algún partido en juego, o empieza en ≤ 20 min | Bucle interno: actualiza y publica **cada 3 minutos**, hasta 25 minutos de ejecución |
+| No hay ninguno | Una pasada y termina, en unos 15 segundos |
+
+Los 25 minutos del bucle superan al cron a propósito: si el siguiente disparo llega mientras uno sigue vivo, la concurrencia lo encola y arranca al terminar el anterior, así que **durante una jornada la cobertura es continua a 3 minutos**. Fuera de horario de partidos el gasto es el mismo que antes.
+
+El repositorio es público, así que los minutos de Actions son gratuitos e ilimitados y un job largo no tiene coste.
+
+Parámetros, en el bloque `env` del job:
+
+| Variable | Valor | Significado |
+|---|---|---|
+| `LIVE_INTERVAL_SECONDS` | `180` | Espera entre actualizaciones con partidos en juego |
+| `LOOP_MAX_SECONDS` | `1500` | Duración máxima del bucle antes de ceder al siguiente cron |
+| `PRE_MATCH_MINUTES` | `20` (por defecto en el script) | Cuánto antes del saque de centro se considera activo un partido |
+| `ACTIVE_FLAG_FILE` | `${{ runner.temp }}/laliga_active` | Fichero que el script crea o borra para indicarle al bucle si sigue |
+
+La decisión la toma `is_match_active()` en `update_liga.py` a partir del `status.type.state` de ESPN: `in` cuenta como activo, `pre` solo dentro del margen previo, `post` no (los datos definitivos se escriben en el mismo ciclo en que el partido pasa a terminado).
+
+Si `ACTIVE_FLAG_FILE` no está definida, el script se comporta como una ejecución suelta de siempre. Se puede seguir lanzando a mano sin más.
 
 ### `scripts/update_liga.py`
 
