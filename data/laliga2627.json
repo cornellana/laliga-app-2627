@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T16:58:21Z",
+  "lastUpdated": "2026-08-16T17:15:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -1170,11 +1170,572 @@
           "away": "Villarreal",
           "jornada": 1,
           "tv": null,
-          "done": false,
-          "result": null,
+          "done": true,
+          "result": "2-2",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
-          "details": null
+          "details": {
+            "homeLineup": {
+              "formation": "4-2-3-1",
+              "players": [
+                {
+                  "id": "323970",
+                  "jersey": 13,
+                  "name": "Julen Agirrezabala",
+                  "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "282672",
+                  "jersey": 5,
+                  "name": "Pablo Ramon",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "361455",
+                  "jersey": 22,
+                  "name": "Pedro Felipe",
+                  "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "178237",
+                  "jersey": 17,
+                  "name": "Jorge Salinas",
+                  "position": "LB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "300471",
+                  "jersey": 2,
+                  "name": "Alvaro Mantilla",
+                  "position": "RB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "125383",
+                  "jersey": 20,
+                  "name": "Sergio Canales",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "409318",
+                  "jersey": 36,
+                  "name": "Sergio Martínez",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "341736",
+                  "jersey": 8,
+                  "name": "Gustavo Puerta",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "222365",
+                  "jersey": 12,
+                  "name": "Asier Villalibre",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "284699",
+                  "jersey": 10,
+                  "name": "Iñigo Vicente",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "3141",
+                  "jersey": 11,
+                  "name": "Andrés Martín",
+                  "position": "AM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "414075",
+                  "jersey": 29,
+                  "name": "Andrés Vallecillo",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "400222",
+                  "jersey": 1,
+                  "name": "Simon Eriksson",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "390389",
+                  "jersey": 21,
+                  "name": "Yassir Zabiri",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "342654",
+                  "jersey": 14,
+                  "name": "Maguette Gueye",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "421199",
+                  "jersey": 30,
+                  "name": "Carlos Sánchez",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "334268",
+                  "jersey": 9,
+                  "name": "Juan Carlos Arana",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "396027",
+                  "jersey": 34,
+                  "name": "Diego Diaz",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "279699",
+                  "jersey": 6,
+                  "name": "Íñigo Sainz",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "417250",
+                  "jersey": 38,
+                  "name": "Hugo Martín",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "259839",
+                  "jersey": 4,
+                  "name": "Manu",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "3128976",
+                  "jersey": 33,
+                  "name": "Jorge Castellanos Del Olmo",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "367499",
+                  "jersey": 16,
+                  "name": "Facundo González",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                }
+              ]
+            },
+            "awayLineup": {
+              "formation": "4-4-2",
+              "players": [
+                {
+                  "id": "307648",
+                  "jersey": 1,
+                  "name": "Luiz Júnior",
+                  "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "337011",
+                  "jersey": 12,
+                  "name": "Renato Veiga",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "242710",
+                  "jersey": 8,
+                  "name": "Juan Foyth",
+                  "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "271904",
+                  "jersey": 20,
+                  "name": "Carlos Romero",
+                  "position": "LB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "318098",
+                  "jersey": 15,
+                  "name": "Santiago Mouriño",
+                  "position": "RB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "255889",
+                  "jersey": 18,
+                  "name": "Pape Gueye",
+                  "position": "CM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "240623",
+                  "jersey": 14,
+                  "name": "Santi Comesaña",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "307390",
+                  "jersey": 10,
+                  "name": "Alberto Moleiro",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "210397",
+                  "jersey": 19,
+                  "name": "Nicolas Pépé",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "300002",
+                  "jersey": 9,
+                  "name": "Georges Mikautadze",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "192133",
+                  "jersey": 22,
+                  "name": "Ayoze Pérez",
+                  "position": "CF-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "156172",
+                  "jersey": 7,
+                  "name": "Gerard Moreno",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "3101325",
+                  "jersey": 30,
+                  "name": "Cheikh Ahmad Tidiane Thiam",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "368878",
+                  "jersey": 6,
+                  "name": "Pau Navarro",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "415438",
+                  "jersey": 26,
+                  "name": "Carlos Macià",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "248276",
+                  "jersey": 3,
+                  "name": "Alex Freeman",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "331047",
+                  "jersey": 11,
+                  "name": "Ilias Akhomach",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "325553",
+                  "jersey": 5,
+                  "name": "Willy Kambwala",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "289072",
+                  "jersey": 23,
+                  "name": "Sergi Cardona",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "119620",
+                  "jersey": 25,
+                  "name": "Péter Gulácsi",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "294039",
+                  "jersey": 21,
+                  "name": "Tani Oluwaseyi",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "271129",
+                  "jersey": 2,
+                  "name": "Logan Costa",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "284769",
+                  "jersey": 17,
+                  "name": "Tajon Buchanan",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                }
+              ]
+            },
+            "events": [
+              {
+                "id": "50973224_5",
+                "type": "SUBSTITUTION",
+                "minute": 16,
+                "extraTime": null,
+                "playerName": "Manu Hernando",
+                "teamName": "Racing",
+                "text": "Pedro Felipe because of an injury"
+              },
+              {
+                "id": "50973653_8",
+                "type": "PENALTY",
+                "minute": 21,
+                "extraTime": null,
+                "playerName": "Andrés Martín",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "50974909_9",
+                "type": "GOAL",
+                "minute": 34,
+                "extraTime": null,
+                "playerName": "Sergio Martínez",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "50975955_10",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Pape Gueye",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "50976030_11",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": 1,
+                "playerName": "Nicolas Pepe",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "50976347_14",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 4,
+                "playerName": "Gustavo Puerta",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "50978113_17",
+                "type": "YELLOW_CARD",
+                "minute": 48,
+                "extraTime": null,
+                "playerName": "Juan Foyth",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "50978973_18",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Gerard Moreno",
+                "teamName": "Villarreal",
+                "text": "Santi Comesaña"
+              },
+              {
+                "id": "50978974_19",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Tajon Buchanan",
+                "teamName": "Villarreal",
+                "text": "Alberto Moleiro"
+              },
+              {
+                "id": "50978975_20",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Carlos Maciá",
+                "teamName": "Villarreal",
+                "text": "Ayoze Pérez"
+              },
+              {
+                "id": "50980127_21",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": "Asier Villalibre"
+              },
+              {
+                "id": "50980359_22",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Maguette Gueye",
+                "teamName": "Racing",
+                "text": "Sergio Martínez"
+              },
+              {
+                "id": "50980554_23",
+                "type": "YELLOW_CARD",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Pape Gueye",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "50980849_24",
+                "type": "YELLOW_CARD",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Pablo Ramón",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "50980923_25",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Ilias Akhomach",
+                "teamName": "Villarreal",
+                "text": "Nicolas Pepe"
+              },
+              {
+                "id": "50981053_26",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Diego Díaz",
+                "teamName": "Racing",
+                "text": "Sergio Canales"
+              },
+              {
+                "id": "50981054_27",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Facu González",
+                "teamName": "Racing",
+                "text": "Pablo Ramón"
+              },
+              {
+                "id": "50981846_28",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Santiago Mouriño",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "50981860_29",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Alex Freeman",
+                "teamName": "Villarreal",
+                "text": "Santiago Mouriño"
+              },
+              {
+                "id": "50982217_30",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Carlos Romero",
+                "teamName": "Villarreal",
+                "text": null
+              }
+            ]
+          }
         },
         {
           "id": "401882922",
@@ -6364,6 +6925,12 @@
   "standings": [],
   "topScorers": [
     {
+      "player": "Andrés Martín",
+      "team": "Racing",
+      "goals": 1,
+      "penalties": 1
+    },
+    {
       "player": "Jon Guridi",
       "team": "Sevilla",
       "goals": 1,
@@ -6388,10 +6955,28 @@
       "penalties": null
     },
     {
+      "player": "Nicolas Pepe",
+      "team": "Villarreal",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Pape Gueye",
+      "team": "Villarreal",
+      "goals": 1,
+      "penalties": null
+    },
+    {
       "player": "Peque Fernández",
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Sergio Martínez",
+      "team": "Racing",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Álvaro García",
