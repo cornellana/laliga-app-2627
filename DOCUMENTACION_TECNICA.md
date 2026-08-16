@@ -35,6 +35,7 @@ App iOS personal para seguimiento de La Liga. SwiftUI + un actualizador de datos
 ### Funcionalidad
 
 - **Pantalla principal**: lista de partidos agrupados por jornada, ordenados por fecha, con scroll automático a la jornada del día (o la siguiente).
+- **Marcador en directo**: mientras se juega, la fila muestra el tanteo en curso y, en verde con un punto, el minuto (`45'+2'`, `Descanso`). Al terminar pasa a `Final`. El marcador se pinta en cuanto hay `result`, sin esperar a `done`, que sigue reservado a los partidos terminados.
 - **Filtros**: por equipo y por jornada, combinables e independientes. Barra fija en la parte superior. Los equipos resaltados aparecen primero en el selector. Al seleccionar una jornada la vista hace scroll a ella mostrando también las siguientes.
 - **Selector de temporada**: menú en el centro del navigation bar para cambiar entre 24/25, 25/26 y 26/27.
 - **Detalle de partido**: sheet con alineaciones, eventos del partido (goles, tarjetas, sustituciones, penaltis) y estadísticas de momentum. Deslizando izquierda/derecha se navega al partido anterior/siguiente de la lista visible.
@@ -217,8 +218,11 @@ FORCE_REFRESH=true python3 scripts/update_liga.py   # reprocesa los partidos ter
           "away": "Getafe",
           "jornada": 1,
           "tv": "DAZN",
-          "done": true,
-          "result": "3-0",            // null si no ha terminado
+          "done": true,               // SOLO terminado; la clasificación depende de esto
+          "result": "3-0",            // también en directo; null antes del saque
+          "state": "post",            // "pre" | "in" | "post"
+          "clock": null,              // "45'+2'" mientras se juega
+          "statusText": null,         // "Halftime", "First Half"… solo en directo
           "stadium": "Mendizorroza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {                 // null si no ha terminado

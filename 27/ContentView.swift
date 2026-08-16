@@ -569,7 +569,9 @@ struct MatchRowView: View {
             }
             .padding(.vertical, 12)
 
-            if match.done {
+            // Se muestra en cuanto hay marcador, no solo al terminar: durante el
+            // partido `done` es falso pero `result` ya trae el tanteo en curso.
+            if match.homeScore != nil {
                 VStack(alignment: .trailing, spacing: 5) {
                     Text("\(match.homeScore ?? 0)")
                         .font(.subheadline.weight(homeWins == true ? .bold : .regular))
@@ -597,6 +599,16 @@ struct MatchRowView: View {
                     Text("Final")
                         .font(.system(size: 10))
                         .foregroundStyle(.white.opacity(0.35))
+                } else if let live = match.liveLabel {
+                    HStack(spacing: 4) {
+                        Circle()
+                            .fill(Color(hex: 0x30D158))
+                            .frame(width: 6, height: 6)
+                        Text(live)
+                            .font(.system(size: 11, weight: .bold))
+                            .foregroundStyle(Color(hex: 0x30D158))
+                            .monospacedDigit()
+                    }
                 } else {
                     Text(match.time.isEmpty ? "TBD" : match.time)
                         .font(.subheadline.weight(.semibold))

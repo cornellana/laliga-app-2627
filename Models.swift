@@ -48,8 +48,31 @@ struct Match: Identifiable, Codable {
     let venueCity: String?
     let espnEventID: String?
 
+    // Estado en vivo. Son `var` con valor por defecto para que los datos
+    // antiguos (y los tests) sigan decodificándose y construyéndose igual.
+    /// "pre" sin empezar · "in" en juego · "post" terminado. Nil si se desconoce.
+    var state: String? = nil
+    /// Minuto en curso tal cual lo da ESPN: "45'+2'". Solo mientras se juega.
+    var clock: String? = nil
+    /// Descripción del estado en inglés ("Halftime", "First Half"…).
+    var statusText: String? = nil
+
     var involvesBarcelona: Bool {
         home == "FC Barcelona" || away == "FC Barcelona"
+    }
+
+    /// El partido se está jugando ahora mismo.
+    var isLive: Bool { state == "in" && !done }
+
+    /// Texto para la columna de estado mientras el partido está en juego.
+    var liveLabel: String? {
+        guard isLive else { return nil }
+        if let t = statusText?.lowercased() {
+            if t.contains("halftime") { return "Descanso" }
+            if t.contains("delayed")  { return "Aplazado" }
+        }
+        if let c = clock, !c.isEmpty { return c }
+        return "EN JUEGO"
     }
 
     var homeScore: Int? {
