@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Entitlements de Release (TestFlight y App Store).
+	     Debe ser "production": con "development" el dispositivo recibe un
+	     token de sandbox mientras la app, al ser Release, declara
+	     environment="production", y APNs responde BadDeviceToken.
+	     El Debug usa 27.entitlements, con "development". -->
+	<key>aps-environment</key>
+	<string>production</string>
+</dict>
+</plist>
