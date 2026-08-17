@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T20:54:14Z",
+  "lastUpdated": "2026-08-17T20:57:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -2284,14 +2284,539 @@
           "away": "Elche",
           "jornada": 1,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-1",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Riazor",
           "venueCity": "La Coruña",
-          "details": null
+          "details": {
+            "homeLineup": {
+              "formation": "4-2-3-1",
+              "players": [
+                {
+                  "id": "300926",
+                  "jersey": 13,
+                  "name": "Leo Román",
+                  "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "3102992",
+                  "jersey": 22,
+                  "name": "Bright Ede",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "321112",
+                  "jersey": 4,
+                  "name": "Lucas Noubi",
+                  "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "275924",
+                  "jersey": 12,
+                  "name": "Giacomo Quagliata",
+                  "position": "LB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "157568",
+                  "jersey": 23,
+                  "name": "Ximo Navarro",
+                  "position": "RB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "414299",
+                  "jersey": 32,
+                  "name": "Bil Nsongo",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "356639",
+                  "jersey": 16,
+                  "name": "Lorenzo Amatucci",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "297353",
+                  "jersey": 21,
+                  "name": "Mario Soriano Carreno",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "122260",
+                  "jersey": 7,
+                  "name": "Pierre-Emerick Aubameyang",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "384414",
+                  "jersey": 18,
+                  "name": "Jonathan Asp Jensen",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "308006",
+                  "jersey": 2,
+                  "name": "Adrià Altimira",
+                  "position": "AM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "362123",
+                  "jersey": 34,
+                  "name": "Teun Gijselhart",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "331742",
+                  "jersey": 8,
+                  "name": "Diego Villares",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "286769",
+                  "jersey": 9,
+                  "name": "Zakaria Eddahchouri",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "300333",
+                  "jersey": 3,
+                  "name": "Arnau Comas",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "279609",
+                  "jersey": 14,
+                  "name": "Riki Rodríguez",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "259915",
+                  "jersey": 15,
+                  "name": "Miguel Loureiro",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "96060",
+                  "jersey": 25,
+                  "name": "Álvaro Fernández",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "375390",
+                  "jersey": 11,
+                  "name": "David Mella",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "331530",
+                  "jersey": 33,
+                  "name": "Kevin Sánchez",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "181288",
+                  "jersey": 1,
+                  "name": "Germán Parreño",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "324166",
+                  "jersey": 19,
+                  "name": "Luis Cruz",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "214319",
+                  "jersey": 24,
+                  "name": "Angeliño",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                }
+              ]
+            },
+            "awayLineup": {
+              "formation": "5-4-1",
+              "players": [
+                {
+                  "id": "173749",
+                  "jersey": 1,
+                  "name": "Matías Dituro",
+                  "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "318181",
+                  "jersey": 5,
+                  "name": "Federico Redondo",
+                  "position": "CD",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "265995",
+                  "jersey": 23,
+                  "name": "Víctor Chust",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "313230",
+                  "jersey": 22,
+                  "name": "David Affengruber",
+                  "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "297358",
+                  "jersey": 11,
+                  "name": "Germán Valera",
+                  "position": "LB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "371608",
+                  "jersey": 2,
+                  "name": "Buba Sangaré",
+                  "position": "RB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "301406",
+                  "jersey": 8,
+                  "name": "Marc Aguado",
+                  "position": "CM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "340677",
+                  "jersey": 16,
+                  "name": "Martim Neto",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "376156",
+                  "jersey": 29,
+                  "name": "Ali Houary",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "273424",
+                  "jersey": 12,
+                  "name": "Gonzalo Villar",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "301684",
+                  "jersey": 14,
+                  "name": "Fernando Niño",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "259916",
+                  "jersey": 20,
+                  "name": "José Antonio Morente",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "389448",
+                  "jersey": 26,
+                  "name": "Matia Barzic",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "194553",
+                  "jersey": 9,
+                  "name": "Ezequiel Ponce",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "167297",
+                  "jersey": 6,
+                  "name": "Pedro Bigas",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "3129647",
+                  "jersey": 30,
+                  "name": "Álvaro Padilla Escribá",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "318284",
+                  "jersey": 10,
+                  "name": "Facundo Buonanotte",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "214330",
+                  "jersey": 17,
+                  "name": "Josan",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "402185",
+                  "jersey": 36,
+                  "name": "Umaru",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "320648",
+                  "jersey": 21,
+                  "name": "Lucas Cepeda",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "421310",
+                  "jersey": 47,
+                  "name": "Javier Morcillo",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "368877",
+                  "jersey": 33,
+                  "name": "Nordin Al Lal",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "330433",
+                  "jersey": 43,
+                  "name": "Alejandro Iturbe",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                }
+              ]
+            },
+            "events": [
+              {
+                "id": "51034300_1",
+                "type": "GOAL",
+                "minute": 21,
+                "extraTime": null,
+                "playerName": "Pierre-Emerick Aubameyang",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51034744_2",
+                "type": "YELLOW_CARD",
+                "minute": 26,
+                "extraTime": null,
+                "playerName": "Ximo Navarro",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51036297_3",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 1,
+                "playerName": "Lorenzo Amatucci",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51038131_10",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Diego Villares",
+                "teamName": "Deportivo",
+                "text": "Jonathan Asp Jensen"
+              },
+              {
+                "id": "51038281_11",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Zakaria Eddahchouri",
+                "teamName": "Deportivo",
+                "text": "Bil Nsongo"
+              },
+              {
+                "id": "51038282_12",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Lucas Cepeda",
+                "teamName": "Elche",
+                "text": "Martim Neto"
+              },
+              {
+                "id": "51038283_13",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Tete Morente",
+                "teamName": "Elche",
+                "text": "Federico Redondo"
+              },
+              {
+                "id": "51038772_14",
+                "type": "YELLOW_CARD",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Gonzalo Villar",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "51038917_15",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Umaru",
+                "teamName": "Elche",
+                "text": "Fer Niño"
+              },
+              {
+                "id": "51039025_16",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Luismi Cruz",
+                "teamName": "Deportivo",
+                "text": "Adrià Alti"
+              },
+              {
+                "id": "51039026_17",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "David Mella",
+                "teamName": "Deportivo",
+                "text": "Mario Soriano"
+              },
+              {
+                "id": "51039311_18",
+                "type": "GOAL",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Marc Aguado",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "51039917_19",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Álvaro Padilla",
+                "teamName": "Elche",
+                "text": "Germán Valera"
+              },
+              {
+                "id": "51039918_20",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Javier Morcillo",
+                "teamName": "Elche",
+                "text": "Ali Houary"
+              },
+              {
+                "id": "51040264_21",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Kevin Sánchez",
+                "teamName": "Deportivo",
+                "text": "Pierre-Emerick Aubameyang"
+              },
+              {
+                "id": "51040438_22",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Umaru",
+                "teamName": "Elche",
+                "text": null
+              }
+            ]
+          }
         }
       ]
     },
@@ -7476,6 +8001,12 @@
       "penalties": 1
     },
     {
+      "player": "Marc Aguado",
+      "team": "Elche",
+      "goals": 1,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 1,
@@ -7510,6 +8041,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Pierre-Emerick Aubameyang",
+      "team": "Deportivo",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Sergio Martínez",
