@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T23:59:16Z",
+  "lastUpdated": "2026-08-17T01:49:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -2352,6 +2352,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": null
