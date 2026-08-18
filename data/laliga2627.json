@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T23:47:25Z",
+  "lastUpdated": "2026-08-18T01:10:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -2899,6 +2899,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": null
@@ -2912,6 +2915,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": null
@@ -2925,6 +2931,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": null
