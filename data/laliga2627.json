@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T19:02:15Z",
+  "lastUpdated": "2026-08-19T19:24:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -2832,10 +2832,10 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
+          "result": "0-0",
+          "state": "in",
+          "clock": "16'",
+          "statusText": "In Progress",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": null
