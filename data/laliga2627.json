@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T19:48:51Z",
+  "lastUpdated": "2026-08-19T20:13:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -2834,8 +2834,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "41'",
-          "statusText": "In Progress",
+          "clock": "45'+5'",
+          "statusText": "Halftime",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": null
