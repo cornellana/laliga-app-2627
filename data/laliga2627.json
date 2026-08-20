@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T23:47:30Z",
+  "lastUpdated": "2026-08-20T01:11:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3533,6 +3533,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": null
@@ -3546,6 +3549,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": null
