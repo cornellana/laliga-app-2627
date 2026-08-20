@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T16:04:54Z",
+  "lastUpdated": "2026-08-20T16:50:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3384,8 +3384,8 @@
           "state": "pre",
           "clock": null,
           "statusText": null,
-          "stadium": "Estadio de Vallecas",
-          "venueCity": "Madrid",
+          "stadium": "Estadio Municipal de Butarque",
+          "venueCity": "Leganés, Madrid",
           "details": null
         }
       ]
