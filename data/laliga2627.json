@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T20:05:31Z",
+  "lastUpdated": "2026-08-20T20:08:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3382,8 +3382,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "47'",
+          "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
           "details": null
