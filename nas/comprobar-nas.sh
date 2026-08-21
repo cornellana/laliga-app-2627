@@ -8,7 +8,7 @@
 
 set -uo pipefail
 NAS="${LALIGA_NAS_HOST:-nas}"
-DOCKER='export DOCKER_HOST=unix:///var/run/docker.sock; /share/ZFS530_DATA/.qpkg/container-station/bin/docker'
+DOCKER='export DOCKER_HOST=unix:///var/run/docker.sock; export PATH=/share/ZFS530_DATA/.qpkg/container-station/bin:$PATH; export DOCKER_CONFIG=$HOME/.docker; mkdir -p $DOCKER_CONFIG'
 FALLOS=0
 
 bien()  { printf '  ✓ %s\n' "$*"; }
@@ -27,18 +27,18 @@ bien "SSH sin contraseña"
 nota "$(ssh "$NAS" 'uptime' 2>/dev/null | sed 's/^ *//')"
 
 echo "── Docker ────────────────────────────────────────────────"
-V=$(ssh "$NAS" "$DOCKER version --format '{{.Server.Version}}'" 2>/dev/null)
+V=$(ssh "$NAS" "$DOCKER; docker version --format '{{.Server.Version}}'" 2>/dev/null)
 if [ -n "$V" ]; then bien "docker $V"; else mal "no responde el docker de Container Station"; fi
 
-C=$(ssh "$NAS" "$DOCKER compose version" 2>/dev/null | head -1)
+C=$(ssh "$NAS" "$DOCKER; docker compose version" 2>/dev/null | head -1)
 if [ -n "$C" ]; then bien "$C"; else mal "no está el plugin 'docker compose'"; fi
 
-if ssh "$NAS" "$DOCKER ps --format '{{.Names}}' | grep -qx laliga-updater" 2>/dev/null; then
+if ssh "$NAS" "$DOCKER; docker ps --format '{{.Names}}' | grep -qx laliga-updater" 2>/dev/null; then
     nota "el contenedor laliga-updater YA existe (se recreará al instalar)"
 fi
 
 echo "── Lo que ya hay corriendo (no se toca) ──────────────────"
-ssh "$NAS" "$DOCKER ps --format '{{.Names}}\t{{.Status}}'" 2>/dev/null \
+ssh "$NAS" "$DOCKER; docker ps --format '{{.Names}}\t{{.Status}}'" 2>/dev/null \
     | grep -E 'laliga|wordpress|cloudflare' | sed 's/^/  · /'
 
 echo "── Red y espacio ─────────────────────────────────────────"

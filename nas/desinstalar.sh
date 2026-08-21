@@ -9,7 +9,7 @@
 set -uo pipefail
 NAS="${LALIGA_NAS_HOST:-nas}"
 DIR=/share/Container/laliga-updater
-DOCKER='export DOCKER_HOST=unix:///var/run/docker.sock; /share/ZFS530_DATA/.qpkg/container-station/bin/docker'
+DOCKER='export DOCKER_HOST=unix:///var/run/docker.sock; export PATH=/share/ZFS530_DATA/.qpkg/container-station/bin:$PATH; export DOCKER_CONFIG=$HOME/.docker; mkdir -p $DOCKER_CONFIG'
 
 ssh "$NAS" "$DOCKER; cd $DIR 2>/dev/null && docker compose down" && echo "  ✓ contenedor parado y eliminado"
 

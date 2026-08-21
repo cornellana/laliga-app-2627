@@ -14,7 +14,7 @@
 set -euo pipefail
 NAS="${LALIGA_NAS_HOST:-nas}"
 DIR=/share/Container/laliga-updater
-DOCKER='export DOCKER_HOST=unix:///var/run/docker.sock; /share/ZFS530_DATA/.qpkg/container-station/bin/docker'
+DOCKER='export DOCKER_HOST=unix:///var/run/docker.sock; export PATH=/share/ZFS530_DATA/.qpkg/container-station/bin:$PATH; export DOCKER_CONFIG=$HOME/.docker; mkdir -p $DOCKER_CONFIG'
 AQUI="$(cd "$(dirname "$0")" && pwd)"
 
 echo "── 1. Comprobando el NAS ─────────────────────────────────"
@@ -23,7 +23,11 @@ echo "── 1. Comprobando el NAS ───────────────
 echo
 echo "── 2. Copiando la receta del contenedor ──────────────────"
 ssh "$NAS" "mkdir -p $DIR/estado $DIR/repo"
-scp -q "$AQUI/Dockerfile" "$AQUI/entrypoint.sh" "$AQUI/docker-compose.yml" "$NAS:$DIR/"
+# Por tubería y no con scp: el SSH del QNAP no tiene el subsistema sftp que usa
+# el scp moderno y la transferencia muere con un escueto "Connection closed".
+for f in Dockerfile entrypoint.sh docker-compose.yml; do
+    ssh "$NAS" "cat > $DIR/$f" < "$AQUI/$f"
+done
 echo "  ✓ Dockerfile, entrypoint.sh y docker-compose.yml en $DIR"
 echo "  · el demonio no se copia: el contenedor lo saca del propio repositorio,"
 echo "    así que actualizarlo será 'git push' + reiniciar el contenedor."
