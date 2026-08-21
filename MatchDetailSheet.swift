@@ -124,7 +124,7 @@ private struct MatchDetailPage: View {
         }
         .background(Color(hex: 0x0A0A14))
         .task {
-            if !match.done, prediction == nil {
+            if !match.done, !match.isLive, prediction == nil {
                 let m = match, days = matchDays, s = season
                 prediction = PredictionEngine.predict(match: m, matchDays: days, season: s)
             }
@@ -152,7 +152,9 @@ private struct MatchDetailPage: View {
                 teamColumn(name: match.home, isHome: true)
 
                 VStack(spacing: 6) {
-                    if match.done, let result = match.result {
+                    // El marcador manda en cuanto hay partido: terminado o en
+                    // juego. La hora del saque solo tiene sentido antes.
+                    if let result = match.result, match.done || match.isLive {
                         Text(result)
                             .font(.system(size: 40, weight: .black, design: .rounded))
                             .foregroundStyle(.white)
@@ -172,6 +174,17 @@ private struct MatchDetailPage: View {
                         Text("Finalizado")
                             .font(.system(size: 11))
                             .foregroundStyle(.white.opacity(0.35))
+                    } else if let live = match.liveLabel {
+                        // Mismo verde y mismo punto que la fila de la lista.
+                        HStack(spacing: 4) {
+                            Circle()
+                                .fill(Color(hex: 0x30D158))
+                                .frame(width: 6, height: 6)
+                            Text(live)
+                                .font(.system(size: 11, weight: .bold))
+                                .foregroundStyle(Color(hex: 0x30D158))
+                                .monospacedDigit()
+                        }
                     }
                 }
                 .frame(width: 130)
