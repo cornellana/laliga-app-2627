@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T19:10:02Z",
+  "lastUpdated": "2026-08-21T19:13:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3903,8 +3903,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "8'",
-          "statusText": "First Half",
+          "clock": "11'",
+          "statusText": "In Progress",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
@@ -4082,7 +4082,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "217319",
@@ -4093,17 +4093,17 @@
                   "events": null
                 },
                 {
-                  "id": "235693",
-                  "jersey": 5,
-                  "name": "Igor Zubeldia",
+                  "id": "366885",
+                  "jersey": 31,
+                  "name": "Jon Martín",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "366885",
-                  "jersey": 31,
-                  "name": "Jon Martín",
+                  "id": "235693",
+                  "jersey": 5,
+                  "name": "Igor Zubeldia",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -4125,10 +4125,18 @@
                   "events": null
                 },
                 {
+                  "id": "306263",
+                  "jersey": 24,
+                  "name": "Luka Sucic",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "235072",
                   "jersey": 18,
                   "name": "Carlos Soler",
-                  "position": "CM-L",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -4136,22 +4144,6 @@
                   "id": "236185",
                   "jersey": 21,
                   "name": "Yangel Herrera",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "283941",
-                  "jersey": 7,
-                  "name": "Ander Barrenetxea",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "256587",
-                  "jersey": 14,
-                  "name": "Takefusa Kubo",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -4160,15 +4152,23 @@
                   "id": "341367",
                   "jersey": 9,
                   "name": "Orri Óskarsson",
-                  "position": "CF-L",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "306263",
-                  "jersey": 24,
-                  "name": "Luka Sucic",
-                  "position": "CF-R",
+                  "id": "283941",
+                  "jersey": 7,
+                  "name": "Ander Barrenetxea",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "256587",
+                  "jersey": 14,
+                  "name": "Takefusa Kubo",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
