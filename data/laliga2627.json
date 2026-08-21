@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:20:09Z",
+  "lastUpdated": "2026-08-21T20:23:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3903,7 +3903,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -4294,27 +4294,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 58,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Isco",
                 "teamName": "Betis",
-                "text": null
+                "text": "Facundo Bernal"
               },
               {
                 "id": "51199977_14",
                 "type": "SUBSTITUTION",
                 "minute": 58,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alex Marchal",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Ander Barrenetxea"
               },
               {
                 "id": "51199978_15",
                 "type": "SUBSTITUTION",
                 "minute": 58,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Mikel Oyarzabal",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Takefusa Kubo"
               }
             ]
           }
