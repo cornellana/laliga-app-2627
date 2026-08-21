@@ -19,7 +19,11 @@ from datetime import datetime, timezone, timedelta
 
 ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard"
 ESPN_SUMMARY    = "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary"
-DATA_FILE       = os.path.join(os.path.dirname(__file__), "..", "data", "laliga2627.json")
+# El demonio del NAS necesita trabajar sobre su propia copia mientras corre en
+# modo sombra, sin tocar la del repositorio. Sin la variable, ruta de siempre:
+# GitHub Actions no la define y se comporta exactamente igual que antes.
+DATA_FILE       = os.environ.get("LALIGA_DATA_FILE") or os.path.join(
+    os.path.dirname(__file__), "..", "data", "laliga2627.json")
 FORCE_REFRESH   = os.environ.get("FORCE_REFRESH", "false").lower() == "true"
 
 # El workflow consulta este archivo para decidir si sigue en bucle con
