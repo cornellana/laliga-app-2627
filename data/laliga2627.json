@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:50:55Z",
+  "lastUpdated": "2026-08-21T20:54:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3903,7 +3903,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -4387,6 +4387,24 @@
                 "playerName": "Arsen Zakharyan",
                 "teamName": "R. Sociedad",
                 "text": "Luka Sucic"
+              },
+              {
+                "id": "51201360_28",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Fran García",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "51201412_29",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Héctor Bellerín",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
