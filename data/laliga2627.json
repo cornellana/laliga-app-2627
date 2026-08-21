@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:17:06Z",
+  "lastUpdated": "2026-08-21T20:20:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3903,7 +3903,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "56'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -4286,6 +4286,33 @@
                 "minute": 49,
                 "extraTime": null,
                 "playerName": "Jon Aramburu",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51199976_13",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "51199977_14",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51199978_15",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "R. Sociedad",
                 "text": null
               }
