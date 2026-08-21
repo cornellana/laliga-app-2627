@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:41:47Z",
+  "lastUpdated": "2026-08-21T20:44:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3903,7 +3903,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "81'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -4369,6 +4369,15 @@
                 "playerName": "Natan",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "51201021_26",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Nelson Deossa",
+                "teamName": "Betis",
+                "text": "Cucho Hernández"
               }
             ]
           }
