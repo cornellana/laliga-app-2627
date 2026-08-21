@@ -243,6 +243,28 @@ def write_active_flag(active):
     elif os.path.exists(ACTIVE_FLAG_FILE):
         os.remove(ACTIVE_FLAG_FILE)
 
+def merge_details(fresh, previous):
+    """Detalles nuevos sobre los que ya había, sin perder lo bueno por el camino.
+
+    En directo se consulta a ESPN cada pocos minutos y un fallo puntual devuelve
+    `None` o un resumen a medias. Sin esta mezcla, un tropiezo del proveedor
+    borraría de la app los goles y las alineaciones que ya estaban publicados.
+    """
+    if not fresh:
+        return previous
+    if not previous:
+        return fresh
+    # Las alineaciones tardan en publicarse y a veces desaparecen del resumen:
+    # se conserva la última versión conocida si la nueva no las trae.
+    for lado in ("homeLineup", "awayLineup"):
+        if not fresh.get(lado) and previous.get(lado):
+            fresh[lado] = previous[lado]
+    # Los eventos sí se pisan con los frescos —el VAR anula goles y la lista
+    # tiene que poder encoger—, salvo que ESPN no mande ninguno.
+    if not fresh.get("events") and previous.get("events"):
+        fresh["events"] = previous["events"]
+    return fresh
+
 def build_top_scorers(match_days):
     """Tabla de goleadores a partir de los goles ya parseados en los partidos.
 
@@ -558,16 +580,23 @@ def main():
                     new_days[date].append(game)
                 continue
 
-            # Obtener detalles si el partido terminó y tenemos ID.
+            # Obtener detalles si el partido terminó o se está jugando ahora.
+            # En directo ESPN ya publica los keyEvents, así que los goles y las
+            # tarjetas aparecen en la app en el mismo ciclo en que ocurren, sin
+            # esperar al pitido final.
             # Nunca debe abortar el run: el marcador es más importante que los detalles.
-            if game.get("done") and game_id:
-                print(f"  Fetchando detalles: {game['home']} vs {game['away']} ({date})")
+            live_now = game.get("state") == "in"
+            if (game.get("done") or live_now) and game_id:
+                etiqueta = "detalles en directo" if live_now else "detalles"
+                print(f"  Fetchando {etiqueta}: {game['home']} vs {game['away']} ({date})")
+                prev_details = prev.get("details") if prev else None
                 try:
                     summary = fetch_summary(game_id)
-                    game["details"] = parse_summary_details(summary, game["home"], game["away"])
+                    fresh = parse_summary_details(summary, game["home"], game["away"])
+                    game["details"] = merge_details(fresh, prev_details)
                 except Exception as e:
                     print(f"  ⚠️  Detalles no parseables ({game['home']} vs {game['away']}): {e}")
-                    game["details"] = existing[key][1].get("details") if key in existing else None
+                    game["details"] = prev_details
 
             if date not in new_days:
                 new_days[date] = []
