@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:54:02Z",
+  "lastUpdated": "2026-08-21T20:57:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3900,11 +3900,11 @@
           "away": "R. Sociedad",
           "jornada": 2,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-0",
-          "state": "in",
-          "clock": "90'+3'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
@@ -4401,7 +4401,7 @@
                 "id": "51201412_29",
                 "type": "YELLOW_CARD",
                 "minute": 90,
-                "extraTime": 3,
+                "extraTime": 2,
                 "playerName": "Héctor Bellerín",
                 "teamName": "Betis",
                 "text": null
