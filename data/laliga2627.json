@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:47:52Z",
+  "lastUpdated": "2026-08-21T20:50:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3903,7 +3903,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "87'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -4378,6 +4378,15 @@
                 "playerName": "Nelson Deossa",
                 "teamName": "Betis",
                 "text": "Cucho Hernández"
+              },
+              {
+                "id": "51201292_27",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Arsen Zakharyan",
+                "teamName": "R. Sociedad",
+                "text": "Luka Sucic"
               }
             ]
           }
