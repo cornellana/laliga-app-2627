@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:38:44Z",
+  "lastUpdated": "2026-08-21T20:41:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3903,7 +3903,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "78'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -4360,6 +4360,15 @@
                 "playerName": "Pablo García",
                 "teamName": "Betis",
                 "text": "Rodrigo Riquelme"
+              },
+              {
+                "id": "51200977_25",
+                "type": "YELLOW_CARD",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Natan",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
