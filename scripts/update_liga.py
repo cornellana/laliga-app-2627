@@ -31,6 +31,14 @@ ACTIVE_FLAG_FILE = os.environ.get("ACTIVE_FLAG_FILE", "")
 # El margen previo cubre el retraso del cron y los saques de centro tardíos.
 PRE_MATCH_MINUTES = int(os.environ.get("PRE_MATCH_MINUTES", "20"))
 
+# Margen POSTERIOR a la hora de inicio durante el cual un partido que ESPN
+# sigue marcando como `pre` cuenta como activo. Sin esto, el 20/08/26 el bucle
+# se apagó a las 19:01 UTC —un minuto después del saque de Alavés-Rayo— porque
+# ESPN todavía no había pasado el partido a `in` y los minutos hasta el inicio
+# ya eran negativos. Cubre tanto ese retraso del proveedor como los saques que
+# se retrasan de verdad.
+POST_KICKOFF_MINUTES = int(os.environ.get("POST_KICKOFF_MINUTES", "20"))
+
 # Nombre en ESPN → nombre canónico de la app.
 # Los nombres canónicos son los de MatchesData.espnTeamIDs y TeamLogoView.logoIDs:
 # si aquí se cuela un nombre distinto, la app se queda sin escudo y sin plantilla.
@@ -205,7 +213,8 @@ def extract_player(text, type_id):
 def is_match_active(event, now):
     """¿Este partido justifica seguir sondeando cada pocos minutos?
 
-    Cuenta como activo si está en juego o si arranca dentro del margen previo.
+    Cuenta como activo si está en juego, si arranca dentro del margen previo o
+    si su hora de inicio acaba de pasar y ESPN aún no lo ha movido a `in`.
     Los ya terminados no: sus datos definitivos se escriben en el mismo ciclo
     en que pasan a `post`.
     """
@@ -222,7 +231,7 @@ def is_match_active(event, now):
     except ValueError:
         return False
     minutes_to_kickoff = (kickoff - now).total_seconds() / 60
-    return 0 <= minutes_to_kickoff <= PRE_MATCH_MINUTES
+    return -POST_KICKOFF_MINUTES <= minutes_to_kickoff <= PRE_MATCH_MINUTES
 
 def write_active_flag(active):
     """Deja o retira la señal que el workflow usa para decidir si sigue."""
