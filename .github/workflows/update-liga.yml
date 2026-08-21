@@ -33,6 +33,12 @@ jobs:
     env:
       # Intervalo entre actualizaciones mientras hay partidos
       LIVE_INTERVAL_SECONDS: 180
+      # Margen previo al saque para considerar un partido "activo". Tiene que
+      # ser mayor que el retraso habitual del cron de GitHub: el 21/08/26 no
+      # hubo ninguna ejecución entre las 18:35 y las 19:14, así que la ventana
+      # de 20 minutos anterior al Betis-Real Sociedad no se miró nunca y el
+      # partido empezó sin cobertura.
+      PRE_MATCH_MINUTES: 45
       # Duración máxima del bucle. Algo por encima del cron para cubrir sus
       # retrasos: si se solapan, la concurrencia encadena una tras otra.
       LOOP_MAX_SECONDS: 1500
@@ -66,6 +72,19 @@ jobs:
             CICLO=$(( CICLO + 1 ))
             echo "──────── ciclo $CICLO ($(date -u +'%H:%M:%S') UTC) ────────"
 
+            # Cada ciclo arranca desde el remoto. Si el push anterior se cruzó
+            # con otra ejecución, se descarta el intento y se vuelve a generar:
+            # el JSON se reconstruye entero desde ESPN, así que no hay nada que
+            # conservar. Antes esto se resolvía con `git pull --rebase`, que al
+            # chocar dejaba el repo en mitad de un rebase —HEAD suelto y
+            # marcadores de conflicto dentro del JSON— y el updater ya no podía
+            # leer el fichero: el 21/08/26 una ejecución estuvo 24 minutos
+            # dando vueltas sin publicar nada, en plena primera parte, y encima
+            # ocupando el turno de concurrencia para que nadie más publicara.
+            git rebase --abort 2>/dev/null || true
+            git fetch -q origin main
+            git checkout -q -B main origin/main
+
             # El reproceso forzado solo tiene sentido en la primera pasada
             if [ "$CICLO" -eq 1 ]; then
               export FORCE_REFRESH="$INPUT_FORCE_REFRESH"
@@ -83,8 +102,7 @@ jobs:
             else
               git commit -q -m "chore: actualización automática LaLiga $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
               if ! git push -q; then
-                echo "Push rechazado, reintentando sobre el remoto..."
-                git pull -q --rebase && git push -q
+                echo "Push rechazado: otra ejecución se adelantó. El siguiente ciclo lo republica sobre el remoto."
               fi
             fi
 
