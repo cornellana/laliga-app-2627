@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:35:41Z",
+  "lastUpdated": "2026-08-21T20:38:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3903,7 +3903,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "75'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -4335,7 +4335,7 @@
                 "text": null
               },
               {
-                "id": "51200622_21",
+                "id": "51200622_22",
                 "type": "SUBSTITUTION",
                 "minute": 72,
                 "extraTime": null,
@@ -4344,7 +4344,7 @@
                 "text": "Yangel Herrera"
               },
               {
-                "id": "51200676_22",
+                "id": "51200676_23",
                 "type": "SUBSTITUTION",
                 "minute": 72,
                 "extraTime": null,
