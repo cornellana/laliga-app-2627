@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:32:39Z",
+  "lastUpdated": "2026-08-21T20:35:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3903,7 +3903,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -4333,6 +4333,33 @@
                 "playerName": "Rodrigo Riquelme",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "51200622_21",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Beñat Turrientes",
+                "teamName": "R. Sociedad",
+                "text": "Yangel Herrera"
+              },
+              {
+                "id": "51200676_22",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Aihen Muñoz",
+                "teamName": "R. Sociedad",
+                "text": "Sergio Gómez"
+              },
+              {
+                "id": "51200677_24",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Pablo García",
+                "teamName": "Betis",
+                "text": "Rodrigo Riquelme"
               }
             ]
           }
