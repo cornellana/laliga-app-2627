@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:23:12Z",
+  "lastUpdated": "2026-08-21T20:32:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3901,9 +3901,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -4315,6 +4315,24 @@
                 "playerName": "Mikel Oyarzabal",
                 "teamName": "R. Sociedad",
                 "text": "Takefusa Kubo"
+              },
+              {
+                "id": "51200142_16",
+                "type": "YELLOW_CARD",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Igor Zubeldia",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51200197_17",
+                "type": "GOAL",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Rodrigo Riquelme",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
@@ -9513,6 +9531,12 @@
     {
       "player": "Pierre-Emerick Aubameyang",
       "team": "Deportivo",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Rodrigo Riquelme",
+      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
