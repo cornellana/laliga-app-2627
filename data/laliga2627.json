@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:07:56Z",
+  "lastUpdated": "2026-08-21T20:11:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -3903,7 +3903,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "47'",
+          "clock": "50'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -4270,7 +4270,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51199429_7",
+                "type": "YELLOW_CARD",
+                "minute": 46,
+                "extraTime": null,
+                "playerName": "Sergio Gómez",
+                "teamName": "R. Sociedad",
+                "text": null
+              }
+            ]
           }
         }
       ]
