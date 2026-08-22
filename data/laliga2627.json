@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T19:16:27Z",
+  "lastUpdated": "2026-08-22T19:17:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5020,7 +5020,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -5535,9 +5535,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Hugo Duro",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Arnaut Danjuma"
               }
             ]
           }
