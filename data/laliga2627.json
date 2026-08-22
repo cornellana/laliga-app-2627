@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T18:52:10Z",
+  "lastUpdated": "2026-08-22T18:53:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5020,7 +5020,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -5439,6 +5439,24 @@
                 "playerName": "Sergio Carreira",
                 "teamName": "Celta",
                 "text": null
+              },
+              {
+                "id": "51258585_11",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Williot Swedberg",
+                "teamName": "Celta",
+                "text": "Hugo Álvarez"
+              },
+              {
+                "id": "51258586_12",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Umar Sadiq",
+                "teamName": "Valencia",
+                "text": "Ryunosuke Sato"
               }
             ]
           }
