@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T20:02:49Z",
+  "lastUpdated": "2026-08-22T20:03:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "31'",
+          "clock": "32'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -5949,6 +5949,24 @@
                 "id": "51268498_6",
                 "type": "GOAL",
                 "minute": 30,
+                "extraTime": null,
+                "playerName": "Cala",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "51268676_7",
+                "type": "YELLOW_CARD",
+                "minute": 32,
+                "extraTime": null,
+                "playerName": "Vinícius Júnior",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51268677_8",
+                "type": "YELLOW_CARD",
+                "minute": 32,
                 "extraTime": null,
                 "playerName": "Cala",
                 "teamName": "Espanyol",
