@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T20:58:51Z",
+  "lastUpdated": "2026-08-22T20:59:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -5998,6 +5998,24 @@
                 "playerName": "Yan Diomande",
                 "teamName": "Real Madrid",
                 "text": "Arda Güler"
+              },
+              {
+                "id": "51276512_14",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Vanja Drkusic",
+                "teamName": "Espanyol",
+                "text": "Clemens Riedel"
+              },
+              {
+                "id": "51276513_15",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Rafel Bauzà",
+                "teamName": "Espanyol",
+                "text": "Cala"
               }
             ]
           }
