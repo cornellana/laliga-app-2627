@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:10:12Z",
+  "lastUpdated": "2026-08-22T16:11:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,7 +4425,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "47'",
+          "clock": "48'",
           "statusText": "In Progress",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4877,18 +4877,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Chidera Ejuke",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Miguel Sierra"
               },
               {
                 "id": "51247643_14",
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Isaac Romero",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Jon Guridi"
               }
             ]
           }
