@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T21:23:12Z",
+  "lastUpdated": "2026-08-22T21:24:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -6081,7 +6081,16 @@
                 "text": "Edu Expósito"
               },
               {
-                "id": "51278348_23",
+                "id": "51278346_23",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Carlos Espí",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51278348_24",
                 "type": "YELLOW_CARD",
                 "minute": 90,
                 "extraTime": 1,
@@ -11193,6 +11202,12 @@
     {
       "player": "Cala",
       "team": "Espanyol",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Carlos Espí",
+      "team": "Real Madrid",
       "goals": 1,
       "penalties": null
     },
