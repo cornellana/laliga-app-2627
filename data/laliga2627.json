@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T19:03:13Z",
+  "lastUpdated": "2026-08-22T19:04:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5020,8 +5020,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "69'",
-          "statusText": "In Progress",
+          "clock": "71'",
+          "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -5493,6 +5493,24 @@
                 "playerName": "Javi Rueda",
                 "teamName": "Celta",
                 "text": null
+              },
+              {
+                "id": "51260335_17",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Pablo Maffeo",
+                "teamName": "Valencia",
+                "text": "José Gayà"
+              },
+              {
+                "id": "51260336_18",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Aliou Dieng",
+                "teamName": "Valencia",
+                "text": "Filip Ugrinic"
               }
             ]
           }
