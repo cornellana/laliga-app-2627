@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T21:22:06Z",
+  "lastUpdated": "2026-08-22T21:23:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5550,9 +5550,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -6079,6 +6079,15 @@
                 "playerName": "Jofre Carreras",
                 "teamName": "Espanyol",
                 "text": "Edu Expósito"
+              },
+              {
+                "id": "51278348_23",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Pere Milla",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
