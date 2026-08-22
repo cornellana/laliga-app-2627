@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:09:06Z",
+  "lastUpdated": "2026-08-22T16:10:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,8 +4425,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "47'",
+          "statusText": "In Progress",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
@@ -4871,6 +4871,24 @@
                 "playerName": "Nico Guillén",
                 "teamName": "Sevilla",
                 "text": "Peque Fernández"
+              },
+              {
+                "id": "51247642_13",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "51247643_14",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
