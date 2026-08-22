@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T20:56:39Z",
+  "lastUpdated": "2026-08-22T20:57:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -5986,9 +5986,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 64,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Marc Cucurella",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Álvaro Carreras"
+              },
+              {
+                "id": "51276459_13",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Yan Diomande",
+                "teamName": "Real Madrid",
+                "text": "Arda Güler"
               }
             ]
           }
