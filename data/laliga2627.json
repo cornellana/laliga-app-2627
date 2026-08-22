@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T19:40:41Z",
+  "lastUpdated": "2026-08-22T19:41:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5550,10 +5550,10 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "9'",
-          "statusText": "First Half",
+          "clock": "11'",
+          "statusText": "In Progress",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
@@ -5935,7 +5935,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51266077_1",
+                "type": "GOAL",
+                "minute": 9,
+                "extraTime": null,
+                "playerName": "Jude Bellingham",
+                "teamName": "Real Madrid",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -11053,6 +11063,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Jude Bellingham",
+      "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Lee Kang-In",
