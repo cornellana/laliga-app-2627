@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:22:23Z",
+  "lastUpdated": "2026-08-22T16:23:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,7 +4425,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4909,7 +4909,7 @@
                 "text": null
               },
               {
-                "id": "51248182_18",
+                "id": "51248250_18",
                 "type": "SUBSTITUTION",
                 "minute": 58,
                 "extraTime": null,
@@ -4922,9 +4922,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 58,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Aymeric Laporte",
                 "teamName": "Athletic",
-                "text": null
+                "text": "Jesús Areso"
+              },
+              {
+                "id": "51248182_20",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": "Nico Williams",
+                "teamName": "Athletic",
+                "text": "Iñaki Williams"
               }
             ]
           }
