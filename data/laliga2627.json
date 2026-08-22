@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T17:36:25Z",
+  "lastUpdated": "2026-08-22T17:37:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5020,7 +5020,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -5250,17 +5250,17 @@
                   "events": null
                 },
                 {
-                  "id": "353736",
-                  "jersey": 8,
-                  "name": "Miguel Román",
+                  "id": "240235",
+                  "jersey": 14,
+                  "name": "Aleix Febas",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "240235",
-                  "jersey": 14,
-                  "name": "Aleix Febas",
+                  "id": "353736",
+                  "jersey": 8,
+                  "name": "Miguel Román",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
