@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T20:55:33Z",
+  "lastUpdated": "2026-08-22T20:56:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -5979,6 +5979,15 @@
                 "extraTime": null,
                 "playerName": "Clemens Riedel",
                 "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "51276356_12",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
