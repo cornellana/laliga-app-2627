@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T18:11:48Z",
+  "lastUpdated": "2026-08-22T18:12:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5020,8 +5020,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "39'",
-          "statusText": "First Half",
+          "clock": "40'",
+          "statusText": "In Progress",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -5403,7 +5403,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51256092_5",
+                "type": "YELLOW_CARD",
+                "minute": 38,
+                "extraTime": null,
+                "playerName": "Justin de Haas",
+                "teamName": "Valencia",
+                "text": null
+              }
+            ]
           }
         },
         {
