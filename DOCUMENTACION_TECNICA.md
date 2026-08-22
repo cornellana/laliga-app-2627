@@ -1,6 +1,6 @@
 # La Liga 26/27 — Documentación Técnica
 
-App iOS personal para seguimiento de La Liga. SwiftUI + un actualizador de datos en GitHub Actions + un backend Node.js de avisos push en NAS QNAP propio. Cubre temporadas 24/25, 25/26 y 26/27.
+App iOS personal para seguimiento de La Liga. SwiftUI + un actualizador de datos que corre en un NAS QNAP propio (con GitHub Actions de suplente) + un backend Node.js de avisos push en el mismo NAS. Cubre temporadas 24/25, 25/26 y 26/27.
 
 ---
 
@@ -68,16 +68,34 @@ ContentView
 
 ### Datos de partidos — fuentes y prioridad
 
-1. **Remoto (GitHub raw)**, actualizado automáticamente (ver [Pipeline de datos](#pipeline-de-datos)):
+1. **Remoto rápido (el NAS)**, solo la temporada en curso — campo `fastURL`:
+   - 26/27: `https://laliga-api.cornellanas.net/datos/laliga2627.json`
+2. **Remoto de siempre (GitHub raw)**, para todo lo demás y como reserva — campo `remoteURL`:
    - 26/27: `https://raw.githubusercontent.com/cornellana/laliga-app-2627/refs/heads/main/data/laliga2627.json`
    - 25/26: `…/laliga2526.json` (estático, temporada cerrada)
    - 24/25: `…/laliga2425.json` (estático, temporada cerrada)
-2. **UserDefaults**: caché del último JSON remoto descargado (clave `laliga_cache_v2_{code}`).
-3. **Bundle seed**: JSON incluido en el `.app` (`laliga2627-seed.json`, etc.) como fallback sin internet.
+3. **UserDefaults**: caché del último JSON remoto descargado (clave `laliga_cache_v2_{code}`).
+4. **Bundle seed**: JSON incluido en el `.app` (`laliga2627-seed.json`, etc.) como fallback sin internet.
 
-El refresh ocurre al activar la app (`.task(id: scenePhase)`) y con pull-to-refresh. **No hay sondeo en segundo plano**: con la app cerrada, la única vía de aviso son las notificaciones push.
+`fetchRemote()` intenta primero el NAS con **4 segundos de tiempo límite** y, ante cualquier fallo —red, servidor caído, JSON a medias—, cae en silencio a GitHub con 20 segundos. La app nunca queda atada a que el NAS o la fibra de casa estén en pie.
 
-`fetchRemote()` añade `?t=<epoch>` a la URL y usa `.reloadIgnoringLocalAndRemoteCacheData`. Aun así, `raw.githubusercontent.com` sirve con `max-age=300` y distintos nodos pueden devolver copias diferentes, así que la app puede mostrar datos de hasta unos cinco minutos antes. Irrelevante frente al cron de 15 minutos.
+El NAS **se niega a servir datos rancios**: si su fichero lleva más de 20 minutos sin refrescarse devuelve 503, y la app se va a GitHub. Sin eso, un actualizador muerto haría que la app prefiriese datos congelados a los de GitHub, que en ese escenario sí estarían al día porque habría entrado el suplente.
+
+Por qué dos fuentes: `raw.githubusercontent.com` sirve con `max-age=300`, así que la app puede ver datos de hasta cinco minutos antes por mucho que se publiquen cada minuto. El endpoint del NAS responde con `Cache-Control: no-cache` y llega en segundos.
+
+#### Cuándo se refresca
+
+| Momento | Cómo |
+|---|---|
+| Al activar la app | `.task(id: scenePhase)` |
+| Tirando de la lista | `.refreshable` |
+| **Con partido en juego** | **cada 45 s, solo** |
+| **Alrededor de la hora del saque** (de 1 h antes a 3 h después) | **cada 5 min, solo** |
+| Resto del tiempo | nada: el temporizador no existe |
+
+El bucle automático vive en `.task(id: LiveRefresh(...))` de `ContentView` y solo corre con la app en primer plano. El ritmo lento alrededor del saque no es un capricho: el estado "en juego" solo aparece si alguien ha refrescado antes, así que sin él una app abierta media hora antes no se enteraría nunca de que el partido ha empezado.
+
+**No hay sondeo en segundo plano**: con la app cerrada, la única vía de aviso son las notificaciones push.
 
 ### Nombres canónicos de equipo
 
@@ -123,18 +141,51 @@ La traducción desde los nombres de ESPN vive en `TEAM_NAME_MAP` de `scripts/upd
 
 ## Pipeline de datos
 
-Los resultados **no** se actualizan a mano: los publica un GitHub Action en el propio repositorio de la app.
+Los resultados **no** se actualizan a mano. Desde el 22/08/26 los publica un proceso que corre en el NAS; GitHub Actions quedó de suplente.
 
 ```
-GitHub Actions (cron */15)
-  └─ scripts/update_liga.py
+NAS · contenedor laliga-updater (titular)
+  └─ cada 60 s con partido · cada 10 min en reposo
+  └─ scripts/update_liga.py                        (el mismo fichero del repo)
        ├─ GET site.api.espn.com/.../scoreboard?dates=YYYYMMDD   (hoy ± 4 días)
-       ├─ GET site.api.espn.com/.../summary?event={id}          (solo partidos terminados)
+       ├─ GET site.api.espn.com/.../summary?event={id}          (terminados y EN JUEGO)
        ├─ recalcula topScorers
        └─ escribe data/laliga2627.json
-  └─ git commit + push si el JSON cambió
-       └─ raw.githubusercontent.com  →  la app lo descarga al abrirse
+  ├─ git commit + push  (solo si cambió algo más que lastUpdated)
+  │    └─ raw.githubusercontent.com   →  reserva de la app · CDN con 5 min de caché
+  └─ copia a /publico                 →  laliga-api la sirve en /datos/laliga2627.json
+                                          →  fuente preferente de la app · segundos
+
+GitHub Actions (cron */15, suplente)
+  └─ scripts/hace_falta_relevo.py  ¿el titular está publicando?
+       ├─ sí  → termina en 9 segundos sin tocar nada
+       └─ no  → bucle de siempre, cada 3 min hasta 25 min
 ```
+
+### Por qué se movió al NAS
+
+Tres fallos en dos días, todos por depender del reloj de GitHub:
+
+| Cuándo | Qué pasó |
+|---|---|
+| 20/08 19:01 | El bucle se apagó un minuto después del saque: ESPN aún marcaba el partido como `pre` y la ventana previa no admitía minutos negativos. |
+| 21/08 18:35→19:14 | El cron no disparó en 39 minutos y el Betis–Real Sociedad empezó sin cobertura. |
+| 21/08 19:34→19:58 | Dos ejecuciones se pelearon por el mismo push; el `pull --rebase` de emergencia dejó marcadores de conflicto dentro del JSON y el bucle estuvo 24 minutos girando en vacío. |
+
+Un solo proceso con su propio reloj no tiene ninguno de los tres. Detalle completo en [nas/README.md](nas/README.md).
+
+### Cómo sabe el suplente si hace falta
+
+No basta con mirar la antigüedad de `lastUpdated`: el titular no publica cuando lo único que cambiaría es esa marca, así que en una mañana sin partidos puede pasar horas callado estando perfectamente vivo. Con ese criterio a secas, el suplente saltaba a rescatarlo cada 15 minutos (pasó el 22/08 a las 07:54).
+
+`scripts/hace_falta_relevo.py` releva solo si:
+
+- hay un partido en juego o a punto **y** los datos llevan más de `RELEVO_MINUTOS` (15) parados — durante un partido el titular publica cada minuto, ahí el silencio sí es anómalo; o
+- pasan `RELEVO_HORAS_MAXIMAS` (6) sin publicar, pase lo que pase.
+
+Ante un JSON ilegible o una marca corrupta, releva: el fallo seguro es actuar de más.
+
+**Ver un commit de `github-actions[bot]` en el historial significa que el NAS estuvo caído.** Es la señal de alarma a vigilar.
 
 ### Workflow
 
@@ -166,8 +217,11 @@ Parámetros, en el bloque `env` del job:
 |---|---|---|
 | `LIVE_INTERVAL_SECONDS` | `180` | Espera entre actualizaciones con partidos en juego |
 | `LOOP_MAX_SECONDS` | `1500` | Duración máxima del bucle antes de ceder al siguiente cron |
-| `PRE_MATCH_MINUTES` | `20` (por defecto en el script) | Cuánto antes del saque de centro se considera activo un partido |
-| `ACTIVE_FLAG_FILE` | `${{ runner.temp }}/laliga_active` | Fichero que el script crea o borra para indicarle al bucle si sigue |
+| `PRE_MATCH_MINUTES` | `45` | Cuánto antes del saque se considera activo un partido. Subió de 20 a 45 porque el cron de GitHub llega con retrasos de hasta 39 minutos y la ventana previa se quedaba sin mirar |
+| `RELEVO_MINUTOS` | `15` | Silencio del titular tolerado **durante un partido** antes de tomar el relevo |
+| `RELEVO_HORAS_MAXIMAS` | `6` | Silencio tolerado en cualquier caso |
+| `ACTIVE_FLAG_FILE` | `${RUNNER_TEMP}/laliga_active` | Fichero que el script crea o borra para indicarle al bucle si sigue. Se define **dentro del paso**: `runner.temp` no existe en el `env` del job e invalida el workflow entero |
+| `LALIGA_DATA_FILE` | sin definir | Ruta alternativa del JSON. La usa el demonio del NAS en modo sombra; sin ella, la de siempre |
 
 La decisión la toma `is_match_active()` en `update_liga.py` a partir del `status.type.state` de ESPN: `in` cuenta como activo, `pre` solo dentro del margen previo, `post` no (los datos definitivos se escriben en el mismo ciclo en que el partido pasa a terminado).
 

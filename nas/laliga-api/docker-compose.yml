@@ -1,0 +1,14 @@
+services:
+  laliga-api:
+    build: .
+    container_name: laliga-api
+    ports:
+      - "8090:8090"
+    volumes:
+      - /share/Container/laliga-api/data:/app/data
+      # Lo que publica laliga-updater, en solo lectura: este servicio lo sirve,
+      # no lo escribe.
+      - /share/Container/laliga-updater/publico:/app/publico:ro
+    env_file:
+      - .env
+    restart: always

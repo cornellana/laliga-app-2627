@@ -73,6 +73,10 @@ TEAM_NAME_MAP = {
     "Racing Santander":   "Racing",        # displayName actual de ESPN
     "Racing de Santander":"Racing",
     "Deportivo":          "Deportivo",
+    # ESPN alterna entre el nombre corto y el largo. Sin esta línea el partido
+    # aparece con un equipo desconocido: sin escudo y sin plantilla.
+    "Deportivo de A Coruña": "Deportivo",
+    "RC Deportivo La Coruña": "Deportivo",
     "Elche":              "Elche",
     "Málaga":             "Málaga",
     "Malaga":             "Málaga",

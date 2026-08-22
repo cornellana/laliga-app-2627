@@ -9,22 +9,29 @@ struct AppSeason: Identifiable, Equatable, Hashable {
     let displayName: String    // "26/27"
     let espnYear: Int
     let remoteURL: URL?
+    /// Fuente rápida, servida por el NAS. Publica en segundos, mientras que la
+    /// CDN de GitHub cachea unos cinco minutos. Solo la temporada en curso la
+    /// tiene: las pasadas no cambian y no merece la pena.
+    let fastURL: URL?
     let seedName: String       // bundle resource name (without .json)
 
     static let all: [AppSeason] = [
         AppSeason(
             code: "2627", displayName: "26/27", espnYear: 2026,
             remoteURL: URL(string: "https://raw.githubusercontent.com/cornellana/laliga-app-2627/refs/heads/main/data/laliga2627.json"),
+            fastURL: URL(string: "https://laliga-api.cornellanas.net/datos/laliga2627.json"),
             seedName: "laliga2627-seed"
         ),
         AppSeason(
             code: "2526", displayName: "25/26", espnYear: 2025,
             remoteURL: URL(string: "https://raw.githubusercontent.com/cornellana/laliga-app-2627/refs/heads/main/data/laliga2526.json"),
+            fastURL: nil,
             seedName: "laliga2526-seed"
         ),
         AppSeason(
             code: "2425", displayName: "24/25", espnYear: 2024,
             remoteURL: URL(string: "https://raw.githubusercontent.com/cornellana/laliga-app-2627/refs/heads/main/data/laliga2425.json"),
+            fastURL: nil,
             seedName: "laliga2425-seed"
         ),
     ]

@@ -52,6 +52,19 @@ struct ContentView: View {
                     try? await Task.sleep(nanoseconds: 350_000_000)
                     withAnimation(.easeInOut(duration: 0.5)) { proxy.scrollTo(target, anchor: .top) }
                 }
+                .task(id: LiveRefresh(phase: scenePhase, interval: liveRefreshInterval)) {
+                    // Hasta ahora la app solo se refrescaba al abrirla, al volver
+                    // del segundo plano o tirando de la lista: con el partido en
+                    // pantalla, los goles no entraban solos. Este bucle solo vive
+                    // mientras hay fútbol y la app está delante, así que fuera de
+                    // esas horas no gasta ni batería ni datos.
+                    guard scenePhase == .active, let interval = liveRefreshInterval else { return }
+                    while !Task.isCancelled {
+                        try? await Task.sleep(for: interval)
+                        if Task.isCancelled { break }
+                        await store.refresh()
+                    }
+                }
                 .onChange(of: filterTeam) { _, _ in scrollIfShowingAll(proxy: proxy) }
                 .onChange(of: filterJornada) { _, newJornada in
                     if let j = newJornada {
@@ -195,6 +208,48 @@ struct ContentView: View {
                 .environment(highlightSettings)
         }
         .preferredColorScheme(.dark)
+    }
+
+    // MARK: - Refresco automático
+
+    /// Identidad del bucle de refresco: al cambiar, SwiftUI lo reinicia con la
+    /// cadencia nueva; al quedarse en `nil` el intervalo, lo cancela.
+    private struct LiveRefresh: Equatable {
+        let phase: ScenePhase
+        let interval: Duration?
+    }
+
+    /// Cada cuánto refrescar solo, o `nil` si no hay nada que seguir.
+    ///
+    /// Dos ritmos: rápido con el balón rodando, y uno tranquilo alrededor de la
+    /// hora del saque. El segundo hace falta porque el estado "en juego" solo
+    /// aparece si alguien ha refrescado antes: sin él, una app abierta desde
+    /// media hora antes no se enteraría nunca de que el partido ha empezado.
+    private var liveRefreshInterval: Duration? {
+        if store.matchDays.contains(where: { $0.games.contains(where: \.isLive) }) {
+            return .seconds(45)
+        }
+        return kickoffNearby ? .seconds(300) : nil
+    }
+
+    /// ¿Hay algún partido sin terminar cuyo saque caiga cerca de ahora?
+    private var kickoffNearby: Bool {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "es_ES")
+        formatter.timeZone = TimeZone(identifier: "Europe/Madrid")
+        formatter.dateFormat = "yyyy-MM-dd HH:mm"
+        let ahora = Date()
+        for day in store.matchDays {
+            for game in day.games where !game.done {
+                guard !game.time.isEmpty,
+                      let saque = formatter.date(from: "\(day.date) \(game.time)") else { continue }
+                let faltan = saque.timeIntervalSince(ahora)
+                // Desde una hora antes hasta tres después: cubre el retraso del
+                // saque y los partidos que se alargan.
+                if faltan < 3600 && faltan > -3 * 3600 { return true }
+            }
+        }
+        return false
     }
 
     // MARK: - Scroll helper

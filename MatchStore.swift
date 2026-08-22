@@ -87,17 +87,38 @@ final class MatchStore {
 
     // MARK: - Remote
 
+    /// Primero el NAS, que publica en segundos; si no contesta rápido, GitHub.
+    ///
+    /// La app no puede quedar atada a que el NAS o la fibra de casa estén en
+    /// pie: por eso el intento rápido lleva un tiempo límite corto y cualquier
+    /// fallo —red, servidor caído, JSON a medias— cae en silencio a la fuente
+    /// de siempre, que es la que ha funcionado hasta ahora.
     nonisolated private func fetchRemote(_ season: AppSeason) async throws -> MatchSnapshot {
+        if let fast = season.fastURL,
+           let data = try? await download(fast, timeout: 4),
+           let snapshot = try? await decodeSnapshot(data) {
+            return snapshot
+        }
         guard let base = season.remoteURL else { throw URLError(.badURL) }
+        return try await decodeSnapshot(try await download(base, timeout: 20))
+    }
+
+    nonisolated private func download(_ base: URL, timeout: TimeInterval) async throws -> Data {
+        // El sufijo temporal esquiva cachés intermedias; el de GitHub las tiene.
         let urlStr = "\(base.absoluteString)?t=\(Int(Date().timeIntervalSince1970))"
-        let url = URL(string: urlStr)!
+        guard let url = URL(string: urlStr) else { throw URLError(.badURL) }
         var request = URLRequest(url: url)
         request.cachePolicy = .reloadIgnoringLocalAndRemoteCacheData
+        request.timeoutInterval = timeout
         let (data, response) = try await URLSession.shared.data(for: request)
         if let http = response as? HTTPURLResponse, http.statusCode != 200 {
             throw URLError(.badServerResponse)
         }
-        return try await MainActor.run {
+        return data
+    }
+
+    nonisolated private func decodeSnapshot(_ data: Data) async throws -> MatchSnapshot {
+        try await MainActor.run {
             try JSONDecoder().decode(MatchSnapshot.self, from: data)
         }
     }

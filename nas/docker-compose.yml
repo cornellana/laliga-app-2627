@@ -20,12 +20,18 @@ services:
       LALIGA_INTERVALO_VIVO: "${LALIGA_INTERVALO_VIVO:-60}"
       LALIGA_INTERVALO_REPOSO: "${LALIGA_INTERVALO_REPOSO:-600}"
       PRE_MATCH_MINUTES: "45"
+      # Copia del JSON para que laliga-api lo sirva en directo. Se escribe en
+      # cada ciclo, incluso cuando no hay commit que hacer en GitHub: así la app
+      # ve el minuto y el marcador al ritmo del NAS, no al de la CDN.
+      LALIGA_PUBLICAR_EN: /publico
     volumes:
       # El estado (datos de trabajo, log, marca de vida) sobrevive a que se
       # recree el contenedor. El clon del repositorio también, para no volver a
       # descargarlo en cada arranque.
       - /share/Container/laliga-updater/estado:/estado
       - /share/Container/laliga-updater/repo:/repo
+      # laliga-api monta esta misma carpeta en solo lectura y la sirve.
+      - /share/Container/laliga-updater/publico:/publico
     logging:
       driver: json-file
       options:
