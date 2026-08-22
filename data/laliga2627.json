@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T19:09:49Z",
+  "lastUpdated": "2026-08-22T19:10:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5020,7 +5020,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -5511,6 +5511,15 @@
                 "playerName": "Aliou Dieng",
                 "teamName": "Valencia",
                 "text": "Filip Ugrinic"
+              },
+              {
+                "id": "51261322_21",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
