@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:23:30Z",
+  "lastUpdated": "2026-08-22T16:24:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,8 +4425,8 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "60'",
-          "statusText": "Second Half",
+          "clock": "61'",
+          "statusText": "In Progress",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
@@ -4913,9 +4913,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 58,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Maroan Sannadi",
                 "teamName": "Athletic",
-                "text": null
+                "text": "Gorka Guruzeta"
               },
               {
                 "id": "51248183_19",
