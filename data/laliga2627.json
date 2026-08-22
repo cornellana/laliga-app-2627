@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T18:22:50Z",
+  "lastUpdated": "2026-08-22T18:39:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5020,8 +5020,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -5421,6 +5421,15 @@
                 "playerName": "Stole Dimitrievski",
                 "teamName": "Valencia",
                 "text": null
+              },
+              {
+                "id": "51257611_8",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Mouctar Diakhaby",
+                "teamName": "Valencia",
+                "text": "Justin de Haas"
               }
             ]
           }
