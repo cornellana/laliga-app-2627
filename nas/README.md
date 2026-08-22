@@ -57,7 +57,7 @@ estuvo caído. Es la señal de alarma que hay que vigilar.
 
 ## Los dos modos
 
-**`sombra`** (el actual): trabaja sobre su propia copia del JSON en `/estado`,
+**`sombra`**: trabaja sobre su propia copia del JSON en `/estado`,
 no publica nada, y después de cada ciclo compara lo que él generaría con lo que
 hay publicado en GitHub. En el log:
 
