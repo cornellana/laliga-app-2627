@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:14:37Z",
+  "lastUpdated": "2026-08-22T16:15:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4423,9 +4423,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "0-2",
           "state": "in",
-          "clock": "51'",
+          "clock": "52'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4889,6 +4889,15 @@
                 "playerName": "Isaac Romero",
                 "teamName": "Sevilla",
                 "text": "Jon Guridi"
+              },
+              {
+                "id": "51247873_16",
+                "type": "GOAL",
+                "minute": 50,
+                "extraTime": null,
+                "playerName": "Chidera Ejuke",
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
@@ -10016,6 +10025,12 @@
       "team": "Racing",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Chidera Ejuke",
+      "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Jon Guridi",
