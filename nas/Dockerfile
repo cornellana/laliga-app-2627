@@ -24,9 +24,12 @@ RUN chmod +x /entrypoint.sh
 # más de media hora, el contenedor se marca como unhealthy y se ve de un
 # vistazo en `docker ps` — que es justo lo que faltó el 21/08, cuando el bucle
 # de GitHub estaba vivo pero no publicaba nada.
+# timegm y no mktime: la marca de salud está en UTC y mktime la interpretaría
+# como hora local. Con el contenedor en CEST le sumaba dos horas de antigüedad
+# fantasma y el contenedor se declaraba enfermo siempre, aunque acabara de latir.
 HEALTHCHECK --interval=5m --timeout=10s --start-period=2m \
-  CMD python3 -c "import json,time,sys; s=json.load(open('/estado/salud.json')); \
-      t=time.mktime(time.strptime(s['actualizado'],'%Y-%m-%dT%H:%M:%SZ')); \
+  CMD python3 -c "import json,time,calendar,sys; s=json.load(open('/estado/salud.json')); \
+      t=calendar.timegm(time.strptime(s['actualizado'],'%Y-%m-%dT%H:%M:%SZ')); \
       sys.exit(0 if (time.time()-t) < 1800 else 1)" || exit 1
 
 ENTRYPOINT ["/entrypoint.sh"]
