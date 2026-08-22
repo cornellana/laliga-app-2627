@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T15:07:55Z",
+  "lastUpdated": "2026-08-22T15:09:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,7 +4425,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "7'",
+          "clock": "8'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4743,14 +4743,6 @@
                   "events": null
                 },
                 {
-                  "id": "364812",
-                  "jersey": 26,
-                  "name": "Manuel Ángel",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
                   "id": "362874",
                   "jersey": 13,
                   "name": "Fran González",
@@ -4802,6 +4794,14 @@
                   "id": "422137",
                   "jersey": 27,
                   "name": "Nico Guillén",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "3131879",
+                  "jersey": 26,
+                  "name": "Manuel Ángel Castillo Rodríguez",
                   "position": "SUB",
                   "isStarter": false,
                   "events": null
