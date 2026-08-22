@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:21:16Z",
+  "lastUpdated": "2026-08-22T16:22:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,7 +4425,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "57'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4906,6 +4906,24 @@
                 "extraTime": null,
                 "playerName": "Isaac Romero",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "51248182_18",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "51248183_19",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
                 "text": null
               }
             ]
