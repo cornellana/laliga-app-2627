@@ -492,6 +492,27 @@ private struct MatchDetailPage: View {
         }
     }
 
+    /// Un gol situado en el gráfico: minuto y lado.
+    private struct GoalMark: Identifiable {
+        let id: String
+        let minute: Int
+        let isHome: Bool
+    }
+
+    /// Goles del partido, sacados de los eventos que ya tiene la ficha. Los
+    /// goles en propia meta se pintan del lado del equipo que se apunta el
+    /// tanto, no del que lo mete, que es como se leen en un marcador.
+    private var goalMarks: [GoalMark] {
+        guard let eventos = effectiveDetails?.events else { return [] }
+        return eventos.compactMap { ev in
+            let tipo = ev.type
+            guard tipo == .goal || tipo == .penalty || tipo == .ownGoal else { return nil }
+            let deLocal = (ev.teamName == match.home)
+            let aFavorDelLocal = (tipo == .ownGoal) ? !deLocal : deLocal
+            return GoalMark(id: ev.id, minute: ev.minute, isHome: aFavorDelLocal)
+        }
+    }
+
     @ViewBuilder
     private func momentumSection(_ points: [MomentumPoint]) -> some View {
         VStack(spacing: 0) {
@@ -508,16 +529,33 @@ private struct MatchDetailPage: View {
                 let awayColor: Color = highlights.highlight(for: match.away)?.color ?? Color(hex: 0x4A5568)
                 let maxVal = points.map { abs($0.value) }.max() ?? 1.0
 
-                Chart(points) { p in
-                    BarMark(
-                        x: .value("min", p.minute),
-                        y: .value("presión", p.value)
-                    )
-                    .foregroundStyle(p.value >= 0 ? homeColor : awayColor)
+                Chart {
+                    ForEach(points) { p in
+                        BarMark(
+                            x: .value("min", p.minute),
+                            y: .value("presión", p.value)
+                        )
+                        .foregroundStyle(p.value >= 0 ? homeColor : awayColor)
+                    }
 
                     RuleMark(y: .value("", 0))
                         .lineStyle(StrokeStyle(lineWidth: 1))
                         .foregroundStyle(Color.white.opacity(0.18))
+
+                    // Los goles, arriba los del local y abajo los del visitante,
+                    // como en las gráficas de momentum al uso: el gráfico mide
+                    // presión, y el gol es el hito que la explica.
+                    ForEach(goalMarks) { gol in
+                        PointMark(
+                            x: .value("min", gol.minute),
+                            y: .value("presión", gol.isHome ? maxVal : -maxVal)
+                        )
+                        .symbolSize(0)
+                        .annotation(position: gol.isHome ? .top : .bottom, spacing: 1) {
+                            Text("⚽")
+                                .font(.system(size: 11))
+                        }
+                    }
                 }
                 .chartYScale(domain: -maxVal ... maxVal)
                 .chartYAxis(.hidden)
@@ -535,6 +573,7 @@ private struct MatchDetailPage: View {
                     }
                 }
                 .frame(height: 130)
+                .padding(.vertical, 9)   // sitio para los iconos de gol
 
                 Text(match.away)
                     .font(.system(size: 10, weight: .semibold))
