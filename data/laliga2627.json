@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:42:14Z",
+  "lastUpdated": "2026-08-22T16:43:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,7 +4425,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4961,6 +4961,15 @@
                 "playerName": "Hugo Rincón",
                 "teamName": "Athletic",
                 "text": "Aitor Paredes"
+              },
+              {
+                "id": "51249477_32",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
