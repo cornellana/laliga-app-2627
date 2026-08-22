@@ -2,10 +2,10 @@ name: Actualizar datos de La Liga 26/27
 
 # SUPLENTE. Desde el 22/08/26 el titular es el NAS (contenedor laliga-updater),
 # que actualiza cada 60 s durante los partidos con su propio reloj. Este
-# workflow ya no publica salvo que el NAS se calle: cada ejecución mira primero
-# cuándo se publicaron los datos por última vez y, si son recientes, sale en
-# segundos sin tocar nada. Si el NAS lleva rato mudo —corte de luz, de fibra, o
-# el contenedor caído— toma el relevo con el bucle de siempre.
+# workflow ya no publica salvo que el NAS se calle, y quien decide eso es
+# scripts/hace_falta_relevo.py: el silencio solo cuenta como sospechoso si hay
+# un partido en marcha, porque fuera de los partidos el NAS calla precisamente
+# cuando no hay nada nuevo que contar.
 #
 # Sigue disparando cada 15 minutos y no cada hora a propósito: cuando no hay
 # nada que hacer cuesta unos segundos, y así el hueco máximo sin cobertura, si
@@ -41,10 +41,13 @@ jobs:
     timeout-minutes: 35
 
     env:
-      # Si los datos publicados son más recientes que esto, el titular está vivo
-      # y aquí no hay nada que hacer. 15 minutos deja margen sobre el ciclo en
-      # reposo del NAS, que es de 10.
+      # Cuánto silencio se tolera al titular DURANTE un partido, cuando debería
+      # estar publicando cada minuto. Fuera de los partidos el silencio es
+      # normal y no cuenta: el NAS no publica si no hay nada nuevo.
       RELEVO_MINUTOS: 15
+      # Tope absoluto: aunque no haya partidos, tantas horas sin publicar
+      # significan que algo va mal (y hay que recoger cambios de calendario).
+      RELEVO_HORAS_MAXIMAS: 6
       # Intervalo entre actualizaciones mientras hay partidos
       LIVE_INTERVAL_SECONDS: 180
       # Margen previo al saque para considerar un partido "activo". Tiene que
@@ -83,12 +86,9 @@ jobs:
           # Un disparo manual (workflow_dispatch) se salta la comprobación: si
           # lo lanzas a mano es porque quieres que actúe.
           if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
-            EDAD=$(python3 scripts/edad_datos.py)
-            if [ "$EDAD" -lt "$RELEVO_MINUTOS" ]; then
-              echo "Los datos son de hace $EDAD min: el titular sigue vivo, no hago nada."
+            if ! python3 scripts/hace_falta_relevo.py; then
               exit 0
             fi
-            echo "Los datos tienen $EDAD min (umbral: $RELEVO_MINUTOS). El titular no responde: tomo el relevo."
           fi
 
           DEADLINE=$(( $(date +%s) + LOOP_MAX_SECONDS ))
