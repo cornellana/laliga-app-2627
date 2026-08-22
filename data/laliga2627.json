@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:58:48Z",
+  "lastUpdated": "2026-08-22T16:59:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,7 +4425,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "90'+5'",
+          "clock": "90'+6'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4993,8 +4993,17 @@
                 "id": "51250478_35",
                 "type": "YELLOW_CARD",
                 "minute": 90,
-                "extraTime": 1,
+                "extraTime": null,
                 "playerName": "Isaac Romero",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "51250753_36",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Nico Guillén",
                 "teamName": "Sevilla",
                 "text": null
               }
