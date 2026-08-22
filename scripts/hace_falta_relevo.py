@@ -13,8 +13,9 @@ tan campante.
 
 El silencio solo es sospechoso cuando debería haber ruido. Por eso se releva si:
 
-  · hay un partido en juego o a punto, y los datos llevan parados más de
-    RELEVO_MINUTOS (durante un partido el NAS publica cada minuto), o
+  · hay un partido rodando (estado `in`) y los datos llevan parados más de
+    RELEVO_MINUTOS — durante un partido el NAS publica cada minuto, así que ahí
+    el silencio sí es anómalo, o
   · los datos llevan parados más de RELEVO_HORAS_MAXIMAS, pase lo que pase:
     red de seguridad para una caída larga, que también hay que enterarse de
     los cambios de calendario.
@@ -27,11 +28,9 @@ import os
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime, timedelta, timezone
-from zoneinfo import ZoneInfo
+from datetime import datetime, timezone
 
 RUTA = os.path.join(os.path.dirname(__file__), "..", "data", "laliga2627.json")
-MADRID = ZoneInfo("Europe/Madrid")
 
 RELEVO_MINUTOS = int(os.environ.get("RELEVO_MINUTOS", "15"))
 RELEVO_HORAS_MAXIMAS = int(os.environ.get("RELEVO_HORAS_MAXIMAS", "6"))
@@ -42,13 +41,6 @@ RELEVO_HORAS_MAXIMAS = int(os.environ.get("RELEVO_HORAS_MAXIMAS", "6"))
 # cuando no hay nada nuevo que contar.
 ENDPOINT = os.environ.get(
     "LALIGA_ENDPOINT", "https://laliga-api.cornellanas.net/datos/laliga2627.json")
-
-# Cuánto rato alrededor de un partido se considera "debería haber ruido".
-# Antes del saque, por el margen previo del updater; después, porque 105
-# minutos no cubren prórrogas de tiempo añadido ni finales eternos.
-ANTES_DEL_SAQUE = timedelta(minutes=45)
-DESPUES_DEL_SAQUE = timedelta(hours=2, minutes=45)
-
 
 def titular_responde():
     """¿Contesta el NAS con datos frescos? None si no se puede saber."""
@@ -111,34 +103,24 @@ def main():
         motivo = "no responde" if vivo is False else "no se le puede preguntar"
         relevar(f"los datos llevan {edad} min parados ({motivo} el titular)")
 
-    # ¿Debería estar pasando algo ahora mismo?
-    en_marcha = []
-    for dia in datos.get("matchDays", []):
-        for partido in dia.get("games", []):
-            nombre = f"{partido.get('home')}-{partido.get('away')}"
-            if partido.get("state") == "in":
-                en_marcha.append(nombre)
-                continue
-            if partido.get("done"):
-                continue
-            hora = partido.get("time") or ""
-            if ":" not in hora:
-                continue
-            try:
-                saque = datetime.strptime(f"{dia['date']} {hora}", "%Y-%m-%d %H:%M")
-                saque = saque.replace(tzinfo=MADRID).astimezone(timezone.utc)
-            except ValueError:
-                continue
-            if saque - ANTES_DEL_SAQUE <= ahora <= saque + DESPUES_DEL_SAQUE:
-                en_marcha.append(nombre)
+    # Solo cuenta el balón rodando. La ventana previa al saque NO: hasta que
+    # empieza el partido no hay nada nuevo que publicar, así que el silencio es
+    # normal. Contarla costó un falso rescate el 22/08 a las 17:19 — el partido
+    # anterior había acabado a las 17:02 y el siguiente empezaba a las 17:30.
+    en_juego = [f"{p.get('home')}-{p.get('away')}"
+                for dia in datos.get("matchDays", [])
+                for p in dia.get("games", [])
+                if p.get("state") == "in" and not p.get("done")]
 
-    if not en_marcha:
-        esperar(f"no hay partidos ahora (datos de hace {edad} min, y sin novedades no publica)")
+    if not en_juego:
+        esperar(f"no hay ningún partido rodando (datos de hace {edad} min, "
+                "y sin novedades no se publica)")
 
     if edad >= RELEVO_MINUTOS:
-        relevar(f"hay partido ({', '.join(en_marcha[:3])}) y los datos llevan {edad} min parados")
+        relevar(f"hay partido en juego ({', '.join(en_juego[:3])}) "
+                f"y los datos llevan {edad} min parados")
 
-    esperar(f"publicando durante {', '.join(en_marcha[:3])} (hace {edad} min)")
+    esperar(f"publicando durante {', '.join(en_juego[:3])} (hace {edad} min)")
 
 
 if __name__ == "__main__":
