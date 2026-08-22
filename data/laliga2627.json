@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T15:12:20Z",
+  "lastUpdated": "2026-08-22T15:13:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,7 +4425,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "12'",
+          "clock": "13'",
           "statusText": "In Progress",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4808,7 +4808,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51238599_1",
+                "type": "RED_CARD",
+                "minute": 11,
+                "extraTime": null,
+                "playerName": "Yuri Berchiche",
+                "teamName": "Athletic",
+                "text": null
+              }
+            ]
           }
         },
         {
