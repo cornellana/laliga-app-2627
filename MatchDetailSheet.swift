@@ -497,6 +497,7 @@ private struct MatchDetailPage: View {
         let id: String
         let minute: Int
         let isHome: Bool
+        let isOwnGoal: Bool
     }
 
     /// Goles del partido, sacados de los eventos que ya tiene la ficha. Los
@@ -509,7 +510,8 @@ private struct MatchDetailPage: View {
             guard tipo == .goal || tipo == .penalty || tipo == .ownGoal else { return nil }
             let deLocal = (ev.teamName == match.home)
             let aFavorDelLocal = (tipo == .ownGoal) ? !deLocal : deLocal
-            return GoalMark(id: ev.id, minute: ev.minute, isHome: aFavorDelLocal)
+            return GoalMark(id: ev.id, minute: ev.minute,
+                            isHome: aFavorDelLocal, isOwnGoal: tipo == .ownGoal)
         }
     }
 
@@ -554,6 +556,17 @@ private struct MatchDetailPage: View {
                         .annotation(position: gol.isHome ? .top : .bottom, spacing: 1) {
                             Text("⚽")
                                 .font(.system(size: 11))
+                                // En propia meta: balón apagado con aro rojo.
+                                // Está del lado de quien se apunta el tanto,
+                                // así que sin distintivo parecería suyo.
+                                .saturation(gol.isOwnGoal ? 0 : 1)
+                                .overlay {
+                                    if gol.isOwnGoal {
+                                        Circle()
+                                            .stroke(Color(hex: 0xE8460B), lineWidth: 1.5)
+                                            .frame(width: 15, height: 15)
+                                    }
+                                }
                         }
                     }
                 }
