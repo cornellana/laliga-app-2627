@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T21:19:53Z",
+  "lastUpdated": "2026-08-22T21:21:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -6076,9 +6076,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 88,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jofre Carreras",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Edu Expósito"
               }
             ]
           }
