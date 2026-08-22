@@ -24,5 +24,22 @@ else
     git clone -q "$URL" "$REPO"
 fi
 
+# Quién firma los commits que publique el NAS. Se distingue a simple vista de
+# los de github-actions[bot], que es justo lo que interesa mientras conviven.
+git -C "$REPO" config user.name  "laliga-nas[bot]"
+git -C "$REPO" config user.email "laliga-nas@cornellanas.net"
+
+# Si hay deploy key, se empuja por SSH. Sin clave el clon sigue siendo de solo
+# lectura por HTTPS, que es lo que necesita el modo sombra.
+CLAVE="${LALIGA_DEPLOY_KEY:-/estado/ssh/id_ed25519}"
+if [ -f "$CLAVE" ]; then
+    chmod 600 "$CLAVE" 2>/dev/null || true
+    export GIT_SSH_COMMAND="ssh -i $CLAVE -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=/estado/ssh/known_hosts"
+    git -C "$REPO" remote set-url origin "git@github.com:cornellana/laliga-app-2627.git"
+    echo "Deploy key encontrada: el remoto se usa por SSH (se puede publicar)."
+else
+    echo "Sin deploy key: remoto de solo lectura (modo sombra)."
+fi
+
 echo "Versión del repositorio: $(git -C "$REPO" log -1 --format='%h %s' 2>/dev/null || echo desconocida)"
 exec python3 "$REPO/nas/laliga_daemon.py"

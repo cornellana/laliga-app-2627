@@ -6,7 +6,7 @@ FROM python:3.12-slim
 # git: para clonar el repositorio y, en producción, publicar el JSON.
 # ca-certificates: para hablar con ESPN y GitHub por HTTPS.
 RUN apt-get update \
- && apt-get install -y --no-install-recommends git ca-certificates \
+ && apt-get install -y --no-install-recommends git ca-certificates openssh-client \
  && rm -rf /var/lib/apt/lists/*
 
 RUN pip install --no-cache-dir requests
