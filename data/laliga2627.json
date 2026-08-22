@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T21:07:43Z",
+  "lastUpdated": "2026-08-22T21:08:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -6016,6 +6016,24 @@
                 "playerName": "Rafel Bauzà",
                 "teamName": "Espanyol",
                 "text": "Cala"
+              },
+              {
+                "id": "51277116_16",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Pol Lozano",
+                "teamName": "Espanyol",
+                "text": "Urko González de Zárate"
+              },
+              {
+                "id": "51277117_17",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Pere Milla",
+                "teamName": "Espanyol",
+                "text": "Javi Hernández"
               }
             ]
           }
