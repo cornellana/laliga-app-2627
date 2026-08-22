@@ -492,6 +492,33 @@ private struct MatchDetailPage: View {
         }
     }
 
+    /// Colores de las dos mitades del gráfico.
+    ///
+    /// Antes salía todo del mismo color cuando el color destacado que tenías
+    /// puesto para un equipo coincidía con el naranja por defecto del otro:
+    /// en el Espanyol-Real Madrid las dos mitades eran naranjas y no se
+    /// distinguía quién apretaba. Ahora manda el color de cada club y, si aun
+    /// así quedaran parecidos, el visitante cae a un gris azulado.
+    private var momentumColors: (Color, Color) {
+        let local = highlights.highlight(for: match.home)?.color
+            ?? TeamLogoView.teamColor(for: match.home)
+        var visitante = highlights.highlight(for: match.away)?.color
+            ?? TeamLogoView.teamColor(for: match.away)
+        if seParecen(local, visitante) {
+            visitante = Color(hex: 0x4A5568)
+        }
+        return (local, visitante)
+    }
+
+    /// ¿Dos colores quedan tan cerca que el gráfico parecería de un solo tono?
+    private func seParecen(_ a: Color, _ b: Color) -> Bool {
+        let ca = UIColor(a).cgColor.components ?? []
+        let cb = UIColor(b).cgColor.components ?? []
+        guard ca.count >= 3, cb.count >= 3 else { return false }
+        let distancia = (0..<3).reduce(0.0) { $0 + abs(Double(ca[$1] - cb[$1])) }
+        return distancia < 0.45
+    }
+
     /// Un gol situado en el gráfico: minuto y lado.
     private struct GoalMark: Identifiable {
         let id: String
@@ -559,14 +586,17 @@ private struct MatchDetailPage: View {
                     .lineLimit(1)
                     .frame(maxWidth: .infinity, alignment: .leading)
 
-                let homeColor: Color = highlights.highlight(for: match.home)?.color ?? Color(hex: 0xE8460B)
-                let awayColor: Color = highlights.highlight(for: match.away)?.color ?? Color(hex: 0x4A5568)
+                let (homeColor, awayColor) = momentumColors
                 let maxVal = points.map { abs($0.value) }.max() ?? 1.0
-                // El eje llega hasta lo último que haya que pintar: el gráfico
-                // de SofaScore termina en el 90,5 y un gol en el descuento cae
-                // más allá. Sin ampliarlo, se recorta y no se ve.
-                let maxMin = max(Double(points.map(\.minute).max() ?? 90),
-                                 goalMarks.map(\.x).max() ?? 90)
+                // El eje es siempre el partido entero y se va rellenando, en vez
+                // de encogerse al minuto actual: con el dominio ajustado a los
+                // datos, en el minuto 13 las barras ocupaban toda la pantalla y
+                // se iban compactando según avanzaba el partido.
+                // Solo se estira más allá del 90 si hay algo que pintar ahí,
+                // como un gol en el descuento.
+                let maxMin = max(90,
+                                 max(Double(points.map(\.minute).max() ?? 90),
+                                     goalMarks.map(\.x).max() ?? 90))
 
                 Chart {
                     ForEach(points) { p in

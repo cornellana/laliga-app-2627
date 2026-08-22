@@ -23,6 +23,9 @@ struct ContentView: View {
     @State private var showingCalendar = false
     @State private var highlightSettings = HighlightSettings()
     @Environment(\.scenePhase) private var scenePhase
+    /// Sección en la que se sitúa la lista. Se fija al abrir para caer en la
+    /// jornada en curso; después la mueve el usuario al desplazarse.
+    @State private var anclaLista: String?
 
     var body: some View {
         NavigationStack {
@@ -38,19 +41,30 @@ struct ContentView: View {
                                 JornadaSectionView(group: group) { match in
                                     selectedMatchItem = MatchItem(match: match, allMatches: allFilteredMatches)
                                 }
+                                // El identificador va aquí, en lo que produce el
+                                // ForEach: dentro de la sección, .scrollPosition
+                                // no lo ve y la lista nunca se movía de la
+                                // jornada 1.
+                                .id("jornada-\(group.jornada)")
                             }
                         }
                         Spacer(minLength: 80)
                     }
+                    // Sin esto, .scrollPosition no sabe qué secciones hay y la
+                    // lista se queda donde estaba.
+                    .scrollTargetLayout()
                 }
                 .scrollIndicators(.hidden)
+                // Posicionar por estado y no con scrollTo tras un temporizador:
+                // al abrir, la lista se reconstruye cuando llegan los datos y
+                // se llevaba por delante cualquier desplazamiento anterior, así
+                // que la app aterrizaba siempre en la jornada 1.
+                .scrollPosition(id: $anclaLista, anchor: .top)
                 .refreshable { await store.refresh() }
                 .task(id: scenePhase) {
                     guard scenePhase == .active else { return }
                     await store.refresh()
-                    guard let target = scrollTargetDate else { return }
-                    try? await Task.sleep(nanoseconds: 350_000_000)
-                    withAnimation(.easeInOut(duration: 0.5)) { proxy.scrollTo(target, anchor: .top) }
+                    await situarEnJornadaActual(proxy: proxy)
                 }
                 .task(id: LiveRefresh(phase: scenePhase, interval: liveRefreshInterval)) {
                     // Hasta ahora la app solo se refrescaba al abrirla, al volver
@@ -64,6 +78,14 @@ struct ContentView: View {
                         if Task.isCancelled { break }
                         await store.refresh()
                     }
+                }
+                .onChange(of: store.matchDays.count) { anterior, actual in
+                    // En una instalación limpia la lista está vacía cuando se
+                    // abre la app, así que colocarla entonces no sirve de nada:
+                    // aterrizaba en la jornada 1. Se vuelve a intentar en cuanto
+                    // llegan los partidos.
+                    guard anterior == 0, actual > 0 else { return }
+                    Task { await situarEnJornadaActual(proxy: proxy) }
                 }
                 .onChange(of: filterTeam) { _, _ in scrollIfShowingAll(proxy: proxy) }
                 .onChange(of: filterJornada) { _, newJornada in
@@ -236,11 +258,24 @@ struct ContentView: View {
         if store.matchDays.contains(where: { $0.games.contains(where: \.isLive) }) {
             return .seconds(45)
         }
+        // Cerca del saque hace falta ritmo rápido: el estado "en juego" solo
+        // aparece si alguien refresca, y con cinco minutos el partido podía
+        // llevar cuatro rodando sin que la app se enterara. Pasó en el
+        // Espanyol-Real Madrid: llegó el aviso al móvil y la lista seguía
+        // mostrando la hora del saque.
+        if kickoffImminent { return .seconds(60) }
         return kickoffNearby ? .seconds(300) : nil
     }
 
+    /// ¿Algún partido con el saque a menos de quince minutos, por delante o
+    /// por detrás? Es la ventana en la que el estado está a punto de cambiar.
+    private var kickoffImminent: Bool { kickoffWithin(before: 900, after: 900) }
+
     /// ¿Hay algún partido sin terminar cuyo saque caiga cerca de ahora?
-    private var kickoffNearby: Bool {
+    private var kickoffNearby: Bool { kickoffWithin(before: 3600, after: 3 * 3600) }
+
+    /// ¿Algún partido sin terminar cuyo saque caiga dentro de la ventana dada?
+    private func kickoffWithin(before: TimeInterval, after: TimeInterval) -> Bool {
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "es_ES")
         formatter.timeZone = TimeZone(identifier: "Europe/Madrid")
@@ -251,12 +286,28 @@ struct ContentView: View {
                 guard !game.time.isEmpty,
                       let saque = formatter.date(from: "\(day.date) \(game.time)") else { continue }
                 let faltan = saque.timeIntervalSince(ahora)
-                // Desde una hora antes hasta tres después: cubre el retraso del
-                // saque y los partidos que se alargan.
-                if faltan < 3600 && faltan > -3 * 3600 { return true }
+                if faltan < before && faltan > -after { return true }
             }
         }
         return false
+    }
+
+    // MARK: - Situar la lista
+
+    /// Coloca la lista en la jornada en curso al abrir la app.
+    ///
+    /// Se intenta varias veces a propósito: la lista es perezosa y, si el
+    /// destino todavía no se ha construido, el primer `scrollTo` no agarra y la
+    /// app se queda enseñando la jornada 1. Se para en cuanto la posición deja
+    /// de cambiar.
+    private func situarEnJornadaActual(proxy: ScrollViewProxy) async {
+        guard let destino = scrollTargetDate else { return }
+        // Dos pasadas: la primera fija la posición nada más llegar los datos y
+        // la segunda la sostiene si la lista se ha vuelto a construir mientras.
+        anclaLista = destino
+        try? await Task.sleep(nanoseconds: 400_000_000)
+        if Task.isCancelled { return }
+        anclaLista = destino
     }
 
     // MARK: - Scroll helper
@@ -305,6 +356,9 @@ struct ContentView: View {
     private var scrollTargetDate: String? {
         let fmt = DateFormatter()
         fmt.dateFormat = "yyyy-MM-dd"
+        // Las fechas del JSON son de La Liga, o sea hora de Madrid. Con la zona
+        // del teléfono, de viaje se podría saltar de jornada por unas horas.
+        fmt.timeZone = TimeZone(identifier: "Europe/Madrid")
         let today = fmt.string(from: Date())
         let all = store.matchDays
         guard !all.isEmpty else { return nil }
@@ -546,7 +600,6 @@ struct JornadaSectionView: View {
             }
             .padding(.horizontal, 16).padding(.vertical, 10)
             .background(Color(hex: 0x0F0F1E))
-            .id("jornada-\(group.jornada)")
 
             ForEach(group.days) { day in
                 HStack {
