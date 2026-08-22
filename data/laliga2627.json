@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T21:12:08Z",
+  "lastUpdated": "2026-08-22T21:13:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -6034,6 +6034,33 @@
                 "playerName": "Pere Milla",
                 "teamName": "Espanyol",
                 "text": "Javi Hernández"
+              },
+              {
+                "id": "51277576_18",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Eduardo Camavinga",
+                "teamName": "Real Madrid",
+                "text": "Bernardo Silva"
+              },
+              {
+                "id": "51277577_19",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Trent Alexander-Arnold",
+                "teamName": "Real Madrid",
+                "text": "Denzel Dumfries"
+              },
+              {
+                "id": "51277578_20",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Carlos Espí",
+                "teamName": "Real Madrid",
+                "text": "Jude Bellingham"
               }
             ]
           }
