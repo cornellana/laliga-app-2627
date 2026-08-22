@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T15:26:38Z",
+  "lastUpdated": "2026-08-22T15:27:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,7 +4425,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4833,6 +4833,24 @@
                 "minute": 22,
                 "extraTime": null,
                 "playerName": "Peque Fernández",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "51241227_4",
+                "type": "YELLOW_CARD",
+                "minute": 25,
+                "extraTime": null,
+                "playerName": "Gorka Guruzeta",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "51241228_5",
+                "type": "YELLOW_CARD",
+                "minute": 25,
+                "extraTime": null,
+                "playerName": "Miguel Sierra",
                 "teamName": "Sevilla",
                 "text": null
               }
