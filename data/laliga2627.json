@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:32:19Z",
+  "lastUpdated": "2026-08-22T16:33:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4934,6 +4934,15 @@
                 "playerName": "Nico Williams",
                 "teamName": "Athletic",
                 "text": "Iñaki Williams"
+              },
+              {
+                "id": "51248725_25",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "José Ángel Carmona",
+                "teamName": "Sevilla",
+                "text": "Arouna Sangante"
               }
             ]
           }
