@@ -158,6 +158,20 @@ def publicar():
     sin_cambios, _ = git("diff", "--cached", "--quiet")
     if sin_cambios:
         return False  # nada que publicar
+
+    # El updater reescribe `lastUpdated` en cada pasada, así que el fichero
+    # SIEMPRE difiere aunque no haya cambiado ni un dato. A 60 segundos por
+    # ciclo eso serían más de mil commits al día sin información nueva. Si lo
+    # único que ha cambiado es la marca de tiempo, no se publica.
+    _, diferencias = git("diff", "--cached", "-U0", "--", "data/laliga2627.json")
+    reales = [l for l in diferencias.splitlines()
+              if l[:1] in ("+", "-") and l[:3] not in ("+++", "---")
+              and "lastUpdated" not in l]
+    if not reales:
+        git("reset", "-q", "HEAD", "--", "data/laliga2627.json")
+        git("checkout", "--", "data/laliga2627.json")
+        return False
+
     marca = ahora().strftime("%Y-%m-%dT%H:%M:%SZ")
     git("commit", "-q", "-m", f"chore: actualización automática LaLiga {marca}")
     ok, salida = git("push", "-q")

@@ -1,10 +1,20 @@
 name: Actualizar datos de La Liga 26/27
 
+# SUPLENTE. Desde el 22/08/26 el titular es el NAS (contenedor laliga-updater),
+# que actualiza cada 60 s durante los partidos con su propio reloj. Este
+# workflow ya no publica salvo que el NAS se calle: cada ejecución mira primero
+# cuándo se publicaron los datos por última vez y, si son recientes, sale en
+# segundos sin tocar nada. Si el NAS lleva rato mudo —corte de luz, de fibra, o
+# el contenedor caído— toma el relevo con el bucle de siempre.
+#
+# Sigue disparando cada 15 minutos y no cada hora a propósito: cuando no hay
+# nada que hacer cuesta unos segundos, y así el hueco máximo sin cobertura, si
+# el NAS muere en pleno partido, es de minutos y no de una hora.
+#
 # El cron de GitHub es el despertador, no el reloj: no baja de 5 minutos y en
-# la práctica llega tarde (con */15 se han medido intervalos de 16 a 34 min).
-# Por eso cada ejecución, si encuentra partidos en juego, se queda en bucle
-# actualizando cada pocos minutos en lugar de terminar y esperar al siguiente
-# disparo. Fuera de horario de partidos hace una pasada y sale en segundos.
+# la práctica llega tarde (se han medido intervalos de 16 a 39 min). Por eso,
+# cuando le toca actuar, se queda en bucle en vez de terminar y esperar al
+# siguiente disparo.
 
 on:
   schedule:
@@ -31,6 +41,10 @@ jobs:
     timeout-minutes: 35
 
     env:
+      # Si los datos publicados son más recientes que esto, el titular está vivo
+      # y aquí no hay nada que hacer. 15 minutos deja margen sobre el ciclo en
+      # reposo del NAS, que es de 10.
+      RELEVO_MINUTOS: 15
       # Intervalo entre actualizaciones mientras hay partidos
       LIVE_INTERVAL_SECONDS: 180
       # Margen previo al saque para considerar un partido "activo". Tiene que
@@ -64,6 +78,18 @@ jobs:
           export ACTIVE_FLAG_FILE="${RUNNER_TEMP:-/tmp}/laliga_active"
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # ¿Sigue vivo el titular? Se mira la marca del propio JSON publicado.
+          # Un disparo manual (workflow_dispatch) se salta la comprobación: si
+          # lo lanzas a mano es porque quieres que actúe.
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
+            EDAD=$(python3 scripts/edad_datos.py)
+            if [ "$EDAD" -lt "$RELEVO_MINUTOS" ]; then
+              echo "Los datos son de hace $EDAD min: el titular sigue vivo, no hago nada."
+              exit 0
+            fi
+            echo "Los datos tienen $EDAD min (umbral: $RELEVO_MINUTOS). El titular no responde: tomo el relevo."
+          fi
 
           DEADLINE=$(( $(date +%s) + LOOP_MAX_SECONDS ))
           CICLO=0
