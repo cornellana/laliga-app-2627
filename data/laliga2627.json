@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T20:01:43Z",
+  "lastUpdated": "2026-08-22T20:02:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5550,9 +5550,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "30'",
+          "clock": "31'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -5943,6 +5943,15 @@
                 "extraTime": null,
                 "playerName": "Jude Bellingham",
                 "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51268498_6",
+                "type": "GOAL",
+                "minute": 30,
+                "extraTime": null,
+                "playerName": "Cala",
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
@@ -11045,6 +11054,12 @@
       "team": "Racing",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Cala",
+      "team": "Espanyol",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Chidera Ejuke",
