@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T15:23:20Z",
+  "lastUpdated": "2026-08-22T15:24:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,7 +4425,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "22'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4832,7 +4832,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 22,
                 "extraTime": null,
-                "playerName": "Peque",
+                "playerName": "Peque Fernández",
                 "teamName": "Sevilla",
                 "text": null
               }
