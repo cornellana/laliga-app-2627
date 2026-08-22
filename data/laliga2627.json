@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T15:41:00Z",
+  "lastUpdated": "2026-08-22T15:42:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,8 +4425,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "40'",
-          "statusText": "In Progress",
+          "clock": "41'",
+          "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
@@ -4851,6 +4851,15 @@
                 "minute": 25,
                 "extraTime": null,
                 "playerName": "Miguel Sierra",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "51244011_6",
+                "type": "YELLOW_CARD",
+                "minute": 39,
+                "extraTime": null,
+                "playerName": "Jon Guridi",
                 "teamName": "Sevilla",
                 "text": null
               }
