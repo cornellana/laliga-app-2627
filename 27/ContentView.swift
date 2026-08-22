@@ -177,7 +177,14 @@ struct ContentView: View {
             filterJornada = nil
         }
         .sheet(item: $selectedMatchItem) { item in
-            MatchDetailSheet(match: item.match, season: store.selectedSeason, allMatches: item.allMatches, matchDays: store.matchDays)
+            // El partido se vuelve a buscar en el store en cada repintado: si
+            // se abriera con la copia guardada al pulsar, la ficha se quedaría
+            // congelada en el marcador de ese instante mientras el refresco
+            // automático actualiza la lista de detrás.
+            let actual = store.matchDays
+                .flatMap(\.games)
+                .first { $0.id == item.match.id } ?? item.match
+            MatchDetailSheet(match: actual, season: store.selectedSeason, allMatches: item.allMatches, matchDays: store.matchDays)
                 .environment(highlightSettings)
                 .presentationDetents([.large])
                 .presentationDragIndicator(.visible)

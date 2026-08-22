@@ -89,6 +89,15 @@ private struct MatchDetailPage: View {
 
     private var effectiveDetails: MatchDetails? { match.details ?? fetchedDetails }
 
+    /// Tramo de tres minutos del reloj, o -1 si el partido no está en juego.
+    /// Sirve de identidad al refresco del momentum.
+    private var momentumTick: Int {
+        guard match.isLive, let reloj = match.clock else { return -1 }
+        let digitos = reloj.prefix { $0.isNumber }
+        guard let minuto = Int(digitos) else { return -1 }
+        return minuto / 3
+    }
+
     var body: some View {
         ScrollView {
             VStack(spacing: 0) {
@@ -133,9 +142,16 @@ private struct MatchDetailPage: View {
             } else if !match.done, match.details == nil {
                 await loadRosters()
             }
-            if match.done {
+            if match.done || match.isLive {
                 await loadMomentum()
             }
+        }
+        .task(id: momentumTick) {
+            // Solo con el partido en juego: la clave cambia cada tres minutos
+            // de reloj, así que SofaScore recibe una petición cada tres
+            // minutos y no una por cada refresco de la lista.
+            guard match.isLive, momentumTick >= 0 else { return }
+            await loadMomentum()
         }
         .sheet(item: $selectedPlayer) { sel in
             PlayerStatsSheet(selection: sel, season: season)
