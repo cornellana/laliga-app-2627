@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T19:34:04Z",
+  "lastUpdated": "2026-08-22T19:35:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -5601,17 +5601,17 @@
                   "events": null
                 },
                 {
-                  "id": "307915",
-                  "jersey": 4,
-                  "name": "Urko Gonzalez",
+                  "id": "255272",
+                  "jersey": 8,
+                  "name": "Edu Expósito",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "255272",
-                  "jersey": 8,
-                  "name": "Edu Expósito",
+                  "id": "307915",
+                  "jersey": 4,
+                  "name": "Urko Gonzalez",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
