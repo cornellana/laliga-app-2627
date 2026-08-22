@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T15:22:13Z",
+  "lastUpdated": "2026-08-22T15:23:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4824,6 +4824,15 @@
                 "minute": 15,
                 "extraTime": null,
                 "playerName": "Oso",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "51240566_3",
+                "type": "YELLOW_CARD",
+                "minute": 22,
+                "extraTime": null,
+                "playerName": "Peque",
                 "teamName": "Sevilla",
                 "text": null
               }
