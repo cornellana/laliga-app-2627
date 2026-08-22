@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:33:25Z",
+  "lastUpdated": "2026-08-22T16:34:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4423,9 +4423,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-3",
+          "result": "1-3",
           "state": "in",
-          "clock": "69'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4943,6 +4943,15 @@
                 "playerName": "José Ángel Carmona",
                 "teamName": "Sevilla",
                 "text": "Arouna Sangante"
+              },
+              {
+                "id": "51248816_26",
+                "type": "GOAL",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Aitor Paredes",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
@@ -10063,6 +10072,12 @@
       "player": "Roberto Fernández",
       "team": "Espanyol",
       "goals": 2,
+      "penalties": null
+    },
+    {
+      "player": "Aitor Paredes",
+      "team": "Athletic",
+      "goals": 1,
       "penalties": null
     },
     {
