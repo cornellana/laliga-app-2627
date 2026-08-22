@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T15:15:38Z",
+  "lastUpdated": "2026-08-22T15:16:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4425,7 +4425,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "15'",
+          "clock": "16'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -4816,6 +4816,15 @@
                 "extraTime": null,
                 "playerName": "Yuri Berchiche",
                 "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "51239225_2",
+                "type": "GOAL",
+                "minute": 15,
+                "extraTime": null,
+                "playerName": "Oso",
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
@@ -9978,6 +9987,12 @@
     {
       "player": "Nicolas Pepe",
       "team": "Villarreal",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Oso",
+      "team": "Sevilla",
       "goals": 1,
       "penalties": null
     },
