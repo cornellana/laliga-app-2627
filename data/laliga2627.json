@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T21:18:46Z",
+  "lastUpdated": "2026-08-22T21:19:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -6068,6 +6068,15 @@
                 "minute": 84,
                 "extraTime": null,
                 "playerName": "Edu Expósito",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "51278084_22",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Espanyol",
                 "text": null
               }
