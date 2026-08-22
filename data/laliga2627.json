@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T20:50:02Z",
+  "lastUpdated": "2026-08-22T20:52:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "59'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -5970,6 +5970,15 @@
                 "extraTime": null,
                 "playerName": "Vinícius Júnior",
                 "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51275993_11",
+                "type": "YELLOW_CARD",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Clemens Riedel",
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
