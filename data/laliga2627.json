@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T21:16:34Z",
+  "lastUpdated": "2026-08-22T21:17:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5552,7 +5552,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -6061,6 +6061,15 @@
                 "playerName": "Carlos Espí",
                 "teamName": "Real Madrid",
                 "text": "Jude Bellingham"
+              },
+              {
+                "id": "51277884_21",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Edu Expósito",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
