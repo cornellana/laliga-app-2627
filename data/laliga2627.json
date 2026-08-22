@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T19:10:55Z",
+  "lastUpdated": "2026-08-22T19:12:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -5020,7 +5020,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -5517,9 +5517,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ilaix Moriba",
                 "teamName": "Celta",
-                "text": null
+                "text": "Aleix Febas"
               }
             ]
           }
