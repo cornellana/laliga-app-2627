@@ -495,7 +495,9 @@ private struct MatchDetailPage: View {
     /// Un gol situado en el gráfico: minuto y lado.
     private struct GoalMark: Identifiable {
         let id: String
-        let minute: Int
+        /// Posición en el eje: minuto + descuento, con un pequeño desplazamiento
+        /// si varios goles caen en el mismo punto.
+        let x: Double
         let isHome: Bool
         let isOwnGoal: Bool
     }
@@ -505,14 +507,44 @@ private struct MatchDetailPage: View {
     /// tanto, no del que lo mete, que es como se leen en un marcador.
     private var goalMarks: [GoalMark] {
         guard let eventos = effectiveDetails?.events else { return [] }
-        return eventos.compactMap { ev in
-            let tipo = ev.type
-            guard tipo == .goal || tipo == .penalty || tipo == .ownGoal else { return nil }
-            let deLocal = (ev.teamName == match.home)
-            let aFavorDelLocal = (tipo == .ownGoal) ? !deLocal : deLocal
-            return GoalMark(id: ev.id, minute: ev.minute,
-                            isHome: aFavorDelLocal, isOwnGoal: tipo == .ownGoal)
+        let goles = eventos.filter {
+            $0.type == .goal || $0.type == .penalty || $0.type == .ownGoal
         }
+        // El balón es una indicación, no una medida: el minuto exacto está en la
+        // lista de eventos justo debajo. Así que se le permite desplazarse lo
+        // necesario para que dos goles seguidos no se tapen. Con el ancho del
+        // gráfico, un minuto son unos nueve píxeles y el balón mide veintidós:
+        // el Racing-Villarreal, con goles en el 45 y el 45+1, enseñaba uno solo.
+        let separacionMinima = 3.5
+
+        // Último punto ocupado en cada lado: los de arriba y los de abajo no se
+        // estorban entre sí.
+        var ultimoArriba = -Double.infinity
+        var ultimoAbajo  = -Double.infinity
+
+        return goles
+            .map { ev -> (MatchEvent, Double, Bool) in
+                // El descuento cuenta: un gol en el 90+4 va en el 94, no en el
+                // 90. Sin esto, los dos del Alavés-Getafe caían encima del 90 y
+                // además fuera del eje, que acaba en el 90,5.
+                let punto = Double(ev.minute + (ev.extraTime ?? 0))
+                let deLocal = (ev.teamName == match.home)
+                let aFavorDelLocal = (ev.type == .ownGoal) ? !deLocal : deLocal
+                return (ev, punto, aFavorDelLocal)
+            }
+            .sorted { $0.1 < $1.1 }
+            .map { ev, punto, arriba in
+                var x = punto
+                if arriba {
+                    x = max(x, ultimoArriba + separacionMinima)
+                    ultimoArriba = x
+                } else {
+                    x = max(x, ultimoAbajo + separacionMinima)
+                    ultimoAbajo = x
+                }
+                return GoalMark(id: ev.id, x: x,
+                                isHome: arriba, isOwnGoal: ev.type == .ownGoal)
+            }
     }
 
     @ViewBuilder
@@ -530,6 +562,11 @@ private struct MatchDetailPage: View {
                 let homeColor: Color = highlights.highlight(for: match.home)?.color ?? Color(hex: 0xE8460B)
                 let awayColor: Color = highlights.highlight(for: match.away)?.color ?? Color(hex: 0x4A5568)
                 let maxVal = points.map { abs($0.value) }.max() ?? 1.0
+                // El eje llega hasta lo último que haya que pintar: el gráfico
+                // de SofaScore termina en el 90,5 y un gol en el descuento cae
+                // más allá. Sin ampliarlo, se recorta y no se ve.
+                let maxMin = max(Double(points.map(\.minute).max() ?? 90),
+                                 goalMarks.map(\.x).max() ?? 90)
 
                 Chart {
                     ForEach(points) { p in
@@ -549,7 +586,7 @@ private struct MatchDetailPage: View {
                     // presión, y el gol es el hito que la explica.
                     ForEach(goalMarks) { gol in
                         PointMark(
-                            x: .value("min", gol.minute),
+                            x: .value("min", gol.x),
                             y: .value("presión", gol.isHome ? maxVal : -maxVal)
                         )
                         .symbolSize(0)
@@ -571,6 +608,7 @@ private struct MatchDetailPage: View {
                     }
                 }
                 .chartYScale(domain: -maxVal ... maxVal)
+                .chartXScale(domain: 0 ... (maxMin + 1.5))
                 .chartYAxis(.hidden)
                 .chartXAxis {
                     AxisMarks(values: [15, 30, 45, 60, 75, 90]) { val in
