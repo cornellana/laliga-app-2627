@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T16:20:10Z",
+  "lastUpdated": "2026-08-22T16:21:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4423,7 +4423,7 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "0-3",
           "state": "in",
           "clock": "57'",
           "statusText": "Second Half",
@@ -4896,6 +4896,15 @@
                 "minute": 50,
                 "extraTime": null,
                 "playerName": "Chidera Ejuke",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "51248138_17",
+                "type": "GOAL",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Isaac Romero",
                 "teamName": "Sevilla",
                 "text": null
               }
@@ -10028,6 +10037,12 @@
     },
     {
       "player": "Chidera Ejuke",
+      "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Isaac Romero",
       "team": "Sevilla",
       "goals": 1,
       "penalties": null
