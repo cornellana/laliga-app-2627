@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T15:49:49Z",
+  "lastUpdated": "2026-08-22T16:09:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -4862,6 +4862,15 @@
                 "playerName": "Jon Guridi",
                 "teamName": "Sevilla",
                 "text": null
+              },
+              {
+                "id": "51247611_12",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Nico Guillén",
+                "teamName": "Sevilla",
+                "text": "Peque Fernández"
               }
             ]
           }
