@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T17:35:28Z",
+  "lastUpdated": "2026-08-23T17:36:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,7 +6694,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -6892,17 +6892,17 @@
                   "events": null
                 },
                 {
-                  "id": "259839",
-                  "jersey": 4,
-                  "name": "Manu",
+                  "id": "282672",
+                  "jersey": 5,
+                  "name": "Pablo Ramon",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "282672",
-                  "jersey": 5,
-                  "name": "Pablo Ramon",
+                  "id": "259839",
+                  "jersey": 4,
+                  "name": "Manu",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -6932,17 +6932,17 @@
                   "events": null
                 },
                 {
-                  "id": "409318",
-                  "jersey": 36,
-                  "name": "Sergio Martínez",
+                  "id": "341736",
+                  "jersey": 8,
+                  "name": "Gustavo Puerta",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "341736",
-                  "jersey": 8,
-                  "name": "Gustavo Puerta",
+                  "id": "409318",
+                  "jersey": 36,
+                  "name": "Sergio Martínez",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
