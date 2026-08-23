@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:46:34Z",
+  "lastUpdated": "2026-08-23T16:47:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6628,7 +6628,25 @@
                 "text": null
               },
               {
-                "id": "51343291_38",
+                "id": "51343448_38",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Ilias Akhomach",
+                "teamName": "Villarreal",
+                "text": "Georges Mikautadze"
+              },
+              {
+                "id": "51343447_39",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Carlos Maciá",
+                "teamName": "Villarreal",
+                "text": "Nicolas Pepe"
+              },
+              {
+                "id": "51343291_40",
                 "type": "SUBSTITUTION",
                 "minute": 79,
                 "extraTime": null,
