@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:32:10Z",
+  "lastUpdated": "2026-08-23T16:33:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "66'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6572,6 +6572,24 @@
                 "playerName": "Gerard Moreno",
                 "teamName": "Villarreal",
                 "text": null
+              },
+              {
+                "id": "51341899_22",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Marcos Llorente",
+                "teamName": "Atlético",
+                "text": "Koke"
+              },
+              {
+                "id": "51341900_23",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Julián Alvarez",
+                "teamName": "Atlético",
+                "text": "Marc Pubill"
               }
             ]
           }
