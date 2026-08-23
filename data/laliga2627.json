@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T21:05:24Z",
+  "lastUpdated": "2026-08-23T21:06:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7216,9 +7216,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-3",
+          "result": "0-4",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -7700,6 +7700,15 @@
                 "playerName": "Ezequiel Ponce",
                 "teamName": "Elche",
                 "text": "Fer Niño"
+              },
+              {
+                "id": "51374381_26",
+                "type": "GOAL",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Fermín López",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -12794,6 +12803,12 @@
     {
       "player": "Enes Ünal",
       "team": "Getafe",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Fermín López",
+      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
