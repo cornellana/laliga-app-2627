@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T20:58:46Z",
+  "lastUpdated": "2026-08-23T20:59:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7218,7 +7218,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -7635,6 +7635,51 @@
                 "minute": 45,
                 "extraTime": 3,
                 "playerName": "Karim Adeyemi",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "51373842_19",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "51373843_20",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "51373844_21",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "51373845_22",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "51373846_23",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "FC Barcelona",
                 "text": null
               }
