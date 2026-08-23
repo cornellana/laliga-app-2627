@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T15:04:49Z",
+  "lastUpdated": "2026-08-23T15:05:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6175,9 +6175,9 @@
                   "events": null
                 },
                 {
-                  "id": "74630",
-                  "jersey": 4,
-                  "name": "Rodrigo Mendoza",
+                  "id": "274911",
+                  "jersey": 23,
+                  "name": "Morten Hjulmand",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -6191,9 +6191,9 @@
                   "events": null
                 },
                 {
-                  "id": "274911",
-                  "jersey": 23,
-                  "name": "Morten Hjulmand",
+                  "id": "74630",
+                  "jersey": 4,
+                  "name": "Rodrigo Mendoza",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
