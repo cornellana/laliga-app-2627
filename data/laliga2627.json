@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T20:05:09Z",
+  "lastUpdated": "2026-08-23T20:06:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7218,7 +7218,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "33'",
+          "clock": "34'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -7609,6 +7609,15 @@
                 "extraTime": null,
                 "playerName": "Raphinha",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "51364776_6",
+                "type": "YELLOW_CARD",
+                "minute": 33,
+                "extraTime": null,
+                "playerName": "Ali Houary",
+                "teamName": "Elche",
                 "text": null
               }
             ]
