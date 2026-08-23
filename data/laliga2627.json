@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T17:48:44Z",
+  "lastUpdated": "2026-08-23T17:49:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,7 +6694,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "16'",
+          "clock": "17'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -6711,9 +6711,9 @@
                   "events": null
                 },
                 {
-                  "id": "314403",
-                  "jersey": 4,
-                  "name": "Saba Sazonov",
+                  "id": "181355",
+                  "jersey": 2,
+                  "name": "Djené",
                   "position": "CD",
                   "isStarter": true,
                   "events": null
@@ -6727,9 +6727,9 @@
                   "events": null
                 },
                 {
-                  "id": "181355",
-                  "jersey": 2,
-                  "name": "Djené",
+                  "id": "314403",
+                  "jersey": 4,
+                  "name": "Saba Sazonov",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -6743,9 +6743,9 @@
                   "events": null
                 },
                 {
-                  "id": "356080",
-                  "jersey": 21,
-                  "name": "Andrés García",
+                  "id": "309838",
+                  "jersey": 11,
+                  "name": "Ramón Terrats",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -6767,9 +6767,9 @@
                   "events": null
                 },
                 {
-                  "id": "309838",
-                  "jersey": 11,
-                  "name": "Ramón Terrats",
+                  "id": "356080",
+                  "jersey": 21,
+                  "name": "Andrés García",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
