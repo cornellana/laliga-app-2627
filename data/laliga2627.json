@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T20:20:34Z",
+  "lastUpdated": "2026-08-23T20:21:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7216,9 +7216,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "0-2",
           "state": "in",
-          "clock": "45'+3'",
+          "clock": "45'+4'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -7628,6 +7628,15 @@
                 "playerName": "Pedri",
                 "teamName": "FC Barcelona",
                 "text": "Gavi because of an injury"
+              },
+              {
+                "id": "51367470_16",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": 3,
+                "playerName": "Karim Adeyemi",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -12752,6 +12761,12 @@
     {
       "player": "Jude Bellingham",
       "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Karim Adeyemi",
+      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
