@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T19:26:40Z",
+  "lastUpdated": "2026-08-23T19:27:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,7 +6694,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+5'",
+          "clock": "90'+6'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -7186,6 +7186,15 @@
                 "playerName": "Borja Mayoral",
                 "teamName": "Getafe",
                 "text": "Martín Satriano"
+              },
+              {
+                "id": "51359596_28",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Alberto Risco",
+                "teamName": "Getafe",
+                "text": "Ramón Terrats"
               }
             ]
           }
