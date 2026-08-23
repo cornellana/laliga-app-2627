@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T17:37:42Z",
+  "lastUpdated": "2026-08-23T17:38:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,7 +6694,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "4'",
+          "clock": "5'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -6735,17 +6735,17 @@
                   "events": null
                 },
                 {
-                  "id": "356080",
-                  "jersey": 21,
-                  "name": "Andrés García",
+                  "id": "307186",
+                  "jersey": 16,
+                  "name": "Francho Serrano",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "309838",
-                  "jersey": 11,
-                  "name": "Ramón Terrats",
+                  "id": "356080",
+                  "jersey": 21,
+                  "name": "Andrés García",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -6767,9 +6767,9 @@
                   "events": null
                 },
                 {
-                  "id": "307186",
-                  "jersey": 16,
-                  "name": "Francho Serrano",
+                  "id": "309838",
+                  "jersey": 11,
+                  "name": "Ramón Terrats",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
