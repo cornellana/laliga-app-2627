@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T19:46:25Z",
+  "lastUpdated": "2026-08-23T19:47:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7218,7 +7218,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "15'",
+          "clock": "16'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -7601,7 +7601,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51362816_1",
+                "type": "PENALTY",
+                "minute": 14,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -12786,6 +12796,12 @@
       "team": "Deportivo",
       "goals": 1,
       "penalties": null
+    },
+    {
+      "player": "Raphinha",
+      "team": "FC Barcelona",
+      "goals": 1,
+      "penalties": 1
     },
     {
       "player": "Rodrigo Riquelme",
