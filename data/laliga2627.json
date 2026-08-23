@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:31:03Z",
+  "lastUpdated": "2026-08-23T16:32:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6124,9 +6124,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6563,6 +6563,15 @@
                 "playerName": "Tajon Buchanan",
                 "teamName": "Villarreal",
                 "text": "Ayoze Pérez"
+              },
+              {
+                "id": "51341839_21",
+                "type": "PENALTY",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Gerard Moreno",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
@@ -11679,6 +11688,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": null
+    },
+    {
+      "player": "Gerard Moreno",
+      "team": "Villarreal",
+      "goals": 1,
+      "penalties": 1
     },
     {
       "player": "Isaac Romero",
