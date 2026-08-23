@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T18:41:18Z",
+  "lastUpdated": "2026-08-23T18:42:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,8 +6694,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "49'",
-          "statusText": "Second Half",
+          "clock": "50'",
+          "statusText": "In Progress",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
