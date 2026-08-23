@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:36:38Z",
+  "lastUpdated": "2026-08-23T16:37:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6585,7 +6585,7 @@
               {
                 "id": "51342128_23",
                 "type": "SUBSTITUTION",
-                "minute": 67,
+                "minute": 66,
                 "extraTime": null,
                 "playerName": "Pablo Barrios",
                 "teamName": "Atlético",
@@ -6594,7 +6594,7 @@
               {
                 "id": "51341900_24",
                 "type": "SUBSTITUTION",
-                "minute": 67,
+                "minute": 66,
                 "extraTime": null,
                 "playerName": "Julián Alvarez",
                 "teamName": "Atlético",
