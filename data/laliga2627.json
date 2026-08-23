@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T19:13:19Z",
+  "lastUpdated": "2026-08-23T19:14:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6692,9 +6692,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "81'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -7140,6 +7140,15 @@
                 "extraTime": null,
                 "playerName": "Andrés Martín",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "51357175_19",
+                "type": "GOAL",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Enes Ünal",
+                "teamName": "Getafe",
                 "text": null
               }
             ]
@@ -12239,6 +12248,12 @@
     {
       "player": "Chidera Ejuke",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Enes Ünal",
+      "team": "Getafe",
       "goals": 1,
       "penalties": null
     },
