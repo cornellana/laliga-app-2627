@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:27:43Z",
+  "lastUpdated": "2026-08-23T16:28:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6548,6 +6548,15 @@
               },
               {
                 "id": "51341444_19",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Gerard Moreno",
+                "teamName": "Villarreal",
+                "text": "Alberto Moleiro"
+              },
+              {
+                "id": "51341560_20",
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
