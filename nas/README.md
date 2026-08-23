@@ -102,6 +102,23 @@ Desde el Mac: `./nas/comprobar-nas.sh` (no toca nada), `./nas/instalar.sh`
 (idempotente), `./nas/desinstalar.sh` (lo quita; con `--todo` borra también
 datos e imagen).
 
+`docker restart` basta cuando el cambio está en el repositorio, porque el
+entrypoint hace `fetch` al arrancar. Si el cambio toca el `Dockerfile` o el
+propio `entrypoint.sh`, que viajan dentro de la imagen, hay que reconstruirla.
+**Con `DOCKER_BUILDKIT=0`**: el BuildKit de Container Station falla al montar
+los datasets de las capas y ni siquiera llega a leer el `Dockerfile`:
+
+```
+failed to solve: failed to read dockerfile: error creating zfs mount:
+mount zpool1/zfs530/zfs5300002/… : no such file or directory
+```
+
+El constructor clásico usa el mismo almacenamiento y sí funciona:
+
+```bash
+ssh nas 'export DOCKER_HOST=unix:///var/run/docker.sock; export PATH=/share/ZFS530_DATA/.qpkg/container-station/bin:$PATH; export DOCKER_CONFIG=$HOME/.docker; export DOCKER_BUILDKIT=0; cd /share/Container/laliga-updater && docker build -t laliga-updater-laliga-updater . && docker compose up -d --force-recreate'
+```
+
 ## Volver atrás
 
 Si algo va mal, devolver el mando a GitHub Actions es una línea:

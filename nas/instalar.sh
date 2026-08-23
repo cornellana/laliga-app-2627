@@ -14,7 +14,11 @@
 set -euo pipefail
 NAS="${LALIGA_NAS_HOST:-nas}"
 DIR=/share/Container/laliga-updater
-DOCKER='export DOCKER_HOST=unix:///var/run/docker.sock; export PATH=/share/ZFS530_DATA/.qpkg/container-station/bin:$PATH; export DOCKER_CONFIG=$HOME/.docker; mkdir -p $DOCKER_CONFIG'
+# DOCKER_BUILDKIT=0 a propósito: el BuildKit de Container Station no consigue
+# montar los datasets que crea para las capas ("error creating zfs mount … no
+# such file or directory") y la construcción muere antes de leer el Dockerfile.
+# El constructor clásico usa el mismo almacenamiento sin ese paso y funciona.
+DOCKER='export DOCKER_HOST=unix:///var/run/docker.sock; export PATH=/share/ZFS530_DATA/.qpkg/container-station/bin:$PATH; export DOCKER_CONFIG=$HOME/.docker; export DOCKER_BUILDKIT=0; mkdir -p $DOCKER_CONFIG'
 AQUI="$(cd "$(dirname "$0")" && pwd)"
 
 echo "── 1. Comprobando el NAS ─────────────────────────────────"
