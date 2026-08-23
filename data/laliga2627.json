@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:44:21Z",
+  "lastUpdated": "2026-08-23T16:45:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6601,7 +6601,7 @@
                 "text": "Marc Pubill"
               },
               {
-                "id": "51343105_35",
+                "id": "51343105_34",
                 "type": "RED_CARD",
                 "minute": 76,
                 "extraTime": null,
