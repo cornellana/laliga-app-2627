@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T21:00:57Z",
+  "lastUpdated": "2026-08-23T21:02:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7216,9 +7216,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "0-3",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -7682,6 +7682,15 @@
                 "playerName": "Dani Olmo",
                 "teamName": "FC Barcelona",
                 "text": "Karim Adeyemi"
+              },
+              {
+                "id": "51373985_24",
+                "type": "GOAL",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -12732,6 +12741,12 @@
       "penalties": null
     },
     {
+      "player": "Raphinha",
+      "team": "FC Barcelona",
+      "goals": 2,
+      "penalties": 1
+    },
+    {
       "player": "Roberto Fernández",
       "team": "Espanyol",
       "goals": 2,
@@ -12874,12 +12889,6 @@
       "team": "Deportivo",
       "goals": 1,
       "penalties": null
-    },
-    {
-      "player": "Raphinha",
-      "team": "FC Barcelona",
-      "goals": 1,
-      "penalties": 1
     },
     {
       "player": "Rodrigo Riquelme",
