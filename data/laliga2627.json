@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T17:49:50Z",
+  "lastUpdated": "2026-08-23T17:50:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,7 +6694,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "17'",
+          "clock": "18'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -7086,6 +7086,15 @@
                 "extraTime": null,
                 "playerName": "Saba Sazonov",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "51348740_3",
+                "type": "YELLOW_CARD",
+                "minute": 16,
+                "extraTime": null,
+                "playerName": "Alvaro Mantilla",
+                "teamName": "Racing",
                 "text": null
               }
             ]
