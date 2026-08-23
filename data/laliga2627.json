@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T21:04:17Z",
+  "lastUpdated": "2026-08-23T21:05:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7218,7 +7218,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -7691,6 +7691,15 @@
                 "playerName": "Raphinha",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "51374254_25",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Ezequiel Ponce",
+                "teamName": "Elche",
+                "text": "Fer Niño"
               }
             ]
           }
