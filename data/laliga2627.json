@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:51:03Z",
+  "lastUpdated": "2026-08-23T16:52:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6124,9 +6124,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "1-2",
+          "result": "2-2",
           "state": "in",
-          "clock": "85'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6653,6 +6653,24 @@
                 "playerName": "José María Giménez",
                 "teamName": "Atlético",
                 "text": "Ademola Lookman"
+              },
+              {
+                "id": "51343972_41",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Tani Oluwaseyi",
+                "teamName": "Villarreal",
+                "text": "Santi Comesaña"
+              },
+              {
+                "id": "51343995_42",
+                "type": "GOAL",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Giuliano Simeone",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
@@ -11781,6 +11799,12 @@
       "team": "Villarreal",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Giuliano Simeone",
+      "team": "Atlético",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Isaac Romero",
