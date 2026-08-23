@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:19:55Z",
+  "lastUpdated": "2026-08-23T16:21:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6526,6 +6526,15 @@
                 "extraTime": null,
                 "playerName": "Santiago Mouriño",
                 "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "51340827_17",
+                "type": "YELLOW_CARD",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Álex Baena",
+                "teamName": "Atlético",
                 "text": null
               }
             ]
