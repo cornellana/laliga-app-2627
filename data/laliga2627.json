@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T19:23:22Z",
+  "lastUpdated": "2026-08-23T19:24:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,7 +6694,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -7177,6 +7177,15 @@
                 "playerName": "Juan Carlos Arana",
                 "teamName": "Racing",
                 "text": "Gustavo Puerta"
+              },
+              {
+                "id": "51358932_27",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Borja Mayoral",
+                "teamName": "Getafe",
+                "text": "Martín Satriano"
               }
             ]
           }
