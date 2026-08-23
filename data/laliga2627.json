@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T19:09:59Z",
+  "lastUpdated": "2026-08-23T19:11:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,7 +6694,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -7130,6 +7130,15 @@
                 "minute": 66,
                 "extraTime": null,
                 "playerName": "Manu Hernando",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "51356170_14",
+                "type": "MISSED_PENALTY",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Andrés Martín",
                 "teamName": "Racing",
                 "text": null
               }
