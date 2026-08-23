@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T17:46:31Z",
+  "lastUpdated": "2026-08-23T17:47:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,7 +6694,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "13'",
+          "clock": "15'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -7077,6 +7077,15 @@
                 "extraTime": null,
                 "playerName": "Jorge Salinas",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "51348459_2",
+                "type": "YELLOW_CARD",
+                "minute": 14,
+                "extraTime": null,
+                "playerName": "Saba Sazonov",
+                "teamName": "Getafe",
                 "text": null
               }
             ]
