@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T18:56:46Z",
+  "lastUpdated": "2026-08-23T18:57:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,7 +6694,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -7105,6 +7105,24 @@
                 "playerName": "Iván Martín",
                 "teamName": "Racing",
                 "text": "Sergio Martínez"
+              },
+              {
+                "id": "51354318_11",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": "Asier Villalibre"
+              },
+              {
+                "id": "51354319_12",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Maguette Gueye",
+                "teamName": "Racing",
+                "text": "Sergio Canales"
               }
             ]
           }
