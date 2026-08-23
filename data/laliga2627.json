@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:26:36Z",
+  "lastUpdated": "2026-08-23T16:27:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6544,6 +6544,15 @@
                 "extraTime": null,
                 "playerName": "Marc Pubill",
                 "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "51341444_19",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
