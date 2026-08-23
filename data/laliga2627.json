@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T21:13:09Z",
+  "lastUpdated": "2026-08-23T21:14:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7216,9 +7216,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-4",
+          "result": "0-5",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -7705,6 +7705,15 @@
                 "id": "51374381_26",
                 "type": "GOAL",
                 "minute": 71,
+                "extraTime": null,
+                "playerName": "Fermín López",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "51374944_31",
+                "type": "GOAL",
+                "minute": 79,
                 "extraTime": null,
                 "playerName": "Fermín López",
                 "teamName": "FC Barcelona",
@@ -12753,6 +12762,12 @@
   "standings": [],
   "topScorers": [
     {
+      "player": "Fermín López",
+      "team": "FC Barcelona",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 2,
@@ -12803,12 +12818,6 @@
     {
       "player": "Enes Ünal",
       "team": "Getafe",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Fermín López",
-      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
