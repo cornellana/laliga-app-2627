@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:34:24Z",
+  "lastUpdated": "2026-08-23T16:35:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6583,7 +6583,16 @@
                 "text": "Koke"
               },
               {
-                "id": "51341900_23",
+                "id": "51342128_23",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Pablo Barrios",
+                "teamName": "Atlético",
+                "text": "Lee Kang-In"
+              },
+              {
+                "id": "51341900_24",
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
