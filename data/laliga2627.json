@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:24:23Z",
+  "lastUpdated": "2026-08-23T16:25:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6124,9 +6124,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6534,6 +6534,15 @@
                 "minute": 54,
                 "extraTime": null,
                 "playerName": "Álex Baena",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "51341317_18",
+                "type": "GOAL",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Atlético",
                 "text": null
               }
