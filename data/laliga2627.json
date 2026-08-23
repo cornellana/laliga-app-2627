@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:25:29Z",
+  "lastUpdated": "2026-08-23T16:26:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6542,7 +6542,7 @@
                 "type": "GOAL",
                 "minute": 59,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Marc Pubill",
                 "teamName": "Atlético",
                 "text": null
               }
@@ -11689,6 +11689,12 @@
     {
       "player": "Marc Aguado",
       "team": "Elche",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Marc Pubill",
+      "team": "Atlético",
       "goals": 1,
       "penalties": null
     },
