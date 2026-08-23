@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T21:26:46Z",
+  "lastUpdated": "2026-08-23T00:07:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6253,6 +6253,22 @@
       "jornada": 1,
       "games": [
         {
+          "id": "401882924",
+          "time": "20:30",
+          "home": "Celta",
+          "away": "Osasuna",
+          "jornada": 1,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "details": null
+        },
+        {
           "id": "401882921",
           "time": "21:00",
           "home": "FC Barcelona",
@@ -6261,6 +6277,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": null
