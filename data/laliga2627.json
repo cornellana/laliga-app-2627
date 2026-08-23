@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:28:49Z",
+  "lastUpdated": "2026-08-23T16:29:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6560,9 +6560,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Tajon Buchanan",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Ayoze Pérez"
               }
             ]
           }
