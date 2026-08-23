@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:45:27Z",
+  "lastUpdated": "2026-08-23T16:46:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6610,9 +6610,9 @@
                 "text": null
               },
               {
-                "id": "51343106_36",
+                "id": "51343106_35",
                 "type": "YELLOW_CARD",
-                "minute": 77,
+                "minute": 76,
                 "extraTime": null,
                 "playerName": "Morten Hjulmand",
                 "teamName": "Atlético",
@@ -6626,6 +6626,15 @@
                 "playerName": "Georges Mikautadze",
                 "teamName": "Villarreal",
                 "text": null
+              },
+              {
+                "id": "51343291_38",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "José María Giménez",
+                "teamName": "Atlético",
+                "text": "Ademola Lookman"
               }
             ]
           }
