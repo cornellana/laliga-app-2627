@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T17:45:24Z",
+  "lastUpdated": "2026-08-23T17:46:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7069,7 +7069,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51348306_1",
+                "type": "YELLOW_CARD",
+                "minute": 12,
+                "extraTime": null,
+                "playerName": "Jorge Salinas",
+                "teamName": "Racing",
+                "text": null
+              }
+            ]
           }
         },
         {
