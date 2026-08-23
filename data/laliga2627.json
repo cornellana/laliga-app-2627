@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T18:58:58Z",
+  "lastUpdated": "2026-08-23T19:00:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,7 +6694,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -7129,7 +7129,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 66,
                 "extraTime": null,
-                "playerName": "Manu",
+                "playerName": "Manu Hernando",
                 "teamName": "Racing",
                 "text": null
               }
