@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T17:04:23Z",
+  "lastUpdated": "2026-08-23T17:05:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6123,11 +6123,11 @@
           "away": "Villarreal",
           "jornada": 2,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-2",
-          "state": "in",
-          "clock": "90'+9'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": {
