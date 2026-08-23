@@ -318,10 +318,80 @@ def build_jornada_index(data):
     index = {}
     for day in data.get("matchDays", []):
         for game in day.get("games", []):
+            # Las jornadas adivinadas no valen como fuente: si entraran aquí,
+            # la suposición quedaría grabada y el índice la daría por buena para
+            # siempre, sin que nadie volviera a avisar.
+            if game.get("jornadaEstimada"):
+                continue
             jornada = game.get("jornada")
             if jornada:
                 index[(game.get("home"), game.get("away"))] = jornada
     return index
+
+
+def build_jornada_pistas(data):
+    """Lo que se sabe del calendario para deducir una jornada que falta.
+
+    Devuelve las fechas de cada jornada y en qué jornadas juega ya cada equipo,
+    tomando solo partidos con jornada fiable.
+    """
+    fechas = {}          # jornada -> (primera fecha, última fecha)
+    por_equipo = {}      # equipo   -> {jornadas en las que ya juega}
+    for day in data.get("matchDays", []):
+        fecha = day.get("date") or ""
+        for game in day.get("games", []):
+            if game.get("jornadaEstimada"):
+                continue
+            j = game.get("jornada")
+            if not j or not fecha:
+                continue
+            desde, hasta = fechas.get(j, (fecha, fecha))
+            fechas[j] = (min(desde, fecha), max(hasta, fecha))
+            for equipo in (game.get("home"), game.get("away")):
+                por_equipo.setdefault(equipo, set()).add(j)
+    return {"fechas": fechas, "por_equipo": por_equipo}
+
+
+def deducir_jornada(home, away, fecha, pistas):
+    """Jornada más probable de un partido que no está en el calendario.
+
+    Se cruzan dos pistas. La primera: cada equipo juega una vez por jornada, así
+    que la buena está entre las que le faltan a los dos. La segunda: la fecha
+    tiene que caer dentro del rango de esa jornada o pegada a él —los rangos se
+    solapan (la 1 llegó al 27 de agosto y la 2 iba del 20 al 24), por eso una
+    sola pista no basta.
+
+    Devuelve None si no queda una única candidata, que es mejor que inventar.
+    """
+    fechas = pistas.get("fechas") or {}
+    por_equipo = pistas.get("por_equipo") or {}
+    if not fechas or not fecha:
+        return None
+
+    jugadas = por_equipo.get(home, set()) | set()
+    libres_local = set(fechas) - por_equipo.get(home, set())
+    libres_visitante = set(fechas) - por_equipo.get(away, set())
+    candidatas = libres_local & libres_visitante
+    if not candidatas:
+        return None
+
+    # Margen de tres días: una jornada puede estirarse con un partido aplazado.
+    def encaja(j):
+        desde, hasta = fechas[j]
+        return _dias_entre(desde, fecha) >= -3 and _dias_entre(fecha, hasta) >= -3
+
+    encajan = [j for j in candidatas if encaja(j)]
+    return encajan[0] if len(encajan) == 1 else None
+
+
+def _dias_entre(fecha_a, fecha_b):
+    """Días de `fecha_a` a `fecha_b`, ambas 'YYYY-MM-DD'. Negativo si va antes."""
+    try:
+        a = datetime.strptime(fecha_a, "%Y-%m-%d")
+        b = datetime.strptime(fecha_b, "%Y-%m-%d")
+    except ValueError:
+        return 0
+    return (b - a).days
 
 def load_data():
     if not os.path.exists(DATA_FILE):
@@ -378,7 +448,7 @@ def fetch_summary(event_id):
         print(f"  Error fetchando summary {event_id}: {e}")
         return None
 
-def parse_event(event, jornada_index):
+def parse_event(event, jornada_index, pistas=None):
     """Convierte un evento ESPN en un dict de partido."""
     comps = event.get("competitions", [{}])[0]
     competitors = comps.get("competitors", [])
@@ -407,13 +477,24 @@ def parse_event(event, jornada_index):
 
     # Jornada (matchweek): ESPN ya no la publica, se recupera del calendario guardado
     week = jornada_index.get((home_team, away_team))
+    estimada = False
     if week is None:
         raw_week = event.get("week")
         if isinstance(raw_week, dict):
             week = raw_week.get("number")
     if week is None:
-        week = 1
-        print(f"  ⚠️  Jornada desconocida para {home_team} vs {away_team}, usando 1")
+        # Antes se ponía 1 a ciegas, que con 38 jornadas es el peor sitio
+        # posible: el partido aparecía al principio de la temporada.
+        week = deducir_jornada(home_team, away_team, date, pistas or {})
+        estimada = week is not None
+        if estimada:
+            print(f"  ⚠️  {home_team} vs {away_team} no está en el calendario; "
+                  f"por fecha y equipos parece la jornada {week}")
+        else:
+            week = 1
+            estimada = True
+            print(f"  ⚠️  Jornada indeterminable para {home_team} vs {away_team} "
+                  f"({date}), usando 1")
 
     venue = comps.get("venue", {})
     stadium = venue.get("fullName", None)
@@ -437,6 +518,9 @@ def parse_event(event, jornada_index):
         "home":      home_team,
         "away":      away_team,
         "jornada":   week,
+        # Solo presente cuando la jornada es una suposición: así el índice no la
+        # toma por buena y el aviso vuelve a salir en cada pasada.
+        **({"jornadaEstimada": True} if estimada else {}),
         "tv":        tv,
         "done":      completed,
         # El marcador se publica también en directo, no solo al final. `done`
@@ -539,6 +623,7 @@ def parse_summary_details(summary, home, away):
 def main():
     data = load_data()
     jornada_index = build_jornada_index(data)
+    pistas = build_jornada_pistas(data)
 
     # Build lookup de partidos existentes para actualizacion incremental
     existing = {}
@@ -565,7 +650,7 @@ def main():
             if is_match_active(event, today):
                 active_matches.append(event.get("name") or event.get("id"))
             try:
-                parsed = parse_event(event, jornada_index)
+                parsed = parse_event(event, jornada_index, pistas)
             except Exception as e:
                 print(f"  ⚠️  Evento ESPN ilegible en {date_str}: {e}")
                 continue
