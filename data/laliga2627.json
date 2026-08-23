@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T19:28:53Z",
+  "lastUpdated": "2026-08-23T19:29:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6691,11 +6691,11 @@
           "away": "Racing",
           "jornada": 2,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-0",
-          "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
