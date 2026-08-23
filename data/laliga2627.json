@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T18:57:52Z",
+  "lastUpdated": "2026-08-23T18:58:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6694,7 +6694,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -7123,6 +7123,15 @@
                 "playerName": "Maguette Gueye",
                 "teamName": "Racing",
                 "text": "Sergio Canales"
+              },
+              {
+                "id": "51354518_13",
+                "type": "YELLOW_CARD",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Manu",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
