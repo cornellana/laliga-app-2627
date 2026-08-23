@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:57:43Z",
+  "lastUpdated": "2026-08-23T16:58:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6126,7 +6126,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6669,6 +6669,15 @@
                 "minute": 85,
                 "extraTime": null,
                 "playerName": "Giuliano Simeone",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "51344481_43",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "José María Giménez",
                 "teamName": "Atlético",
                 "text": null
               }
