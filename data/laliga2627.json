@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T16:43:14Z",
+  "lastUpdated": "2026-08-23T16:44:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6124,9 +6124,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -6599,6 +6599,33 @@
                 "playerName": "Julián Alvarez",
                 "teamName": "Atlético",
                 "text": "Marc Pubill"
+              },
+              {
+                "id": "51343105_35",
+                "type": "RED_CARD",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Robin Le Normand",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "51343106_36",
+                "type": "YELLOW_CARD",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Morten Hjulmand",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "51343107_37",
+                "type": "PENALTY",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Georges Mikautadze",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
@@ -11715,6 +11742,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": null
+    },
+    {
+      "player": "Georges Mikautadze",
+      "team": "Villarreal",
+      "goals": 1,
+      "penalties": 1
     },
     {
       "player": "Gerard Moreno",
