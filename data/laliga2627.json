@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T15:53:48Z",
+  "lastUpdated": "2026-08-23T16:11:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -6509,7 +6509,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51340135_14",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Álex Baena",
+                "teamName": "Atlético",
+                "text": "Rodrigo Mendoza"
+              }
+            ]
           }
         },
         {
