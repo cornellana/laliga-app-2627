@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T19:34:20Z",
+  "lastUpdated": "2026-08-23T19:35:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7218,7 +7218,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -7424,9 +7424,9 @@
                   "events": null
                 },
                 {
-                  "id": "128714",
-                  "jersey": 24,
-                  "name": "Eric García",
+                  "id": "312015",
+                  "jersey": 18,
+                  "name": "Gerard Martín",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
@@ -7440,17 +7440,17 @@
                   "events": null
                 },
                 {
-                  "id": "312015",
-                  "jersey": 18,
-                  "name": "Gerard Martín",
+                  "id": "403582",
+                  "jersey": 36,
+                  "name": "Xavi Espart",
                   "position": "LB",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "403582",
-                  "jersey": 36,
-                  "name": "Xavi Espart",
+                  "id": "128714",
+                  "jersey": 24,
+                  "name": "Eric García",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
@@ -7464,26 +7464,18 @@
                   "events": null
                 },
                 {
-                  "id": "376423",
-                  "jersey": 22,
-                  "name": "Marc Bernal",
+                  "id": "323702",
+                  "jersey": 6,
+                  "name": "Gavi",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "323702",
-                  "jersey": 6,
-                  "name": "Gavi",
+                  "id": "376423",
+                  "jersey": 22,
+                  "name": "Marc Bernal",
                   "position": "RM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "274913",
-                  "jersey": 14,
-                  "name": "Karim Adeyemi",
-                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
@@ -7491,6 +7483,14 @@
                   "id": "231050",
                   "jersey": 11,
                   "name": "Raphinha",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "274913",
+                  "jersey": 14,
+                  "name": "Karim Adeyemi",
                   "position": "AM-L",
                   "isStarter": true,
                   "events": null
