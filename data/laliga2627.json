@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:58:39Z",
+  "lastUpdated": "2026-08-24T19:59:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "27'",
+          "clock": "28'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8660,7 +8660,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 25,
                 "extraTime": null,
-                "playerName": "Mario Soriano Carreno",
+                "playerName": "Mario Soriano",
                 "teamName": "Deportivo",
                 "text": null
               }
