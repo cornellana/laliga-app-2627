@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T20:47:07Z",
+  "lastUpdated": "2026-08-24T20:48:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8678,8 +8678,17 @@
                 "type": "SUBSTITUTION",
                 "minute": 56,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "David Larrubia",
                 "teamName": "Málaga",
+                "text": "Juan Cruz"
+              },
+              {
+                "id": "51407500_7",
+                "type": "YELLOW_CARD",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Giacomo Quagliata",
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
