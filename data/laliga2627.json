@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:07:55Z",
+  "lastUpdated": "2026-08-24T19:09:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -8173,18 +8173,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 78,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Víctor García",
                 "teamName": "Levante",
-                "text": null
+                "text": "Thiago Fernández"
               },
               {
                 "id": "51402874_7",
                 "type": "SUBSTITUTION",
                 "minute": 78,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jeremy Toljan",
                 "teamName": "Levante",
-                "text": null
+                "text": "Nacho Pérez"
               }
             ]
           }
