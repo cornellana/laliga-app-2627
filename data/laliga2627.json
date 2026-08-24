@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:23:41Z",
+  "lastUpdated": "2026-08-24T21:24:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8259,11 +8259,11 @@
           "away": "Deportivo",
           "jornada": 2,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-1",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
