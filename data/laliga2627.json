@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:11:15Z",
+  "lastUpdated": "2026-08-24T19:12:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -8200,9 +8200,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 81,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Lucas Torró",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Iñigo Arguibide"
               }
             ]
           }
