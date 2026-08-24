@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:17:01Z",
+  "lastUpdated": "2026-08-24T21:18:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8780,6 +8780,15 @@
                 "playerName": "Julen Lobete",
                 "teamName": "Málaga",
                 "text": "Izan Merino"
+              },
+              {
+                "id": "51408482_18",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Ramón Enríquez",
+                "teamName": "Málaga",
+                "text": "Dani Lorenzo"
               }
             ]
           }
