@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:15:55Z",
+  "lastUpdated": "2026-08-24T21:17:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8768,18 +8768,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 85,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Bil Nsongo",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Mario Soriano because of an injury"
               },
               {
                 "id": "51408470_17",
                 "type": "SUBSTITUTION",
                 "minute": 85,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Julen Lobete",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Izan Merino"
               }
             ]
           }
