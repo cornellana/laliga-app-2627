@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:10:09Z",
+  "lastUpdated": "2026-08-24T19:11:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -8194,6 +8194,15 @@
                 "playerName": "Jonathan Dubasin",
                 "teamName": "Osasuna",
                 "text": "Ante Budimir"
+              },
+              {
+                "id": "51403019_9",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
