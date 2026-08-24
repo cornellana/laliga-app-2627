@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T21:28:42Z",
+  "lastUpdated": "2026-08-24T00:09:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7884,6 +7884,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": null
@@ -7897,6 +7900,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": null
