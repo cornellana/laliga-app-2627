@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:53:07Z",
+  "lastUpdated": "2026-08-24T19:54:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8260,9 +8260,9 @@
           "jornada": 2,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "22'",
+          "clock": "23'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8645,7 +8645,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51405155_1",
+                "type": "GOAL",
+                "minute": 21,
+                "extraTime": null,
+                "playerName": "Pierre-Emerick Aubameyang",
+                "teamName": "Deportivo",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -13668,6 +13678,12 @@
       "penalties": null
     },
     {
+      "player": "Pierre-Emerick Aubameyang",
+      "team": "Deportivo",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Raphinha",
       "team": "FC Barcelona",
       "goals": 2,
@@ -13810,12 +13826,6 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "Pierre-Emerick Aubameyang",
-      "team": "Deportivo",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Rodrigo Riquelme",
