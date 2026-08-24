@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T18:09:23Z",
+  "lastUpdated": "2026-08-24T18:10:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "38'",
+          "clock": "39'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -8140,7 +8140,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51401475_1",
+                "type": "YELLOW_CARD",
+                "minute": 38,
+                "extraTime": null,
+                "playerName": "Iván Romero",
+                "teamName": "Levante",
+                "text": null
+              }
+            ]
           }
         },
         {
