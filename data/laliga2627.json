@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:03:43Z",
+  "lastUpdated": "2026-08-24T21:04:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8717,6 +8717,42 @@
                 "playerName": "Diego Villares",
                 "teamName": "Deportivo",
                 "text": "Jonathan Asp Jensen"
+              },
+              {
+                "id": "51408139_11",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Haitam Abaida",
+                "teamName": "Málaga",
+                "text": "Joaquín Muñoz"
+              },
+              {
+                "id": "51408140_12",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Rafa Rodríguez",
+                "teamName": "Málaga",
+                "text": "Carlos Dotor"
+              },
+              {
+                "id": "51408199_13",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51408200_14",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
