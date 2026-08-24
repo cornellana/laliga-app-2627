@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T20:44:53Z",
+  "lastUpdated": "2026-08-24T20:46:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,13 +8262,13 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "55'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
             "homeLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "240624",
