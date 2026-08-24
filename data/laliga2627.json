@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:19:05Z",
+  "lastUpdated": "2026-08-24T19:20:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -8223,13 +8223,31 @@
                 "text": null
               },
               {
-                "id": "51403410_12",
+                "id": "51403431_12",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Karl Etta Eyong",
+                "teamName": "Levante",
+                "text": "Iván Romero"
+              },
+              {
+                "id": "51403410_13",
                 "type": "SUBSTITUTION",
                 "minute": 90,
                 "extraTime": null,
                 "playerName": "Hugo Sotelo",
                 "teamName": "Levante",
                 "text": "Oriol Rey"
+              },
+              {
+                "id": "51403457_14",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Sergio Herrera",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
