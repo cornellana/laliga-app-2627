@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:17:58Z",
+  "lastUpdated": "2026-08-24T19:19:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -8212,6 +8212,24 @@
                 "playerName": "Kike Barja",
                 "teamName": "Osasuna",
                 "text": "Moi Gómez"
+              },
+              {
+                "id": "51403386_11",
+                "type": "YELLOW_CARD",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Kike Barja",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "51403410_12",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Hugo Sotelo",
+                "teamName": "Levante",
+                "text": "Oriol Rey"
               }
             ]
           }
