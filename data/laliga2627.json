@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T20:06:27Z",
+  "lastUpdated": "2026-08-24T20:07:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "35'",
+          "clock": "36'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8662,6 +8662,15 @@
                 "extraTime": null,
                 "playerName": "Mario Soriano",
                 "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51405617_3",
+                "type": "PENALTY",
+                "minute": 34,
+                "extraTime": null,
+                "playerName": "Chupe",
+                "teamName": "Málaga",
                 "text": null
               }
             ]
@@ -13733,6 +13742,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": null
+    },
+    {
+      "player": "Chupe",
+      "team": "Málaga",
+      "goals": 1,
+      "penalties": 1
     },
     {
       "player": "Enes Ünal",
