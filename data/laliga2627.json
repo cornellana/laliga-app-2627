@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:06:48Z",
+  "lastUpdated": "2026-08-24T19:07:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -8167,6 +8167,24 @@
                 "playerName": "Raúl García",
                 "teamName": "Osasuna",
                 "text": "Aimar Oroz"
+              },
+              {
+                "id": "51402873_6",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "51402874_7",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
