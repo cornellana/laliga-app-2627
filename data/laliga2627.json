@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:14:36Z",
+  "lastUpdated": "2026-08-24T19:15:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -8203,6 +8203,15 @@
                 "playerName": "Lucas Torró",
                 "teamName": "Osasuna",
                 "text": "Iñigo Arguibide"
+              },
+              {
+                "id": "51403264_10",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Kike Barja",
+                "teamName": "Osasuna",
+                "text": "Moi Gómez"
               }
             ]
           }
