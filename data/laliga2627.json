@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T20:51:31Z",
+  "lastUpdated": "2026-08-24T20:52:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8688,6 +8688,33 @@
                 "minute": 57,
                 "extraTime": null,
                 "playerName": "Giacomo Quagliata",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51407773_8",
+                "type": "YELLOW_CARD",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "David Larrubia",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "51407780_9",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51407781_10",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Deportivo",
                 "text": null
               }
