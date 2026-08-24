@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:01:11Z",
+  "lastUpdated": "2026-08-24T19:02:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "In Progress",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -8158,6 +8158,15 @@
                 "playerName": "Raúl Moro",
                 "teamName": "Osasuna",
                 "text": "Rubén García"
+              },
+              {
+                "id": "51402604_5",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Raúl García",
+                "teamName": "Osasuna",
+                "text": "Aimar Oroz"
               }
             ]
           }
