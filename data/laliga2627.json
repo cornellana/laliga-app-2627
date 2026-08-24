@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:57:33Z",
+  "lastUpdated": "2026-08-24T19:58:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8652,6 +8652,15 @@
                 "minute": 21,
                 "extraTime": null,
                 "playerName": "Pierre-Emerick Aubameyang",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51405312_2",
+                "type": "YELLOW_CARD",
+                "minute": 25,
+                "extraTime": null,
+                "playerName": "Mario Soriano Carreno",
                 "teamName": "Deportivo",
                 "text": null
               }
