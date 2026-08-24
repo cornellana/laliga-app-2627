@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T18:41:10Z",
+  "lastUpdated": "2026-08-24T18:42:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "53'",
+          "clock": "54'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -8011,17 +8011,17 @@
                   "events": null
                 },
                 {
-                  "id": "267591",
-                  "jersey": 7,
-                  "name": "Roger Brugué",
+                  "id": "317784",
+                  "jersey": 8,
+                  "name": "Jon Ander Olasagasti",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "317784",
-                  "jersey": 8,
-                  "name": "Jon Ander Olasagasti",
+                  "id": "334794",
+                  "jersey": 18,
+                  "name": "Enzo Bardeli",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -8035,9 +8035,9 @@
                   "events": null
                 },
                 {
-                  "id": "334794",
-                  "jersey": 18,
-                  "name": "Enzo Bardeli",
+                  "id": "267591",
+                  "jersey": 7,
+                  "name": "Roger Brugué",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
