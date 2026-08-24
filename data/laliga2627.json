@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T20:46:00Z",
+  "lastUpdated": "2026-08-24T20:47:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8295,6 +8295,14 @@
                   "events": null
                 },
                 {
+                  "id": "371564",
+                  "jersey": 23,
+                  "name": "Izan Merino",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "376166",
                   "jersey": 31,
                   "name": "Rafa Garrido",
@@ -8311,25 +8319,33 @@
                   "events": null
                 },
                 {
-                  "id": "324098",
-                  "jersey": 8,
-                  "name": "Carlos Dotor",
-                  "position": "AM",
+                  "id": "331533",
+                  "jersey": 22,
+                  "name": "Daniel Lorenzo",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "371564",
-                  "jersey": 23,
-                  "name": "Izan Merino",
+                  "id": "324098",
+                  "jersey": 8,
+                  "name": "Carlos Dotor",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "180444",
+                  "jersey": 11,
+                  "name": "Joaquín Muñoz",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "331533",
-                  "jersey": 22,
-                  "name": "Daniel Lorenzo",
+                  "id": "145565",
+                  "jersey": 19,
+                  "name": "Juan Cruz",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -8339,22 +8355,6 @@
                   "jersey": 9,
                   "name": "Chupete",
                   "position": "F",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "180444",
-                  "jersey": 11,
-                  "name": "Joaquín Muñoz",
-                  "position": "AM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "145565",
-                  "jersey": 19,
-                  "name": "Juan Cruz",
-                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -8670,6 +8670,15 @@
                 "minute": 34,
                 "extraTime": null,
                 "playerName": "Chupe",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "51407499_6",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Málaga",
                 "text": null
               }
