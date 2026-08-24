@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T18:40:03Z",
+  "lastUpdated": "2026-08-24T18:41:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "52'",
+          "clock": "53'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -7960,7 +7960,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-3-3",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "141438",
@@ -7987,6 +7987,14 @@
                   "events": null
                 },
                 {
+                  "id": "269339",
+                  "jersey": 20,
+                  "name": "Orio Rey",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "300985",
                   "jersey": 23,
                   "name": "Manu Sánchez",
@@ -8003,10 +8011,10 @@
                   "events": null
                 },
                 {
-                  "id": "269339",
-                  "jersey": 20,
-                  "name": "Orio Rey",
-                  "position": "CM",
+                  "id": "267591",
+                  "jersey": 7,
+                  "name": "Roger Brugué",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -8014,6 +8022,14 @@
                   "id": "317784",
                   "jersey": 8,
                   "name": "Jon Ander Olasagasti",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "339195",
+                  "jersey": 24,
+                  "name": "Thiago Fernández",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -8031,22 +8047,6 @@
                   "jersey": 9,
                   "name": "Iván Romero",
                   "position": "F",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "339195",
-                  "jersey": 24,
-                  "name": "Thiago Fernández",
-                  "position": "LF",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "267591",
-                  "jersey": 7,
-                  "name": "Roger Brugué",
-                  "position": "RF",
                   "isStarter": true,
                   "events": null
                 },
