@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T20:00:54Z",
+  "lastUpdated": "2026-08-24T20:02:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "29'",
+          "clock": "30'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8457,7 +8457,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "300926",
@@ -8500,10 +8500,10 @@
                   "events": null
                 },
                 {
-                  "id": "356639",
-                  "jersey": 16,
-                  "name": "Lorenzo Amatucci",
-                  "position": "CM-L",
+                  "id": "324166",
+                  "jersey": 19,
+                  "name": "Luis Cruz",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -8511,22 +8511,14 @@
                   "id": "297353",
                   "jersey": 21,
                   "name": "Mario Soriano Carreno",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "384414",
-                  "jersey": 18,
-                  "name": "Jonathan Asp Jensen",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "308006",
-                  "jersey": 2,
-                  "name": "Adrià Altimira",
+                  "id": "356639",
+                  "jersey": 16,
+                  "name": "Lorenzo Amatucci",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -8535,15 +8527,23 @@
                   "id": "122260",
                   "jersey": 7,
                   "name": "Pierre-Emerick Aubameyang",
-                  "position": "CF-L",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "324166",
-                  "jersey": 19,
-                  "name": "Luis Cruz",
-                  "position": "CF-R",
+                  "id": "384414",
+                  "jersey": 18,
+                  "name": "Jonathan Asp Jensen",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "308006",
+                  "jersey": 2,
+                  "name": "Adrià Altimira",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
