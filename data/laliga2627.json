@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T17:50:26Z",
+  "lastUpdated": "2026-08-24T17:51:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "19'",
+          "clock": "21'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -7830,9 +7830,9 @@
                   "events": null
                 },
                 {
-                  "id": "288760",
-                  "jersey": 10,
-                  "name": "Aimar Oroz",
+                  "id": "169089",
+                  "jersey": 16,
+                  "name": "Moi Gómez",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -7846,9 +7846,9 @@
                   "events": null
                 },
                 {
-                  "id": "169089",
-                  "jersey": 16,
-                  "name": "Moi Gómez",
+                  "id": "288760",
+                  "jersey": 10,
+                  "name": "Aimar Oroz",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
