@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:14:48Z",
+  "lastUpdated": "2026-08-24T21:15:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8761,6 +8761,24 @@
                 "extraTime": null,
                 "playerName": "Ximo Navarro",
                 "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51408469_16",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51408470_17",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
                 "text": null
               }
             ]
