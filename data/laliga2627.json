@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:04:49Z",
+  "lastUpdated": "2026-08-24T21:05:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8741,18 +8741,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 73,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Yeremay Hernández",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Luismi Cruz"
               },
               {
                 "id": "51408200_14",
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Bright Ede",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Miguel Loureiro"
               }
             ]
           }
