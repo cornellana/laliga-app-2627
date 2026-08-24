@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:09:02Z",
+  "lastUpdated": "2026-08-24T19:10:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -7765,7 +7765,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -8185,6 +8185,15 @@
                 "playerName": "Jeremy Toljan",
                 "teamName": "Levante",
                 "text": "Nacho Pérez"
+              },
+              {
+                "id": "51402963_8",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Jonathan Dubasin",
+                "teamName": "Osasuna",
+                "text": "Ante Budimir"
               }
             ]
           }
