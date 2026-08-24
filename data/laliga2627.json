@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T20:52:38Z",
+  "lastUpdated": "2026-08-24T20:53:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8262,7 +8262,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -8705,18 +8705,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "David Mella",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Adrià Alti"
               },
               {
                 "id": "51407781_10",
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Diego Villares",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Jonathan Asp Jensen"
               }
             ]
           }
