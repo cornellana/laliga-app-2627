@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T20:58:35Z",
+  "lastUpdated": "2026-08-25T20:59:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8815,11 +8815,11 @@
           "away": "Betis",
           "jornada": 1,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-1",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
