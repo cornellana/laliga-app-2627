@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:24:48Z",
+  "lastUpdated": "2026-08-25T00:05:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8937,6 +8937,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": null
@@ -8950,6 +8953,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": null
@@ -8963,6 +8969,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": null
