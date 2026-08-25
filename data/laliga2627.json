@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T20:41:48Z",
+  "lastUpdated": "2026-08-25T20:42:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,7 +8818,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -9282,6 +9282,15 @@
                 "playerName": "Troy Parrott",
                 "teamName": "Betis",
                 "text": "Cucho Hernández"
+              },
+              {
+                "id": "51449444_18",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
