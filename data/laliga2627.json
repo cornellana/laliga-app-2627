@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T20:19:36Z",
+  "lastUpdated": "2026-08-25T20:20:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,8 +8818,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "57'",
-          "statusText": "In Progress",
+          "clock": "58'",
+          "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -9228,6 +9228,24 @@
                 "playerName": "Luis Rioja",
                 "teamName": "Valencia",
                 "text": "Pablo Maffeo"
+              },
+              {
+                "id": "51443731_10",
+                "type": "SUBSTITUTION",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": "Filip Ugrinic",
+                "teamName": "Valencia",
+                "text": "Arnaut Danjuma"
+              },
+              {
+                "id": "51443732_11",
+                "type": "SUBSTITUTION",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": "Umar Sadiq",
+                "teamName": "Valencia",
+                "text": "Hugo Duro"
               }
             ]
           }
