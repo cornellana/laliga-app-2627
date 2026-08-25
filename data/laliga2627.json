@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T20:50:50Z",
+  "lastUpdated": "2026-08-25T20:51:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,7 +8818,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -9300,6 +9300,24 @@
                 "playerName": "Pablo García",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "51450091_22",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "David Otorbi",
+                "teamName": "Valencia",
+                "text": "Pepelu"
+              },
+              {
+                "id": "51450092_23",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Aliou Dieng",
+                "teamName": "Valencia",
+                "text": "Guido Rodríguez"
               }
             ]
           }
