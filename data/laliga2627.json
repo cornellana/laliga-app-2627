@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T20:32:56Z",
+  "lastUpdated": "2026-08-25T20:34:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,7 +8818,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -9264,6 +9264,24 @@
                 "playerName": "Fran García",
                 "teamName": "Betis",
                 "text": "Junior Firpo"
+              },
+              {
+                "id": "51447764_14",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "51447765_15",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
