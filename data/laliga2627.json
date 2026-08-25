@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T20:53:02Z",
+  "lastUpdated": "2026-08-25T20:54:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,7 +8818,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -9322,7 +9322,7 @@
               {
                 "id": "51450161_26",
                 "type": "YELLOW_CARD",
-                "minute": 90,
+                "minute": 89,
                 "extraTime": null,
                 "playerName": "Mouctar Diakhaby",
                 "teamName": "Valencia",
