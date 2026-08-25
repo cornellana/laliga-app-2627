@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T19:11:17Z",
+  "lastUpdated": "2026-08-25T19:12:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,13 +8818,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
             "homeLineup": {
-              "formation": "5-3-2",
+              "formation": "5-4-1",
               "players": [
                 {
                   "id": "165334",
@@ -8878,7 +8878,7 @@
                   "id": "212185",
                   "jersey": 2,
                   "name": "Guido Rodríguez",
-                  "position": "CM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -8886,14 +8886,6 @@
                   "id": "16340",
                   "jersey": 8,
                   "name": "Javi Guerra",
-                  "position": "CM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "360096",
-                  "jersey": 39,
-                  "name": "Ryunosuke Sato",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -8902,7 +8894,15 @@
                   "id": "231618",
                   "jersey": 7,
                   "name": "Arnaut Danjuma",
-                  "position": "CF-L",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "360096",
+                  "jersey": 39,
+                  "name": "Ryunosuke Sato",
+                  "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
@@ -8910,7 +8910,7 @@
                   "id": "267477",
                   "jersey": 9,
                   "name": "Hugo Duro",
-                  "position": "CF-R",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
