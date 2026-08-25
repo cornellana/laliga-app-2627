@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T20:17:22Z",
+  "lastUpdated": "2026-08-25T20:18:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,7 +8818,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "55'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -9219,6 +9219,15 @@
                 "playerName": "Junior Firpo",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "51443387_9",
+                "type": "SUBSTITUTION",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": "Luis Rioja",
+                "teamName": "Valencia",
+                "text": "Pablo Maffeo"
               }
             ]
           }
