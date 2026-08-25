@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T19:52:15Z",
+  "lastUpdated": "2026-08-25T19:56:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9064,17 +9064,17 @@
                   "events": null
                 },
                 {
-                  "id": "359912",
-                  "jersey": 6,
-                  "name": "Facundo Bernal",
+                  "id": "227714",
+                  "jersey": 8,
+                  "name": "Pablo Fornals",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "227714",
-                  "jersey": 8,
-                  "name": "Pablo Fornals",
+                  "id": "359912",
+                  "jersey": 6,
+                  "name": "Facundo Bernal",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
