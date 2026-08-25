@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T20:46:15Z",
+  "lastUpdated": "2026-08-25T20:47:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,7 +8818,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -9297,7 +9297,7 @@
                 "type": "GOAL",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo García",
                 "teamName": "Betis",
                 "text": null
               }
@@ -14451,6 +14451,12 @@
     {
       "player": "Oso",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Pablo García",
+      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
