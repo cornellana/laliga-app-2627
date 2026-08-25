@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T19:27:50Z",
+  "lastUpdated": "2026-08-25T19:28:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,7 +8818,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -9201,7 +9201,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51433358_1",
+                "type": "YELLOW_CARD",
+                "minute": 26,
+                "extraTime": null,
+                "playerName": "Ryunosuke Sato",
+                "teamName": "Valencia",
+                "text": null
+              }
+            ]
           }
         }
       ]
