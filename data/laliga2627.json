@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T20:24:01Z",
+  "lastUpdated": "2026-08-25T20:25:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,7 +8818,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -9246,6 +9246,24 @@
                 "playerName": "Umar Sadiq",
                 "teamName": "Valencia",
                 "text": "Hugo Duro"
+              },
+              {
+                "id": "51444693_12",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Isco",
+                "teamName": "Betis",
+                "text": "Rodrigo Riquelme"
+              },
+              {
+                "id": "51444901_13",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Fran García",
+                "teamName": "Betis",
+                "text": "Junior Firpo"
               }
             ]
           }
