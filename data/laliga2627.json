@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T19:45:34Z",
+  "lastUpdated": "2026-08-25T19:46:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,7 +8818,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "44'",
+          "clock": "45'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -9209,6 +9209,15 @@
                 "extraTime": null,
                 "playerName": "Ryunosuke Sato",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "51436095_6",
+                "type": "YELLOW_CARD",
+                "minute": 42,
+                "extraTime": null,
+                "playerName": "Junior Firpo",
+                "teamName": "Betis",
                 "text": null
               }
             ]
