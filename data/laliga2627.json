@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T19:26:43Z",
+  "lastUpdated": "2026-08-25T19:27:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -8818,7 +8818,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -8875,17 +8875,17 @@
                   "events": null
                 },
                 {
-                  "id": "212185",
-                  "jersey": 2,
-                  "name": "Guido Rodríguez",
+                  "id": "16340",
+                  "jersey": 8,
+                  "name": "Javi Guerra",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "16340",
-                  "jersey": 8,
-                  "name": "Javi Guerra",
+                  "id": "212185",
+                  "jersey": 2,
+                  "name": "Guido Rodríguez",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
