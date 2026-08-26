@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T19:48:14Z",
+  "lastUpdated": "2026-08-26T19:49:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9345,9 +9345,9 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "In Progress",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9756,6 +9756,15 @@
                 "extraTime": null,
                 "playerName": "Kylian Mbappé",
                 "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51469662_4",
+                "type": "GOAL",
+                "minute": 44,
+                "extraTime": null,
+                "playerName": "Luka Sucic",
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
@@ -14865,6 +14874,12 @@
     {
       "player": "Lee Kang-In",
       "team": "Atlético",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Luka Sucic",
+      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
