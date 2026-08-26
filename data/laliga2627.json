@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T19:13:59Z",
+  "lastUpdated": "2026-08-26T19:15:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9347,7 +9347,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9730,7 +9730,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51465159_1",
+                "type": "YELLOW_CARD",
+                "minute": 10,
+                "extraTime": null,
+                "playerName": "Álvaro Carreras",
+                "teamName": "Real Madrid",
+                "text": null
+              }
+            ]
           }
         }
       ]
