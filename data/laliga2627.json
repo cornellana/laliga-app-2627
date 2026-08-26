@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T19:36:04Z",
+  "lastUpdated": "2026-08-26T19:37:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9347,7 +9347,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "32'",
+          "clock": "33'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9738,6 +9738,15 @@
                 "extraTime": null,
                 "playerName": "Álvaro Carreras",
                 "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51468311_2",
+                "type": "YELLOW_CARD",
+                "minute": 31,
+                "extraTime": null,
+                "playerName": "Yangel Herrera",
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
