@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:35:41Z",
+  "lastUpdated": "2026-08-26T20:36:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9347,7 +9347,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9837,6 +9837,15 @@
                 "extraTime": null,
                 "playerName": "Vinícius Júnior",
                 "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51474485_15",
+                "type": "YELLOW_CARD",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Luken Beitia",
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
