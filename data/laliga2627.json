@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:22:23Z",
+  "lastUpdated": "2026-08-26T20:23:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9347,7 +9347,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9793,6 +9793,15 @@
                 "playerName": "Igor Zubeldia",
                 "teamName": "R. Sociedad",
                 "text": "Jon Aramburu"
+              },
+              {
+                "id": "51472867_10",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Orri Óskarsson",
+                "teamName": "R. Sociedad",
+                "text": "Mikel Oyarzabal"
               }
             ]
           }
