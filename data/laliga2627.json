@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:50:08Z",
+  "lastUpdated": "2026-08-26T20:51:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9347,7 +9347,7 @@
           "done": false,
           "result": "4-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9907,9 +9907,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Carlos Espí",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Bernardo Silva"
               }
             ]
           }
