@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:31:14Z",
+  "lastUpdated": "2026-08-26T20:32:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9345,9 +9345,9 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "3-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9820,6 +9820,24 @@
                 "playerName": "Ander Barrenetxea",
                 "teamName": "R. Sociedad",
                 "text": "Job Ochieng"
+              },
+              {
+                "id": "51473987_13",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Carlos Soler",
+                "teamName": "R. Sociedad",
+                "text": "Yangel Herrera"
+              },
+              {
+                "id": "51473994_14",
+                "type": "GOAL",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Vinícius Júnior",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -15012,6 +15030,12 @@
     {
       "player": "Tyrhys Dolan",
       "team": "Espanyol",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Vinícius Júnior",
+      "team": "Real Madrid",
       "goals": 1,
       "penalties": null
     },
