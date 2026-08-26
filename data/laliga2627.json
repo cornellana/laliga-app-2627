@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:02:32Z",
+  "lastUpdated": "2026-08-26T20:09:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9775,6 +9775,15 @@
                 "playerName": "Jon Aramburu",
                 "teamName": "R. Sociedad",
                 "text": null
+              },
+              {
+                "id": "51470911_7",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Marc Cucurella",
+                "teamName": "Real Madrid",
+                "text": "Álvaro Carreras"
               }
             ]
           }
