@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:53:28Z",
+  "lastUpdated": "2026-08-26T20:54:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9345,9 +9345,9 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": "4-1",
+          "result": "5-1",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9910,6 +9910,15 @@
                 "playerName": "Carlos Espí",
                 "teamName": "Real Madrid",
                 "text": "Bernardo Silva"
+              },
+              {
+                "id": "51476091_23",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Brahim Díaz",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -14942,6 +14951,12 @@
       "team": "Racing",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Brahim Díaz",
+      "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Cala",
