@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:36:48Z",
+  "lastUpdated": "2026-08-26T20:37:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9347,7 +9347,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "73'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9846,6 +9846,15 @@
                 "extraTime": null,
                 "playerName": "Luken Beitia",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51474607_16",
+                "type": "YELLOW_CARD",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Ibrahima Konaté",
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
