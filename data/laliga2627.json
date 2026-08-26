@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:39:01Z",
+  "lastUpdated": "2026-08-26T20:40:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9347,7 +9347,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9862,9 +9862,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gonçalo Guedes",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Takefusa Kubo"
               }
             ]
           }
