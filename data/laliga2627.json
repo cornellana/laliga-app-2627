@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T20:59:42Z",
+  "lastUpdated": "2026-08-26T00:01:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9498,6 +9498,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": null
@@ -9511,6 +9514,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": null
@@ -9524,6 +9530,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": null
