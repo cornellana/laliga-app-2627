@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:57:54Z",
+  "lastUpdated": "2026-08-26T20:59:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9344,11 +9344,11 @@
           "away": "R. Sociedad",
           "jornada": 1,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "4-1",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -9910,6 +9910,15 @@
                 "playerName": "Carlos Espí",
                 "teamName": "Real Madrid",
                 "text": "Bernardo Silva"
+              },
+              {
+                "id": "51476167_25",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Eduardo Camavinga",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
