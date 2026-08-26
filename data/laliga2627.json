@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:20:10Z",
+  "lastUpdated": "2026-08-26T20:21:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9347,7 +9347,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9784,6 +9784,15 @@
                 "playerName": "Marc Cucurella",
                 "teamName": "Real Madrid",
                 "text": "Álvaro Carreras"
+              },
+              {
+                "id": "51472671_9",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Igor Zubeldia",
+                "teamName": "R. Sociedad",
+                "text": "Jon Aramburu"
               }
             ]
           }
