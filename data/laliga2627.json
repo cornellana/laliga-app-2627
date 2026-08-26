@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T19:50:25Z",
+  "lastUpdated": "2026-08-26T19:51:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9347,8 +9347,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "45'+2'",
-          "statusText": "First Half",
+          "clock": "45'+3'",
+          "statusText": "Halftime",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -9764,6 +9764,15 @@
                 "minute": 44,
                 "extraTime": null,
                 "playerName": "Luka Sucic",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51469787_5",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Jon Aramburu",
                 "teamName": "R. Sociedad",
                 "text": null
               }
