@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:42:22Z",
+  "lastUpdated": "2026-08-26T20:43:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9347,7 +9347,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9865,6 +9865,24 @@
                 "playerName": "Gonçalo Guedes",
                 "teamName": "R. Sociedad",
                 "text": "Takefusa Kubo"
+              },
+              {
+                "id": "51475147_18",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Eduardo Camavinga",
+                "teamName": "Real Madrid",
+                "text": "Jude Bellingham"
+              },
+              {
+                "id": "51475148_19",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Brahim Díaz",
+                "teamName": "Real Madrid",
+                "text": "Arda Güler"
               }
             ]
           }
