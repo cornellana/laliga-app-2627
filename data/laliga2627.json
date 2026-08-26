@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T19:51:32Z",
+  "lastUpdated": "2026-08-26T20:02:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9404,17 +9404,17 @@
                   "events": null
                 },
                 {
-                  "id": "235818",
-                  "jersey": 8,
-                  "name": "Federico Valverde",
+                  "id": "199833",
+                  "jersey": 20,
+                  "name": "Bernardo Silva",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "199833",
-                  "jersey": 20,
-                  "name": "Bernardo Silva",
+                  "id": "235818",
+                  "jersey": 8,
+                  "name": "Federico Valverde",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
