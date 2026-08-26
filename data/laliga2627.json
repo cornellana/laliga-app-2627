@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:23:28Z",
+  "lastUpdated": "2026-08-26T20:24:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9345,9 +9345,9 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "2-1",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9802,6 +9802,15 @@
                 "playerName": "Orri Óskarsson",
                 "teamName": "R. Sociedad",
                 "text": "Mikel Oyarzabal"
+              },
+              {
+                "id": "51472996_11",
+                "type": "GOAL",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -14794,6 +14803,12 @@
       "penalties": null
     },
     {
+      "player": "Kylian Mbappé",
+      "team": "Real Madrid",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 2,
@@ -14898,12 +14913,6 @@
     {
       "player": "Karim Adeyemi",
       "team": "FC Barcelona",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "Real Madrid",
       "goals": 1,
       "penalties": null
     },
