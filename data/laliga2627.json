@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:43:29Z",
+  "lastUpdated": "2026-08-26T20:44:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9345,9 +9345,9 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": "3-1",
+          "result": "4-1",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9883,6 +9883,15 @@
                 "playerName": "Brahim Díaz",
                 "teamName": "Real Madrid",
                 "text": "Arda Güler"
+              },
+              {
+                "id": "51475306_20",
+                "type": "GOAL",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -14869,14 +14878,14 @@
   "standings": [],
   "topScorers": [
     {
-      "player": "Fermín López",
-      "team": "FC Barcelona",
-      "goals": 2,
+      "player": "Kylian Mbappé",
+      "team": "Real Madrid",
+      "goals": 3,
       "penalties": null
     },
     {
-      "player": "Kylian Mbappé",
-      "team": "Real Madrid",
+      "player": "Fermín López",
+      "team": "FC Barcelona",
       "goals": 2,
       "penalties": null
     },
