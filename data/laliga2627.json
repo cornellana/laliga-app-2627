@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T19:43:49Z",
+  "lastUpdated": "2026-08-26T19:44:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9345,9 +9345,9 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -9747,6 +9747,15 @@
                 "extraTime": null,
                 "playerName": "Yangel Herrera",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51469127_3",
+                "type": "GOAL",
+                "minute": 40,
+                "extraTime": null,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
@@ -14844,6 +14853,12 @@
     {
       "player": "Karim Adeyemi",
       "team": "FC Barcelona",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Kylian Mbappé",
+      "team": "Real Madrid",
       "goals": 1,
       "penalties": null
     },
