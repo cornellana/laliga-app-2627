@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T19:48:44Z",
+  "lastUpdated": "2026-08-27T19:49:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,7 +9939,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10376,6 +10376,24 @@
                 "playerName": "Kike Barja",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "51537300_15",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": "Rubén García",
+                "teamName": "Osasuna",
+                "text": "Jorge Herrando"
+              },
+              {
+                "id": "51537301_16",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": "Jonathan Dubasin"
               }
             ]
           }
@@ -10390,7 +10408,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "43'",
+          "clock": "44'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
