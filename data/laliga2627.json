@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T19:43:09Z",
+  "lastUpdated": "2026-08-27T19:44:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,7 +9939,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10364,9 +10364,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 52,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Carl Starfelt",
                 "teamName": "Celta",
-                "text": null
+                "text": "Iago Aspas"
               }
             ]
           }
@@ -10379,10 +10379,10 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "37'",
-          "statusText": "In Progress",
+          "clock": "39'",
+          "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -10763,6 +10763,15 @@
                 "minute": 27,
                 "extraTime": null,
                 "playerName": "Xavi Espart",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "51535881_6",
+                "type": "GOAL",
+                "minute": 37,
+                "extraTime": null,
+                "playerName": "Raphinha",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -15725,6 +15734,12 @@
       "penalties": null
     },
     {
+      "player": "Raphinha",
+      "team": "FC Barcelona",
+      "goals": 3,
+      "penalties": 1
+    },
+    {
       "player": "Fermín López",
       "team": "FC Barcelona",
       "goals": 2,
@@ -15741,12 +15756,6 @@
       "team": "Deportivo",
       "goals": 2,
       "penalties": null
-    },
-    {
-      "player": "Raphinha",
-      "team": "FC Barcelona",
-      "goals": 2,
-      "penalties": 1
     },
     {
       "player": "Roberto Fernández",
