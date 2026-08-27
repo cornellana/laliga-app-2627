@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T19:50:57Z",
+  "lastUpdated": "2026-08-27T19:52:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,8 +9939,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "61'",
-          "statusText": "Second Half",
+          "clock": "63'",
+          "statusText": "In Progress",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -10408,7 +10408,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
