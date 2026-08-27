@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:53:12Z",
+  "lastUpdated": "2026-08-27T20:54:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10471,7 +10471,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -10970,6 +10970,15 @@
                 "minute": 82,
                 "extraTime": null,
                 "playerName": "Fermín López",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "51546650_31",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "FC Barcelona",
                 "text": null
               }
