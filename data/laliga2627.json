@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:58:47Z",
+  "lastUpdated": "2026-08-27T20:59:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10471,8 +10471,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "90'+1'",
-          "statusText": "Second Half",
+          "clock": "90'+2'",
+          "statusText": "In Progress",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -10956,7 +10956,7 @@
                 "text": "Anthony Gordon"
               },
               {
-                "id": "51546412_28",
+                "id": "51546412_29",
                 "type": "SUBSTITUTION",
                 "minute": 81,
                 "extraTime": null,
