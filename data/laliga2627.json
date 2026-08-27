@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T19:53:11Z",
+  "lastUpdated": "2026-08-27T19:54:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,7 +9939,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10394,6 +10394,15 @@
                 "playerName": "Ante Budimir",
                 "teamName": "Osasuna",
                 "text": "Jonathan Dubasin"
+              },
+              {
+                "id": "51538423_17",
+                "type": "PENALTY",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
@@ -10408,7 +10417,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'+2'",
+          "clock": "45'+4'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -15799,6 +15808,12 @@
     {
       "player": "Andrés Martín",
       "team": "Racing",
+      "goals": 1,
+      "penalties": 1
+    },
+    {
+      "player": "Ante Budimir",
+      "team": "Osasuna",
       "goals": 1,
       "penalties": 1
     },
