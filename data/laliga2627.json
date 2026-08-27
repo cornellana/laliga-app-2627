@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:39:52Z",
+  "lastUpdated": "2026-08-27T20:40:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9937,7 +9937,7 @@
           "jornada": 1,
           "tv": null,
           "done": true,
-          "result": "1-3",
+          "result": "1-2",
           "state": "post",
           "clock": null,
           "statusText": null,
@@ -10471,7 +10471,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -10924,18 +10924,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 70,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Adama Boiro",
                 "teamName": "Athletic",
-                "text": null
+                "text": "Johaneko Louis-Jean because of an injury"
               },
               {
                 "id": "51545781_24",
                 "type": "SUBSTITUTION",
                 "minute": 70,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Beñat Gerenabarrena",
                 "teamName": "Athletic",
-                "text": null
+                "text": "Mikel Jauregizar"
               }
             ]
           }
