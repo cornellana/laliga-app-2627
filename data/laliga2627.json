@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:29:54Z",
+  "lastUpdated": "2026-08-27T20:31:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10471,7 +10471,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -10879,18 +10879,36 @@
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Robert Navarro",
                 "teamName": "Athletic",
-                "text": null
+                "text": "Nico Williams"
               },
               {
                 "id": "51544835_15",
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alex Berenguer",
+                "teamName": "Athletic",
+                "text": "Iñaki Williams"
+              },
+              {
+                "id": "51544967_16",
+                "type": "YELLOW_CARD",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Johaneko Louis-Jean",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "51544976_17",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Rodri",
+                "teamName": "FC Barcelona",
+                "text": "Raphinha"
               }
             ]
           }
