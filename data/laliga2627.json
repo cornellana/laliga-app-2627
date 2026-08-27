@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T19:44:16Z",
+  "lastUpdated": "2026-08-27T19:45:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9937,9 +9937,9 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "55'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10367,6 +10367,15 @@
                 "playerName": "Carl Starfelt",
                 "teamName": "Celta",
                 "text": "Iago Aspas"
+              },
+              {
+                "id": "51536109_14",
+                "type": "GOAL",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Kike Barja",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
@@ -10381,7 +10390,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "39'",
+          "clock": "40'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -15850,6 +15859,12 @@
     {
       "player": "Karim Adeyemi",
       "team": "FC Barcelona",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Kike Barja",
+      "team": "Osasuna",
       "goals": 1,
       "penalties": null
     },
