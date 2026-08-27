@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T18:45:10Z",
+  "lastUpdated": "2026-08-27T18:46:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9937,10 +9937,10 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "14'",
-          "statusText": "In Progress",
+          "clock": "15'",
+          "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -10322,7 +10322,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51518888_1",
+                "type": "GOAL",
+                "minute": 14,
+                "extraTime": null,
+                "playerName": "Iago Aspas",
+                "teamName": "Celta",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -15383,6 +15393,12 @@
     {
       "player": "Giuliano Simeone",
       "team": "Atlético",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Iago Aspas",
+      "team": "Celta",
       "goals": 1,
       "penalties": null
     },
