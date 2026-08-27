@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:28:47Z",
+  "lastUpdated": "2026-08-27T20:29:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,7 +9939,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "90'+9'",
+          "clock": "90'+11'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10471,7 +10471,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -10871,6 +10871,24 @@
                 "minute": 48,
                 "extraTime": null,
                 "playerName": "Gorka Guruzeta",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "51544834_14",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "51544835_15",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Athletic",
                 "text": null
               }
