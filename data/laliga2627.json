@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T19:55:25Z",
+  "lastUpdated": "2026-08-27T19:56:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,7 +9939,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10403,6 +10403,24 @@
                 "playerName": "Ante Budimir",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "51538933_18",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Sergio Carreira",
+                "teamName": "Celta",
+                "text": "Javi Galán"
+              },
+              {
+                "id": "51538934_19",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Hugo Álvarez",
+                "teamName": "Celta",
+                "text": "Javi Rueda"
               }
             ]
           }
@@ -10418,7 +10436,7 @@
           "result": "1-0",
           "state": "in",
           "clock": "45'+5'",
-          "statusText": "First Half",
+          "statusText": "Halftime",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
