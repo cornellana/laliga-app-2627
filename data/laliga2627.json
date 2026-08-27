@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:47:39Z",
+  "lastUpdated": "2026-08-27T20:48:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10471,7 +10471,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -10936,6 +10936,24 @@
                 "playerName": "Beñat Gerenabarrena",
                 "teamName": "Athletic",
                 "text": "Mikel Jauregizar"
+              },
+              {
+                "id": "51546342_25",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Jules Koundé",
+                "teamName": "FC Barcelona",
+                "text": "Eric García"
+              },
+              {
+                "id": "51546343_26",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Karim Adeyemi",
+                "teamName": "FC Barcelona",
+                "text": "Anthony Gordon"
               }
             ]
           }
