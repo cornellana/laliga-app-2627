@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:33:14Z",
+  "lastUpdated": "2026-08-27T20:34:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10471,7 +10471,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -10915,9 +10915,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 63,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Dani Olmo",
                 "teamName": "FC Barcelona",
-                "text": null
+                "text": "Marc Bernal"
               }
             ]
           }
