@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:49:53Z",
+  "lastUpdated": "2026-08-27T20:50:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10469,10 +10469,10 @@
           "jornada": 1,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "82'",
-          "statusText": "In Progress",
+          "clock": "83'",
+          "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -10875,22 +10875,22 @@
                 "text": null
               },
               {
-                "id": "51544834_14",
-                "type": "SUBSTITUTION",
-                "minute": 60,
-                "extraTime": null,
-                "playerName": "Robert Navarro",
-                "teamName": "Athletic",
-                "text": "Nico Williams"
-              },
-              {
-                "id": "51544835_15",
+                "id": "51544835_14",
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
                 "playerName": "Alex Berenguer",
                 "teamName": "Athletic",
                 "text": "Iñaki Williams"
+              },
+              {
+                "id": "51544834_15",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Robert Navarro",
+                "teamName": "Athletic",
+                "text": "Nico Williams"
               },
               {
                 "id": "51544967_16",
@@ -10954,6 +10954,24 @@
                 "playerName": "Karim Adeyemi",
                 "teamName": "FC Barcelona",
                 "text": "Anthony Gordon"
+              },
+              {
+                "id": "51546412_28",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Álvaro Djaló",
+                "teamName": "Athletic",
+                "text": "Gorka Guruzeta"
+              },
+              {
+                "id": "51546481_30",
+                "type": "GOAL",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Fermín López",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -15908,6 +15926,12 @@
   "standings": [],
   "topScorers": [
     {
+      "player": "Fermín López",
+      "team": "FC Barcelona",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Kylian Mbappé",
       "team": "Real Madrid",
       "goals": 3,
@@ -15918,12 +15942,6 @@
       "team": "FC Barcelona",
       "goals": 3,
       "penalties": 1
-    },
-    {
-      "player": "Fermín López",
-      "team": "FC Barcelona",
-      "goals": 2,
-      "penalties": null
     },
     {
       "player": "Mariano Díaz",
