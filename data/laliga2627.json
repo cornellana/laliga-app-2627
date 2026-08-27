@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T20:59:02Z",
+  "lastUpdated": "2026-08-27T00:00:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10122,6 +10122,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": null
@@ -10135,6 +10138,9 @@
           "tv": null,
           "done": false,
           "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": null
