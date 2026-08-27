@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:38:45Z",
+  "lastUpdated": "2026-08-27T20:39:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10471,7 +10471,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -10918,6 +10918,24 @@
                 "playerName": "Dani Olmo",
                 "teamName": "FC Barcelona",
                 "text": "Marc Bernal"
+              },
+              {
+                "id": "51545780_23",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "51545781_24",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
