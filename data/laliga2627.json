@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T18:35:10Z",
+  "lastUpdated": "2026-08-27T18:36:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,8 +9939,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "4'",
-          "statusText": "In Progress",
+          "clock": "5'",
+          "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -10134,13 +10134,21 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "5-4-1",
               "players": [
                 {
                   "id": "191360",
                   "jersey": 1,
                   "name": "Sergio Herrera",
                   "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "264175",
+                  "jersey": 24,
+                  "name": "Alejandro Catena",
+                  "position": "CD",
                   "isStarter": true,
                   "events": null
                 },
@@ -10153,9 +10161,9 @@
                   "events": null
                 },
                 {
-                  "id": "264175",
-                  "jersey": 24,
-                  "name": "Alejandro Catena",
+                  "id": "381628",
+                  "jersey": 29,
+                  "name": "Asier Osambela",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -10185,9 +10193,9 @@
                   "events": null
                 },
                 {
-                  "id": "381628",
-                  "jersey": 29,
-                  "name": "Asier Osambela",
+                  "id": "286176",
+                  "jersey": 7,
+                  "name": "Jon Moncayola",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -10201,9 +10209,9 @@
                   "events": null
                 },
                 {
-                  "id": "286176",
-                  "jersey": 7,
-                  "name": "Jon Moncayola",
+                  "id": "311969",
+                  "jersey": 21,
+                  "name": "Jonathan Dubasin",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -10212,15 +10220,7 @@
                   "id": "296163",
                   "jersey": 9,
                   "name": "Raúl García",
-                  "position": "CF-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "311969",
-                  "jersey": 21,
-                  "name": "Jonathan Dubasin",
-                  "position": "CF-R",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
