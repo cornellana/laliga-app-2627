@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T19:36:28Z",
+  "lastUpdated": "2026-08-27T19:37:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,7 +9939,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "47'",
+          "clock": "48'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10340,6 +10340,15 @@
                 "playerName": "Jon Moncayola",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "51533789_8",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Iker Muñoz",
+                "teamName": "Osasuna",
+                "text": "Jon Moncayola"
               }
             ]
           }
@@ -10354,7 +10363,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "31'",
+          "clock": "32'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
