@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:04:21Z",
+  "lastUpdated": "2026-08-27T20:05:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,7 +9939,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10430,6 +10430,15 @@
                 "playerName": "Jones El Abdellaoui",
                 "teamName": "Celta",
                 "text": "Williot Swedberg"
+              },
+              {
+                "id": "51540615_21",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
