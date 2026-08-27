@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:05:28Z",
+  "lastUpdated": "2026-08-27T20:06:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,7 +9939,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10436,9 +10436,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Moi Gómez",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Kike Barja"
               }
             ]
           }
