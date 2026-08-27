@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:32:08Z",
+  "lastUpdated": "2026-08-27T20:33:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10471,7 +10471,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -10909,6 +10909,15 @@
                 "playerName": "Rodri",
                 "teamName": "FC Barcelona",
                 "text": "Raphinha"
+              },
+              {
+                "id": "51545152_18",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
