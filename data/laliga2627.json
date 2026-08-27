@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T18:59:36Z",
+  "lastUpdated": "2026-08-27T19:00:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,7 +9939,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "28'",
+          "clock": "29'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10330,6 +10330,15 @@
                 "extraTime": null,
                 "playerName": "Iago Aspas",
                 "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "51523408_2",
+                "type": "YELLOW_CARD",
+                "minute": 27,
+                "extraTime": null,
+                "playerName": "Jon Moncayola",
+                "teamName": "Osasuna",
                 "text": null
               }
             ]
