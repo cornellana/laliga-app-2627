@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:12:06Z",
+  "lastUpdated": "2026-08-27T20:13:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,7 +9939,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10448,6 +10448,15 @@
                 "playerName": "Ferran Jutglà",
                 "teamName": "Celta",
                 "text": "Pablo Durán"
+              },
+              {
+                "id": "51541993_23",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
