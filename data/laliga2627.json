@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T19:39:47Z",
+  "lastUpdated": "2026-08-27T19:40:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -9939,7 +9939,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "50'",
+          "clock": "52'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -10349,15 +10349,6 @@
                 "playerName": "Iker Muñoz",
                 "teamName": "Osasuna",
                 "text": "Jon Moncayola"
-              },
-              {
-                "id": "51534421_10",
-                "type": "YELLOW_CARD",
-                "minute": 48,
-                "extraTime": null,
-                "playerName": "Marcos Alonso",
-                "teamName": "Celta",
-                "text": null
               }
             ]
           }
@@ -10372,7 +10363,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "34'",
+          "clock": "35'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
