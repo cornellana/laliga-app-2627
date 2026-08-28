@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T18:30:26Z",
+  "lastUpdated": "2026-08-28T18:31:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11001,7 +11001,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -11480,27 +11480,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Asier Villalibre",
                 "teamName": "Racing",
-                "text": null
+                "text": "Yassir Zabiri"
               },
               {
                 "id": "51555718_14",
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Lucas Cepeda",
                 "teamName": "Elche",
-                "text": null
+                "text": "Facundo Buonanotte"
               },
               {
                 "id": "51555719_15",
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Giorgi Guliashvili",
                 "teamName": "Racing",
-                "text": null
+                "text": "Iñigo Vicente"
               }
             ]
           }
