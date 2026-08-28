@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T20:00:40Z",
+  "lastUpdated": "2026-08-28T20:01:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11549,9 +11549,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "30'",
+          "clock": "31'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -11934,7 +11934,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51562621_1",
+                "type": "GOAL",
+                "minute": 31,
+                "extraTime": null,
+                "playerName": "Lucas Boyé",
+                "teamName": "Alavés",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -17007,6 +17017,12 @@
     {
       "player": "Lee Kang-In",
       "team": "Atlético",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Lucas Boyé",
+      "team": "Alavés",
       "goals": 1,
       "penalties": null
     },
