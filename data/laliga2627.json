@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T18:19:23Z",
+  "lastUpdated": "2026-08-28T18:20:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11001,7 +11001,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -11447,6 +11447,15 @@
                 "playerName": "Tete Morente",
                 "teamName": "Elche",
                 "text": "Marc Aguado"
+              },
+              {
+                "id": "51555448_10",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
