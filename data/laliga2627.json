@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T21:08:45Z",
+  "lastUpdated": "2026-08-28T21:09:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11551,7 +11551,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -12030,9 +12030,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 82,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Aitor Mañas",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Lucas Boyé"
               }
             ]
           }
