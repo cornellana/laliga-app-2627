@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T21:18:44Z",
+  "lastUpdated": "2026-08-28T21:19:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11551,7 +11551,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -12058,6 +12058,15 @@
                 "minute": 89,
                 "extraTime": null,
                 "playerName": "Mariano Díaz",
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "51568099_19",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Antonio Sivera",
                 "teamName": "Alavés",
                 "text": null
               }
