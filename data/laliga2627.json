@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T20:35:35Z",
+  "lastUpdated": "2026-08-28T20:36:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11551,7 +11551,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "49'",
+          "clock": "50'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -11951,6 +11951,15 @@
                 "extraTime": 2,
                 "playerName": "Renato Veiga",
                 "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "51565745_5",
+                "type": "YELLOW_CARD",
+                "minute": 48,
+                "extraTime": null,
+                "playerName": "Abde Rebbach",
+                "teamName": "Alavés",
                 "text": null
               }
             ]
