@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T20:58:48Z",
+  "lastUpdated": "2026-08-28T20:59:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12006,6 +12006,24 @@
                 "playerName": "Ilias Akhomach",
                 "teamName": "Villarreal",
                 "text": "Gerard Moreno"
+              },
+              {
+                "id": "51567533_13",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Denis Suárez",
+                "teamName": "Alavés",
+                "text": "Abde Rebbach"
+              },
+              {
+                "id": "51567534_14",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Carlos Protesoni",
+                "teamName": "Alavés",
+                "text": "Ángel Pérez"
               }
             ]
           }
