@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T21:20:56Z",
+  "lastUpdated": "2026-08-28T21:22:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11548,11 +11548,11 @@
           "away": "Villarreal",
           "jornada": 3,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-0",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
