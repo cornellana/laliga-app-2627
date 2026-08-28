@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T20:41:07Z",
+  "lastUpdated": "2026-08-28T20:42:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11551,8 +11551,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "55'",
-          "statusText": "In Progress",
+          "clock": "56'",
+          "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
@@ -11961,6 +11961,24 @@
                 "playerName": "Abde Rebbach",
                 "teamName": "Alavés",
                 "text": null
+              },
+              {
+                "id": "51566270_8",
+                "type": "SUBSTITUTION",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Mariano Díaz",
+                "teamName": "Alavés",
+                "text": "Toni Martínez because of an injury"
+              },
+              {
+                "id": "51566271_9",
+                "type": "SUBSTITUTION",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Youssef Enriquez",
+                "teamName": "Alavés",
+                "text": "Mikel Rodríguez"
               }
             ]
           }
