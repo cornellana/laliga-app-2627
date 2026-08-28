@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T18:55:46Z",
+  "lastUpdated": "2026-08-28T18:56:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10998,11 +10998,11 @@
           "away": "Elche",
           "jornada": 3,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "3-2",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
