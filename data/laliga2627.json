@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T20:48:52Z",
+  "lastUpdated": "2026-08-28T20:49:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11551,7 +11551,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -11970,6 +11970,33 @@
                 "playerName": "Youssef Enriquez",
                 "teamName": "Alavés",
                 "text": "Mikel Rodríguez"
+              },
+              {
+                "id": "51566967_9",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Ayoze Pérez",
+                "teamName": "Villarreal",
+                "text": "Santi Comesaña"
+              },
+              {
+                "id": "51567029_10",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Alex Freeman",
+                "teamName": "Villarreal",
+                "text": "Santiago Mouriño"
+              },
+              {
+                "id": "51567030_11",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Alberto Moleiro",
+                "teamName": "Villarreal",
+                "text": "Tajon Buchanan"
               }
             ]
           }
