@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T20:42:14Z",
+  "lastUpdated": "2026-08-28T20:43:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11551,7 +11551,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -11945,16 +11945,7 @@
                 "text": null
               },
               {
-                "id": "51564119_3",
-                "type": "YELLOW_CARD",
-                "minute": 45,
-                "extraTime": 2,
-                "playerName": "Renato Veiga",
-                "teamName": "Villarreal",
-                "text": null
-              },
-              {
-                "id": "51565745_5",
+                "id": "51565745_4",
                 "type": "YELLOW_CARD",
                 "minute": 48,
                 "extraTime": null,
@@ -11963,7 +11954,7 @@
                 "text": null
               },
               {
-                "id": "51566270_8",
+                "id": "51566270_7",
                 "type": "SUBSTITUTION",
                 "minute": 54,
                 "extraTime": null,
@@ -11972,7 +11963,7 @@
                 "text": "Toni Martínez because of an injury"
               },
               {
-                "id": "51566271_9",
+                "id": "51566271_8",
                 "type": "SUBSTITUTION",
                 "minute": 54,
                 "extraTime": null,
