@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T17:45:33Z",
+  "lastUpdated": "2026-08-28T17:46:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11001,7 +11001,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "In Progress",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -11409,6 +11409,15 @@
                 "minute": 36,
                 "extraTime": null,
                 "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "51554777_4",
+                "type": "YELLOW_CARD",
+                "minute": 43,
+                "extraTime": null,
+                "playerName": "Facu González",
                 "teamName": "Racing",
                 "text": null
               }
