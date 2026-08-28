@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T21:07:40Z",
+  "lastUpdated": "2026-08-28T21:08:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11551,7 +11551,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -12024,6 +12024,15 @@
                 "playerName": "Carlos Protesoni",
                 "teamName": "Alavés",
                 "text": "Ángel Pérez"
+              },
+              {
+                "id": "51567863_15",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
