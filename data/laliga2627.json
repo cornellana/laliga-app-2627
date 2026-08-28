@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T21:13:13Z",
+  "lastUpdated": "2026-08-28T21:14:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11551,7 +11551,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -12042,6 +12042,15 @@
                 "playerName": "Tani Oluwaseyi",
                 "teamName": "Villarreal",
                 "text": "Georges Mikautadze"
+              },
+              {
+                "id": "51567973_17",
+                "type": "YELLOW_CARD",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Nicolas Pepe",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
