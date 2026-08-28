@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T17:15:49Z",
+  "lastUpdated": "2026-08-28T17:16:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10999,10 +10999,10 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "15'",
-          "statusText": "First Half",
+          "clock": "16'",
+          "statusText": "In Progress",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -11384,7 +11384,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51554359_1",
+                "type": "GOAL",
+                "minute": 15,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -16545,6 +16555,12 @@
     {
       "player": "Vinícius Júnior",
       "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Yassir Zabiri",
+      "team": "Racing",
       "goals": 1,
       "penalties": null
     },
