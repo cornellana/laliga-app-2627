@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T21:19:50Z",
+  "lastUpdated": "2026-08-28T21:20:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11551,7 +11551,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -12068,6 +12068,15 @@
                 "extraTime": 2,
                 "playerName": "Antonio Sivera",
                 "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "51568114_20",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Renato Veiga",
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
