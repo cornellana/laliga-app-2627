@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T17:51:04Z",
+  "lastUpdated": "2026-08-28T18:06:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11001,8 +11001,8 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -11429,6 +11429,24 @@
                 "playerName": "Álvaro Mantilla",
                 "teamName": "Racing",
                 "text": null
+              },
+              {
+                "id": "51554885_7",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Ezequiel Ponce",
+                "teamName": "Elche",
+                "text": "Ali Houary"
+              },
+              {
+                "id": "51554936_8",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Tete Morente",
+                "teamName": "Elche",
+                "text": "Marc Aguado"
               }
             ]
           }
