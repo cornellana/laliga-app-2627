@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T18:21:36Z",
+  "lastUpdated": "2026-08-28T18:22:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11001,7 +11001,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -11456,6 +11456,15 @@
                 "playerName": "Matteo Prati",
                 "teamName": "Racing",
                 "text": "Andrés Martín because of an injury"
+              },
+              {
+                "id": "51555489_11",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Javier Morcillo",
+                "teamName": "Elche",
+                "text": "Pedro Bigas"
               }
             ]
           }
