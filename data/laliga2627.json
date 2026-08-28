@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T21:16:31Z",
+  "lastUpdated": "2026-08-28T21:17:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11551,7 +11551,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -12050,6 +12050,15 @@
                 "extraTime": null,
                 "playerName": "Nicolas Pepe",
                 "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "51568037_18",
+                "type": "YELLOW_CARD",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Mariano Díaz",
+                "teamName": "Alavés",
                 "text": null
               }
             ]
