@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T17:47:46Z",
+  "lastUpdated": "2026-08-28T17:48:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11001,7 +11001,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "45'+2'",
+          "clock": "45'+3'",
           "statusText": "In Progress",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -11418,6 +11418,15 @@
                 "minute": 43,
                 "extraTime": null,
                 "playerName": "Facu González",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "51554808_5",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Alvaro Mantilla",
                 "teamName": "Racing",
                 "text": null
               }
