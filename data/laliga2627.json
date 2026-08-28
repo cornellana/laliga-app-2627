@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T20:17:12Z",
+  "lastUpdated": "2026-08-28T20:18:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -11942,6 +11942,15 @@
                 "extraTime": null,
                 "playerName": "Lucas Boyé",
                 "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "51564119_3",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Renato Veiga",
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
