@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T17:36:47Z",
+  "lastUpdated": "2026-08-28T17:37:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10999,10 +10999,10 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "3-0",
           "state": "in",
-          "clock": "36'",
-          "statusText": "First Half",
+          "clock": "37'",
+          "statusText": "In Progress",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -11400,6 +11400,15 @@
                 "minute": 21,
                 "extraTime": null,
                 "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "51554646_3",
+                "type": "GOAL",
+                "minute": 36,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Racing",
                 "text": null
               }
