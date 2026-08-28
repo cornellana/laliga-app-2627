@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T18:39:14Z",
+  "lastUpdated": "2026-08-28T18:40:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -10999,9 +10999,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "3-1",
+          "result": "3-2",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -11508,6 +11508,15 @@
                 "minute": 78,
                 "extraTime": null,
                 "playerName": "Buba Sangaré",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "51556107_17",
+                "type": "GOAL",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Fer Niño",
                 "teamName": "Elche",
                 "text": null
               }
@@ -16534,6 +16543,12 @@
     {
       "player": "Enes Ünal",
       "team": "Getafe",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Fer Niño",
+      "team": "Elche",
       "goals": 1,
       "penalties": null
     },
