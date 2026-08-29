@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T21:19:15Z",
+  "lastUpdated": "2026-08-29T21:20:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13234,7 +13234,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -13725,6 +13725,24 @@
                 "playerName": "Alfon González",
                 "teamName": "Sevilla",
                 "text": "Miguel Sierra because of an injury"
+              },
+              {
+                "id": "51651162_35",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Johnny Cardoso",
+                "teamName": "Atlético",
+                "text": "Morten Hjulmand"
+              },
+              {
+                "id": "51651163_36",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
