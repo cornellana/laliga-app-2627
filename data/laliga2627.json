@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T20:03:39Z",
+  "lastUpdated": "2026-08-29T20:04:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13232,9 +13232,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "0-3",
           "state": "in",
-          "clock": "33'",
+          "clock": "34'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -13633,6 +13633,15 @@
                 "minute": 26,
                 "extraTime": null,
                 "playerName": "Ademola Lookman",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "51645256_13",
+                "type": "GOAL",
+                "minute": 33,
+                "extraTime": null,
+                "playerName": "Álex Baena",
                 "teamName": "Atlético",
                 "text": null
               }
@@ -18527,6 +18536,12 @@
       "penalties": null
     },
     {
+      "player": "Álex Baena",
+      "team": "Atlético",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 2,
@@ -18547,12 +18562,6 @@
     {
       "player": "Roger Brugué",
       "team": "Levante",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Álex Baena",
-      "team": "Atlético",
       "goals": 2,
       "penalties": null
     },
