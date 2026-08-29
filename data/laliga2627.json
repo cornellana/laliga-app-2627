@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T21:23:40Z",
+  "lastUpdated": "2026-08-29T21:24:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13234,7 +13234,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
