@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:38:22Z",
+  "lastUpdated": "2026-08-29T18:39:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13139,6 +13139,15 @@
                 "playerName": "Rafel Bauzà",
                 "teamName": "Espanyol",
                 "text": "Edu Expósito"
+              },
+              {
+                "id": "51637567_19",
+                "type": "YELLOW_CARD",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Marcos Fernández",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
