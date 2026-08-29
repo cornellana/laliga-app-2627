@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T19:35:05Z",
+  "lastUpdated": "2026-08-29T19:36:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13232,9 +13232,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -13617,7 +13617,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51643201_1",
+                "type": "GOAL",
+                "minute": 4,
+                "extraTime": null,
+                "playerName": "Álex Baena",
+                "teamName": "Atlético",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -18532,6 +18542,12 @@
       "penalties": null
     },
     {
+      "player": "Álex Baena",
+      "team": "Atlético",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Adrián de la Fuente",
       "team": "Levante",
       "goals": 1,
@@ -18774,12 +18790,6 @@
     {
       "player": "Vinícius Júnior",
       "team": "Real Madrid",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Álex Baena",
-      "team": "Atlético",
       "goals": 1,
       "penalties": null
     },
