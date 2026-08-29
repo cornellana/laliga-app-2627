@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T17:05:08Z",
+  "lastUpdated": "2026-08-29T17:06:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12095,11 +12095,11 @@
           "away": "Betis",
           "jornada": 3,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "5-2",
-          "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
