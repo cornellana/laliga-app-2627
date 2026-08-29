@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T17:09:33Z",
+  "lastUpdated": "2026-08-29T17:11:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "6'",
+          "clock": "9'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -12861,7 +12861,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "179211",
@@ -12904,10 +12904,18 @@
                   "events": null
                 },
                 {
+                  "id": "367946",
+                  "jersey": 28,
+                  "name": "Javi Hernandez",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "255272",
                   "jersey": 8,
                   "name": "Edu Expósito",
-                  "position": "CM-L",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -12915,22 +12923,6 @@
                   "id": "307915",
                   "jersey": 4,
                   "name": "Urko Gonzalez",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "306520",
-                  "jersey": 24,
-                  "name": "Tyrhys Dolan",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "355902",
-                  "jersey": 22,
-                  "name": "Cala",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -12939,15 +12931,23 @@
                   "id": "318773",
                   "jersey": 9,
                   "name": "Roberto Fernández",
-                  "position": "CF-L",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "367946",
-                  "jersey": 28,
-                  "name": "Javi Hernandez",
-                  "position": "CF-R",
+                  "id": "306520",
+                  "jersey": 24,
+                  "name": "Tyrhys Dolan",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "355902",
+                  "jersey": 22,
+                  "name": "Cala",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
