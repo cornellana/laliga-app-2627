@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:46:34Z",
+  "lastUpdated": "2026-08-29T18:47:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13175,6 +13175,24 @@
                 "playerName": "Roger Hinojo",
                 "teamName": "Espanyol",
                 "text": null
+              },
+              {
+                "id": "51637840_25",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Jofre Carreras",
+                "teamName": "Espanyol",
+                "text": "Tyrhys Dolan"
+              },
+              {
+                "id": "51637841_26",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Pere Milla",
+                "teamName": "Espanyol",
+                "text": "Roberto Fernández"
               }
             ]
           }
