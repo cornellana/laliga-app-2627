@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:26:38Z",
+  "lastUpdated": "2026-08-29T16:27:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12544,6 +12544,15 @@
                 "playerName": "Pablo Fornals",
                 "teamName": "Betis",
                 "text": "Isco"
+              },
+              {
+                "id": "51624424_18",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Cucho Hernández",
+                "teamName": "Betis",
+                "text": "Troy Parrott"
               }
             ]
           }
