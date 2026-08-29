@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:51:14Z",
+  "lastUpdated": "2026-08-29T18:52:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13193,6 +13193,15 @@
                 "playerName": "Pere Milla",
                 "teamName": "Espanyol",
                 "text": "Roberto Fernández"
+              },
+              {
+                "id": "51638453_27",
+                "type": "YELLOW_CARD",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Rafael Bauza",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
