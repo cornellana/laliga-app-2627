@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:38:45Z",
+  "lastUpdated": "2026-08-29T16:39:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12096,9 +12096,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "3-2",
+          "result": "4-2",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12588,6 +12588,15 @@
                 "extraTime": null,
                 "playerName": "Pablo García",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "51625365_23",
+                "type": "GOAL",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Roger Brugué",
+                "teamName": "Levante",
                 "text": null
               }
             ]
@@ -17531,6 +17540,12 @@
       "penalties": null
     },
     {
+      "player": "Roger Brugué",
+      "team": "Levante",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Adrián de la Fuente",
       "team": "Levante",
       "goals": 1,
@@ -17733,12 +17748,6 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "Roger Brugué",
-      "team": "Levante",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Sergio Camello",
