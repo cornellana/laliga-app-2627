@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:43:53Z",
+  "lastUpdated": "2026-08-29T18:45:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13166,6 +13166,15 @@
                 "playerName": "Takefusa Kubo",
                 "teamName": "R. Sociedad",
                 "text": "Luka Sucic"
+              },
+              {
+                "id": "51637761_24",
+                "type": "YELLOW_CARD",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Roger Hinojo",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
