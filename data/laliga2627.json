@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:39:28Z",
+  "lastUpdated": "2026-08-29T18:40:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13147,6 +13147,15 @@
                 "extraTime": null,
                 "playerName": "Marcos Fernández",
                 "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "51637608_22",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
