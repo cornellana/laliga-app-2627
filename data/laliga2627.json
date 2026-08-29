@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:52:19Z",
+  "lastUpdated": "2026-08-29T18:53:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13199,7 +13199,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 88,
                 "extraTime": null,
-                "playerName": "Rafael Bauza",
+                "playerName": "Rafel Bauzà",
                 "teamName": "Espanyol",
                 "text": null
               }
