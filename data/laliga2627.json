@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:55:39Z",
+  "lastUpdated": "2026-08-29T18:56:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13211,6 +13211,15 @@
                 "playerName": "Jon Gorrotxategi",
                 "teamName": "R. Sociedad",
                 "text": "Mikel Oyarzabal"
+              },
+              {
+                "id": "51639030_29",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Igor Zubeldia",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
