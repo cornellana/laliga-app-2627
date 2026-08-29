@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T21:22:33Z",
+  "lastUpdated": "2026-08-29T21:23:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13234,7 +13234,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -13743,6 +13743,15 @@
                 "playerName": "Rodrigo Mendoza",
                 "teamName": "Atlético",
                 "text": "Álex Baena"
+              },
+              {
+                "id": "51651329_37",
+                "type": "YELLOW_CARD",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Isaac Romero",
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
