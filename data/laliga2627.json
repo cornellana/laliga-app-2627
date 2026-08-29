@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:33:58Z",
+  "lastUpdated": "2026-08-29T18:35:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13121,6 +13121,24 @@
                 "playerName": "Alex Marchal",
                 "teamName": "R. Sociedad",
                 "text": "Ander Barrenetxea"
+              },
+              {
+                "id": "51637359_17",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Marcos Fernández",
+                "teamName": "Espanyol",
+                "text": "Javi Hernández"
+              },
+              {
+                "id": "51637360_18",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Rafel Bauzà",
+                "teamName": "Espanyol",
+                "text": "Edu Expósito"
               }
             ]
           }
