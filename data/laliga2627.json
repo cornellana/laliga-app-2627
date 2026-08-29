@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:25:10Z",
+  "lastUpdated": "2026-08-29T18:26:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13101,6 +13101,24 @@
                 "minute": 61,
                 "extraTime": null,
                 "playerName": "Orri Óskarsson",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51636787_15",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51636788_16",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "R. Sociedad",
                 "text": null
               }
