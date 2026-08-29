@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:27:22Z",
+  "lastUpdated": "2026-08-29T18:28:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13109,18 +13109,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Yangel Herrera",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Beñat Turrientes"
               },
               {
                 "id": "51636788_16",
                 "type": "SUBSTITUTION",
                 "minute": 63,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alex Marchal",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Ander Barrenetxea"
               }
             ]
           }
