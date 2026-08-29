@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:39:51Z",
+  "lastUpdated": "2026-08-29T16:40:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12598,6 +12598,24 @@
                 "playerName": "Roger Brugué",
                 "teamName": "Levante",
                 "text": null
+              },
+              {
+                "id": "51625530_24",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Víctor García",
+                "teamName": "Levante",
+                "text": "Thiago Fernández"
+              },
+              {
+                "id": "51625531_25",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Karl Etta Eyong",
+                "teamName": "Levante",
+                "text": "Iván Romero"
               }
             ]
           }
