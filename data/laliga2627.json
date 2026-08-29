@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T17:02:56Z",
+  "lastUpdated": "2026-08-29T17:04:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "5-2",
           "state": "in",
-          "clock": "90'+5'",
+          "clock": "90'+6'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12641,6 +12641,15 @@
                 "minute": 86,
                 "extraTime": null,
                 "playerName": "Jeremy Toljan",
+                "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "51628172_33",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 5,
+                "playerName": "Jon Ander Olasagasti",
                 "teamName": "Levante",
                 "text": null
               }
@@ -17689,6 +17698,12 @@
     {
       "player": "Isaac Romero",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Jon Ander Olasagasti",
+      "team": "Levante",
       "goals": 1,
       "penalties": null
     },
