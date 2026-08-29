@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T15:37:33Z",
+  "lastUpdated": "2026-08-29T15:38:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12096,9 +12096,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "35'",
+          "clock": "36'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12496,7 +12496,7 @@
                 "type": "GOAL",
                 "minute": 34,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Marc Bartra",
                 "teamName": "Betis",
                 "text": null
               }
@@ -17575,6 +17575,12 @@
     {
       "player": "Marc Aguado",
       "team": "Elche",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Marc Bartra",
+      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
