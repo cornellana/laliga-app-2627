@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:36:33Z",
+  "lastUpdated": "2026-08-29T16:37:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12577,9 +12577,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Nelson Deossa",
                 "teamName": "Betis",
-                "text": null
+                "text": "Rodrigo Riquelme"
               }
             ]
           }
