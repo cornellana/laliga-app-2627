@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T17:51:34Z",
+  "lastUpdated": "2026-08-29T18:08:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,8 +12666,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -13085,6 +13085,15 @@
                 "playerName": "Roberto Fernández",
                 "teamName": "Espanyol",
                 "text": null
+              },
+              {
+                "id": "51634469_12",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Gabriel Moscardo",
+                "teamName": "Espanyol",
+                "text": "Urko González de Zárate"
               }
             ]
           }
