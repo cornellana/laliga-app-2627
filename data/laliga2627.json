@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:37:39Z",
+  "lastUpdated": "2026-08-29T16:38:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12580,6 +12580,15 @@
                 "playerName": "Nelson Deossa",
                 "teamName": "Betis",
                 "text": "Rodrigo Riquelme"
+              },
+              {
+                "id": "51625190_22",
+                "type": "YELLOW_CARD",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Pablo García",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
