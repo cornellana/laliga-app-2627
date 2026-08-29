@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T15:36:27Z",
+  "lastUpdated": "2026-08-29T15:37:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "34'",
+          "clock": "35'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12489,6 +12489,15 @@
                 "extraTime": null,
                 "playerName": "Adrián de la Fuente",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "51619237_6",
+                "type": "GOAL",
+                "minute": 34,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
                 "text": null
               }
             ]
