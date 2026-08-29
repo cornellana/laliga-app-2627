@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T17:21:48Z",
+  "lastUpdated": "2026-08-29T17:22:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,8 +12666,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "19'",
-          "statusText": "First Half",
+          "clock": "20'",
+          "statusText": "In Progress",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -13056,6 +13056,15 @@
                 "minute": 4,
                 "extraTime": null,
                 "playerName": "Ander Barrenetxea",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51630559_2",
+                "type": "YELLOW_CARD",
+                "minute": 17,
+                "extraTime": null,
+                "playerName": "Beñat Turrientes",
                 "teamName": "R. Sociedad",
                 "text": null
               }
