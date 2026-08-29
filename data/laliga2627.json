@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:35:28Z",
+  "lastUpdated": "2026-08-29T16:36:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12565,6 +12565,15 @@
               },
               {
                 "id": "51624899_20",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Pablo García",
+                "teamName": "Betis",
+                "text": "Marc Roca"
+              },
+              {
+                "id": "51625040_21",
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
