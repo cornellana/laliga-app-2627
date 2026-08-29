@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T21:00:29Z",
+  "lastUpdated": "2026-08-29T21:01:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13232,9 +13232,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "0-3",
+          "result": "1-3",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -13677,17 +13677,26 @@
                 "type": "SUBSTITUTION",
                 "minute": 66,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "José María Giménez",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Marcos Llorente"
               },
               {
                 "id": "51650364_24",
                 "type": "SUBSTITUTION",
                 "minute": 66,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Arnau Ortiz",
                 "teamName": "Atlético",
+                "text": "Ademola Lookman"
+              },
+              {
+                "id": "51650376_25",
+                "type": "GOAL",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Peque Fernández",
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
@@ -18593,6 +18602,12 @@
       "penalties": null
     },
     {
+      "player": "Peque Fernández",
+      "team": "Sevilla",
+      "goals": 2,
+      "penalties": 1
+    },
+    {
       "player": "Pierre-Emerick Aubameyang",
       "team": "Deportivo",
       "goals": 2,
@@ -18831,12 +18846,6 @@
       "team": "Villarreal",
       "goals": 1,
       "penalties": null
-    },
-    {
-      "player": "Peque Fernández",
-      "team": "Sevilla",
-      "goals": 1,
-      "penalties": 1
     },
     {
       "player": "Sergio Camello",
