@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:25:31Z",
+  "lastUpdated": "2026-08-29T16:26:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12541,9 +12541,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 57,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo Fornals",
                 "teamName": "Betis",
-                "text": null
+                "text": "Isco"
               }
             ]
           }
