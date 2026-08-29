@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T17:26:13Z",
+  "lastUpdated": "2026-08-29T17:27:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "23'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13066,6 +13066,15 @@
                 "extraTime": null,
                 "playerName": "Beñat Turrientes",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51630741_3",
+                "type": "YELLOW_CARD",
+                "minute": 22,
+                "extraTime": null,
+                "playerName": "Urko Gonzalez",
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
