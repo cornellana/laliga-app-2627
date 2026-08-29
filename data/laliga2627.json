@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T17:08:27Z",
+  "lastUpdated": "2026-08-29T17:09:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13055,7 +13055,7 @@
                 "type": "GOAL",
                 "minute": 4,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ander Barrenetxea",
                 "teamName": "R. Sociedad",
                 "text": null
               }
@@ -17998,6 +17998,12 @@
     {
       "player": "Aitor Paredes",
       "team": "Athletic",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Ander Barrenetxea",
+      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
