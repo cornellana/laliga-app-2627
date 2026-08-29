@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T15:52:58Z",
+  "lastUpdated": "2026-08-29T15:54:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12096,9 +12096,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "2-2",
           "state": "in",
-          "clock": "45'+5'",
+          "clock": "45'+6'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12507,6 +12507,15 @@
                 "extraTime": 1,
                 "playerName": "Enzo Bardeli",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "51622089_12",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": 4,
+                "playerName": "Rodrigo Riquelme",
+                "teamName": "Betis",
                 "text": null
               }
             ]
@@ -17444,6 +17453,12 @@
       "penalties": null
     },
     {
+      "player": "Rodrigo Riquelme",
+      "team": "Betis",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Adrián de la Fuente",
       "team": "Levante",
       "goals": 1,
@@ -17646,12 +17661,6 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "Rodrigo Riquelme",
-      "team": "Betis",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Sergio Camello",
