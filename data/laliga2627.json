@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T20:20:08Z",
+  "lastUpdated": "2026-08-29T20:21:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13234,7 +13234,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "45'+5'",
+          "clock": "45'+6'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -13642,6 +13642,15 @@
                 "minute": 33,
                 "extraTime": null,
                 "playerName": "Álex Baena",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "51647089_18",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 4,
+                "playerName": "Marcos Llorente",
                 "teamName": "Atlético",
                 "text": null
               }
