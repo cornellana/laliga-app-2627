@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T21:01:36Z",
+  "lastUpdated": "2026-08-29T21:02:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13234,7 +13234,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -13695,7 +13695,7 @@
                 "type": "GOAL",
                 "minute": 66,
                 "extraTime": null,
-                "playerName": "Peque Fernández",
+                "playerName": "Miguel Sierra",
                 "teamName": "Sevilla",
                 "text": null
               }
@@ -18602,12 +18602,6 @@
       "penalties": null
     },
     {
-      "player": "Peque Fernández",
-      "team": "Sevilla",
-      "goals": 2,
-      "penalties": 1
-    },
-    {
       "player": "Pierre-Emerick Aubameyang",
       "team": "Deportivo",
       "goals": 2,
@@ -18806,6 +18800,12 @@
       "penalties": null
     },
     {
+      "player": "Miguel Sierra",
+      "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
       "player": "Mikel Rodríguez",
       "team": "Alavés",
       "goals": 1,
@@ -18846,6 +18846,12 @@
       "team": "Villarreal",
       "goals": 1,
       "penalties": null
+    },
+    {
+      "player": "Peque Fernández",
+      "team": "Sevilla",
+      "goals": 1,
+      "penalties": 1
     },
     {
       "player": "Sergio Camello",
