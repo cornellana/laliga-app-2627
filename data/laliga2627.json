@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:53:26Z",
+  "lastUpdated": "2026-08-29T18:54:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13201,6 +13201,15 @@
                 "extraTime": null,
                 "playerName": "Rafel Bauzà",
                 "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "51638756_28",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
