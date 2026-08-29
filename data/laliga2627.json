@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:32:11Z",
+  "lastUpdated": "2026-08-29T16:33:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12553,6 +12553,15 @@
                 "playerName": "Cucho Hernández",
                 "teamName": "Betis",
                 "text": "Troy Parrott"
+              },
+              {
+                "id": "51624743_19",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
