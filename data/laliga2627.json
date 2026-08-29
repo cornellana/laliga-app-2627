@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:24:05Z",
+  "lastUpdated": "2026-08-29T18:25:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12664,9 +12664,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "2-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13094,6 +13094,15 @@
                 "playerName": "Gabriel Moscardo",
                 "teamName": "Espanyol",
                 "text": "Urko González de Zárate"
+              },
+              {
+                "id": "51636664_14",
+                "type": "GOAL",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Orri Óskarsson",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
@@ -18214,6 +18223,12 @@
     {
       "player": "Nicolas Pepe",
       "team": "Villarreal",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Orri Óskarsson",
+      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
