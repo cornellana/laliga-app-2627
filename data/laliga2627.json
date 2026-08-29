@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T21:06:02Z",
+  "lastUpdated": "2026-08-29T21:07:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13234,7 +13234,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -13707,6 +13707,15 @@
                 "playerName": "Isaac Romero",
                 "teamName": "Sevilla",
                 "text": "Peque Fernández because of an injury"
+              },
+              {
+                "id": "51650576_27",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
