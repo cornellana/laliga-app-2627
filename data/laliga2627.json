@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T15:56:16Z",
+  "lastUpdated": "2026-08-29T16:13:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12517,6 +12517,15 @@
                 "playerName": "Rodrigo Riquelme",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "51623583_14",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Jeremy Toljan",
+                "teamName": "Levante",
+                "text": "Nacho Pérez"
               }
             ]
           }
