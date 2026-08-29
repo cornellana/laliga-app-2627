@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T20:59:23Z",
+  "lastUpdated": "2026-08-29T21:00:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13234,7 +13234,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -13671,6 +13671,24 @@
                 "playerName": "Giorgi Kochorashvili",
                 "teamName": "Sevilla",
                 "text": "Jon Guridi"
+              },
+              {
+                "id": "51650363_23",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "51650364_24",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
