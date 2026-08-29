@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T21:30:18Z",
+  "lastUpdated": "2026-08-29T21:31:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13231,11 +13231,11 @@
           "away": "Atlético",
           "jornada": 3,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-3",
-          "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
