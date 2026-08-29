@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:54:07Z",
+  "lastUpdated": "2026-08-29T16:55:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12634,6 +12634,15 @@
                 "playerName": "Paco Cortés",
                 "teamName": "Levante",
                 "text": "Roger Brugué"
+              },
+              {
+                "id": "51627271_32",
+                "type": "YELLOW_CARD",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Jeremy Toljan",
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
