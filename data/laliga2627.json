@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T15:49:39Z",
+  "lastUpdated": "2026-08-29T15:50:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12096,9 +12096,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "2-1",
           "state": "in",
-          "clock": "45'+2'",
+          "clock": "45'+3'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12498,6 +12498,15 @@
                 "extraTime": null,
                 "playerName": "Marc Bartra",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "51621621_11",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": 1,
+                "playerName": "Enzo Bardeli",
+                "teamName": "Levante",
                 "text": null
               }
             ]
@@ -17491,6 +17500,12 @@
     {
       "player": "Enes Ünal",
       "team": "Getafe",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Enzo Bardeli",
+      "team": "Levante",
       "goals": 1,
       "penalties": null
     },
