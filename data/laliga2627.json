@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:33:17Z",
+  "lastUpdated": "2026-08-29T16:34:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12559,9 +12559,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 65,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Hugo Sotelo",
                 "teamName": "Levante",
-                "text": null
+                "text": "Enzo Bardeli"
               }
             ]
           }
