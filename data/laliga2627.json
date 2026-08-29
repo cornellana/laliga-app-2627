@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:43:09Z",
+  "lastUpdated": "2026-08-29T16:44:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12098,7 +12098,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "75'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12616,6 +12616,15 @@
                 "playerName": "Karl Etta Eyong",
                 "teamName": "Levante",
                 "text": "Iván Romero"
+              },
+              {
+                "id": "51625835_26",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Abde Ezzalzouli",
+                "teamName": "Betis",
+                "text": "Facundo Bernal"
               }
             ]
           }
