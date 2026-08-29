@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T15:27:38Z",
+  "lastUpdated": "2026-08-29T15:28:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12096,9 +12096,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12481,7 +12481,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51617459_1",
+                "type": "GOAL",
+                "minute": 24,
+                "extraTime": null,
+                "playerName": "Adrián de la Fuente",
+                "teamName": "Levante",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -17413,6 +17423,12 @@
       "player": "Roberto Fernández",
       "team": "Espanyol",
       "goals": 2,
+      "penalties": null
+    },
+    {
+      "player": "Adrián de la Fuente",
+      "team": "Levante",
+      "goals": 1,
       "penalties": null
     },
     {
