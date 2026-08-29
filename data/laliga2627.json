@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T20:48:36Z",
+  "lastUpdated": "2026-08-29T20:51:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13234,7 +13234,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "55'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -13652,6 +13652,24 @@
                 "extraTime": 4,
                 "playerName": "Marcos Llorente",
                 "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "51649904_21",
+                "type": "SUBSTITUTION",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "51649905_22",
+                "type": "SUBSTITUTION",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
