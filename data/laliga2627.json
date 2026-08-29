@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:57:52Z",
+  "lastUpdated": "2026-08-29T18:58:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12663,11 +12663,11 @@
           "away": "Espanyol",
           "jornada": 3,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-1",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
