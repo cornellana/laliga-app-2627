@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T21:24:47Z",
+  "lastUpdated": "2026-08-29T21:25:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13234,7 +13234,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -13750,6 +13750,15 @@
                 "minute": 89,
                 "extraTime": null,
                 "playerName": "Isaac Romero",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "51651415_38",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Gabriel Suazo",
                 "teamName": "Sevilla",
                 "text": null
               }
