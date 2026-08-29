@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T16:24:25Z",
+  "lastUpdated": "2026-08-29T16:25:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12096,9 +12096,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "2-2",
+          "result": "3-2",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -12526,6 +12526,24 @@
                 "playerName": "Jeremy Toljan",
                 "teamName": "Levante",
                 "text": "Nacho Pérez"
+              },
+              {
+                "id": "51624254_16",
+                "type": "GOAL",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Roger Brugué",
+                "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "51624330_17",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
@@ -17670,6 +17688,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Roger Brugué",
+      "team": "Levante",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Sergio Camello",
