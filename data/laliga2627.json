@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T17:49:22Z",
+  "lastUpdated": "2026-08-29T17:50:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "45'+1'",
+          "clock": "45'+2'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13074,6 +13074,15 @@
                 "minute": 22,
                 "extraTime": null,
                 "playerName": "Urko González de Zárate",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "51632467_10",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Roberto Fernández",
                 "teamName": "Espanyol",
                 "text": null
               }
@@ -17972,6 +17981,12 @@
       "penalties": 1
     },
     {
+      "player": "Roberto Fernández",
+      "team": "Espanyol",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Yassir Zabiri",
       "team": "Racing",
       "goals": 3,
@@ -17986,12 +18001,6 @@
     {
       "player": "Pierre-Emerick Aubameyang",
       "team": "Deportivo",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Roberto Fernández",
-      "team": "Espanyol",
       "goals": 2,
       "penalties": null
     },
