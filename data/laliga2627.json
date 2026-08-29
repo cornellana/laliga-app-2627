@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T17:27:19Z",
+  "lastUpdated": "2026-08-29T17:28:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -12666,7 +12666,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "24'",
+          "clock": "25'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -13073,7 +13073,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 22,
                 "extraTime": null,
-                "playerName": "Urko Gonzalez",
+                "playerName": "Urko González de Zárate",
                 "teamName": "Espanyol",
                 "text": null
               }
