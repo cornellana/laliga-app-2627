@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T17:50:18Z",
+  "lastUpdated": "2026-08-30T17:51:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14294,9 +14294,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "18'",
+          "clock": "19'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14686,6 +14686,15 @@
                 "minute": 13,
                 "extraTime": null,
                 "playerName": "Javi Guerra",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51722037_2",
+                "type": "GOAL",
+                "minute": 17,
+                "extraTime": null,
+                "playerName": "Pierre-Emerick Aubameyang",
                 "teamName": "Deportivo",
                 "text": null
               }
@@ -19546,6 +19555,12 @@
       "penalties": null
     },
     {
+      "player": "Pierre-Emerick Aubameyang",
+      "team": "Deportivo",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Raphinha",
       "team": "FC Barcelona",
       "goals": 3,
@@ -19578,12 +19593,6 @@
     {
       "player": "Mariano Díaz",
       "team": "Alavés",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Pierre-Emerick Aubameyang",
-      "team": "Deportivo",
       "goals": 2,
       "penalties": null
     },
