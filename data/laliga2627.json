@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T15:21:11Z",
+  "lastUpdated": "2026-08-30T15:22:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,7 +13790,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "18'",
+          "clock": "19'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -14028,17 +14028,17 @@
                   "events": null
                 },
                 {
-                  "id": "357858",
-                  "jersey": 14,
-                  "name": "Rafa Rodríguez",
+                  "id": "371564",
+                  "jersey": 23,
+                  "name": "Izan Merino",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "371564",
-                  "jersey": 23,
-                  "name": "Izan Merino",
+                  "id": "357858",
+                  "jersey": 14,
+                  "name": "Rafa Rodríguez",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
