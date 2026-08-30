@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T18:17:48Z",
+  "lastUpdated": "2026-08-30T18:18:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
