@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T19:18:06Z",
+  "lastUpdated": "2026-08-30T19:19:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14802,18 +14802,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jonathan Asp Jensen",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Bil Nsongo because of an injury"
               },
               {
                 "id": "51730206_17",
                 "type": "SUBSTITUTION",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Miguel Loureiro",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Ximo Navarro"
               }
             ]
           }
