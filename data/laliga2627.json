@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T18:22:14Z",
+  "lastUpdated": "2026-08-30T18:36:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14377,17 +14377,17 @@
                   "events": null
                 },
                 {
-                  "id": "414299",
-                  "jersey": 32,
-                  "name": "Bil Nsongo",
+                  "id": "122260",
+                  "jersey": 7,
+                  "name": "Pierre-Emerick Aubameyang",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "122260",
-                  "jersey": 7,
-                  "name": "Pierre-Emerick Aubameyang",
+                  "id": "414299",
+                  "jersey": 32,
+                  "name": "Bil Nsongo",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
