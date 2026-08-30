@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T17:46:57Z",
+  "lastUpdated": "2026-08-30T17:48:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14294,9 +14294,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "14'",
+          "clock": "16'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14679,7 +14679,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51721861_1",
+                "type": "OWN_GOAL",
+                "minute": 13,
+                "extraTime": null,
+                "playerName": "Javi Guerra",
+                "teamName": "Deportivo",
+                "text": null
+              }
+            ]
           }
         },
         {
