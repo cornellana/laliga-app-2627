@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T18:54:41Z",
+  "lastUpdated": "2026-08-30T18:55:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14715,6 +14715,24 @@
                 "playerName": "Mouctar Diakhaby",
                 "teamName": "Deportivo",
                 "text": null
+              },
+              {
+                "id": "51726810_7",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Hugo Duro",
+                "teamName": "Valencia",
+                "text": "Ryunosuke Sato"
+              },
+              {
+                "id": "51726811_8",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "David Otorbi",
+                "teamName": "Valencia",
+                "text": "Luis Rioja"
               }
             ]
           }
