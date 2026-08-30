@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T16:30:03Z",
+  "lastUpdated": "2026-08-30T16:31:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,7 +13790,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -14228,6 +14228,15 @@
                 "playerName": "Yan Diomande",
                 "teamName": "Real Madrid",
                 "text": "Brahim Díaz"
+              },
+              {
+                "id": "51716553_14",
+                "type": "YELLOW_CARD",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Chupe",
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
