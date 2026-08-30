@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T17:38:09Z",
+  "lastUpdated": "2026-08-30T17:39:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14353,17 +14353,17 @@
                   "events": null
                 },
                 {
-                  "id": "279609",
-                  "jersey": 14,
-                  "name": "Riki Rodríguez",
+                  "id": "297353",
+                  "jersey": 21,
+                  "name": "Mario Soriano Carreno",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "297353",
-                  "jersey": 21,
-                  "name": "Mario Soriano Carreno",
+                  "id": "279609",
+                  "jersey": 14,
+                  "name": "Riki Rodríguez",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
