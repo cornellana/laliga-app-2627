@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T16:56:30Z",
+  "lastUpdated": "2026-08-30T16:57:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13787,11 +13787,11 @@
           "away": "Málaga",
           "jornada": 3,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "4-0",
-          "state": "in",
-          "clock": "90'+3'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
