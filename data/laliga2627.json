@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T16:37:47Z",
+  "lastUpdated": "2026-08-30T16:38:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,7 +13790,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -14235,6 +14235,15 @@
                 "minute": 66,
                 "extraTime": null,
                 "playerName": "Chupe",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "51717172_15",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Málaga",
                 "text": null
               }
