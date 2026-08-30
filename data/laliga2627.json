@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T20:19:02Z",
+  "lastUpdated": "2026-08-30T20:36:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14846,8 +14846,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+2'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -15247,6 +15247,42 @@
                 "playerName": "Robert Navarro",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "51741344_4",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Iago Aspas",
+                "teamName": "Celta",
+                "text": "Hugo González"
+              },
+              {
+                "id": "51741345_5",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Javi Rueda",
+                "teamName": "Celta",
+                "text": "Javi Rodríguez"
+              },
+              {
+                "id": "51741346_6",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Yoel Lago",
+                "teamName": "Celta",
+                "text": "Abdoulaye Faye"
+              },
+              {
+                "id": "51741347_7",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Miguel Román",
+                "teamName": "Celta",
+                "text": "Ilaix Moriba"
               }
             ]
           }
