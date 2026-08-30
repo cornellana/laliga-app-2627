@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T16:52:06Z",
+  "lastUpdated": "2026-08-30T16:53:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,7 +13790,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "88'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -14261,9 +14261,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 87,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Arda Güler",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Jude Bellingham"
+              },
+              {
+                "id": "51718415_20",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Ramón Enríquez",
+                "teamName": "Málaga",
+                "text": "Izan Merino"
               }
             ]
           }
