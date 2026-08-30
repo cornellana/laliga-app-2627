@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T19:27:07Z",
+  "lastUpdated": "2026-08-30T19:28:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14814,6 +14814,24 @@
                 "playerName": "Miguel Loureiro",
                 "teamName": "Deportivo",
                 "text": "Ximo Navarro"
+              },
+              {
+                "id": "51731970_18",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Adrià Alti",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51731971_19",
+                "type": "RED_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Second yellow card to Adrià Alti",
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
