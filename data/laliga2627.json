@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T19:17:00Z",
+  "lastUpdated": "2026-08-30T19:18:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,8 +14296,8 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "83'",
-          "statusText": "In Progress",
+          "clock": "84'",
+          "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
@@ -14793,8 +14793,26 @@
                 "type": "SUBSTITUTION",
                 "minute": 82,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Dani Raba",
                 "teamName": "Valencia",
+                "text": "Arnau Martínez"
+              },
+              {
+                "id": "51730205_16",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51730206_17",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
