@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T16:08:06Z",
+  "lastUpdated": "2026-08-30T16:10:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,8 +13790,8 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -14198,9 +14198,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo Martínez",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Rafa Rodríguez"
               }
             ]
           }
