@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T16:23:27Z",
+  "lastUpdated": "2026-08-30T16:24:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,7 +13790,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -14201,6 +14201,24 @@
                 "playerName": "Pablo Martínez",
                 "teamName": "Málaga",
                 "text": "Rafa Rodríguez"
+              },
+              {
+                "id": "51716273_11",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "José Salinas",
+                "teamName": "Málaga",
+                "text": "Carlos Puga"
+              },
+              {
+                "id": "51716274_12",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Juan Cruz",
+                "teamName": "Málaga",
+                "text": "Joaquín Muñoz"
               }
             ]
           }
