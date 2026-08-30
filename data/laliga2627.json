@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T16:41:05Z",
+  "lastUpdated": "2026-08-30T16:42:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,8 +13790,8 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "78'",
-          "statusText": "In Progress",
+          "clock": "79'",
+          "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -14246,6 +14246,15 @@
                 "playerName": "Haitam Abaida",
                 "teamName": "Málaga",
                 "text": "Einar Galilea"
+              },
+              {
+                "id": "51717546_16",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
