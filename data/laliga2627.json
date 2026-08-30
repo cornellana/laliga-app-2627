@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T17:51:24Z",
+  "lastUpdated": "2026-08-30T17:52:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "19'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14685,7 +14685,7 @@
                 "type": "OWN_GOAL",
                 "minute": 13,
                 "extraTime": null,
-                "playerName": "Javi Guerra",
+                "playerName": "César Tárrega",
                 "teamName": "Deportivo",
                 "text": null
               },
