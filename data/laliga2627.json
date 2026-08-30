@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T16:28:57Z",
+  "lastUpdated": "2026-08-30T16:30:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,7 +13790,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -14219,6 +14219,15 @@
                 "playerName": "Juan Cruz",
                 "teamName": "Málaga",
                 "text": "Joaquín Muñoz"
+              },
+              {
+                "id": "51716473_13",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Yan Diomande",
+                "teamName": "Real Madrid",
+                "text": "Brahim Díaz"
               }
             ]
           }
