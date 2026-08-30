@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T19:15:54Z",
+  "lastUpdated": "2026-08-30T19:17:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,8 +14296,8 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "82'",
-          "statusText": "Second Half",
+          "clock": "83'",
+          "statusText": "In Progress",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
@@ -14787,6 +14787,15 @@
                 "playerName": "Adrià Alti",
                 "teamName": "Deportivo",
                 "text": "Mario Soriano"
+              },
+              {
+                "id": "51730017_15",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
