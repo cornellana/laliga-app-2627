@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T15:29:58Z",
+  "lastUpdated": "2026-08-30T15:31:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13788,10 +13788,10 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "26'",
-          "statusText": "First Half",
+          "clock": "28'",
+          "statusText": "In Progress",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -14172,6 +14172,15 @@
                 "minute": 19,
                 "extraTime": null,
                 "playerName": "Jude Bellingham",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51711972_4",
+                "type": "OWN_GOAL",
+                "minute": 26,
+                "extraTime": null,
+                "playerName": "Alfonso Herrero",
                 "teamName": "Real Madrid",
                 "text": null
               }
