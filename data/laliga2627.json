@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T21:22:31Z",
+  "lastUpdated": "2026-08-30T21:23:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14843,11 +14843,11 @@
           "away": "Athletic",
           "jornada": 3,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-2",
-          "state": "in",
-          "clock": "90'+3'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
