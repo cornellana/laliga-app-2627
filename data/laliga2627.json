@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T20:57:09Z",
+  "lastUpdated": "2026-08-30T20:58:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14846,7 +14846,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "67'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -15321,22 +15321,22 @@
                 "text": "Íñigo Ruiz de Galarreta"
               },
               {
-                "id": "51744236_13",
-                "type": "SUBSTITUTION",
-                "minute": 65,
-                "extraTime": null,
-                "playerName": "Gorka Guruzeta",
-                "teamName": "Athletic",
-                "text": "Iñaki Williams"
-              },
-              {
-                "id": "51744237_14",
+                "id": "51744237_13",
                 "type": "SUBSTITUTION",
                 "minute": 65,
                 "extraTime": null,
                 "playerName": "Peio Canales",
                 "teamName": "Athletic",
                 "text": "Oihan Sancet"
+              },
+              {
+                "id": "51744236_14",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Gorka Guruzeta",
+                "teamName": "Athletic",
+                "text": "Iñaki Williams"
               }
             ]
           }
