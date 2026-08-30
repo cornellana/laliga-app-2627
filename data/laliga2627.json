@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T21:20:18Z",
+  "lastUpdated": "2026-08-30T21:21:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14846,7 +14846,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
