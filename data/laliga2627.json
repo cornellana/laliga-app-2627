@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T18:37:13Z",
+  "lastUpdated": "2026-08-30T18:40:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,8 +14296,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "47'",
+          "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
@@ -14542,17 +14542,17 @@
                   "events": null
                 },
                 {
-                  "id": "360096",
-                  "jersey": 39,
-                  "name": "Ryunosuke Sato",
+                  "id": "231603",
+                  "jersey": 18,
+                  "name": "Pepelu",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "231603",
-                  "jersey": 18,
-                  "name": "Pepelu",
+                  "id": "248681",
+                  "jersey": 23,
+                  "name": "Filip Ugrinic",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -14566,9 +14566,9 @@
                   "events": null
                 },
                 {
-                  "id": "248681",
-                  "jersey": 23,
-                  "name": "Filip Ugrinic",
+                  "id": "360096",
+                  "jersey": 39,
+                  "name": "Ryunosuke Sato",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
