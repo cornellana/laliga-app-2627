@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T20:51:35Z",
+  "lastUpdated": "2026-08-30T20:52:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14846,7 +14846,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -15301,6 +15301,15 @@
                 "playerName": "Hugo Álvarez",
                 "teamName": "Celta",
                 "text": "Williot Swedberg"
+              },
+              {
+                "id": "51743729_11",
+                "type": "YELLOW_CARD",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Robert Navarro",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
