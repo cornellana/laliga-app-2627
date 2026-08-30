@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T19:53:39Z",
+  "lastUpdated": "2026-08-30T19:54:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14844,9 +14844,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "0-2",
           "state": "in",
-          "clock": "22'",
+          "clock": "23'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -15236,6 +15236,15 @@
                 "minute": 20,
                 "extraTime": null,
                 "playerName": "Alex Berenguer",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "51736024_2",
+                "type": "GOAL",
+                "minute": 22,
+                "extraTime": null,
+                "playerName": "Robert Navarro",
                 "teamName": "Athletic",
                 "text": null
               }
@@ -20372,6 +20381,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Robert Navarro",
+      "team": "Athletic",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Sergio Camello",
