@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T19:07:56Z",
+  "lastUpdated": "2026-08-30T19:09:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14769,6 +14769,24 @@
                 "playerName": "Aliou Dieng",
                 "teamName": "Valencia",
                 "text": "Pepelu"
+              },
+              {
+                "id": "51728316_13",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Yeremay Hernández",
+                "teamName": "Deportivo",
+                "text": "Luismi Cruz"
+              },
+              {
+                "id": "51728317_14",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Adrià Alti",
+                "teamName": "Deportivo",
+                "text": "Mario Soriano"
               }
             ]
           }
