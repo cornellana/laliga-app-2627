@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T16:55:24Z",
+  "lastUpdated": "2026-08-30T16:56:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,7 +13790,7 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -14273,6 +14273,15 @@
                 "playerName": "Ramón Enríquez",
                 "teamName": "Málaga",
                 "text": "Izan Merino"
+              },
+              {
+                "id": "51718674_21",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Arda Güler",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -19235,6 +19244,12 @@
       "team": "Osasuna",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Arda Güler",
+      "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Buba Sangaré",
