@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T17:33:47Z",
+  "lastUpdated": "2026-08-30T17:34:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14502,9 +14502,9 @@
                   "events": null
                 },
                 {
-                  "id": "231603",
-                  "jersey": 18,
-                  "name": "Pepelu",
+                  "id": "330552",
+                  "jersey": 5,
+                  "name": "César Tárrega",
                   "position": "CD",
                   "isStarter": true,
                   "events": null
@@ -14518,9 +14518,9 @@
                   "events": null
                 },
                 {
-                  "id": "330552",
-                  "jersey": 5,
-                  "name": "César Tárrega",
+                  "id": "308728",
+                  "jersey": 22,
+                  "name": "Arnau Martínez",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -14534,17 +14534,17 @@
                   "events": null
                 },
                 {
-                  "id": "308728",
-                  "jersey": 22,
-                  "name": "Arnau Martínez",
+                  "id": "264177",
+                  "jersey": 11,
+                  "name": "Luis Rioja",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "264177",
-                  "jersey": 11,
-                  "name": "Luis Rioja",
+                  "id": "231603",
+                  "jersey": 18,
+                  "name": "Pepelu",
                   "position": "CM",
                   "isStarter": true,
                   "events": null
