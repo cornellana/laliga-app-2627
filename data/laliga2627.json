@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T20:39:28Z",
+  "lastUpdated": "2026-08-30T20:40:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14846,8 +14846,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "49'",
-          "statusText": "In Progress",
+          "clock": "50'",
+          "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -15283,6 +15283,15 @@
                 "playerName": "Miguel Román",
                 "teamName": "Celta",
                 "text": "Ilaix Moriba"
+              },
+              {
+                "id": "51741918_9",
+                "type": "YELLOW_CARD",
+                "minute": 48,
+                "extraTime": null,
+                "playerName": "Yuri Berchiche",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
