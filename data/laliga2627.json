@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T15:53:08Z",
+  "lastUpdated": "2026-08-30T16:08:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14191,6 +14191,15 @@
                 "extraTime": null,
                 "playerName": "Kylian Mbappé",
                 "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51715121_7",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
                 "text": null
               }
             ]
