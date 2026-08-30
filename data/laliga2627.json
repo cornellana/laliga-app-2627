@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T16:53:13Z",
+  "lastUpdated": "2026-08-30T16:54:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,7 +13790,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
