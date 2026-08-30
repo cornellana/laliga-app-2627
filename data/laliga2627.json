@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T21:18:05Z",
+  "lastUpdated": "2026-08-30T21:19:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14846,7 +14846,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -15361,9 +15361,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Johaneko Louis-Jean",
                 "teamName": "Athletic",
-                "text": null
+                "text": "Jesús Areso"
               }
             ]
           }
