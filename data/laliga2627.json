@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T21:31:25Z",
+  "lastUpdated": "2026-08-30T00:02:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13864,6 +13864,28 @@
           "statusText": null,
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
+          "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "jornada": 6,
+      "games": [
+        {
+          "id": "401882867",
+          "time": "21:00",
+          "home": "R. Sociedad",
+          "away": "Celta",
+          "jornada": 6,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
           "details": null
         }
       ]
