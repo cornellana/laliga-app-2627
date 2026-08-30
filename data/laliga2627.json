@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T17:41:27Z",
+  "lastUpdated": "2026-08-30T17:42:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "9'",
+          "clock": "10'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14566,17 +14566,17 @@
                   "events": null
                 },
                 {
-                  "id": "360096",
-                  "jersey": 39,
-                  "name": "Ryunosuke Sato",
+                  "id": "211770",
+                  "jersey": 6,
+                  "name": "Umar Sadiq",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "211770",
-                  "jersey": 6,
-                  "name": "Umar Sadiq",
+                  "id": "360096",
+                  "jersey": 39,
+                  "name": "Ryunosuke Sato",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
