@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T15:22:17Z",
+  "lastUpdated": "2026-08-30T15:23:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13788,9 +13788,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "19'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -14165,7 +14165,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51711578_3",
+                "type": "GOAL",
+                "minute": 19,
+                "extraTime": null,
+                "playerName": "Jude Bellingham",
+                "teamName": "Real Madrid",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -19062,6 +19072,12 @@
       "penalties": null
     },
     {
+      "player": "Jude Bellingham",
+      "team": "Real Madrid",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 2,
@@ -19210,12 +19226,6 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "Jude Bellingham",
-      "team": "Real Madrid",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Karim Adeyemi",
