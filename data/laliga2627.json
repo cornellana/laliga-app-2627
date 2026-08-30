@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T17:59:07Z",
+  "lastUpdated": "2026-08-30T18:00:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "27'",
+          "clock": "28'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14696,6 +14696,15 @@
                 "extraTime": null,
                 "playerName": "Pierre-Emerick Aubameyang",
                 "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51722466_3",
+                "type": "GOAL",
+                "minute": 26,
+                "extraTime": null,
+                "playerName": "Umar Sadiq",
+                "teamName": "Valencia",
                 "text": null
               }
             ]
@@ -19857,6 +19866,12 @@
     {
       "player": "Tyrhys Dolan",
       "team": "Espanyol",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Umar Sadiq",
+      "team": "Valencia",
       "goals": 1,
       "penalties": null
     },
