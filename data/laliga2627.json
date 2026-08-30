@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T15:17:53Z",
+  "lastUpdated": "2026-08-30T15:18:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,7 +13790,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "15'",
+          "clock": "16'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -13985,7 +13985,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-1-4-1",
+              "formation": "4-4-2",
               "players": [
                 {
                   "id": "240624",
@@ -14012,14 +14012,6 @@
                   "events": null
                 },
                 {
-                  "id": "371564",
-                  "jersey": 23,
-                  "name": "Izan Merino",
-                  "position": "DM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "376166",
                   "jersey": 31,
                   "name": "Rafa Garrido",
@@ -14036,17 +14028,17 @@
                   "events": null
                 },
                 {
-                  "id": "357858",
-                  "jersey": 14,
-                  "name": "Rafa Rodríguez",
+                  "id": "324098",
+                  "jersey": 8,
+                  "name": "Carlos Dotor",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "324098",
-                  "jersey": 8,
-                  "name": "Carlos Dotor",
+                  "id": "371564",
+                  "jersey": 23,
+                  "name": "Izan Merino",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -14071,7 +14063,15 @@
                   "id": "388602",
                   "jersey": 9,
                   "name": "Chupete",
-                  "position": "F",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "357858",
+                  "jersey": 14,
+                  "name": "Rafa Rodríguez",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
