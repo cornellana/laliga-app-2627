@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T21:04:51Z",
+  "lastUpdated": "2026-08-30T21:05:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14846,7 +14846,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -15346,6 +15346,15 @@
                 "playerName": "Beñat Gerenabarrena",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "51744997_16",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Nico Williams",
+                "teamName": "Athletic",
+                "text": "Robert Navarro"
               }
             ]
           }
