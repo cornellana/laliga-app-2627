@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T15:34:24Z",
+  "lastUpdated": "2026-08-30T15:35:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13788,9 +13788,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "3-0",
           "state": "in",
-          "clock": "31'",
+          "clock": "32'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -14181,6 +14181,15 @@
                 "minute": 26,
                 "extraTime": null,
                 "playerName": "Alfonso Herrero",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51712342_5",
+                "type": "GOAL",
+                "minute": 30,
+                "extraTime": null,
+                "playerName": "Kylian Mbappé",
                 "teamName": "Real Madrid",
                 "text": null
               }
@@ -19045,14 +19054,14 @@
   "standings": [],
   "topScorers": [
     {
-      "player": "Fermín López",
-      "team": "FC Barcelona",
-      "goals": 3,
+      "player": "Kylian Mbappé",
+      "team": "Real Madrid",
+      "goals": 4,
       "penalties": null
     },
     {
-      "player": "Kylian Mbappé",
-      "team": "Real Madrid",
+      "player": "Fermín López",
+      "team": "FC Barcelona",
       "goals": 3,
       "penalties": null
     },
