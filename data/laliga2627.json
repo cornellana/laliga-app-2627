@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T19:01:19Z",
+  "lastUpdated": "2026-08-30T19:02:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14758,6 +14758,15 @@
                 "minute": 64,
                 "extraTime": null,
                 "playerName": "Mouctar Diakhaby",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "51727388_12",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Valencia",
                 "text": null
               }
