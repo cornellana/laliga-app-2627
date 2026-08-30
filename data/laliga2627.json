@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T20:56:01Z",
+  "lastUpdated": "2026-08-30T20:57:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14846,7 +14846,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -15310,6 +15310,33 @@
                 "playerName": "Robert Navarro",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "51744238_12",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Mikel Jauregizar",
+                "teamName": "Athletic",
+                "text": "Íñigo Ruiz de Galarreta"
+              },
+              {
+                "id": "51744236_13",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Gorka Guruzeta",
+                "teamName": "Athletic",
+                "text": "Iñaki Williams"
+              },
+              {
+                "id": "51744237_14",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Peio Canales",
+                "teamName": "Athletic",
+                "text": "Oihan Sancet"
               }
             ]
           }
