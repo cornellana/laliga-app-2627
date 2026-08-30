@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T19:02:25Z",
+  "lastUpdated": "2026-08-30T19:03:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -14296,7 +14296,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -14766,9 +14766,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 66,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Aliou Dieng",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Pepelu"
               }
             ]
           }
