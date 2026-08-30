@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T15:18:59Z",
+  "lastUpdated": "2026-08-30T15:20:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -13790,7 +13790,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "16'",
+          "clock": "17'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -14028,9 +14028,9 @@
                   "events": null
                 },
                 {
-                  "id": "324098",
-                  "jersey": 8,
-                  "name": "Carlos Dotor",
+                  "id": "357858",
+                  "jersey": 14,
+                  "name": "Rafa Rodríguez",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -14060,17 +14060,17 @@
                   "events": null
                 },
                 {
-                  "id": "388602",
-                  "jersey": 9,
-                  "name": "Chupete",
+                  "id": "324098",
+                  "jersey": 8,
+                  "name": "Carlos Dotor",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "357858",
-                  "jersey": 14,
-                  "name": "Rafa Rodríguez",
+                  "id": "388602",
+                  "jersey": 9,
+                  "name": "Chupete",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
