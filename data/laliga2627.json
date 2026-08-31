@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T17:43:13Z",
+  "lastUpdated": "2026-08-31T17:44:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "11'",
+          "clock": "12'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15441,17 +15441,17 @@
                   "events": null
                 },
                 {
-                  "id": "286176",
-                  "jersey": 7,
-                  "name": "Jon Moncayola",
+                  "id": "359154",
+                  "jersey": 8,
+                  "name": "Iker Muñoz",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "359154",
-                  "jersey": 8,
-                  "name": "Iker Muñoz",
+                  "id": "286176",
+                  "jersey": 7,
+                  "name": "Jon Moncayola",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
