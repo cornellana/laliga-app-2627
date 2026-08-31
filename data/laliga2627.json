@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T20:54:14Z",
+  "lastUpdated": "2026-08-31T20:55:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15941,9 +15941,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "3-1",
+          "result": "3-2",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16368,11 +16368,20 @@
               {
                 "id": "51779727_19",
                 "type": "SUBSTITUTION",
-                "minute": 58,
+                "minute": 57,
                 "extraTime": null,
                 "playerName": "Fran Pérez",
                 "teamName": "Rayo",
                 "text": "Jorge de Frutos"
+              },
+              {
+                "id": "51779742_20",
+                "type": "GOAL",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Sergio Camello",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
@@ -21217,6 +21226,12 @@
       "penalties": null
     },
     {
+      "player": "Sergio Camello",
+      "team": "Rayo",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Yassir Zabiri",
       "team": "Racing",
       "goals": 3,
@@ -21255,12 +21270,6 @@
     {
       "player": "Roger Brugué",
       "team": "Levante",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Sergio Camello",
-      "team": "Rayo",
       "goals": 2,
       "penalties": null
     },
