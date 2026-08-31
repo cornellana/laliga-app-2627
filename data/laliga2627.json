@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:07:09Z",
+  "lastUpdated": "2026-08-31T19:08:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15860,6 +15860,15 @@
               },
               {
                 "id": "51773347_23",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Raúl García",
+                "teamName": "Osasuna",
+                "text": "Aimar Oroz because of an injury"
+              },
+              {
+                "id": "51773386_24",
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
