@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T21:21:02Z",
+  "lastUpdated": "2026-08-31T21:22:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,7 +15943,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16445,6 +16445,15 @@
                 "playerName": "Karim Adeyemi",
                 "teamName": "FC Barcelona",
                 "text": "Anthony Gordon"
+              },
+              {
+                "id": "51780695_28",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
