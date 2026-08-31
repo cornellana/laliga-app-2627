@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:00:25Z",
+  "lastUpdated": "2026-08-31T19:01:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15828,6 +15828,15 @@
                 "minute": 60,
                 "extraTime": null,
                 "playerName": "Enes Ünal",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "51773081_20",
+                "type": "YELLOW_CARD",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Orel Mangala",
                 "teamName": "Getafe",
                 "text": null
               }
