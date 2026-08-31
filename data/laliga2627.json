@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T20:57:34Z",
+  "lastUpdated": "2026-08-31T20:58:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,7 +15943,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16381,6 +16381,15 @@
                 "extraTime": null,
                 "playerName": "Sergio Camello",
                 "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "51779971_21",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
