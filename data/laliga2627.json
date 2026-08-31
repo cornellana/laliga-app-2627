@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T21:23:15Z",
+  "lastUpdated": "2026-08-31T21:24:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,8 +15943,8 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "88'",
-          "statusText": "In Progress",
+          "clock": "89'",
+          "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -16451,9 +16451,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Hamza Abdelkarim",
                 "teamName": "FC Barcelona",
-                "text": null
+                "text": "Raphinha"
               }
             ]
           }
