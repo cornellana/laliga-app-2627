@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T20:06:58Z",
+  "lastUpdated": "2026-08-31T20:08:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,8 +15943,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "34'",
-          "statusText": "First Half",
+          "clock": "35'",
+          "statusText": "In Progress",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -16339,9 +16339,9 @@
                 "text": null
               },
               {
-                "id": "51777057_7",
+                "id": "51777057_6",
                 "type": "SUBSTITUTION",
-                "minute": 33,
+                "minute": 32,
                 "extraTime": null,
                 "playerName": "Adrià Pedrosa",
                 "teamName": "Rayo",
