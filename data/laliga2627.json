@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T21:12:11Z",
+  "lastUpdated": "2026-08-31T21:13:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,8 +15943,8 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "77'",
-          "statusText": "Second Half",
+          "clock": "78'",
+          "statusText": "In Progress",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -16424,9 +16424,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Randy Nteka",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Unai López"
+              },
+              {
+                "id": "51780547_26",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "João Cancelo",
+                "teamName": "FC Barcelona",
+                "text": "Pedri"
               }
             ]
           }
