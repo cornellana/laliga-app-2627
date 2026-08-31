@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T20:53:08Z",
+  "lastUpdated": "2026-08-31T20:54:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,7 +15943,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16361,9 +16361,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 57,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pedro Díaz",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Gnangoro"
+              },
+              {
+                "id": "51779727_19",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": "Fran Pérez",
+                "teamName": "Rayo",
+                "text": "Jorge de Frutos"
               }
             ]
           }
