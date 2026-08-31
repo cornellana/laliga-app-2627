@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T20:52:01Z",
+  "lastUpdated": "2026-08-31T20:53:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,7 +15943,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16354,6 +16354,15 @@
                 "extraTime": null,
                 "playerName": "Florian Lejeune",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "51779655_18",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
                 "text": null
               }
             ]
