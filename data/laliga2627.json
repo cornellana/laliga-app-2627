@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T20:18:02Z",
+  "lastUpdated": "2026-08-31T20:19:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15941,10 +15941,10 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "3-1",
           "state": "in",
-          "clock": "45'",
-          "statusText": "First Half",
+          "clock": "45'+1'",
+          "statusText": "In Progress",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -16346,6 +16346,15 @@
                 "playerName": "Adrià Pedrosa",
                 "teamName": "Rayo",
                 "text": "Jozhua Vertrouwd because of an injury"
+              },
+              {
+                "id": "51777684_9",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": 1,
+                "playerName": "Jules Koundé",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -21368,6 +21377,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Jules Koundé",
+      "team": "FC Barcelona",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Karim Adeyemi",
