@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:30:22Z",
+  "lastUpdated": "2026-08-31T19:31:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15381,11 +15381,11 @@
           "away": "Getafe",
           "jornada": 3,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-0",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": {
@@ -15918,6 +15918,15 @@
                 "minute": 90,
                 "extraTime": 3,
                 "playerName": "Sergio Herrera",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "51774923_30",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Enrique Barja",
                 "teamName": "Osasuna",
                 "text": null
               }
