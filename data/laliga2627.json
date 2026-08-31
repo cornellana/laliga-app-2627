@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T17:49:57Z",
+  "lastUpdated": "2026-08-31T17:51:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "18'",
+          "clock": "19'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15767,7 +15767,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51771365_1",
+                "type": "YELLOW_CARD",
+                "minute": 17,
+                "extraTime": null,
+                "playerName": "Jorge Herrando",
+                "teamName": "Osasuna",
+                "text": null
+              }
+            ]
           }
         },
         {
