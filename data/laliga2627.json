@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T17:34:20Z",
+  "lastUpdated": "2026-08-31T17:35:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15622,17 +15622,17 @@
                   "events": null
                 },
                 {
-                  "id": "307186",
-                  "jersey": 16,
-                  "name": "Francho Serrano",
+                  "id": "228424",
+                  "jersey": 23,
+                  "name": "Orel Mangala",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "228424",
-                  "jersey": 23,
-                  "name": "Orel Mangala",
+                  "id": "307186",
+                  "jersey": 16,
+                  "name": "Francho Serrano",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
