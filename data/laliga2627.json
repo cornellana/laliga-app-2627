@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:01:31Z",
+  "lastUpdated": "2026-08-31T19:02:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15839,6 +15839,15 @@
                 "playerName": "Orel Mangala",
                 "teamName": "Getafe",
                 "text": null
+              },
+              {
+                "id": "51773103_21",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Alberto Risco",
+                "teamName": "Getafe",
+                "text": "Andrés García because of an injury"
               }
             ]
           }
