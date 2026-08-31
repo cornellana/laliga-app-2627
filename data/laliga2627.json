@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T20:04:45Z",
+  "lastUpdated": "2026-08-31T20:05:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,7 +15943,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "32'",
+          "clock": "33'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16336,6 +16336,15 @@
                 "extraTime": null,
                 "playerName": "Lamine Yamal",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "51777057_7",
+                "type": "SUBSTITUTION",
+                "minute": 33,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
                 "text": null
               }
             ]
