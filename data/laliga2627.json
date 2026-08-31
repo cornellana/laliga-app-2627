@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T18:19:22Z",
+  "lastUpdated": "2026-08-31T18:20:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'+2'",
+          "clock": "45'+3'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15793,6 +15793,15 @@
                 "extraTime": null,
                 "playerName": "Djené Dakonam",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "51772127_10",
+                "type": "PENALTY",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
                 "text": null
               }
             ]
@@ -20666,6 +20675,12 @@
       "penalties": null
     },
     {
+      "player": "Ante Budimir",
+      "team": "Osasuna",
+      "goals": 2,
+      "penalties": 2
+    },
+    {
       "player": "Jude Bellingham",
       "team": "Real Madrid",
       "goals": 2,
@@ -20722,12 +20737,6 @@
     {
       "player": "Andrés Martín",
       "team": "Racing",
-      "goals": 1,
-      "penalties": 1
-    },
-    {
-      "player": "Ante Budimir",
-      "team": "Osasuna",
       "goals": 1,
       "penalties": 1
     },
