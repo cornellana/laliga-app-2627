@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T18:18:16Z",
+  "lastUpdated": "2026-08-31T18:19:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15382,9 +15382,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "45'+1'",
+          "clock": "45'+2'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15785,6 +15785,15 @@
                 "playerName": "Enzo Boyomo",
                 "teamName": "Osasuna",
                 "text": "Jorge Herrando because of an injury"
+              },
+              {
+                "id": "51772126_9",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Djené Dakonam",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
