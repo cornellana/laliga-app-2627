@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:14:54Z",
+  "lastUpdated": "2026-08-31T19:15:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15890,9 +15890,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Kike Barja",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Moi Gómez"
               }
             ]
           }
