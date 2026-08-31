@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T21:06:38Z",
+  "lastUpdated": "2026-08-31T21:07:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15941,9 +15941,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "3-2",
+          "result": "4-2",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16400,6 +16400,15 @@
                 "playerName": "Rodri",
                 "teamName": "FC Barcelona",
                 "text": "Marc Bernal"
+              },
+              {
+                "id": "51780327_23",
+                "type": "GOAL",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -21214,16 +21223,16 @@
   "standings": [],
   "topScorers": [
     {
+      "player": "Raphinha",
+      "team": "FC Barcelona",
+      "goals": 5,
+      "penalties": 1
+    },
+    {
       "player": "Kylian Mbappé",
       "team": "Real Madrid",
       "goals": 4,
       "penalties": null
-    },
-    {
-      "player": "Raphinha",
-      "team": "FC Barcelona",
-      "goals": 4,
-      "penalties": 1
     },
     {
       "player": "Fermín López",
