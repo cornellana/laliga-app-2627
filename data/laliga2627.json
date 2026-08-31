@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:15:59Z",
+  "lastUpdated": "2026-08-31T19:17:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15893,6 +15893,15 @@
                 "playerName": "Kike Barja",
                 "teamName": "Osasuna",
                 "text": "Moi Gómez"
+              },
+              {
+                "id": "51773812_27",
+                "type": "YELLOW_CARD",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Raúl García",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
