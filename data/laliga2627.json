@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T20:05:52Z",
+  "lastUpdated": "2026-08-31T20:06:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,7 +15943,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "33'",
+          "clock": "34'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16343,9 +16343,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 33,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Adrià Pedrosa",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Jozhua Vertrouwd because of an injury"
               }
             ]
           }
