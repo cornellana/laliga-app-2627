@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T18:57:03Z",
+  "lastUpdated": "2026-08-31T18:58:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15819,6 +15819,15 @@
                 "minute": 58,
                 "extraTime": null,
                 "playerName": "Johan Mojica",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "51772934_19",
+                "type": "YELLOW_CARD",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Enes Ünal",
                 "teamName": "Getafe",
                 "text": null
               }
