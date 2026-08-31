@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T21:29:54Z",
+  "lastUpdated": "2026-08-31T21:31:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15940,11 +15940,11 @@
           "away": "Rayo",
           "jornada": 3,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "5-2",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
