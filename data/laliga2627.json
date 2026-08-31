@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:22:38Z",
+  "lastUpdated": "2026-08-31T19:23:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15902,6 +15902,15 @@
                 "playerName": "Raúl García",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "51774325_28",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Borja Mayoral",
+                "teamName": "Getafe",
+                "text": "Martín Satriano"
               }
             ]
           }
