@@ -8,6 +8,18 @@ final class MatchStore {
     var isLoading = true   // spinner desde el primer render, sin esperar al .task
     var errorMessage: String?
 
+    /// Marca de tiempo del dato que hay ahora en pantalla, sacada del propio
+    /// JSON. No es cuándo se pidió, es de cuándo son los datos.
+    private(set) var dataTimestamp: Date?
+
+    /// `true` si el último intento de refresco no llegó a buen puerto.
+    ///
+    /// Hace falta porque hasta ahora solo se avisaba de los errores de red
+    /// conocidos: si fallaba cualquier otra cosa —una respuesta rara del
+    /// servidor, un JSON que no decodifica— la app se quedaba callada con los
+    /// datos viejos y desde fuera parecía que simplemente no pasaba nada.
+    private(set) var lastRefreshFailed = false
+
     // Caché en memoria por temporada (evita refetches innecesarios al volver a la temporada)
     private var cache: [String: MatchSnapshot] = [:]
 
@@ -48,6 +60,7 @@ final class MatchStore {
         isLoading = true
         if let cached = decodeOffMain({ self.loadFromUserDefaults(season) }) {
             cache[season.code] = cached
+            dataTimestamp = Self.parseTimestamp(cached.lastUpdated)
             isLoading = false          // datos disponibles: UI visible mientras se refresca la red
         }
 
@@ -59,6 +72,7 @@ final class MatchStore {
             isLoading = true
             if let seed = decodeOffMain({ self.loadSeedFromBundle(season) }) {
                 cache[season.code] = seed
+                dataTimestamp = Self.parseTimestamp(seed.lastUpdated)
             }
             isLoading = false
         }
@@ -69,8 +83,12 @@ final class MatchStore {
         do {
             let fresh = try await fetchRemote(season)
             cache[season.code] = fresh
+            dataTimestamp = Self.parseTimestamp(fresh.lastUpdated)
+            lastRefreshFailed = false
+            errorMessage = nil
             saveToUserDefaults(fresh, season: season)
         } catch {
+            lastRefreshFailed = true
             if let urlError = error as? URLError,
                [.notConnectedToInternet, .networkConnectionLost,
                 .timedOut, .cannotConnectToHost].contains(urlError.code) {
@@ -78,6 +96,18 @@ final class MatchStore {
             }
         }
         isLoading = false
+    }
+
+    /// Antigüedad del dato en pantalla, o `nil` si no se sabe.
+    var dataAge: TimeInterval? {
+        dataTimestamp.map { Date().timeIntervalSince($0) }
+    }
+
+    /// Convierte la marca del JSON a fecha. Es `"2026-08-31T20:06:58Z"`.
+    private static func parseTimestamp(_ raw: String) -> Date? {
+        let f = ISO8601DateFormatter()
+        f.formatOptions = [.withInternetDateTime]
+        return f.date(from: raw)
     }
 
     /// Ejecuta un decode JSON en el main actor (conformances Codable son @MainActor con InferIsolatedConformances).

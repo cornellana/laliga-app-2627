@@ -163,6 +163,7 @@ struct ContentView: View {
                                     .font(.system(size: 7, weight: .semibold))
                                     .foregroundStyle(Color(hex: 0xE8460B))
                             }
+                            frescuraLabel
                         }
                     }
                 }
@@ -237,6 +238,52 @@ struct ContentView: View {
                 .environment(highlightSettings)
         }
         .preferredColorScheme(.dark)
+    }
+
+    // MARK: - Frescura de los datos
+
+    /// Aviso de que los datos no están al día.
+    ///
+    /// Solo aparece cuando hay algo que decir. Mientras todo va bien no se
+    /// enseña nada: una etiqueta permanente se convierte en ruido y deja de
+    /// leerse justo el día que importa.
+    ///
+    /// Existe porque el 31/08/26 la lista se quedó parada con dos partidos en
+    /// juego y no había forma de saber, desde la app, si es que no había
+    /// novedades o es que el refresco estaba fallando.
+    @ViewBuilder
+    private var frescuraLabel: some View {
+        if let aviso = frescuraTexto {
+            HStack(spacing: 3) {
+                Image(systemName: "exclamationmark.triangle.fill")
+                    .font(.system(size: 7))
+                Text(aviso)
+                    .font(.system(size: 9, weight: .medium))
+            }
+            .foregroundStyle(Color(hex: 0xE8A33C))
+        }
+    }
+
+    private var frescuraTexto: String? {
+        // Un fallo del último intento se dice siempre, aunque el dato sea
+        // reciente: significa que ha dejado de llegar.
+        if store.lastRefreshFailed, let marca = store.dataTimestamp {
+            let f = DateFormatter()
+            f.locale = Locale(identifier: "es_ES")
+            f.timeZone = TimeZone(identifier: "Europe/Madrid")
+            f.dateFormat = "HH:mm"
+            return "sin actualizar desde las \(f.string(from: marca))"
+        }
+        if store.lastRefreshFailed { return "sin actualizar" }
+
+        // Sin fallo, la antigüedad solo importa con el balón rodando: en
+        // reposo el actualizador publica cada diez minutos y avisar de eso
+        // sería dar la alarma cada diez minutos sin que pase nada.
+        let hayPartido = store.matchDays.contains { $0.games.contains(where: \.isLive) }
+        guard hayPartido, let edad = store.dataAge, edad > 180 else { return nil }
+        let minutos = Int(edad / 60)
+        if minutos < 60 { return "datos de hace \(minutos) min" }
+        return "datos de hace \(minutos / 60) h"
     }
 
     // MARK: - Refresco automático
