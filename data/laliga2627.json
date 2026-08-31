@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:51:26Z",
+  "lastUpdated": "2026-08-31T19:52:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15941,9 +15941,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "19'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16318,6 +16318,15 @@
                 "extraTime": null,
                 "playerName": "Sergio Camello",
                 "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "51776186_2",
+                "type": "GOAL",
+                "minute": 19,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
@@ -21139,6 +21148,12 @@
       "penalties": null
     },
     {
+      "player": "Raphinha",
+      "team": "FC Barcelona",
+      "goals": 4,
+      "penalties": 1
+    },
+    {
       "player": "Fermín López",
       "team": "FC Barcelona",
       "goals": 3,
@@ -21149,12 +21164,6 @@
       "team": "Deportivo",
       "goals": 3,
       "penalties": null
-    },
-    {
-      "player": "Raphinha",
-      "team": "FC Barcelona",
-      "goals": 3,
-      "penalties": 1
     },
     {
       "player": "Roberto Fernández",
