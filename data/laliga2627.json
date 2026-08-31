@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T18:53:45Z",
+  "lastUpdated": "2026-08-31T18:54:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "58'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15812,6 +15812,15 @@
                 "playerName": "Jonathan Dubasin",
                 "teamName": "Osasuna",
                 "text": "Rubén García"
+              },
+              {
+                "id": "51772847_18",
+                "type": "YELLOW_CARD",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": "Johan Mojica",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
