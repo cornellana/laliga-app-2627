@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T18:41:34Z",
+  "lastUpdated": "2026-08-31T18:42:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15809,9 +15809,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jonathan Dubasin",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Rubén García"
               }
             ]
           }
