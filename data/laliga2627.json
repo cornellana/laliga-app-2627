@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T21:23:37Z",
+  "lastUpdated": "2026-08-31T00:04:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15426,6 +15426,28 @@
           "statusText": null,
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
+          "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "jornada": 4,
+      "games": [
+        {
+          "id": "401882894",
+          "time": "21:00",
+          "home": "Betis",
+          "away": "Real Madrid",
+          "jornada": 4,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
           "details": null
         }
       ]
