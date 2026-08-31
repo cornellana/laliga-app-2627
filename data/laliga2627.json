@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T18:26:11Z",
+  "lastUpdated": "2026-08-31T18:41:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,8 +15384,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'+9'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": {
@@ -15801,6 +15801,15 @@
                 "minute": 45,
                 "extraTime": 2,
                 "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "51772528_14",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Osasuna",
                 "text": null
               }
