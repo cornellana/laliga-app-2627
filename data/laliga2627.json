@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:41:24Z",
+  "lastUpdated": "2026-08-31T19:42:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,7 +15943,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "9'",
+          "clock": "10'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16173,10 +16173,18 @@
                   "events": null
                 },
                 {
-                  "id": "260740",
-                  "jersey": 19,
-                  "name": "Jorge de Frutos",
+                  "id": "203711",
+                  "jersey": 8,
+                  "name": "Unai López",
                   "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "3115984",
+                  "jersey": 36,
+                  "name": "Gnangoro Bouare Samake",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -16184,14 +16192,6 @@
                   "id": "264217",
                   "jersey": 23,
                   "name": "Óscar Valentín",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "203711",
-                  "jersey": 8,
-                  "name": "Unai López",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -16213,9 +16213,9 @@
                   "events": null
                 },
                 {
-                  "id": "3115984",
-                  "jersey": 36,
-                  "name": "Gnangoro Bouare Samake",
+                  "id": "260740",
+                  "jersey": 19,
+                  "name": "Jorge de Frutos",
                   "position": "AM-R",
                   "isStarter": true,
                   "events": null
