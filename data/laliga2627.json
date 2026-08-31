@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T18:13:12Z",
+  "lastUpdated": "2026-08-31T18:14:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,8 +15384,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "41'",
-          "statusText": "In Progress",
+          "clock": "42'",
+          "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": {
@@ -15776,6 +15776,15 @@
                 "playerName": "Jorge Herrando",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "51772006_6",
+                "type": "SUBSTITUTION",
+                "minute": 39,
+                "extraTime": null,
+                "playerName": "Enzo Boyomo",
+                "teamName": "Osasuna",
+                "text": "Jorge Herrando because of an injury"
               }
             ]
           }
