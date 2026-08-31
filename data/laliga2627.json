@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T21:14:25Z",
+  "lastUpdated": "2026-08-31T21:15:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,7 +15943,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16431,11 +16431,20 @@
               {
                 "id": "51780547_26",
                 "type": "SUBSTITUTION",
-                "minute": 78,
+                "minute": 77,
                 "extraTime": null,
                 "playerName": "João Cancelo",
                 "teamName": "FC Barcelona",
                 "text": "Pedri"
+              },
+              {
+                "id": "51780594_27",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
