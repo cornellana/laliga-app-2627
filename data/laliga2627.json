@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T21:09:57Z",
+  "lastUpdated": "2026-08-31T21:11:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,7 +15943,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16409,6 +16409,15 @@
                 "playerName": "Raphinha",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "51780449_24",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Alemão",
+                "teamName": "Rayo",
+                "text": "Sergio Camello"
               }
             ]
           }
