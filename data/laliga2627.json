@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T20:46:21Z",
+  "lastUpdated": "2026-08-31T20:47:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15941,9 +15941,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "3-1",
           "state": "in",
-          "clock": "51'",
+          "clock": "52'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16346,6 +16346,15 @@
                 "playerName": "Adrià Pedrosa",
                 "teamName": "Rayo",
                 "text": "Jozhua Vertrouwd because of an injury"
+              },
+              {
+                "id": "51779294_13",
+                "type": "OWN_GOAL",
+                "minute": 51,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
