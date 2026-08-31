@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:13:47Z",
+  "lastUpdated": "2026-08-31T19:14:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15384,7 +15384,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -15884,6 +15884,15 @@
                 "playerName": "Nemanja Gudelj",
                 "teamName": "Getafe",
                 "text": "Francho Serrano"
+              },
+              {
+                "id": "51773711_26",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
