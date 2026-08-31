@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:33:39Z",
+  "lastUpdated": "2026-08-31T19:34:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15943,7 +15943,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16000,17 +16000,17 @@
                   "events": null
                 },
                 {
-                  "id": "376423",
-                  "jersey": 22,
-                  "name": "Marc Bernal",
+                  "id": "250465",
+                  "jersey": 8,
+                  "name": "Pedri",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "250465",
-                  "jersey": 8,
-                  "name": "Pedri",
+                  "id": "376423",
+                  "jersey": 22,
+                  "name": "Marc Bernal",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
