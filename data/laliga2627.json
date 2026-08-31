@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T21:25:28Z",
+  "lastUpdated": "2026-08-31T21:26:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -15941,9 +15941,9 @@
           "jornada": 3,
           "tv": null,
           "done": false,
-          "result": "4-2",
+          "result": "5-2",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -16454,6 +16454,24 @@
                 "playerName": "Hamza Abdelkarim",
                 "teamName": "FC Barcelona",
                 "text": "Raphinha"
+              },
+              {
+                "id": "51780748_29",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Adrià Pedrosa",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "51780759_30",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Lamine Yamal",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -21328,6 +21346,12 @@
       "penalties": null
     },
     {
+      "player": "Lamine Yamal",
+      "team": "FC Barcelona",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 2,
@@ -21486,12 +21510,6 @@
     {
       "player": "Kike Barja",
       "team": "Osasuna",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Lamine Yamal",
-      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
