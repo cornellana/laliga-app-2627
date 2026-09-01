@@ -21,35 +21,47 @@ app.get('/health', (_req, res) => {
   }
 });
 
-// Datos de La Liga servidos en directo, para que la app no dependa de la CDN
-// de GitHub, que cachea unos cinco minutos. Aquí llegan segundos después de que
-// el contenedor laliga-updater los genere. Es solo lectura de un único fichero
-// conocido: nada de rutas libres ni de servir el directorio entero.
-const DATOS_DIR = process.env.DATOS_DIR ?? '/app/publico';
+// Datos servidos en directo, para que las apps no dependan de la CDN de
+// GitHub, que cachea unos cinco minutos. Aquí llegan segundos después de que
+// los contenedores actualizadores los generen.
+//
+// La lista de ficheros es CERRADA a propósito: nada de rutas libres ni de
+// servir un directorio entero. Cada entrada dice de qué carpeta sale, porque
+// cada competición tiene su propio actualizador y su propio volumen.
+const FICHEROS = {
+  'laliga2627.json':    process.env.DATOS_DIR ?? '/app/publico',
+  'champions2627.json': process.env.DATOS_CHAMPIONS_DIR ?? '/app/publico-champions',
+};
 
-// Si el actualizador lleva más de esto sin reescribir el fichero, algo le pasa.
-// Reescribe en cada ciclo (60 s con partido, 10 min en reposo) aunque el
-// contenido no cambie, así que la fecha del fichero es una señal de vida fiable.
+// Si un actualizador lleva más de esto sin reescribir su fichero, algo le pasa.
+// Reescriben en cada ciclo (60 s con partido, 10 min en reposo) aunque el
+// contenido no cambie, así que la fecha del fichero es una señal de vida.
 const DATOS_CADUCAN_MS = parseInt(process.env.DATOS_CADUCAN_MS ?? '1200000', 10);
 
-app.get('/datos/laliga2627.json', (_req, res) => {
-  const fichero = path.join(DATOS_DIR, 'laliga2627.json');
+app.get('/datos/:nombre', (req, res) => {
+  const carpeta = FICHEROS[req.params.nombre];
+  if (!carpeta) {
+    return res.status(404).json({ error: 'fichero desconocido' });
+  }
+
+  const fichero = path.join(carpeta, req.params.nombre);
   fs.stat(fichero, (errStat, info) => {
     // Servir datos congelados sería peor que no servir nada: la app los
     // preferiría a los de GitHub, que en ese escenario sí estarían al día.
     // Con un 503 se va sola a la fuente de siempre.
     if (errStat) {
-      console.error('[datos] no disponible:', errStat.message);
+      console.error(`[datos] ${req.params.nombre} no disponible:`, errStat.message);
       return res.status(503).json({ error: 'datos no disponibles' });
     }
     const antiguedad = Date.now() - info.mtimeMs;
     if (antiguedad > DATOS_CADUCAN_MS) {
-      console.error(`[datos] caducados: ${Math.round(antiguedad / 60000)} min sin refrescarse`);
+      console.error(`[datos] ${req.params.nombre} caducado: `
+        + `${Math.round(antiguedad / 60000)} min sin refrescarse`);
       return res.status(503).json({ error: 'datos caducados', minutos: Math.round(antiguedad / 60000) });
     }
     fs.readFile(fichero, (err, contenido) => {
       if (err) {
-        console.error('[datos] no se pudo leer:', err.message);
+        console.error(`[datos] ${req.params.nombre} no se pudo leer:`, err.message);
         return res.status(503).json({ error: 'datos no disponibles' });
       }
       res.set('Cache-Control', 'no-cache, must-revalidate');

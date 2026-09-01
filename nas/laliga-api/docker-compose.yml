@@ -9,6 +9,8 @@ services:
       # Lo que publica laliga-updater, en solo lectura: este servicio lo sirve,
       # no lo escribe.
       - /share/Container/laliga-updater/publico:/app/publico:ro
+      # Lo mismo para la Champions, que tiene su propio actualizador.
+      - /share/Container/champions-updater/publico:/app/publico-champions:ro
     env_file:
       - .env
     restart: always
