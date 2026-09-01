@@ -1,0 +1,14 @@
+{
+  "name": "laliga-push-backend",
+  "version": "1.0.0",
+  "description": "Backend de avisos push en tiempo real para La Liga 26/27",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
