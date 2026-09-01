@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T21:31:01Z",
+  "lastUpdated": "2026-09-01T00:02:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16518,6 +16518,60 @@
           "statusText": null,
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
+          "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "jornada": 4,
+      "games": [
+        {
+          "id": "401882895",
+          "time": "16:15",
+          "home": "Athletic",
+          "away": "Atlético",
+          "jornada": 4,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "details": null
+        },
+        {
+          "id": "401882889",
+          "time": "18:30",
+          "home": "Rayo",
+          "away": "Racing",
+          "jornada": 4,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio Municipal de Butarque",
+          "venueCity": "Leganés, Madrid",
+          "details": null
+        },
+        {
+          "id": "401882887",
+          "time": "21:00",
+          "home": "Villarreal",
+          "away": "Deportivo",
+          "jornada": 4,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
           "details": null
         }
       ]
