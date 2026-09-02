@@ -1,10 +1,27 @@
 const store = require('./store');
 const { sendPush } = require('./apns');
 const { teamMatches } = require('./teamMatches');
+const { championsTeamMatches } = require('./championsTeams');
 
 // ESPN sustituye a SofaScore, que desde agosto de 2026 devuelve 403 a IPs
 // residenciales (verificado desde el propio contenedor).
-const BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1';
+//
+// Cada competición lleva su endpoint, el bundle id de la app a la que se
+// envían los avisos (APNs exige que el topic sea el de la app dueña del token)
+// y su forma de casar nombres. La de La Liga es exactamente la de siempre.
+const ESPN = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
+const COMPETITIONS = {
+  'esp.1': {
+    base:    `${ESPN}/esp.1`,
+    topic:   process.env.APNS_BUNDLE_ID,
+    matches: teamMatches,
+  },
+  'uefa.champions': {
+    base:    `${ESPN}/uefa.champions`,
+    topic:   process.env.APNS_BUNDLE_ID_CHAMPIONS ?? 'com.cornellana.Champions',
+    matches: championsTeamMatches,
+  },
+};
 const UA   = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
 // Ids de keyEvents de ESPN, verificados sobre 74 partidos reales de LaLiga.
@@ -32,9 +49,9 @@ async function fetchJson(url) {
   }
 }
 
-async function sendSafe(deviceToken, environment, title, body) {
+async function sendSafe(deviceToken, environment, title, body, topic) {
   try {
-    const result = await sendPush(deviceToken, environment, title, body);
+    const result = await sendPush(deviceToken, environment, title, body, topic);
     if (!result.success) {
       console.warn(`[apns] failed ${result.statusCode} ${result.reason} → ...${deviceToken.slice(-8)}`);
 
@@ -148,10 +165,10 @@ function scoreboardDates() {
   );
 }
 
-async function fetchTodaysEvents() {
+async function fetchTodaysEvents(base) {
   const seen = new Map();
   for (const date of scoreboardDates()) {
-    const data = await fetchJson(`${BASE}/scoreboard?dates=${date}`);
+    const data = await fetchJson(`${base}/scoreboard?dates=${date}`);
     for (const ev of data?.events ?? []) {
       if (!seen.has(ev.id)) seen.set(ev.id, ev);
     }
@@ -166,9 +183,10 @@ async function fetchTodaysEvents() {
 // primera parte no se pierde ningún gol.
 let firstCycle = true;
 
-async function poll() {
+/** Un ciclo de una competición. Un fallo aquí no debe parar a la otra. */
+async function pollCompetition(id, cfg, allSubsEnabled) {
   try {
-    const events = await fetchTodaysEvents();
+    const events = await fetchTodaysEvents(cfg.base);
 
     // 'pre' aún no empezado | 'in' en juego | 'post' terminado
     const active = events.filter(e => {
@@ -177,7 +195,9 @@ async function poll() {
     });
     if (active.length === 0) return;
 
-    const allSubs = store.getAllSubscriptions().filter(s => s.prefs.enabled);
+    // Solo las suscripciones de ESTA competición: un token de la Orejona no
+    // debe recibir goles de La Liga ni al revés.
+    const allSubs = allSubsEnabled.filter(s => s.competition === id);
     if (allSubs.length === 0) return;
 
     for (const event of active) {
@@ -202,7 +222,7 @@ async function poll() {
       // Suscripciones con un equipo implicado. No se hace continue si está vacío:
       // hay que marcar los incidentes como vistos igualmente para evitar duplicados.
       const intSubs = silent ? [] : allSubs.filter(sub =>
-        sub.teams.some(t => teamMatches(home, t) || teamMatches(away, t))
+        sub.teams.some(t => cfg.matches(home, t) || cfg.matches(away, t))
       );
 
       // ── Inicio / final ──────────────────────────────────────────────
@@ -214,7 +234,7 @@ async function poll() {
           ? `${home} - ${away}`
           : `${home} ${ctx.homeScore}-${ctx.awayScore} ${away}`;
         for (const sub of intSubs) {
-          if (sub.prefs.startEnd) await sendSafe(sub.deviceToken, sub.environment, title, body);
+          if (sub.prefs.startEnd) await sendSafe(sub.deviceToken, sub.environment, title, body, cfg.topic);
         }
       }
 
@@ -224,7 +244,7 @@ async function poll() {
       const finalKey = 'final_processed';
       if (state === 'post' && store.hasSeenIncident(eventId, finalKey)) continue;
 
-      const summary = await fetchJson(`${BASE}/summary?event=${event.id}`);
+      const summary = await fetchJson(`${cfg.base}/summary?event=${event.id}`);
       if (state === 'post') store.markIncidentSeen(eventId, finalKey);
       if (!summary) continue;
 
@@ -238,24 +258,32 @@ async function poll() {
 
         for (const sub of intSubs) {
           if (sub.prefs[note.prefKey]) {
-            await sendSafe(sub.deviceToken, sub.environment, note.title, note.body);
+            await sendSafe(sub.deviceToken, sub.environment, note.title, note.body, cfg.topic);
           }
         }
       }
     }
 
-    store.pruneOldIncidents();
-    firstCycle = false;
-
   } catch (err) {
-    console.error('[poller] error:', err.message || err);
+    console.error(`[poller] error en ${id}:`, err.message || err);
   }
+}
+
+async function poll() {
+  // Se leen una vez por ciclo y se reparten; las suscripciones no cambian a
+  // mitad de un sondeo y así no se abre la base de datos dos veces.
+  const allSubsEnabled = store.getAllSubscriptions().filter(s => s.prefs.enabled);
+  for (const [id, cfg] of Object.entries(COMPETITIONS)) {
+    await pollCompetition(id, cfg, allSubsEnabled);
+  }
+  store.pruneOldIncidents();
+  firstCycle = false;
 }
 
 const INTERVAL = parseInt(process.env.POLL_INTERVAL_MS ?? '30000', 10);
 
 function start() {
-  console.log(`[poller] iniciado (ESPN), intervalo=${INTERVAL}ms`);
+  console.log(`[poller] iniciado (ESPN: ${Object.keys(COMPETITIONS).join(', ')}), intervalo=${INTERVAL}ms`);
   poll();
   setInterval(poll, INTERVAL);
 }

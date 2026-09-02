@@ -58,7 +58,10 @@ function getClient(environment) {
   return clients[environment];
 }
 
-function sendPush(deviceToken, environment, title, body) {
+// `topic` es el bundle id de la app a la que pertenece el token. Por defecto,
+// el de La Liga: las llamadas que ya existían no cambian. La clave .p8 vale
+// para todas las apps del equipo, así que solo cambia esta cabecera.
+function sendPush(deviceToken, environment, title, body, topic = BUNDLE_ID) {
   return new Promise((resolve, reject) => {
     if (!APNS_KEY) return reject(new Error('APNs key not loaded'));
 
@@ -69,7 +72,7 @@ function sendPush(deviceToken, environment, title, body) {
       ':method':       'POST',
       ':path':         `/3/device/${deviceToken}`,
       'authorization': `bearer ${getJWT()}`,
-      'apns-topic':    BUNDLE_ID,
+      'apns-topic':    topic,
       'apns-push-type':'alert',
       'apns-priority': '10',
       'content-type':  'application/json',

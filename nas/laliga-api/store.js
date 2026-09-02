@@ -28,16 +28,29 @@ db.exec(`
   );
 `);
 
-function upsertSubscription(deviceToken, environment, teams, prefs) {
+// Migración: a qué competición pertenece cada suscripción. Todas las filas que
+// existían antes de esta columna son de la app de La Liga, y así se quedan.
+// ALTER TABLE ... ADD COLUMN con DEFAULT es atómico en SQLite y no toca datos.
+{
+  const columnas = db.prepare('PRAGMA table_info(subscriptions)').all().map(c => c.name);
+  if (!columnas.includes('competition')) {
+    db.exec("ALTER TABLE subscriptions ADD COLUMN competition TEXT NOT NULL DEFAULT 'esp.1'");
+    console.log('[store] columna competition añadida; las filas existentes quedan como esp.1');
+  }
+}
+
+// `competition` por defecto es La Liga: las llamadas que ya existían no cambian.
+function upsertSubscription(deviceToken, environment, teams, prefs, competition = 'esp.1') {
   db.prepare(`
-    INSERT INTO subscriptions (device_token, environment, teams, prefs, updated_at)
-    VALUES (?, ?, ?, ?, ?)
+    INSERT INTO subscriptions (device_token, environment, teams, prefs, updated_at, competition)
+    VALUES (?, ?, ?, ?, ?, ?)
     ON CONFLICT(device_token) DO UPDATE SET
       environment = excluded.environment,
       teams       = excluded.teams,
       prefs       = excluded.prefs,
-      updated_at  = excluded.updated_at
-  `).run(deviceToken, environment, JSON.stringify(teams), JSON.stringify(prefs), Date.now());
+      updated_at  = excluded.updated_at,
+      competition = excluded.competition
+  `).run(deviceToken, environment, JSON.stringify(teams), JSON.stringify(prefs), Date.now(), competition);
 }
 
 function deleteSubscription(deviceToken) {
@@ -50,6 +63,7 @@ function getAllSubscriptions() {
     environment: row.environment,
     teams:       JSON.parse(row.teams),
     prefs:       JSON.parse(row.prefs),
+    competition: row.competition ?? 'esp.1',
   }));
 }
 

@@ -70,38 +70,49 @@ app.get('/datos/:nombre', (req, res) => {
   });
 });
 
-app.post('/register', (req, res) => {
-  const { deviceToken, environment, teams, prefs } = req.body ?? {};
+// Alta y baja de avisos. Cada app llama a su ruta y queda apuntada con su
+// competición; el sondeador solo le manda los partidos de esa. Las rutas de La
+// Liga son las de siempre, sin el prefijo, para no tocar la app que ya está
+// repartida.
+function registrar(competition) {
+  return (req, res) => {
+    const { deviceToken, environment, teams, prefs } = req.body ?? {};
 
-  if (!TOKEN_RE.test(deviceToken))
-    return res.status(400).json({ error: 'invalid deviceToken' });
-  if (!['sandbox', 'production'].includes(environment))
-    return res.status(400).json({ error: 'invalid environment' });
-  if (!Array.isArray(teams) || teams.length === 0 || teams.some(t => typeof t !== 'string'))
-    return res.status(400).json({ error: 'teams must be non-empty string[]' });
-  if (!prefs || typeof prefs !== 'object')
-    return res.status(400).json({ error: 'invalid prefs' });
+    if (!TOKEN_RE.test(deviceToken))
+      return res.status(400).json({ error: 'invalid deviceToken' });
+    if (!['sandbox', 'production'].includes(environment))
+      return res.status(400).json({ error: 'invalid environment' });
+    if (!Array.isArray(teams) || teams.length === 0 || teams.some(t => typeof t !== 'string'))
+      return res.status(400).json({ error: 'teams must be non-empty string[]' });
+    if (!prefs || typeof prefs !== 'object')
+      return res.status(400).json({ error: 'invalid prefs' });
 
-  store.upsertSubscription(deviceToken, environment, teams, {
-    enabled:   !!prefs.enabled,
-    goals:     prefs.goals     !== false,
-    penalties: prefs.penalties !== false,
-    redCards:  prefs.redCards  !== false,
-    startEnd:  prefs.startEnd  !== false,
-  });
+    store.upsertSubscription(deviceToken, environment, teams, {
+      enabled:   !!prefs.enabled,
+      goals:     prefs.goals     !== false,
+      penalties: prefs.penalties !== false,
+      redCards:  prefs.redCards  !== false,
+      startEnd:  prefs.startEnd  !== false,
+    }, competition);
 
-  console.log(`[register] ...${deviceToken.slice(-8)} env=${environment} teams=[${teams.join(', ')}]`);
-  res.json({ ok: true });
-});
+    console.log(`[register] ${competition} ...${deviceToken.slice(-8)} env=${environment} teams=[${teams.join(', ')}]`);
+    res.json({ ok: true });
+  };
+}
 
-app.post('/unregister', (req, res) => {
+function desregistrar(req, res) {
   const { deviceToken } = req.body ?? {};
   if (!TOKEN_RE.test(deviceToken))
     return res.status(400).json({ error: 'invalid deviceToken' });
   store.deleteSubscription(deviceToken);
   console.log(`[unregister] ...${deviceToken.slice(-8)}`);
   res.json({ ok: true });
-});
+}
+
+app.post('/register',             registrar('esp.1'));
+app.post('/unregister',           desregistrar);
+app.post('/champions/register',   registrar('uefa.champions'));
+app.post('/champions/unregister', desregistrar);
 
 // Captura errores no manejados — devuelve JSON en vez de traza completa
 app.use((err, _req, res, _next) => {
