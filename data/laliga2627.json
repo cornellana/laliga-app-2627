@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T00:02:54Z",
+  "lastUpdated": "2026-09-03T00:04:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16642,6 +16642,46 @@
           "statusText": null,
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
+          "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "jornada": 4,
+      "games": [
+        {
+          "id": "401882891",
+          "time": "19:00",
+          "home": "Getafe",
+          "away": "Celta",
+          "jornada": 4,
+          "jornadaEstimada": true,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "details": null
+        },
+        {
+          "id": "401882893",
+          "time": "21:30",
+          "home": "Elche",
+          "away": "R. Sociedad",
+          "jornada": 4,
+          "jornadaEstimada": true,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
           "details": null
         }
       ]
