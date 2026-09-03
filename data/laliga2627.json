@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:45:36Z",
+  "lastUpdated": "2026-09-03T20:46:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -16983,6 +16983,15 @@
                 "playerName": "Luka Sucic",
                 "teamName": "R. Sociedad",
                 "text": null
+              },
+              {
+                "id": "51839514_19",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Javi Galán",
+                "teamName": "Celta",
+                "text": "Álvaro Núñez"
               }
             ]
           }
