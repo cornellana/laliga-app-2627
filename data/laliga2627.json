@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:51:08Z",
+  "lastUpdated": "2026-09-03T20:52:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -17007,9 +17007,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 88,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Carlos Soler",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Beñat Turrientes"
               }
             ]
           }
