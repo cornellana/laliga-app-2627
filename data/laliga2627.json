@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:13:25Z",
+  "lastUpdated": "2026-09-03T20:14:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,8 +16492,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "52'",
-          "statusText": "In Progress",
+          "clock": "53'",
+          "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -16883,6 +16883,15 @@
                 "extraTime": null,
                 "playerName": "Yangel Herrera",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51838101_8",
+                "type": "YELLOW_CARD",
+                "minute": 52,
+                "extraTime": null,
+                "playerName": "Yoel Lago",
+                "teamName": "Celta",
                 "text": null
               }
             ]
