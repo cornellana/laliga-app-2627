@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:43:23Z",
+  "lastUpdated": "2026-09-03T20:44:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -16973,6 +16973,15 @@
                 "extraTime": null,
                 "playerName": "Couhaib Driouech",
                 "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "51839426_18",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Luka Sucic",
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
