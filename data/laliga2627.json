@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:25:35Z",
+  "lastUpdated": "2026-09-03T20:26:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -16920,6 +16920,24 @@
                 "playerName": "Luka Sucic",
                 "teamName": "R. Sociedad",
                 "text": "Takefusa Kubo"
+              },
+              {
+                "id": "51838622_12",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "51838623_13",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
