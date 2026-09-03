@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:30:04Z",
+  "lastUpdated": "2026-09-03T20:31:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,8 +16492,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "69'",
-          "statusText": "Second Half",
+          "clock": "70'",
+          "statusText": "In Progress",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -16938,6 +16938,15 @@
                 "playerName": "Iago Aspas",
                 "teamName": "Celta",
                 "text": "Williot Swedberg"
+              },
+              {
+                "id": "51838811_14",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Couhaib Driouech",
+                "teamName": "Celta",
+                "text": "Ferran Jutglà"
               }
             ]
           }
