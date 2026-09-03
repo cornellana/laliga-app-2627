@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:41:10Z",
+  "lastUpdated": "2026-09-03T20:42:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -16965,6 +16965,15 @@
                 "playerName": "Alex Marchal",
                 "teamName": "R. Sociedad",
                 "text": "Ander Barrenetxea"
+              },
+              {
+                "id": "51839375_17",
+                "type": "YELLOW_CARD",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Couhaib Driouech",
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
