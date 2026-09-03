@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T19:47:24Z",
+  "lastUpdated": "2026-09-03T19:48:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
