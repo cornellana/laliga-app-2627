@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:33:24Z",
+  "lastUpdated": "2026-09-03T20:34:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -16956,6 +16956,15 @@
                 "playerName": "Gonçalo Guedes",
                 "teamName": "R. Sociedad",
                 "text": "Orri Óskarsson"
+              },
+              {
+                "id": "51838991_16",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Alex Marchal",
+                "teamName": "R. Sociedad",
+                "text": "Ander Barrenetxea"
               }
             ]
           }
