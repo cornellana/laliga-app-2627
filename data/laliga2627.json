@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:31:11Z",
+  "lastUpdated": "2026-09-03T20:32:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,8 +16492,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "70'",
-          "statusText": "In Progress",
+          "clock": "71'",
+          "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -16942,7 +16942,7 @@
               {
                 "id": "51838811_14",
                 "type": "SUBSTITUTION",
-                "minute": 63,
+                "minute": 69,
                 "extraTime": null,
                 "playerName": "Couhaib Driouech",
                 "teamName": "Celta",
