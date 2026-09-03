@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T19:11:01Z",
+  "lastUpdated": "2026-09-03T19:12:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "9'",
+          "clock": "10'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -16541,17 +16541,17 @@
                   "events": null
                 },
                 {
-                  "id": "236185",
-                  "jersey": 21,
-                  "name": "Yangel Herrera",
+                  "id": "297371",
+                  "jersey": 8,
+                  "name": "Beñat Turrientes",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "297371",
-                  "jersey": 8,
-                  "name": "Beñat Turrientes",
+                  "id": "236185",
+                  "jersey": 21,
+                  "name": "Yangel Herrera",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
