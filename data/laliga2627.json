@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:23:21Z",
+  "lastUpdated": "2026-09-03T20:24:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -16901,6 +16901,24 @@
                 "extraTime": null,
                 "playerName": "Marcos Alonso",
                 "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "51838482_10",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "51838483_11",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
