@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:26:43Z",
+  "lastUpdated": "2026-09-03T20:27:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -16926,18 +16926,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 63,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo Durán",
                 "teamName": "Celta",
-                "text": null
+                "text": "Andrés Antañón"
               },
               {
                 "id": "51838623_13",
                 "type": "SUBSTITUTION",
                 "minute": 63,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Iago Aspas",
                 "teamName": "Celta",
-                "text": null
+                "text": "Williot Swedberg"
               }
             ]
           }
