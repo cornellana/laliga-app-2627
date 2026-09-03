@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T19:14:19Z",
+  "lastUpdated": "2026-09-03T19:15:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,13 +16492,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "12'",
-          "statusText": "In Progress",
+          "clock": "13'",
+          "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
             "homeLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "217319",
@@ -16541,10 +16541,18 @@
                   "events": null
                 },
                 {
+                  "id": "229018",
+                  "jersey": 10,
+                  "name": "Mikel Oyarzabal",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "297371",
                   "jersey": 8,
                   "name": "Beñat Turrientes",
-                  "position": "CM-L",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -16552,31 +16560,7 @@
                   "id": "236185",
                   "jersey": 21,
                   "name": "Yangel Herrera",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "283941",
-                  "jersey": 7,
-                  "name": "Ander Barrenetxea",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "256587",
-                  "jersey": 14,
-                  "name": "Takefusa Kubo",
                   "position": "RM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "229018",
-                  "jersey": 10,
-                  "name": "Mikel Oyarzabal",
-                  "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -16584,7 +16568,23 @@
                   "id": "341367",
                   "jersey": 9,
                   "name": "Orri Óskarsson",
-                  "position": "CF-R",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "283941",
+                  "jersey": 7,
+                  "name": "Ander Barrenetxea",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "256587",
+                  "jersey": 14,
+                  "name": "Takefusa Kubo",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
