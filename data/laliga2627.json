@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:47:49Z",
+  "lastUpdated": "2026-09-03T20:48:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -16992,6 +16992,15 @@
                 "playerName": "Javi Galán",
                 "teamName": "Celta",
                 "text": "Álvaro Núñez"
+              },
+              {
+                "id": "51839571_20",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
