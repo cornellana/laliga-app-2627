@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T20:50:02Z",
+  "lastUpdated": "2026-09-03T20:51:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -17001,6 +17001,15 @@
                 "playerName": "Javi Rodríguez",
                 "teamName": "Celta",
                 "text": "Javi Rueda"
+              },
+              {
+                "id": "51839692_21",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
