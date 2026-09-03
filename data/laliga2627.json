@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T19:25:19Z",
+  "lastUpdated": "2026-09-03T19:26:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -16492,7 +16492,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "23'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -16875,7 +16875,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51836443_5",
+                "type": "YELLOW_CARD",
+                "minute": 22,
+                "extraTime": null,
+                "playerName": "Yangel Herrera",
+                "teamName": "R. Sociedad",
+                "text": null
+              }
+            ]
           }
         }
       ]
