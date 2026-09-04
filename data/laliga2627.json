@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T20:50:31Z",
+  "lastUpdated": "2026-09-04T20:51:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17539,6 +17539,15 @@
                 "playerName": "Carlos Espí",
                 "teamName": "Real Madrid",
                 "text": "Federico Valverde"
+              },
+              {
+                "id": "51856544_39",
+                "type": "YELLOW_CARD",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Marc Roca",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
