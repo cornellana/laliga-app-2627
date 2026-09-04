@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T21:01:32Z",
+  "lastUpdated": "2026-09-04T21:02:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+5'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17565,6 +17565,15 @@
                 "extraTime": 3,
                 "playerName": "Natan",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "51857225_44",
+                "type": "MISSED_PENALTY",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
