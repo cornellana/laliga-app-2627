@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T20:22:59Z",
+  "lastUpdated": "2026-09-04T20:24:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "55'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17429,6 +17429,15 @@
                 "minute": 45,
                 "extraTime": 3,
                 "playerName": "Arda Güler",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51854230_19",
+                "type": "YELLOW_CARD",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Ibrahima Konaté",
                 "teamName": "Real Madrid",
                 "text": null
               }
