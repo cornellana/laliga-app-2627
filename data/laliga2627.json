@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T20:31:55Z",
+  "lastUpdated": "2026-09-04T20:33:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17456,6 +17456,24 @@
                 "minute": 61,
                 "extraTime": null,
                 "playerName": "Eduardo Camavinga",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51855151_22",
+                "type": "YELLOW_CARD",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Facundo Bernal",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "51855152_23",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Real Madrid",
                 "text": null
               }
