@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T20:53:49Z",
+  "lastUpdated": "2026-09-04T20:54:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17547,6 +17547,15 @@
                 "extraTime": null,
                 "playerName": "Marc Roca",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "51856817_40",
+                "type": "GOAL",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
