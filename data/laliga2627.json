@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T20:43:55Z",
+  "lastUpdated": "2026-09-04T20:45:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17512,6 +17512,15 @@
                 "playerName": "Troy Parrott",
                 "teamName": "Betis",
                 "text": "Cucho Hernández"
+              },
+              {
+                "id": "51856060_36",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Rodrigo Riquelme",
+                "teamName": "Betis",
+                "text": "Antony"
               }
             ]
           }
