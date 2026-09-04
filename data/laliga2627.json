@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T20:38:24Z",
+  "lastUpdated": "2026-09-04T20:39:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "70'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17507,7 +17507,7 @@
               {
                 "id": "51855497_31",
                 "type": "SUBSTITUTION",
-                "minute": 69,
+                "minute": 68,
                 "extraTime": null,
                 "playerName": "Troy Parrott",
                 "teamName": "Betis",
