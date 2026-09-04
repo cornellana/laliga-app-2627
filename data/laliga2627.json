@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T19:41:35Z",
+  "lastUpdated": "2026-09-04T19:42:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17413,7 +17413,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51850532_12",
+                "type": "SUBSTITUTION",
+                "minute": 39,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
+              }
+            ]
           }
         }
       ]
