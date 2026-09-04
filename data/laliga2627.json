@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T20:57:06Z",
+  "lastUpdated": "2026-09-04T20:58:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17550,16 +17550,7 @@
                 "text": null
               },
               {
-                "id": "51856817_40",
-                "type": "GOAL",
-                "minute": 87,
-                "extraTime": null,
-                "playerName": "Carlos Espí",
-                "teamName": "Real Madrid",
-                "text": null
-              },
-              {
-                "id": "51856877_41",
+                "id": "51856877_40",
                 "type": "SUBSTITUTION",
                 "minute": 88,
                 "extraTime": null,
@@ -22418,12 +22409,6 @@
       "penalties": 2
     },
     {
-      "player": "Carlos Espí",
-      "team": "Real Madrid",
-      "goals": 2,
-      "penalties": null
-    },
-    {
       "player": "Jude Bellingham",
       "team": "Real Madrid",
       "goals": 2,
@@ -22504,6 +22489,12 @@
     {
       "player": "Cala",
       "team": "Espanyol",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Carlos Espí",
+      "team": "Real Madrid",
       "goals": 1,
       "penalties": null
     },
