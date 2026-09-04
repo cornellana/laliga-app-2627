@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T21:00:26Z",
+  "lastUpdated": "2026-09-04T21:01:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17557,6 +17557,15 @@
                 "playerName": "Álvaro Carreras",
                 "teamName": "Real Madrid",
                 "text": "Marc Cucurella because of an injury"
+              },
+              {
+                "id": "51857222_43",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Natan",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
