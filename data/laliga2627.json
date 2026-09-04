@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T19:42:42Z",
+  "lastUpdated": "2026-09-04T19:43:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "41'",
+          "clock": "42'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17419,9 +17419,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 39,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Marc Bartra",
                 "teamName": "Betis",
-                "text": null
+                "text": "Diego Llorente because of an injury"
               }
             ]
           }
