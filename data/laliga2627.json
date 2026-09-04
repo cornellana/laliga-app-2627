@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T20:56:01Z",
+  "lastUpdated": "2026-09-04T20:57:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17028,9 +17028,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-0",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17563,9 +17563,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 88,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Álvaro Carreras",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Marc Cucurella because of an injury"
               }
             ]
           }
