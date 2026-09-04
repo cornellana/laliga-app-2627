@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T20:29:12Z",
+  "lastUpdated": "2026-09-04T20:30:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17438,6 +17438,24 @@
                 "minute": 54,
                 "extraTime": null,
                 "playerName": "Ibrahima Konaté",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "51854863_20",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Álvaro Fidalgo",
+                "teamName": "Betis",
+                "text": "Isco"
+              },
+              {
+                "id": "51854913_21",
+                "type": "YELLOW_CARD",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Eduardo Camavinga",
                 "teamName": "Real Madrid",
                 "text": null
               }
