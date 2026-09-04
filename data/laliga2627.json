@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T20:48:19Z",
+  "lastUpdated": "2026-09-04T20:49:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17028,9 +17028,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17521,6 +17521,15 @@
                 "playerName": "Rodrigo Riquelme",
                 "teamName": "Betis",
                 "text": "Antony"
+              },
+              {
+                "id": "51856383_37",
+                "type": "GOAL",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Troy Parrott",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
@@ -22645,6 +22654,12 @@
     {
       "player": "Sergio Martínez",
       "team": "Racing",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Troy Parrott",
+      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
