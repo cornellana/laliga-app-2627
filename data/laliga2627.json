@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T20:33:01Z",
+  "lastUpdated": "2026-09-04T20:34:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17030,7 +17030,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -17473,9 +17473,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 64,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Bernardo Silva",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Eduardo Camavinga"
+              },
+              {
+                "id": "51855197_24",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Trent Alexander-Arnold",
+                "teamName": "Real Madrid",
+                "text": "Denzel Dumfries"
+              },
+              {
+                "id": "51855198_25",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Yan Diomande",
+                "teamName": "Real Madrid",
+                "text": "Arda Güler"
               }
             ]
           }
