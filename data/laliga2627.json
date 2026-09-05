@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:57:36Z",
+  "lastUpdated": "2026-09-05T15:58:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17595,8 +17595,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "75'",
-          "statusText": "Second Half",
+          "clock": "76'",
+          "statusText": "In Progress",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
@@ -18077,6 +18077,15 @@
                 "playerName": "Alex Berenguer",
                 "teamName": "Athletic",
                 "text": "Iñaki Williams"
+              },
+              {
+                "id": "51914714_32",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
