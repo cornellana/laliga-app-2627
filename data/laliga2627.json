@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T16:33:23Z",
+  "lastUpdated": "2026-09-05T16:34:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18116,9 +18116,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "3'",
+          "clock": "5'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18493,7 +18493,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51917106_1",
+                "type": "YELLOW_CARD",
+                "minute": 2,
+                "extraTime": null,
+                "playerName": "Óscar Valentín",
+                "teamName": "Rayo",
+                "text": null
+              }
+            ]
           }
         },
         {
