@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:48:47Z",
+  "lastUpdated": "2026-09-05T15:49:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17595,7 +17595,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -18059,6 +18059,24 @@
                 "playerName": "Mikel Jauregizar",
                 "teamName": "Athletic",
                 "text": "Íñigo Ruiz de Galarreta"
+              },
+              {
+                "id": "51913268_26",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Johaneko Louis-Jean",
+                "teamName": "Athletic",
+                "text": "Robert Navarro"
+              },
+              {
+                "id": "51913269_27",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Alex Berenguer",
+                "teamName": "Athletic",
+                "text": "Iñaki Williams"
               }
             ]
           }
