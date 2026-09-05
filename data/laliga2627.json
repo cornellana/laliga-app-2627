@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T18:20:35Z",
+  "lastUpdated": "2026-09-05T18:21:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18659,7 +18659,7 @@
               {
                 "id": "51927983_33",
                 "type": "RED_CARD",
-                "minute": 86,
+                "minute": 85,
                 "extraTime": null,
                 "playerName": "Fran Pérez",
                 "teamName": "Rayo",
