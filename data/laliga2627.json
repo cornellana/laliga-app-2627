@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T16:37:52Z",
+  "lastUpdated": "2026-09-05T16:38:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "8'",
+          "clock": "9'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18175,17 +18175,17 @@
                   "events": null
                 },
                 {
-                  "id": "203711",
-                  "jersey": 8,
-                  "name": "Unai López",
+                  "id": "264078",
+                  "jersey": 4,
+                  "name": "Pedro Díaz",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "264078",
-                  "jersey": 4,
-                  "name": "Pedro Díaz",
+                  "id": "203711",
+                  "jersey": 8,
+                  "name": "Unai López",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
