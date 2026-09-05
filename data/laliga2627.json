@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:40:04Z",
+  "lastUpdated": "2026-09-05T15:41:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17595,7 +17595,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -18013,6 +18013,15 @@
                 "extraTime": null,
                 "playerName": "Robert Navarro",
                 "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "51911387_21",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
                 "text": null
               }
             ]
