@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:29:04Z",
+  "lastUpdated": "2026-09-05T15:29:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17593,9 +17593,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "47'",
+          "clock": "48'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -18002,7 +18002,7 @@
                 "type": "GOAL",
                 "minute": 46,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Nico Williams",
                 "teamName": "Athletic",
                 "text": null
               }
@@ -23059,6 +23059,12 @@
     {
       "player": "Nahuel Tenaglia",
       "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Nico Williams",
+      "team": "Athletic",
       "goals": 1,
       "penalties": null
     },
