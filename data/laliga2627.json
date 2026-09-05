@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T17:14:12Z",
+  "lastUpdated": "2026-09-05T17:15:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "44'",
+          "clock": "45'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18562,7 +18562,7 @@
                 "type": "GOAL",
                 "minute": 43,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Sergio Camello",
                 "teamName": "Rayo",
                 "text": null
               }
@@ -23337,6 +23337,12 @@
       "penalties": null
     },
     {
+      "player": "Sergio Camello",
+      "team": "Rayo",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Fermín López",
       "team": "FC Barcelona",
       "goals": 3,
@@ -23351,12 +23357,6 @@
     {
       "player": "Roberto Fernández",
       "team": "Espanyol",
-      "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Sergio Camello",
-      "team": "Rayo",
       "goals": 3,
       "penalties": null
     },
