@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T16:34:30Z",
+  "lastUpdated": "2026-09-05T16:35:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18501,6 +18501,15 @@
                 "extraTime": null,
                 "playerName": "Óscar Valentín",
                 "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "51917164_2",
+                "type": "GOAL",
+                "minute": 4,
+                "extraTime": null,
+                "playerName": "Sergio Canales",
+                "teamName": "Racing",
                 "text": null
               }
             ]
@@ -23596,6 +23605,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Sergio Canales",
+      "team": "Racing",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Sergio Martínez",
