@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T20:14:26Z",
+  "lastUpdated": "2026-09-05T20:15:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18705,7 +18705,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "54'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -19098,6 +19098,15 @@
                 "playerName": "Luismi Cruz",
                 "teamName": "Deportivo",
                 "text": null
+              },
+              {
+                "id": "51941270_5",
+                "type": "SUBSTITUTION",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": "Yeremay Hernández",
+                "teamName": "Deportivo",
+                "text": "Riki Rodríguez"
               }
             ]
           }
