@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T19:19:55Z",
+  "lastUpdated": "2026-09-05T19:21:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18705,7 +18705,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "19'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -19080,7 +19080,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51934053_1",
+                "type": "GOAL",
+                "minute": 19,
+                "extraTime": null,
+                "playerName": "Nicolas Pepe",
+                "teamName": "Villarreal",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -23895,6 +23905,12 @@
       "penalties": null
     },
     {
+      "player": "Nicolas Pepe",
+      "team": "Villarreal",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Pablo García",
       "team": "Betis",
       "goals": 2,
@@ -24125,12 +24141,6 @@
     {
       "player": "Nico Williams",
       "team": "Athletic",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Nicolas Pepe",
-      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
