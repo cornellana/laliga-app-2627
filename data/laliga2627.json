@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T16:00:54Z",
+  "lastUpdated": "2026-09-05T16:02:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17595,7 +17595,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "78'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -18079,7 +18079,16 @@
                 "text": "Iñaki Williams"
               },
               {
-                "id": "51914714_32",
+                "id": "51914920_32",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Johnny Cardoso",
+                "teamName": "Atlético",
+                "text": "Álex Baena"
+              },
+              {
+                "id": "51914714_33",
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
