@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T17:05:21Z",
+  "lastUpdated": "2026-09-05T17:06:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "35'",
+          "clock": "36'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18536,6 +18536,15 @@
                 "minute": 28,
                 "extraTime": null,
                 "playerName": "Pablo García",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "51920226_14",
+                "type": "YELLOW_CARD",
+                "minute": 35,
+                "extraTime": null,
+                "playerName": "Iñigo Vicente",
                 "teamName": "Racing",
                 "text": null
               }
