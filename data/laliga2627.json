@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T18:19:30Z",
+  "lastUpdated": "2026-09-05T18:20:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18655,6 +18655,15 @@
                 "playerName": "Iván Balliu",
                 "teamName": "Rayo",
                 "text": "Adrià Pedrosa"
+              },
+              {
+                "id": "51927983_33",
+                "type": "RED_CARD",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Fran Pérez",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
