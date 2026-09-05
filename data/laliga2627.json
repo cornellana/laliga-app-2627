@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T17:09:47Z",
+  "lastUpdated": "2026-09-05T17:10:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18546,6 +18546,15 @@
                 "extraTime": null,
                 "playerName": "Iñigo Vicente",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "51920816_15",
+                "type": "YELLOW_CARD",
+                "minute": 39,
+                "extraTime": null,
+                "playerName": "Sergio Camello",
+                "teamName": "Rayo",
                 "text": null
               }
             ]
