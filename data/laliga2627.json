@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T20:47:27Z",
+  "lastUpdated": "2026-09-05T20:48:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18705,7 +18705,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -19215,6 +19215,24 @@
                 "playerName": "Ilias Akhomach",
                 "teamName": "Villarreal",
                 "text": "Logan Costa"
+              },
+              {
+                "id": "51945978_20",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Tajon Buchanan",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "51945996_21",
+                "type": "GOAL",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
