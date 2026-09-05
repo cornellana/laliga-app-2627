@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T20:40:46Z",
+  "lastUpdated": "2026-09-05T20:41:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18705,7 +18705,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -19196,6 +19196,15 @@
                 "extraTime": null,
                 "playerName": "Zakaria Eddahchouri",
                 "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51945053_18",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Santi Comesaña",
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
