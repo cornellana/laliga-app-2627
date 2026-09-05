@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T17:39:55Z",
+  "lastUpdated": "2026-09-05T17:41:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18116,9 +18116,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "2-2",
+          "result": "3-2",
           "state": "in",
-          "clock": "46'",
+          "clock": "48'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18563,6 +18563,15 @@
                 "minute": 43,
                 "extraTime": null,
                 "playerName": "Sergio Camello",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "51923728_19",
+                "type": "GOAL",
+                "minute": 47,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Rayo",
                 "text": null
               }
