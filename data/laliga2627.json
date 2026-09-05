@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:26:45Z",
+  "lastUpdated": "2026-09-05T15:26:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17987,6 +17987,15 @@
                 "playerName": "Lee Kang-In",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "51908282_15",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Aitor Paredes",
+                "teamName": "Athletic",
+                "text": "Yeray Álvarez because of an injury"
               }
             ]
           }
