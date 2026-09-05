@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T20:23:14Z",
+  "lastUpdated": "2026-09-05T20:24:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18705,7 +18705,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -19113,9 +19113,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Georges Mikautadze",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Ayoze Pérez"
+              },
+              {
+                "id": "51942571_7",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Santi Comesaña",
+                "teamName": "Villarreal",
+                "text": "Pape Gueye"
+              },
+              {
+                "id": "51942572_8",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Tajon Buchanan",
+                "teamName": "Villarreal",
+                "text": "Alberto Moleiro"
               }
             ]
           }
