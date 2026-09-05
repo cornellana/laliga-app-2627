@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:43:20Z",
+  "lastUpdated": "2026-09-05T15:44:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17595,7 +17595,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -18050,6 +18050,15 @@
                 "playerName": "Julián Alvarez",
                 "teamName": "Atlético",
                 "text": "Lee Kang-In"
+              },
+              {
+                "id": "51911925_25",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Mikel Jauregizar",
+                "teamName": "Athletic",
+                "text": "Íñigo Ruiz de Galarreta"
               }
             ]
           }
