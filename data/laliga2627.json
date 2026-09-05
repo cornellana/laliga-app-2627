@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T20:48:33Z",
+  "lastUpdated": "2026-09-05T20:49:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18703,9 +18703,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "2-2",
+          "result": "2-3",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -19230,7 +19230,7 @@
                 "type": "GOAL",
                 "minute": 88,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pierre-Emerick Aubameyang",
                 "teamName": "Deportivo",
                 "text": null
               }
@@ -23995,14 +23995,14 @@
       "penalties": null
     },
     {
-      "player": "Fermín López",
-      "team": "FC Barcelona",
-      "goals": 3,
+      "player": "Pierre-Emerick Aubameyang",
+      "team": "Deportivo",
+      "goals": 4,
       "penalties": null
     },
     {
-      "player": "Pierre-Emerick Aubameyang",
-      "team": "Deportivo",
+      "player": "Fermín López",
+      "team": "FC Barcelona",
       "goals": 3,
       "penalties": null
     },
