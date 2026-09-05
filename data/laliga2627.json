@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T20:50:45Z",
+  "lastUpdated": "2026-09-05T20:51:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18705,7 +18705,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -19231,6 +19231,15 @@
                 "minute": 88,
                 "extraTime": null,
                 "playerName": "Pierre-Emerick Aubameyang",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "51946298_22",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Lorenzo Amatucci",
                 "teamName": "Deportivo",
                 "text": null
               }
