@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:42:01Z",
+  "lastUpdated": "2026-09-05T15:43:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17595,7 +17595,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -18023,6 +18023,33 @@
                 "playerName": "Arnau Ortiz",
                 "teamName": "Atlético",
                 "text": "Ademola Lookman"
+              },
+              {
+                "id": "51911652_22",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Koke",
+                "teamName": "Atlético",
+                "text": "Morten Hjulmand"
+              },
+              {
+                "id": "51911653_23",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Cristian Romero",
+                "teamName": "Atlético",
+                "text": "Giuliano Simeone"
+              },
+              {
+                "id": "51911654_24",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Julián Alvarez",
+                "teamName": "Atlético",
+                "text": "Lee Kang-In"
               }
             ]
           }
