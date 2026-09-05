@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:27:58Z",
+  "lastUpdated": "2026-09-05T15:29:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17595,7 +17595,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -17996,6 +17996,15 @@
                 "playerName": "Aitor Paredes",
                 "teamName": "Athletic",
                 "text": "Yeray Álvarez because of an injury"
+              },
+              {
+                "id": "51908736_17",
+                "type": "GOAL",
+                "minute": 46,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
