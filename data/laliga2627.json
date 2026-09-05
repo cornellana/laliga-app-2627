@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T16:11:52Z",
+  "lastUpdated": "2026-09-05T16:12:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17593,9 +17593,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "3-0",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -18095,6 +18095,15 @@
                 "playerName": "Gorka Guruzeta",
                 "teamName": "Athletic",
                 "text": "Nico Williams"
+              },
+              {
+                "id": "51915833_34",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Oihan Sancet",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
@@ -23167,6 +23176,12 @@
     {
       "player": "Nicolas Pepe",
       "team": "Villarreal",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Oihan Sancet",
+      "team": "Athletic",
       "goals": 1,
       "penalties": null
     },
