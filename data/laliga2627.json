@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T16:55:24Z",
+  "lastUpdated": "2026-09-05T16:56:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18519,6 +18519,15 @@
                 "extraTime": null,
                 "playerName": "Andrei Ratiu",
                 "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "51919293_8",
+                "type": "YELLOW_CARD",
+                "minute": 25,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
                 "text": null
               }
             ]
