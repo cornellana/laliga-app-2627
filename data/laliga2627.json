@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T17:49:51Z",
+  "lastUpdated": "2026-09-05T17:50:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18580,27 +18580,36 @@
                 "type": "SUBSTITUTION",
                 "minute": 55,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo Ramón",
                 "teamName": "Racing",
-                "text": null
+                "text": "Manu Hernando"
               },
               {
                 "id": "51924738_21",
                 "type": "SUBSTITUTION",
                 "minute": 55,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "André Almeida",
                 "teamName": "Racing",
-                "text": null
+                "text": "Matteo Prati"
               },
               {
                 "id": "51924739_22",
                 "type": "SUBSTITUTION",
                 "minute": 55,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jeanuël Belocian",
                 "teamName": "Racing",
-                "text": null
+                "text": "Facu González"
+              },
+              {
+                "id": "51924820_23",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Alemão",
+                "teamName": "Rayo",
+                "text": "Sergio Camello"
               }
             ]
           }
