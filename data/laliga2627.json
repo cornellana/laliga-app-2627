@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T20:38:35Z",
+  "lastUpdated": "2026-09-05T20:39:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18703,9 +18703,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "2-2",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -19172,12 +19172,30 @@
                 "text": null
               },
               {
-                "id": "51944499_14",
+                "id": "51944693_14",
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Zakaria Eddahchouri",
+                "teamName": "Deportivo",
+                "text": "Luismi Cruz"
+              },
+              {
+                "id": "51944499_15",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Tani Oluwaseyi",
                 "teamName": "Villarreal",
+                "text": "Gerard Moreno"
+              },
+              {
+                "id": "51944685_17",
+                "type": "GOAL",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Zakaria Eddahchouri",
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
@@ -24303,6 +24321,12 @@
     {
       "player": "Vinícius Júnior",
       "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Zakaria Eddahchouri",
+      "team": "Deportivo",
       "goals": 1,
       "penalties": null
     },
