@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T16:58:42Z",
+  "lastUpdated": "2026-09-05T16:59:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18116,9 +18116,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "29'",
+          "clock": "30'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18527,6 +18527,15 @@
                 "minute": 25,
                 "extraTime": null,
                 "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "51919581_9",
+                "type": "GOAL",
+                "minute": 28,
+                "extraTime": null,
+                "playerName": "Pablo García",
                 "teamName": "Racing",
                 "text": null
               }
@@ -23361,6 +23370,12 @@
       "penalties": null
     },
     {
+      "player": "Pablo García",
+      "team": "Betis",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Robert Navarro",
       "team": "Athletic",
       "goals": 2,
@@ -23609,12 +23624,6 @@
     {
       "player": "Oso",
       "team": "Sevilla",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Pablo García",
-      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
