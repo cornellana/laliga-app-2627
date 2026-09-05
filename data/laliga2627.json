@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T16:47:43Z",
+  "lastUpdated": "2026-09-05T16:48:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "18'",
+          "clock": "19'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18510,6 +18510,15 @@
                 "extraTime": null,
                 "playerName": "Sergio Canales",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "51918460_7",
+                "type": "GOAL",
+                "minute": 17,
+                "extraTime": null,
+                "playerName": "Andrei Ratiu",
+                "teamName": "Rayo",
                 "text": null
               }
             ]
@@ -23387,6 +23396,12 @@
     {
       "player": "Ander Barrenetxea",
       "team": "R. Sociedad",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Andrei Ratiu",
+      "team": "Rayo",
       "goals": 1,
       "penalties": null
     },
