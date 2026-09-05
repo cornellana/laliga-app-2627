@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:29:48Z",
+  "lastUpdated": "2026-09-05T15:31:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17593,9 +17593,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "48'",
+          "clock": "49'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -18003,6 +18003,15 @@
                 "minute": 46,
                 "extraTime": null,
                 "playerName": "Nico Williams",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "51909200_20",
+                "type": "GOAL",
+                "minute": 48,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Athletic",
                 "text": null
               }
