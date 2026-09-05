@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:45:04Z",
+  "lastUpdated": "2026-09-05T15:46:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17595,8 +17595,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "63'",
-          "statusText": "Second Half",
+          "clock": "65'",
+          "statusText": "In Progress",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
