@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:31:13Z",
+  "lastUpdated": "2026-09-05T15:32:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17595,7 +17595,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "49'",
+          "clock": "50'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -18011,7 +18011,7 @@
                 "type": "GOAL",
                 "minute": 48,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Robert Navarro",
                 "teamName": "Athletic",
                 "text": null
               }
@@ -22862,6 +22862,12 @@
       "penalties": null
     },
     {
+      "player": "Robert Navarro",
+      "team": "Athletic",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Rodrigo Riquelme",
       "team": "Betis",
       "goals": 2,
@@ -23112,12 +23118,6 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "Robert Navarro",
-      "team": "Athletic",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Sergio Martínez",
