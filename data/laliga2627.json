@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:58:42Z",
+  "lastUpdated": "2026-09-05T15:59:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17595,7 +17595,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "In Progress",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -18083,9 +18083,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gorka Guruzeta",
                 "teamName": "Athletic",
-                "text": null
+                "text": "Nico Williams"
               }
             ]
           }
