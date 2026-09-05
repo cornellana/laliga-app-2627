@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T20:36:24Z",
+  "lastUpdated": "2026-09-05T20:37:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18705,8 +18705,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "77'",
-          "statusText": "Second Half",
+          "clock": "78'",
+          "statusText": "In Progress",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
@@ -19161,6 +19161,15 @@
                 "playerName": "Miguel Loureiro",
                 "teamName": "Deportivo",
                 "text": "José María Giménez"
+              },
+              {
+                "id": "51944284_12",
+                "type": "OWN_GOAL",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Adama Traoré",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
