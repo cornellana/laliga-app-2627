@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T17:59:46Z",
+  "lastUpdated": "2026-09-05T18:00:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18625,7 +18625,16 @@
                 "type": "SUBSTITUTION",
                 "minute": 65,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Fran Pérez",
+                "teamName": "Rayo",
+                "text": "Jorge de Frutos"
+              },
+              {
+                "id": "51925971_26",
+                "type": "YELLOW_CARD",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Florian Lejeune",
                 "teamName": "Rayo",
                 "text": null
               }
