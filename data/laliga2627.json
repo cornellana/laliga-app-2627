@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T18:07:27Z",
+  "lastUpdated": "2026-09-05T18:08:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18635,6 +18635,15 @@
                 "minute": 66,
                 "extraTime": null,
                 "playerName": "Florian Lejeune",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "51926746_27",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Rayo",
                 "text": null
               }
