@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T18:24:59Z",
+  "lastUpdated": "2026-09-05T18:26:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18673,6 +18673,24 @@
                 "playerName": "Jorge de Frutos",
                 "teamName": "Rayo",
                 "text": null
+              },
+              {
+                "id": "51928550_37",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Juan Carlos Arana",
+                "teamName": "Racing",
+                "text": "Pablo García"
+              },
+              {
+                "id": "51928551_38",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Aarón Martín",
+                "teamName": "Racing",
+                "text": "Álvaro Mantilla"
               }
             ]
           }
