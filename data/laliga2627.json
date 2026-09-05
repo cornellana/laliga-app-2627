@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T20:25:27Z",
+  "lastUpdated": "2026-09-05T20:26:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18705,7 +18705,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -19134,6 +19134,33 @@
                 "playerName": "Tajon Buchanan",
                 "teamName": "Villarreal",
                 "text": "Alberto Moleiro"
+              },
+              {
+                "id": "51942958_9",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Marc Casadó",
+                "teamName": "Deportivo",
+                "text": "Mario Soriano"
+              },
+              {
+                "id": "51942960_10",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Adama Traoré",
+                "teamName": "Deportivo",
+                "text": "Bil Nsongo"
+              },
+              {
+                "id": "51942961_11",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Miguel Loureiro",
+                "teamName": "Deportivo",
+                "text": "José María Giménez"
               }
             ]
           }
