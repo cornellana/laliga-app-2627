@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T18:29:22Z",
+  "lastUpdated": "2026-09-05T18:30:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18115,11 +18115,11 @@
           "away": "Racing",
           "jornada": 4,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "3-2",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
           "details": {
