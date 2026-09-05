@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T14:56:46Z",
+  "lastUpdated": "2026-09-05T14:57:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -17595,7 +17595,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "39'",
+          "clock": "40'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -17978,7 +17978,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "51901237_5",
+                "type": "YELLOW_CARD",
+                "minute": 39,
+                "extraTime": null,
+                "playerName": "Lee Kang-In",
+                "teamName": "Atlético",
+                "text": null
+              }
+            ]
           }
         },
         {
