@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T17:58:41Z",
+  "lastUpdated": "2026-09-05T17:59:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18619,6 +18619,15 @@
                 "playerName": "Gnangoro",
                 "teamName": "Rayo",
                 "text": "Óscar Valentín"
+              },
+              {
+                "id": "51925902_25",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
