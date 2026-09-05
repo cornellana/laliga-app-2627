@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T19:44:06Z",
+  "lastUpdated": "2026-09-05T19:45:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18703,9 +18703,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "43'",
+          "clock": "45'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -19088,6 +19088,15 @@
                 "extraTime": null,
                 "playerName": "Nicolas Pepe",
                 "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "51937646_2",
+                "type": "GOAL",
+                "minute": 43,
+                "extraTime": null,
+                "playerName": "Luismi Cruz",
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
@@ -24093,6 +24102,12 @@
     {
       "player": "Lucas Boyé",
       "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Luismi Cruz",
+      "team": "Deportivo",
       "goals": 1,
       "penalties": null
     },
