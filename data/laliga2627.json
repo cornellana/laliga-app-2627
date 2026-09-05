@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T20:42:58Z",
+  "lastUpdated": "2026-09-05T20:44:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18705,7 +18705,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -19206,6 +19206,15 @@
                 "playerName": "Santi Comesaña",
                 "teamName": "Villarreal",
                 "text": null
+              },
+              {
+                "id": "51945271_19",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Ilias Akhomach",
+                "teamName": "Villarreal",
+                "text": "Logan Costa"
               }
             ]
           }
