@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T18:08:33Z",
+  "lastUpdated": "2026-09-05T18:09:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18642,6 +18642,15 @@
                 "id": "51926746_27",
                 "type": "SUBSTITUTION",
                 "minute": 74,
+                "extraTime": null,
+                "playerName": "Giorgi Tsitaishvili",
+                "teamName": "Rayo",
+                "text": "Álvaro García"
+              },
+              {
+                "id": "51926851_28",
+                "type": "SUBSTITUTION",
+                "minute": 75,
                 "extraTime": null,
                 "playerName": null,
                 "teamName": "Rayo",
