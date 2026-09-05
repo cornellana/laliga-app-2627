@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T20:37:29Z",
+  "lastUpdated": "2026-09-05T20:38:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18705,8 +18705,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "78'",
-          "statusText": "In Progress",
+          "clock": "79'",
+          "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
@@ -19168,6 +19168,15 @@
                 "minute": 76,
                 "extraTime": null,
                 "playerName": "Adama Traoré",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "51944499_14",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Villarreal",
                 "text": null
               }
