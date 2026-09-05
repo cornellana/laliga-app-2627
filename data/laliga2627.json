@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T18:23:52Z",
+  "lastUpdated": "2026-09-05T18:24:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -18118,7 +18118,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -18668,7 +18668,7 @@
               {
                 "id": "51928412_36",
                 "type": "RED_CARD",
-                "minute": 90,
+                "minute": 89,
                 "extraTime": null,
                 "playerName": "Jorge de Frutos",
                 "teamName": "Rayo",
