@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:49:38Z",
+  "lastUpdated": "2026-09-06T17:50:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20290,7 +20290,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20699,6 +20699,24 @@
                 "minute": 45,
                 "extraTime": 1,
                 "playerName": "Pablo Martínez",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "52032694_15",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "52032695_16",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Málaga",
                 "text": null
               }
