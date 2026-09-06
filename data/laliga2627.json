@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:44:07Z",
+  "lastUpdated": "2026-09-06T17:45:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19855,9 +19855,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "3-1",
           "state": "in",
-          "clock": "51'",
+          "clock": "52'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20267,6 +20267,15 @@
                 "playerName": "Ante Budimir",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "52032280_10",
+                "type": "GOAL",
+                "minute": 51,
+                "extraTime": null,
+                "playerName": "Lucas Boyé",
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
@@ -20281,7 +20290,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -25424,6 +25433,12 @@
       "penalties": 2
     },
     {
+      "player": "Lucas Boyé",
+      "team": "Alavés",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 3,
@@ -25450,12 +25465,6 @@
     {
       "player": "Jude Bellingham",
       "team": "Real Madrid",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Lucas Boyé",
-      "team": "Alavés",
       "goals": 2,
       "penalties": null
     },
