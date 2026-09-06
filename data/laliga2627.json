@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T19:15:45Z",
+  "lastUpdated": "2026-09-06T19:16:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,8 +20958,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "14'",
-          "statusText": "First Half",
+          "clock": "15'",
+          "statusText": "In Progress",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
@@ -21349,6 +21349,15 @@
                 "extraTime": null,
                 "playerName": "Giorgi Kochorashvili",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "52039406_2",
+                "type": "YELLOW_CARD",
+                "minute": 14,
+                "extraTime": null,
+                "playerName": "Cala",
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
