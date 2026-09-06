@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:54:04Z",
+  "lastUpdated": "2026-09-06T17:55:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20285,6 +20285,33 @@
                 "playerName": "Abel Bretones",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "52033016_16",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Jonathan Dubasin",
+                "teamName": "Osasuna",
+                "text": "Rubén García"
+              },
+              {
+                "id": "52033014_17",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Rockson Yeboah",
+                "teamName": "Osasuna",
+                "text": "Enzo Boyomo"
+              },
+              {
+                "id": "52033015_18",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Raúl Moro",
+                "teamName": "Osasuna",
+                "text": "Moi Gómez"
               }
             ]
           }
@@ -20299,7 +20326,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
