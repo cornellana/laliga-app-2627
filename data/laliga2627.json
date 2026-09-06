@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:19:19Z",
+  "lastUpdated": "2026-09-06T20:20:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21413,6 +21413,24 @@
                 "playerName": "Arouna Sangante",
                 "teamName": "Sevilla",
                 "text": null
+              },
+              {
+                "id": "52046901_17",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Urko González de Zárate",
+                "teamName": "Espanyol",
+                "text": "Gabriel Moscardo"
+              },
+              {
+                "id": "52046902_18",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Marcos Fernández",
+                "teamName": "Espanyol",
+                "text": "Cala"
               }
             ]
           }
