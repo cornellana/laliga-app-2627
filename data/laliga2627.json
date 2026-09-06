@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:38:10Z",
+  "lastUpdated": "2026-09-06T20:39:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "78'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21464,9 +21464,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Bryan Zaragoza",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Omar El Hilali"
               }
             ]
           }
