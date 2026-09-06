@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T15:37:43Z",
+  "lastUpdated": "2026-09-06T15:38:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "55'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19723,18 +19723,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 54,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Harvey Elliott",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Pablo Maffeo"
               },
               {
                 "id": "52020483_23",
                 "type": "SUBSTITUTION",
                 "minute": 54,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "José Gayà",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Jesús Vázquez"
               }
             ]
           }
