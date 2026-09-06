@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:57:24Z",
+  "lastUpdated": "2026-09-06T17:58:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,8 +19857,8 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "65'",
-          "statusText": "Second Half",
+          "clock": "66'",
+          "statusText": "In Progress",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
@@ -20344,7 +20344,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20785,6 +20785,15 @@
               },
               {
                 "id": "52033246_18",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Carlos Puga",
+                "teamName": "Málaga",
+                "text": "Rafita"
+              },
+              {
+                "id": "52033268_19",
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
