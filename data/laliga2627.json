@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T15:47:39Z",
+  "lastUpdated": "2026-09-06T15:48:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19737,7 +19737,16 @@
                 "text": "Jesús Vázquez"
               },
               {
-                "id": "52021187_24",
+                "id": "52021310_24",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Karim Adeyemi",
+                "teamName": "FC Barcelona",
+                "text": "Anthony Gordon"
+              },
+              {
+                "id": "52021187_25",
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
@@ -19746,22 +19755,13 @@
                 "text": "Rodri"
               },
               {
-                "id": "52021309_25",
+                "id": "52021309_26",
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
                 "playerName": "Andreas Christensen",
                 "teamName": "FC Barcelona",
                 "text": "Pau Cubarsí"
-              },
-              {
-                "id": "52021310_26",
-                "type": "SUBSTITUTION",
-                "minute": 62,
-                "extraTime": null,
-                "playerName": "Karim Adeyemi",
-                "teamName": "FC Barcelona",
-                "text": "Anthony Gordon"
               },
               {
                 "id": "52021311_27",
@@ -19780,6 +19780,15 @@
                 "playerName": "Ryunosuke Sato",
                 "teamName": "Valencia",
                 "text": "Javi Guerra"
+              },
+              {
+                "id": "52021640_29",
+                "type": "YELLOW_CARD",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Fermín López",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
