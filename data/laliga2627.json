@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:59:04Z",
+  "lastUpdated": "2026-09-06T21:00:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "90'+9'",
+          "clock": "90'+10'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21494,6 +21494,15 @@
                 "playerName": "Quilindschy Hartman",
                 "teamName": "Espanyol",
                 "text": "Roger Hinojo"
+              },
+              {
+                "id": "52052504_34",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 8,
+                "playerName": "Marcos Fernández",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
@@ -26464,6 +26473,12 @@
     {
       "player": "Marc Pubill",
       "team": "Atlético",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Marcos Fernández",
+      "team": "Espanyol",
       "goals": 1,
       "penalties": null
     },
