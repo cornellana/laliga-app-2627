@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T15:45:28Z",
+  "lastUpdated": "2026-09-06T15:46:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,8 +19271,8 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "64'",
-          "statusText": "In Progress",
+          "clock": "65'",
+          "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -19744,6 +19744,42 @@
                 "playerName": "Marc Bernal",
                 "teamName": "FC Barcelona",
                 "text": "Rodri"
+              },
+              {
+                "id": "52021309_25",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Andreas Christensen",
+                "teamName": "FC Barcelona",
+                "text": "Pau Cubarsí"
+              },
+              {
+                "id": "52021310_26",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Karim Adeyemi",
+                "teamName": "FC Barcelona",
+                "text": "Anthony Gordon"
+              },
+              {
+                "id": "52021311_27",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Iker Córdoba",
+                "teamName": "Valencia",
+                "text": "Mouctar Diakhaby because of an injury"
+              },
+              {
+                "id": "52021312_28",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Ryunosuke Sato",
+                "teamName": "Valencia",
+                "text": "Javi Guerra"
               }
             ]
           }
