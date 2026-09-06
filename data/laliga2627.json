@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:33:42Z",
+  "lastUpdated": "2026-09-06T20:34:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21446,18 +21446,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "José Ángel Carmona",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Miguel Sierra"
               },
               {
                 "id": "52049001_25",
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Manu Bueno",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Jon Guridi"
               }
             ]
           }
