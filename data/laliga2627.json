@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T19:10:13Z",
+  "lastUpdated": "2026-09-06T19:11:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,8 +20958,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "8'",
-          "statusText": "First Half",
+          "clock": "9'",
+          "statusText": "In Progress",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
@@ -21015,17 +21015,17 @@
                   "events": null
                 },
                 {
-                  "id": "361468",
-                  "jersey": 20,
-                  "name": "Gabriel Moscardo",
+                  "id": "255272",
+                  "jersey": 8,
+                  "name": "Edu Expósito",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "255272",
-                  "jersey": 8,
-                  "name": "Edu Expósito",
+                  "id": "361468",
+                  "jersey": 20,
+                  "name": "Gabriel Moscardo",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
