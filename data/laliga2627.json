@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:07:11Z",
+  "lastUpdated": "2026-09-06T20:08:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "47'",
+          "clock": "49'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21376,6 +21376,15 @@
                 "extraTime": null,
                 "playerName": "Miguel Sierra",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "52044922_11",
+                "type": "YELLOW_CARD",
+                "minute": 46,
+                "extraTime": null,
+                "playerName": "Gabriel Moscardo",
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
