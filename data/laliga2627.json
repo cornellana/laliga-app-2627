@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T15:44:21Z",
+  "lastUpdated": "2026-09-06T15:45:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,8 +19271,8 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "63'",
-          "statusText": "Second Half",
+          "clock": "64'",
+          "statusText": "In Progress",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -19735,6 +19735,15 @@
                 "playerName": "José Gayà",
                 "teamName": "Valencia",
                 "text": "Jesús Vázquez"
+              },
+              {
+                "id": "52021187_24",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Marc Bernal",
+                "teamName": "FC Barcelona",
+                "text": "Rodri"
               }
             ]
           }
