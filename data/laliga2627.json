@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:06:50Z",
+  "lastUpdated": "2026-09-06T17:07:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "35'",
+          "clock": "36'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20111,17 +20111,17 @@
                   "events": null
                 },
                 {
-                  "id": "207288",
-                  "jersey": 17,
-                  "name": "Ante Budimir",
+                  "id": "296163",
+                  "jersey": 9,
+                  "name": "Raúl García",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "296163",
-                  "jersey": 9,
-                  "name": "Raúl García",
+                  "id": "207288",
+                  "jersey": 17,
+                  "name": "Ante Budimir",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
@@ -20263,7 +20263,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "36'",
+          "clock": "37'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
