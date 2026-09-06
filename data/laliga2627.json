@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:17:26Z",
+  "lastUpdated": "2026-09-06T16:18:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19268,11 +19268,11 @@
           "away": "FC Barcelona",
           "jornada": 4,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-5",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
