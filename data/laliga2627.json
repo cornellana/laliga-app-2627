@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:05:44Z",
+  "lastUpdated": "2026-09-06T17:06:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "34'",
+          "clock": "35'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20263,7 +20263,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "35'",
+          "clock": "36'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20654,6 +20654,15 @@
                 "minute": 25,
                 "extraTime": null,
                 "playerName": "Dani Lorenzo",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "52029449_11",
+                "type": "YELLOW_CARD",
+                "minute": 34,
+                "extraTime": null,
+                "playerName": "Rafita",
                 "teamName": "Málaga",
                 "text": null
               }
