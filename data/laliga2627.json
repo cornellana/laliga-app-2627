@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:27:04Z",
+  "lastUpdated": "2026-09-06T14:29:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19269,15 +19269,15 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "0-2",
           "state": "in",
-          "clock": "8'",
+          "clock": "10'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
             "homeLineup": {
-              "formation": "5-3-2",
+              "formation": "5-4-1",
               "players": [
                 {
                   "id": "165334",
@@ -19331,14 +19331,6 @@
                   "id": "232803",
                   "jersey": 15,
                   "name": "Aliou Dieng",
-                  "position": "CM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "16340",
-                  "jersey": 8,
-                  "name": "Javi Guerra",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -19352,10 +19344,10 @@
                   "events": null
                 },
                 {
-                  "id": "231618",
-                  "jersey": 7,
-                  "name": "Arnaut Danjuma",
-                  "position": "CF-L",
+                  "id": "16340",
+                  "jersey": 8,
+                  "name": "Javi Guerra",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -19363,7 +19355,15 @@
                   "id": "377768",
                   "jersey": 27,
                   "name": "David Otorbi",
-                  "position": "CF-R",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "231618",
+                  "jersey": 7,
+                  "name": "Arnaut Danjuma",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
@@ -19659,6 +19659,15 @@
                 "id": "52011883_1",
                 "type": "GOAL",
                 "minute": 6,
+                "extraTime": null,
+                "playerName": "Lamine Yamal",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52012308_2",
+                "type": "GOAL",
+                "minute": 8,
                 "extraTime": null,
                 "playerName": "Lamine Yamal",
                 "teamName": "FC Barcelona",
@@ -24403,6 +24412,12 @@
       "penalties": null
     },
     {
+      "player": "Lamine Yamal",
+      "team": "FC Barcelona",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Pierre-Emerick Aubameyang",
       "team": "Deportivo",
       "goals": 4,
@@ -24410,12 +24425,6 @@
     },
     {
       "player": "Fermín López",
-      "team": "FC Barcelona",
-      "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Lamine Yamal",
       "team": "FC Barcelona",
       "goals": 3,
       "penalties": null
