@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:55:46Z",
+  "lastUpdated": "2026-09-06T16:56:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19863,104 +19863,8 @@
           "venueCity": "Vitoria-Gasteiz",
           "details": {
             "homeLineup": {
-              "formation": "3-1-4-2",
+              "formation": "3-5-2",
               "players": [
-                {
-                  "id": "163068",
-                  "jersey": 4,
-                  "name": "Denis Suárez",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "415206",
-                  "jersey": 29,
-                  "name": "Izei Hernandez",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "83494",
-                  "jersey": 22,
-                  "name": "Miguel Rodríguez",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "305608",
-                  "jersey": 12,
-                  "name": "Hugo Novoa",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "150374",
-                  "jersey": 13,
-                  "name": "Adrián Rodríguez",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "318084",
-                  "jersey": 2,
-                  "name": "Nicolás Valentini",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "253754",
-                  "jersey": 23,
-                  "name": "Carlos Protesoni",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "260256",
-                  "jersey": 6,
-                  "name": "Ander Guevara",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "415276",
-                  "jersey": 27,
-                  "name": "Xanet Oláiz",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "367996",
-                  "jersey": 24,
-                  "name": "Selu Diallo",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "382532",
-                  "jersey": 3,
-                  "name": "Youssef Lekhedim",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "379231",
-                  "jersey": 20,
-                  "name": "Aitor Mañas",
-                  "position": null,
-                  "isStarter": false,
-                  "events": null
-                },
                 {
                   "id": "200910",
                   "jersey": 1,
@@ -19994,14 +19898,6 @@
                   "events": null
                 },
                 {
-                  "id": "265997",
-                  "jersey": 8,
-                  "name": "Antonio Blanco",
-                  "position": "SW",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "233802",
                   "jersey": 10,
                   "name": "Carles Aleñá",
@@ -20014,6 +19910,14 @@
                   "jersey": 19,
                   "name": "Pablo Ibáñez",
                   "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "265997",
+                  "jersey": 8,
+                  "name": "Antonio Blanco",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -20048,11 +19952,107 @@
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
+                },
+                {
+                  "id": "163068",
+                  "jersey": 4,
+                  "name": "Denis Suárez",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "415206",
+                  "jersey": 29,
+                  "name": "Izei Hernandez",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "83494",
+                  "jersey": 22,
+                  "name": "Miguel Rodríguez",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "305608",
+                  "jersey": 12,
+                  "name": "Hugo Novoa",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "150374",
+                  "jersey": 13,
+                  "name": "Adrián Rodríguez",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "318084",
+                  "jersey": 2,
+                  "name": "Nicolás Valentini",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "253754",
+                  "jersey": 23,
+                  "name": "Carlos Protesoni",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "260256",
+                  "jersey": 6,
+                  "name": "Ander Guevara",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "415276",
+                  "jersey": 27,
+                  "name": "Xanet Oláiz",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "367996",
+                  "jersey": 24,
+                  "name": "Selu Diallo",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "382532",
+                  "jersey": 3,
+                  "name": "Youssef Lekhedim",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "379231",
+                  "jersey": 20,
+                  "name": "Aitor Mañas",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
                 }
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-2-2",
               "players": [
                 {
                   "id": "191360",
@@ -20111,22 +20111,6 @@
                   "events": null
                 },
                 {
-                  "id": "169089",
-                  "jersey": 16,
-                  "name": "Moi Gómez",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "178328",
-                  "jersey": 14,
-                  "name": "Rubén García",
-                  "position": "RM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "207288",
                   "jersey": 17,
                   "name": "Ante Budimir",
@@ -20139,6 +20123,22 @@
                   "jersey": 9,
                   "name": "Raúl García",
                   "position": "CF-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "169089",
+                  "jersey": 16,
+                  "name": "Moi Gómez",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "178328",
+                  "jersey": 14,
+                  "name": "Rubén García",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -20253,7 +20253,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20635,6 +20635,15 @@
                 "minute": 9,
                 "extraTime": null,
                 "playerName": "Chupe",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "52028779_6",
+                "type": "YELLOW_CARD",
+                "minute": 25,
+                "extraTime": null,
+                "playerName": "Dani Lorenzo",
                 "teamName": "Málaga",
                 "text": null
               }
