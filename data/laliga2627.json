@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:52:09Z",
+  "lastUpdated": "2026-09-06T14:55:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "31'",
+          "clock": "33'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19678,9 +19678,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 29,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jules Koundé",
                 "teamName": "FC Barcelona",
-                "text": null
+                "text": "Eric García because of an injury"
               }
             ]
           }
