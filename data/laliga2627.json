@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:17:56Z",
+  "lastUpdated": "2026-09-06T17:19:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+1'",
+          "clock": "45'+2'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20272,8 +20272,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "First Half",
+          "clock": "45'+4'",
+          "statusText": "In Progress",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -20672,6 +20672,15 @@
                 "minute": 34,
                 "extraTime": null,
                 "playerName": "Rafita",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "52030798_12",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 1,
+                "playerName": "Pablo Martínez",
                 "teamName": "Málaga",
                 "text": null
               }
