@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:24:51Z",
+  "lastUpdated": "2026-09-06T14:25:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19660,7 +19660,7 @@
                 "type": "GOAL",
                 "minute": 6,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Lamine Yamal",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -24415,6 +24415,12 @@
       "penalties": null
     },
     {
+      "player": "Lamine Yamal",
+      "team": "FC Barcelona",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Roberto Fernández",
       "team": "Espanyol",
       "goals": 3,
@@ -24441,12 +24447,6 @@
     {
       "player": "Jude Bellingham",
       "team": "Real Madrid",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Lamine Yamal",
-      "team": "FC Barcelona",
       "goals": 2,
       "penalties": null
     },
