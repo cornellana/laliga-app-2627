@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T18:05:06Z",
+  "lastUpdated": "2026-09-06T18:06:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20348,6 +20348,24 @@
                 "playerName": "Aitor Mañas",
                 "teamName": "Alavés",
                 "text": "Mariano Díaz"
+              },
+              {
+                "id": "52033723_23",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "52033724_24",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
@@ -20362,7 +20380,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "75'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
