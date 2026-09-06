@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T18:00:40Z",
+  "lastUpdated": "2026-09-06T18:01:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20344,7 +20344,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20800,6 +20800,15 @@
                 "playerName": "Ramón Enríquez",
                 "teamName": "Málaga",
                 "text": "Dani Lorenzo"
+              },
+              {
+                "id": "52033396_20",
+                "type": "YELLOW_CARD",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Adrián de la Fuente",
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
