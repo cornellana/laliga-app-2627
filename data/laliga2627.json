@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:58:29Z",
+  "lastUpdated": "2026-09-06T17:59:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,8 +19857,8 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "66'",
-          "statusText": "In Progress",
+          "clock": "67'",
+          "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
@@ -20344,7 +20344,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20797,9 +20797,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ramón Enríquez",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Dani Lorenzo"
               }
             ]
           }
