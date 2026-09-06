@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:21:32Z",
+  "lastUpdated": "2026-09-06T20:22:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20956,9 +20956,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21437,9 +21437,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Andrés Castrín",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Chidera Ejuke"
               }
             ]
           }
