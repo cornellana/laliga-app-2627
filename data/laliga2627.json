@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:04:11Z",
+  "lastUpdated": "2026-09-06T16:05:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-4",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19831,9 +19831,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 81,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gabriel Jesus",
                 "teamName": "FC Barcelona",
-                "text": null
+                "text": "Pedri"
               }
             ]
           }
