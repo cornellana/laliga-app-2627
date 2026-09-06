@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:47:49Z",
+  "lastUpdated": "2026-09-06T14:49:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "29'",
+          "clock": "30'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19670,6 +19670,15 @@
                 "minute": 22,
                 "extraTime": null,
                 "playerName": "Fermín López",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52015671_9",
+                "type": "SUBSTITUTION",
+                "minute": 29,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "FC Barcelona",
                 "text": null
               }
