@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T18:15:05Z",
+  "lastUpdated": "2026-09-06T18:16:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20881,6 +20881,15 @@
                 "playerName": "Paco Cortés",
                 "teamName": "Levante",
                 "text": "Thiago Fernández"
+              },
+              {
+                "id": "52034527_28",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
