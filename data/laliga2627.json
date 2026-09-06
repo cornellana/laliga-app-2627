@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T18:08:24Z",
+  "lastUpdated": "2026-09-06T18:09:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20380,7 +20380,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20851,27 +20851,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Hugo Sotelo",
                 "teamName": "Levante",
-                "text": null
+                "text": "Enzo Bardeli"
               },
               {
                 "id": "52033872_25",
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jeremy Toljan",
                 "teamName": "Levante",
-                "text": null
+                "text": "Nacho Pérez"
               },
               {
                 "id": "52033873_27",
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Paco Cortés",
                 "teamName": "Levante",
-                "text": null
+                "text": "Thiago Fernández"
               }
             ]
           }
