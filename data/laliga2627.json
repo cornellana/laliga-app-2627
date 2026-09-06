@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:45:51Z",
+  "lastUpdated": "2026-09-06T20:46:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21467,6 +21467,15 @@
                 "playerName": "Bryan Zaragoza",
                 "teamName": "Espanyol",
                 "text": "Omar El Hilali"
+              },
+              {
+                "id": "52051253_31",
+                "type": "GOAL",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Lucas Stassin",
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
@@ -26401,6 +26410,12 @@
     {
       "player": "Lee Kang-In",
       "team": "Atlético",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Lucas Stassin",
+      "team": "Sevilla",
       "goals": 1,
       "penalties": null
     },
