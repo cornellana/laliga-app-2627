@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:03:04Z",
+  "lastUpdated": "2026-09-06T16:04:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-4",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19824,6 +19824,15 @@
                 "extraTime": null,
                 "playerName": "Arnau Martínez",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "52023770_42",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
