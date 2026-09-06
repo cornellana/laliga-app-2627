@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:01:59Z",
+  "lastUpdated": "2026-09-06T16:03:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-4",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19815,6 +19815,15 @@
                 "extraTime": null,
                 "playerName": "Pedri",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52023731_41",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Arnau Martínez",
+                "teamName": "Valencia",
                 "text": null
               }
             ]
