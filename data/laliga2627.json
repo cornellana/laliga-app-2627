@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T15:35:31Z",
+  "lastUpdated": "2026-09-06T15:36:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "53'",
+          "clock": "54'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19708,6 +19708,15 @@
                 "playerName": "Raphinha",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "52020297_21",
+                "type": "SUBSTITUTION",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "César Tárrega",
+                "teamName": "Valencia",
+                "text": "Pepelu"
               }
             ]
           }
