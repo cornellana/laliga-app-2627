@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:36:59Z",
+  "lastUpdated": "2026-09-06T16:38:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20063,17 +20063,17 @@
                   "events": null
                 },
                 {
-                  "id": "264175",
-                  "jersey": 24,
-                  "name": "Alejandro Catena",
+                  "id": "307905",
+                  "jersey": 22,
+                  "name": "Enzo Boyomo",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "307905",
-                  "jersey": 22,
-                  "name": "Enzo Boyomo",
+                  "id": "264175",
+                  "jersey": 24,
+                  "name": "Alejandro Catena",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -20253,7 +20253,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "7'",
+          "clock": "8'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
