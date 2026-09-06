@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:03:30Z",
+  "lastUpdated": "2026-09-06T17:04:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,8 +19857,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "32'",
-          "statusText": "First Half",
+          "clock": "33'",
+          "statusText": "In Progress",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
@@ -20263,7 +20263,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "33'",
+          "clock": "34'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
