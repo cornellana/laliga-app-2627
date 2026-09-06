@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:22:20Z",
+  "lastUpdated": "2026-09-06T17:24:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20459,7 +20459,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-3-3",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "141438",
@@ -20486,6 +20486,14 @@
                   "events": null
                 },
                 {
+                  "id": "269339",
+                  "jersey": 20,
+                  "name": "Orio Rey",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "300985",
                   "jersey": 23,
                   "name": "Manu Sánchez",
@@ -20502,18 +20510,10 @@
                   "events": null
                 },
                 {
-                  "id": "269339",
-                  "jersey": 20,
-                  "name": "Orio Rey",
-                  "position": "CM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "317784",
                   "jersey": 8,
                   "name": "Jon Ander Olasagasti",
-                  "position": "LM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -20521,6 +20521,22 @@
                   "id": "334794",
                   "jersey": 18,
                   "name": "Enzo Bardeli",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "339195",
+                  "jersey": 24,
+                  "name": "Thiago Fernández",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "267591",
+                  "jersey": 7,
+                  "name": "Roger Brugué",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -20530,22 +20546,6 @@
                   "jersey": 9,
                   "name": "Iván Romero",
                   "position": "F",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "339195",
-                  "jersey": 24,
-                  "name": "Thiago Fernández",
-                  "position": "LF",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "267591",
-                  "jersey": 7,
-                  "name": "Roger Brugué",
-                  "position": "RF",
                   "isStarter": true,
                   "events": null
                 },
