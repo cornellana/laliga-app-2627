@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:56:17Z",
+  "lastUpdated": "2026-09-06T17:57:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19855,9 +19855,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "3-1",
+          "result": "3-2",
           "state": "in",
-          "clock": "63'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20321,6 +20321,15 @@
                 "playerName": "Abde Rebbach",
                 "teamName": "Alavés",
                 "text": null
+              },
+              {
+                "id": "52033245_20",
+                "type": "PENALTY",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
@@ -20335,7 +20344,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20773,6 +20782,15 @@
                 "playerName": "Yanis Musuayi",
                 "teamName": "Levante",
                 "text": "Iván Romero"
+              },
+              {
+                "id": "52033246_18",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
@@ -25475,6 +25493,12 @@
       "penalties": null
     },
     {
+      "player": "Ante Budimir",
+      "team": "Osasuna",
+      "goals": 4,
+      "penalties": 3
+    },
+    {
       "player": "Fermín López",
       "team": "FC Barcelona",
       "goals": 4,
@@ -25497,12 +25521,6 @@
       "team": "Deportivo",
       "goals": 4,
       "penalties": null
-    },
-    {
-      "player": "Ante Budimir",
-      "team": "Osasuna",
-      "goals": 3,
-      "penalties": 2
     },
     {
       "player": "Lucas Boyé",
