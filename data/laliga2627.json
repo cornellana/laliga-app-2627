@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:50:44Z",
+  "lastUpdated": "2026-09-06T17:51:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20276,6 +20276,15 @@
                 "playerName": "Lucas Boyé",
                 "teamName": "Alavés",
                 "text": null
+              },
+              {
+                "id": "52032807_15",
+                "type": "YELLOW_CARD",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": "Abel Bretones",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
@@ -20290,7 +20299,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20707,17 +20716,26 @@
                 "type": "SUBSTITUTION",
                 "minute": 59,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Izan Merino",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Pablo Martínez"
               },
               {
                 "id": "52032695_16",
                 "type": "SUBSTITUTION",
                 "minute": 59,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Joaquín Muñoz",
                 "teamName": "Málaga",
+                "text": "Juan Cruz"
+              },
+              {
+                "id": "52032810_17",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
                 "text": null
               }
             ]
