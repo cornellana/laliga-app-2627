@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:20:26Z",
+  "lastUpdated": "2026-09-06T14:21:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,8 +19271,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
-          "statusText": "In Progress",
+          "clock": "3'",
+          "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -19288,17 +19288,17 @@
                   "events": null
                 },
                 {
-                  "id": "231603",
-                  "jersey": 18,
-                  "name": "Pepelu",
+                  "id": "241117",
+                  "jersey": 4,
+                  "name": "Mouctar Diakhaby",
                   "position": "CD",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "241117",
-                  "jersey": 4,
-                  "name": "Mouctar Diakhaby",
+                  "id": "231603",
+                  "jersey": 18,
+                  "name": "Pepelu",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
@@ -19336,26 +19336,18 @@
                   "events": null
                 },
                 {
-                  "id": "248681",
-                  "jersey": 23,
-                  "name": "Filip Ugrinic",
+                  "id": "16340",
+                  "jersey": 8,
+                  "name": "Javi Guerra",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "377768",
-                  "jersey": 27,
-                  "name": "David Otorbi",
+                  "id": "248681",
+                  "jersey": 23,
+                  "name": "Filip Ugrinic",
                   "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "16340",
-                  "jersey": 8,
-                  "name": "Javi Guerra",
-                  "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -19363,6 +19355,14 @@
                   "id": "231618",
                   "jersey": 7,
                   "name": "Arnaut Danjuma",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "377768",
+                  "jersey": 27,
+                  "name": "David Otorbi",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
@@ -19517,17 +19517,17 @@
                   "events": null
                 },
                 {
-                  "id": "231828",
-                  "jersey": 16,
-                  "name": "Rodri",
+                  "id": "250465",
+                  "jersey": 8,
+                  "name": "Pedri",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "250465",
-                  "jersey": 8,
-                  "name": "Pedri",
+                  "id": "231828",
+                  "jersey": 16,
+                  "name": "Rodri",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
