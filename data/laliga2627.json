@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:07:55Z",
+  "lastUpdated": "2026-09-06T17:09:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19855,9 +19855,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "36'",
+          "clock": "37'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20249,6 +20249,15 @@
                 "playerName": "Lucas Boyé",
                 "teamName": "Alavés",
                 "text": null
+              },
+              {
+                "id": "52029714_6",
+                "type": "GOAL",
+                "minute": 36,
+                "extraTime": null,
+                "playerName": "Mariano Díaz",
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
@@ -20263,7 +20272,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "37'",
+          "clock": "38'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -25391,6 +25400,12 @@
       "penalties": null
     },
     {
+      "player": "Mariano Díaz",
+      "team": "Alavés",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Roberto Fernández",
       "team": "Espanyol",
       "goals": 3,
@@ -25422,12 +25437,6 @@
     },
     {
       "player": "Lucas Boyé",
-      "team": "Alavés",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 2,
       "penalties": null
