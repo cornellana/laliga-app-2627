@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T15:58:40Z",
+  "lastUpdated": "2026-09-06T15:59:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19789,6 +19789,24 @@
                 "playerName": "Fermín López",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "52023153_36",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Dani Olmo",
+                "teamName": "FC Barcelona",
+                "text": "Fermín López"
+              },
+              {
+                "id": "52023154_38",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Hugo Duro",
+                "teamName": "Valencia",
+                "text": "David Otorbi"
               }
             ]
           }
