@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T18:01:47Z",
+  "lastUpdated": "2026-09-06T18:02:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19855,9 +19855,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "3-2",
+          "result": "4-2",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20330,6 +20330,15 @@
                 "playerName": "Ante Budimir",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "52033487_21",
+                "type": "GOAL",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Lucas Boyé",
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
@@ -20344,7 +20353,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -25535,15 +25544,15 @@
       "penalties": null
     },
     {
-      "player": "Pierre-Emerick Aubameyang",
-      "team": "Deportivo",
+      "player": "Lucas Boyé",
+      "team": "Alavés",
       "goals": 4,
       "penalties": null
     },
     {
-      "player": "Lucas Boyé",
-      "team": "Alavés",
-      "goals": 3,
+      "player": "Pierre-Emerick Aubameyang",
+      "team": "Deportivo",
+      "goals": 4,
       "penalties": null
     },
     {
