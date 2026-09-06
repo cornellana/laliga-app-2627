@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:00:52Z",
+  "lastUpdated": "2026-09-06T16:01:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19269,9 +19269,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "0-3",
+          "result": "0-4",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19813,7 +19813,7 @@
                 "type": "GOAL",
                 "minute": 79,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pedri",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -24876,6 +24876,12 @@
     {
       "player": "Pape Gueye",
       "team": "Villarreal",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Pedri",
+      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
