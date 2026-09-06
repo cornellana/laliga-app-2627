@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:17:07Z",
+  "lastUpdated": "2026-09-06T20:18:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "57'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21404,6 +21404,15 @@
                 "playerName": "Youssouf Fofana",
                 "teamName": "Sevilla",
                 "text": "Giorgi Kochorashvili"
+              },
+              {
+                "id": "52046510_14",
+                "type": "RED_CARD",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Arouna Sangante",
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
