@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T15:28:54Z",
+  "lastUpdated": "2026-09-06T15:30:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "47'",
+          "clock": "48'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19688,6 +19688,15 @@
                 "minute": 45,
                 "extraTime": 3,
                 "playerName": "Pau Cubarsí",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52019753_19",
+                "type": "YELLOW_CARD",
+                "minute": 47,
+                "extraTime": null,
+                "playerName": "Rodri",
                 "teamName": "FC Barcelona",
                 "text": null
               }
