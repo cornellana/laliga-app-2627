@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T18:18:24Z",
+  "lastUpdated": "2026-09-06T18:19:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "85'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20375,6 +20375,33 @@
                 "playerName": "Xanet Oláiz",
                 "teamName": "Alavés",
                 "text": "Jonny Otto"
+              },
+              {
+                "id": "52034655_30",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Rockson Yeboah",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "52034728_31",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "52034729_32",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
@@ -20389,7 +20416,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20896,9 +20923,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jens Cajuste",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Carlos Dotor"
               }
             ]
           }
