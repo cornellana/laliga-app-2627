@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:48:04Z",
+  "lastUpdated": "2026-09-06T20:49:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21475,6 +21475,24 @@
                 "extraTime": null,
                 "playerName": "Lucas Stassin",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "52051567_32",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "52051568_33",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
