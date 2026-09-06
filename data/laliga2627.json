@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:35:57Z",
+  "lastUpdated": "2026-09-06T20:37:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21458,6 +21458,15 @@
                 "playerName": "Manu Bueno",
                 "teamName": "Sevilla",
                 "text": "Jon Guridi"
+              },
+              {
+                "id": "52049649_26",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
