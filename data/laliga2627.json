@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:22:38Z",
+  "lastUpdated": "2026-09-06T14:23:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "4'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19509,25 +19509,25 @@
                   "events": null
                 },
                 {
-                  "id": "250465",
-                  "jersey": 8,
-                  "name": "Pedri",
+                  "id": "231828",
+                  "jersey": 16,
+                  "name": "Rodri",
                   "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "231828",
-                  "jersey": 16,
-                  "name": "Rodri",
+                  "id": "250465",
+                  "jersey": 8,
+                  "name": "Pedri",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "362150",
-                  "jersey": 10,
-                  "name": "Lamine Yamal",
+                  "id": "354334",
+                  "jersey": 7,
+                  "name": "Fermín López",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -19549,9 +19549,9 @@
                   "events": null
                 },
                 {
-                  "id": "354334",
-                  "jersey": 7,
-                  "name": "Fermín López",
+                  "id": "362150",
+                  "jersey": 10,
+                  "name": "Lamine Yamal",
                   "position": "RF",
                   "isStarter": true,
                   "events": null
