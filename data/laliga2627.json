@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:07:29Z",
+  "lastUpdated": "2026-09-06T16:08:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19269,9 +19269,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "0-4",
+          "result": "0-5",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19834,6 +19834,15 @@
                 "playerName": "Gabriel Jesus",
                 "teamName": "FC Barcelona",
                 "text": "Pedri"
+              },
+              {
+                "id": "52024350_43",
+                "type": "GOAL",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Lamine Yamal",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -24580,15 +24589,15 @@
       "penalties": null
     },
     {
-      "player": "Pierre-Emerick Aubameyang",
-      "team": "Deportivo",
+      "player": "Lamine Yamal",
+      "team": "FC Barcelona",
       "goals": 4,
       "penalties": null
     },
     {
-      "player": "Lamine Yamal",
-      "team": "FC Barcelona",
-      "goals": 3,
+      "player": "Pierre-Emerick Aubameyang",
+      "team": "Deportivo",
+      "goals": 4,
       "penalties": null
     },
     {
