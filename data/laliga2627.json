@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:39:12Z",
+  "lastUpdated": "2026-09-06T16:40:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "7'",
+          "clock": "8'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20253,7 +20253,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "9'",
+          "clock": "10'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20628,7 +20628,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52026949_1",
+                "type": "MISSED_PENALTY",
+                "minute": 9,
+                "extraTime": null,
+                "playerName": "Chupe",
+                "teamName": "Málaga",
+                "text": null
+              }
+            ]
           }
         },
         {
