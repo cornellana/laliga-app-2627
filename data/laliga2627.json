@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:14:55Z",
+  "lastUpdated": "2026-09-06T20:16:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "55'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21386,6 +21386,24 @@
                 "playerName": "Gabriel Moscardo",
                 "teamName": "Espanyol",
                 "text": null
+              },
+              {
+                "id": "52046100_12",
+                "type": "SUBSTITUTION",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Lucas Stassin",
+                "teamName": "Sevilla",
+                "text": "Robbie Ure"
+              },
+              {
+                "id": "52046101_13",
+                "type": "SUBSTITUTION",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Youssouf Fofana",
+                "teamName": "Sevilla",
+                "text": "Giorgi Kochorashvili"
               }
             ]
           }
