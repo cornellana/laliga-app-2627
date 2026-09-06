@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T18:22:48Z",
+  "lastUpdated": "2026-09-06T18:23:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20416,7 +20416,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20926,6 +20926,15 @@
                 "playerName": "Jens Cajuste",
                 "teamName": "Málaga",
                 "text": "Carlos Dotor"
+              },
+              {
+                "id": "52035076_30",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Carlos Puga",
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
