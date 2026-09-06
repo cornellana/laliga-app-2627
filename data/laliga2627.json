@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T21:01:15Z",
+  "lastUpdated": "2026-09-06T21:02:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20955,11 +20955,11 @@
           "away": "Sevilla",
           "jornada": 4,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-1",
-          "state": "in",
-          "clock": "90'+11'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
