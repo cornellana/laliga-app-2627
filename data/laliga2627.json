@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:59:04Z",
+  "lastUpdated": "2026-09-06T17:00:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19855,9 +19855,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "27'",
+          "clock": "28'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20240,7 +20240,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52028992_1",
+                "type": "GOAL",
+                "minute": 27,
+                "extraTime": null,
+                "playerName": "Lucas Boyé",
+                "teamName": "Alavés",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -20253,7 +20263,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "28'",
+          "clock": "30'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -25402,6 +25412,12 @@
       "penalties": null
     },
     {
+      "player": "Lucas Boyé",
+      "team": "Alavés",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 2,
@@ -25590,12 +25606,6 @@
     {
       "player": "Lee Kang-In",
       "team": "Atlético",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Lucas Boyé",
-      "team": "Alavés",
       "goals": 1,
       "penalties": null
     },
