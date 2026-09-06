@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:22:38Z",
+  "lastUpdated": "2026-09-06T20:23:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21440,6 +21440,15 @@
                 "playerName": "Andrés Castrín",
                 "teamName": "Sevilla",
                 "text": "Chidera Ejuke"
+              },
+              {
+                "id": "52047379_22",
+                "type": "GOAL",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Omar El Hilali",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
@@ -26434,6 +26443,12 @@
     {
       "player": "Oihan Sancet",
       "team": "Athletic",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Omar El Hilali",
+      "team": "Espanyol",
       "goals": 1,
       "penalties": null
     },
