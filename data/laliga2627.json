@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T20:50:16Z",
+  "lastUpdated": "2026-09-06T20:51:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
