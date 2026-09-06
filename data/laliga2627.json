@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T15:46:33Z",
+  "lastUpdated": "2026-09-06T15:47:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19766,7 +19766,7 @@
               {
                 "id": "52021311_27",
                 "type": "SUBSTITUTION",
-                "minute": 63,
+                "minute": 62,
                 "extraTime": null,
                 "playerName": "Iker Córdoba",
                 "teamName": "Valencia",
@@ -19775,7 +19775,7 @@
               {
                 "id": "52021312_28",
                 "type": "SUBSTITUTION",
-                "minute": 63,
+                "minute": 62,
                 "extraTime": null,
                 "playerName": "Ryunosuke Sato",
                 "teamName": "Valencia",
