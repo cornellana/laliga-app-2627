@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:43:36Z",
+  "lastUpdated": "2026-09-06T16:44:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "11'",
+          "clock": "12'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20253,13 +20253,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "13'",
+          "clock": "14'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
             "homeLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-3-3",
               "players": [
                 {
                   "id": "240624",
@@ -20302,18 +20302,10 @@
                   "events": null
                 },
                 {
-                  "id": "324098",
-                  "jersey": 8,
-                  "name": "Carlos Dotor",
-                  "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "271151",
                   "jersey": 18,
                   "name": "Pablo Martínez",
-                  "position": "LM",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
@@ -20321,6 +20313,14 @@
                   "id": "331533",
                   "jersey": 22,
                   "name": "Daniel Lorenzo",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "324098",
+                  "jersey": 8,
+                  "name": "Carlos Dotor",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -20337,7 +20337,7 @@
                   "id": "145565",
                   "jersey": 19,
                   "name": "Juan Cruz",
-                  "position": "AM-L",
+                  "position": "LF",
                   "isStarter": true,
                   "events": null
                 },
@@ -20345,7 +20345,7 @@
                   "id": "297828",
                   "jersey": 10,
                   "name": "David Larrubia",
-                  "position": "AM-R",
+                  "position": "RF",
                   "isStarter": true,
                   "events": null
                 },
