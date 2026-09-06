@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T18:16:12Z",
+  "lastUpdated": "2026-09-06T18:17:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20389,7 +20389,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "86'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20887,8 +20887,17 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Dani Requena",
                 "teamName": "Levante",
+                "text": "Jon Ander Olasagasti"
+              },
+              {
+                "id": "52034596_29",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
                 "text": null
               }
             ]
