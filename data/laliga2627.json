@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T18:19:30Z",
+  "lastUpdated": "2026-09-06T18:20:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20390,18 +20390,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 85,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Miguel Rodríguez",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Lucas Boyé"
               },
               {
                 "id": "52034729_32",
                 "type": "SUBSTITUTION",
                 "minute": 85,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Asier Osambela",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Iñigo Arguibide"
               }
             ]
           }
@@ -20416,7 +20416,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
