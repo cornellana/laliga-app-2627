@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:51:50Z",
+  "lastUpdated": "2026-09-06T17:52:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20299,7 +20299,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -20734,9 +20734,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Yanis Musuayi",
                 "teamName": "Levante",
-                "text": null
+                "text": "Iván Romero"
               }
             ]
           }
