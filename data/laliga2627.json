@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T15:31:06Z",
+  "lastUpdated": "2026-09-06T15:32:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "49'",
+          "clock": "50'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19697,6 +19697,15 @@
                 "minute": 47,
                 "extraTime": null,
                 "playerName": "Rodri",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52019918_20",
+                "type": "GOAL",
+                "minute": 50,
+                "extraTime": null,
+                "playerName": "Raphinha",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -24423,7 +24432,7 @@
     {
       "player": "Raphinha",
       "team": "FC Barcelona",
-      "goals": 5,
+      "goals": 6,
       "penalties": 1
     },
     {
