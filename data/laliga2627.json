@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:23:44Z",
+  "lastUpdated": "2026-09-06T14:24:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19269,9 +19269,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "6'",
+          "clock": "7'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19654,7 +19654,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52011883_1",
+                "type": "GOAL",
+                "minute": 6,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
+              }
+            ]
           }
         },
         {
