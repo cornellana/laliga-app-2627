@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:55:11Z",
+  "lastUpdated": "2026-09-06T17:56:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20312,6 +20312,15 @@
                 "playerName": "Raúl Moro",
                 "teamName": "Osasuna",
                 "text": "Moi Gómez"
+              },
+              {
+                "id": "52033161_19",
+                "type": "YELLOW_CARD",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Abde Rebbach",
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
@@ -20326,7 +20335,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
