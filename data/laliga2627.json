@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T19:43:21Z",
+  "lastUpdated": "2026-09-06T19:44:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -20958,7 +20958,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "41'",
+          "clock": "43'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -21366,6 +21366,15 @@
                 "minute": 27,
                 "extraTime": null,
                 "playerName": "Robbie Ure",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "52042705_8",
+                "type": "YELLOW_CARD",
+                "minute": 40,
+                "extraTime": null,
+                "playerName": "Miguel Sierra",
                 "teamName": "Sevilla",
                 "text": null
               }
