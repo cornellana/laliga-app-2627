@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T18:23:54Z",
+  "lastUpdated": "2026-09-06T18:25:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19855,9 +19855,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "4-2",
+          "result": "5-2",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20402,6 +20402,15 @@
                 "playerName": "Asier Osambela",
                 "teamName": "Osasuna",
                 "text": "Iñigo Arguibide"
+              },
+              {
+                "id": "52035266_33",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Pablo Ibáñez",
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
@@ -20413,11 +20422,11 @@
           "away": "Levante",
           "jornada": 4,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-0",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -25957,6 +25966,12 @@
     {
       "player": "Oso",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Pablo Ibáñez",
+      "team": "Alavés",
       "goals": 1,
       "penalties": null
     },
