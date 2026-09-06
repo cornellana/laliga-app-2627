@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T17:39:41Z",
+  "lastUpdated": "2026-09-06T17:40:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19855,9 +19855,9 @@
           "jornada": 4,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "2-1",
           "state": "in",
-          "clock": "46'",
+          "clock": "48'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20258,6 +20258,15 @@
                 "playerName": "Mariano Díaz",
                 "teamName": "Alavés",
                 "text": null
+              },
+              {
+                "id": "52031936_9",
+                "type": "GOAL",
+                "minute": 46,
+                "extraTime": null,
+                "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
@@ -20272,7 +20281,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "50'",
+          "clock": "51'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -25409,6 +25418,12 @@
       "penalties": null
     },
     {
+      "player": "Ante Budimir",
+      "team": "Osasuna",
+      "goals": 3,
+      "penalties": 2
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 3,
@@ -25431,12 +25446,6 @@
       "team": "Atlético",
       "goals": 3,
       "penalties": null
-    },
-    {
-      "player": "Ante Budimir",
-      "team": "Osasuna",
-      "goals": 2,
-      "penalties": 2
     },
     {
       "player": "Jude Bellingham",
