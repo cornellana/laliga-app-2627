@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:21:32Z",
+  "lastUpdated": "2026-09-06T14:22:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19466,7 +19466,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-3-3",
               "players": [
                 {
                   "id": "297362",
@@ -19509,18 +19509,10 @@
                   "events": null
                 },
                 {
-                  "id": "354334",
-                  "jersey": 7,
-                  "name": "Fermín López",
-                  "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "250465",
                   "jersey": 8,
                   "name": "Pedri",
-                  "position": "LM",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
@@ -19528,6 +19520,14 @@
                   "id": "231828",
                   "jersey": 16,
                   "name": "Rodri",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "362150",
+                  "jersey": 10,
+                  "name": "Lamine Yamal",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -19544,15 +19544,15 @@
                   "id": "268782",
                   "jersey": 17,
                   "name": "Anthony Gordon",
-                  "position": "AM-L",
+                  "position": "LF",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "362150",
-                  "jersey": 10,
-                  "name": "Lamine Yamal",
-                  "position": "AM-R",
+                  "id": "354334",
+                  "jersey": 7,
+                  "name": "Fermín López",
+                  "position": "RF",
                   "isStarter": true,
                   "events": null
                 },
