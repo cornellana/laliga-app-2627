@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T15:36:37Z",
+  "lastUpdated": "2026-09-06T15:37:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19717,6 +19717,24 @@
                 "playerName": "César Tárrega",
                 "teamName": "Valencia",
                 "text": "Pepelu"
+              },
+              {
+                "id": "52020482_22",
+                "type": "SUBSTITUTION",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "52020483_23",
+                "type": "SUBSTITUTION",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
