@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T18:12:51Z",
+  "lastUpdated": "2026-09-06T18:13:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19857,7 +19857,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -20366,6 +20366,15 @@
                 "playerName": "Youssef Enriquez",
                 "teamName": "Alavés",
                 "text": "Abde Rebbach"
+              },
+              {
+                "id": "52034277_29",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Xanet Oláiz",
+                "teamName": "Alavés",
+                "text": "Jonny Otto"
               }
             ]
           }
@@ -20380,7 +20389,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
