@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:42:22Z",
+  "lastUpdated": "2026-09-06T14:43:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -19271,7 +19271,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "24'",
+          "clock": "25'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -19661,6 +19661,15 @@
                 "minute": 6,
                 "extraTime": null,
                 "playerName": "Lamine Yamal",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52014434_4",
+                "type": "GOAL",
+                "minute": 22,
+                "extraTime": null,
+                "playerName": "Fermín López",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -24397,6 +24406,12 @@
       "penalties": null
     },
     {
+      "player": "Fermín López",
+      "team": "FC Barcelona",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Kylian Mbappé",
       "team": "Real Madrid",
       "goals": 4,
@@ -24406,12 +24421,6 @@
       "player": "Pierre-Emerick Aubameyang",
       "team": "Deportivo",
       "goals": 4,
-      "penalties": null
-    },
-    {
-      "player": "Fermín López",
-      "team": "FC Barcelona",
-      "goals": 3,
       "penalties": null
     },
     {
