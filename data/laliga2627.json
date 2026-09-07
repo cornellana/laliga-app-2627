@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T20:47:07Z",
+  "lastUpdated": "2026-09-07T20:48:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "56'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22500,9 +22500,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 55,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Abiel Osorio",
                 "teamName": "Elche",
-                "text": null
+                "text": "Ezequiel Ponce"
               },
               {
                 "id": "52082210_12",
@@ -22512,6 +22512,15 @@
                 "playerName": "Thomas Lemar",
                 "teamName": "Elche",
                 "text": "Facundo Buonanotte"
+              },
+              {
+                "id": "52082272_13",
+                "type": "YELLOW_CARD",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Abiel Osorio",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
