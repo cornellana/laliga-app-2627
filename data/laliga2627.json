@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T21:28:12Z",
+  "lastUpdated": "2026-09-07T21:29:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22072,11 +22072,11 @@
           "jornada": 4,
           "jornadaEstimada": true,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-3",
-          "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
           "details": {
