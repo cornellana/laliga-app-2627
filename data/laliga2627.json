@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T20:16:40Z",
+  "lastUpdated": "2026-09-07T20:17:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+1'",
+          "clock": "45'+2'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22491,7 +22491,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 43,
                 "extraTime": null,
-                "playerName": "José Antonio Morente",
+                "playerName": "Tete Morente",
                 "teamName": "Elche",
                 "text": null
               }
