@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T17:10:19Z",
+  "lastUpdated": "2026-09-07T17:11:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21524,7 +21524,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "8'",
+          "clock": "9'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -21907,7 +21907,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52076369_5",
+                "type": "SUBSTITUTION",
+                "minute": 8,
+                "extraTime": null,
+                "playerName": "Andrés García",
+                "teamName": "Getafe",
+                "text": "Kiko Femenía because of an injury"
+              }
+            ]
           }
         },
         {
