@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T20:51:33Z",
+  "lastUpdated": "2026-09-07T20:52:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22073,9 +22073,9 @@
           "jornadaEstimada": true,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "0-3",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22539,6 +22539,15 @@
                 "playerName": "Jon Martín",
                 "teamName": "R. Sociedad",
                 "text": "Mamadou Sarr"
+              },
+              {
+                "id": "52082420_16",
+                "type": "GOAL",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Luka Sucic",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
@@ -27273,6 +27282,12 @@
       "penalties": null
     },
     {
+      "player": "Luka Sucic",
+      "team": "R. Sociedad",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Nicolas Pepe",
       "team": "Villarreal",
       "goals": 2,
@@ -27479,12 +27494,6 @@
     {
       "player": "Luismi Cruz",
       "team": "Deportivo",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Luka Sucic",
-      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
