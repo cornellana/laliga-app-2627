@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T18:48:08Z",
+  "lastUpdated": "2026-09-07T18:49:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21524,7 +21524,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -22013,6 +22013,15 @@
                 "minute": 77,
                 "extraTime": null,
                 "playerName": "Carl Starfelt",
+                "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "52078486_27",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Celta",
                 "text": null
               }
