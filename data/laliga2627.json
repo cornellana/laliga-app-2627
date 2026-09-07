@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T20:15:35Z",
+  "lastUpdated": "2026-09-07T20:16:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22484,6 +22484,15 @@
                 "extraTime": null,
                 "playerName": "Yangel Herrera",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52081154_8",
+                "type": "YELLOW_CARD",
+                "minute": 43,
+                "extraTime": null,
+                "playerName": "José Antonio Morente",
+                "teamName": "Elche",
                 "text": null
               }
             ]
