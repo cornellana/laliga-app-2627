@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T18:21:35Z",
+  "lastUpdated": "2026-09-07T18:22:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21524,8 +21524,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "56'",
-          "statusText": "In Progress",
+          "clock": "57'",
+          "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -21932,6 +21932,15 @@
                 "minute": 45,
                 "extraTime": 6,
                 "playerName": "Johan Mojica",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "52078028_14",
+                "type": "YELLOW_CARD",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": "Zaid Romero",
                 "teamName": "Getafe",
                 "text": null
               }
