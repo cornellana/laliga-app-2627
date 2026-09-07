@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T17:23:36Z",
+  "lastUpdated": "2026-09-07T17:24:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21522,10 +21522,10 @@
           "jornadaEstimada": true,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "22'",
-          "statusText": "First Half",
+          "clock": "23'",
+          "statusText": "In Progress",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -21916,6 +21916,15 @@
                 "playerName": "Andrés García",
                 "teamName": "Getafe",
                 "text": "Kiko Femenía because of an injury"
+              },
+              {
+                "id": "52076714_6",
+                "type": "GOAL",
+                "minute": 21,
+                "extraTime": null,
+                "playerName": "Martín Satriano",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
@@ -26891,6 +26900,12 @@
     {
       "player": "Marcos Fernández",
       "team": "Espanyol",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Martín Satriano",
+      "team": "Getafe",
       "goals": 1,
       "penalties": null
     },
