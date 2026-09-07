@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T20:50:27Z",
+  "lastUpdated": "2026-09-07T20:51:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22527,18 +22527,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 58,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alex Marchal",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Gonçalo Guedes"
               },
               {
                 "id": "52082307_15",
                 "type": "SUBSTITUTION",
                 "minute": 58,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jon Martín",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Mamadou Sarr"
               }
             ]
           }
