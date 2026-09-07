@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T19:00:16Z",
+  "lastUpdated": "2026-09-07T19:01:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21521,11 +21521,11 @@
           "jornada": 4,
           "jornadaEstimada": true,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-1",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -22051,6 +22051,15 @@
                 "playerName": "Óscar López",
                 "teamName": "Getafe",
                 "text": "Ramón Terrats"
+              },
+              {
+                "id": "52078835_31",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": null,
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
