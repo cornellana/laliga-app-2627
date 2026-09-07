@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T18:34:50Z",
+  "lastUpdated": "2026-09-07T18:35:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21524,7 +21524,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -21987,6 +21987,15 @@
                 "extraTime": null,
                 "playerName": "Second yellow card to Zaid Romero",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "52078285_20",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Celta",
                 "text": null
               }
             ]
