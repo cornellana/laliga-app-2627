@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T18:49:14Z",
+  "lastUpdated": "2026-09-07T18:50:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21524,7 +21524,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -22021,9 +22021,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ferran Jutglà",
                 "teamName": "Celta",
-                "text": null
+                "text": "Hugo González"
               }
             ]
           }
