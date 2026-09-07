@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T21:00:25Z",
+  "lastUpdated": "2026-09-07T21:01:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22555,6 +22555,15 @@
                 "minute": 67,
                 "extraTime": null,
                 "playerName": "Thomas Lemar",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "52082593_20",
+                "type": "YELLOW_CARD",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Germán Valera",
                 "teamName": "Elche",
                 "text": null
               }
