@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T18:42:37Z",
+  "lastUpdated": "2026-09-07T18:43:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21524,8 +21524,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "78'",
-          "statusText": "Second Half",
+          "clock": "79'",
+          "statusText": "In Progress",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -22006,6 +22006,15 @@
                 "playerName": "Iván Azón",
                 "teamName": "Getafe",
                 "text": "Martín Satriano because of an injury"
+              },
+              {
+                "id": "52078351_26",
+                "type": "YELLOW_CARD",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Carl Starfelt",
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
