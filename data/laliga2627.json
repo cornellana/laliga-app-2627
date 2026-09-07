@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T18:30:25Z",
+  "lastUpdated": "2026-09-07T18:31:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21524,7 +21524,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -21952,6 +21952,33 @@
                 "playerName": "Carl Starfelt",
                 "teamName": "Celta",
                 "text": null
+              },
+              {
+                "id": "52078203_16",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Javi Rueda",
+                "teamName": "Celta",
+                "text": "Javi Galán"
+              },
+              {
+                "id": "52078204_17",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Sergio Carreira",
+                "teamName": "Celta",
+                "text": "Iago Aspas"
+              },
+              {
+                "id": "52078205_18",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Couhaib Driouech",
+                "teamName": "Celta",
+                "text": "Jones El Abdellaoui"
               }
             ]
           }
