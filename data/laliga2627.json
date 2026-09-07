@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T18:33:42Z",
+  "lastUpdated": "2026-09-07T18:34:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21524,7 +21524,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -21979,6 +21979,15 @@
                 "playerName": "Couhaib Driouech",
                 "teamName": "Celta",
                 "text": "Jones El Abdellaoui"
+              },
+              {
+                "id": "52078255_19",
+                "type": "RED_CARD",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Second yellow card to Zaid Romero",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
