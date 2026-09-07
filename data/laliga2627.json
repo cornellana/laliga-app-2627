@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T21:11:29Z",
+  "lastUpdated": "2026-09-07T21:12:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22602,6 +22602,15 @@
                 "playerName": "Fer Niño",
                 "teamName": "Elche",
                 "text": null
+              },
+              {
+                "id": "52082942_25",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Josan",
+                "teamName": "Elche",
+                "text": "Germán Valera"
               }
             ]
           }
