@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T20:58:11Z",
+  "lastUpdated": "2026-09-07T20:59:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22073,9 +22073,9 @@
           "jornadaEstimada": true,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "1-2",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22547,6 +22547,15 @@
                 "extraTime": null,
                 "playerName": "Jon Martín",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52082546_19",
+                "type": "GOAL",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Thomas Lemar",
+                "teamName": "Elche",
                 "text": null
               }
             ]
@@ -27602,6 +27611,12 @@
     {
       "player": "Sergio Martínez",
       "team": "Racing",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Thomas Lemar",
+      "team": "Elche",
       "goals": 1,
       "penalties": null
     },
