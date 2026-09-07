@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T21:12:36Z",
+  "lastUpdated": "2026-09-07T21:13:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22604,13 +22604,31 @@
                 "text": null
               },
               {
-                "id": "52082942_25",
+                "id": "52082965_25",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Héctor Fort",
+                "teamName": "R. Sociedad",
+                "text": "Alex Marchal"
+              },
+              {
+                "id": "52082942_26",
                 "type": "SUBSTITUTION",
                 "minute": 81,
                 "extraTime": null,
                 "playerName": "Josan",
                 "teamName": "Elche",
                 "text": "Germán Valera"
+              },
+              {
+                "id": "52082966_27",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Roy Revivo",
+                "teamName": "Elche",
+                "text": "Buba Sangaré"
               }
             ]
           }
