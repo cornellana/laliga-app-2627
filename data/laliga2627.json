@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T20:55:58Z",
+  "lastUpdated": "2026-09-07T20:57:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "65'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22539,6 +22539,15 @@
                 "playerName": "Jon Martín",
                 "teamName": "R. Sociedad",
                 "text": "Mamadou Sarr"
+              },
+              {
+                "id": "52082484_18",
+                "type": "RED_CARD",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Jon Martín",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
