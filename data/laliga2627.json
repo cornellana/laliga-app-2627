@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T18:51:26Z",
+  "lastUpdated": "2026-09-07T18:52:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21524,7 +21524,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -22024,6 +22024,24 @@
                 "playerName": "Ferran Jutglà",
                 "teamName": "Celta",
                 "text": "Hugo González"
+              },
+              {
+                "id": "52078592_28",
+                "type": "YELLOW_CARD",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Ramón Terrats",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "52078593_29",
+                "type": "YELLOW_CARD",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Marcos Alonso",
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
