@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T21:02:22Z",
+  "lastUpdated": "2026-09-07T00:03:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21545,6 +21545,28 @@
           "statusText": null,
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
+          "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "jornada": 5,
+      "games": [
+        {
+          "id": "401882878",
+          "time": "21:00",
+          "home": "Sevilla",
+          "away": "Valencia",
+          "jornada": 5,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
           "details": null
         }
       ]
