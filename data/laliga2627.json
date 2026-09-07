@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T21:20:26Z",
+  "lastUpdated": "2026-09-07T21:21:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22073,9 +22073,9 @@
           "jornadaEstimada": true,
           "tv": null,
           "done": false,
-          "result": "2-2",
+          "result": "2-3",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22629,6 +22629,15 @@
                 "playerName": "Roy Revivo",
                 "teamName": "Elche",
                 "text": "Buba Sangaré"
+              },
+              {
+                "id": "52083103_28",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Luka Sucic",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
@@ -27369,6 +27378,12 @@
       "penalties": null
     },
     {
+      "player": "Luka Sucic",
+      "team": "R. Sociedad",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Nicolas Pepe",
       "team": "Villarreal",
       "goals": 2,
@@ -27569,12 +27584,6 @@
     {
       "player": "Luismi Cruz",
       "team": "Deportivo",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Luka Sucic",
-      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
