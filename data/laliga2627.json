@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T18:22:41Z",
+  "lastUpdated": "2026-09-07T18:23:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21522,9 +21522,9 @@
           "jornadaEstimada": true,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -21942,6 +21942,15 @@
                 "extraTime": null,
                 "playerName": "Zaid Romero",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "52078048_15",
+                "type": "GOAL",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Carl Starfelt",
+                "teamName": "Celta",
                 "text": null
               }
             ]
@@ -26780,6 +26789,12 @@
     {
       "player": "Cala",
       "team": "Espanyol",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Carl Starfelt",
+      "team": "Celta",
       "goals": 1,
       "penalties": null
     },
