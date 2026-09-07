@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T20:44:54Z",
+  "lastUpdated": "2026-09-07T20:46:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22494,6 +22494,15 @@
                 "playerName": "Tete Morente",
                 "teamName": "Elche",
                 "text": null
+              },
+              {
+                "id": "52082210_11",
+                "type": "SUBSTITUTION",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": "Thomas Lemar",
+                "teamName": "Elche",
+                "text": "Facundo Buonanotte"
               }
             ]
           }
