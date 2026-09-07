@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T19:41:13Z",
+  "lastUpdated": "2026-09-07T19:42:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22458,7 +22458,26 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52079917_1",
+                "type": "YELLOW_CARD",
+                "minute": 9,
+                "extraTime": null,
+                "playerName": "Jon Aramburu",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52079931_2",
+                "type": "GOAL",
+                "minute": 11,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
+                "text": null
+              }
+            ]
           }
         }
       ]
