@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T18:35:56Z",
+  "lastUpdated": "2026-09-07T18:37:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -21524,7 +21524,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -21994,9 +21994,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Borja Iglesias",
                 "teamName": "Celta",
-                "text": null
+                "text": "Pablo Durán"
               }
             ]
           }
