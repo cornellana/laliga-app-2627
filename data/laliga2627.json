@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T21:04:51Z",
+  "lastUpdated": "2026-09-07T21:05:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22073,9 +22073,9 @@
           "jornadaEstimada": true,
           "tv": null,
           "done": false,
-          "result": "1-2",
+          "result": "2-2",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22593,6 +22593,15 @@
                 "playerName": "Lucas Cepeda",
                 "teamName": "Elche",
                 "text": "Gonzalo Villar"
+              },
+              {
+                "id": "52082715_24",
+                "type": "GOAL",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Fer Niño",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
@@ -27321,6 +27330,12 @@
       "penalties": null
     },
     {
+      "player": "Fer Niño",
+      "team": "Elche",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Jude Bellingham",
       "team": "Real Madrid",
       "goals": 2,
@@ -27449,12 +27464,6 @@
     {
       "player": "Enzo Bardeli",
       "team": "Levante",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Fer Niño",
-      "team": "Elche",
       "goals": 1,
       "penalties": null
     },
