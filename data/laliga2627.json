@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T21:27:05Z",
+  "lastUpdated": "2026-09-07T21:28:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "90'+6'",
+          "clock": "90'+7'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22637,6 +22637,15 @@
                 "extraTime": null,
                 "playerName": "Luka Sucic",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52083181_29",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 7,
+                "playerName": "Thomas Lemar",
+                "teamName": "Elche",
                 "text": null
               }
             ]
