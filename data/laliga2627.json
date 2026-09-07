@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T19:37:55Z",
+  "lastUpdated": "2026-09-07T19:39:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22075,7 +22075,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "7'",
+          "clock": "8'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22156,17 +22156,17 @@
                   "events": null
                 },
                 {
-                  "id": "194553",
-                  "jersey": 9,
-                  "name": "Ezequiel Ponce",
+                  "id": "301684",
+                  "jersey": 14,
+                  "name": "Fernando Niño",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "301684",
-                  "jersey": 14,
-                  "name": "Fernando Niño",
+                  "id": "194553",
+                  "jersey": 9,
+                  "name": "Ezequiel Ponce",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
