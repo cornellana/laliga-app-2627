@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T19:42:20Z",
+  "lastUpdated": "2026-09-07T19:43:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22073,9 +22073,9 @@
           "jornadaEstimada": true,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "11'",
+          "clock": "12'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22473,7 +22473,7 @@
                 "type": "GOAL",
                 "minute": 11,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Job Ochieng",
                 "teamName": "R. Sociedad",
                 "text": null
               }
@@ -27368,6 +27368,12 @@
     {
       "player": "Isaac Romero",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Job Ochieng",
+      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
