@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T20:03:20Z",
+  "lastUpdated": "2026-09-07T20:04:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22073,9 +22073,9 @@
           "jornadaEstimada": true,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "0-2",
           "state": "in",
-          "clock": "32'",
+          "clock": "33'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -22474,6 +22474,15 @@
                 "minute": 11,
                 "extraTime": null,
                 "playerName": "Job Ochieng",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52080709_3",
+                "type": "GOAL",
+                "minute": 31,
+                "extraTime": null,
+                "playerName": "Yangel Herrera",
                 "teamName": "R. Sociedad",
                 "text": null
               }
@@ -27554,6 +27563,12 @@
     {
       "player": "Vinícius Júnior",
       "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Yangel Herrera",
+      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
