@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T21:29:19Z",
+  "lastUpdated": "2026-09-08T00:00:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22671,6 +22671,76 @@
           "statusText": null,
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
+          "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "jornada": 5,
+      "games": [
+        {
+          "id": "401882881",
+          "time": "14:00",
+          "home": "Racing",
+          "away": "Alavés",
+          "jornada": 5,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "El Sardineros",
+          "venueCity": "Santander",
+          "details": null
+        },
+        {
+          "id": "401882882",
+          "time": "16:15",
+          "home": "Osasuna",
+          "away": "Espanyol",
+          "jornada": 5,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "details": null
+        },
+        {
+          "id": "401882886",
+          "time": "18:30",
+          "home": "Athletic",
+          "away": "Elche",
+          "jornada": 5,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
+          "details": null
+        },
+        {
+          "id": "401882880",
+          "time": "21:00",
+          "home": "Real Madrid",
+          "away": "Rayo",
+          "jornada": 5,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Santiago Bernabéu",
+          "venueCity": "Madrid",
           "details": null
         }
       ]
