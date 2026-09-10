@@ -197,8 +197,16 @@ async function pollCompetition(id, cfg, allSubsEnabled) {
 
     // Solo las suscripciones de ESTA competición: un token de la Orejona no
     // debe recibir goles de La Liga ni al revés.
+    //
+    // Sin suscriptores NO se sale: hay que seguir para marcar los incidentes
+    // como vistos. Salir aquí es lo que provocó, el 10/09/26, que al estrenar
+    // la Champions llegara de golpe la jornada 1 entera. La secuencia fue:
+    // el contenedor arrancó sin ningún registro todavía, este `return` se
+    // llevó por delante el primer ciclo —el único que marca en silencio los
+    // partidos ya terminados—, `firstCycle` pasó a false igualmente, y cuando
+    // el primer teléfono se dio de alta minutos después, dos días de goles
+    // parecían recién ocurridos.
     const allSubs = allSubsEnabled.filter(s => s.competition === id);
-    if (allSubs.length === 0) return;
 
     for (const event of active) {
       const comp  = event.competitions[0];
