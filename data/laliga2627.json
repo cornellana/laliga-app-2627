@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T00:00:10Z",
+  "lastUpdated": "2026-09-10T00:00:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22811,6 +22811,29 @@
           "statusText": null,
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
+          "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "jornada": 5,
+      "games": [
+        {
+          "id": "401882877",
+          "time": "21:00",
+          "home": "Villarreal",
+          "away": "Betis",
+          "jornada": 5,
+          "jornadaEstimada": true,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
           "details": null
         }
       ]
