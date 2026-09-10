@@ -18,7 +18,13 @@ CLAVE="${LALIGA_DEPLOY_KEY:-/estado/ssh/id_ed25519}"
 # solo en su primer ciclo.
 if [ -f "$CLAVE" ]; then
     chmod 600 "$CLAVE" 2>/dev/null || true
-    export GIT_SSH_COMMAND="ssh -i $CLAVE -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=/estado/ssh/known_hosts"
+    # Los tres tiempos de espera no son adorno. El 10/09 este ssh se quedó
+    # colgado ocho minutos contra github.com —con la red del contenedor
+    # perfecta: el puerto 22 respondía y HTTPS daba 200— y el demonio no
+    # arrancó en todo ese rato, porque el fetch de más abajo es lo primero que
+    # hace el entrypoint. Sin límite, un GitHub que acepta la conexión y luego
+    # calla deja al titular sin arrancar indefinidamente.
+    export GIT_SSH_COMMAND="ssh -i $CLAVE -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=/estado/ssh/known_hosts -o ConnectTimeout=15 -o ServerAliveInterval=10 -o ServerAliveCountMax=3"
 fi
 
 # ANTES de tocar el clon, no después: el volumen viene del host y es de otro
@@ -29,7 +35,11 @@ git config --global --add safe.directory "$REPO" 2>/dev/null || true
 
 if [ -d "$REPO/.git" ]; then
     echo "Actualizando el clon en $REPO…"
-    git -C "$REPO" fetch -q origin main \
+    # `timeout` por encima de los tiempos del ssh: red de seguridad para
+    # cualquier otra forma de quedarse colgado (git-upload-pack lento, DNS que
+    # no resuelve). Arrancar con el código de la vez pasada es malo, pero no
+    # arrancar es peor: el demonio se pone al día en su primer ciclo.
+    timeout 120 git -C "$REPO" fetch -q origin main \
         || echo "  (no se pudo contactar con el remoto: sigo con lo que hay clonado)"
     git -C "$REPO" checkout -q -B main origin/main || true
 else
