@@ -43,6 +43,21 @@ PRE_MATCH_MINUTES = int(os.environ.get("PRE_MATCH_MINUTES", "20"))
 # se retrasan de verdad.
 POST_KICKOFF_MINUTES = int(os.environ.get("POST_KICKOFF_MINUTES", "20"))
 
+# Cuántos días hacia delante se piden a ESPN. Antes se consultaba una fecha
+# suelta por petición y la ventana era de cuatro días, así que un partido a más
+# de cuatro días de vista conservaba para siempre la fecha y la hora
+# provisionales con que se creó: la jornada entera aparecía el mismo día a las
+# 20:00 y no se corregía hasta la semana del partido. ESPN acepta un rango en
+# una sola petición —`dates=20260906-20261020` devuelve los 55 partidos— y
+# publica los horarios definitivos con más de un mes de antelación, así que
+# ahora se pide todo de golpe: menos peticiones que antes y el calendario
+# correcto desde el primer momento.
+DIAS_FUTURO = int(os.environ.get("LALIGA_DIAS_FUTURO", "45"))
+
+# Días hacia atrás. Cubre los partidos que acaban de terminar y los que se
+# quedaron sin detalles porque el resumen falló en su día.
+DIAS_PASADO = int(os.environ.get("LALIGA_DIAS_PASADO", "4"))
+
 # Nombre en ESPN → nombre canónico de la app.
 # Los nombres canónicos son los de MatchesData.espnTeamIDs y TeamLogoView.logoIDs:
 # si aquí se cuela un nombre distinto, la app se queda sin escudo y sin plantilla.
@@ -428,14 +443,14 @@ def save_data(data):
 
 # ── ESPN fetching ─────────────────────────────────────────────────────────────
 
-def fetch_scoreboard(date_str):
-    """Obtiene partidos para una fecha YYYYMMDD."""
+def fetch_scoreboard(dates):
+    """Obtiene partidos para una fecha YYYYMMDD o un rango YYYYMMDD-YYYYMMDD."""
     try:
-        resp = requests.get(ESPN_SCOREBOARD, params={"dates": date_str}, timeout=15)
+        resp = requests.get(ESPN_SCOREBOARD, params={"dates": dates}, timeout=30)
         resp.raise_for_status()
         return resp.json().get("events", [])
     except Exception as e:
-        print(f"  Error fetchando scoreboard {date_str}: {e}")
+        print(f"  Error fetchando scoreboard {dates}: {e}")
         return []
 
 def fetch_summary(event_id):
@@ -627,80 +642,106 @@ def main():
 
     # Build lookup de partidos existentes para actualizacion incremental
     existing = {}
+    # Segundo índice por el id de ESPN, que no cambia cuando un partido se
+    # mueve de día. El índice por fecha no reconoce al partido recolocado, así
+    # que sin este se le trataría como nuevo: perdería los detalles ya
+    # descargados y dejaría una copia fantasma en la fecha antigua.
+    existing_por_id = {}
     for day in data.get("matchDays", []):
         for game in day.get("games", []):
             key = match_key(day["date"], game["home"], game["away"])
             existing[key] = (day["date"], game)
+            if game.get("id"):
+                existing_por_id[game["id"]] = game
 
-    # Fechas a consultar: hoy ± 4 días para capturar partidos recientes/próximos
+    # Un único rango: los días pasados que aún pueden cambiar y el calendario
+    # futuro completo, para que las fechas y horas provisionales se corrijan en
+    # cuanto ESPN publique las definitivas y no la semana del partido.
     today = datetime.now(timezone.utc)
-    dates_to_check = [
-        (today + timedelta(days=d)).strftime("%Y%m%d")
-        for d in range(-4, 5)
-    ]
+    desde = (today - timedelta(days=DIAS_PASADO)).strftime("%Y%m%d")
+    hasta = (today + timedelta(days=DIAS_FUTURO)).strftime("%Y%m%d")
+    rango = f"{desde}-{hasta}"
 
     changed = False
     new_days = {}
     active_matches = []
+    ids_vistos = set()
 
-    print(f"Consultando {len(dates_to_check)} fechas...")
-    for date_str in dates_to_check:
-        events = fetch_scoreboard(date_str)
-        for event in events:
-            if is_match_active(event, today):
-                active_matches.append(event.get("name") or event.get("id"))
-            try:
-                parsed = parse_event(event, jornada_index, pistas)
-            except Exception as e:
-                print(f"  ⚠️  Evento ESPN ilegible en {date_str}: {e}")
-                continue
-            if not parsed:
-                continue
-            game, date = parsed
-            key = match_key(date, game["home"], game["away"])
-            game_id = game.get("id", "")
+    print(f"Consultando ESPN del {desde} al {hasta}...")
+    events = fetch_scoreboard(rango)
+    print(f"  {len(events)} partidos en el rango")
+    for event in events:
+        if is_match_active(event, today):
+            active_matches.append(event.get("name") or event.get("id"))
+        try:
+            parsed = parse_event(event, jornada_index, pistas)
+        except Exception as e:
+            print(f"  ⚠️  Evento ESPN ilegible ({event.get('date') or event.get('id')}): {e}")
+            continue
+        if not parsed:
+            continue
+        game, date = parsed
+        key = match_key(date, game["home"], game["away"])
+        game_id = game.get("id", "")
 
-            # Si ya existe, está finalizado y tiene detalles, saltamos.
-            # Si le faltan los detalles (falló el resumen en su día) se reintenta:
-            # de lo contrario sus goles no entrarían nunca en los goleadores.
-            prev = existing[key][1] if key in existing else None
-            if prev and prev.get("done") and prev.get("details") and not FORCE_REFRESH:
-                # Mantener detalles existentes
-                game["details"] = prev.get("details")
-                if date not in new_days:
-                    new_days[date] = []
-                if not any(g["home"] == game["home"] and g["away"] == game["away"] for g in new_days[date]):
-                    new_days[date].append(game)
-                continue
-
-            # Obtener detalles si el partido terminó o se está jugando ahora.
-            # En directo ESPN ya publica los keyEvents, así que los goles y las
-            # tarjetas aparecen en la app en el mismo ciclo en que ocurren, sin
-            # esperar al pitido final.
-            # Nunca debe abortar el run: el marcador es más importante que los detalles.
-            live_now = game.get("state") == "in"
-            if (game.get("done") or live_now) and game_id:
-                etiqueta = "detalles en directo" if live_now else "detalles"
-                print(f"  Fetchando {etiqueta}: {game['home']} vs {game['away']} ({date})")
-                prev_details = prev.get("details") if prev else None
-                try:
-                    summary = fetch_summary(game_id)
-                    fresh = parse_summary_details(summary, game["home"], game["away"])
-                    game["details"] = merge_details(fresh, prev_details)
-                except Exception as e:
-                    print(f"  ⚠️  Detalles no parseables ({game['home']} vs {game['away']}): {e}")
-                    game["details"] = prev_details
-
+        # Si ya existe, está finalizado y tiene detalles, saltamos.
+        # Si le faltan los detalles (falló el resumen en su día) se reintenta:
+        # de lo contrario sus goles no entrarían nunca en los goleadores.
+        if game_id:
+            ids_vistos.add(game_id)
+        prev = existing[key][1] if key in existing else existing_por_id.get(game_id)
+        if prev and prev.get("done") and prev.get("details") and not FORCE_REFRESH:
+            # Mantener detalles existentes
+            game["details"] = prev.get("details")
             if date not in new_days:
                 new_days[date] = []
-            new_days[date].append(game)
-            changed = True
+            if not any(g["home"] == game["home"] and g["away"] == game["away"] for g in new_days[date]):
+                new_days[date].append(game)
+            continue
 
-    # También conservar días fuera del rango de búsqueda
+        # Obtener detalles si el partido terminó o se está jugando ahora.
+        # En directo ESPN ya publica los keyEvents, así que los goles y las
+        # tarjetas aparecen en la app en el mismo ciclo en que ocurren, sin
+        # esperar al pitido final.
+        # Nunca debe abortar el run: el marcador es más importante que los detalles.
+        live_now = game.get("state") == "in"
+        if (game.get("done") or live_now) and game_id:
+            etiqueta = "detalles en directo" if live_now else "detalles"
+            print(f"  Fetchando {etiqueta}: {game['home']} vs {game['away']} ({date})")
+            prev_details = prev.get("details") if prev else None
+            try:
+                summary = fetch_summary(game_id)
+                fresh = parse_summary_details(summary, game["home"], game["away"])
+                game["details"] = merge_details(fresh, prev_details)
+            except Exception as e:
+                print(f"  ⚠️  Detalles no parseables ({game['home']} vs {game['away']}): {e}")
+                game["details"] = prev_details
+
+        if date not in new_days:
+            new_days[date] = []
+        ya_esta = any(
+            (g.get("id") and g["id"] == game_id)
+            or (g["home"] == game["home"] and g["away"] == game["away"])
+            for g in new_days[date]
+        )
+        if not ya_esta:
+            new_days[date].append(game)
+        changed = True
+
+    # Conservar los días que el rango no cubre —el resto de la temporada— pero
+    # sin arrastrar los partidos que ESPN acaba de colocar en otra fecha: su
+    # copia buena ya está en `new_days` y la vieja sería un duplicado. Un día
+    # que se quede sin partidos desaparece solo más abajo.
     for day in data.get("matchDays", []):
         d = day["date"]
-        if d not in new_days:
-            new_days[d] = day["games"]
+        if d in new_days:
+            continue
+        conservados = [g for g in day["games"] if g.get("id") not in ids_vistos]
+        if len(conservados) != len(day["games"]):
+            movidos = len(day["games"]) - len(conservados)
+            print(f"  {movidos} partido(s) del {d} recolocados por ESPN en otra fecha")
+            changed = True
+        new_days[d] = conservados
 
     # Construir matchDays ordenados
     match_days_list = []
