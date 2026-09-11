@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T19:10:12Z",
+  "lastUpdated": "2026-09-11T19:11:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22667,7 +22667,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "6'",
+          "clock": "8'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -22862,7 +22862,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-4-1-1",
               "players": [
                 {
                   "id": "165334",
@@ -22940,7 +22940,7 @@
                   "id": "231618",
                   "jersey": 7,
                   "name": "Arnaut Danjuma",
-                  "position": "CF-L",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
@@ -22948,7 +22948,7 @@
                   "id": "16340",
                   "jersey": 8,
                   "name": "Javier Guerra",
-                  "position": "CF-R",
+                  "position": "RCF",
                   "isStarter": true,
                   "events": null
                 },
