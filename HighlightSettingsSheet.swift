@@ -15,6 +15,19 @@ struct HighlightSettingsSheet: View {
         return allTeams.filter { !highlighted.contains($0) }
     }
 
+    /// Versión y número de build, como los deja Xcode en el Info.plist.
+    ///
+    /// Van juntos porque la versión sola no distingue nada: se queda en 1.1
+    /// durante muchas compilaciones. Repartiendo la app por Ad Hoc no hay ficha
+    /// de la tienda ni TestFlight que diga qué build tiene instalada el
+    /// probador, así que o lo dice la app o no lo dice nadie.
+    private var versionInstalada: String {
+        let info = Bundle.main.infoDictionary
+        let version = info?["CFBundleShortVersionString"] as? String ?? "?"
+        let build = info?["CFBundleVersion"] as? String ?? "?"
+        return "\(version) (\(build))"
+    }
+
     var body: some View {
         NavigationStack {
             List {
@@ -77,6 +90,16 @@ struct HighlightSettingsSheet: View {
                 } footer: {
                     Text("Recibirás avisos de los partidos de tus equipos resaltados, aunque la app esté cerrada.")
                         .font(.caption)
+                }
+
+                // MARK: Acerca de
+                Section {
+                    LabeledContent("Versión") {
+                        Text(verbatim: versionInstalada)
+                            .monospacedDigit()
+                    }
+                } header: {
+                    Text("Acerca de")
                 }
             }
             .navigationTitle("Resaltado de equipos")
