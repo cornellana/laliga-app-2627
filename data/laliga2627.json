@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T20:47:24Z",
+  "lastUpdated": "2026-09-11T20:48:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22667,7 +22667,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -23122,6 +23122,15 @@
                 "playerName": "Giorgi Kochorashvili",
                 "teamName": "Sevilla",
                 "text": "Youssouf Fofana"
+              },
+              {
+                "id": "52205898_37",
+                "type": "GOAL",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Juan Iglesias",
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
@@ -28221,6 +28230,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Juan Iglesias",
+      "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Karim Adeyemi",
