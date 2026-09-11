@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T20:56:00Z",
+  "lastUpdated": "2026-09-11T20:57:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22667,7 +22667,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -23167,6 +23167,15 @@
                 "playerName": "Julio Díaz",
                 "teamName": "Sevilla",
                 "text": "Félix Correia"
+              },
+              {
+                "id": "52206110_42",
+                "type": "YELLOW_CARD",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Pablo Maffeo",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
