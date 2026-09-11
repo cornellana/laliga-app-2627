@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T20:38:48Z",
+  "lastUpdated": "2026-09-11T20:39:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22667,7 +22667,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -23113,6 +23113,15 @@
                 "playerName": "Chidera Ejuke",
                 "teamName": "Sevilla",
                 "text": null
+              },
+              {
+                "id": "52205344_32",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Giorgi Kochorashvili",
+                "teamName": "Sevilla",
+                "text": "Youssouf Fofana"
               }
             ]
           }
