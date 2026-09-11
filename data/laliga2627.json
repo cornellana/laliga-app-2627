@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T20:34:30Z",
+  "lastUpdated": "2026-09-11T20:35:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22667,7 +22667,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -23104,6 +23104,15 @@
                 "playerName": "Chidera Ejuke",
                 "teamName": "Sevilla",
                 "text": "Miguel Sierra"
+              },
+              {
+                "id": "52205005_31",
+                "type": "YELLOW_CARD",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Chidera Ejuke",
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
