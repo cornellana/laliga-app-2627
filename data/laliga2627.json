@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T20:50:38Z",
+  "lastUpdated": "2026-09-11T20:51:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22667,7 +22667,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -23155,18 +23155,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jon Guridi",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Lucas Stassin"
               },
               {
                 "id": "52205944_41",
                 "type": "SUBSTITUTION",
-                "minute": 84,
+                "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Julio Díaz",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Félix Correia"
               }
             ]
           }
