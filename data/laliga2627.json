@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T20:49:33Z",
+  "lastUpdated": "2026-09-11T20:50:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22667,7 +22667,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -23129,6 +23129,42 @@
                 "minute": 81,
                 "extraTime": null,
                 "playerName": "Juan Iglesias",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "52205938_38",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Hugo Duro",
+                "teamName": "Valencia",
+                "text": "Javi Guerra"
+              },
+              {
+                "id": "52205939_39",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Jesús Vázquez",
+                "teamName": "Valencia",
+                "text": "José Gayà"
+              },
+              {
+                "id": "52205943_40",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "52205944_41",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Sevilla",
                 "text": null
               }
