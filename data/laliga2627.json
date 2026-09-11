@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T19:28:33Z",
+  "lastUpdated": "2026-09-11T19:29:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22667,8 +22667,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "25'",
-          "statusText": "In Progress",
+          "clock": "26'",
+          "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
@@ -23050,7 +23050,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52200285_11",
+                "type": "SUBSTITUTION",
+                "minute": 24,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
+                "text": null
+              }
+            ]
           }
         }
       ]
