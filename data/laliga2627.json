@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T20:29:09Z",
+  "lastUpdated": "2026-09-11T20:30:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22667,7 +22667,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -23067,6 +23067,42 @@
                 "extraTime": null,
                 "playerName": "Ryunosuke Sato",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "52204543_27",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Pablo Maffeo",
+                "teamName": "Valencia",
+                "text": "Arnau Martínez"
+              },
+              {
+                "id": "52204544_28",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Harvey Elliott",
+                "teamName": "Valencia",
+                "text": "Ryunosuke Sato"
+              },
+              {
+                "id": "52204599_29",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "52204600_30",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
