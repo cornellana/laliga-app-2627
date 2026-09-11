@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T19:29:37Z",
+  "lastUpdated": "2026-09-11T19:30:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22667,7 +22667,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -23056,9 +23056,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 24,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Iker Córdoba",
                 "teamName": "Valencia",
-                "text": null
+                "text": "César Tárrega because of an injury"
               }
             ]
           }
