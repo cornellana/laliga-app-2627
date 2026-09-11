@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T21:05:40Z",
+  "lastUpdated": "2026-09-11T21:06:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22664,11 +22664,11 @@
           "away": "Valencia",
           "jornada": 5,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-0",
-          "state": "in",
-          "clock": "90'+8'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
