@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T19:30:41Z",
+  "lastUpdated": "2026-09-11T19:31:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -22667,7 +22667,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "27'",
+          "clock": "28'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -23059,6 +23059,15 @@
                 "playerName": "Iker Córdoba",
                 "teamName": "Valencia",
                 "text": "César Tárrega because of an injury"
+              },
+              {
+                "id": "52200425_12",
+                "type": "YELLOW_CARD",
+                "minute": 27,
+                "extraTime": null,
+                "playerName": "Ryunosuke Sato",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
