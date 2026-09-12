@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T15:32:46Z",
+  "lastUpdated": "2026-09-12T15:33:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24233,6 +24233,24 @@
                 "id": "52257557_14",
                 "type": "SUBSTITUTION",
                 "minute": 59,
+                "extraTime": null,
+                "playerName": "Asier Osambela",
+                "teamName": "Osasuna",
+                "text": "Iñigo Arguibide"
+              },
+              {
+                "id": "52257828_15",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "52257829_16",
+                "type": "SUBSTITUTION",
+                "minute": 60,
                 "extraTime": null,
                 "playerName": null,
                 "teamName": "Osasuna",
