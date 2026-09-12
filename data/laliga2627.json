@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T12:19:43Z",
+  "lastUpdated": "2026-09-12T12:20:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "19'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23595,6 +23595,15 @@
                 "minute": 8,
                 "extraTime": null,
                 "playerName": "Pablo Ibáñez",
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "52226708_7",
+                "type": "GOAL",
+                "minute": 18,
+                "extraTime": null,
+                "playerName": "Ville Koski",
                 "teamName": "Alavés",
                 "text": null
               }
@@ -28840,6 +28849,12 @@
     {
       "player": "Umar Sadiq",
       "team": "Valencia",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Ville Koski",
+      "team": "Alavés",
       "goals": 1,
       "penalties": null
     },
