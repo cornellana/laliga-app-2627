@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T14:35:16Z",
+  "lastUpdated": "2026-09-12T14:36:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23780,9 +23780,9 @@
           "jornada": 5,
           "tv": null,
           "done": false,
-          "result": "1-2",
+          "result": "0-2",
           "state": "in",
-          "clock": "19'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
