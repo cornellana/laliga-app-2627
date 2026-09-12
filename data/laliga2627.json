@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T15:54:16Z",
+  "lastUpdated": "2026-09-12T15:55:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24297,9 +24297,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Bryan Zaragoza",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Javi Hernández"
               }
             ]
           }
