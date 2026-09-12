@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:42:05Z",
+  "lastUpdated": "2026-09-12T13:43:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "82'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23714,6 +23714,15 @@
                 "playerName": "Iker Luque",
                 "teamName": "Racing",
                 "text": "Sergio Canales"
+              },
+              {
+                "id": "52233832_30",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
