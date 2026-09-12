@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:52:46Z",
+  "lastUpdated": "2026-09-12T20:53:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,7 +24882,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -25388,9 +25388,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 89,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Marc Cucurella",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Vinícius Júnior"
               }
             ]
           }
