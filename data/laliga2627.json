@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T16:01:47Z",
+  "lastUpdated": "2026-09-12T16:02:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24315,9 +24315,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 89,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Vanja Drkusic",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Edu Expósito"
               }
             ]
           }
