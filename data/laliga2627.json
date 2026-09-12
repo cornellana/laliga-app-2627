@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T15:52:07Z",
+  "lastUpdated": "2026-09-12T15:53:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24282,6 +24282,15 @@
                 "playerName": "Romain Del Castillo",
                 "teamName": "Osasuna",
                 "text": "Raúl García"
+              },
+              {
+                "id": "52262545_20",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Pere Milla",
+                "teamName": "Espanyol",
+                "text": "Roberto Fernández"
               }
             ]
           }
