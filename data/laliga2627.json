@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T18:08:03Z",
+  "lastUpdated": "2026-09-12T18:09:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24330,9 +24330,9 @@
           "jornada": 5,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24805,6 +24805,33 @@
                 "playerName": "Víctor Chust",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "52274615_17",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Alex Berenguer",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "52274625_18",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Beñat Gerenabarrena",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "52274628_19",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Maroan Sannadi",
+                "teamName": "Athletic",
+                "text": "Iñaki Williams"
               }
             ]
           }
