@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:23:46Z",
+  "lastUpdated": "2026-09-12T13:24:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23667,6 +23667,15 @@
                 "minute": 62,
                 "extraTime": null,
                 "playerName": "Jorge Salinas",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52231898_25",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Racing",
                 "text": null
               }
