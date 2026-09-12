@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T17:56:14Z",
+  "lastUpdated": "2026-09-12T17:57:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24332,7 +24332,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24751,6 +24751,24 @@
                 "playerName": "Mikel Jauregizar",
                 "teamName": "Athletic",
                 "text": "Íñigo Ruiz de Galarreta"
+              },
+              {
+                "id": "52273457_11",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Abiel Osorio",
+                "teamName": "Elche",
+                "text": "Fer Niño"
+              },
+              {
+                "id": "52273458_12",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Thomas Lemar",
+                "teamName": "Elche",
+                "text": "Facundo Buonanotte"
               }
             ]
           }
