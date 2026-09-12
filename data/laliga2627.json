@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T12:06:48Z",
+  "lastUpdated": "2026-09-12T12:07:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,8 +23196,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
-          "statusText": "First Half",
+          "clock": "7'",
+          "statusText": "In Progress",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -23579,7 +23579,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52225477_1",
+                "type": "YELLOW_CARD",
+                "minute": 7,
+                "extraTime": null,
+                "playerName": "Nahuel Tenaglia",
+                "teamName": "Alavés",
+                "text": null
+              }
+            ]
           }
         },
         {
