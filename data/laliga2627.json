@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:09:45Z",
+  "lastUpdated": "2026-09-12T20:10:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,7 +24882,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -25298,9 +25298,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Eduardo Camavinga",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Federico Valverde"
               }
             ]
           }
