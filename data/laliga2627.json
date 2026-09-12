@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T15:44:36Z",
+  "lastUpdated": "2026-09-12T15:45:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24273,6 +24273,15 @@
                 "playerName": "Cala",
                 "teamName": "Espanyol",
                 "text": "Tyrhys Dolan"
+              },
+              {
+                "id": "52260664_19",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Romain Del Castillo",
+                "teamName": "Osasuna",
+                "text": "Raúl García"
               }
             ]
           }
