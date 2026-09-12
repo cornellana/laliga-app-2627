@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T19:36:58Z",
+  "lastUpdated": "2026-09-12T19:38:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,7 +24882,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "34'",
+          "clock": "35'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -25281,6 +25281,15 @@
                 "minute": 17,
                 "extraTime": null,
                 "playerName": "Álvaro Carreras",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "52287379_3",
+                "type": "GOAL",
+                "minute": 35,
+                "extraTime": null,
+                "playerName": "Jude Bellingham",
                 "teamName": "Real Madrid",
                 "text": null
               }
@@ -30110,6 +30119,12 @@
       "penalties": null
     },
     {
+      "player": "Jude Bellingham",
+      "team": "Real Madrid",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 3,
@@ -30124,12 +30139,6 @@
     {
       "player": "Fer Niño",
       "team": "Elche",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Jude Bellingham",
-      "team": "Real Madrid",
       "goals": 2,
       "penalties": null
     },
