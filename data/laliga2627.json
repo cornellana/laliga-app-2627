@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:39:52Z",
+  "lastUpdated": "2026-09-12T20:40:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,8 +24882,8 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "75'",
-          "statusText": "In Progress",
+          "clock": "77'",
+          "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -25364,6 +25364,15 @@
                 "playerName": "Mujaid Sadick",
                 "teamName": "Rayo",
                 "text": "Unai López"
+              },
+              {
+                "id": "52296723_18",
+                "type": "YELLOW_CARD",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Pathé Ciss",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
