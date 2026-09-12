@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T15:40:18Z",
+  "lastUpdated": "2026-09-12T15:41:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24258,6 +24258,15 @@
               },
               {
                 "id": "52259393_17",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Gabriel Moscardo",
+                "teamName": "Espanyol",
+                "text": "Marcos Fernández"
+              },
+              {
+                "id": "52259718_18",
                 "type": "SUBSTITUTION",
                 "minute": 66,
                 "extraTime": null,
