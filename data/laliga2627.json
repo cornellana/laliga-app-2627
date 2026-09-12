@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:51:41Z",
+  "lastUpdated": "2026-09-12T20:52:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,7 +24882,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -25382,6 +25382,15 @@
                 "playerName": "Iván Balliu",
                 "teamName": "Rayo",
                 "text": "Adrià Pedrosa"
+              },
+              {
+                "id": "52298301_20",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
