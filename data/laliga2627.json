@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T12:39:04Z",
+  "lastUpdated": "2026-09-12T12:40:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "38'",
+          "clock": "39'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23611,6 +23611,15 @@
                 "id": "52227660_14",
                 "type": "YELLOW_CARD",
                 "minute": 35,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52227910_15",
+                "type": "GOAL",
+                "minute": 38,
                 "extraTime": null,
                 "playerName": "Yassir Zabiri",
                 "teamName": "Racing",
@@ -28478,6 +28487,12 @@
       "penalties": null
     },
     {
+      "player": "Yassir Zabiri",
+      "team": "Racing",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 3,
@@ -28486,12 +28501,6 @@
     {
       "player": "Roberto Fernández",
       "team": "Espanyol",
-      "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Yassir Zabiri",
-      "team": "Racing",
       "goals": 3,
       "penalties": null
     },
