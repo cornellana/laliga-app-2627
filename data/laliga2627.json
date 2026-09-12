@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T15:33:50Z",
+  "lastUpdated": "2026-09-12T15:34:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24243,18 +24243,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Raúl Moro",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Rubén García"
               },
               {
                 "id": "52257829_16",
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jonathan Dubasin",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Kike Barja"
               }
             ]
           }
