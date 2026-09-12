@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T19:04:43Z",
+  "lastUpdated": "2026-09-12T19:05:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,7 +24882,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -24899,17 +24899,17 @@
                   "events": null
                 },
                 {
-                  "id": "251634",
-                  "jersey": 16,
-                  "name": "Ibrahima Konaté",
+                  "id": "169438",
+                  "jersey": 22,
+                  "name": "Antonio Rüdiger",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "169438",
-                  "jersey": 22,
-                  "name": "Antonio Rüdiger",
+                  "id": "251634",
+                  "jersey": 16,
+                  "name": "Ibrahima Konaté",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
