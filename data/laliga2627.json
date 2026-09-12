@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:59:16Z",
+  "lastUpdated": "2026-09-12T14:00:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23193,11 +23193,11 @@
           "away": "Alavés",
           "jornada": 5,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-1",
-          "state": "in",
-          "clock": "90'+10'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
