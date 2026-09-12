@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T16:45:57Z",
+  "lastUpdated": "2026-09-12T16:47:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24332,7 +24332,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "14'",
+          "clock": "15'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24538,9 +24538,9 @@
                   "events": null
                 },
                 {
-                  "id": "371608",
-                  "jersey": 2,
-                  "name": "Buba Sangaré",
+                  "id": "265995",
+                  "jersey": 23,
+                  "name": "Víctor Chust",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
@@ -24562,9 +24562,9 @@
                   "events": null
                 },
                 {
-                  "id": "297358",
-                  "jersey": 11,
-                  "name": "Germán Valera",
+                  "id": "371608",
+                  "jersey": 2,
+                  "name": "Buba Sangaré",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
@@ -24578,9 +24578,9 @@
                   "events": null
                 },
                 {
-                  "id": "265995",
-                  "jersey": 23,
-                  "name": "Víctor Chust",
+                  "id": "421310",
+                  "jersey": 47,
+                  "name": "Javier Morcillo",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -24594,9 +24594,9 @@
                   "events": null
                 },
                 {
-                  "id": "421310",
-                  "jersey": 47,
-                  "name": "Javier Morcillo",
+                  "id": "297358",
+                  "jersey": 11,
+                  "name": "Germán Valera",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
