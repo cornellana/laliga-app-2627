@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T17:44:26Z",
+  "lastUpdated": "2026-09-12T17:45:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24722,6 +24722,15 @@
                 "minute": 50,
                 "extraTime": null,
                 "playerName": "Facundo Buonanotte",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "52272285_4",
+                "type": "YELLOW_CARD",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Federico Redondo",
                 "teamName": "Elche",
                 "text": null
               }
