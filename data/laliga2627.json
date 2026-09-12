@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T12:11:07Z",
+  "lastUpdated": "2026-09-12T12:12:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23402,18 +23402,10 @@
                   "events": null
                 },
                 {
-                  "id": "262491",
-                  "jersey": 14,
-                  "name": "Nahuel Tenaglia",
-                  "position": "CD",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "149306",
                   "jersey": 16,
                   "name": "Ville Koski",
-                  "position": "CD-L",
+                  "position": "CD",
                   "isStarter": true,
                   "events": null
                 },
@@ -23421,6 +23413,14 @@
                   "id": "176312",
                   "jersey": 17,
                   "name": "Jonny",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "262491",
+                  "jersey": 14,
+                  "name": "Nahuel Tenaglia",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
