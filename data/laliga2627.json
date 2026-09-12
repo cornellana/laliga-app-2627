@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:46:22Z",
+  "lastUpdated": "2026-09-12T13:47:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23741,6 +23741,15 @@
                 "playerName": "Aitor Mañas",
                 "teamName": "Alavés",
                 "text": "Ángel Pérez"
+              },
+              {
+                "id": "52234376_33",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "André Almeida",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
