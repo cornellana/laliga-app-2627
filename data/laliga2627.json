@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T19:16:32Z",
+  "lastUpdated": "2026-09-12T19:17:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,7 +24882,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "13'",
+          "clock": "14'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -25265,7 +25265,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52283176_1",
+                "type": "PENALTY",
+                "minute": 14,
+                "extraTime": null,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -30037,6 +30047,12 @@
       "penalties": 1
     },
     {
+      "player": "Kylian Mbappé",
+      "team": "Real Madrid",
+      "goals": 5,
+      "penalties": 1
+    },
+    {
       "player": "Roberto Fernández",
       "team": "Espanyol",
       "goals": 5,
@@ -30063,12 +30079,6 @@
     {
       "player": "Fermín López",
       "team": "FC Barcelona",
-      "goals": 4,
-      "penalties": null
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "Real Madrid",
       "goals": 4,
       "penalties": null
     },
