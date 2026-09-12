@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T16:44:53Z",
+  "lastUpdated": "2026-09-12T16:45:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24332,7 +24332,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "13'",
+          "clock": "14'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24527,7 +24527,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "3-4-3",
+              "formation": "4-4-1-1",
               "players": [
                 {
                   "id": "173749",
@@ -24538,26 +24538,34 @@
                   "events": null
                 },
                 {
-                  "id": "318181",
-                  "jersey": 5,
-                  "name": "Federico Redondo",
-                  "position": "CD",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "265995",
-                  "jersey": 23,
-                  "name": "Víctor Chust",
+                  "id": "371608",
+                  "jersey": 2,
+                  "name": "Buba Sangaré",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "371608",
-                  "jersey": 2,
-                  "name": "Buba Sangaré",
+                  "id": "318181",
+                  "jersey": 5,
+                  "name": "Federico Redondo",
                   "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "323286",
+                  "jersey": 3,
+                  "name": "Roy Revivo",
+                  "position": "LB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "297358",
+                  "jersey": 11,
+                  "name": "Germán Valera",
+                  "position": "RB",
                   "isStarter": true,
                   "events": null
                 },
@@ -24570,25 +24578,25 @@
                   "events": null
                 },
                 {
-                  "id": "421310",
-                  "jersey": 47,
-                  "name": "Javier Morcillo",
+                  "id": "265995",
+                  "jersey": 23,
+                  "name": "Víctor Chust",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "323286",
-                  "jersey": 3,
-                  "name": "Roy Revivo",
+                  "id": "259916",
+                  "jersey": 20,
+                  "name": "José Antonio Morente",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "297358",
-                  "jersey": 11,
-                  "name": "Germán Valera",
+                  "id": "421310",
+                  "jersey": 47,
+                  "name": "Javier Morcillo",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -24602,18 +24610,10 @@
                   "events": null
                 },
                 {
-                  "id": "259916",
-                  "jersey": 20,
-                  "name": "José Antonio Morente",
-                  "position": "CF-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "318284",
                   "jersey": 10,
                   "name": "Facundo Buonanotte",
-                  "position": "CF-R",
+                  "position": "RCF",
                   "isStarter": true,
                   "events": null
                 },
