@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T12:48:44Z",
+  "lastUpdated": "2026-09-12T13:04:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23624,6 +23624,15 @@
                 "playerName": "Yassir Zabiri",
                 "teamName": "Racing",
                 "text": null
+              },
+              {
+                "id": "52229957_19",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Carlos Protesoni",
+                "teamName": "Alavés",
+                "text": "Pablo Ibáñez"
               }
             ]
           }
