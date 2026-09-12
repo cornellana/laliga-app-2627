@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T15:53:12Z",
+  "lastUpdated": "2026-09-12T15:54:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24286,11 +24286,20 @@
               {
                 "id": "52262545_20",
                 "type": "SUBSTITUTION",
-                "minute": 79,
+                "minute": 80,
                 "extraTime": null,
                 "playerName": "Pere Milla",
                 "teamName": "Espanyol",
                 "text": "Roberto Fernández"
+              },
+              {
+                "id": "52262688_21",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
