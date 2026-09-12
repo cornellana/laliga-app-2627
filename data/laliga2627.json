@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T14:32:02Z",
+  "lastUpdated": "2026-09-12T14:33:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "16'",
+          "clock": "17'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24170,6 +24170,15 @@
                 "id": "52240386_1",
                 "type": "GOAL",
                 "minute": 3,
+                "extraTime": null,
+                "playerName": "Roberto Fernández",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "52243181_6",
+                "type": "GOAL",
+                "minute": 17,
                 "extraTime": null,
                 "playerName": "Roberto Fernández",
                 "teamName": "Espanyol",
@@ -28979,6 +28988,12 @@
       "penalties": 1
     },
     {
+      "player": "Roberto Fernández",
+      "team": "Espanyol",
+      "goals": 5,
+      "penalties": null
+    },
+    {
       "player": "Sergio Camello",
       "team": "Rayo",
       "goals": 5,
@@ -29023,12 +29038,6 @@
     {
       "player": "Pierre-Emerick Aubameyang",
       "team": "Deportivo",
-      "goals": 4,
-      "penalties": null
-    },
-    {
-      "player": "Roberto Fernández",
-      "team": "Espanyol",
       "goals": 4,
       "penalties": null
     },
