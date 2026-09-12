@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T19:53:03Z",
+  "lastUpdated": "2026-09-12T20:09:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,8 +24882,8 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -25290,6 +25290,15 @@
                 "minute": 35,
                 "extraTime": null,
                 "playerName": "Jude Bellingham",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "52291459_5",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Real Madrid",
                 "text": null
               }
