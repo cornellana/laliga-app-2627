@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:26:59Z",
+  "lastUpdated": "2026-09-12T13:28:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23678,6 +23678,24 @@
                 "playerName": "André Almeida",
                 "teamName": "Racing",
                 "text": "Pablo García"
+              },
+              {
+                "id": "52232089_26",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Carles Aleñá",
+                "teamName": "Alavés",
+                "text": "Antonio Blanco"
+              },
+              {
+                "id": "52232090_27",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Toni Martínez",
+                "teamName": "Alavés",
+                "text": "Mariano Díaz"
               }
             ]
           }
