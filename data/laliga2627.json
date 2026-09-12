@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T17:55:10Z",
+  "lastUpdated": "2026-09-12T17:56:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24332,7 +24332,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24748,9 +24748,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 65,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Mikel Jauregizar",
                 "teamName": "Athletic",
-                "text": null
+                "text": "Íñigo Ruiz de Galarreta"
               }
             ]
           }
