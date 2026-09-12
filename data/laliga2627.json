@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T15:43:32Z",
+  "lastUpdated": "2026-09-12T15:44:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24270,9 +24270,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 66,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Cala",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Tyrhys Dolan"
               }
             ]
           }
