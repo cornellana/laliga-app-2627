@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T12:40:08Z",
+  "lastUpdated": "2026-09-12T12:41:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23194,9 +23194,9 @@
           "jornada": 5,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "39'",
+          "clock": "40'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23608,7 +23608,7 @@
                 "text": null
               },
               {
-                "id": "52227660_14",
+                "id": "52227660_16",
                 "type": "YELLOW_CARD",
                 "minute": 35,
                 "extraTime": null,
@@ -23617,7 +23617,7 @@
                 "text": null
               },
               {
-                "id": "52227910_15",
+                "id": "52227910_17",
                 "type": "GOAL",
                 "minute": 38,
                 "extraTime": null,
