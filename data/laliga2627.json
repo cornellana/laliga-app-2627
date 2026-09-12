@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:57:07Z",
+  "lastUpdated": "2026-09-12T13:58:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "90'+7'",
+          "clock": "90'+8'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23756,18 +23756,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 90,
                 "extraTime": 7,
-                "playerName": null,
+                "playerName": "Pedro Felipe",
                 "teamName": "Racing",
-                "text": null
+                "text": "Giorgi Guliashvili"
               },
               {
                 "id": "52235358_41",
                 "type": "SUBSTITUTION",
                 "minute": 90,
                 "extraTime": 7,
-                "playerName": null,
+                "playerName": "Miguel Rodríguez",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Aitor Mañas because of an injury"
               }
             ]
           }
