@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T14:47:06Z",
+  "lastUpdated": "2026-09-12T14:48:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "31'",
+          "clock": "32'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24182,6 +24182,15 @@
                 "extraTime": null,
                 "playerName": "Roberto Fernández",
                 "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "52247355_7",
+                "type": "YELLOW_CARD",
+                "minute": 30,
+                "extraTime": null,
+                "playerName": "Enrique Barja",
+                "teamName": "Osasuna",
                 "text": null
               }
             ]
