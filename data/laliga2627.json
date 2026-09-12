@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T18:09:08Z",
+  "lastUpdated": "2026-09-12T18:10:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24332,7 +24332,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "81'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24827,7 +24827,7 @@
               {
                 "id": "52274628_19",
                 "type": "SUBSTITUTION",
-                "minute": 82,
+                "minute": 81,
                 "extraTime": null,
                 "playerName": "Maroan Sannadi",
                 "teamName": "Athletic",
