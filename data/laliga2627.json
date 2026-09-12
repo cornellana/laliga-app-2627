@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T15:04:16Z",
+  "lastUpdated": "2026-09-12T15:18:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24219,6 +24219,15 @@
                 "playerName": "Omar El Hilali",
                 "teamName": "Espanyol",
                 "text": null
+              },
+              {
+                "id": "52254044_12",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Abel Bretones",
+                "teamName": "Osasuna",
+                "text": "Diego Rico"
               }
             ]
           }
