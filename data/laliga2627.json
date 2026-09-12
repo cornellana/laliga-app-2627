@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T18:12:21Z",
+  "lastUpdated": "2026-09-12T18:13:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24332,7 +24332,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24799,10 +24799,10 @@
               },
               {
                 "id": "52274454_16",
-                "type": "OWN_GOAL",
+                "type": "GOAL",
                 "minute": 79,
                 "extraTime": null,
-                "playerName": "Víctor Chust",
+                "playerName": "Iñaki Williams",
                 "teamName": "Athletic",
                 "text": null
               },
@@ -29881,6 +29881,12 @@
     {
       "player": "Isaac Romero",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Iñaki Williams",
+      "team": "Athletic",
       "goals": 1,
       "penalties": null
     },
