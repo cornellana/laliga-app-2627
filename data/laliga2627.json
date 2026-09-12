@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T16:33:04Z",
+  "lastUpdated": "2026-09-12T16:34:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24332,7 +24332,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24586,9 +24586,9 @@
                   "events": null
                 },
                 {
-                  "id": "259916",
-                  "jersey": 20,
-                  "name": "José Antonio Morente",
+                  "id": "297358",
+                  "jersey": 11,
+                  "name": "Germán Valera",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -24602,9 +24602,9 @@
                   "events": null
                 },
                 {
-                  "id": "297358",
-                  "jersey": 11,
-                  "name": "Germán Valera",
+                  "id": "259916",
+                  "jersey": 20,
+                  "name": "José Antonio Morente",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
