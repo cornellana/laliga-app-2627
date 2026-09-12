@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:04:23Z",
+  "lastUpdated": "2026-09-12T13:05:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,8 +23196,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "45'+2'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -23633,6 +23633,15 @@
                 "playerName": "Carlos Protesoni",
                 "teamName": "Alavés",
                 "text": "Pablo Ibáñez"
+              },
+              {
+                "id": "52229963_20",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Nicolás Valentini",
+                "teamName": "Alavés",
+                "text": "Nahuel Tenaglia"
               }
             ]
           }
