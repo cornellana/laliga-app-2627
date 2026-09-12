@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T16:00:42Z",
+  "lastUpdated": "2026-09-12T16:01:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24300,6 +24300,24 @@
                 "playerName": "Bryan Zaragoza",
                 "teamName": "Espanyol",
                 "text": "Javi Hernández"
+              },
+              {
+                "id": "52263879_26",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Roger Hinojo",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "52263889_27",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
