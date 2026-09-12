@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T14:54:37Z",
+  "lastUpdated": "2026-09-12T14:55:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,8 +23782,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "39'",
-          "statusText": "In Progress",
+          "clock": "40'",
+          "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": {
@@ -24190,6 +24190,15 @@
                 "minute": 30,
                 "extraTime": null,
                 "playerName": "Kike Barja",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "52248932_8",
+                "type": "YELLOW_CARD",
+                "minute": 39,
+                "extraTime": null,
+                "playerName": "Jon Moncayola",
                 "teamName": "Osasuna",
                 "text": null
               }
