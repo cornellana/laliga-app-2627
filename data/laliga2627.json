@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T17:38:00Z",
+  "lastUpdated": "2026-09-12T17:39:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24330,9 +24330,9 @@
           "jornada": 5,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "50'",
+          "clock": "51'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24721,7 +24721,7 @@
                 "type": "PENALTY",
                 "minute": 50,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Facundo Buonanotte",
                 "teamName": "Elche",
                 "text": null
               }
@@ -29721,6 +29721,12 @@
       "team": "Levante",
       "goals": 1,
       "penalties": null
+    },
+    {
+      "player": "Facundo Buonanotte",
+      "team": "Elche",
+      "goals": 1,
+      "penalties": 1
     },
     {
       "player": "Georges Mikautadze",
