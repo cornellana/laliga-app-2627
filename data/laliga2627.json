@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T17:58:24Z",
+  "lastUpdated": "2026-09-12T17:59:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24332,7 +24332,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24769,6 +24769,15 @@
                 "playerName": "Thomas Lemar",
                 "teamName": "Elche",
                 "text": "Facundo Buonanotte"
+              },
+              {
+                "id": "52273643_13",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
