@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T14:48:10Z",
+  "lastUpdated": "2026-09-12T14:49:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "32'",
+          "clock": "33'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24189,7 +24189,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 30,
                 "extraTime": null,
-                "playerName": "Enrique Barja",
+                "playerName": "Kike Barja",
                 "teamName": "Osasuna",
                 "text": null
               }
