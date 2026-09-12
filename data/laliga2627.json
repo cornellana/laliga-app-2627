@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:21:37Z",
+  "lastUpdated": "2026-09-12T13:22:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23649,6 +23649,24 @@
                 "minute": 53,
                 "extraTime": null,
                 "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52231671_23",
+                "type": "YELLOW_CARD",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Antonio Blanco",
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "52231672_24",
+                "type": "YELLOW_CARD",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Jorge Salinas",
                 "teamName": "Racing",
                 "text": null
               }
