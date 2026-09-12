@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T14:28:49Z",
+  "lastUpdated": "2026-09-12T14:29:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "12'",
+          "clock": "14'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24028,17 +24028,17 @@
                   "events": null
                 },
                 {
-                  "id": "255272",
-                  "jersey": 8,
-                  "name": "Edu Expósito",
+                  "id": "307915",
+                  "jersey": 4,
+                  "name": "Urko Gonzalez",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "307915",
-                  "jersey": 4,
-                  "name": "Urko Gonzalez",
+                  "id": "255272",
+                  "jersey": 8,
+                  "name": "Edu Expósito",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
