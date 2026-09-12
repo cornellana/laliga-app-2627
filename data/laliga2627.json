@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T17:36:56Z",
+  "lastUpdated": "2026-09-12T17:38:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24332,7 +24332,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "49'",
+          "clock": "50'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24715,7 +24715,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52271769_3",
+                "type": "PENALTY",
+                "minute": 50,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
+                "text": null
+              }
+            ]
           }
         },
         {
