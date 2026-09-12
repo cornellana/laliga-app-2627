@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T18:24:11Z",
+  "lastUpdated": "2026-09-12T18:25:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24332,7 +24332,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "90'+6'",
+          "clock": "90'+7'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24850,6 +24850,15 @@
                 "playerName": "Martim Neto",
                 "teamName": "Elche",
                 "text": "Gonzalo Villar"
+              },
+              {
+                "id": "52276642_22",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "Rubén Sánchez",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
