@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:11:55Z",
+  "lastUpdated": "2026-09-12T13:12:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "53'",
+          "clock": "54'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23642,6 +23642,15 @@
                 "playerName": "Nicolás Valentini",
                 "teamName": "Alavés",
                 "text": "Nahuel Tenaglia"
+              },
+              {
+                "id": "52230759_22",
+                "type": "GOAL",
+                "minute": 53,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
@@ -28469,6 +28478,12 @@
       "penalties": null
     },
     {
+      "player": "Yassir Zabiri",
+      "team": "Racing",
+      "goals": 5,
+      "penalties": null
+    },
+    {
       "player": "Ante Budimir",
       "team": "Osasuna",
       "goals": 4,
@@ -28501,12 +28516,6 @@
     {
       "player": "Pierre-Emerick Aubameyang",
       "team": "Deportivo",
-      "goals": 4,
-      "penalties": null
-    },
-    {
-      "player": "Yassir Zabiri",
-      "team": "Racing",
       "goals": 4,
       "penalties": null
     },
