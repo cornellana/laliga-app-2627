@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:15:08Z",
+  "lastUpdated": "2026-09-12T20:16:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24880,9 +24880,9 @@
           "jornada": 5,
           "tv": null,
           "done": false,
-          "result": "3-0",
+          "result": "3-1",
           "state": "in",
-          "clock": "51'",
+          "clock": "52'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -25307,7 +25307,7 @@
                 "type": "GOAL",
                 "minute": 51,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Sergio Camello",
                 "teamName": "Rayo",
                 "text": null
               }
@@ -30083,6 +30083,12 @@
       "penalties": 1
     },
     {
+      "player": "Sergio Camello",
+      "team": "Rayo",
+      "goals": 6,
+      "penalties": null
+    },
+    {
       "player": "Kylian Mbappé",
       "team": "Real Madrid",
       "goals": 5,
@@ -30091,12 +30097,6 @@
     {
       "player": "Roberto Fernández",
       "team": "Espanyol",
-      "goals": 5,
-      "penalties": null
-    },
-    {
-      "player": "Sergio Camello",
-      "team": "Rayo",
       "goals": 5,
       "penalties": null
     },
