@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:53:50Z",
+  "lastUpdated": "2026-09-12T20:54:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,7 +24882,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -25391,6 +25391,15 @@
                 "playerName": "Marc Cucurella",
                 "teamName": "Real Madrid",
                 "text": "Vinícius Júnior"
+              },
+              {
+                "id": "52298548_21",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -30158,6 +30167,12 @@
   "standings": [],
   "topScorers": [
     {
+      "player": "Kylian Mbappé",
+      "team": "Real Madrid",
+      "goals": 6,
+      "penalties": 1
+    },
+    {
       "player": "Raphinha",
       "team": "FC Barcelona",
       "goals": 6,
@@ -30168,12 +30183,6 @@
       "team": "Rayo",
       "goals": 6,
       "penalties": null
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "Real Madrid",
-      "goals": 5,
-      "penalties": 1
     },
     {
       "player": "Roberto Fernández",
