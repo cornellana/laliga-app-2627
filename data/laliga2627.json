@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T14:19:08Z",
+  "lastUpdated": "2026-09-12T14:20:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -24165,7 +24165,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52240386_1",
+                "type": "GOAL",
+                "minute": 3,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
+                "text": null
+              }
+            ]
           }
         },
         {
