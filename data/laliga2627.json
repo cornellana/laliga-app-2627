@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T17:51:56Z",
+  "lastUpdated": "2026-09-12T17:53:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24332,7 +24332,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -24732,6 +24732,15 @@
                 "extraTime": null,
                 "playerName": "Federico Redondo",
                 "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "52273022_9",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
                 "text": null
               }
             ]
