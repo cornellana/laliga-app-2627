@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T15:01:03Z",
+  "lastUpdated": "2026-09-12T15:02:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,7 +23782,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -23799,17 +23799,17 @@
                   "events": null
                 },
                 {
-                  "id": "366598",
-                  "jersey": 48,
-                  "name": "Rockson Yeboah",
+                  "id": "264175",
+                  "jersey": 24,
+                  "name": "Alejandro Catena",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "264175",
-                  "jersey": 24,
-                  "name": "Alejandro Catena",
+                  "id": "366598",
+                  "jersey": 48,
+                  "name": "Rockson Yeboah",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -24208,6 +24208,15 @@
                 "minute": 40,
                 "extraTime": null,
                 "playerName": "Clemens Riedel",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "52249943_10",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Omar El Hilali",
                 "teamName": "Espanyol",
                 "text": null
               }
