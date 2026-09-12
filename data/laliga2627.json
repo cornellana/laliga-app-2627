@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:45:18Z",
+  "lastUpdated": "2026-09-12T13:46:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23738,9 +23738,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Aitor Mañas",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Ángel Pérez"
               }
             ]
           }
