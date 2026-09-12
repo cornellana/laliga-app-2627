@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T12:34:46Z",
+  "lastUpdated": "2026-09-12T12:35:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "34'",
+          "clock": "35'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23605,6 +23605,15 @@
                 "extraTime": null,
                 "playerName": "Ville Koski",
                 "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "52227660_14",
+                "type": "YELLOW_CARD",
+                "minute": 35,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
                 "text": null
               }
             ]
