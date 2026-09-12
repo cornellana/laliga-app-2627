@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T15:28:28Z",
+  "lastUpdated": "2026-09-12T15:29:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23782,8 +23782,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "55'",
-          "statusText": "Second Half",
+          "clock": "56'",
+          "statusText": "In Progress",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": {
