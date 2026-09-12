@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:33:24Z",
+  "lastUpdated": "2026-09-12T20:34:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,7 +24882,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -25334,9 +25334,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Aurélien Tchouaméni",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Bernardo Silva"
               }
             ]
           }
