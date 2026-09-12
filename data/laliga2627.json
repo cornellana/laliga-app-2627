@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T19:05:48Z",
+  "lastUpdated": "2026-09-12T19:06:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,7 +24882,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -25128,17 +25128,17 @@
                   "events": null
                 },
                 {
-                  "id": "3115984",
-                  "jersey": 36,
-                  "name": "Gnangoro Bouare Samake",
+                  "id": "203711",
+                  "jersey": 8,
+                  "name": "Unai López",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "203711",
-                  "jersey": 8,
-                  "name": "Unai López",
+                  "id": "3115984",
+                  "jersey": 36,
+                  "name": "Gnangoro Bouare Samake",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
