@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T18:25:16Z",
+  "lastUpdated": "2026-09-12T18:26:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24329,11 +24329,11 @@
           "away": "Elche",
           "jornada": 5,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-1",
-          "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
@@ -24858,6 +24858,15 @@
                 "extraTime": 6,
                 "playerName": "Rubén Sánchez",
                 "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "52276673_23",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 7,
+                "playerName": "Yuri Berchiche",
+                "teamName": "Athletic",
                 "text": null
               }
             ]
