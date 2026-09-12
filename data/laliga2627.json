@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T19:19:45Z",
+  "lastUpdated": "2026-09-12T19:20:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24880,10 +24880,10 @@
           "jornada": 5,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "17'",
-          "statusText": "First Half",
+          "clock": "18'",
+          "statusText": "In Progress",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -25272,6 +25272,15 @@
                 "minute": 14,
                 "extraTime": null,
                 "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "52283936_2",
+                "type": "GOAL",
+                "minute": 17,
+                "extraTime": null,
+                "playerName": "Álvaro Carreras",
                 "teamName": "Real Madrid",
                 "text": null
               }
@@ -30505,6 +30514,12 @@
     {
       "player": "Zakaria Eddahchouri",
       "team": "Deportivo",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Álvaro Carreras",
+      "team": "Real Madrid",
       "goals": 1,
       "penalties": null
     },
