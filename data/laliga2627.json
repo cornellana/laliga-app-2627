@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:32:20Z",
+  "lastUpdated": "2026-09-12T20:33:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,7 +24882,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -25316,17 +25316,26 @@
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Rayane Belaid",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Pedro Díaz"
               },
               {
                 "id": "52295327_9",
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Óscar Valentín",
                 "teamName": "Rayo",
+                "text": "Gnangoro because of an injury"
+              },
+              {
+                "id": "52295573_10",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
