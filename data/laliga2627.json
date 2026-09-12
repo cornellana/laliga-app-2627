@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:33:27Z",
+  "lastUpdated": "2026-09-12T13:34:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23702,18 +23702,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Giorgi Guliashvili",
                 "teamName": "Racing",
-                "text": null
+                "text": "Yassir Zabiri"
               },
               {
                 "id": "52232653_29",
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Iker Luque",
                 "teamName": "Racing",
-                "text": null
+                "text": "Sergio Canales"
               }
             ]
           }
