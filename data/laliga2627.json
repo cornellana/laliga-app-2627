@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:58:11Z",
+  "lastUpdated": "2026-09-12T13:59:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -23196,7 +23196,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "90'+8'",
+          "clock": "90'+10'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -23752,7 +23752,7 @@
                 "text": null
               },
               {
-                "id": "52235357_39",
+                "id": "52235357_40",
                 "type": "SUBSTITUTION",
                 "minute": 90,
                 "extraTime": 7,
