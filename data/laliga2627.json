@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:38:47Z",
+  "lastUpdated": "2026-09-12T20:39:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,8 +24882,8 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "74'",
-          "statusText": "Second Half",
+          "clock": "75'",
+          "statusText": "In Progress",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -25346,6 +25346,24 @@
                 "playerName": "Arda Güler",
                 "teamName": "Real Madrid",
                 "text": "Yan Diomande"
+              },
+              {
+                "id": "52296571_14",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Alemão",
+                "teamName": "Rayo",
+                "text": "Sergio Camello"
+              },
+              {
+                "id": "52296572_15",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Mujaid Sadick",
+                "teamName": "Rayo",
+                "text": "Unai López"
               }
             ]
           }
