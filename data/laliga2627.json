@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:14:04Z",
+  "lastUpdated": "2026-09-12T20:15:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -24882,7 +24882,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "50'",
+          "clock": "51'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -25301,6 +25301,15 @@
                 "playerName": "Eduardo Camavinga",
                 "teamName": "Real Madrid",
                 "text": "Federico Valverde"
+              },
+              {
+                "id": "52292520_7",
+                "type": "GOAL",
+                "minute": 51,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
