@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:25:53Z",
+  "lastUpdated": "2026-09-13T13:26:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25420,7 +25420,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -25838,9 +25838,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Williot Swedberg",
                 "teamName": "Celta",
-                "text": null
+                "text": "Hugo González"
               }
             ]
           }
