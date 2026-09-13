@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:36:39Z",
+  "lastUpdated": "2026-09-13T20:37:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27000,7 +27000,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27444,6 +27444,15 @@
                 "minute": 75,
                 "extraTime": null,
                 "playerName": "Johnny Cardoso",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "52389138_14",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Atlético",
                 "text": null
               }
