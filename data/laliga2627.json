@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T16:15:22Z",
+  "lastUpdated": "2026-09-13T16:16:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25925,9 +25925,9 @@
           "jornada": 5,
           "tv": null,
           "done": false,
-          "result": "2-3",
+          "result": "2-4",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -26462,6 +26462,15 @@
                 "extraTime": null,
                 "playerName": "Roger Brugué",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "52362680_42",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Karim Adeyemi",
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
@@ -31282,6 +31291,12 @@
       "penalties": null
     },
     {
+      "player": "Karim Adeyemi",
+      "team": "FC Barcelona",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Luka Sucic",
       "team": "R. Sociedad",
       "goals": 2,
@@ -31488,12 +31503,6 @@
     {
       "player": "Juan Iglesias",
       "team": "Sevilla",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Karim Adeyemi",
-      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
