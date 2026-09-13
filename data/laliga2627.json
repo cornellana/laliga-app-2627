@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T18:17:27Z",
+  "lastUpdated": "2026-09-13T18:18:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26486,7 +26486,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "83'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -26949,6 +26949,15 @@
                 "extraTime": null,
                 "playerName": "Pierre-Emerick Aubameyang",
                 "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "52373019_20",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Getafe",
                 "text": null
               }
             ]
