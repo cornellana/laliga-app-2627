@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T17:59:19Z",
+  "lastUpdated": "2026-09-13T18:00:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26486,7 +26486,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -26905,6 +26905,15 @@
                 "playerName": "Adama Traoré",
                 "teamName": "Deportivo",
                 "text": "Marc Casadó"
+              },
+              {
+                "id": "52370992_11",
+                "type": "GOAL",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Ramón Terrats",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
@@ -32042,6 +32051,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Ramón Terrats",
+      "team": "Getafe",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Sergio Canales",
