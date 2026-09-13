@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T16:20:45Z",
+  "lastUpdated": "2026-09-13T16:21:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25924,11 +25924,11 @@
           "away": "FC Barcelona",
           "jornada": 5,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-4",
-          "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
