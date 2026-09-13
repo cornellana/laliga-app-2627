@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T16:35:21Z",
+  "lastUpdated": "2026-09-13T16:36:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26486,7 +26486,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -26724,17 +26724,17 @@
                   "events": null
                 },
                 {
-                  "id": "356639",
-                  "jersey": 16,
-                  "name": "Lorenzo Amatucci",
+                  "id": "345489",
+                  "jersey": 6,
+                  "name": "Marc Casadó",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "345489",
-                  "jersey": 6,
-                  "name": "Marc Casadó",
+                  "id": "356639",
+                  "jersey": 16,
+                  "name": "Lorenzo Amatucci",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
