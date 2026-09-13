@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:57:29Z",
+  "lastUpdated": "2026-09-13T20:58:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26997,11 +26997,11 @@
           "away": "Atlético",
           "jornada": 5,
           "tv": null,
-          "done": false,
-          "result": "0-2",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "done": true,
+          "result": "0-3",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
