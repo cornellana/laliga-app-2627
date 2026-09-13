@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:38:48Z",
+  "lastUpdated": "2026-09-13T20:39:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27000,7 +27000,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27455,6 +27455,24 @@
                 "playerName": "Arnau Ortiz",
                 "teamName": "Atlético",
                 "text": "Ademola Lookman"
+              },
+              {
+                "id": "52389407_15",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Jon Gorrotxategi",
+                "teamName": "R. Sociedad",
+                "text": "Carlos Soler"
+              },
+              {
+                "id": "52389408_16",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Orri Óskarsson",
+                "teamName": "R. Sociedad",
+                "text": "Mikel Oyarzabal"
               }
             ]
           }
