@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T18:29:31Z",
+  "lastUpdated": "2026-09-13T18:30:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26486,7 +26486,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "90'+6'",
+          "clock": "90'+7'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -26977,6 +26977,15 @@
                 "playerName": "Davinchi",
                 "teamName": "Getafe",
                 "text": "Martín Satriano"
+              },
+              {
+                "id": "52374513_23",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "Mario Martín",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
