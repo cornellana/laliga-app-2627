@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T12:43:26Z",
+  "lastUpdated": "2026-09-13T12:44:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25420,7 +25420,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -25803,6 +25803,15 @@
                 "minute": 26,
                 "extraTime": null,
                 "playerName": "Yoel Lago",
+                "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "52342895_7",
+                "type": "GOAL",
+                "minute": 41,
+                "extraTime": null,
+                "playerName": "Ferran Jutglà",
                 "teamName": "Celta",
                 "text": null
               }
@@ -30770,6 +30779,12 @@
       "team": "Elche",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Ferran Jutglà",
+      "team": "Celta",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Georges Mikautadze",
