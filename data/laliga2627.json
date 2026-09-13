@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T14:20:58Z",
+  "lastUpdated": "2026-09-13T14:22:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25927,13 +25927,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
             "homeLineup": {
-              "formation": "4-3-3",
+              "formation": "4-4-2",
               "players": [
                 {
                   "id": "141438",
@@ -25976,25 +25976,33 @@
                   "events": null
                 },
                 {
-                  "id": "319114",
-                  "jersey": 5,
-                  "name": "Hugo Sotelo",
-                  "position": "CM",
+                  "id": "317784",
+                  "jersey": 8,
+                  "name": "Jon Ander Olasagasti",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "317784",
-                  "jersey": 8,
-                  "name": "Jon Ander Olasagasti",
+                  "id": "319114",
+                  "jersey": 5,
+                  "name": "Hugo Sotelo",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "267591",
+                  "jersey": 7,
+                  "name": "Roger Brugué",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "362752",
-                  "jersey": 6,
-                  "name": "Dani Requena",
+                  "id": "203680",
+                  "jersey": 17,
+                  "name": "Víctor García",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -26003,23 +26011,15 @@
                   "id": "342136",
                   "jersey": 10,
                   "name": "Petar Ratkov",
-                  "position": "F",
+                  "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "203680",
-                  "jersey": 17,
-                  "name": "Víctor García",
-                  "position": "LF",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "267591",
-                  "jersey": 7,
-                  "name": "Roger Brugué",
-                  "position": "RF",
+                  "id": "362752",
+                  "jersey": 6,
+                  "name": "Dani Requena",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
