@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T16:34:16Z",
+  "lastUpdated": "2026-09-13T16:35:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26486,7 +26486,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -26740,26 +26740,18 @@
                   "events": null
                 },
                 {
-                  "id": "324166",
-                  "jersey": 19,
-                  "name": "Luismi Cruz",
+                  "id": "297353",
+                  "jersey": 21,
+                  "name": "Mario Soriano Carreno",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "297353",
-                  "jersey": 21,
-                  "name": "Mario Soriano Carreno",
+                  "id": "324166",
+                  "jersey": 19,
+                  "name": "Luismi Cruz",
                   "position": "RM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "414299",
-                  "jersey": 32,
-                  "name": "Bil Nsongo",
-                  "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -26767,6 +26759,14 @@
                   "id": "122260",
                   "jersey": 7,
                   "name": "Pierre-Emerick Aubameyang",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "414299",
+                  "jersey": 32,
+                  "name": "Bil Nsongo",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
