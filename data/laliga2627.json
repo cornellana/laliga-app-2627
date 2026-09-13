@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:49:28Z",
+  "lastUpdated": "2026-09-13T13:50:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25420,7 +25420,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -25910,9 +25910,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 87,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Juan Berrocal",
                 "teamName": "Málaga",
-                "text": null
+                "text": "José Salinas"
               }
             ]
           }
