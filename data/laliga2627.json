@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T18:19:36Z",
+  "lastUpdated": "2026-09-13T18:20:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26486,8 +26486,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "86'",
-          "statusText": "In Progress",
+          "clock": "87'",
+          "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -26965,9 +26965,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Saba Sazonov",
                 "teamName": "Getafe",
-                "text": null
+                "text": "Sebastián Boselli"
               }
             ]
           }
