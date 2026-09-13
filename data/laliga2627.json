@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:23:44Z",
+  "lastUpdated": "2026-09-13T13:24:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25420,7 +25420,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -25823,6 +25823,15 @@
                 "playerName": "Ramón Enríquez",
                 "teamName": "Málaga",
                 "text": "Einar Galilea"
+              },
+              {
+                "id": "52346193_11",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
