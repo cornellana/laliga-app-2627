@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T18:11:02Z",
+  "lastUpdated": "2026-09-13T18:12:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26486,7 +26486,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -26938,8 +26938,17 @@
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Francho Serrano",
                 "teamName": "Getafe",
+                "text": "Iván Azón"
+              },
+              {
+                "id": "52372145_19",
+                "type": "GOAL",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Pierre-Emerick Aubameyang",
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
@@ -31678,6 +31687,12 @@
       "penalties": null
     },
     {
+      "player": "Pierre-Emerick Aubameyang",
+      "team": "Deportivo",
+      "goals": 5,
+      "penalties": null
+    },
+    {
       "player": "Roberto Fernández",
       "team": "Espanyol",
       "goals": 5,
@@ -31704,12 +31719,6 @@
     {
       "player": "Lucas Boyé",
       "team": "Alavés",
-      "goals": 4,
-      "penalties": null
-    },
-    {
-      "player": "Pierre-Emerick Aubameyang",
-      "team": "Deportivo",
       "goals": 4,
       "penalties": null
     },
