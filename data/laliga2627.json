@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T18:18:31Z",
+  "lastUpdated": "2026-09-13T18:19:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26486,8 +26486,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "85'",
-          "statusText": "Second Half",
+          "clock": "86'",
+          "statusText": "In Progress",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -26953,6 +26953,15 @@
               },
               {
                 "id": "52373019_20",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Joselu Pérez",
+                "teamName": "Getafe",
+                "text": "Ramón Terrats"
+              },
+              {
+                "id": "52373177_21",
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
