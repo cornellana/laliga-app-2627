@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T16:59:04Z",
+  "lastUpdated": "2026-09-13T17:00:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26486,8 +26486,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "26'",
-          "statusText": "In Progress",
+          "clock": "27'",
+          "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -26869,7 +26869,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52365637_1",
+                "type": "YELLOW_CARD",
+                "minute": 26,
+                "extraTime": null,
+                "playerName": "Iván Azón",
+                "teamName": "Getafe",
+                "text": null
+              }
+            ]
           }
         },
         {
