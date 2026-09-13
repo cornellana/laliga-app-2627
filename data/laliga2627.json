@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:43:09Z",
+  "lastUpdated": "2026-09-13T20:44:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27000,7 +27000,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27466,7 +27466,16 @@
                 "text": "Carlos Soler"
               },
               {
-                "id": "52389408_16",
+                "id": "52389848_16",
+                "type": "YELLOW_CARD",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Mikel Oyarzabal",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52389408_17",
                 "type": "SUBSTITUTION",
                 "minute": 79,
                 "extraTime": null,
