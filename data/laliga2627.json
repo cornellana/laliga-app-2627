@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T17:56:06Z",
+  "lastUpdated": "2026-09-13T17:57:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26486,7 +26486,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -26896,6 +26896,15 @@
                 "playerName": "Enes Ünal",
                 "teamName": "Getafe",
                 "text": null
+              },
+              {
+                "id": "52370745_10",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Adama Traoré",
+                "teamName": "Deportivo",
+                "text": "Marc Casadó"
               }
             ]
           }
