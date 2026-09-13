@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T12:53:05Z",
+  "lastUpdated": "2026-09-13T13:00:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25615,7 +25615,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "240624",
@@ -25642,6 +25642,14 @@
                   "events": null
                 },
                 {
+                  "id": "371564",
+                  "jersey": 23,
+                  "name": "Izan Merino",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "184488",
                   "jersey": 12,
                   "name": "José Salinas",
@@ -25658,17 +25666,17 @@
                   "events": null
                 },
                 {
-                  "id": "271151",
-                  "jersey": 18,
-                  "name": "Pablo Martínez",
+                  "id": "331533",
+                  "jersey": 22,
+                  "name": "Daniel Lorenzo",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "371564",
-                  "jersey": 23,
-                  "name": "Izan Merino",
+                  "id": "271151",
+                  "jersey": 18,
+                  "name": "Pablo Martínez",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -25693,15 +25701,7 @@
                   "id": "388602",
                   "jersey": 9,
                   "name": "Chupete",
-                  "position": "CF-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "331533",
-                  "jersey": 22,
-                  "name": "Daniel Lorenzo",
-                  "position": "CF-R",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
