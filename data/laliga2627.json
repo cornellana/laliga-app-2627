@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:45:18Z",
+  "lastUpdated": "2026-09-13T20:46:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26998,9 +26998,9 @@
           "jornada": 5,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27490,6 +27490,15 @@
                 "extraTime": null,
                 "playerName": "Alejandro Grimaldo",
                 "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "52390165_21",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
