@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T15:08:13Z",
+  "lastUpdated": "2026-09-13T15:09:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25927,8 +25927,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+5'",
-          "statusText": "First Half",
+          "clock": "45'+6'",
+          "statusText": "In Progress",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
@@ -26336,6 +26336,15 @@
                 "extraTime": 1,
                 "playerName": "Gerard Martín",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52357732_14",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 5,
+                "playerName": "Hugo Sotelo",
+                "teamName": "Levante",
                 "text": null
               }
             ]
