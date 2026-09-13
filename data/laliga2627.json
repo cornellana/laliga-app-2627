@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:58:03Z",
+  "lastUpdated": "2026-09-13T13:59:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25417,11 +25417,11 @@
           "away": "Málaga",
           "jornada": 5,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-1",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
