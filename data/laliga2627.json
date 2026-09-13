@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T16:39:41Z",
+  "lastUpdated": "2026-09-13T16:40:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26486,7 +26486,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "6'",
+          "clock": "7'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -26519,17 +26519,17 @@
                   "events": null
                 },
                 {
-                  "id": "359826",
-                  "jersey": 15,
-                  "name": "Sebastián Boselli",
+                  "id": "173247",
+                  "jersey": 22,
+                  "name": "Johan Mojica",
                   "position": "LB",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "173247",
-                  "jersey": 22,
-                  "name": "Johan Mojica",
+                  "id": "359826",
+                  "jersey": 15,
+                  "name": "Sebastián Boselli",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
