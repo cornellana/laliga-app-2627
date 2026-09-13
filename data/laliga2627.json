@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:56:24Z",
+  "lastUpdated": "2026-09-13T20:57:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27000,7 +27000,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "90'+5'",
+          "clock": "90'+6'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27507,6 +27507,15 @@
                 "minute": 90,
                 "extraTime": null,
                 "playerName": "Jonathan David",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "52391467_23",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 5,
+                "playerName": "Giuliano Simeone",
                 "teamName": "Atlético",
                 "text": null
               }
@@ -32296,6 +32305,12 @@
       "penalties": null
     },
     {
+      "player": "Giuliano Simeone",
+      "team": "Atlético",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Karim Adeyemi",
       "team": "FC Barcelona",
       "goals": 2,
@@ -32462,12 +32477,6 @@
       "team": "Villarreal",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "Giuliano Simeone",
-      "team": "Atlético",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Iago Aspas",
