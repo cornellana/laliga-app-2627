@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T14:22:03Z",
+  "lastUpdated": "2026-09-13T14:23:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25927,8 +25927,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "4'",
-          "statusText": "First Half",
+          "clock": "5'",
+          "statusText": "In Progress",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
@@ -26310,7 +26310,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52352719_1",
+                "type": "GOAL",
+                "minute": 5,
+                "extraTime": null,
+                "playerName": "Xavi Espart",
+                "teamName": "FC Barcelona",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -31502,6 +31512,12 @@
     {
       "player": "Vinícius Júnior",
       "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Xavi Espart",
+      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
