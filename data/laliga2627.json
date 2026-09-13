@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T15:05:00Z",
+  "lastUpdated": "2026-09-13T15:06:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25927,7 +25927,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+1'",
+          "clock": "45'+2'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -26326,6 +26326,15 @@
                 "minute": 19,
                 "extraTime": null,
                 "playerName": "Lamine Yamal",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52357500_13",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 1,
+                "playerName": "Gerard Martín",
                 "teamName": "FC Barcelona",
                 "text": null
               }
