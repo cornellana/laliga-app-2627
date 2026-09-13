@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T19:04:48Z",
+  "lastUpdated": "2026-09-13T19:05:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27000,7 +27000,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27230,9 +27230,9 @@
                   "events": null
                 },
                 {
-                  "id": "206474",
-                  "jersey": 14,
-                  "name": "Marcos Llorente",
+                  "id": "332613",
+                  "jersey": 18,
+                  "name": "Marc Pubill",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
@@ -27246,17 +27246,17 @@
                   "events": null
                 },
                 {
-                  "id": "297373",
-                  "jersey": 10,
-                  "name": "Álex Baena",
+                  "id": "206474",
+                  "jersey": 14,
+                  "name": "Marcos Llorente",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "332613",
-                  "jersey": 18,
-                  "name": "Marc Pubill",
+                  "id": "297373",
+                  "jersey": 10,
+                  "name": "Álex Baena",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
