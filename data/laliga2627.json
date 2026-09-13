@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T15:10:22Z",
+  "lastUpdated": "2026-09-13T15:24:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -26345,6 +26345,15 @@
                 "extraTime": 5,
                 "playerName": "Hugo Sotelo",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "52358719_16",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
