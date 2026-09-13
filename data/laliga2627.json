@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T15:42:10Z",
+  "lastUpdated": "2026-09-13T15:43:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25927,8 +25927,8 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "59'",
-          "statusText": "Second Half",
+          "clock": "60'",
+          "statusText": "In Progress",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
@@ -26364,6 +26364,33 @@
                 "playerName": "Lamine Yamal",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "52359997_23",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Enzo Bardeli",
+                "teamName": "Levante",
+                "text": "Jon Ander Olasagasti"
+              },
+              {
+                "id": "52359998_24",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Oriol Rey",
+                "teamName": "Levante",
+                "text": "Hugo Sotelo"
+              },
+              {
+                "id": "52359999_25",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Iván Romero",
+                "teamName": "Levante",
+                "text": "Petar Ratkov"
               }
             ]
           }
