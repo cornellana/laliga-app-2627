@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:44:13Z",
+  "lastUpdated": "2026-09-13T20:45:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27000,7 +27000,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27482,6 +27482,15 @@
                 "playerName": "Orri Óskarsson",
                 "teamName": "R. Sociedad",
                 "text": "Mikel Oyarzabal"
+              },
+              {
+                "id": "52389991_20",
+                "type": "PENALTY",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Alejandro Grimaldo",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
@@ -32327,6 +32336,12 @@
       "team": "Athletic",
       "goals": 1,
       "penalties": null
+    },
+    {
+      "player": "Alejandro Grimaldo",
+      "team": "Atlético",
+      "goals": 1,
+      "penalties": 1
     },
     {
       "player": "Alex Berenguer",
