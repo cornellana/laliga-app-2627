@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:37:41Z",
+  "lastUpdated": "2026-09-13T13:38:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25420,7 +25420,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -25859,6 +25859,24 @@
                 "playerName": "Adrián Niño",
                 "teamName": "Málaga",
                 "text": "Izan Merino"
+              },
+              {
+                "id": "52347783_15",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Hugo Burcio",
+                "teamName": "Celta",
+                "text": "Ilaix Moriba"
+              },
+              {
+                "id": "52347784_16",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Couhaib Driouech",
+                "teamName": "Celta",
+                "text": "Hugo Álvarez"
               }
             ]
           }
