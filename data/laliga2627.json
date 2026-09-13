@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:20:33Z",
+  "lastUpdated": "2026-09-13T20:21:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27000,7 +27000,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27391,6 +27391,33 @@
                 "extraTime": null,
                 "playerName": "Yangel Herrera",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52387361_8",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "52387362_9",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "52387363_10",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
                 "text": null
               }
             ]
