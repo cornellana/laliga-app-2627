@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:34:30Z",
+  "lastUpdated": "2026-09-13T20:35:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27000,7 +27000,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27419,6 +27419,24 @@
                 "playerName": "Koke",
                 "teamName": "Atlético",
                 "text": "Lee Kang-In"
+              },
+              {
+                "id": "52388798_11",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52388799_12",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
