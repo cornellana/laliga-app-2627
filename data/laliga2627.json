@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:35:34Z",
+  "lastUpdated": "2026-09-13T20:36:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27000,7 +27000,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27425,17 +27425,26 @@
                 "type": "SUBSTITUTION",
                 "minute": 72,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Job Ochieng",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Ander Barrenetxea"
               },
               {
                 "id": "52388799_12",
                 "type": "SUBSTITUTION",
                 "minute": 72,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Takefusa Kubo",
                 "teamName": "R. Sociedad",
+                "text": "Gonçalo Guedes"
+              },
+              {
+                "id": "52389031_13",
+                "type": "YELLOW_CARD",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Johnny Cardoso",
+                "teamName": "Atlético",
                 "text": null
               }
             ]
