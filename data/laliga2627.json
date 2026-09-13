@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:38:45Z",
+  "lastUpdated": "2026-09-13T13:39:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25420,7 +25420,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -25872,7 +25872,7 @@
               {
                 "id": "52347784_16",
                 "type": "SUBSTITUTION",
-                "minute": 75,
+                "minute": 74,
                 "extraTime": null,
                 "playerName": "Couhaib Driouech",
                 "teamName": "Celta",
