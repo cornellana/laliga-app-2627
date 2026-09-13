@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T14:35:59Z",
+  "lastUpdated": "2026-09-13T14:37:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25927,7 +25927,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "17'",
+          "clock": "18'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -26317,6 +26317,15 @@
                 "minute": 5,
                 "extraTime": null,
                 "playerName": "Xavi Espart",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52354490_2",
+                "type": "GOAL",
+                "minute": 19,
+                "extraTime": null,
+                "playerName": "Lamine Yamal",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -31066,6 +31075,12 @@
       "penalties": null
     },
     {
+      "player": "Lamine Yamal",
+      "team": "FC Barcelona",
+      "goals": 5,
+      "penalties": null
+    },
+    {
       "player": "Roberto Fernández",
       "team": "Espanyol",
       "goals": 5,
@@ -31085,12 +31100,6 @@
     },
     {
       "player": "Fermín López",
-      "team": "FC Barcelona",
-      "goals": 4,
-      "penalties": null
-    },
-    {
-      "player": "Lamine Yamal",
       "team": "FC Barcelona",
       "goals": 4,
       "penalties": null
