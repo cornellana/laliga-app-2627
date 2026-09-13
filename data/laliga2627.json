@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:21:38Z",
+  "lastUpdated": "2026-09-13T20:22:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27000,7 +27000,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27398,27 +27398,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 59,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Johnny Cardoso",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Álex Baena"
               },
               {
                 "id": "52387362_9",
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jonathan David",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Marcos Llorente"
               },
               {
                 "id": "52387363_10",
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Koke",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Lee Kang-In"
               }
             ]
           }
