@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:45:11Z",
+  "lastUpdated": "2026-09-13T13:46:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25420,7 +25420,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -25877,6 +25877,15 @@
                 "playerName": "Couhaib Driouech",
                 "teamName": "Celta",
                 "text": "Hugo Álvarez"
+              },
+              {
+                "id": "52348884_21",
+                "type": "GOAL",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Adrián Niño",
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
@@ -30744,6 +30753,12 @@
     {
       "player": "Ademola Lookman",
       "team": "Atlético",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Adrián Niño",
+      "team": "Málaga",
       "goals": 1,
       "penalties": null
     },
