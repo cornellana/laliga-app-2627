@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:48:24Z",
+  "lastUpdated": "2026-09-13T13:49:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25420,7 +25420,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -25904,6 +25904,15 @@
                 "playerName": "Iago Aspas",
                 "teamName": "Celta",
                 "text": "Ferran Jutglà"
+              },
+              {
+                "id": "52349354_24",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
