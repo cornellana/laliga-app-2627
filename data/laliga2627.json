@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:00:23Z",
+  "lastUpdated": "2026-09-13T13:08:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25420,8 +25420,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -25814,6 +25814,15 @@
                 "playerName": "Ferran Jutglà",
                 "teamName": "Celta",
                 "text": null
+              },
+              {
+                "id": "52344257_9",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Ramón Enríquez",
+                "teamName": "Málaga",
+                "text": "Einar Galilea"
               }
             ]
           }
