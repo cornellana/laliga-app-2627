@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:24:48Z",
+  "lastUpdated": "2026-09-13T13:25:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -25420,7 +25420,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -25829,8 +25829,17 @@
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Juan Cruz",
                 "teamName": "Málaga",
+                "text": "Joaquín Muñoz"
+              },
+              {
+                "id": "52346257_12",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Celta",
                 "text": null
               }
             ]
