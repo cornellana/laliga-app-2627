@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:50:42Z",
+  "lastUpdated": "2026-09-13T20:51:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27000,7 +27000,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -27500,6 +27500,15 @@
                 "playerName": "Arsen Zakharyan",
                 "teamName": "R. Sociedad",
                 "text": "Yangel Herrera"
+              },
+              {
+                "id": "52390871_22",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Jonathan David",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
@@ -32501,6 +32510,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Jonathan David",
+      "team": "Atlético",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Juan Iglesias",
