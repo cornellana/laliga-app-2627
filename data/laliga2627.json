@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T19:18:30Z",
+  "lastUpdated": "2026-09-14T19:19:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "17'",
+          "clock": "18'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -27922,7 +27922,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52428443_5",
+                "type": "GOAL",
+                "minute": 18,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
+              }
+            ]
           }
         }
       ]
