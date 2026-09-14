@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T20:16:19Z",
+  "lastUpdated": "2026-09-14T20:17:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -27964,9 +27964,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 55,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alberto Moleiro",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Tajon Buchanan"
               }
             ]
           }
