@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T19:44:26Z",
+  "lastUpdated": "2026-09-14T19:45:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27537,9 +27537,9 @@
           "jornadaEstimada": true,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "43'",
+          "clock": "44'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -27938,6 +27938,15 @@
                 "minute": 39,
                 "extraTime": null,
                 "playerName": "Cucho Hernández",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "52430995_13",
+                "type": "GOAL",
+                "minute": 43,
+                "extraTime": null,
+                "playerName": "Natan",
                 "teamName": "Betis",
                 "text": null
               }
@@ -33006,6 +33015,12 @@
     {
       "player": "Nahuel Tenaglia",
       "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Natan",
+      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
