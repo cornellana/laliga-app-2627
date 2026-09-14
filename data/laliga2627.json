@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T20:35:45Z",
+  "lastUpdated": "2026-09-14T20:36:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -28003,6 +28003,24 @@
                 "playerName": "Nelson Deossa",
                 "teamName": "Betis",
                 "text": "Rodrigo Riquelme"
+              },
+              {
+                "id": "52435535_22",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Ayoze Pérez",
+                "teamName": "Villarreal",
+                "text": "Nicolas Pepe"
+              },
+              {
+                "id": "52435536_23",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Alex Freeman",
+                "teamName": "Villarreal",
+                "text": "Santiago Mouriño"
               }
             ]
           }
