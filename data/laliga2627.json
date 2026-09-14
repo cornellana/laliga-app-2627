@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T20:21:43Z",
+  "lastUpdated": "2026-09-14T20:22:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -27976,6 +27976,15 @@
                 "playerName": "Dani Ceballos",
                 "teamName": "Betis",
                 "text": "Isco"
+              },
+              {
+                "id": "52434419_19",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
