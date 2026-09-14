@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T20:14:10Z",
+  "lastUpdated": "2026-09-14T20:15:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "53'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -27948,6 +27948,15 @@
                 "extraTime": null,
                 "playerName": "Natan",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "52433848_16",
+                "type": "SUBSTITUTION",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
