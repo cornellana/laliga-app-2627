@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T19:29:18Z",
+  "lastUpdated": "2026-09-14T19:30:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "28'",
+          "clock": "29'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -27924,11 +27924,11 @@
             },
             "events": [
               {
-                "id": "52428443_5",
+                "id": "52429631_7",
                 "type": "GOAL",
-                "minute": 18,
+                "minute": 29,
                 "extraTime": null,
-                "playerName": "Tajon Buchanan",
+                "playerName": "Gerard Moreno",
                 "teamName": "Villarreal",
                 "text": null
               }
@@ -32695,6 +32695,12 @@
       "penalties": null
     },
     {
+      "player": "Gerard Moreno",
+      "team": "Villarreal",
+      "goals": 2,
+      "penalties": 1
+    },
+    {
       "player": "Giuliano Simeone",
       "team": "Atlético",
       "goals": 2,
@@ -32858,12 +32864,6 @@
     },
     {
       "player": "Georges Mikautadze",
-      "team": "Villarreal",
-      "goals": 1,
-      "penalties": 1
-    },
-    {
-      "player": "Gerard Moreno",
       "team": "Villarreal",
       "goals": 1,
       "penalties": 1
@@ -33057,12 +33057,6 @@
     {
       "player": "Sergio Martínez",
       "team": "Racing",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Tajon Buchanan",
-      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
