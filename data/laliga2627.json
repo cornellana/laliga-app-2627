@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T19:19:34Z",
+  "lastUpdated": "2026-09-14T19:20:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27537,9 +27537,9 @@
           "jornadaEstimada": true,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "18'",
+          "clock": "19'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -27928,7 +27928,7 @@
                 "type": "GOAL",
                 "minute": 18,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Tajon Buchanan",
                 "teamName": "Villarreal",
                 "text": null
               }
@@ -33057,6 +33057,12 @@
     {
       "player": "Sergio Martínez",
       "team": "Racing",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Tajon Buchanan",
+      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
