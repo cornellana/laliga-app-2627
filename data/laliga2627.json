@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T20:44:24Z",
+  "lastUpdated": "2026-09-14T20:45:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -28027,8 +28027,26 @@
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Facundo Bernal",
                 "teamName": "Betis",
+                "text": "Pablo Fornals"
+              },
+              {
+                "id": "52435999_25",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Giovani Lo Celso",
+                "teamName": "Betis",
+                "text": "Cucho Hernández"
+              },
+              {
+                "id": "52435983_26",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Renato Veiga",
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
