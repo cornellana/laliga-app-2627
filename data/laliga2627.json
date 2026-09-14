@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T20:28:12Z",
+  "lastUpdated": "2026-09-14T20:29:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -27987,22 +27987,22 @@
                 "text": "Gerard Moreno"
               },
               {
-                "id": "52434766_20",
+                "id": "52434767_20",
                 "type": "SUBSTITUTION",
                 "minute": 66,
-                "extraTime": null,
-                "playerName": "Nelson Deossa",
-                "teamName": "Betis",
-                "text": "Rodrigo Riquelme"
-              },
-              {
-                "id": "52434767_21",
-                "type": "SUBSTITUTION",
-                "minute": 67,
                 "extraTime": null,
                 "playerName": "Antony",
                 "teamName": "Betis",
                 "text": "Abde Ezzalzouli"
+              },
+              {
+                "id": "52434766_21",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Nelson Deossa",
+                "teamName": "Betis",
+                "text": "Rodrigo Riquelme"
               }
             ]
           }
