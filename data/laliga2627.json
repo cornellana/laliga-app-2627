@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T19:40:07Z",
+  "lastUpdated": "2026-09-14T19:41:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "39'",
+          "clock": "40'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -27930,6 +27930,15 @@
                 "extraTime": null,
                 "playerName": "Gerard Moreno",
                 "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "52430586_12",
+                "type": "GOAL",
+                "minute": 39,
+                "extraTime": null,
+                "playerName": "Cucho Hernández",
+                "teamName": "Betis",
                 "text": null
               }
             ]
@@ -32837,6 +32846,12 @@
       "team": "Málaga",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Cucho Hernández",
+      "team": "Betis",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Enes Ünal",
