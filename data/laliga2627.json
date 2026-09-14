@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T20:15:15Z",
+  "lastUpdated": "2026-09-14T20:16:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "55'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -27954,6 +27954,15 @@
                 "id": "52433848_16",
                 "type": "SUBSTITUTION",
                 "minute": 54,
+                "extraTime": null,
+                "playerName": "Nathan Saliba",
+                "teamName": "Villarreal",
+                "text": "Pape Gueye"
+              },
+              {
+                "id": "52433902_17",
+                "type": "SUBSTITUTION",
+                "minute": 55,
                 "extraTime": null,
                 "playerName": null,
                 "teamName": "Villarreal",
