@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T20:43:19Z",
+  "lastUpdated": "2026-09-14T20:44:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -28021,6 +28021,15 @@
                 "playerName": "Ayoze Pérez",
                 "teamName": "Villarreal",
                 "text": "Nicolas Pepe"
+              },
+              {
+                "id": "52435945_24",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
