@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T19:03:21Z",
+  "lastUpdated": "2026-09-14T19:04:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -27539,7 +27539,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -27588,17 +27588,17 @@
                   "events": null
                 },
                 {
-                  "id": "255889",
-                  "jersey": 18,
-                  "name": "Pape Gueye",
+                  "id": "240623",
+                  "jersey": 14,
+                  "name": "Santi Comesaña",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "240623",
-                  "jersey": 14,
-                  "name": "Santi Comesaña",
+                  "id": "255889",
+                  "jersey": 18,
+                  "name": "Pape Gueye",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
