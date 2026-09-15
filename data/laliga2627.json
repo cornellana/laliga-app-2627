@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T21:12:53Z",
+  "lastUpdated": "2026-09-15T21:13:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29186,7 +29186,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -29692,9 +29692,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Josan",
                 "teamName": "Elche",
-                "text": null
+                "text": "Tete Morente"
               }
             ]
           }
