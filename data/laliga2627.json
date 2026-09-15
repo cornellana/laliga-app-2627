@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T19:10:56Z",
+  "lastUpdated": "2026-09-15T19:15:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29053,6 +29053,15 @@
                 "minute": 45,
                 "extraTime": 2,
                 "playerName": "Pepelu",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "52470176_10",
+                "type": "YELLOW_CARD",
+                "minute": 52,
+                "extraTime": null,
+                "playerName": "Aaron Mayol",
                 "teamName": "Valencia",
                 "text": null
               }
