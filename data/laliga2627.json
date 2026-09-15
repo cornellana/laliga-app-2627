@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:28:26Z",
+  "lastUpdated": "2026-09-15T18:29:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28541,6 +28541,15 @@
                 "playerName": "Marcos Fernández",
                 "teamName": "Espanyol",
                 "text": null
+              },
+              {
+                "id": "52465562_21",
+                "type": "YELLOW_CARD",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Giorgi Tsitaishvili",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
@@ -28555,7 +28564,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
