@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:37:03Z",
+  "lastUpdated": "2026-09-15T18:38:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28568,6 +28568,15 @@
                 "playerName": "Cala",
                 "teamName": "Espanyol",
                 "text": "Javi Hernández"
+              },
+              {
+                "id": "52466177_30",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
@@ -28582,7 +28591,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "33'",
+          "clock": "34'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
