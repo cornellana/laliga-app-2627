@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:49:57Z",
+  "lastUpdated": "2026-09-15T18:51:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28627,7 +28627,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+2'",
+          "clock": "45'+3'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -29027,6 +29027,15 @@
                 "extraTime": null,
                 "playerName": "Antonio Blanco",
                 "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "52467291_7",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Pepelu",
+                "teamName": "Valencia",
                 "text": null
               }
             ]
