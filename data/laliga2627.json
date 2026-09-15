@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T20:51:16Z",
+  "lastUpdated": "2026-09-15T20:52:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29614,6 +29614,15 @@
                 "playerName": "Lucas Cepeda",
                 "teamName": "Elche",
                 "text": "Marc Aguado"
+              },
+              {
+                "id": "52482046_12",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": "Thomas Lemar",
+                "teamName": "Elche",
+                "text": "Germán Valera"
               }
             ]
           }
