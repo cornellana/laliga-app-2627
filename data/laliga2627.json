@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:08:02Z",
+  "lastUpdated": "2026-09-15T18:10:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28074,7 +28074,7 @@
           "venueCity": "Leganés, Madrid",
           "details": {
             "homeLineup": {
-              "formation": "4-3-3",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "207834",
@@ -28117,10 +28117,18 @@
                   "events": null
                 },
                 {
+                  "id": "276067",
+                  "jersey": 14,
+                  "name": "Giorgi Tsitaishvili",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "294228",
                   "jersey": 6,
                   "name": "Pathé Ciss",
-                  "position": "CM",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -28128,14 +28136,6 @@
                   "id": "203711",
                   "jersey": 8,
                   "name": "Unai López",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "264078",
-                  "jersey": 4,
-                  "name": "Pedro Díaz",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -28152,15 +28152,15 @@
                   "id": "125200",
                   "jersey": 18,
                   "name": "Álvaro García",
-                  "position": "LF",
+                  "position": "AM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "276067",
-                  "jersey": 14,
-                  "name": "Giorgi Tsitaishvili",
-                  "position": "RF",
+                  "id": "264078",
+                  "jersey": 4,
+                  "name": "Pedro Díaz",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -28714,7 +28714,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "165334",
@@ -28757,10 +28757,18 @@
                   "events": null
                 },
                 {
+                  "id": "16340",
+                  "jersey": 8,
+                  "name": "Javi Guerra",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "212185",
                   "jersey": 2,
                   "name": "Guido Rodríguez",
-                  "position": "CM-L",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -28768,22 +28776,6 @@
                   "id": "419048",
                   "jersey": 33,
                   "name": "Aaron Mayol",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "231618",
-                  "jersey": 7,
-                  "name": "Arnaut Danjuma",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "248681",
-                  "jersey": 23,
-                  "name": "Filip Ugrinic",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -28792,15 +28784,23 @@
                   "id": "267477",
                   "jersey": 9,
                   "name": "Hugo Duro",
-                  "position": "CF-L",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "16340",
-                  "jersey": 8,
-                  "name": "Javi Guerra",
-                  "position": "CF-R",
+                  "id": "231618",
+                  "jersey": 7,
+                  "name": "Arnaut Danjuma",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "248681",
+                  "jersey": 23,
+                  "name": "Filip Ugrinic",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
