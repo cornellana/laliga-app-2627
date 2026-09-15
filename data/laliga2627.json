@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T21:22:38Z",
+  "lastUpdated": "2026-09-15T21:23:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29184,9 +29184,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "2-2",
+          "result": "2-3",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -29722,6 +29722,15 @@
                 "playerName": "Carlos Espí",
                 "teamName": "Real Madrid",
                 "text": "Trent Alexander-Arnold"
+              },
+              {
+                "id": "52482775_32",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Carlos Espí",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -34432,6 +34441,12 @@
       "penalties": null
     },
     {
+      "player": "Carlos Espí",
+      "team": "Real Madrid",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Gerard Moreno",
       "team": "Villarreal",
       "goals": 2,
@@ -34572,12 +34587,6 @@
     {
       "player": "Carl Starfelt",
       "team": "Celta",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Carlos Espí",
-      "team": "Real Madrid",
       "goals": 1,
       "penalties": null
     },
