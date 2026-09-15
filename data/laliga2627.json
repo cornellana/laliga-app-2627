@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:19:49Z",
+  "lastUpdated": "2026-09-15T18:20:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28528,7 +28528,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "16'",
+          "clock": "17'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -28911,7 +28911,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52465095_1",
+                "type": "GOAL",
+                "minute": 17,
+                "extraTime": null,
+                "playerName": "Arnaut Danjuma",
+                "teamName": "Valencia",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -33752,6 +33762,12 @@
     {
       "player": "Arda Güler",
       "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Arnaut Danjuma",
+      "team": "Valencia",
       "goals": 1,
       "penalties": null
     },
