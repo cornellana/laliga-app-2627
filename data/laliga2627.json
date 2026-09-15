@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:24:07Z",
+  "lastUpdated": "2026-09-15T18:25:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "62'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28532,6 +28532,15 @@
                 "playerName": "Gnangoro",
                 "teamName": "Rayo",
                 "text": "Unai López"
+              },
+              {
+                "id": "52465316_20",
+                "type": "YELLOW_CARD",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Marcos Fernández",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
@@ -28546,7 +28555,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "20'",
+          "clock": "22'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -28931,12 +28940,21 @@
             },
             "events": [
               {
-                "id": "52465095_1",
-                "type": "GOAL",
-                "minute": 17,
+                "id": "52465300_3",
+                "type": "YELLOW_CARD",
+                "minute": 21,
                 "extraTime": null,
-                "playerName": "Arnaut Danjuma",
+                "playerName": "Javi Guerra",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "52465301_4",
+                "type": "YELLOW_CARD",
+                "minute": 21,
+                "extraTime": null,
+                "playerName": "Antonio Blanco",
+                "teamName": "Alavés",
                 "text": null
               }
             ]
@@ -33780,12 +33798,6 @@
     {
       "player": "Arda Güler",
       "team": "Real Madrid",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Arnaut Danjuma",
-      "team": "Valencia",
       "goals": 1,
       "penalties": null
     },
