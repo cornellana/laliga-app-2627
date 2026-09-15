@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T21:10:44Z",
+  "lastUpdated": "2026-09-15T21:11:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29186,7 +29186,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -29676,6 +29676,15 @@
                 "extraTime": null,
                 "playerName": "Ibrahima Konaté",
                 "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "52482584_19",
+                "type": "YELLOW_CARD",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Lucas Cepeda",
+                "teamName": "Elche",
                 "text": null
               }
             ]
