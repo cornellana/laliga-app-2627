@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:31:40Z",
+  "lastUpdated": "2026-09-15T18:32:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28550,6 +28550,15 @@
                 "playerName": "Giorgi Tsitaishvili",
                 "teamName": "Rayo",
                 "text": null
+              },
+              {
+                "id": "52465794_24",
+                "type": "YELLOW_CARD",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Pathé Ciss",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
@@ -28564,7 +28573,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "28'",
+          "clock": "29'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
