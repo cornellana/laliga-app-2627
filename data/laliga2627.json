@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T17:27:34Z",
+  "lastUpdated": "2026-09-15T17:28:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28458,6 +28458,15 @@
                 "minute": 3,
                 "extraTime": null,
                 "playerName": "Álvaro García",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "52463146_6",
+                "type": "GOAL",
+                "minute": 26,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Rayo",
                 "text": null
               }
