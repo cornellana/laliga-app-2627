@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T19:45:41Z",
+  "lastUpdated": "2026-09-15T19:47:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29145,6 +29145,33 @@
                 "playerName": "Arnau Martínez",
                 "teamName": "Valencia",
                 "text": "Pablo Maffeo"
+              },
+              {
+                "id": "52474906_24",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Carles Aleñá",
+                "teamName": "Alavés",
+                "text": "Ángel Pérez"
+              },
+              {
+                "id": "52474907_25",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Ander Guevara",
+                "teamName": "Alavés",
+                "text": "Antonio Blanco"
+              },
+              {
+                "id": "52474908_26",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Miguel Rodríguez",
+                "teamName": "Alavés",
+                "text": "Abde Rebbach"
               }
             ]
           }
