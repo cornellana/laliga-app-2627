@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:41:21Z",
+  "lastUpdated": "2026-09-15T18:42:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,8 +28068,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "80'",
-          "statusText": "In Progress",
+          "clock": "81'",
+          "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
           "details": {
@@ -28586,6 +28586,15 @@
                 "playerName": "Alemão",
                 "teamName": "Rayo",
                 "text": "Sergio Camello"
+              },
+              {
+                "id": "52466541_32",
+                "type": "YELLOW_CARD",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Gnangoro Bouare Samake",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
@@ -28600,7 +28609,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "37'",
+          "clock": "38'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
