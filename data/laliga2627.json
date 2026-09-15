@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:59:27Z",
+  "lastUpdated": "2026-09-15T19:10:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28543,7 +28543,7 @@
                 "text": null
               },
               {
-                "id": "52465562_22",
+                "id": "52465562_23",
                 "type": "YELLOW_CARD",
                 "minute": 67,
                 "extraTime": null,
@@ -28552,7 +28552,7 @@
                 "text": null
               },
               {
-                "id": "52465794_24",
+                "id": "52465794_26",
                 "type": "YELLOW_CARD",
                 "minute": 70,
                 "extraTime": null,
@@ -28561,7 +28561,7 @@
                 "text": null
               },
               {
-                "id": "52465929_29",
+                "id": "52465929_31",
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
@@ -28570,7 +28570,7 @@
                 "text": "Javi Hernández"
               },
               {
-                "id": "52466177_30",
+                "id": "52466177_32",
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
@@ -28579,7 +28579,7 @@
                 "text": "Giorgi Tsitaishvili"
               },
               {
-                "id": "52466297_31",
+                "id": "52466297_33",
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
@@ -28588,7 +28588,7 @@
                 "text": "Sergio Camello"
               },
               {
-                "id": "52466541_32",
+                "id": "52466541_34",
                 "type": "YELLOW_CARD",
                 "minute": 80,
                 "extraTime": null,
@@ -28597,7 +28597,7 @@
                 "text": null
               },
               {
-                "id": "52466789_33",
+                "id": "52466789_35",
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
@@ -28606,7 +28606,7 @@
                 "text": "Urko González de Zárate"
               },
               {
-                "id": "52466790_34",
+                "id": "52466790_36",
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
@@ -28615,7 +28615,7 @@
                 "text": "Álvaro García"
               },
               {
-                "id": "52467465_35",
+                "id": "52467465_37",
                 "type": "YELLOW_CARD",
                 "minute": 90,
                 "extraTime": 1,
@@ -28624,7 +28624,7 @@
                 "text": null
               },
               {
-                "id": "52467982_40",
+                "id": "52467982_42",
                 "type": "RED_CARD",
                 "minute": 90,
                 "extraTime": 8,
