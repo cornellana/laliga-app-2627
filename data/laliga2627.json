@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:15:31Z",
+  "lastUpdated": "2026-09-15T18:16:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28505,6 +28505,15 @@
                 "playerName": "Edu Expósito",
                 "teamName": "Espanyol",
                 "text": "Gabriel Moscardo"
+              },
+              {
+                "id": "52464801_17",
+                "type": "GOAL",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Roberto Fernández",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
@@ -28519,7 +28528,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "12'",
+          "clock": "13'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -28600,17 +28609,17 @@
                   "events": null
                 },
                 {
-                  "id": "181757",
-                  "jersey": 11,
-                  "name": "Toni Martínez",
+                  "id": "207236",
+                  "jersey": 15,
+                  "name": "Lucas Boyé",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "207236",
-                  "jersey": 15,
-                  "name": "Lucas Boyé",
+                  "id": "181757",
+                  "jersey": 11,
+                  "name": "Toni Martínez",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
@@ -33555,6 +33564,12 @@
       "penalties": 1
     },
     {
+      "player": "Roberto Fernández",
+      "team": "Espanyol",
+      "goals": 6,
+      "penalties": null
+    },
+    {
       "player": "Sergio Camello",
       "team": "Rayo",
       "goals": 6,
@@ -33563,12 +33578,6 @@
     {
       "player": "Pierre-Emerick Aubameyang",
       "team": "Deportivo",
-      "goals": 5,
-      "penalties": null
-    },
-    {
-      "player": "Roberto Fernández",
-      "team": "Espanyol",
       "goals": 5,
       "penalties": null
     },
