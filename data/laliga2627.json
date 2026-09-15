@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:10:09Z",
+  "lastUpdated": "2026-09-15T18:11:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "47'",
+          "clock": "50'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28117,9 +28117,9 @@
                   "events": null
                 },
                 {
-                  "id": "276067",
-                  "jersey": 14,
-                  "name": "Giorgi Tsitaishvili",
+                  "id": "264078",
+                  "jersey": 4,
+                  "name": "Pedro Díaz",
                   "position": "AM",
                   "isStarter": true,
                   "events": null
@@ -28157,9 +28157,9 @@
                   "events": null
                 },
                 {
-                  "id": "264078",
-                  "jersey": 4,
-                  "name": "Pedro Díaz",
+                  "id": "276067",
+                  "jersey": 14,
+                  "name": "Giorgi Tsitaishvili",
                   "position": "AM-R",
                   "isStarter": true,
                   "events": null
@@ -28519,7 +28519,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "8'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
