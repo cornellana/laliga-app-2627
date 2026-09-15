@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T21:03:10Z",
+  "lastUpdated": "2026-09-15T21:04:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29184,9 +29184,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "1-2",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -29659,6 +29659,15 @@
                 "playerName": "Fer Niño",
                 "teamName": "Elche",
                 "text": "Martim Neto"
+              },
+              {
+                "id": "52482460_17",
+                "type": "GOAL",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Abiel Osorio",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
@@ -34420,6 +34429,12 @@
       "player": "Álvaro García",
       "team": "Rayo",
       "goals": 2,
+      "penalties": null
+    },
+    {
+      "player": "Abiel Osorio",
+      "team": "Elche",
+      "goals": 1,
       "penalties": null
     },
     {
