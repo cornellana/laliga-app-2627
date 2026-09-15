@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:52:06Z",
+  "lastUpdated": "2026-09-15T18:53:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28613,6 +28613,15 @@
                 "playerName": "Iván Balliu",
                 "teamName": "Rayo",
                 "text": "Álvaro García"
+              },
+              {
+                "id": "52467465_35",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Alemão",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
