@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T17:05:03Z",
+  "lastUpdated": "2026-09-15T17:06:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28451,7 +28451,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52462196_1",
+                "type": "GOAL",
+                "minute": 3,
+                "extraTime": null,
+                "playerName": "Álvaro García",
+                "teamName": "Rayo",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -33240,6 +33250,12 @@
       "penalties": null
     },
     {
+      "player": "Álvaro García",
+      "team": "Rayo",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Ademola Lookman",
       "team": "Atlético",
       "goals": 1,
@@ -33626,12 +33642,6 @@
     {
       "player": "Álvaro Carreras",
       "team": "Real Madrid",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Álvaro García",
-      "team": "Rayo",
       "goals": 1,
       "penalties": null
     }
