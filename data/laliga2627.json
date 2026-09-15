@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T21:25:54Z",
+  "lastUpdated": "2026-09-15T21:26:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29186,7 +29186,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "90'+4'",
+          "clock": "90'+5'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -29733,11 +29733,29 @@
                 "text": null
               },
               {
-                "id": "52482786_33",
+                "id": "52482788_33",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Denzel Dumfries",
+                "teamName": "Real Madrid",
+                "text": "Yan Diomande"
+              },
+              {
+                "id": "52482786_34",
                 "type": "YELLOW_CARD",
                 "minute": 90,
                 "extraTime": 3,
                 "playerName": "Josan",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "52482796_35",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Gonzalo Villar",
                 "teamName": "Elche",
                 "text": null
               }
