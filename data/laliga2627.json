@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T21:18:18Z",
+  "lastUpdated": "2026-09-15T21:19:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29186,7 +29186,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "86'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -29703,6 +29703,15 @@
                 "extraTime": null,
                 "playerName": "Fer Niño",
                 "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "52482704_29",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
