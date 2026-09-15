@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T17:06:08Z",
+  "lastUpdated": "2026-09-15T17:07:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28066,9 +28066,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28306,18 +28306,10 @@
                   "events": null
                 },
                 {
-                  "id": "367946",
-                  "jersey": 28,
-                  "name": "Javi Hernandez",
+                  "id": "383900",
+                  "jersey": 26,
+                  "name": "Rafael Bauza",
                   "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "307915",
-                  "jersey": 4,
-                  "name": "Urko Gonzalez",
-                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -28325,6 +28317,14 @@
                   "id": "361468",
                   "jersey": 20,
                   "name": "Gabriel Moscardo",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "307915",
+                  "jersey": 4,
+                  "name": "Urko Gonzalez",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -28346,9 +28346,9 @@
                   "events": null
                 },
                 {
-                  "id": "383900",
-                  "jersey": 26,
-                  "name": "Rafael Bauza",
+                  "id": "367946",
+                  "jersey": 28,
+                  "name": "Javi Hernandez",
                   "position": "AM-R",
                   "isStarter": true,
                   "events": null
