@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:44:35Z",
+  "lastUpdated": "2026-09-15T18:45:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28595,6 +28595,24 @@
                 "playerName": "Gnangoro",
                 "teamName": "Rayo",
                 "text": null
+              },
+              {
+                "id": "52466789_33",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Pol Lozano",
+                "teamName": "Espanyol",
+                "text": "Urko González de Zárate"
+              },
+              {
+                "id": "52466790_34",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Iván Balliu",
+                "teamName": "Rayo",
+                "text": "Álvaro García"
               }
             ]
           }
@@ -28609,8 +28627,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "41'",
-          "statusText": "In Progress",
+          "clock": "42'",
+          "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
