@@ -670,6 +670,21 @@ def main():
     print(f"Consultando ESPN del {desde} al {hasta}...")
     events = fetch_scoreboard(rango)
     print(f"  {len(events)} partidos en el rango")
+
+    # El rango vale para el calendario, pero no para el directo: ESPN lo contesta
+    # desde una caché que va atrasada. Medido el 15/09/26 a las 21:56, pidiendo
+    # a la vez las dos cosas: con la fecha suelta, Rayo–Espanyol (2-1) y
+    # Alavés–Valencia (0-1) estaban terminados y el Elche–Real Madrid iba por el
+    # 26'; con un rango que incluía ese día, los dos primeros seguían en el 90'+2'
+    # y en el 45'+3' con 0-0, y el tercero sin empezar. La app se quedó así toda
+    # la noche. Por eso hoy y ayer se piden aparte y mandan sobre el rango. Ayer
+    # también, porque un partido de noche sigue en juego pasada la medianoche UTC.
+    frescos = {}
+    for dia in (today - timedelta(days=1), today):
+        for e in fetch_scoreboard(dia.strftime("%Y%m%d")):
+            if e.get("id"):
+                frescos[e["id"]] = e
+    events = [frescos.pop(e.get("id"), e) for e in events] + list(frescos.values())
     for event in events:
         if is_match_active(event, today):
             active_matches.append(event.get("name") or event.get("id"))
