@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T21:04:15Z",
+  "lastUpdated": "2026-09-15T21:05:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29186,7 +29186,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -29667,6 +29667,15 @@
                 "extraTime": null,
                 "playerName": "Abiel Osorio",
                 "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "52482488_18",
+                "type": "YELLOW_CARD",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Ibrahima Konaté",
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
