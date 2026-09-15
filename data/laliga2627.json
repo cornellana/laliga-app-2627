@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T21:15:03Z",
+  "lastUpdated": "2026-09-15T21:16:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29184,9 +29184,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "1-2",
+          "result": "2-2",
           "state": "in",
-          "clock": "83'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -29695,6 +29695,15 @@
                 "playerName": "Josan",
                 "teamName": "Elche",
                 "text": "Tete Morente"
+              },
+              {
+                "id": "52482656_25",
+                "type": "GOAL",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Fer Niño",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
@@ -34375,6 +34384,12 @@
       "penalties": null
     },
     {
+      "player": "Fer Niño",
+      "team": "Elche",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Jude Bellingham",
       "team": "Real Madrid",
       "goals": 3,
@@ -34396,12 +34411,6 @@
       "player": "Álex Baena",
       "team": "Atlético",
       "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Fer Niño",
-      "team": "Elche",
-      "goals": 2,
       "penalties": null
     },
     {
