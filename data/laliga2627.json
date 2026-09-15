@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T19:30:56Z",
+  "lastUpdated": "2026-09-15T19:32:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29097,9 +29097,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Youssef Enriquez",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Denis Suárez"
+              },
+              {
+                "id": "52472806_15",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "David Otorbi",
+                "teamName": "Valencia",
+                "text": "Guido Rodríguez"
               }
             ]
           }
