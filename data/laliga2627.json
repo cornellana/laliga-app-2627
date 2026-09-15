@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T17:28:38Z",
+  "lastUpdated": "2026-09-15T17:29:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28066,9 +28066,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28466,7 +28466,7 @@
                 "type": "GOAL",
                 "minute": 26,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Adrià Pedrosa",
                 "teamName": "Rayo",
                 "text": null
               }
@@ -33267,6 +33267,12 @@
     {
       "player": "Ademola Lookman",
       "team": "Atlético",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Adrià Pedrosa",
+      "team": "Rayo",
       "goals": 1,
       "penalties": null
     },
