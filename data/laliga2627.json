@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:05:53Z",
+  "lastUpdated": "2026-09-15T18:06:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28478,6 +28478,33 @@
                 "playerName": "Unai López",
                 "teamName": "Rayo",
                 "text": null
+              },
+              {
+                "id": "52464343_13",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Marcos Fernández",
+                "teamName": "Espanyol",
+                "text": "Roger Hinojo"
+              },
+              {
+                "id": "52464344_14",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Bryan Zaragoza",
+                "teamName": "Espanyol",
+                "text": "Rafel Bauzà"
+              },
+              {
+                "id": "52464345_15",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Edu Expósito",
+                "teamName": "Espanyol",
+                "text": "Gabriel Moscardo"
               }
             ]
           }
@@ -28492,7 +28519,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
