@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:34:54Z",
+  "lastUpdated": "2026-09-15T18:35:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28559,6 +28559,15 @@
                 "playerName": "Pathé Ciss",
                 "teamName": "Rayo",
                 "text": null
+              },
+              {
+                "id": "52465929_29",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
@@ -28573,7 +28582,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "31'",
+          "clock": "32'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
