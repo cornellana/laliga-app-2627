@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T19:32:01Z",
+  "lastUpdated": "2026-09-15T19:40:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29109,6 +29109,15 @@
                 "playerName": "David Otorbi",
                 "teamName": "Valencia",
                 "text": "Guido Rodríguez"
+              },
+              {
+                "id": "52474068_16",
+                "type": "GOAL",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Luis Rioja",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
@@ -34095,6 +34104,12 @@
     {
       "player": "Lucas Stassin",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Luis Rioja",
+      "team": "Valencia",
       "goals": 1,
       "penalties": null
     },
