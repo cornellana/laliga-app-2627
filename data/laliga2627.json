@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T21:24:49Z",
+  "lastUpdated": "2026-09-15T21:25:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29186,7 +29186,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -29730,6 +29730,15 @@
                 "extraTime": 1,
                 "playerName": "Carlos Espí",
                 "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "52482786_33",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Josan",
+                "teamName": "Elche",
                 "text": null
               }
             ]
