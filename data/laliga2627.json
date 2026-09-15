@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:38:07Z",
+  "lastUpdated": "2026-09-15T18:39:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28574,9 +28574,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Fran Pérez",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Giorgi Tsitaishvili"
+              },
+              {
+                "id": "52466297_31",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Alemão",
+                "teamName": "Rayo",
+                "text": "Sergio Camello"
               }
             ]
           }
@@ -28591,7 +28600,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "34'",
+          "clock": "35'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
