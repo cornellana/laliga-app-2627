@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T19:40:23Z",
+  "lastUpdated": "2026-09-15T19:43:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29118,6 +29118,15 @@
                 "playerName": "Luis Rioja",
                 "teamName": "Valencia",
                 "text": null
+              },
+              {
+                "id": "52474427_21",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Jesús Vázquez",
+                "teamName": "Valencia",
+                "text": "Luis Rioja because of an injury"
               }
             ]
           }
