@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T21:19:23Z",
+  "lastUpdated": "2026-09-15T21:20:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29186,7 +29186,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -29709,6 +29709,15 @@
                 "id": "52482704_29",
                 "type": "SUBSTITUTION",
                 "minute": 86,
+                "extraTime": null,
+                "playerName": "Endrick",
+                "teamName": "Real Madrid",
+                "text": "Aurélien Tchouaméni"
+              },
+              {
+                "id": "52482727_30",
+                "type": "SUBSTITUTION",
+                "minute": 87,
                 "extraTime": null,
                 "playerName": null,
                 "teamName": "Real Madrid",
