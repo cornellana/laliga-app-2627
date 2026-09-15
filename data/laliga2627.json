@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:30:35Z",
+  "lastUpdated": "2026-09-15T18:31:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28564,8 +28564,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "27'",
-          "statusText": "In Progress",
+          "clock": "28'",
+          "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
