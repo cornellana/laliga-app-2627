@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:53:11Z",
+  "lastUpdated": "2026-09-15T18:59:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28621,6 +28621,15 @@
                 "extraTime": 1,
                 "playerName": "Alemão",
                 "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "52467982_40",
+                "type": "RED_CARD",
+                "minute": 90,
+                "extraTime": 8,
+                "playerName": "Omar El Hilali",
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
