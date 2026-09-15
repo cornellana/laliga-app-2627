@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:43:30Z",
+  "lastUpdated": "2026-09-15T18:44:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -28068,7 +28068,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadio Municipal de Butarque",
           "venueCity": "Leganés, Madrid",
@@ -28592,7 +28592,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": "Gnangoro Bouare Samake",
+                "playerName": "Gnangoro",
                 "teamName": "Rayo",
                 "text": null
               }
@@ -28609,7 +28609,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "In Progress",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
