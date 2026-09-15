@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T19:15:08Z",
+  "lastUpdated": "2026-09-15T19:24:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29062,6 +29062,24 @@
                 "minute": 52,
                 "extraTime": null,
                 "playerName": "Aaron Mayol",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "52471613_11",
+                "type": "YELLOW_CARD",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Guido Rodríguez",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "52471715_12",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Valencia",
                 "text": null
               }
