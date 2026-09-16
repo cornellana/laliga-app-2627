@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:19:42Z",
+  "lastUpdated": "2026-09-16T18:20:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30202,7 +30202,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -30623,7 +30623,7 @@
                 "text": "Yeremay Hernández"
               },
               {
-                "id": "52501535_8",
+                "id": "52501535_9",
                 "type": "RED_CARD",
                 "minute": 59,
                 "extraTime": null,
