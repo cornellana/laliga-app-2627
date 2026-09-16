@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T17:12:16Z",
+  "lastUpdated": "2026-09-16T17:13:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30024,17 +30024,17 @@
                   "events": null
                 },
                 {
-                  "id": "170154",
-                  "jersey": 6,
-                  "name": "Lucas Torró",
+                  "id": "381628",
+                  "jersey": 29,
+                  "name": "Asier Osambela",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "381628",
-                  "jersey": 29,
-                  "name": "Asier Osambela",
+                  "id": "170154",
+                  "jersey": 6,
+                  "name": "Lucas Torró",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -30174,7 +30174,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
