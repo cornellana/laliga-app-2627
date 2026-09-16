@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:54:33Z",
+  "lastUpdated": "2026-09-16T18:55:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30305,6 +30305,15 @@
                 "playerName": "Rubén García",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "52503514_27",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Abel Bretones",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
@@ -30319,7 +30328,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "90'+5'",
+          "clock": "90'+6'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -30828,6 +30837,15 @@
                 "playerName": "Robbie Ure",
                 "teamName": "Sevilla",
                 "text": "Miguel Sierra"
+              },
+              {
+                "id": "52503411_23",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Isaac Romero",
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
