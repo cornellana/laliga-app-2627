@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:44:48Z",
+  "lastUpdated": "2026-09-16T18:45:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30292,7 +30292,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -30789,9 +30789,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Zakaria Eddahchouri",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "José María Giménez"
               }
             ]
           }
