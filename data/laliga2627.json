@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:37:08Z",
+  "lastUpdated": "2026-09-16T18:38:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30266,9 +30266,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Romain Del Castillo",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Asier Osambela because of an injury"
               }
             ]
           }
@@ -30283,7 +30283,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "77'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -30729,6 +30729,15 @@
                 "playerName": "Kike Salas",
                 "teamName": "Sevilla",
                 "text": null
+              },
+              {
+                "id": "52502610_12",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Isaac Romero",
+                "teamName": "Sevilla",
+                "text": "Lucas Stassin"
               }
             ]
           }
