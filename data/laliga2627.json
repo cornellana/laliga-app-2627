@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:15:20Z",
+  "lastUpdated": "2026-09-16T18:16:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29776,10 +29776,10 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "53'",
-          "statusText": "Second Half",
+          "clock": "55'",
+          "statusText": "In Progress",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": {
@@ -30179,6 +30179,15 @@
                 "playerName": "Ademola Lookman",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "52501360_5",
+                "type": "GOAL",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Lee Kang-In",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
@@ -30193,7 +30202,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -35296,6 +35305,12 @@
       "penalties": null
     },
     {
+      "player": "Lee Kang-In",
+      "team": "Atlético",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Luka Sucic",
       "team": "R. Sociedad",
       "goals": 2,
@@ -35526,12 +35541,6 @@
     {
       "player": "Kike Barja",
       "team": "Osasuna",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Lee Kang-In",
-      "team": "Atlético",
       "goals": 1,
       "penalties": null
     },
