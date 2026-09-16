@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:32:05Z",
+  "lastUpdated": "2026-09-16T21:33:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30857,11 +30857,11 @@
           "away": "Racing",
           "jornada": 6,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "7-2",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
