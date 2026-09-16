@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:00:41Z",
+  "lastUpdated": "2026-09-16T21:01:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "4-1",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31370,6 +31370,15 @@
                 "playerName": "Marc Bernal",
                 "teamName": "FC Barcelona",
                 "text": "Rodri"
+              },
+              {
+                "id": "52520860_28",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
