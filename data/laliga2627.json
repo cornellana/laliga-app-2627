@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T20:43:06Z",
+  "lastUpdated": "2026-09-16T20:44:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,8 +30860,8 @@
           "done": false,
           "result": "4-1",
           "state": "in",
-          "clock": "45'+6'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -31313,9 +31313,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Wojciech Szczesny",
                 "teamName": "FC Barcelona",
-                "text": null
+                "text": "Joan García because of an injury"
               }
             ]
           }
