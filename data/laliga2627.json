@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:02:52Z",
+  "lastUpdated": "2026-09-16T21:03:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30858,9 +30858,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "4-1",
+          "result": "4-2",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31379,6 +31379,15 @@
                 "playerName": "Gavi",
                 "teamName": "FC Barcelona",
                 "text": "Pedri"
+              },
+              {
+                "id": "52520914_29",
+                "type": "GOAL",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
@@ -35975,14 +35984,14 @@
       "penalties": null
     },
     {
-      "player": "Pierre-Emerick Aubameyang",
-      "team": "Deportivo",
-      "goals": 5,
+      "player": "Yassir Zabiri",
+      "team": "Racing",
+      "goals": 6,
       "penalties": null
     },
     {
-      "player": "Yassir Zabiri",
-      "team": "Racing",
+      "player": "Pierre-Emerick Aubameyang",
+      "team": "Deportivo",
       "goals": 5,
       "penalties": null
     },
