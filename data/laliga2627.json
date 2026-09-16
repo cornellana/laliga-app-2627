@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:05:01Z",
+  "lastUpdated": "2026-09-16T21:06:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30858,9 +30858,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "4-2",
+          "result": "5-2",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31387,6 +31387,15 @@
                 "extraTime": null,
                 "playerName": "Yassir Zabiri",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52520924_30",
+                "type": "PENALTY",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
@@ -35956,8 +35965,8 @@
     {
       "player": "Raphinha",
       "team": "FC Barcelona",
-      "goals": 8,
-      "penalties": 2
+      "goals": 9,
+      "penalties": 3
     },
     {
       "player": "Kylian Mbappé",
