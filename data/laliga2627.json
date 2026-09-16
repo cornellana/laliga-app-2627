@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T17:05:46Z",
+  "lastUpdated": "2026-09-16T17:06:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -29827,17 +29827,17 @@
                   "events": null
                 },
                 {
-                  "id": "140791",
-                  "jersey": 6,
-                  "name": "Koke",
+                  "id": "290802",
+                  "jersey": 5,
+                  "name": "Johnny Cardoso",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "290802",
-                  "jersey": 5,
-                  "name": "Johnny Cardoso",
+                  "id": "140791",
+                  "jersey": 6,
+                  "name": "Koke",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -30174,7 +30174,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "4'",
+          "clock": "5'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -30191,17 +30191,17 @@
                   "events": null
                 },
                 {
-                  "id": "188398",
-                  "jersey": 20,
-                  "name": "José María Giménez",
+                  "id": "259915",
+                  "jersey": 15,
+                  "name": "Miguel Loureiro",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "259915",
-                  "jersey": 15,
-                  "name": "Miguel Loureiro",
+                  "id": "188398",
+                  "jersey": 20,
+                  "name": "José María Giménez",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -30223,17 +30223,17 @@
                   "events": null
                 },
                 {
-                  "id": "356639",
-                  "jersey": 16,
-                  "name": "Lorenzo Amatucci",
+                  "id": "279609",
+                  "jersey": 14,
+                  "name": "Riki Rodríguez",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "279609",
-                  "jersey": 14,
-                  "name": "Riki Rodríguez",
+                  "id": "356639",
+                  "jersey": 16,
+                  "name": "Lorenzo Amatucci",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
