@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:24:33Z",
+  "lastUpdated": "2026-09-16T21:25:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "6-2",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31441,6 +31441,15 @@
                 "extraTime": null,
                 "playerName": "Gabriel Jesus",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52521225_36",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
                 "text": null
               }
             ]
