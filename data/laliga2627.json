@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:27:48Z",
+  "lastUpdated": "2026-09-16T21:28:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30858,9 +30858,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "6-2",
+          "result": "7-2",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31451,6 +31451,15 @@
                 "playerName": "Jorge Salinas",
                 "teamName": "Racing",
                 "text": "Facu González"
+              },
+              {
+                "id": "52521279_37",
+                "type": "GOAL",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Lamine Yamal",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -36031,7 +36040,7 @@
     {
       "player": "Lamine Yamal",
       "team": "FC Barcelona",
-      "goals": 6,
+      "goals": 7,
       "penalties": 1
     },
     {
