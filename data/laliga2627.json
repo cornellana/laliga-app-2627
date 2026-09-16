@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T17:06:50Z",
+  "lastUpdated": "2026-09-16T17:07:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,8 +29778,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "4'",
-          "statusText": "First Half",
+          "clock": "6'",
+          "statusText": "In Progress",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": {
@@ -29843,9 +29843,9 @@
                   "events": null
                 },
                 {
-                  "id": "229645",
-                  "jersey": 11,
-                  "name": "Ademola Lookman",
+                  "id": "297373",
+                  "jersey": 10,
+                  "name": "Álex Baena",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -29859,9 +29859,9 @@
                   "events": null
                 },
                 {
-                  "id": "297373",
-                  "jersey": 10,
-                  "name": "Álex Baena",
+                  "id": "229645",
+                  "jersey": 11,
+                  "name": "Ademola Lookman",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
@@ -30174,7 +30174,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
