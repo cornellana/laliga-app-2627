@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:18:03Z",
+  "lastUpdated": "2026-09-16T21:19:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "6-2",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31430,9 +31430,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 78,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Giorgi Guliashvili",
                 "teamName": "Racing",
-                "text": null
+                "text": "Íñigo Sainz-Maza"
               },
               {
                 "id": "52521100_35",
