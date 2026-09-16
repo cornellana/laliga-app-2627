@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:25:37Z",
+  "lastUpdated": "2026-09-16T21:26:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "6-2",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31448,9 +31448,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jorge Salinas",
                 "teamName": "Racing",
-                "text": null
+                "text": "Facu González"
               }
             ]
           }
