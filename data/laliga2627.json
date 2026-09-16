@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:01:46Z",
+  "lastUpdated": "2026-09-16T21:02:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "4-1",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31376,9 +31376,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gavi",
                 "teamName": "FC Barcelona",
-                "text": null
+                "text": "Pedri"
               }
             ]
           }
