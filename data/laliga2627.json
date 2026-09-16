@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T17:09:01Z",
+  "lastUpdated": "2026-09-16T17:10:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,8 +29778,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "6'",
-          "statusText": "First Half",
+          "clock": "8'",
+          "statusText": "In Progress",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": {
@@ -30174,7 +30174,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "7'",
+          "clock": "8'",
           "statusText": "In Progress",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
