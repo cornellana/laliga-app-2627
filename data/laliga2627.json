@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T20:26:16Z",
+  "lastUpdated": "2026-09-16T20:43:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31305,6 +31305,15 @@
                 "minute": 45,
                 "extraTime": 5,
                 "playerName": "Lamine Yamal",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52518826_16",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "FC Barcelona",
                 "text": null
               }
