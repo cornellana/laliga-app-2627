@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:42:36Z",
+  "lastUpdated": "2026-09-16T18:43:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30283,7 +30283,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -30758,13 +30758,22 @@
                 "text": null
               },
               {
-                "id": "52502773_19",
+                "id": "52502792_19",
                 "type": "SUBSTITUTION",
                 "minute": 81,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Giorgi Kochorashvili",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Jon Guridi"
+              },
+              {
+                "id": "52502773_20",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Julio Díaz",
+                "teamName": "Sevilla",
+                "text": "Félix Correia"
               }
             ]
           }
