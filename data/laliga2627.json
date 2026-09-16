@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:18:37Z",
+  "lastUpdated": "2026-09-16T18:19:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30202,7 +30202,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -30609,23 +30609,23 @@
                 "type": "SUBSTITUTION",
                 "minute": 57,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Mario Soriano",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Riki Rodríguez"
               },
               {
                 "id": "52501462_6",
                 "type": "SUBSTITUTION",
                 "minute": 57,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jonathan Asp Jensen",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Yeremay Hernández"
               },
               {
-                "id": "52501460_7",
-                "type": "YELLOW_CARD",
-                "minute": 58,
+                "id": "52501535_8",
+                "type": "RED_CARD",
+                "minute": 59,
                 "extraTime": null,
                 "playerName": "Angeliño",
                 "teamName": "Deportivo",
