@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:55:38Z",
+  "lastUpdated": "2026-09-16T18:56:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29775,11 +29775,11 @@
           "away": "Osasuna",
           "jornada": 6,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "4-0",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": {
@@ -30325,11 +30325,11 @@
           "away": "Sevilla",
           "jornada": 6,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-1",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
