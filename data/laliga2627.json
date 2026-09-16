@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T20:10:04Z",
+  "lastUpdated": "2026-09-16T20:11:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30858,9 +30858,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "3-1",
           "state": "in",
-          "clock": "36'",
+          "clock": "37'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31270,6 +31270,15 @@
                 "extraTime": null,
                 "playerName": "Maguette Gueye",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52513454_11",
+                "type": "GOAL",
+                "minute": 36,
+                "extraTime": null,
+                "playerName": "João Cancelo",
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
@@ -35951,6 +35960,12 @@
       "penalties": null
     },
     {
+      "player": "João Cancelo",
+      "team": "FC Barcelona",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Karim Adeyemi",
       "team": "FC Barcelona",
       "goals": 2,
@@ -36183,12 +36198,6 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "João Cancelo",
-      "team": "FC Barcelona",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Juan Iglesias",
