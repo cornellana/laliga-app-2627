@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:34:57Z",
+  "lastUpdated": "2026-09-16T18:36:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "73'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30257,9 +30257,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jon Moncayola",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Iñigo Arguibide"
               }
             ]
           }
@@ -30274,7 +30274,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
