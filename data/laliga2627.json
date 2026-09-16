@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T20:58:31Z",
+  "lastUpdated": "2026-09-16T20:59:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "4-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31322,27 +31322,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 59,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Iñigo Vicente",
                 "teamName": "Racing",
-                "text": null
+                "text": "Asier Villalibre"
               },
               {
                 "id": "52520814_23",
                 "type": "SUBSTITUTION",
                 "minute": 59,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Iker Luque",
                 "teamName": "Racing",
-                "text": null
+                "text": "Pedro Felipe because of an injury"
               },
               {
                 "id": "52520815_24",
                 "type": "SUBSTITUTION",
                 "minute": 59,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Yassir Zabiri",
                 "teamName": "Racing",
-                "text": null
+                "text": "Juan Carlos Arana"
               }
             ]
           }
