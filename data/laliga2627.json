@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T20:25:12Z",
+  "lastUpdated": "2026-09-16T20:26:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31295,6 +31295,15 @@
                 "type": "MISSED_PENALTY",
                 "minute": 45,
                 "extraTime": null,
+                "playerName": "Lamine Yamal",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52516086_14",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 5,
                 "playerName": "Lamine Yamal",
                 "teamName": "FC Barcelona",
                 "text": null
