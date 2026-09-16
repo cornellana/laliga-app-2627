@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:33:53Z",
+  "lastUpdated": "2026-09-16T18:34:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30251,6 +30251,15 @@
                 "playerName": "Arnau Ortiz",
                 "teamName": "Atlético",
                 "text": "Ademola Lookman"
+              },
+              {
+                "id": "52502431_13",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
@@ -30265,7 +30274,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
