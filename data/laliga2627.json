@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T20:19:47Z",
+  "lastUpdated": "2026-09-16T20:20:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "4-1",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31277,7 +31277,7 @@
                 "type": "OWN_GOAL",
                 "minute": 36,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Asier Villalibre",
                 "teamName": "FC Barcelona",
                 "text": null
               },
