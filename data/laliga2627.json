@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T20:59:37Z",
+  "lastUpdated": "2026-09-16T21:00:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "4-1",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31343,6 +31343,33 @@
                 "playerName": "Yassir Zabiri",
                 "teamName": "Racing",
                 "text": "Juan Carlos Arana"
+              },
+              {
+                "id": "52520833_25",
+                "type": "YELLOW_CARD",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Karim Adeyemi",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52520838_26",
+                "type": "YELLOW_CARD",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52520839_27",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Marc Bernal",
+                "teamName": "FC Barcelona",
+                "text": "Rodri"
               }
             ]
           }
