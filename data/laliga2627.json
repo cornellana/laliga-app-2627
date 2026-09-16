@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:48:03Z",
+  "lastUpdated": "2026-09-16T18:49:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30278,6 +30278,33 @@
                 "playerName": "Álex Baena",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "52503024_24",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Morten Hjulmand",
+                "teamName": "Atlético",
+                "text": "Johnny Cardoso"
+              },
+              {
+                "id": "52503025_25",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Dávid Hancko",
+                "teamName": "Atlético",
+                "text": "Alejandro Grimaldo"
+              },
+              {
+                "id": "52503026_26",
+                "type": "YELLOW_CARD",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Rubén García",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
@@ -30292,7 +30319,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
