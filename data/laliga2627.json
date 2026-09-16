@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:15:53Z",
+  "lastUpdated": "2026-09-16T21:16:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "5-2",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31415,6 +31415,15 @@
                 "playerName": "João Cancelo",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "52521080_33",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Alejandro Balde",
+                "teamName": "FC Barcelona",
+                "text": "João Cancelo"
               }
             ]
           }
