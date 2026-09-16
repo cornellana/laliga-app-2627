@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:11:00Z",
+  "lastUpdated": "2026-09-16T18:12:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "49'",
+          "clock": "50'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30170,6 +30170,15 @@
                 "playerName": "Jonathan David",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "52501156_4",
+                "type": "YELLOW_CARD",
+                "minute": 50,
+                "extraTime": null,
+                "playerName": "Ademola Lookman",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
@@ -30184,8 +30193,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "52'",
-          "statusText": "In Progress",
+          "clock": "53'",
+          "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
