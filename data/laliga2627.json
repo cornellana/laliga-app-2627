@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:20:47Z",
+  "lastUpdated": "2026-09-16T18:21:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30188,6 +30188,15 @@
                 "playerName": "Lee Kang-In",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "52501690_6",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Kike Barja",
+                "teamName": "Osasuna",
+                "text": "Jonathan Dubasin"
               }
             ]
           }
@@ -30202,7 +30211,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
