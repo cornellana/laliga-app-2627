@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T17:27:29Z",
+  "lastUpdated": "2026-09-16T17:28:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30161,7 +30161,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52499270_1",
+                "type": "GOAL",
+                "minute": 24,
+                "extraTime": null,
+                "playerName": "Jonathan David",
+                "teamName": "Atlético",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -30174,7 +30184,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -35246,6 +35256,12 @@
       "penalties": null
     },
     {
+      "player": "Jonathan David",
+      "team": "Atlético",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Karim Adeyemi",
       "team": "FC Barcelona",
       "goals": 2,
@@ -35466,12 +35482,6 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "Jonathan David",
-      "team": "Atlético",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Juan Iglesias",
