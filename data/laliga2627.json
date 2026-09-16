@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T19:56:01Z",
+  "lastUpdated": "2026-09-16T19:57:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "22'",
+          "clock": "23'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31243,6 +31243,15 @@
                 "extraTime": null,
                 "playerName": "João Cancelo",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52511952_6",
+                "type": "YELLOW_CARD",
+                "minute": 23,
+                "extraTime": null,
+                "playerName": "Pedro Felipe",
+                "teamName": "Racing",
                 "text": null
               }
             ]
