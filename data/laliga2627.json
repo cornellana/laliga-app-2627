@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:38:14Z",
+  "lastUpdated": "2026-09-16T18:39:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30738,6 +30738,15 @@
                 "playerName": "Isaac Romero",
                 "teamName": "Sevilla",
                 "text": "Lucas Stassin"
+              },
+              {
+                "id": "52502638_13",
+                "type": "YELLOW_CARD",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Lorenzo Amatucci",
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
