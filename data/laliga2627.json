@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T20:16:32Z",
+  "lastUpdated": "2026-09-16T20:17:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,8 +30860,8 @@
           "done": false,
           "result": "4-1",
           "state": "in",
-          "clock": "42'",
-          "statusText": "In Progress",
+          "clock": "43'",
+          "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -31278,6 +31278,15 @@
                 "minute": 36,
                 "extraTime": null,
                 "playerName": "João Cancelo",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52514424_12",
+                "type": "GOAL",
+                "minute": 42,
+                "extraTime": null,
+                "playerName": "Raphinha",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -35846,16 +35855,16 @@
   "standings": [],
   "topScorers": [
     {
+      "player": "Raphinha",
+      "team": "FC Barcelona",
+      "goals": 8,
+      "penalties": 2
+    },
+    {
       "player": "Kylian Mbappé",
       "team": "Real Madrid",
       "goals": 7,
       "penalties": 1
-    },
-    {
-      "player": "Raphinha",
-      "team": "FC Barcelona",
-      "goals": 7,
-      "penalties": 2
     },
     {
       "player": "Lamine Yamal",
