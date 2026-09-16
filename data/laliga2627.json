@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:16:59Z",
+  "lastUpdated": "2026-09-16T21:18:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30858,9 +30858,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "5-2",
+          "result": "6-2",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31424,6 +31424,24 @@
                 "playerName": "Alejandro Balde",
                 "teamName": "FC Barcelona",
                 "text": "João Cancelo"
+              },
+              {
+                "id": "52521101_34",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52521100_35",
+                "type": "GOAL",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Gabriel Jesus",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -36286,6 +36304,12 @@
     {
       "player": "Ferran Jutglà",
       "team": "Celta",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Gabriel Jesus",
+      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
