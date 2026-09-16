@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T17:49:45Z",
+  "lastUpdated": "2026-09-16T18:05:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30567,7 +30567,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52500795_2",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Adama Traoré",
+                "teamName": "Deportivo",
+                "text": "Bil Nsongo"
+              }
+            ]
           }
         },
         {
