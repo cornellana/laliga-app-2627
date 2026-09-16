@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T19:37:42Z",
+  "lastUpdated": "2026-09-16T19:38:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -30917,17 +30917,17 @@
                   "events": null
                 },
                 {
-                  "id": "227765",
-                  "jersey": 20,
-                  "name": "Dani Olmo",
+                  "id": "250465",
+                  "jersey": 8,
+                  "name": "Pedri",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "250465",
-                  "jersey": 8,
-                  "name": "Pedri",
+                  "id": "227765",
+                  "jersey": 20,
+                  "name": "Dani Olmo",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
