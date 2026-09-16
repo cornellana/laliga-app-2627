@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:30:38Z",
+  "lastUpdated": "2026-09-16T18:31:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30224,6 +30224,33 @@
                 "playerName": "Robin Le Normand",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "52502248_10",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Marc Pubill",
+                "teamName": "Atlético",
+                "text": "Cristian Romero"
+              },
+              {
+                "id": "52502249_11",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Giuliano Simeone",
+                "teamName": "Atlético",
+                "text": "Jonathan David"
+              },
+              {
+                "id": "52502250_12",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Arnau Ortiz",
+                "teamName": "Atlético",
+                "text": "Ademola Lookman"
               }
             ]
           }
@@ -30238,7 +30265,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
