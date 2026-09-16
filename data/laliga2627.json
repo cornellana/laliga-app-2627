@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:12:05Z",
+  "lastUpdated": "2026-09-16T18:13:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "50'",
+          "clock": "51'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30191,9 +30191,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "53'",
+          "clock": "54'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -30585,6 +30585,15 @@
                 "playerName": "Adama Traoré",
                 "teamName": "Deportivo",
                 "text": "Bil Nsongo"
+              },
+              {
+                "id": "52501190_4",
+                "type": "GOAL",
+                "minute": 52,
+                "extraTime": null,
+                "playerName": "Miguel Sierra",
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
@@ -35293,6 +35302,12 @@
       "penalties": null
     },
     {
+      "player": "Miguel Sierra",
+      "team": "Sevilla",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Nicolas Pepe",
       "team": "Villarreal",
       "goals": 2,
@@ -35565,12 +35580,6 @@
     {
       "player": "Martín Satriano",
       "team": "Getafe",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Miguel Sierra",
-      "team": "Sevilla",
       "goals": 1,
       "penalties": null
     },
