@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:40:25Z",
+  "lastUpdated": "2026-09-16T18:41:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29778,7 +29778,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30283,7 +30283,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -30751,7 +30751,7 @@
               {
                 "id": "52502682_18",
                 "type": "YELLOW_CARD",
-                "minute": 80,
+                "minute": 79,
                 "extraTime": null,
                 "playerName": "Jon Guridi",
                 "teamName": "Sevilla",
