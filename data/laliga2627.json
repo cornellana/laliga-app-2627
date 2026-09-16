@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:24:07Z",
+  "lastUpdated": "2026-09-16T18:25:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29776,9 +29776,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "3-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30229,7 +30229,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "64'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -30663,8 +30663,17 @@
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Giacomo Quagliata",
                 "teamName": "Deportivo",
+                "text": "Luismi Cruz"
+              },
+              {
+                "id": "52501926_11",
+                "type": "YELLOW_CARD",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Kike Salas",
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
