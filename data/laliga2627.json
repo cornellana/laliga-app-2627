@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:43:41Z",
+  "lastUpdated": "2026-09-16T18:44:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -29776,9 +29776,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "3-0",
+          "result": "4-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -30269,6 +30269,15 @@
                 "playerName": "Romain Del Castillo",
                 "teamName": "Osasuna",
                 "text": "Asier Osambela because of an injury"
+              },
+              {
+                "id": "52502819_23",
+                "type": "GOAL",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Álex Baena",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
@@ -30283,7 +30292,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -30774,6 +30783,15 @@
                 "playerName": "Julio Díaz",
                 "teamName": "Sevilla",
                 "text": "Félix Correia"
+              },
+              {
+                "id": "52502848_21",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
@@ -35416,6 +35434,12 @@
       "penalties": null
     },
     {
+      "player": "Álex Baena",
+      "team": "Atlético",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Fer Niño",
       "team": "Elche",
       "goals": 3,
@@ -35436,12 +35460,6 @@
     {
       "player": "Roger Brugué",
       "team": "Levante",
-      "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Álex Baena",
-      "team": "Atlético",
       "goals": 3,
       "penalties": null
     },
