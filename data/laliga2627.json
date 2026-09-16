@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:08:17Z",
+  "lastUpdated": "2026-09-16T21:09:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,8 +30860,8 @@
           "done": false,
           "result": "5-2",
           "state": "in",
-          "clock": "70'",
-          "statusText": "Second Half",
+          "clock": "71'",
+          "statusText": "In Progress",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -31403,7 +31403,16 @@
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gabriel Jesus",
+                "teamName": "FC Barcelona",
+                "text": "Raphinha"
+              },
+              {
+                "id": "52520940_32",
+                "type": "YELLOW_CARD",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "João Cancelo",
                 "teamName": "FC Barcelona",
                 "text": null
               }
