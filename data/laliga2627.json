@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T19:59:16Z",
+  "lastUpdated": "2026-09-16T20:00:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30858,9 +30858,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31246,12 +31246,21 @@
                 "text": null
               },
               {
-                "id": "52511952_6",
+                "id": "52511952_7",
                 "type": "YELLOW_CARD",
                 "minute": 23,
                 "extraTime": null,
                 "playerName": "Pedro Felipe",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52512067_9",
+                "type": "PENALTY",
+                "minute": 25,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
@@ -35825,13 +35834,13 @@
       "penalties": 1
     },
     {
-      "player": "Lamine Yamal",
+      "player": "Raphinha",
       "team": "FC Barcelona",
-      "goals": 6,
-      "penalties": 1
+      "goals": 7,
+      "penalties": 2
     },
     {
-      "player": "Raphinha",
+      "player": "Lamine Yamal",
       "team": "FC Barcelona",
       "goals": 6,
       "penalties": 1
