@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T20:20:52Z",
+  "lastUpdated": "2026-09-16T20:21:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30860,7 +30860,7 @@
           "done": false,
           "result": "4-1",
           "state": "in",
-          "clock": "45'+1'",
+          "clock": "45'+2'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31287,6 +31287,15 @@
                 "minute": 42,
                 "extraTime": null,
                 "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52515115_13",
+                "type": "MISSED_PENALTY",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Lamine Yamal",
                 "teamName": "FC Barcelona",
                 "text": null
               }
