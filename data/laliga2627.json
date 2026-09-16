@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T20:04:40Z",
+  "lastUpdated": "2026-09-16T20:05:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -30858,9 +30858,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "2-1",
           "state": "in",
-          "clock": "30'",
+          "clock": "31'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -31261,6 +31261,15 @@
                 "extraTime": null,
                 "playerName": "Raphinha",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52512367_10",
+                "type": "GOAL",
+                "minute": 30,
+                "extraTime": null,
+                "playerName": "Maguette Gueye",
+                "teamName": "Racing",
                 "text": null
               }
             ]
@@ -36208,6 +36217,12 @@
     {
       "player": "Luismi Cruz",
       "team": "Deportivo",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Maguette Gueye",
+      "team": "Racing",
       "goals": 1,
       "penalties": null
     },
