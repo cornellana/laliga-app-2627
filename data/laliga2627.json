@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T18:58:20Z",
+  "lastUpdated": "2026-09-17T18:59:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+5'",
           "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -32001,7 +32001,7 @@
                 "text": null
               },
               {
-                "id": "52539210_27",
+                "id": "52539210_29",
                 "type": "SUBSTITUTION",
                 "minute": 90,
                 "extraTime": 2,
