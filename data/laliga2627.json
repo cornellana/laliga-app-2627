@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T21:11:57Z",
+  "lastUpdated": "2026-09-17T21:13:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "80'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32547,9 +32547,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Santiago Mouriño",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Alberto Moleiro"
               }
             ]
           }
