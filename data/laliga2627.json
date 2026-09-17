@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T18:36:47Z",
+  "lastUpdated": "2026-09-17T18:37:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31936,6 +31936,15 @@
                 "playerName": "Sebastián Boselli",
                 "teamName": "Getafe",
                 "text": "Andrés García"
+              },
+              {
+                "id": "52538517_18",
+                "type": "YELLOW_CARD",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Nemanja Gudelj",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
