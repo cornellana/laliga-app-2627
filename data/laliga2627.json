@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:11:52Z",
+  "lastUpdated": "2026-09-17T20:12:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "42'",
+          "clock": "43'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32431,6 +32431,15 @@
                 "minute": 40,
                 "extraTime": null,
                 "playerName": "Alberto Moleiro",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "52547024_13",
+                "type": "YELLOW_CARD",
+                "minute": 42,
+                "extraTime": null,
+                "playerName": "Ilias Akhomach",
                 "teamName": "Villarreal",
                 "text": null
               }
