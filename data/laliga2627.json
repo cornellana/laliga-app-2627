@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:54:37Z",
+  "lastUpdated": "2026-09-17T20:55:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32471,7 +32471,16 @@
                 "text": "José Salinas"
               },
               {
-                "id": "52551899_19",
+                "id": "52551945_19",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Joaquín Muñoz",
+                "teamName": "Málaga",
+                "text": "Izan Merino"
+              },
+              {
+                "id": "52551899_20",
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
@@ -32480,13 +32489,22 @@
                 "text": "Carlos Dotor"
               },
               {
-                "id": "52551945_20",
+                "id": "52551995_21",
                 "type": "SUBSTITUTION",
-                "minute": 61,
+                "minute": 63,
                 "extraTime": null,
-                "playerName": "Joaquín Muñoz",
-                "teamName": "Málaga",
-                "text": "Izan Merino"
+                "playerName": "Georges Mikautadze",
+                "teamName": "Villarreal",
+                "text": "Ayoze Pérez"
+              },
+              {
+                "id": "52551996_22",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Carlos Romero",
+                "teamName": "Villarreal",
+                "text": "Ilias Akhomach"
               }
             ]
           }
