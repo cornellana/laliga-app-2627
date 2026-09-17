@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T17:46:29Z",
+  "lastUpdated": "2026-09-17T17:47:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "43'",
+          "clock": "44'",
           "statusText": "First Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31742,9 +31742,9 @@
                   "events": null
                 },
                 {
-                  "id": "310259",
-                  "jersey": 20,
-                  "name": "Ivan Azón",
+                  "id": "284854",
+                  "jersey": 10,
+                  "name": "Martín Satriano",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -31758,9 +31758,9 @@
                   "events": null
                 },
                 {
-                  "id": "284854",
-                  "jersey": 10,
-                  "name": "Martín Satriano",
+                  "id": "310259",
+                  "jersey": 20,
+                  "name": "Ivan Azón",
                   "position": "F",
                   "isStarter": true,
                   "events": null
