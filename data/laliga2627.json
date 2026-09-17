@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:10:47Z",
+  "lastUpdated": "2026-09-17T20:11:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "41'",
+          "clock": "42'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32424,6 +32424,15 @@
                 "playerName": "Pape Gueye",
                 "teamName": "Villarreal",
                 "text": "Santi Comesaña because of an injury"
+              },
+              {
+                "id": "52546834_12",
+                "type": "GOAL",
+                "minute": 40,
+                "extraTime": null,
+                "playerName": "Alberto Moleiro",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
@@ -37164,6 +37173,12 @@
     {
       "player": "Aitor Paredes",
       "team": "Athletic",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Alberto Moleiro",
+      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
