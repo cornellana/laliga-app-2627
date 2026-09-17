@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:21:35Z",
+  "lastUpdated": "2026-09-17T20:37:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,8 +32022,8 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "45'+6'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -32451,6 +32451,15 @@
                 "playerName": "Pape Gueye",
                 "teamName": "Villarreal",
                 "text": null
+              },
+              {
+                "id": "52549671_16",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Dani Lorenzo",
+                "teamName": "Málaga",
+                "text": "Juan Cruz"
               }
             ]
           }
