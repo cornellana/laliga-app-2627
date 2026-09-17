@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T17:29:12Z",
+  "lastUpdated": "2026-09-17T17:30:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31855,7 +31855,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52536135_5",
+                "type": "YELLOW_CARD",
+                "minute": 24,
+                "extraTime": null,
+                "playerName": "Ángel Ortiz",
+                "teamName": "Betis",
+                "text": null
+              }
+            ]
           }
         },
         {
