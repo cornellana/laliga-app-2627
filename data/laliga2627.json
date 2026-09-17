@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T17:54:04Z",
+  "lastUpdated": "2026-09-17T18:10:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,8 +31480,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
           "details": {
@@ -31882,6 +31882,15 @@
                 "playerName": "Abde Ezzalzouli",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "52537243_11",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Johan Mojica",
+                "teamName": "Getafe",
+                "text": "Davinchi"
               }
             ]
           }
