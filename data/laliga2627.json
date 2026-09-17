@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T17:51:55Z",
+  "lastUpdated": "2026-09-17T17:53:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31478,9 +31478,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "45'+3'",
+          "clock": "45'+4'",
           "statusText": "First Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31872,6 +31872,15 @@
                 "extraTime": null,
                 "playerName": "Davinchi",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "52536714_7",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Abde Ezzalzouli",
+                "teamName": "Betis",
                 "text": null
               }
             ]
@@ -36588,6 +36597,12 @@
       "player": "Álvaro García",
       "team": "Rayo",
       "goals": 2,
+      "penalties": null
+    },
+    {
+      "player": "Abde Ezzalzouli",
+      "team": "Betis",
+      "goals": 1,
       "penalties": null
     },
     {
