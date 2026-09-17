@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T19:32:55Z",
+  "lastUpdated": "2026-09-17T19:34:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32252,26 +32252,18 @@
                   "events": null
                 },
                 {
-                  "id": "311163",
-                  "jersey": 24,
-                  "name": "Nathan Saliba",
+                  "id": "240623",
+                  "jersey": 14,
+                  "name": "Santi Comesaña",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "240623",
-                  "jersey": 14,
-                  "name": "Santi Comesaña",
+                  "id": "311163",
+                  "jersey": 24,
+                  "name": "Nathan Saliba",
                   "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "307390",
-                  "jersey": 10,
-                  "name": "Alberto Moleiro",
-                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -32279,6 +32271,14 @@
                   "id": "284769",
                   "jersey": 17,
                   "name": "Tajon Buchanan",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "331047",
+                  "jersey": 11,
+                  "name": "Ilias Akhomach",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -32292,9 +32292,9 @@
                   "events": null
                 },
                 {
-                  "id": "331047",
-                  "jersey": 11,
-                  "name": "Ilias Akhomach",
+                  "id": "307390",
+                  "jersey": 10,
+                  "name": "Alberto Moleiro",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
