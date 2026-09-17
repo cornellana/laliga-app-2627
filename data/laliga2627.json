@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T19:30:45Z",
+  "lastUpdated": "2026-09-17T19:31:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32079,17 +32079,17 @@
                   "events": null
                 },
                 {
-                  "id": "271151",
-                  "jersey": 18,
-                  "name": "Pablo Martínez",
+                  "id": "324098",
+                  "jersey": 8,
+                  "name": "Carlos Dotor",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "324098",
-                  "jersey": 8,
-                  "name": "Carlos Dotor",
+                  "id": "271151",
+                  "jersey": 18,
+                  "name": "Pablo Martínez",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
