@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T21:10:52Z",
+  "lastUpdated": "2026-09-17T21:11:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32532,6 +32532,24 @@
                 "playerName": "Ramón Enríquez",
                 "teamName": "Málaga",
                 "text": "Carlos Puga"
+              },
+              {
+                "id": "52552380_26",
+                "type": "YELLOW_CARD",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Ramón Enríquez",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "52552381_27",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
