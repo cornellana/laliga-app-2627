@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:53:32Z",
+  "lastUpdated": "2026-09-17T20:54:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32473,11 +32473,20 @@
               {
                 "id": "52551899_19",
                 "type": "SUBSTITUTION",
-                "minute": 62,
+                "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Adrián Niño",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Carlos Dotor"
+              },
+              {
+                "id": "52551945_20",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Joaquín Muñoz",
+                "teamName": "Málaga",
+                "text": "Izan Merino"
               }
             ]
           }
