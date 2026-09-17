@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T21:06:33Z",
+  "lastUpdated": "2026-09-17T21:07:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32523,6 +32523,15 @@
                 "playerName": "Einar Galilea",
                 "teamName": "Málaga",
                 "text": null
+              },
+              {
+                "id": "52552322_25",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Ramón Enríquez",
+                "teamName": "Málaga",
+                "text": "Carlos Puga"
               }
             ]
           }
