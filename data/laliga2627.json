@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T17:06:06Z",
+  "lastUpdated": "2026-09-17T17:07:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31675,21 +31675,13 @@
               ]
             },
             "awayLineup": {
-              "formation": "5-3-2",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "196339",
                   "jersey": 13,
                   "name": "David Soria",
                   "position": "G",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "181355",
-                  "jersey": 2,
-                  "name": "Djené",
-                  "position": "CD",
                   "isStarter": true,
                   "events": null
                 },
@@ -31702,10 +31694,18 @@
                   "events": null
                 },
                 {
+                  "id": "181355",
+                  "jersey": 2,
+                  "name": "Djené",
+                  "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "136673",
                   "jersey": 8,
                   "name": "Nemanja Gudelj",
-                  "position": "CD-R",
+                  "position": "DM",
                   "isStarter": true,
                   "events": null
                 },
@@ -31726,18 +31726,18 @@
                   "events": null
                 },
                 {
-                  "id": "228424",
-                  "jersey": 23,
-                  "name": "Orel Mangala",
-                  "position": "CM",
+                  "id": "310259",
+                  "jersey": 20,
+                  "name": "Ivan Azón",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "307186",
-                  "jersey": 16,
-                  "name": "Francho Serrano",
-                  "position": "CM-L",
+                  "id": "228424",
+                  "jersey": 23,
+                  "name": "Orel Mangala",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -31745,7 +31745,15 @@
                   "id": "357147",
                   "jersey": 6,
                   "name": "Mario Martín",
-                  "position": "CM-R",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "307186",
+                  "jersey": 16,
+                  "name": "Francho Serrano",
+                  "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
@@ -31753,15 +31761,7 @@
                   "id": "284854",
                   "jersey": 10,
                   "name": "Martín Satriano",
-                  "position": "CF-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "310259",
-                  "jersey": 20,
-                  "name": "Ivan Azón",
-                  "position": "CF-R",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
