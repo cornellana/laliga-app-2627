@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T18:46:30Z",
+  "lastUpdated": "2026-09-17T18:47:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31970,6 +31970,24 @@
                 "minute": 74,
                 "extraTime": null,
                 "playerName": "Sebastián Boselli",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "52538891_22",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "52538892_23",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Getafe",
                 "text": null
               }
