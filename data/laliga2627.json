@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T19:31:50Z",
+  "lastUpdated": "2026-09-17T19:32:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32087,10 +32087,18 @@
                   "events": null
                 },
                 {
+                  "id": "297828",
+                  "jersey": 10,
+                  "name": "David Larrubia",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "271151",
                   "jersey": 18,
                   "name": "Pablo Martínez",
-                  "position": "CM-R",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -32098,14 +32106,6 @@
                   "id": "145565",
                   "jersey": 19,
                   "name": "Juan Antonio Cruz",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "297828",
-                  "jersey": 10,
-                  "name": "David Larrubia",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
