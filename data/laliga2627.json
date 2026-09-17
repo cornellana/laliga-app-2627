@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T21:01:09Z",
+  "lastUpdated": "2026-09-17T21:02:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32512,6 +32512,15 @@
                 "minute": 68,
                 "extraTime": null,
                 "playerName": "David Larrubia",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "52552221_24",
+                "type": "YELLOW_CARD",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Einar Galilea",
                 "teamName": "Málaga",
                 "text": null
               }
