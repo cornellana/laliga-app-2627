@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T21:00:03Z",
+  "lastUpdated": "2026-09-17T21:01:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32505,6 +32505,15 @@
                 "playerName": "Carlos Romero",
                 "teamName": "Villarreal",
                 "text": "Ilias Akhomach"
+              },
+              {
+                "id": "52552189_23",
+                "type": "YELLOW_CARD",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "David Larrubia",
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
