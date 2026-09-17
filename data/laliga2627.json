@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:07:34Z",
+  "lastUpdated": "2026-09-17T20:08:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "38'",
+          "clock": "39'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32421,9 +32421,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 37,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pape Gueye",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Santi Comesaña because of an injury"
               }
             ]
           }
