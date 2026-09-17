@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:37:16Z",
+  "lastUpdated": "2026-09-17T20:38:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32460,6 +32460,15 @@
                 "playerName": "Dani Lorenzo",
                 "teamName": "Málaga",
                 "text": "Juan Cruz"
+              },
+              {
+                "id": "52549845_17",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Rafita",
+                "teamName": "Málaga",
+                "text": "José Salinas"
               }
             ]
           }
