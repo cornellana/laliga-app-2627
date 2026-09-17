@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:06:27Z",
+  "lastUpdated": "2026-09-17T20:07:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "37'",
+          "clock": "38'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32414,6 +32414,15 @@
                 "extraTime": null,
                 "playerName": "José Salinas",
                 "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "52546219_11",
+                "type": "SUBSTITUTION",
+                "minute": 37,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
