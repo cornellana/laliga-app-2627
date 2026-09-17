@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T18:47:35Z",
+  "lastUpdated": "2026-09-17T18:48:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31978,18 +31978,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 81,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Óscar López",
                 "teamName": "Getafe",
-                "text": null
+                "text": "Francho Serrano"
               },
               {
                 "id": "52538892_23",
                 "type": "SUBSTITUTION",
                 "minute": 81,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alberto Risco",
                 "teamName": "Getafe",
-                "text": null
+                "text": "Orel Mangala"
               }
             ]
           }
