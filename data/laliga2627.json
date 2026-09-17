@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T18:11:51Z",
+  "lastUpdated": "2026-09-17T18:12:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "47'",
+          "clock": "48'",
           "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31893,22 +31893,22 @@
                 "text": "Davinchi"
               },
               {
-                "id": "52537282_12",
-                "type": "SUBSTITUTION",
-                "minute": 45,
-                "extraTime": null,
-                "playerName": "Héctor Bellerín",
-                "teamName": "Betis",
-                "text": "Ángel Ortiz"
-              },
-              {
-                "id": "52537280_13",
+                "id": "52537280_12",
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
                 "playerName": "Enes Ünal",
                 "teamName": "Getafe",
                 "text": "Martín Satriano"
+              },
+              {
+                "id": "52537282_13",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Héctor Bellerín",
+                "teamName": "Betis",
+                "text": "Ángel Ortiz"
               }
             ]
           }
