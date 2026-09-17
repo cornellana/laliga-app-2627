@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T18:26:01Z",
+  "lastUpdated": "2026-09-17T18:27:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31924,9 +31924,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Dani Ceballos",
                 "teamName": "Betis",
-                "text": null
+                "text": "Isco"
               }
             ]
           }
