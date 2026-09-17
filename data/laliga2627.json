@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T18:57:16Z",
+  "lastUpdated": "2026-09-17T18:58:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31999,6 +31999,15 @@
                 "playerName": "Second yellow card to Mario Martín",
                 "teamName": "Getafe",
                 "text": null
+              },
+              {
+                "id": "52539210_27",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Álvaro Fidalgo",
+                "teamName": "Betis",
+                "text": "Antony"
               }
             ]
           }
