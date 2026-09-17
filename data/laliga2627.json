@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T18:37:51Z",
+  "lastUpdated": "2026-09-17T18:38:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31945,6 +31945,24 @@
                 "playerName": "Nemanja Gudelj",
                 "teamName": "Getafe",
                 "text": null
+              },
+              {
+                "id": "52538555_19",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Cucho Hernández",
+                "teamName": "Betis",
+                "text": "Troy Parrott"
+              },
+              {
+                "id": "52538577_20",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Rodrigo Riquelme",
+                "teamName": "Betis",
+                "text": "Abde Ezzalzouli"
               }
             ]
           }
