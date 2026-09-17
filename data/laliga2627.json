@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T18:51:53Z",
+  "lastUpdated": "2026-09-17T18:52:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31990,6 +31990,15 @@
                 "playerName": "Alberto Risco",
                 "teamName": "Getafe",
                 "text": "Orel Mangala"
+              },
+              {
+                "id": "52539024_24",
+                "type": "RED_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Second yellow card to Mario Martín",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
