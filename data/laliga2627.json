@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T21:33:10Z",
+  "lastUpdated": "2026-09-17T14:07:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31463,22 +31463,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "401882870",
-          "time": "21:30",
-          "home": "Levante",
-          "away": "Athletic",
-          "jornada": 6,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "post",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Estadi Ciutat de València",
-          "venueCity": "Manises",
-          "details": null
         }
       ]
     },
@@ -32044,6 +32028,28 @@
           "statusText": null,
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
+          "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "jornada": 6,
+      "games": [
+        {
+          "id": "401882870",
+          "time": "20:00",
+          "home": "Levante",
+          "away": "Athletic",
+          "jornada": 6,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
           "details": null
         }
       ]
