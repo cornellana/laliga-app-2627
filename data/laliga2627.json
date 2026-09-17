@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T17:30:17Z",
+  "lastUpdated": "2026-09-17T17:31:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "26'",
+          "clock": "28'",
           "statusText": "First Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31863,6 +31863,15 @@
                 "extraTime": null,
                 "playerName": "Ángel Ortiz",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "52536181_6",
+                "type": "YELLOW_CARD",
+                "minute": 25,
+                "extraTime": null,
+                "playerName": "Davinchi",
+                "teamName": "Getafe",
                 "text": null
               }
             ]
