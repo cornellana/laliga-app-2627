@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:17:16Z",
+  "lastUpdated": "2026-09-17T20:18:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32020,9 +32020,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "45'+3'",
+          "clock": "45'+4'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32440,6 +32440,15 @@
                 "minute": 42,
                 "extraTime": null,
                 "playerName": "Ilias Akhomach",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "52547776_14",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Pape Gueye",
                 "teamName": "Villarreal",
                 "text": null
               }
@@ -37126,6 +37135,12 @@
       "penalties": null
     },
     {
+      "player": "Pape Gueye",
+      "team": "Villarreal",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Robert Navarro",
       "team": "Athletic",
       "goals": 2,
@@ -37464,12 +37479,6 @@
     {
       "player": "Pablo Ibáñez",
       "team": "Alavés",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Pape Gueye",
-      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
