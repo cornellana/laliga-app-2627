@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T18:18:19Z",
+  "lastUpdated": "2026-09-17T18:19:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31909,6 +31909,15 @@
                 "playerName": "Héctor Bellerín",
                 "teamName": "Betis",
                 "text": "Ángel Ortiz"
+              },
+              {
+                "id": "52537627_15",
+                "type": "YELLOW_CARD",
+                "minute": 53,
+                "extraTime": null,
+                "playerName": "Mario Martín",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
