@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T18:24:56Z",
+  "lastUpdated": "2026-09-17T18:26:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31917,6 +31917,15 @@
                 "extraTime": null,
                 "playerName": "Mario Martín",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "52537946_16",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
                 "text": null
               }
             ]
