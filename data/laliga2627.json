@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T17:05:01Z",
+  "lastUpdated": "2026-09-17T17:06:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -31480,7 +31480,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Estadio Benito Villamarín",
           "venueCity": "Sevilla",
@@ -31537,17 +31537,17 @@
                   "events": null
                 },
                 {
-                  "id": "322908",
-                  "jersey": 18,
-                  "name": "Nelson Deossa",
+                  "id": "359912",
+                  "jersey": 6,
+                  "name": "Facundo Bernal",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "359912",
-                  "jersey": 6,
-                  "name": "Facundo Bernal",
+                  "id": "322908",
+                  "jersey": 18,
+                  "name": "Nelson Deossa",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
