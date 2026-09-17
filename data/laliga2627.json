@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:52:28Z",
+  "lastUpdated": "2026-09-17T20:53:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32022,7 +32022,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -32469,6 +32469,15 @@
                 "playerName": "Rafita",
                 "teamName": "Málaga",
                 "text": "José Salinas"
+              },
+              {
+                "id": "52551899_19",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
