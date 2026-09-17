@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:09:43Z",
+  "lastUpdated": "2026-09-17T20:10:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32020,10 +32020,10 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "40'",
-          "statusText": "In Progress",
+          "clock": "41'",
+          "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
