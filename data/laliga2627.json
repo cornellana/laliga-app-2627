@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T20:39:34Z",
+  "lastUpdated": "2026-09-18T20:40:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32595,9 +32595,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "1-2",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -33097,6 +33097,15 @@
                 "playerName": "Clemens Riedel",
                 "teamName": "Espanyol",
                 "text": "Unai Núñez"
+              },
+              {
+                "id": "52569653_26",
+                "type": "OWN_GOAL",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Víctor Chust",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
