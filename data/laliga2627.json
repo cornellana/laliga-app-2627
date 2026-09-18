@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T20:43:54Z",
+  "lastUpdated": "2026-09-18T20:44:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32597,7 +32597,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -33105,6 +33105,24 @@
                 "extraTime": null,
                 "playerName": "Víctor Chust",
                 "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "52569955_27",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "52569956_28",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
                 "text": null
               }
             ]
