@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T19:11:30Z",
+  "lastUpdated": "2026-09-18T19:12:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32597,7 +32597,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "8'",
+          "clock": "9'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -32843,17 +32843,17 @@
                   "events": null
                 },
                 {
-                  "id": "273424",
-                  "jersey": 12,
-                  "name": "Gonzalo Villar",
+                  "id": "190291",
+                  "jersey": 18,
+                  "name": "Thomas Lemar",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "190291",
-                  "jersey": 18,
-                  "name": "Thomas Lemar",
+                  "id": "273424",
+                  "jersey": 12,
+                  "name": "Gonzalo Villar",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -32980,7 +32980,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52562049_3",
+                "type": "RED_CARD",
+                "minute": 6,
+                "extraTime": null,
+                "playerName": "Federico Redondo",
+                "teamName": "Elche",
+                "text": null
+              }
+            ]
           }
         }
       ]
