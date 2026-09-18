@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T20:33:05Z",
+  "lastUpdated": "2026-09-18T20:34:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32597,7 +32597,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "66'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -33079,6 +33079,15 @@
                 "playerName": "Pere Milla",
                 "teamName": "Espanyol",
                 "text": "Cala"
+              },
+              {
+                "id": "52569167_24",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Tyrhys Dolan",
+                "teamName": "Espanyol",
+                "text": "Bryan Zaragoza"
               }
             ]
           }
