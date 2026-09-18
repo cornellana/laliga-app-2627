@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T20:44:59Z",
+  "lastUpdated": "2026-09-18T20:46:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32595,9 +32595,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "1-2",
+          "result": "1-3",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -33112,16 +33112,25 @@
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Tete Morente",
                 "teamName": "Elche",
-                "text": null
+                "text": "Thomas Lemar"
               },
               {
                 "id": "52569956_28",
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Matia Barzic",
+                "teamName": "Elche",
+                "text": "Roy Revivo"
+              },
+              {
+                "id": "52569975_29",
+                "type": "GOAL",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Germán Valera",
                 "teamName": "Elche",
                 "text": null
               }
@@ -37970,6 +37979,12 @@
       "team": "Villarreal",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Germán Valera",
+      "team": "Elche",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Iago Aspas",
