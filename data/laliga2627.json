@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T19:29:50Z",
+  "lastUpdated": "2026-09-18T19:30:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32595,9 +32595,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -32994,6 +32994,15 @@
                 "id": "52563894_4",
                 "type": "YELLOW_CARD",
                 "minute": 22,
+                "extraTime": null,
+                "playerName": "Fer Niño",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "52564179_5",
+                "type": "GOAL",
+                "minute": 26,
                 "extraTime": null,
                 "playerName": "Fer Niño",
                 "teamName": "Elche",
@@ -37558,6 +37567,12 @@
       "penalties": 3
     },
     {
+      "player": "Fer Niño",
+      "team": "Elche",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Fermín López",
       "team": "FC Barcelona",
       "goals": 4,
@@ -37573,12 +37588,6 @@
       "player": "Álex Baena",
       "team": "Atlético",
       "goals": 4,
-      "penalties": null
-    },
-    {
-      "player": "Fer Niño",
-      "team": "Elche",
-      "goals": 3,
       "penalties": null
     },
     {
