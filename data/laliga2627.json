@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T19:53:46Z",
+  "lastUpdated": "2026-09-18T19:54:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32597,7 +32597,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+5'",
+          "clock": "45'+6'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -33018,13 +33018,22 @@
                 "text": null
               },
               {
-                "id": "52565327_10",
+                "id": "52565327_11",
                 "type": "SUBSTITUTION",
                 "minute": 37,
                 "extraTime": null,
                 "playerName": "Rubén Sánchez",
                 "teamName": "Elche",
                 "text": "Buba Sangaré because of an injury"
+              },
+              {
+                "id": "52566389_16",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 4,
+                "playerName": "Edu Expósito",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
