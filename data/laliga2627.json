@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T19:26:35Z",
+  "lastUpdated": "2026-09-18T19:27:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32597,7 +32597,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "22'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -32987,6 +32987,15 @@
                 "minute": 6,
                 "extraTime": null,
                 "playerName": "Federico Redondo",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "52563894_4",
+                "type": "YELLOW_CARD",
+                "minute": 22,
+                "extraTime": null,
+                "playerName": "Fer Niño",
                 "teamName": "Elche",
                 "text": null
               }
