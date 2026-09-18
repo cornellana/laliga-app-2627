@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T20:27:43Z",
+  "lastUpdated": "2026-09-18T20:28:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32597,7 +32597,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -33052,6 +33052,33 @@
                 "playerName": "Marcos Fernández",
                 "teamName": "Espanyol",
                 "text": "Urko González de Zárate"
+              },
+              {
+                "id": "52568853_21",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Pedro Bigas",
+                "teamName": "Elche",
+                "text": "Gonzalo Villar"
+              },
+              {
+                "id": "52568854_22",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Abiel Osorio",
+                "teamName": "Elche",
+                "text": "Fer Niño"
+              },
+              {
+                "id": "52568855_23",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Pere Milla",
+                "teamName": "Espanyol",
+                "text": "Cala"
               }
             ]
           }
