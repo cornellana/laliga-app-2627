@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T20:49:18Z",
+  "lastUpdated": "2026-09-18T20:50:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32597,7 +32597,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -33132,6 +33132,15 @@
                 "extraTime": null,
                 "playerName": "Germán Valera",
                 "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "52570166_30",
+                "type": "YELLOW_CARD",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Clemens Riedel",
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
