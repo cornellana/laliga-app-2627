@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T20:11:36Z",
+  "lastUpdated": "2026-09-18T20:12:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -32597,8 +32597,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+8'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
@@ -33037,6 +33037,15 @@
               },
               {
                 "id": "52567409_18",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Quilindschy Hartman",
+                "teamName": "Espanyol",
+                "text": "Roger Hinojo"
+              },
+              {
+                "id": "52567477_19",
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
