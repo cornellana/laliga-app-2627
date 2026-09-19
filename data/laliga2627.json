@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T18:19:24Z",
+  "lastUpdated": "2026-09-19T18:20:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,8 +34227,8 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "87'",
-          "statusText": "Second Half",
+          "clock": "88'",
+          "statusText": "In Progress",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -34765,22 +34765,22 @@
                 "text": null
               },
               {
-                "id": "52634854_22",
+                "id": "52634853_22",
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": null,
-                "teamName": "Racing",
-                "text": null
+                "playerName": "Hugo Burcio",
+                "teamName": "Celta",
+                "text": "Miguel Román"
               },
               {
-                "id": "52634853_23",
+                "id": "52634854_23",
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": null,
-                "teamName": "Celta",
-                "text": null
+                "playerName": "Íñigo Sainz-Maza",
+                "teamName": "Racing",
+                "text": "Iván Martín"
               }
             ]
           }
