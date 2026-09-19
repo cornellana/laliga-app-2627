@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:48:38Z",
+  "lastUpdated": "2026-09-19T15:49:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -34165,8 +34165,26 @@
                 "type": "SUBSTITUTION",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Peio Canales",
                 "teamName": "Athletic",
+                "text": "Robert Navarro"
+              },
+              {
+                "id": "52620225_19",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "52620226_20",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
                 "text": null
               }
             ]
