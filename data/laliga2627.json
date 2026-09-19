@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T16:08:01Z",
+  "lastUpdated": "2026-09-19T16:09:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33710,11 +33710,11 @@
           "away": "Alavés",
           "jornada": 7,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-0",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
