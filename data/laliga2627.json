@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T14:25:02Z",
+  "lastUpdated": "2026-09-19T14:26:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "9'",
+          "clock": "10'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -33943,9 +33943,9 @@
                   "events": null
                 },
                 {
-                  "id": "262491",
-                  "jersey": 14,
-                  "name": "Nahuel Tenaglia",
+                  "id": "176312",
+                  "jersey": 17,
+                  "name": "Jonny",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
@@ -33975,9 +33975,9 @@
                   "events": null
                 },
                 {
-                  "id": "176312",
-                  "jersey": 17,
-                  "name": "Jonny",
+                  "id": "262491",
+                  "jersey": 14,
+                  "name": "Nahuel Tenaglia",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
