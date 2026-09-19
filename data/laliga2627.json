@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T18:18:20Z",
+  "lastUpdated": "2026-09-19T18:19:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,7 +34227,7 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "85'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34761,6 +34761,24 @@
                 "minute": 78,
                 "extraTime": null,
                 "playerName": "Pablo Durán",
+                "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "52634854_22",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52634853_23",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Celta",
                 "text": null
               }
