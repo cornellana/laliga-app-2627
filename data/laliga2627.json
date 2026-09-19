@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:45:24Z",
+  "lastUpdated": "2026-09-19T15:46:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -34148,6 +34148,15 @@
                 "minute": 70,
                 "extraTime": null,
                 "playerName": "Oihan Sancet",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "52619301_17",
+                "type": "YELLOW_CARD",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Iñigo Ruiz de Galarreta",
                 "teamName": "Athletic",
                 "text": null
               }
