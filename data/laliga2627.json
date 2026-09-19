@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:34:39Z",
+  "lastUpdated": "2026-09-19T15:35:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -34105,6 +34105,15 @@
                 "playerName": "Jesús Areso",
                 "teamName": "Athletic",
                 "text": "Johaneko Louis-Jean"
+              },
+              {
+                "id": "52617268_8",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
