@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T18:11:50Z",
+  "lastUpdated": "2026-09-19T18:12:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,7 +34227,7 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34760,7 +34760,7 @@
                 "type": "GOAL",
                 "minute": 78,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo Durán",
                 "teamName": "Celta",
                 "text": null
               }
@@ -39733,6 +39733,12 @@
     {
       "player": "Oso",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Pablo Durán",
+      "team": "Celta",
       "goals": 1,
       "penalties": null
     },
