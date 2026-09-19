@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T20:14:11Z",
+  "lastUpdated": "2026-09-19T20:16:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34820,9 +34820,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "52'",
+          "clock": "53'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -35219,6 +35219,15 @@
                 "id": "52642538_2",
                 "type": "GOAL",
                 "minute": 22,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52649813_9",
+                "type": "GOAL",
+                "minute": 52,
                 "extraTime": null,
                 "playerName": "Raphinha",
                 "teamName": "FC Barcelona",
@@ -39667,7 +39676,7 @@
     {
       "player": "Raphinha",
       "team": "FC Barcelona",
-      "goals": 10,
+      "goals": 11,
       "penalties": 3
     },
     {
