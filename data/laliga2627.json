@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T14:28:17Z",
+  "lastUpdated": "2026-09-19T14:29:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "12'",
+          "clock": "13'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -33927,17 +33927,17 @@
                   "events": null
                 },
                 {
-                  "id": "253754",
-                  "jersey": 23,
-                  "name": "Carlos Protesoni",
+                  "id": "318084",
+                  "jersey": 2,
+                  "name": "Nicolás Valentini",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "318084",
-                  "jersey": 2,
-                  "name": "Nicolás Valentini",
+                  "id": "176312",
+                  "jersey": 17,
+                  "name": "Jonny",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -33951,9 +33951,9 @@
                   "events": null
                 },
                 {
-                  "id": "176312",
-                  "jersey": 17,
-                  "name": "Jonny",
+                  "id": "262491",
+                  "jersey": 14,
+                  "name": "Nahuel Tenaglia",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
@@ -33975,9 +33975,9 @@
                   "events": null
                 },
                 {
-                  "id": "262491",
-                  "jersey": 14,
-                  "name": "Nahuel Tenaglia",
+                  "id": "253754",
+                  "jersey": 23,
+                  "name": "Carlos Protesoni",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
