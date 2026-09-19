@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T13:29:39Z",
+  "lastUpdated": "2026-09-19T13:30:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33171,7 +33171,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -33627,6 +33627,15 @@
                 "playerName": "Lucas Torró",
                 "teamName": "Osasuna",
                 "text": "Jon Moncayola"
+              },
+              {
+                "id": "52594818_22",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Jonathan Dubasin",
+                "teamName": "Osasuna",
+                "text": "Rubén García"
               }
             ]
           }
