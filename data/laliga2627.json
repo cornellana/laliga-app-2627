@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T17:50:19Z",
+  "lastUpdated": "2026-09-19T17:51:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,7 +34227,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34655,6 +34655,15 @@
                 "playerName": "Sergio Carreira",
                 "teamName": "Celta",
                 "text": "Javi Rueda"
+              },
+              {
+                "id": "52631382_10",
+                "type": "YELLOW_CARD",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
