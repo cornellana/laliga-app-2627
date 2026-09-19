@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:40:01Z",
+  "lastUpdated": "2026-09-19T15:41:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -34129,18 +34129,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 65,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Toni Martínez",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Mariano Díaz"
               },
               {
                 "id": "52618155_15",
                 "type": "SUBSTITUTION",
                 "minute": 66,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Youssef Enriquez",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Abde Rebbach because of an injury"
               }
             ]
           }
