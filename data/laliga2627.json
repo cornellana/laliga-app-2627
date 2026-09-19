@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T13:55:32Z",
+  "lastUpdated": "2026-09-19T13:56:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33168,11 +33168,11 @@
           "away": "Rayo",
           "jornada": 7,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-1",
-          "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": {
@@ -33690,6 +33690,15 @@
                 "playerName": "Iván Balliu",
                 "teamName": "Rayo",
                 "text": "Álvaro García"
+              },
+              {
+                "id": "52597474_35",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "Alemão",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
