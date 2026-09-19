@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:49:42Z",
+  "lastUpdated": "2026-09-19T15:50:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -34174,18 +34174,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ángel Pérez",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Lucas Boyé"
               },
               {
                 "id": "52620226_20",
                 "type": "SUBSTITUTION",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Antonio Blanco",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Carlos Protesoni"
               }
             ]
           }
