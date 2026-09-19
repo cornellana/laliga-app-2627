@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T13:10:07Z",
+  "lastUpdated": "2026-09-19T13:11:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33169,9 +33169,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "51'",
+          "clock": "52'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -33571,6 +33571,15 @@
                 "minute": 24,
                 "extraTime": null,
                 "playerName": "Pathé Ciss",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "52592558_10",
+                "type": "GOAL",
+                "minute": 50,
+                "extraTime": null,
+                "playerName": "Sergio Camello",
                 "teamName": "Rayo",
                 "text": null
               }
@@ -38081,14 +38090,14 @@
       "penalties": 1
     },
     {
-      "player": "Roberto Fernández",
-      "team": "Espanyol",
-      "goals": 6,
+      "player": "Sergio Camello",
+      "team": "Rayo",
+      "goals": 7,
       "penalties": null
     },
     {
-      "player": "Sergio Camello",
-      "team": "Rayo",
+      "player": "Roberto Fernández",
+      "team": "Espanyol",
       "goals": 6,
       "penalties": null
     },
