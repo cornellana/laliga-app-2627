@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:38:57Z",
+  "lastUpdated": "2026-09-19T15:40:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -34123,6 +34123,24 @@
                 "playerName": "Maroan Sannadi",
                 "teamName": "Athletic",
                 "text": "Iñaki Williams"
+              },
+              {
+                "id": "52618154_12",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "52618155_15",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
