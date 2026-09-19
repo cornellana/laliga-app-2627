@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T12:05:52Z",
+  "lastUpdated": "2026-09-19T12:06:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33171,19 +33171,27 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": {
             "homeLineup": {
-              "formation": "4-5-1",
+              "formation": "5-4-1",
               "players": [
                 {
                   "id": "144759",
                   "jersey": 13,
                   "name": "Aitor Fernández",
                   "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "264175",
+                  "jersey": 24,
+                  "name": "Alejandro Catena",
+                  "position": "CD",
                   "isStarter": true,
                   "events": null
                 },
@@ -33196,9 +33204,9 @@
                   "events": null
                 },
                 {
-                  "id": "264175",
-                  "jersey": 24,
-                  "name": "Alejandro Catena",
+                  "id": "381628",
+                  "jersey": 29,
+                  "name": "Asier Osambela",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -33220,9 +33228,9 @@
                   "events": null
                 },
                 {
-                  "id": "381628",
-                  "jersey": 29,
-                  "name": "Asier Osambela",
+                  "id": "359154",
+                  "jersey": 8,
+                  "name": "Iker Muñoz",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -33232,14 +33240,6 @@
                   "jersey": 7,
                   "name": "Jon Moncayola",
                   "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "359154",
-                  "jersey": 8,
-                  "name": "Iker Muñoz",
-                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -33417,17 +33417,17 @@
                   "events": null
                 },
                 {
-                  "id": "203711",
-                  "jersey": 8,
-                  "name": "Unai López",
+                  "id": "264217",
+                  "jersey": 23,
+                  "name": "Óscar Valentín",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "264217",
-                  "jersey": 23,
-                  "name": "Óscar Valentín",
+                  "id": "203711",
+                  "jersey": 8,
+                  "name": "Unai López",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
