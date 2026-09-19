@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T20:58:17Z",
+  "lastUpdated": "2026-09-19T20:59:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34819,11 +34819,11 @@
           "away": "FC Barcelona",
           "jornada": 7,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-3",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
