@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T17:22:48Z",
+  "lastUpdated": "2026-09-19T17:39:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,8 +34227,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "47'",
+          "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -34637,6 +34637,24 @@
                 "playerName": "Javi Rueda",
                 "teamName": "Celta",
                 "text": null
+              },
+              {
+                "id": "52629795_7",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Pablo Durán",
+                "teamName": "Celta",
+                "text": "Hugo González"
+              },
+              {
+                "id": "52629801_8",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Sergio Carreira",
+                "teamName": "Celta",
+                "text": "Javi Rueda"
               }
             ]
           }
