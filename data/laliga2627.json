@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T13:48:01Z",
+  "lastUpdated": "2026-09-19T13:49:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33171,7 +33171,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -33681,6 +33681,15 @@
                 "playerName": "Gnangoro",
                 "teamName": "Rayo",
                 "text": "Unai López"
+              },
+              {
+                "id": "52596928_30",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Iván Balliu",
+                "teamName": "Rayo",
+                "text": "Álvaro García"
               }
             ]
           }
