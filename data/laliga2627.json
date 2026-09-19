@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T20:41:05Z",
+  "lastUpdated": "2026-09-19T20:42:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34822,7 +34822,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -35286,6 +35286,15 @@
                 "playerName": "Dani Olmo",
                 "teamName": "FC Barcelona",
                 "text": "Fermín López"
+              },
+              {
+                "id": "52654258_24",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Karim Adeyemi",
+                "teamName": "FC Barcelona",
+                "text": "Raphinha"
               }
             ]
           }
