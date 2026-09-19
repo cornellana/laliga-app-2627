@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T20:50:46Z",
+  "lastUpdated": "2026-09-19T20:51:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34822,7 +34822,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -35337,9 +35337,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gabriel Jesus",
                 "teamName": "FC Barcelona",
-                "text": null
+                "text": "Anthony Gordon"
               }
             ]
           }
