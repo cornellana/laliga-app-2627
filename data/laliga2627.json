@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T12:26:23Z",
+  "lastUpdated": "2026-09-19T12:27:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33171,7 +33171,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -33563,6 +33563,15 @@
                 "extraTime": null,
                 "playerName": "Asier Osambela",
                 "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "52589162_3",
+                "type": "YELLOW_CARD",
+                "minute": 24,
+                "extraTime": null,
+                "playerName": "Pathé Ciss",
+                "teamName": "Rayo",
                 "text": null
               }
             ]
