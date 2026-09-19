@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T17:20:39Z",
+  "lastUpdated": "2026-09-19T17:21:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,7 +34227,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+3'",
+          "clock": "45'+4'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34626,6 +34626,15 @@
                 "minute": 43,
                 "extraTime": null,
                 "playerName": "Ilaix Moriba",
+                "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "52628670_5",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 3,
+                "playerName": "Javi Rueda",
                 "teamName": "Celta",
                 "text": null
               }
