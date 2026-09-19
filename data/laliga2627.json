@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T14:17:29Z",
+  "lastUpdated": "2026-09-19T14:18:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -33935,9 +33935,9 @@
                   "events": null
                 },
                 {
-                  "id": "176312",
-                  "jersey": 17,
-                  "name": "Jonny",
+                  "id": "345991",
+                  "jersey": 21,
+                  "name": "Abde Rebbach",
                   "position": "LB",
                   "isStarter": true,
                   "events": null
@@ -33967,17 +33967,17 @@
                   "events": null
                 },
                 {
-                  "id": "345991",
-                  "jersey": 21,
-                  "name": "Abde Rebbach",
+                  "id": "106326",
+                  "jersey": 19,
+                  "name": "Pablo Ibáñez",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "106326",
-                  "jersey": 19,
-                  "name": "Pablo Ibáñez",
+                  "id": "176312",
+                  "jersey": 17,
+                  "name": "Jonny",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
