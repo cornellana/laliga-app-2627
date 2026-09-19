@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T18:23:43Z",
+  "lastUpdated": "2026-09-19T18:24:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,7 +34227,7 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34781,6 +34781,15 @@
                 "playerName": "Íñigo Sainz-Maza",
                 "teamName": "Racing",
                 "text": "Iván Martín"
+              },
+              {
+                "id": "52635365_26",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Sergio Canales",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
