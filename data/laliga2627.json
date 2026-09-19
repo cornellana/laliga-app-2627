@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T20:42:09Z",
+  "lastUpdated": "2026-09-19T20:43:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34822,7 +34822,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -35295,6 +35295,24 @@
                 "playerName": "Karim Adeyemi",
                 "teamName": "FC Barcelona",
                 "text": "Raphinha"
+              },
+              {
+                "id": "52654431_25",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Jon Guridi",
+                "teamName": "Sevilla",
+                "text": "Miguel Sierra"
+              },
+              {
+                "id": "52654432_26",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Alfon González",
+                "teamName": "Sevilla",
+                "text": "Youssouf Fofana"
               }
             ]
           }
