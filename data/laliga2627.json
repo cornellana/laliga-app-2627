@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:47:33Z",
+  "lastUpdated": "2026-09-19T15:48:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "74'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -34157,6 +34157,15 @@
                 "minute": 71,
                 "extraTime": null,
                 "playerName": "Íñigo Ruiz de Galarreta",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "52620030_18",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Athletic",
                 "text": null
               }
