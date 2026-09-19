@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T13:15:34Z",
+  "lastUpdated": "2026-09-19T13:16:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33582,6 +33582,24 @@
                 "playerName": "Sergio Camello",
                 "teamName": "Rayo",
                 "text": null
+              },
+              {
+                "id": "52593305_11",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Raúl Moro",
+                "teamName": "Osasuna",
+                "text": "Kike Barja"
+              },
+              {
+                "id": "52593307_12",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Abel Bretones",
+                "teamName": "Osasuna",
+                "text": "Diego Rico"
               }
             ]
           }
