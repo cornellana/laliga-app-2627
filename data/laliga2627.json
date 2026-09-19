@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T13:31:50Z",
+  "lastUpdated": "2026-09-19T13:32:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33171,7 +33171,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -33654,6 +33654,15 @@
                 "playerName": "Alemão",
                 "teamName": "Rayo",
                 "text": "Sergio Camello"
+              },
+              {
+                "id": "52595017_25",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Raúl García",
+                "teamName": "Osasuna",
+                "text": "Unai Santos"
               }
             ]
           }
