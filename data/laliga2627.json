@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T18:10:45Z",
+  "lastUpdated": "2026-09-19T18:11:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34225,9 +34225,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "3-0",
+          "result": "4-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34742,7 +34742,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": "Pablo Ramon",
+                "playerName": "Pablo Ramón",
                 "teamName": "Racing",
                 "text": null
               },
@@ -34751,8 +34751,17 @@
                 "type": "SUBSTITUTION",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Giorgi Guliashvili",
                 "teamName": "Racing",
+                "text": "Yassir Zabiri"
+              },
+              {
+                "id": "52633846_21",
+                "type": "GOAL",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Celta",
                 "text": null
               }
             ]
