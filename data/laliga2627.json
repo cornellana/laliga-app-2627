@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:58:19Z",
+  "lastUpdated": "2026-09-19T15:59:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "84'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -34186,6 +34186,15 @@
                 "playerName": "Antonio Blanco",
                 "teamName": "Alavés",
                 "text": "Carlos Protesoni"
+              },
+              {
+                "id": "52621391_21",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Carles Aleñá",
+                "teamName": "Alavés",
+                "text": "Pablo Ibáñez"
               }
             ]
           }
