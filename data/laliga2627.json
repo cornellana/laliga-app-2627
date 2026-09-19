@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T17:56:45Z",
+  "lastUpdated": "2026-09-19T17:57:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,7 +34227,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34673,6 +34673,42 @@
                 "playerName": "Sergio Canales",
                 "teamName": "Racing",
                 "text": "André Almeida"
+              },
+              {
+                "id": "52632133_12",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Aarón Martín",
+                "teamName": "Racing",
+                "text": "Álvaro Mantilla"
+              },
+              {
+                "id": "52632134_13",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Asier Villalibre",
+                "teamName": "Racing",
+                "text": "Pablo García"
+              },
+              {
+                "id": "52632135_14",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Borja Iglesias",
+                "teamName": "Celta",
+                "text": "Ferran Jutglà"
+              },
+              {
+                "id": "52632137_15",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Javi Galán",
+                "teamName": "Celta",
+                "text": "Williot Swedberg"
               }
             ]
           }
