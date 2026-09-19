@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:35:43Z",
+  "lastUpdated": "2026-09-19T15:36:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -34108,6 +34108,15 @@
               },
               {
                 "id": "52617268_8",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Alex Berenguer",
+                "teamName": "Athletic",
+                "text": "Mikel Jauregizar"
+              },
+              {
+                "id": "52617436_9",
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
