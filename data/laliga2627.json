@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T16:45:07Z",
+  "lastUpdated": "2026-09-19T16:46:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,7 +34227,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "13'",
+          "clock": "14'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34422,7 +34422,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "323970",
@@ -34449,6 +34449,14 @@
                   "events": null
                 },
                 {
+                  "id": "286604",
+                  "jersey": 8,
+                  "name": "André Almeida",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "178237",
                   "jersey": 17,
                   "name": "Jorge Salinas",
@@ -34468,7 +34476,7 @@
                   "id": "284699",
                   "jersey": 10,
                   "name": "Iñigo Vicente",
-                  "position": "AM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -34476,14 +34484,22 @@
                   "id": "330545",
                   "jersey": 23,
                   "name": "Iván Martín",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "417258",
+                  "jersey": 19,
+                  "name": "Iker Luque",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "286604",
-                  "jersey": 8,
-                  "name": "André Almeida",
+                  "id": "399278",
+                  "jersey": 15,
+                  "name": "Pablo García",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -34493,22 +34509,6 @@
                   "jersey": 21,
                   "name": "Yassir Zabiri",
                   "position": "F",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "417258",
-                  "jersey": 19,
-                  "name": "Iker Luque",
-                  "position": "AM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "399278",
-                  "jersey": 15,
-                  "name": "Pablo García",
-                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
