@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T13:18:51Z",
+  "lastUpdated": "2026-09-19T13:19:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33171,7 +33171,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -33600,6 +33600,15 @@
                 "playerName": "Abel Bretones",
                 "teamName": "Osasuna",
                 "text": "Diego Rico"
+              },
+              {
+                "id": "52593642_17",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Pedro Díaz",
+                "teamName": "Rayo",
+                "text": "Óscar Valentín"
               }
             ]
           }
