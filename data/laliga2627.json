@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T20:22:46Z",
+  "lastUpdated": "2026-09-19T20:23:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34822,7 +34822,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -35238,9 +35238,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 59,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Chidera Ejuke",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Félix Correia"
+              },
+              {
+                "id": "52651214_15",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Gerard Martín",
+                "teamName": "FC Barcelona",
+                "text": "Andreas Christensen because of an injury"
               }
             ]
           }
