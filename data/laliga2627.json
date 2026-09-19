@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T20:32:28Z",
+  "lastUpdated": "2026-09-19T20:33:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34822,8 +34822,8 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "70'",
-          "statusText": "In Progress",
+          "clock": "71'",
+          "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
@@ -35265,8 +35265,17 @@
                 "type": "SUBSTITUTION",
                 "minute": 68,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Isaac Romero",
                 "teamName": "Sevilla",
+                "text": "Giorgi Kochorashvili"
+              },
+              {
+                "id": "52652823_18",
+                "type": "GOAL",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
@@ -39712,7 +39721,7 @@
     {
       "player": "Raphinha",
       "team": "FC Barcelona",
-      "goals": 11,
+      "goals": 12,
       "penalties": 3
     },
     {
