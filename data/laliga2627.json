@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T12:22:04Z",
+  "lastUpdated": "2026-09-19T12:23:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33171,7 +33171,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "21'",
+          "clock": "22'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -33553,6 +33553,15 @@
                 "minute": 16,
                 "extraTime": null,
                 "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "52588990_2",
+                "type": "YELLOW_CARD",
+                "minute": 21,
+                "extraTime": null,
+                "playerName": "Asier Osambela",
                 "teamName": "Osasuna",
                 "text": null
               }
