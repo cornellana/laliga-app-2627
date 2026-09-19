@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T13:30:44Z",
+  "lastUpdated": "2026-09-19T13:31:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33171,7 +33171,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "71'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -33636,6 +33636,24 @@
                 "playerName": "Jonathan Dubasin",
                 "teamName": "Osasuna",
                 "text": "Rubén García"
+              },
+              {
+                "id": "52594888_23",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Giorgi Tsitaishvili",
+                "teamName": "Rayo",
+                "text": "Jorge de Frutos"
+              },
+              {
+                "id": "52594889_24",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Alemão",
+                "teamName": "Rayo",
+                "text": "Sergio Camello"
               }
             ]
           }
