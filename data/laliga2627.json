@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T18:06:26Z",
+  "lastUpdated": "2026-09-19T18:07:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,7 +34227,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34725,6 +34725,15 @@
                 "minute": 69,
                 "extraTime": null,
                 "playerName": "Miguel Román",
+                "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "52633217_18",
+                "type": "YELLOW_CARD",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Yoel Lago",
                 "teamName": "Celta",
                 "text": null
               }
