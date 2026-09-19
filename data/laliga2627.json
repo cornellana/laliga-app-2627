@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T17:58:54Z",
+  "lastUpdated": "2026-09-19T17:59:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,7 +34227,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34709,6 +34709,15 @@
                 "playerName": "Javi Galán",
                 "teamName": "Celta",
                 "text": "Williot Swedberg"
+              },
+              {
+                "id": "52632361_16",
+                "type": "YELLOW_CARD",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Jeanuël Belocian",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
