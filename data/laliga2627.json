@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T20:43:14Z",
+  "lastUpdated": "2026-09-19T20:44:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34822,7 +34822,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -35313,6 +35313,15 @@
                 "playerName": "Alfon González",
                 "teamName": "Sevilla",
                 "text": "Youssouf Fofana"
+              },
+              {
+                "id": "52654537_27",
+                "type": "YELLOW_CARD",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Lucien Agoumé",
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
