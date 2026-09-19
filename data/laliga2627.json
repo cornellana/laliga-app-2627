@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T13:32:55Z",
+  "lastUpdated": "2026-09-19T13:33:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33171,7 +33171,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -33611,7 +33611,7 @@
                 "text": "Óscar Valentín"
               },
               {
-                "id": "52594492_20",
+                "id": "52594492_22",
                 "type": "YELLOW_CARD",
                 "minute": 67,
                 "extraTime": null,
@@ -33620,7 +33620,7 @@
                 "text": null
               },
               {
-                "id": "52594616_21",
+                "id": "52594616_23",
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
@@ -33629,7 +33629,7 @@
                 "text": "Jon Moncayola"
               },
               {
-                "id": "52594818_22",
+                "id": "52594818_24",
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
@@ -33638,7 +33638,7 @@
                 "text": "Rubén García"
               },
               {
-                "id": "52594888_23",
+                "id": "52594888_25",
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
@@ -33647,7 +33647,7 @@
                 "text": "Jorge de Frutos"
               },
               {
-                "id": "52594889_24",
+                "id": "52594889_26",
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
@@ -33656,7 +33656,7 @@
                 "text": "Sergio Camello"
               },
               {
-                "id": "52595017_25",
+                "id": "52595017_27",
                 "type": "SUBSTITUTION",
                 "minute": 73,
                 "extraTime": null,
