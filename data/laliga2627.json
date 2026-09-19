@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:43:15Z",
+  "lastUpdated": "2026-09-19T15:44:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -34141,6 +34141,15 @@
                 "playerName": "Youssef Enriquez",
                 "teamName": "Alavés",
                 "text": "Abde Rebbach because of an injury"
+              },
+              {
+                "id": "52618801_16",
+                "type": "MISSED_PENALTY",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Oihan Sancet",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
