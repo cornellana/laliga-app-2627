@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T19:25:02Z",
+  "lastUpdated": "2026-09-19T19:26:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34822,8 +34822,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "23'",
-          "statusText": "In Progress",
+          "clock": "24'",
+          "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
@@ -35213,6 +35213,15 @@
                 "extraTime": null,
                 "playerName": "Youssouf Fofana",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "52642538_2",
+                "type": "GOAL",
+                "minute": 22,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
@@ -39658,7 +39667,7 @@
     {
       "player": "Raphinha",
       "team": "FC Barcelona",
-      "goals": 9,
+      "goals": 10,
       "penalties": 3
     },
     {
