@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T13:38:19Z",
+  "lastUpdated": "2026-09-19T13:39:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33171,7 +33171,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -33663,6 +33663,15 @@
                 "playerName": "Raúl García",
                 "teamName": "Osasuna",
                 "text": "Unai Santos"
+              },
+              {
+                "id": "52595778_28",
+                "type": "YELLOW_CARD",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Sergio Herrera",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
