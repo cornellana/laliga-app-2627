@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T18:09:40Z",
+  "lastUpdated": "2026-09-19T18:10:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34735,6 +34735,24 @@
                 "extraTime": null,
                 "playerName": "Yoel Lago",
                 "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "52633622_19",
+                "type": "YELLOW_CARD",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Pablo Ramon",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52633674_20",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
                 "text": null
               }
             ]
