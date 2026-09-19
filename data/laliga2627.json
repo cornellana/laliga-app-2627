@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T12:16:41Z",
+  "lastUpdated": "2026-09-19T12:17:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33169,9 +33169,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "16'",
+          "clock": "17'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -33546,7 +33546,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52588654_1",
+                "type": "GOAL",
+                "minute": 16,
+                "extraTime": null,
+                "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -38071,6 +38081,12 @@
       "penalties": null
     },
     {
+      "player": "Ante Budimir",
+      "team": "Osasuna",
+      "goals": 5,
+      "penalties": 3
+    },
+    {
       "player": "Fer Niño",
       "team": "Elche",
       "goals": 5,
@@ -38081,12 +38097,6 @@
       "team": "Deportivo",
       "goals": 5,
       "penalties": null
-    },
-    {
-      "player": "Ante Budimir",
-      "team": "Osasuna",
-      "goals": 4,
-      "penalties": 3
     },
     {
       "player": "Fermín López",
