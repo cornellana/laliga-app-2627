@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T14:18:34Z",
+  "lastUpdated": "2026-09-19T14:19:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -33951,17 +33951,17 @@
                   "events": null
                 },
                 {
-                  "id": "253754",
-                  "jersey": 23,
-                  "name": "Carlos Protesoni",
+                  "id": "260256",
+                  "jersey": 6,
+                  "name": "Ander Guevara",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "260256",
-                  "jersey": 6,
-                  "name": "Ander Guevara",
+                  "id": "253754",
+                  "jersey": 23,
+                  "name": "Carlos Protesoni",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -33983,17 +33983,17 @@
                   "events": null
                 },
                 {
-                  "id": "207236",
-                  "jersey": 15,
-                  "name": "Lucas Boyé",
+                  "id": "198832",
+                  "jersey": 9,
+                  "name": "Mariano Díaz",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "198832",
-                  "jersey": 9,
-                  "name": "Mariano Díaz",
+                  "id": "207236",
+                  "jersey": 15,
+                  "name": "Lucas Boyé",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
