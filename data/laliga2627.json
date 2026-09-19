@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T18:02:08Z",
+  "lastUpdated": "2026-09-19T18:03:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34225,9 +34225,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "3-0",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34717,6 +34717,15 @@
                 "extraTime": null,
                 "playerName": "Jeanuël Belocian",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52632698_17",
+                "type": "GOAL",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Miguel Román",
+                "teamName": "Celta",
                 "text": null
               }
             ]
@@ -39640,6 +39649,12 @@
     {
       "player": "Martín Satriano",
       "team": "Getafe",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Miguel Román",
+      "team": "Celta",
       "goals": 1,
       "penalties": null
     },
