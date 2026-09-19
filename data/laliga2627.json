@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T20:21:42Z",
+  "lastUpdated": "2026-09-19T20:22:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34822,7 +34822,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -35231,6 +35231,15 @@
                 "extraTime": null,
                 "playerName": "Raphinha",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "52651057_14",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
