@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T17:55:40Z",
+  "lastUpdated": "2026-09-19T17:56:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,7 +34227,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34664,6 +34664,15 @@
                 "playerName": "Yassir Zabiri",
                 "teamName": "Racing",
                 "text": null
+              },
+              {
+                "id": "52632038_11",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Sergio Canales",
+                "teamName": "Racing",
+                "text": "André Almeida"
               }
             ]
           }
