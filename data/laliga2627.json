@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T17:04:31Z",
+  "lastUpdated": "2026-09-19T17:05:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34225,9 +34225,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "32'",
+          "clock": "33'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34610,7 +34610,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52627016_3",
+                "type": "PENALTY",
+                "minute": 32,
+                "extraTime": null,
+                "playerName": "Hugo González",
+                "teamName": "Celta",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -39407,6 +39417,12 @@
       "team": "Elche",
       "goals": 1,
       "penalties": null
+    },
+    {
+      "player": "Hugo González",
+      "team": "Celta",
+      "goals": 1,
+      "penalties": 1
     },
     {
       "player": "Iago Aspas",
