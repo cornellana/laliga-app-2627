@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T18:25:53Z",
+  "lastUpdated": "2026-09-19T18:26:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34227,7 +34227,7 @@
           "done": false,
           "result": "5-0",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -34765,16 +34765,7 @@
                 "text": null
               },
               {
-                "id": "52634853_22",
-                "type": "SUBSTITUTION",
-                "minute": 84,
-                "extraTime": null,
-                "playerName": "Hugo Burcio",
-                "teamName": "Celta",
-                "text": "Miguel Román"
-              },
-              {
-                "id": "52634854_23",
+                "id": "52634854_22",
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
@@ -34783,11 +34774,38 @@
                 "text": "Iván Martín"
               },
               {
+                "id": "52634853_23",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Hugo Burcio",
+                "teamName": "Celta",
+                "text": "Miguel Román"
+              },
+              {
                 "id": "52635365_26",
                 "type": "YELLOW_CARD",
                 "minute": 90,
                 "extraTime": null,
                 "playerName": "Sergio Canales",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "52635537_27",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Pablo Durán",
+                "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "52635599_28",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Iñigo Vicente",
                 "teamName": "Racing",
                 "text": null
               }
@@ -39398,6 +39416,12 @@
       "penalties": null
     },
     {
+      "player": "Pablo Durán",
+      "team": "Celta",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Pablo García",
       "team": "Betis",
       "goals": 2,
@@ -39760,12 +39784,6 @@
     {
       "player": "Oso",
       "team": "Sevilla",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Pablo Durán",
-      "team": "Celta",
       "goals": 1,
       "penalties": null
     },
