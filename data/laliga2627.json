@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T14:27:12Z",
+  "lastUpdated": "2026-09-19T14:28:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -33713,7 +33713,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "11'",
+          "clock": "12'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -33908,7 +33908,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "5-3-2",
               "players": [
                 {
                   "id": "200910",
@@ -33919,17 +33919,25 @@
                   "events": null
                 },
                 {
-                  "id": "318084",
-                  "jersey": 2,
-                  "name": "Nicolás Valentini",
+                  "id": "149306",
+                  "jersey": 16,
+                  "name": "Ville Koski",
+                  "position": "CD",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "253754",
+                  "jersey": 23,
+                  "name": "Carlos Protesoni",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "149306",
-                  "jersey": 16,
-                  "name": "Ville Koski",
+                  "id": "318084",
+                  "jersey": 2,
+                  "name": "Nicolás Valentini",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -33954,15 +33962,7 @@
                   "id": "260256",
                   "jersey": 6,
                   "name": "Ander Guevara",
-                  "position": "CM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "253754",
-                  "jersey": 23,
-                  "name": "Carlos Protesoni",
-                  "position": "CM-R",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
@@ -33970,7 +33970,7 @@
                   "id": "106326",
                   "jersey": 19,
                   "name": "Pablo Ibáñez",
-                  "position": "LM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -33978,7 +33978,7 @@
                   "id": "262491",
                   "jersey": 14,
                   "name": "Nahuel Tenaglia",
-                  "position": "RM",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
