@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T20:30:19Z",
+  "lastUpdated": "2026-09-19T20:31:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -34822,7 +34822,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -35250,6 +35250,15 @@
                 "playerName": "Gerard Martín",
                 "teamName": "FC Barcelona",
                 "text": "Andreas Christensen because of an injury"
+              },
+              {
+                "id": "52652642_16",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
