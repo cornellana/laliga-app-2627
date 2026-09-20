@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:58:02Z",
+  "lastUpdated": "2026-09-20T17:59:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36860,9 +36860,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Facundo Bernal",
                 "teamName": "Betis",
-                "text": null
+                "text": "Antony"
               }
             ]
           }
@@ -36877,7 +36877,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37332,6 +37332,15 @@
                 "playerName": "Gerard Moreno",
                 "teamName": "Villarreal",
                 "text": "Ilias Akhomach"
+              },
+              {
+                "id": "52743340_11",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
