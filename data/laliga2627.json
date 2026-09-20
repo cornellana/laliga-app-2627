@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:47:28Z",
+  "lastUpdated": "2026-09-20T20:48:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37490,7 +37490,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -38006,6 +38006,24 @@
                 "minute": 84,
                 "extraTime": null,
                 "playerName": "Luken Beitia",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "52761296_20",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52761297_21",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Valencia",
                 "text": null
               }
