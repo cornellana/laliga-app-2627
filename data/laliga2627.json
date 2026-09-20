@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:51:56Z",
+  "lastUpdated": "2026-09-20T12:53:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,7 +35360,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+5'",
+          "clock": "45'+6'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -35743,6 +35743,15 @@
                 "minute": 39,
                 "extraTime": null,
                 "playerName": "Eneko Jauregi",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "52704968_9",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 5,
+                "playerName": "David Larrubia",
                 "teamName": "Málaga",
                 "text": null
               }
