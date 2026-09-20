@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T19:03:39Z",
+  "lastUpdated": "2026-09-20T19:04:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37490,7 +37490,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -37547,9 +37547,9 @@
                   "events": null
                 },
                 {
-                  "id": "248681",
-                  "jersey": 23,
-                  "name": "Filip Ugrinic",
+                  "id": "419048",
+                  "jersey": 33,
+                  "name": "Aaron Mayol",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -37563,9 +37563,9 @@
                   "events": null
                 },
                 {
-                  "id": "419048",
-                  "jersey": 33,
-                  "name": "Aaron Mayol",
+                  "id": "248681",
+                  "jersey": 23,
+                  "name": "Filip Ugrinic",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -37744,17 +37744,17 @@
                   "events": null
                 },
                 {
-                  "id": "406379",
-                  "jersey": 12,
-                  "name": "Job Ochieng",
+                  "id": "213141",
+                  "jersey": 11,
+                  "name": "Gonçalo Guedes",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "213141",
-                  "jersey": 11,
-                  "name": "Gonçalo Guedes",
+                  "id": "406379",
+                  "jersey": 12,
+                  "name": "Job Ochieng",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
