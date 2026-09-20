@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T16:08:49Z",
+  "lastUpdated": "2026-09-20T16:09:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35874,9 +35874,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "2-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -36385,6 +36385,33 @@
                 "playerName": "Bernardo Silva",
                 "teamName": "Real Madrid",
                 "text": "Jude Bellingham"
+              },
+              {
+                "id": "52733797_25",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Robin Le Normand",
+                "teamName": "Atlético",
+                "text": "Cristian Romero"
+              },
+              {
+                "id": "52733798_26",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Morten Hjulmand",
+                "teamName": "Atlético",
+                "text": "Lee Kang-In"
+              },
+              {
+                "id": "52733794_27",
+                "type": "GOAL",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Antonio Rüdiger",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -41045,6 +41072,12 @@
       "team": "Racing",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Antonio Rüdiger",
+      "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Arda Güler",
