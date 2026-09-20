@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:48:32Z",
+  "lastUpdated": "2026-09-20T20:49:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37490,7 +37490,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -38014,18 +38014,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 87,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Arsen Zakharyan",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Luka Sucic"
               },
               {
                 "id": "52761297_21",
                 "type": "SUBSTITUTION",
                 "minute": 88,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Luis Rioja",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Arnaut Danjuma"
               }
             ]
           }
