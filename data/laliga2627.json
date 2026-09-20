@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:21:35Z",
+  "lastUpdated": "2026-09-20T20:22:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37490,7 +37490,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -37926,6 +37926,24 @@
                 "extraTime": null,
                 "playerName": "Aaron Mayol",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "52757958_9",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52757959_10",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
