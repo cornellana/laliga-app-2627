@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:08:47Z",
+  "lastUpdated": "2026-09-20T12:09:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,7 +35360,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "7'",
+          "clock": "8'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -35550,17 +35550,17 @@
                   "events": null
                 },
                 {
-                  "id": "319783",
-                  "jersey": 15,
-                  "name": "Ángel Recio",
+                  "id": "262061",
+                  "jersey": 25,
+                  "name": "Juan Berrocal",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "262061",
-                  "jersey": 25,
-                  "name": "Juan Berrocal",
+                  "id": "319783",
+                  "jersey": 15,
+                  "name": "Ángel Recio",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
