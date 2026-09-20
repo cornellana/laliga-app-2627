@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:10:57Z",
+  "lastUpdated": "2026-09-20T18:12:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36896,18 +36896,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Yeremay Hernández",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "David Mella"
               },
               {
                 "id": "52744359_19",
                 "type": "SUBSTITUTION",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Adama Traoré",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Bil Nsongo"
               }
             ]
           }
@@ -36922,7 +36922,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
