@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:05:32Z",
+  "lastUpdated": "2026-09-20T12:06:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,8 +35360,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "4'",
-          "statusText": "First Half",
+          "clock": "5'",
+          "statusText": "In Progress",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -35553,7 +35553,7 @@
                   "id": "319783",
                   "jersey": 15,
                   "name": "Ángel Recio",
-                  "position": "D",
+                  "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
