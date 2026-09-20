@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T13:04:34Z",
+  "lastUpdated": "2026-09-20T13:11:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,8 +35360,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+7'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "In Progress",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -35754,6 +35754,15 @@
                 "playerName": "David Larrubia",
                 "teamName": "Málaga",
                 "text": null
+              },
+              {
+                "id": "52707263_11",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Adrián Niño",
+                "teamName": "Málaga",
+                "text": "Eneko Jauregi"
               }
             ]
           }
