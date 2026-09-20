@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T14:18:20Z",
+  "lastUpdated": "2026-09-20T14:19:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35876,7 +35876,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -35893,10 +35893,26 @@
                   "events": null
                 },
                 {
+                  "id": "257786",
+                  "jersey": 17,
+                  "name": "Dávid Hancko",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "96970",
                   "jersey": 21,
                   "name": "Cristian Romero",
-                  "position": "CD-L",
+                  "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "166396",
+                  "jersey": 22,
+                  "name": "Alejandro Grimaldo",
+                  "position": "LB",
                   "isStarter": true,
                   "events": null
                 },
@@ -35904,22 +35920,6 @@
                   "id": "332613",
                   "jersey": 18,
                   "name": "Marc Pubill",
-                  "position": "CD-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "257786",
-                  "jersey": 17,
-                  "name": "Dávid Hancko",
-                  "position": "LB",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "206474",
-                  "jersey": 14,
-                  "name": "Marcos Llorente",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
@@ -35933,17 +35933,17 @@
                   "events": null
                 },
                 {
-                  "id": "297373",
-                  "jersey": 10,
-                  "name": "Álex Baena",
+                  "id": "206474",
+                  "jersey": 14,
+                  "name": "Marcos Llorente",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "166396",
-                  "jersey": 22,
-                  "name": "Alejandro Grimaldo",
+                  "id": "297373",
+                  "jersey": 10,
+                  "name": "Álex Baena",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
