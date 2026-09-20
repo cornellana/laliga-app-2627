@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T16:35:13Z",
+  "lastUpdated": "2026-09-20T16:36:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "5'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36664,9 +36664,9 @@
                   "events": null
                 },
                 {
-                  "id": "322908",
-                  "jersey": 18,
-                  "name": "Nelson Deossa",
+                  "id": "227714",
+                  "jersey": 8,
+                  "name": "Pablo Fornals",
                   "position": "AM",
                   "isStarter": true,
                   "events": null
@@ -36680,9 +36680,9 @@
                   "events": null
                 },
                 {
-                  "id": "227714",
-                  "jersey": 8,
-                  "name": "Pablo Fornals",
+                  "id": "322908",
+                  "jersey": 18,
+                  "name": "Nelson Deossa",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -36832,7 +36832,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
