@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:09:49Z",
+  "lastUpdated": "2026-09-20T17:10:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "38'",
+          "clock": "39'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36850,7 +36850,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -36907,17 +36907,17 @@
                   "events": null
                 },
                 {
-                  "id": "311163",
-                  "jersey": 24,
-                  "name": "Nathan Saliba",
+                  "id": "255889",
+                  "jersey": 18,
+                  "name": "Pape Gueye",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "255889",
-                  "jersey": 18,
-                  "name": "Pape Gueye",
+                  "id": "311163",
+                  "jersey": 24,
+                  "name": "Nathan Saliba",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
