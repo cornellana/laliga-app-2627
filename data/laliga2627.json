@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:46:30Z",
+  "lastUpdated": "2026-09-20T12:47:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,7 +35360,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
