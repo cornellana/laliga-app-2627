@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:11:59Z",
+  "lastUpdated": "2026-09-20T17:13:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36850,7 +36850,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "42'",
+          "clock": "43'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37248,7 +37248,7 @@
                 "type": "GOAL",
                 "minute": 41,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ayoze Pérez",
                 "teamName": "Villarreal",
                 "text": null
               }
@@ -41889,6 +41889,12 @@
     {
       "player": "Arda Güler",
       "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Ayoze Pérez",
+      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
