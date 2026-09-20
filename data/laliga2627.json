@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T16:46:05Z",
+  "lastUpdated": "2026-09-20T16:47:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "14'",
+          "clock": "15'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36824,9 +36824,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 12,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Valentín Gómez",
                 "teamName": "Betis",
-                "text": null
+                "text": "Marc Bartra because of an injury"
               }
             ]
           }
@@ -36841,7 +36841,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "15'",
+          "clock": "17'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
