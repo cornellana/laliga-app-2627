@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:28:13Z",
+  "lastUpdated": "2026-09-20T18:29:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36423,11 +36423,11 @@
           "away": "Betis",
           "jornada": 7,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-1",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
