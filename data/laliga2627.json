@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:55:53Z",
+  "lastUpdated": "2026-09-20T17:56:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36845,6 +36845,15 @@
                 "playerName": "Cucho Hernández",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "52743218_13",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Isco",
+                "teamName": "Betis",
+                "text": "Nelson Deossa"
               }
             ]
           }
@@ -36859,7 +36868,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37305,6 +37314,15 @@
                 "playerName": "Ifeanyi Ndukwe",
                 "teamName": "Levante",
                 "text": "Aïssa Mandi"
+              },
+              {
+                "id": "52743241_10",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
