@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:35:36Z",
+  "lastUpdated": "2026-09-20T20:36:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37488,9 +37488,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -37972,6 +37972,15 @@
                 "playerName": "Harvey Elliott",
                 "teamName": "Valencia",
                 "text": "Guido Rodríguez"
+              },
+              {
+                "id": "52759703_14",
+                "type": "PENALTY",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Carlos Soler",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
@@ -42650,6 +42659,12 @@
       "team": "Málaga",
       "goals": 1,
       "penalties": null
+    },
+    {
+      "player": "Carlos Soler",
+      "team": "R. Sociedad",
+      "goals": 1,
+      "penalties": 1
     },
     {
       "player": "Chidera Ejuke",
