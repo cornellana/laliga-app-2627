@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:52:40Z",
+  "lastUpdated": "2026-09-20T17:53:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36859,7 +36859,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37278,6 +37278,15 @@
                 "playerName": "Alberto Moleiro",
                 "teamName": "Villarreal",
                 "text": null
+              },
+              {
+                "id": "52742985_7",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Yanis Musuayi",
+                "teamName": "Levante",
+                "text": "Iván Romero"
               }
             ]
           }
