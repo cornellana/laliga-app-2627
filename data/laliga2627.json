@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T19:49:50Z",
+  "lastUpdated": "2026-09-20T20:04:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37900,6 +37900,15 @@
                 "playerName": "Luka Sucic",
                 "teamName": "R. Sociedad",
                 "text": null
+              },
+              {
+                "id": "52755821_5",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "David Otorbi",
+                "teamName": "Valencia",
+                "text": "Filip Ugrinic"
               }
             ]
           }
