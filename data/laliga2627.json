@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:13:06Z",
+  "lastUpdated": "2026-09-20T18:14:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36908,6 +36908,15 @@
                 "playerName": "Adama Traoré",
                 "teamName": "Deportivo",
                 "text": "Bil Nsongo"
+              },
+              {
+                "id": "52744740_20",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
@@ -36922,7 +36931,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
