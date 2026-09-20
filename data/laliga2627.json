@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:05:40Z",
+  "lastUpdated": "2026-09-20T15:23:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36277,6 +36277,15 @@
                 "playerName": "Cristian Romero",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "52728560_6",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Koke",
+                "teamName": "Atlético",
+                "text": "Marc Pubill"
               }
             ]
           }
