@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:17:17Z",
+  "lastUpdated": "2026-09-20T20:18:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37488,9 +37488,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -37917,6 +37917,15 @@
                 "extraTime": null,
                 "playerName": "Luka Sucic",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52757383_8",
+                "type": "GOAL",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Aaron Mayol",
+                "teamName": "Valencia",
                 "text": null
               }
             ]
@@ -42481,6 +42490,12 @@
       "player": "Álvaro García",
       "team": "Rayo",
       "goals": 2,
+      "penalties": null
+    },
+    {
+      "player": "Aaron Mayol",
+      "team": "Valencia",
+      "goals": 1,
       "penalties": null
     },
     {
