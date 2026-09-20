@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:14:11Z",
+  "lastUpdated": "2026-09-20T18:15:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36910,13 +36910,22 @@
                 "text": "Bil Nsongo"
               },
               {
-                "id": "52744740_20",
+                "id": "52744854_20",
                 "type": "SUBSTITUTION",
                 "minute": 79,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Rodrigo Riquelme",
                 "teamName": "Betis",
-                "text": null
+                "text": "Marc Roca"
+              },
+              {
+                "id": "52744740_21",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Dani Ceballos",
+                "teamName": "Betis",
+                "text": "Pablo Fornals"
               }
             ]
           }
@@ -36931,7 +36940,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37431,6 +37440,15 @@
                 "playerName": "Santiago Mouriño",
                 "teamName": "Villarreal",
                 "text": "Pau Navarro"
+              },
+              {
+                "id": "52744753_16",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Petar Ratkov",
+                "teamName": "Levante",
+                "text": "Oriol Rey"
               }
             ]
           }
