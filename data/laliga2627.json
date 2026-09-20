@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:45:18Z",
+  "lastUpdated": "2026-09-20T20:46:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37488,9 +37488,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "1-2",
+          "result": "2-2",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -37999,6 +37999,15 @@
                 "playerName": "Aimar Blázquez",
                 "teamName": "Valencia",
                 "text": "Hugo Duro"
+              },
+              {
+                "id": "52761003_17",
+                "type": "OWN_GOAL",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Luken Beitia",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
