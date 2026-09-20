@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T16:36:18Z",
+  "lastUpdated": "2026-09-20T16:37:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36832,13 +36832,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "6'",
+          "clock": "7'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
             "homeLineup": {
-              "formation": "4-4-2",
+              "formation": "4-1-2-1-2",
               "players": [
                 {
                   "id": "119620",
@@ -36865,6 +36865,14 @@
                   "events": null
                 },
                 {
+                  "id": "311163",
+                  "jersey": 24,
+                  "name": "Nathan Saliba",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "289072",
                   "jersey": 23,
                   "name": "Sergi Cardona",
@@ -36881,26 +36889,10 @@
                   "events": null
                 },
                 {
-                  "id": "255889",
-                  "jersey": 18,
-                  "name": "Pape Gueye",
-                  "position": "CM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "311163",
-                  "jersey": 24,
-                  "name": "Nathan Saliba",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "307390",
                   "jersey": 10,
                   "name": "Alberto Moleiro",
-                  "position": "LM",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -36908,15 +36900,15 @@
                   "id": "284769",
                   "jersey": 17,
                   "name": "Tajon Buchanan",
-                  "position": "RM",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "331047",
-                  "jersey": 11,
-                  "name": "Ilias Akhomach",
-                  "position": "CF-L",
+                  "id": "255889",
+                  "jersey": 18,
+                  "name": "Pape Gueye",
+                  "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
@@ -36924,6 +36916,14 @@
                   "id": "192133",
                   "jersey": 22,
                   "name": "Ayoze Pérez",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "331047",
+                  "jersey": 11,
+                  "name": "Ilias Akhomach",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
