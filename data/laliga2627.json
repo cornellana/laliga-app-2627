@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:04:24Z",
+  "lastUpdated": "2026-09-20T17:05:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "33'",
+          "clock": "34'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36841,13 +36841,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "34'",
+          "clock": "35'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
             "homeLineup": {
-              "formation": "4-1-2-1-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "119620",
@@ -36870,14 +36870,6 @@
                   "jersey": 6,
                   "name": "Pau Navarro",
                   "position": "CD-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "311163",
-                  "jersey": 24,
-                  "name": "Nathan Saliba",
-                  "position": "DM",
                   "isStarter": true,
                   "events": null
                 },
@@ -36906,9 +36898,9 @@
                   "events": null
                 },
                 {
-                  "id": "284769",
-                  "jersey": 17,
-                  "name": "Tajon Buchanan",
+                  "id": "311163",
+                  "jersey": 24,
+                  "name": "Nathan Saliba",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -36925,7 +36917,15 @@
                   "id": "192133",
                   "jersey": 22,
                   "name": "Ayoze Pérez",
-                  "position": "CF-L",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "284769",
+                  "jersey": 17,
+                  "name": "Tajon Buchanan",
+                  "position": "AM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -36933,7 +36933,7 @@
                   "id": "331047",
                   "jersey": 11,
                   "name": "Ilias Akhomach",
-                  "position": "CF-R",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
