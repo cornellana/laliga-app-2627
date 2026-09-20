@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T16:56:51Z",
+  "lastUpdated": "2026-09-20T16:57:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,8 +36426,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "25'",
-          "statusText": "First Half",
+          "clock": "27'",
+          "statusText": "In Progress",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
@@ -36841,7 +36841,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
