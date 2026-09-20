@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T16:04:30Z",
+  "lastUpdated": "2026-09-20T16:05:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35876,7 +35876,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -36382,9 +36382,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 82,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Bernardo Silva",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Jude Bellingham"
               }
             ]
           }
