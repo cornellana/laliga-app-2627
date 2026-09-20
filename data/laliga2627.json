@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T16:34:09Z",
+  "lastUpdated": "2026-09-20T16:35:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36475,9 +36475,9 @@
                   "events": null
                 },
                 {
-                  "id": "384414",
-                  "jersey": 18,
-                  "name": "Jonathan Asp Jensen",
+                  "id": "297353",
+                  "jersey": 21,
+                  "name": "Mario Soriano Carreno",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -36515,9 +36515,9 @@
                   "events": null
                 },
                 {
-                  "id": "297353",
-                  "jersey": 21,
-                  "name": "Mario Soriano Carreno",
+                  "id": "384414",
+                  "jersey": 18,
+                  "name": "Jonathan Asp Jensen",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
@@ -36809,7 +36809,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52735965_1",
+                "type": "YELLOW_CARD",
+                "minute": 3,
+                "extraTime": null,
+                "playerName": "Bright Ede",
+                "teamName": "Deportivo",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -36822,7 +36832,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "4'",
+          "clock": "5'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
