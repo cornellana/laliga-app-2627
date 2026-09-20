@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:09:53Z",
+  "lastUpdated": "2026-09-20T18:10:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36890,6 +36890,24 @@
                 "playerName": "Pierre-Emerick Aubameyang",
                 "teamName": "Deportivo",
                 "text": "Jonathan Asp Jensen"
+              },
+              {
+                "id": "52744358_18",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "52744359_19",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
@@ -36904,7 +36922,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37392,9 +37410,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 79,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Nicolas Pepe",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Tajon Buchanan"
+              },
+              {
+                "id": "52744385_15",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Santiago Mouriño",
+                "teamName": "Villarreal",
+                "text": "Pau Navarro"
               }
             ]
           }
