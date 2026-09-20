@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:00:11Z",
+  "lastUpdated": "2026-09-20T18:01:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36863,6 +36863,33 @@
                 "playerName": "Facundo Bernal",
                 "teamName": "Betis",
                 "text": "Antony"
+              },
+              {
+                "id": "52743504_15",
+                "type": "YELLOW_CARD",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Valentín Gómez",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "52743514_16",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "52743515_17",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
@@ -37338,9 +37365,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Georges Mikautadze",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Ayoze Pérez"
               }
             ]
           }
