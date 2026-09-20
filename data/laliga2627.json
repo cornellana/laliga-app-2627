@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:42:55Z",
+  "lastUpdated": "2026-09-20T17:43:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "48'",
+          "clock": "49'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36857,9 +36857,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "2-1",
           "state": "in",
-          "clock": "53'",
+          "clock": "54'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37268,6 +37268,15 @@
                 "extraTime": null,
                 "playerName": "Iván Romero",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "52742014_6",
+                "type": "GOAL",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Alberto Moleiro",
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
@@ -41743,6 +41752,12 @@
       "penalties": null
     },
     {
+      "player": "Alberto Moleiro",
+      "team": "Villarreal",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Alejandro Grimaldo",
       "team": "Atlético",
       "goals": 2,
@@ -41877,12 +41892,6 @@
     {
       "player": "Aitor Paredes",
       "team": "Athletic",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Alberto Moleiro",
-      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
