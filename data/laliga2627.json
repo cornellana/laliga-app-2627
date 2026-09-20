@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:32:02Z",
+  "lastUpdated": "2026-09-20T15:33:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35874,9 +35874,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "53'",
+          "clock": "54'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -36286,6 +36286,24 @@
                 "playerName": "Koke",
                 "teamName": "Atlético",
                 "text": "Marc Pubill"
+              },
+              {
+                "id": "52729253_8",
+                "type": "YELLOW_CARD",
+                "minute": 49,
+                "extraTime": null,
+                "playerName": "Denzel Dumfries",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "52729254_9",
+                "type": "PENALTY",
+                "minute": 53,
+                "extraTime": null,
+                "playerName": "Alejandro Grimaldo",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
@@ -40786,6 +40804,12 @@
       "penalties": null
     },
     {
+      "player": "Alejandro Grimaldo",
+      "team": "Atlético",
+      "goals": 2,
+      "penalties": 2
+    },
+    {
       "player": "Carlos Espí",
       "team": "Real Madrid",
       "goals": 2,
@@ -40916,12 +40940,6 @@
       "team": "Villarreal",
       "goals": 1,
       "penalties": null
-    },
-    {
-      "player": "Alejandro Grimaldo",
-      "team": "Atlético",
-      "goals": 1,
-      "penalties": 1
     },
     {
       "player": "Alex Berenguer",
