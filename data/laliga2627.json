@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:56:59Z",
+  "lastUpdated": "2026-09-20T15:58:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35876,7 +35876,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -36367,6 +36367,15 @@
                 "playerName": "Eduardo Camavinga",
                 "teamName": "Real Madrid",
                 "text": "Aurélien Tchouaméni"
+              },
+              {
+                "id": "52732496_23",
+                "type": "YELLOW_CARD",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Jude Bellingham",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
