@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:56:03Z",
+  "lastUpdated": "2026-09-20T20:57:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37490,7 +37490,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "90'+6'",
+          "clock": "90'+7'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -38033,6 +38033,15 @@
                 "minute": 90,
                 "extraTime": 1,
                 "playerName": "Ander Barrenetxea",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52761972_23",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "Orri Óskarsson",
                 "teamName": "R. Sociedad",
                 "text": null
               }
