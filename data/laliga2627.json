@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:16:20Z",
+  "lastUpdated": "2026-09-20T12:17:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,7 +35360,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "14'",
+          "clock": "15'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -35539,7 +35539,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "240624",
@@ -35566,6 +35566,14 @@
                   "events": null
                 },
                 {
+                  "id": "357858",
+                  "jersey": 14,
+                  "name": "Rafa Rodríguez",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "184488",
                   "jersey": 12,
                   "name": "José Salinas",
@@ -35582,25 +35590,33 @@
                   "events": null
                 },
                 {
-                  "id": "324098",
-                  "jersey": 8,
-                  "name": "Carlos Dotor",
-                  "position": "AM",
+                  "id": "331533",
+                  "jersey": 22,
+                  "name": "Daniel Lorenzo",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "331533",
-                  "jersey": 22,
-                  "name": "Daniel Lorenzo",
+                  "id": "324098",
+                  "jersey": 8,
+                  "name": "Carlos Dotor",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "180444",
+                  "jersey": 11,
+                  "name": "Joaquín Muñoz",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "357858",
-                  "jersey": 14,
-                  "name": "Rafa Rodríguez",
+                  "id": "297828",
+                  "jersey": 10,
+                  "name": "David Larrubia",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -35610,22 +35626,6 @@
                   "jersey": 17,
                   "name": "Eneko Jauregui",
                   "position": "F",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "180444",
-                  "jersey": 11,
-                  "name": "Joaquín Muñoz",
-                  "position": "AM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "297828",
-                  "jersey": 10,
-                  "name": "David Larrubia",
-                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
