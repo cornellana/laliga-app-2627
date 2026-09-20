@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:04:29Z",
+  "lastUpdated": "2026-09-20T18:05:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36904,7 +36904,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37374,9 +37374,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 72,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Dani Requena",
                 "teamName": "Levante",
-                "text": null
+                "text": "Enzo Bardeli"
               }
             ]
           }
