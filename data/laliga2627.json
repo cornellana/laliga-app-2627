@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T16:41:41Z",
+  "lastUpdated": "2026-09-20T16:42:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36621,7 +36621,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-3-3",
               "players": [
                 {
                   "id": "283892",
@@ -36664,18 +36664,10 @@
                   "events": null
                 },
                 {
-                  "id": "227714",
-                  "jersey": 8,
-                  "name": "Pablo Fornals",
-                  "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "242008",
                   "jersey": 21,
                   "name": "Marc Roca",
-                  "position": "LM",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
@@ -36683,6 +36675,14 @@
                   "id": "322908",
                   "jersey": 18,
                   "name": "Nelson Deossa",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "281558",
+                  "jersey": 7,
+                  "name": "Antony",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -36699,15 +36699,15 @@
                   "id": "300912",
                   "jersey": 10,
                   "name": "Abde Ezzalzouli",
-                  "position": "AM-L",
+                  "position": "LF",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "281558",
-                  "jersey": 7,
-                  "name": "Antony",
-                  "position": "AM-R",
+                  "id": "227714",
+                  "jersey": 8,
+                  "name": "Pablo Fornals",
+                  "position": "RF",
                   "isStarter": true,
                   "events": null
                 },
@@ -36832,7 +36832,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "11'",
+          "clock": "12'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
