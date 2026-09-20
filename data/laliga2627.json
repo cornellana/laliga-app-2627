@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:31:18Z",
+  "lastUpdated": "2026-09-20T20:32:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37490,7 +37490,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -37947,7 +37947,25 @@
                 "text": "Job Ochieng"
               },
               {
-                "id": "52758963_11",
+                "id": "52759190_11",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Yangel Herrera",
+                "teamName": "R. Sociedad",
+                "text": "Jon Gorrotxategi"
+              },
+              {
+                "id": "52759191_12",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Aihen Muñoz",
+                "teamName": "R. Sociedad",
+                "text": "Sergio Gómez"
+              },
+              {
+                "id": "52758963_13",
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
