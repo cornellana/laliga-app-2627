@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:08:48Z",
+  "lastUpdated": "2026-09-20T18:09:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36904,7 +36904,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37377,6 +37377,24 @@
                 "playerName": "Dani Requena",
                 "teamName": "Levante",
                 "text": "Enzo Bardeli"
+              },
+              {
+                "id": "52744132_13",
+                "type": "YELLOW_CARD",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Tajon Buchanan",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "52744187_14",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
