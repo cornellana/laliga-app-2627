@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:51:31Z",
+  "lastUpdated": "2026-09-20T15:52:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35876,7 +35876,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -36364,9 +36364,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Eduardo Camavinga",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Aurélien Tchouaméni"
               }
             ]
           }
