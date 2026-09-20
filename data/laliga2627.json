@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:01:15Z",
+  "lastUpdated": "2026-09-20T18:02:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36878,18 +36878,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 65,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Luismi Cruz",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Riki Rodríguez"
               },
               {
                 "id": "52743515_17",
                 "type": "SUBSTITUTION",
                 "minute": 65,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pierre-Emerick Aubameyang",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Jonathan Asp Jensen"
               }
             ]
           }
@@ -36904,7 +36904,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "71'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
