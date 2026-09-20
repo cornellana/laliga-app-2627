@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:30:57Z",
+  "lastUpdated": "2026-09-20T15:32:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35876,7 +35876,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "51'",
+          "clock": "53'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -36286,15 +36286,6 @@
                 "playerName": "Koke",
                 "teamName": "Atlético",
                 "text": "Marc Pubill"
-              },
-              {
-                "id": "52729140_8",
-                "type": "YELLOW_CARD",
-                "minute": 50,
-                "extraTime": null,
-                "playerName": "Dean Huijsen",
-                "teamName": "Real Madrid",
-                "text": null
               }
             ]
           }
