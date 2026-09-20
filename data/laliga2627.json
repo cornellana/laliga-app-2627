@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:02:20Z",
+  "lastUpdated": "2026-09-20T18:03:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36904,7 +36904,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37368,6 +37368,15 @@
                 "playerName": "Georges Mikautadze",
                 "teamName": "Villarreal",
                 "text": "Ayoze Pérez"
+              },
+              {
+                "id": "52743681_12",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
