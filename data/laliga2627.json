@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:15:13Z",
+  "lastUpdated": "2026-09-20T17:16:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36424,10 +36424,10 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "44'",
-          "statusText": "First Half",
+          "clock": "45'",
+          "statusText": "In Progress",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
@@ -36836,6 +36836,15 @@
                 "playerName": "Diego Villares",
                 "teamName": "Deportivo",
                 "text": "Marc Casadó because of an injury"
+              },
+              {
+                "id": "52740016_8",
+                "type": "GOAL",
+                "minute": 43,
+                "extraTime": null,
+                "playerName": "Cucho Hernández",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
@@ -36850,7 +36859,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -41746,6 +41755,12 @@
       "penalties": null
     },
     {
+      "player": "Cucho Hernández",
+      "team": "Betis",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Gerard Moreno",
       "team": "Villarreal",
       "goals": 2,
@@ -41948,12 +41963,6 @@
       "team": "Málaga",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "Cucho Hernández",
-      "team": "Betis",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Enes Ünal",
