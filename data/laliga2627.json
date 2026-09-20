@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:16:20Z",
+  "lastUpdated": "2026-09-20T18:17:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36938,9 +36938,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "3-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37455,9 +37455,18 @@
                 "type": "GOAL",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Georges Mikautadze",
                 "teamName": "Villarreal",
                 "text": null
+              },
+              {
+                "id": "52745093_18",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Carlos Maciá",
+                "teamName": "Villarreal",
+                "text": "Pape Gueye"
               }
             ]
           }
@@ -41956,6 +41965,12 @@
       "penalties": null
     },
     {
+      "player": "Georges Mikautadze",
+      "team": "Villarreal",
+      "goals": 2,
+      "penalties": 1
+    },
+    {
       "player": "Gerard Moreno",
       "team": "Villarreal",
       "goals": 2,
@@ -42182,12 +42197,6 @@
       "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
-    },
-    {
-      "player": "Georges Mikautadze",
-      "team": "Villarreal",
-      "goals": 1,
-      "penalties": 1
     },
     {
       "player": "Germán Valera",
