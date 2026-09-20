@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T18:21:45Z",
+  "lastUpdated": "2026-09-20T18:22:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36926,6 +36926,15 @@
                 "playerName": "Dani Ceballos",
                 "teamName": "Betis",
                 "text": "Pablo Fornals"
+              },
+              {
+                "id": "52745414_22",
+                "type": "GOAL",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Diego Villares",
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
@@ -36940,7 +36949,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -42167,6 +42176,12 @@
       "team": "Málaga",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Diego Villares",
+      "team": "Deportivo",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Enes Ünal",
