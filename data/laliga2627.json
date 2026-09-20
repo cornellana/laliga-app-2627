@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:46:08Z",
+  "lastUpdated": "2026-09-20T15:47:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35876,7 +35876,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -36349,6 +36349,15 @@
                 "playerName": "Julián Alvarez",
                 "teamName": "Atlético",
                 "text": "Jonathan David"
+              },
+              {
+                "id": "52730863_21",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Ademola Lookman",
+                "teamName": "Atlético",
+                "text": "Álex Baena"
               }
             ]
           }
