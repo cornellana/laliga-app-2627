@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:29:09Z",
+  "lastUpdated": "2026-09-20T20:30:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37490,7 +37490,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -37945,6 +37945,15 @@
                 "playerName": "Ander Barrenetxea",
                 "teamName": "R. Sociedad",
                 "text": "Job Ochieng"
+              },
+              {
+                "id": "52758963_11",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Harvey Elliott",
+                "teamName": "Valencia",
+                "text": "Guido Rodríguez"
               }
             ]
           }
