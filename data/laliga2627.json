@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:41:50Z",
+  "lastUpdated": "2026-09-20T15:42:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35876,7 +35876,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -36346,9 +36346,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Julián Alvarez",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Jonathan David"
               }
             ]
           }
