@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:13:04Z",
+  "lastUpdated": "2026-09-20T17:14:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "41'",
+          "clock": "42'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36848,9 +36848,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "43'",
+          "clock": "44'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37250,6 +37250,15 @@
                 "extraTime": null,
                 "playerName": "Ayoze Pérez",
                 "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "52739858_3",
+                "type": "GOAL",
+                "minute": 42,
+                "extraTime": null,
+                "playerName": "Iván Romero",
+                "teamName": "Levante",
                 "text": null
               }
             ]
@@ -41749,6 +41758,12 @@
       "penalties": null
     },
     {
+      "player": "Iván Romero",
+      "team": "Levante",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Karim Adeyemi",
       "team": "FC Barcelona",
       "goals": 2,
@@ -42009,12 +42024,6 @@
     {
       "player": "Iván Azón",
       "team": "Getafe",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Iván Romero",
-      "team": "Levante",
       "goals": 1,
       "penalties": null
     },
