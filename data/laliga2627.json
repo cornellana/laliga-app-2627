@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:50:26Z",
+  "lastUpdated": "2026-09-20T15:51:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35876,7 +35876,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -36358,6 +36358,15 @@
                 "playerName": "Ademola Lookman",
                 "teamName": "Atlético",
                 "text": "Álex Baena"
+              },
+              {
+                "id": "52731518_22",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
