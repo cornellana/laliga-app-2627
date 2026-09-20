@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:50:41Z",
+  "lastUpdated": "2026-09-20T20:51:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37488,9 +37488,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "2-2",
+          "result": "2-3",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -38026,6 +38026,15 @@
                 "playerName": "Luis Rioja",
                 "teamName": "Valencia",
                 "text": "Arnaut Danjuma"
+              },
+              {
+                "id": "52761562_22",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Ander Barrenetxea",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
@@ -42502,6 +42511,12 @@
       "penalties": 2
     },
     {
+      "player": "Ander Barrenetxea",
+      "team": "R. Sociedad",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Carlos Espí",
       "team": "Real Madrid",
       "goals": 2,
@@ -42642,12 +42657,6 @@
     {
       "player": "Alex Berenguer",
       "team": "Athletic",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Ander Barrenetxea",
-      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
