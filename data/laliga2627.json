@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:15:08Z",
+  "lastUpdated": "2026-09-20T20:16:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37490,7 +37490,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "55'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -37909,6 +37909,15 @@
                 "playerName": "David Otorbi",
                 "teamName": "Valencia",
                 "text": "Filip Ugrinic"
+              },
+              {
+                "id": "52757138_7",
+                "type": "YELLOW_CARD",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Luka Sucic",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
