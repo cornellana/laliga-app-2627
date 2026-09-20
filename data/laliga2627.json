@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:35:23Z",
+  "lastUpdated": "2026-09-20T15:36:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35876,7 +35876,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -36297,7 +36297,7 @@
                 "text": null
               },
               {
-                "id": "52729379_10",
+                "id": "52729379_11",
                 "type": "RED_CARD",
                 "minute": 52,
                 "extraTime": null,
@@ -36306,7 +36306,7 @@
                 "text": null
               },
               {
-                "id": "52729254_11",
+                "id": "52729254_12",
                 "type": "PENALTY",
                 "minute": 53,
                 "extraTime": null,
