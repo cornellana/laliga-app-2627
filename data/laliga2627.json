@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T13:54:56Z",
+  "lastUpdated": "2026-09-20T13:56:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,7 +35360,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -35835,6 +35835,24 @@
                 "playerName": "Iván Azón",
                 "teamName": "Getafe",
                 "text": null
+              },
+              {
+                "id": "52714701_33",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Juan Cruz",
+                "teamName": "Málaga",
+                "text": "Juan Berrocal"
+              },
+              {
+                "id": "52714702_34",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Saba Sazonov",
+                "teamName": "Getafe",
+                "text": "Iván Azón"
               }
             ]
           }
