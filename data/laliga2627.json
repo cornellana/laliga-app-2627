@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:22:40Z",
+  "lastUpdated": "2026-09-20T20:23:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37490,7 +37490,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -37933,18 +37933,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Orri Óskarsson",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Mikel Oyarzabal"
               },
               {
                 "id": "52757959_10",
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ander Barrenetxea",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Job Ochieng"
               }
             ]
           }
