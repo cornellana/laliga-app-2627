@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T13:21:35Z",
+  "lastUpdated": "2026-09-20T13:22:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,7 +35360,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "55'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -35763,6 +35763,15 @@
                 "playerName": "Adrián Niño",
                 "teamName": "Málaga",
                 "text": "Eneko Jauregi"
+              },
+              {
+                "id": "52709346_13",
+                "type": "YELLOW_CARD",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Nemanja Gudelj",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
