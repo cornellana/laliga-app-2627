@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T14:51:41Z",
+  "lastUpdated": "2026-09-20T14:52:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35876,8 +35876,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "36'",
-          "statusText": "In Progress",
+          "clock": "37'",
+          "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": {
@@ -36259,7 +36259,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "52725264_1",
+                "type": "YELLOW_CARD",
+                "minute": 35,
+                "extraTime": null,
+                "playerName": "Marc Pubill",
+                "teamName": "Atlético",
+                "text": null
+              }
+            ]
           }
         },
         {
