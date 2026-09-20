@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:10:56Z",
+  "lastUpdated": "2026-09-20T12:12:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,7 +35360,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "9'",
+          "clock": "10'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -35417,10 +35417,18 @@
                   "events": null
                 },
                 {
+                  "id": "309838",
+                  "jersey": 11,
+                  "name": "Ramón Terrats",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "136673",
                   "jersey": 8,
                   "name": "Nemanja Gudelj",
-                  "position": "CM-R",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -35433,18 +35441,10 @@
                   "events": null
                 },
                 {
-                  "id": "309838",
-                  "jersey": 11,
-                  "name": "Ramón Terrats",
-                  "position": "RM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "310259",
                   "jersey": 20,
                   "name": "Ivan Azón",
-                  "position": "CF-L",
+                  "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
@@ -35452,7 +35452,7 @@
                   "id": "218122",
                   "jersey": 19,
                   "name": "Enes Ünal",
-                  "position": "CF-R",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
