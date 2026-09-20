@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T13:51:42Z",
+  "lastUpdated": "2026-09-20T13:52:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35358,7 +35358,7 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
           "clock": "86'",
           "statusText": "Second Half",
@@ -35826,6 +35826,15 @@
                 "playerName": "Ramón Enríquez",
                 "teamName": "Málaga",
                 "text": "Rafa Rodríguez because of an injury"
+              },
+              {
+                "id": "52714432_32",
+                "type": "GOAL",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Iván Azón",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
@@ -40614,6 +40623,12 @@
     {
       "player": "Isaac Romero",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Iván Azón",
+      "team": "Getafe",
       "goals": 1,
       "penalties": null
     },
