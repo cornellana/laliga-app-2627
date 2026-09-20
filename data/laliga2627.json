@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T14:01:23Z",
+  "lastUpdated": "2026-09-20T14:02:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,7 +35360,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+6'",
+          "clock": "90'+7'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -35859,9 +35859,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 90,
                 "extraTime": 4,
-                "playerName": null,
+                "playerName": "Davinchi",
                 "teamName": "Getafe",
-                "text": null
+                "text": "Martín Satriano"
               }
             ]
           }
