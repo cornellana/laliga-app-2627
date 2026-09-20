@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:41:08Z",
+  "lastUpdated": "2026-09-20T12:42:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,7 +35360,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "39'",
+          "clock": "40'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -35735,6 +35735,15 @@
                 "extraTime": null,
                 "playerName": "Johan Mojica",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "52704204_6",
+                "type": "YELLOW_CARD",
+                "minute": 39,
+                "extraTime": null,
+                "playerName": "Eneko Jauregui",
+                "teamName": "Málaga",
                 "text": null
               }
             ]
