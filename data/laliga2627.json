@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T19:29:25Z",
+  "lastUpdated": "2026-09-20T19:30:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37490,8 +37490,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "27'",
-          "statusText": "In Progress",
+          "clock": "28'",
+          "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -37897,7 +37897,7 @@
                 "type": "GOAL",
                 "minute": 26,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Luka Sucic",
                 "teamName": "R. Sociedad",
                 "text": null
               }
@@ -42340,6 +42340,12 @@
       "penalties": null
     },
     {
+      "player": "Luka Sucic",
+      "team": "R. Sociedad",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 3,
@@ -42414,12 +42420,6 @@
     {
       "player": "Lee Kang-In",
       "team": "Atlético",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Luka Sucic",
-      "team": "R. Sociedad",
       "goals": 2,
       "penalties": null
     },
