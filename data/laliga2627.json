@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:57:08Z",
+  "lastUpdated": "2026-09-20T20:58:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37487,11 +37487,11 @@
           "away": "R. Sociedad",
           "jornada": 7,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-3",
-          "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -38042,6 +38042,15 @@
                 "minute": 90,
                 "extraTime": 6,
                 "playerName": "Orri Óskarsson",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "52762040_24",
+                "type": "RED_CARD",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "Second yellow card to Orri Óskarsson",
                 "teamName": "R. Sociedad",
                 "text": null
               }
