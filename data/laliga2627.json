@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T16:33:04Z",
+  "lastUpdated": "2026-09-20T16:34:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36475,9 +36475,9 @@
                   "events": null
                 },
                 {
-                  "id": "279609",
-                  "jersey": 14,
-                  "name": "Riki Rodríguez",
+                  "id": "384414",
+                  "jersey": 18,
+                  "name": "Jonathan Asp Jensen",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -36491,9 +36491,9 @@
                   "events": null
                 },
                 {
-                  "id": "384414",
-                  "jersey": 18,
-                  "name": "Jonathan Asp Jensen",
+                  "id": "279609",
+                  "jersey": 14,
+                  "name": "Riki Rodríguez",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -36822,7 +36822,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
