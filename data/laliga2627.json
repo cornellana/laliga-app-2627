@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T14:55:59Z",
+  "lastUpdated": "2026-09-20T14:57:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35876,7 +35876,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -36270,12 +36270,12 @@
                 "text": null
               },
               {
-                "id": "52725618_2",
+                "id": "52725982_3",
                 "type": "YELLOW_CARD",
-                "minute": 37,
+                "minute": 38,
                 "extraTime": null,
-                "playerName": "Jude Bellingham",
-                "teamName": "Real Madrid",
+                "playerName": "Cristian Romero",
+                "teamName": "Atlético",
                 "text": null
               }
             ]
