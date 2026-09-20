@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T13:33:25Z",
+  "lastUpdated": "2026-09-20T13:34:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -35360,7 +35360,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -35790,6 +35790,24 @@
                 "playerName": "Orel Mangala",
                 "teamName": "Getafe",
                 "text": "Djené Dakonam"
+              },
+              {
+                "id": "52711271_20",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Pablo Martínez",
+                "teamName": "Málaga",
+                "text": "Dani Lorenzo"
+              },
+              {
+                "id": "52711272_21",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Chupe",
+                "teamName": "Málaga",
+                "text": "Joaquín Muñoz"
               }
             ]
           }
