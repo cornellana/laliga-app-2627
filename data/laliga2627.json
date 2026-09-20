@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T19:28:21Z",
+  "lastUpdated": "2026-09-20T19:29:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -37488,10 +37488,10 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "26'",
-          "statusText": "First Half",
+          "clock": "27'",
+          "statusText": "In Progress",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -37890,6 +37890,15 @@
                 "extraTime": null,
                 "playerName": "José Gayà",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "52752253_3",
+                "type": "GOAL",
+                "minute": 26,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
