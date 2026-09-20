@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:10:53Z",
+  "lastUpdated": "2026-09-20T17:11:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -36426,7 +36426,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "39'",
+          "clock": "40'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -36848,9 +36848,9 @@
           "jornada": 7,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "41'",
+          "clock": "42'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -37241,6 +37241,15 @@
                 "extraTime": null,
                 "playerName": "Aïssa Mandi",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "52739714_2",
+                "type": "GOAL",
+                "minute": 41,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
