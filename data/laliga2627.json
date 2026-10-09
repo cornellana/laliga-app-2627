@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T19:44:30Z",
+  "lastUpdated": "2026-10-09T19:45:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "43'",
+          "clock": "44'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38498,7 +38498,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 41,
                 "extraTime": null,
-                "playerName": "Chupete",
+                "playerName": "Chupe",
                 "teamName": "Málaga",
                 "text": null
               }
