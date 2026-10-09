@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:42:13Z",
+  "lastUpdated": "2026-10-09T20:43:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38600,6 +38600,24 @@
                 "playerName": "Marcos Fernández",
                 "teamName": "Espanyol",
                 "text": "Tyrhys Dolan"
+              },
+              {
+                "id": "53346015_21",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Haitam Abaida",
+                "teamName": "Málaga",
+                "text": "Pablo Martínez"
+              },
+              {
+                "id": "53346063_22",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Clemens Riedel",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
