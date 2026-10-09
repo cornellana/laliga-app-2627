@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:24:58Z",
+  "lastUpdated": "2026-10-09T20:26:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,8 +38073,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "67'",
-          "statusText": "Second Half",
+          "clock": "68'",
+          "statusText": "In Progress",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -38521,7 +38521,7 @@
                 "text": null
               },
               {
-                "id": "53344743_11",
+                "id": "53344743_12",
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
@@ -38530,7 +38530,7 @@
                 "text": "Carlos Puga"
               },
               {
-                "id": "53344745_12",
+                "id": "53344745_13",
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
@@ -38539,13 +38539,22 @@
                 "text": "Rafa Rodríguez"
               },
               {
-                "id": "53344744_13",
+                "id": "53344744_14",
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
                 "playerName": "Carlos Dotor",
                 "teamName": "Málaga",
                 "text": "Joaquín Muñoz"
+              },
+              {
+                "id": "53344973_15",
+                "type": "YELLOW_CARD",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Carlos Dotor",
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
