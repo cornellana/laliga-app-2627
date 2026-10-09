@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:50:51Z",
+  "lastUpdated": "2026-10-09T20:51:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38071,9 +38071,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38634,6 +38634,15 @@
                 "minute": 89,
                 "extraTime": null,
                 "playerName": "Adam Aznou",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "53346415_27",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Adrián Niño",
                 "teamName": "Málaga",
                 "text": null
               }
@@ -43078,6 +43087,12 @@
       "penalties": null
     },
     {
+      "player": "Adrián Niño",
+      "team": "Málaga",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Alberto Moleiro",
       "team": "Villarreal",
       "goals": 2,
@@ -43212,12 +43227,6 @@
     {
       "player": "Adrià Pedrosa",
       "team": "Rayo",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Adrián Niño",
-      "team": "Málaga",
       "goals": 1,
       "penalties": null
     },
