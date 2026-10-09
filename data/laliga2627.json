@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:16:19Z",
+  "lastUpdated": "2026-10-09T20:17:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38507,9 +38507,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 57,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Urko González de Zárate",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Javi Hernández"
               }
             ]
           }
