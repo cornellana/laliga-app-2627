@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T19:43:25Z",
+  "lastUpdated": "2026-10-09T19:44:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "42'",
+          "clock": "43'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38490,6 +38490,15 @@
                 "minute": 28,
                 "extraTime": null,
                 "playerName": "Carlos Puga",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "53341761_5",
+                "type": "YELLOW_CARD",
+                "minute": 41,
+                "extraTime": null,
+                "playerName": "Chupete",
                 "teamName": "Málaga",
                 "text": null
               }
