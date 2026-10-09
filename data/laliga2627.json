@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:22:48Z",
+  "lastUpdated": "2026-10-09T20:23:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38530,22 +38530,22 @@
                 "text": "Carlos Puga"
               },
               {
-                "id": "53344744_13",
+                "id": "53344745_12",
                 "type": "SUBSTITUTION",
-                "minute": 63,
-                "extraTime": null,
-                "playerName": "Carlos Dotor",
-                "teamName": "Málaga",
-                "text": "Joaquín Muñoz"
-              },
-              {
-                "id": "53344745_14",
-                "type": "SUBSTITUTION",
-                "minute": 63,
+                "minute": 62,
                 "extraTime": null,
                 "playerName": "Adrián Niño",
                 "teamName": "Málaga",
                 "text": "Rafa Rodríguez"
+              },
+              {
+                "id": "53344744_13",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Carlos Dotor",
+                "teamName": "Málaga",
+                "text": "Joaquín Muñoz"
               }
             ]
           }
