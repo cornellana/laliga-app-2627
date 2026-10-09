@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T19:14:26Z",
+  "lastUpdated": "2026-10-09T19:15:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38071,9 +38071,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "13'",
+          "clock": "15'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38456,7 +38456,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53338364_1",
+                "type": "GOAL",
+                "minute": 13,
+                "extraTime": null,
+                "playerName": "Bryan Zaragoza",
+                "teamName": "Espanyol",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -43085,6 +43095,12 @@
     {
       "player": "Ayoze Pérez",
       "team": "Villarreal",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Bryan Zaragoza",
+      "team": "Espanyol",
       "goals": 1,
       "penalties": null
     },
