@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:15:14Z",
+  "lastUpdated": "2026-10-09T20:16:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38500,6 +38500,15 @@
                 "extraTime": null,
                 "playerName": "Chupe",
                 "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "53344286_8",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
