@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T19:26:14Z",
+  "lastUpdated": "2026-10-09T19:27:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38463,6 +38463,15 @@
                 "minute": 13,
                 "extraTime": null,
                 "playerName": "Bryan Zaragoza",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "53339703_2",
+                "type": "YELLOW_CARD",
+                "minute": 24,
+                "extraTime": null,
+                "playerName": "Javi Hernandez",
                 "teamName": "Espanyol",
                 "text": null
               }
