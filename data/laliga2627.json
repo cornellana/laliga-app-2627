@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T19:02:36Z",
+  "lastUpdated": "2026-10-09T19:03:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,8 +38073,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
-          "statusText": "In Progress",
+          "clock": "3'",
+          "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -38130,17 +38130,17 @@
                   "events": null
                 },
                 {
-                  "id": "331533",
-                  "jersey": 22,
-                  "name": "Daniel Lorenzo",
+                  "id": "271151",
+                  "jersey": 18,
+                  "name": "Pablo Martínez",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "271151",
-                  "jersey": 18,
-                  "name": "Pablo Martínez",
+                  "id": "331533",
+                  "jersey": 22,
+                  "name": "Daniel Lorenzo",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
