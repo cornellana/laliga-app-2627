@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:45:28Z",
+  "lastUpdated": "2026-10-09T20:46:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38616,6 +38616,15 @@
                 "minute": 84,
                 "extraTime": null,
                 "playerName": "Clemens Riedel",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "53346194_25",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Roger Hinojo",
                 "teamName": "Espanyol",
                 "text": null
               }
