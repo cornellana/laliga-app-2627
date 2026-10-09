@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T19:28:23Z",
+  "lastUpdated": "2026-10-09T19:29:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "27'",
+          "clock": "28'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38319,17 +38319,17 @@
                   "events": null
                 },
                 {
-                  "id": "260242",
-                  "jersey": 10,
-                  "name": "Pol Lozano",
+                  "id": "255272",
+                  "jersey": 8,
+                  "name": "Edu Expósito",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "255272",
-                  "jersey": 8,
-                  "name": "Edu Expósito",
+                  "id": "260242",
+                  "jersey": 10,
+                  "name": "Pol Lozano",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
