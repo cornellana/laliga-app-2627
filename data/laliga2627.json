@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:18:29Z",
+  "lastUpdated": "2026-10-09T20:19:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "60'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38510,6 +38510,15 @@
                 "playerName": "Urko González de Zárate",
                 "teamName": "Espanyol",
                 "text": "Javi Hernández"
+              },
+              {
+                "id": "53344533_9",
+                "type": "YELLOW_CARD",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Omar El Hilali",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
