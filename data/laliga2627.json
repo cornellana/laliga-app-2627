@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:33:38Z",
+  "lastUpdated": "2026-10-09T20:34:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "75'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38570,9 +38570,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Izan Merino",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Fernando Calero"
               }
             ]
           }
