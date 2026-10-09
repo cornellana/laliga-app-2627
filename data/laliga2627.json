@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:32:33Z",
+  "lastUpdated": "2026-10-09T20:33:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38564,6 +38564,15 @@
                 "playerName": "Cala",
                 "teamName": "Espanyol",
                 "text": "Bryan Zaragoza"
+              },
+              {
+                "id": "53345466_17",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
