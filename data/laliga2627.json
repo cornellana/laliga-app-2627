@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:20:39Z",
+  "lastUpdated": "2026-10-09T20:21:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38518,6 +38518,33 @@
                 "extraTime": null,
                 "playerName": "Omar El Hilali",
                 "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "53344743_11",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "53344744_13",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "53344745_14",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
                 "text": null
               }
             ]
