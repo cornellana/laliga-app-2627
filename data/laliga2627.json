@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:40:04Z",
+  "lastUpdated": "2026-10-09T20:41:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38073,7 +38073,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -38573,6 +38573,33 @@
                 "playerName": "Izan Merino",
                 "teamName": "Málaga",
                 "text": "Fernando Calero"
+              },
+              {
+                "id": "53345962_18",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Roger Hinojo",
+                "teamName": "Espanyol",
+                "text": "Roberto Fernández"
+              },
+              {
+                "id": "53345963_19",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Pere Milla",
+                "teamName": "Espanyol",
+                "text": "Edu Expósito"
+              },
+              {
+                "id": "53345964_20",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Marcos Fernández",
+                "teamName": "Espanyol",
+                "text": "Tyrhys Dolan"
               }
             ]
           }
