@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:22:18Z",
+  "lastUpdated": "2026-10-10T20:24:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39781,9 +39781,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40212,6 +40212,15 @@
                 "playerName": "Carlos Romero",
                 "teamName": "Villarreal",
                 "text": "Juan Foyth"
+              },
+              {
+                "id": "53427027_13",
+                "type": "GOAL",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Yan Diomande",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -45138,6 +45147,12 @@
     {
       "player": "Xavi Espart",
       "team": "FC Barcelona",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Yan Diomande",
+      "team": "Real Madrid",
       "goals": 1,
       "penalties": null
     },
