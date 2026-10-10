@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T17:23:40Z",
+  "lastUpdated": "2026-10-10T17:24:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,8 +39231,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "First Half",
+          "clock": "45'+5'",
+          "statusText": "Halftime",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
