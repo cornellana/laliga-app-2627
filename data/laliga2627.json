@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T17:21:31Z",
+  "lastUpdated": "2026-10-10T17:22:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,7 +39231,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+2'",
+          "clock": "45'+3'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -39634,6 +39634,15 @@
                 "playerName": "Abdel Abqar",
                 "teamName": "Getafe",
                 "text": "Zaid Romero because of an injury"
+              },
+              {
+                "id": "53403070_13",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Johan Mojica",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
