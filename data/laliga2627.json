@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:11:44Z",
+  "lastUpdated": "2026-10-10T20:14:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "52'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40185,6 +40185,15 @@
                 "playerName": "Marc Cucurella",
                 "teamName": "Real Madrid",
                 "text": "Álvaro Carreras"
+              },
+              {
+                "id": "53424541_10",
+                "type": "SUBSTITUTION",
+                "minute": 52,
+                "extraTime": null,
+                "playerName": "Vinícius Júnior",
+                "teamName": "Real Madrid",
+                "text": "Trent Alexander-Arnold"
               }
             ]
           }
