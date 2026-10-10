@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:16:59Z",
+  "lastUpdated": "2026-10-10T20:18:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40203,6 +40203,15 @@
                 "playerName": "Nathan Saliba",
                 "teamName": "Villarreal",
                 "text": "Santi Comesaña"
+              },
+              {
+                "id": "53425809_12",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
