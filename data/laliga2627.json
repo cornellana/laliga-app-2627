@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:36:57Z",
+  "lastUpdated": "2026-10-10T20:38:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,8 +39783,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "78'",
-          "statusText": "Second Half",
+          "clock": "79'",
+          "statusText": "In Progress",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -40246,6 +40246,15 @@
                 "minute": 72,
                 "extraTime": null,
                 "playerName": "Vinícius Júnior",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "53429555_21",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Real Madrid",
                 "text": null
               }
