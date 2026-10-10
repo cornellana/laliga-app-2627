@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:44:02Z",
+  "lastUpdated": "2026-10-10T20:45:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "84'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40275,6 +40275,24 @@
                 "playerName": "Antonio Rüdiger",
                 "teamName": "Real Madrid",
                 "text": null
+              },
+              {
+                "id": "53430733_24",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Pau Navarro",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "53430794_25",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Denzel Dumfries",
+                "teamName": "Real Madrid",
+                "text": "Yan Diomande"
               }
             ]
           }
