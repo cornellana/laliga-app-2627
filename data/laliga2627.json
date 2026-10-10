@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:41:42Z",
+  "lastUpdated": "2026-10-10T20:44:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40264,6 +40264,15 @@
                 "minute": 81,
                 "extraTime": null,
                 "playerName": "Ibrahima Konaté",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "53430491_23",
+                "type": "YELLOW_CARD",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Antonio Rüdiger",
                 "teamName": "Real Madrid",
                 "text": null
               }
