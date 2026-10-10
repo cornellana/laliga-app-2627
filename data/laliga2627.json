@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:01:04Z",
+  "lastUpdated": "2026-10-10T15:02:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "45'+1'",
+          "clock": "45'+2'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39071,6 +39071,15 @@
                 "minute": 33,
                 "extraTime": null,
                 "playerName": "Alejandro Grimaldo",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "53385026_2",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Ademola Lookman",
                 "teamName": "Atlético",
                 "text": null
               }
