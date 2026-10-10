@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T18:18:50Z",
+  "lastUpdated": "2026-10-10T18:20:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,8 +39231,8 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "82'",
-          "statusText": "Second Half",
+          "clock": "84'",
+          "statusText": "In Progress",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -39741,6 +39741,15 @@
                 "extraTime": null,
                 "playerName": "Ramón Terrats",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "53407733_33",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
