@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T19:26:41Z",
+  "lastUpdated": "2026-10-10T19:27:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,8 +39783,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "24'",
-          "statusText": "First Half",
+          "clock": "25'",
+          "statusText": "In Progress",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -40013,25 +40013,25 @@
                   "events": null
                 },
                 {
-                  "id": "255889",
-                  "jersey": 18,
-                  "name": "Pape Gueye",
+                  "id": "242710",
+                  "jersey": 8,
+                  "name": "Juan Foyth",
                   "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "242710",
-                  "jersey": 8,
-                  "name": "Juan Foyth",
+                  "id": "255889",
+                  "jersey": 18,
+                  "name": "Pape Gueye",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "331047",
-                  "jersey": 11,
-                  "name": "Ilias Akhomach",
+                  "id": "240623",
+                  "jersey": 14,
+                  "name": "Santi Comesaña",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -40053,9 +40053,9 @@
                   "events": null
                 },
                 {
-                  "id": "240623",
-                  "jersey": 14,
-                  "name": "Santi Comesaña",
+                  "id": "331047",
+                  "jersey": 11,
+                  "name": "Ilias Akhomach",
                   "position": "RF",
                   "isStarter": true,
                   "events": null
