@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:03:13Z",
+  "lastUpdated": "2026-10-10T15:04:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,8 +38681,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "First Half",
+          "clock": "45'+4'",
+          "statusText": "In Progress",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
@@ -39080,6 +39080,15 @@
                 "minute": 45,
                 "extraTime": null,
                 "playerName": "Ademola Lookman",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "53385384_4",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 1,
+                "playerName": "Robin Le Normand",
                 "teamName": "Atlético",
                 "text": null
               }
