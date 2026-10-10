@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T19:12:01Z",
+  "lastUpdated": "2026-10-10T19:14:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,8 +39783,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "9'",
-          "statusText": "First Half",
+          "clock": "11'",
+          "statusText": "In Progress",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -40158,7 +40158,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53414893_1",
+                "type": "YELLOW_CARD",
+                "minute": 10,
+                "extraTime": null,
+                "playerName": "Renato Veiga",
+                "teamName": "Villarreal",
+                "text": null
+              }
+            ]
           }
         }
       ]
