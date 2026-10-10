@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T16:08:12Z",
+  "lastUpdated": "2026-10-10T16:09:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "In Progress",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39129,7 +39129,7 @@
                 "text": "Pablo Barrios"
               },
               {
-                "id": "53393529_17",
+                "id": "53393529_18",
                 "type": "RED_CARD",
                 "minute": 61,
                 "extraTime": null,
