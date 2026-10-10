@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T18:11:33Z",
+  "lastUpdated": "2026-10-10T18:13:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,7 +39231,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "75'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -39732,6 +39732,15 @@
                 "extraTime": null,
                 "playerName": "Jules Koundé",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "53407045_32",
+                "type": "YELLOW_CARD",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Ramón Terrats",
+                "teamName": "Getafe",
                 "text": null
               }
             ]
