@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T18:08:54Z",
+  "lastUpdated": "2026-10-10T18:10:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,7 +39231,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -39697,6 +39697,33 @@
                 "playerName": "Sebastián Boselli",
                 "teamName": "Getafe",
                 "text": "Andrés García"
+              },
+              {
+                "id": "53406606_26",
+                "type": "YELLOW_CARD",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Sebastián Boselli",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "53406717_27",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Marc Bernal",
+                "teamName": "FC Barcelona",
+                "text": "Rodri"
+              },
+              {
+                "id": "53406718_28",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Karim Adeyemi",
+                "teamName": "FC Barcelona",
+                "text": "Anthony Gordon"
               }
             ]
           }
