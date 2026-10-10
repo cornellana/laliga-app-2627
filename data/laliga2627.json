@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:40:18Z",
+  "lastUpdated": "2026-10-10T15:41:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39136,6 +39136,15 @@
                 "playerName": "Ángel Pérez",
                 "teamName": "Alavés",
                 "text": null
+              },
+              {
+                "id": "53393888_19",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Dávid Hancko",
+                "teamName": "Atlético",
+                "text": "Robin Le Normand"
               }
             ]
           }
