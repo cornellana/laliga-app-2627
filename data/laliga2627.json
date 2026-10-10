@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:15:54Z",
+  "lastUpdated": "2026-10-10T20:16:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40194,6 +40194,15 @@
                 "playerName": "Vinícius Júnior",
                 "teamName": "Real Madrid",
                 "text": "Trent Alexander-Arnold"
+              },
+              {
+                "id": "53425344_11",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Nathan Saliba",
+                "teamName": "Villarreal",
+                "text": "Santi Comesaña"
               }
             ]
           }
