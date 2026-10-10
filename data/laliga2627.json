@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:37:05Z",
+  "lastUpdated": "2026-10-10T15:38:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "59'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39127,6 +39127,15 @@
                 "playerName": "Lee Kang-In",
                 "teamName": "Atlético",
                 "text": "Pablo Barrios"
+              },
+              {
+                "id": "53393219_12",
+                "type": "YELLOW_CARD",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Ángel Pérez",
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
