@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:23:06Z",
+  "lastUpdated": "2026-10-10T15:24:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39106,18 +39106,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Álex Baena",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Jonathan David"
               },
               {
                 "id": "53390216_9",
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Julián Alvarez",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Ademola Lookman"
               }
             ]
           }
