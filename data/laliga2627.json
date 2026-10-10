@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:26:12Z",
+  "lastUpdated": "2026-10-10T20:28:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40221,6 +40221,24 @@
                 "playerName": "Yan Diomande",
                 "teamName": "Real Madrid",
                 "text": null
+              },
+              {
+                "id": "53427697_16",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Gerard Moreno",
+                "teamName": "Villarreal",
+                "text": "Ilias Akhomach"
+              },
+              {
+                "id": "53427699_17",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Georges Mikautadze",
+                "teamName": "Villarreal",
+                "text": "Sergi Cardona"
               }
             ]
           }
