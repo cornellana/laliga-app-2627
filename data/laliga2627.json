@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T19:07:36Z",
+  "lastUpdated": "2026-10-10T19:09:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,8 +39783,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
-          "statusText": "First Half",
+          "clock": "7'",
+          "statusText": "In Progress",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -39970,21 +39970,13 @@
               ]
             },
             "awayLineup": {
-              "formation": "5-3-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "119620",
                   "jersey": 25,
                   "name": "Péter Gulácsi",
                   "position": "G",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "242710",
-                  "jersey": 8,
-                  "name": "Juan Foyth",
-                  "position": "CD",
                   "isStarter": true,
                   "events": null
                 },
@@ -40021,34 +40013,26 @@
                   "events": null
                 },
                 {
-                  "id": "255889",
-                  "jersey": 18,
-                  "name": "Pape Gueye",
-                  "position": "CM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "307390",
-                  "jersey": 10,
-                  "name": "Alberto Moleiro",
-                  "position": "CM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "240623",
                   "jersey": 14,
                   "name": "Santi Comesaña",
-                  "position": "CM-R",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "331047",
-                  "jersey": 11,
-                  "name": "Ilias Akhomach",
-                  "position": "CF-L",
+                  "id": "255889",
+                  "jersey": 18,
+                  "name": "Pape Gueye",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "242710",
+                  "jersey": 8,
+                  "name": "Juan Foyth",
+                  "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
@@ -40056,7 +40040,23 @@
                   "id": "192133",
                   "jersey": 22,
                   "name": "Ayoze Pérez",
-                  "position": "CF-R",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "307390",
+                  "jersey": 10,
+                  "name": "Alberto Moleiro",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "331047",
+                  "jersey": 11,
+                  "name": "Ilias Akhomach",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
