@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T17:05:25Z",
+  "lastUpdated": "2026-10-10T17:06:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,8 +39231,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "31'",
-          "statusText": "In Progress",
+          "clock": "32'",
+          "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -39605,6 +39605,15 @@
                 "minute": 2,
                 "extraTime": null,
                 "playerName": "Anthony Gordon",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "53401341_2",
+                "type": "GOAL",
+                "minute": 30,
+                "extraTime": null,
+                "playerName": "Gabriel Jesus",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -44031,6 +44040,12 @@
       "penalties": null
     },
     {
+      "player": "Gabriel Jesus",
+      "team": "FC Barcelona",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Georges Mikautadze",
       "team": "Villarreal",
       "goals": 2,
@@ -44273,12 +44288,6 @@
     {
       "player": "Ferran Jutglà",
       "team": "Celta",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Gabriel Jesus",
-      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
