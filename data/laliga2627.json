@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T14:17:01Z",
+  "lastUpdated": "2026-10-10T14:18:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -38762,17 +38762,17 @@
                   "events": null
                 },
                 {
-                  "id": "181757",
-                  "jersey": 11,
-                  "name": "Toni Martínez",
+                  "id": "207236",
+                  "jersey": 15,
+                  "name": "Lucas Boyé",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "207236",
-                  "jersey": 15,
-                  "name": "Lucas Boyé",
+                  "id": "181757",
+                  "jersey": 11,
+                  "name": "Toni Martínez",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
@@ -38887,17 +38887,17 @@
                   "events": null
                 },
                 {
-                  "id": "96970",
-                  "jersey": 21,
-                  "name": "Cristian Romero",
+                  "id": "214888",
+                  "jersey": 24,
+                  "name": "Robin Le Normand",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "214888",
-                  "jersey": 24,
-                  "name": "Robin Le Normand",
+                  "id": "96970",
+                  "jersey": 21,
+                  "name": "Cristian Romero",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -38919,10 +38919,10 @@
                   "events": null
                 },
                 {
-                  "id": "140791",
-                  "jersey": 6,
-                  "name": "Koke",
-                  "position": "CM-L",
+                  "id": "336634",
+                  "jersey": 8,
+                  "name": "Pablo Barrios",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -38930,22 +38930,14 @@
                   "id": "290802",
                   "jersey": 5,
                   "name": "Johnny Cardoso",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "336634",
-                  "jersey": 8,
-                  "name": "Pablo Barrios",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "323838",
-                  "jersey": 20,
-                  "name": "Giuliano Simeone",
+                  "id": "140791",
+                  "jersey": 6,
+                  "name": "Koke",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -38954,7 +38946,7 @@
                   "id": "273499",
                   "jersey": 15,
                   "name": "Jonathan David",
-                  "position": "CF-L",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
@@ -38962,7 +38954,15 @@
                   "id": "229645",
                   "jersey": 11,
                   "name": "Ademola Lookman",
-                  "position": "CF-R",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "323838",
+                  "jersey": 20,
+                  "name": "Giuliano Simeone",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
