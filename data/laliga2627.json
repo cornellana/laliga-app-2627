@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T18:28:31Z",
+  "lastUpdated": "2026-10-10T18:29:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,7 +39231,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -39760,6 +39760,15 @@
                 "playerName": "Saba Sazonov",
                 "teamName": "Getafe",
                 "text": "Kiko Femenía"
+              },
+              {
+                "id": "53408715_36",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Fermín López",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
