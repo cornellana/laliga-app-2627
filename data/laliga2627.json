@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:52:39Z",
+  "lastUpdated": "2026-10-10T20:54:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+5'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40309,6 +40309,15 @@
                 "minute": 87,
                 "extraTime": null,
                 "playerName": "Aurélien Tchouaméni",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "53431734_28",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Kylian Mbappé",
                 "teamName": "Real Madrid",
                 "text": null
               }
