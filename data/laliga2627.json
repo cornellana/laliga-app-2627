@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T16:03:54Z",
+  "lastUpdated": "2026-10-10T16:04:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38679,9 +38679,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "86'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39199,6 +39199,15 @@
                 "playerName": "Aitor Mañas",
                 "teamName": "Alavés",
                 "text": "Denis Suárez"
+              },
+              {
+                "id": "53397467_26",
+                "type": "GOAL",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Cristian Romero",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
@@ -43841,6 +43850,12 @@
       "team": "Málaga",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Cristian Romero",
+      "team": "Atlético",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Diego Villares",
