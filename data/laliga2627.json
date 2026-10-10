@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T17:22:36Z",
+  "lastUpdated": "2026-10-10T17:23:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,7 +39231,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+3'",
+          "clock": "45'+4'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -39627,7 +39627,7 @@
                 "text": null
               },
               {
-                "id": "53402151_7",
+                "id": "53402151_8",
                 "type": "SUBSTITUTION",
                 "minute": 37,
                 "extraTime": null,
