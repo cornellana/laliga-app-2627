@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T17:11:52Z",
+  "lastUpdated": "2026-10-10T17:12:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,8 +39231,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "38'",
-          "statusText": "First Half",
+          "clock": "39'",
+          "statusText": "In Progress",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -39623,6 +39623,15 @@
                 "minute": 34,
                 "extraTime": null,
                 "playerName": "Kiko Femenía",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "53402151_7",
+                "type": "SUBSTITUTION",
+                "minute": 37,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Getafe",
                 "text": null
               }
