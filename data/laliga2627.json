@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T17:12:56Z",
+  "lastUpdated": "2026-10-10T17:14:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,8 +39231,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "39'",
-          "statusText": "In Progress",
+          "clock": "40'",
+          "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -39631,9 +39631,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 37,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Abdel Abqar",
                 "teamName": "Getafe",
-                "text": null
+                "text": "Zaid Romero because of an injury"
               }
             ]
           }
