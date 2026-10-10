@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:57:43Z",
+  "lastUpdated": "2026-10-10T20:59:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39780,11 +39780,11 @@
           "away": "Villarreal",
           "jornada": 8,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-0",
-          "state": "in",
-          "clock": "90'+8'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
