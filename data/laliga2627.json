@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:31:26Z",
+  "lastUpdated": "2026-10-10T20:33:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39781,9 +39781,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40241,9 +40241,9 @@
                 "text": "Sergi Cardona"
               },
               {
-                "id": "53428084_18",
-                "type": "GOAL",
-                "minute": 71,
+                "id": "53428619_20",
+                "type": "RED_CARD",
+                "minute": 73,
                 "extraTime": null,
                 "playerName": "Vinícius Júnior",
                 "teamName": "Real Madrid",
@@ -44734,12 +44734,6 @@
       "penalties": null
     },
     {
-      "player": "Vinícius Júnior",
-      "team": "Real Madrid",
-      "goals": 2,
-      "penalties": null
-    },
-    {
       "player": "Álvaro García",
       "team": "Rayo",
       "goals": 2,
@@ -45168,6 +45162,12 @@
     {
       "player": "Ville Koski",
       "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Vinícius Júnior",
+      "team": "Real Madrid",
       "goals": 1,
       "penalties": null
     },
