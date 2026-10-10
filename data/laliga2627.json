@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T18:02:41Z",
+  "lastUpdated": "2026-10-10T18:05:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,7 +39231,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "66'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -39670,6 +39670,33 @@
                 "playerName": "Pedri",
                 "teamName": "FC Barcelona",
                 "text": "Dani Olmo"
+              },
+              {
+                "id": "53406176_21",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Martín Satriano",
+                "teamName": "Getafe",
+                "text": "Iván Azón"
+              },
+              {
+                "id": "53406177_22",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Davinchi",
+                "teamName": "Getafe",
+                "text": "Johan Mojica"
+              },
+              {
+                "id": "53406178_23",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Sebastián Boselli",
+                "teamName": "Getafe",
+                "text": "Andrés García"
               }
             ]
           }
