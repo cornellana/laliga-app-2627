@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T14:15:56Z",
+  "lastUpdated": "2026-10-10T14:17:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -38722,17 +38722,17 @@
                   "events": null
                 },
                 {
-                  "id": "163068",
-                  "jersey": 4,
-                  "name": "Denis Suárez",
+                  "id": "106326",
+                  "jersey": 19,
+                  "name": "Pablo Ibáñez",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "106326",
-                  "jersey": 19,
-                  "name": "Pablo Ibáñez",
+                  "id": "163068",
+                  "jersey": 4,
+                  "name": "Denis Suárez",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -38876,7 +38876,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "149622",
