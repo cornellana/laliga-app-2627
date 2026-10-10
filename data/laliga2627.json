@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T18:10:13Z",
+  "lastUpdated": "2026-10-10T18:11:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39229,9 +39229,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "3-0",
           "state": "in",
-          "clock": "73'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -39724,6 +39724,15 @@
                 "playerName": "Karim Adeyemi",
                 "teamName": "FC Barcelona",
                 "text": "Anthony Gordon"
+              },
+              {
+                "id": "53406813_29",
+                "type": "GOAL",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Jules Koundé",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -44468,6 +44477,12 @@
     {
       "player": "Juan Iglesias",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Jules Koundé",
+      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
