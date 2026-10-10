@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:48:55Z",
+  "lastUpdated": "2026-10-10T15:49:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39178,9 +39178,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ville Koski",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Nicolás Valentini"
               }
             ]
           }
