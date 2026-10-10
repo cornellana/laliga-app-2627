@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:38:10Z",
+  "lastUpdated": "2026-10-10T15:39:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39129,9 +39129,9 @@
                 "text": "Pablo Barrios"
               },
               {
-                "id": "53393219_12",
-                "type": "YELLOW_CARD",
-                "minute": 59,
+                "id": "53393529_15",
+                "type": "RED_CARD",
+                "minute": 61,
                 "extraTime": null,
                 "playerName": "Ángel Pérez",
                 "teamName": "Alavés",
