@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:47:51Z",
+  "lastUpdated": "2026-10-10T15:48:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39172,6 +39172,15 @@
                 "playerName": "Ander Guevara",
                 "teamName": "Alavés",
                 "text": "Lucas Boyé"
+              },
+              {
+                "id": "53395446_23",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
