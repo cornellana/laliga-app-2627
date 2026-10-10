@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T16:07:07Z",
+  "lastUpdated": "2026-10-10T16:08:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "In Progress",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
