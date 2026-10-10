@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:39:37Z",
+  "lastUpdated": "2026-10-10T20:41:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "80'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40257,6 +40257,15 @@
                 "playerName": "Eduardo Camavinga",
                 "teamName": "Real Madrid",
                 "text": "Arda Güler"
+              },
+              {
+                "id": "53430109_22",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Ibrahima Konaté",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
