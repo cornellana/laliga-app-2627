@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:06:26Z",
+  "lastUpdated": "2026-10-10T15:07:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,8 +38681,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "45'+6'",
-          "statusText": "First Half",
+          "clock": "45'+7'",
+          "statusText": "Halftime",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
@@ -39097,7 +39097,7 @@
                 "type": "PENALTY",
                 "minute": 45,
                 "extraTime": 6,
-                "playerName": null,
+                "playerName": "Lucas Boyé",
                 "teamName": "Alavés",
                 "text": null
               }
@@ -43444,6 +43444,12 @@
       "penalties": null
     },
     {
+      "player": "Lucas Boyé",
+      "team": "Alavés",
+      "goals": 5,
+      "penalties": 1
+    },
+    {
       "player": "Pierre-Emerick Aubameyang",
       "team": "Deportivo",
       "goals": 5,
@@ -43452,12 +43458,6 @@
     {
       "player": "Fermín López",
       "team": "FC Barcelona",
-      "goals": 4,
-      "penalties": null
-    },
-    {
-      "player": "Lucas Boyé",
-      "team": "Alavés",
       "goals": 4,
       "penalties": null
     },
