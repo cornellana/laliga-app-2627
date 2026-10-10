@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:47:25Z",
+  "lastUpdated": "2026-10-10T20:48:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40295,7 +40295,16 @@
                 "text": "Yan Diomande"
               },
               {
-                "id": "53430960_26",
+                "id": "53431085_26",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Nizar",
+                "teamName": "Villarreal",
+                "text": "Alberto Moleiro"
+              },
+              {
+                "id": "53430960_27",
                 "type": "YELLOW_CARD",
                 "minute": 87,
                 "extraTime": null,
