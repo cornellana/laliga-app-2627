@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T14:48:10Z",
+  "lastUpdated": "2026-10-10T14:49:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38679,9 +38679,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "33'",
+          "clock": "34'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39064,7 +39064,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53383407_1",
+                "type": "GOAL",
+                "minute": 33,
+                "extraTime": null,
+                "playerName": "Alejandro Grimaldo",
+                "teamName": "Atlético",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -43431,6 +43441,12 @@
       "penalties": null
     },
     {
+      "player": "Alejandro Grimaldo",
+      "team": "Atlético",
+      "goals": 3,
+      "penalties": 2
+    },
+    {
       "player": "Jonathan David",
       "team": "Atlético",
       "goals": 3,
@@ -43477,12 +43493,6 @@
       "team": "Villarreal",
       "goals": 2,
       "penalties": null
-    },
-    {
-      "player": "Alejandro Grimaldo",
-      "team": "Atlético",
-      "goals": 2,
-      "penalties": 2
     },
     {
       "player": "Ander Barrenetxea",
