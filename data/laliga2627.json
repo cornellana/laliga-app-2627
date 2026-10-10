@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T17:58:57Z",
+  "lastUpdated": "2026-10-10T18:00:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,7 +39231,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -39652,6 +39652,24 @@
                 "playerName": "Dani Olmo",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "53405839_17",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Fermín López",
+                "teamName": "FC Barcelona",
+                "text": "Gavi"
+              },
+              {
+                "id": "53405840_18",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Pedri",
+                "teamName": "FC Barcelona",
+                "text": "Dani Olmo"
               }
             ]
           }
