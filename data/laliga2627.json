@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T19:22:33Z",
+  "lastUpdated": "2026-10-10T19:24:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "19'",
+          "clock": "21'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40166,6 +40166,15 @@
                 "extraTime": null,
                 "playerName": "Renato Veiga",
                 "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "53416708_2",
+                "type": "YELLOW_CARD",
+                "minute": 19,
+                "extraTime": null,
+                "playerName": "Jude Bellingham",
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
