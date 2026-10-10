@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:05:22Z",
+  "lastUpdated": "2026-10-10T15:06:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38679,9 +38679,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "45'+5'",
+          "clock": "45'+6'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39090,6 +39090,15 @@
                 "extraTime": 1,
                 "playerName": "Robin Le Normand",
                 "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "53385802_6",
+                "type": "PENALTY",
+                "minute": 45,
+                "extraTime": 6,
+                "playerName": null,
+                "teamName": "Alavés",
                 "text": null
               }
             ]
