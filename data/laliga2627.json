@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:42:28Z",
+  "lastUpdated": "2026-10-10T15:43:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39145,6 +39145,33 @@
                 "playerName": "Dávid Hancko",
                 "teamName": "Atlético",
                 "text": "Robin Le Normand"
+              },
+              {
+                "id": "53394294_20",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Carlos Protesoni",
+                "teamName": "Alavés",
+                "text": "Antonio Blanco"
+              },
+              {
+                "id": "53394295_21",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Mariano Díaz",
+                "teamName": "Alavés",
+                "text": "Toni Martínez"
+              },
+              {
+                "id": "53394296_22",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Ander Guevara",
+                "teamName": "Alavés",
+                "text": "Lucas Boyé"
               }
             ]
           }
