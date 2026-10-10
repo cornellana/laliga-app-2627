@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:51:03Z",
+  "lastUpdated": "2026-10-10T15:52:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38681,7 +38681,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -39187,9 +39187,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 73,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alexander Sørloth",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Giuliano Simeone"
               }
             ]
           }
