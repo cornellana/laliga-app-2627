@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T19:24:37Z",
+  "lastUpdated": "2026-10-10T19:26:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "21'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -39970,7 +39970,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-3-3",
               "players": [
                 {
                   "id": "119620",
@@ -40013,18 +40013,10 @@
                   "events": null
                 },
                 {
-                  "id": "240623",
-                  "jersey": 14,
-                  "name": "Santi Comesaña",
-                  "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "255889",
                   "jersey": 18,
                   "name": "Pape Gueye",
-                  "position": "LM",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
@@ -40032,6 +40024,14 @@
                   "id": "242710",
                   "jersey": 8,
                   "name": "Juan Foyth",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "331047",
+                  "jersey": 11,
+                  "name": "Ilias Akhomach",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -40048,15 +40048,15 @@
                   "id": "307390",
                   "jersey": 10,
                   "name": "Alberto Moleiro",
-                  "position": "AM-L",
+                  "position": "LF",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "331047",
-                  "jersey": 11,
-                  "name": "Ilias Akhomach",
-                  "position": "AM-R",
+                  "id": "240623",
+                  "jersey": 14,
+                  "name": "Santi Comesaña",
+                  "position": "RF",
                   "isStarter": true,
                   "events": null
                 },
