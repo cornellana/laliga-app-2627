@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T18:21:29Z",
+  "lastUpdated": "2026-10-10T18:23:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39231,7 +39231,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "85'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -39748,9 +39748,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 82,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Hamza Abdelkarim",
                 "teamName": "FC Barcelona",
-                "text": null
+                "text": "Gabriel Jesus"
+              },
+              {
+                "id": "53408135_34",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Saba Sazonov",
+                "teamName": "Getafe",
+                "text": "Kiko Femenía"
               }
             ]
           }
