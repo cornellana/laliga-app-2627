@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T16:36:27Z",
+  "lastUpdated": "2026-10-10T16:37:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39229,9 +39229,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -39598,7 +39598,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53398937_1",
+                "type": "GOAL",
+                "minute": 2,
+                "extraTime": null,
+                "playerName": "Anthony Gordon",
+                "teamName": "FC Barcelona",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -44157,6 +44167,12 @@
       "team": "Racing",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Anthony Gordon",
+      "team": "FC Barcelona",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Antonio Rüdiger",
