@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:45:51Z",
+  "lastUpdated": "2026-10-10T20:47:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -39783,7 +39783,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "86'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -40293,6 +40293,15 @@
                 "playerName": "Denzel Dumfries",
                 "teamName": "Real Madrid",
                 "text": "Yan Diomande"
+              },
+              {
+                "id": "53430960_26",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Aurélien Tchouaméni",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
