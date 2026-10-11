@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T14:47:04Z",
+  "lastUpdated": "2026-10-11T14:48:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,8 +40854,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "30'",
-          "statusText": "First Half",
+          "clock": "31'",
+          "statusText": "In Progress",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -41049,7 +41049,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "300926",
@@ -41092,10 +41092,10 @@
                   "events": null
                 },
                 {
-                  "id": "331742",
-                  "jersey": 8,
-                  "name": "Diego Villares",
-                  "position": "CM-L",
+                  "id": "324166",
+                  "jersey": 19,
+                  "name": "Luismi Cruz",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -41103,22 +41103,14 @@
                   "id": "297353",
                   "jersey": 21,
                   "name": "Mario Soriano Carreno",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "312392",
-                  "jersey": 10,
-                  "name": "Yeremay Hernández",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "375390",
-                  "jersey": 11,
-                  "name": "David Mella",
+                  "id": "331742",
+                  "jersey": 8,
+                  "name": "Diego Villares",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -41127,15 +41119,23 @@
                   "id": "414299",
                   "jersey": 32,
                   "name": "Bil Nsongo",
-                  "position": "CF-L",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "324166",
-                  "jersey": 19,
-                  "name": "Luismi Cruz",
-                  "position": "CF-R",
+                  "id": "312392",
+                  "jersey": 10,
+                  "name": "Yeremay Hernández",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "375390",
+                  "jersey": 11,
+                  "name": "David Mella",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -41237,7 +41237,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53487212_1",
+                "type": "GOAL",
+                "minute": 29,
+                "extraTime": null,
+                "playerName": "Jon Martín",
+                "teamName": "R. Sociedad",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -45916,6 +45926,12 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Jon Martín",
+      "team": "R. Sociedad",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "João Cancelo",
