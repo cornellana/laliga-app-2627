@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T16:07:01Z",
+  "lastUpdated": "2026-10-11T16:08:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41390,6 +41390,15 @@
                 "playerName": "Héctor Fort",
                 "teamName": "R. Sociedad",
                 "text": "Ander Barrenetxea"
+              },
+              {
+                "id": "53493673_22",
+                "type": "RED_CARD",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Lorenzo Amatucci",
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
