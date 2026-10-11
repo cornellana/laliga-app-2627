@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:54:09Z",
+  "lastUpdated": "2026-10-11T15:55:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41370,6 +41370,15 @@
                 "minute": 71,
                 "extraTime": null,
                 "playerName": "José María Giménez",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "53492513_20",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Deportivo",
                 "text": null
               }
