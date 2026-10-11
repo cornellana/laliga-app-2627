@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:25:36Z",
+  "lastUpdated": "2026-10-11T20:26:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42017,9 +42017,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "2-2",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42510,6 +42510,15 @@
                 "playerName": "Aarón Martín",
                 "teamName": "Racing",
                 "text": "Pablo Ramón"
+              },
+              {
+                "id": "53513667_21",
+                "type": "GOAL",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "David Otorbi",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
@@ -47083,6 +47092,12 @@
     },
     {
       "player": "Dani Raba",
+      "team": "Valencia",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "David Otorbi",
       "team": "Valencia",
       "goals": 1,
       "penalties": null
