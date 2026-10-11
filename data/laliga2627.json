@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:53:45Z",
+  "lastUpdated": "2026-10-11T20:54:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,7 +42019,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42573,6 +42573,15 @@
                 "playerName": "Asier Villalibre",
                 "teamName": "Racing",
                 "text": "Yassir Zabiri"
+              },
+              {
+                "id": "53518134_28",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Iván Martín",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
