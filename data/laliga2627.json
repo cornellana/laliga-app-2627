@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T16:11:18Z",
+  "lastUpdated": "2026-10-11T16:12:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "90'+6'",
+          "clock": "90'+7'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41398,6 +41398,15 @@
                 "extraTime": null,
                 "playerName": "Lorenzo Amatucci",
                 "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "53494156_23",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Yangel Herrera",
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
