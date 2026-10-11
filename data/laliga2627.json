@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:09:16Z",
+  "lastUpdated": "2026-10-11T18:10:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41906,6 +41906,24 @@
                 "playerName": "Isco",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "53501913_20",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Antony",
+                "teamName": "Betis",
+                "text": "Rodrigo Riquelme"
+              },
+              {
+                "id": "53501914_21",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Dani Ceballos",
+                "teamName": "Betis",
+                "text": "Isco"
               }
             ]
           }
