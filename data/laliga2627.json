@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T14:57:49Z",
+  "lastUpdated": "2026-10-11T14:58:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,8 +40854,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "40'",
-          "statusText": "First Half",
+          "clock": "42'",
+          "statusText": "In Progress",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -41254,6 +41254,15 @@
                 "extraTime": null,
                 "playerName": "Arsen Zakharyan",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "53488586_3",
+                "type": "YELLOW_CARD",
+                "minute": 40,
+                "extraTime": null,
+                "playerName": "David Mella",
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
