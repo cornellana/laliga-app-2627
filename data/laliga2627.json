@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:29:42Z",
+  "lastUpdated": "2026-10-11T18:30:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41420,9 +41420,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "4-2",
+          "result": "5-2",
           "state": "in",
-          "clock": "90'+5'",
+          "clock": "90'+6'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41987,6 +41987,15 @@
                 "playerName": "José Antonio Morante",
                 "teamName": "Betis",
                 "text": "Abde Ezzalzouli"
+              },
+              {
+                "id": "53503130_29",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "José Antonio Morante",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
@@ -46673,6 +46682,12 @@
     {
       "player": "Jon Martín",
       "team": "R. Sociedad",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "José Antonio Morante",
+      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
