@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:05:20Z",
+  "lastUpdated": "2026-10-11T17:06:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41420,9 +41420,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "31'",
+          "clock": "32'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41796,6 +41796,15 @@
                 "minute": 10,
                 "extraTime": null,
                 "playerName": "Isco",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "53498355_2",
+                "type": "GOAL",
+                "minute": 31,
+                "extraTime": null,
+                "playerName": "Abde Ezzalzouli",
                 "teamName": "Betis",
                 "text": null
               }
@@ -46122,6 +46131,12 @@
       "penalties": null
     },
     {
+      "player": "Abde Ezzalzouli",
+      "team": "Betis",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Adrián Niño",
       "team": "Málaga",
       "goals": 2,
@@ -46238,12 +46253,6 @@
     {
       "player": "Aaron Mayol",
       "team": "Valencia",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Abde Ezzalzouli",
-      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
