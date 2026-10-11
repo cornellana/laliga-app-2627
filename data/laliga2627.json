@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:46:11Z",
+  "lastUpdated": "2026-10-11T20:47:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,7 +42019,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42537,6 +42537,24 @@
                 "playerName": "Pablo García",
                 "teamName": "Racing",
                 "text": "Sergio Canales"
+              },
+              {
+                "id": "53516905_24",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "53516907_25",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
