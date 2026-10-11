@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T12:04:05Z",
+  "lastUpdated": "2026-10-11T12:05:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40340,13 +40340,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
           "details": {
             "homeLineup": {
-              "formation": "4-3-3",
+              "formation": "5-3-2",
               "players": [
                 {
                   "id": "173749",
@@ -40357,17 +40357,25 @@
                   "events": null
                 },
                 {
-                  "id": "421310",
-                  "jersey": 47,
-                  "name": "Javier Morcillo",
+                  "id": "265995",
+                  "jersey": 23,
+                  "name": "Víctor Chust",
+                  "position": "CD",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "301406",
+                  "jersey": 8,
+                  "name": "Marc Aguado",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "265995",
-                  "jersey": 23,
-                  "name": "Víctor Chust",
+                  "id": "421310",
+                  "jersey": 47,
+                  "name": "Javier Morcillo",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -40389,34 +40397,10 @@
                   "events": null
                 },
                 {
-                  "id": "301406",
-                  "jersey": 8,
-                  "name": "Marc Aguado",
-                  "position": "CM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "273424",
                   "jersey": 12,
                   "name": "Gonzalo Villar",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "190291",
-                  "jersey": 18,
-                  "name": "Thomas Lemar",
-                  "position": "RM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "301684",
-                  "jersey": 14,
-                  "name": "Fer Niño",
-                  "position": "F",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
@@ -40424,7 +40408,23 @@
                   "id": "297358",
                   "jersey": 11,
                   "name": "Germán Valera",
-                  "position": "LF",
+                  "position": "CM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "190291",
+                  "jersey": 18,
+                  "name": "Thomas Lemar",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "301684",
+                  "jersey": 14,
+                  "name": "Fer Niño",
+                  "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -40432,7 +40432,7 @@
                   "id": "259916",
                   "jersey": 20,
                   "name": "José Antonio Morente",
-                  "position": "RF",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
