@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:47:47Z",
+  "lastUpdated": "2026-10-11T17:48:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "53'",
+          "clock": "54'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41858,7 +41858,7 @@
                 "type": "GOAL",
                 "minute": 51,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ante Budimir",
                 "teamName": "Osasuna",
                 "text": null
               }
@@ -46095,6 +46095,12 @@
       "penalties": null
     },
     {
+      "player": "Ante Budimir",
+      "team": "Osasuna",
+      "goals": 6,
+      "penalties": 3
+    },
+    {
       "player": "Roberto Fernández",
       "team": "Espanyol",
       "goals": 6,
@@ -46105,12 +46111,6 @@
       "team": "Racing",
       "goals": 6,
       "penalties": null
-    },
-    {
-      "player": "Ante Budimir",
-      "team": "Osasuna",
-      "goals": 5,
-      "penalties": 3
     },
     {
       "player": "Fer Niño",
