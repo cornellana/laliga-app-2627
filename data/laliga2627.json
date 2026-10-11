@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:23:27Z",
+  "lastUpdated": "2026-10-11T20:24:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,8 +42019,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "63'",
-          "statusText": "In Progress",
+          "clock": "64'",
+          "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -42498,18 +42498,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Andrés Martín",
                 "teamName": "Racing",
-                "text": null
+                "text": "André Almeida"
               },
               {
                 "id": "53513244_20",
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Aarón Martín",
                 "teamName": "Racing",
-                "text": null
+                "text": "Pablo Ramón"
               }
             ]
           }
