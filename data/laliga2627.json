@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:47:43Z",
+  "lastUpdated": "2026-10-11T15:48:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,8 +40854,8 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "72'",
-          "statusText": "In Progress",
+          "clock": "74'",
+          "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -41363,6 +41363,15 @@
                 "playerName": "Igor Zubeldia",
                 "teamName": "R. Sociedad",
                 "text": "Carlos Soler"
+              },
+              {
+                "id": "53491725_19",
+                "type": "YELLOW_CARD",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "José María Giménez",
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
