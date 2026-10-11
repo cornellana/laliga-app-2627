@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T16:03:48Z",
+  "lastUpdated": "2026-10-11T16:04:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41381,6 +41381,15 @@
                 "playerName": "Jonathan Asp Jensen",
                 "teamName": "Deportivo",
                 "text": "Giacomo Quagliata"
+              },
+              {
+                "id": "53493463_21",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Héctor Fort",
+                "teamName": "R. Sociedad",
+                "text": "Ander Barrenetxea"
               }
             ]
           }
