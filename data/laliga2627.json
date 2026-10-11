@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:46:43Z",
+  "lastUpdated": "2026-10-11T17:47:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41420,9 +41420,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "3-0",
+          "result": "3-1",
           "state": "in",
-          "clock": "52'",
+          "clock": "53'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41851,6 +41851,15 @@
                 "extraTime": null,
                 "playerName": "Diego Llorente",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "53500857_10",
+                "type": "GOAL",
+                "minute": 51,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
                 "text": null
               }
             ]
