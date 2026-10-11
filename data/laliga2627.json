@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:18:05Z",
+  "lastUpdated": "2026-10-11T20:20:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,7 +42019,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42473,6 +42473,24 @@
                 "extraTime": null,
                 "playerName": "Iván Martín",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "53512735_17",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "53512736_18",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
                 "text": null
               }
             ]
