@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T13:43:30Z",
+  "lastUpdated": "2026-10-11T13:44:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40340,7 +40340,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -40813,6 +40813,15 @@
                 "playerName": "Aleix Febas",
                 "teamName": "Celta",
                 "text": null
+              },
+              {
+                "id": "53480850_17",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Hugo Burcio",
+                "teamName": "Celta",
+                "text": "Aleix Febas"
               }
             ]
           }
