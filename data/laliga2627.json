@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:02:50Z",
+  "lastUpdated": "2026-10-11T18:03:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41903,7 +41903,7 @@
                 "type": "GOAL",
                 "minute": 67,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Isco",
                 "teamName": "Betis",
                 "text": null
               }
@@ -46290,6 +46290,12 @@
       "penalties": null
     },
     {
+      "player": "Isco",
+      "team": "Betis",
+      "goals": 2,
+      "penalties": 1
+    },
+    {
       "player": "Iván Romero",
       "team": "Levante",
       "goals": 2,
@@ -46552,12 +46558,6 @@
       "team": "Sevilla",
       "goals": 1,
       "penalties": null
-    },
-    {
-      "player": "Isco",
-      "team": "Betis",
-      "goals": 1,
-      "penalties": 1
     },
     {
       "player": "Iván Azón",
