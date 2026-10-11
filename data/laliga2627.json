@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:14:38Z",
+  "lastUpdated": "2026-10-11T18:15:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41939,9 +41939,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 79,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Iker Muñoz",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Raúl García because of an injury"
               }
             ]
           }
