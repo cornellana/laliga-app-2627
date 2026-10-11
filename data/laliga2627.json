@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T13:41:21Z",
+  "lastUpdated": "2026-10-11T13:42:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40340,7 +40340,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -40804,6 +40804,15 @@
                 "playerName": "Lucas Cepeda",
                 "teamName": "Elche",
                 "text": "Fer Niño"
+              },
+              {
+                "id": "53480631_16",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Aleix Febas",
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
