@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T12:05:10Z",
+  "lastUpdated": "2026-10-11T12:06:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40340,7 +40340,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -40365,9 +40365,9 @@
                   "events": null
                 },
                 {
-                  "id": "301406",
-                  "jersey": 8,
-                  "name": "Marc Aguado",
+                  "id": "323286",
+                  "jersey": 3,
+                  "name": "Roy Revivo",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
@@ -40381,9 +40381,9 @@
                   "events": null
                 },
                 {
-                  "id": "323286",
-                  "jersey": 3,
-                  "name": "Roy Revivo",
+                  "id": "297358",
+                  "jersey": 11,
+                  "name": "Germán Valera",
                   "position": "LB",
                   "isStarter": true,
                   "events": null
@@ -40405,9 +40405,9 @@
                   "events": null
                 },
                 {
-                  "id": "297358",
-                  "jersey": 11,
-                  "name": "Germán Valera",
+                  "id": "301406",
+                  "jersey": 8,
+                  "name": "Marc Aguado",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
