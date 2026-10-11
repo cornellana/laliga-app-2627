@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:37:02Z",
+  "lastUpdated": "2026-10-11T15:38:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40852,9 +40852,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "3-0",
+          "result": "3-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41327,6 +41327,15 @@
                 "playerName": "Adama Traoré",
                 "teamName": "Deportivo",
                 "text": "Luismi Cruz"
+              },
+              {
+                "id": "53490883_13",
+                "type": "GOAL",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Mario Soriano",
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
@@ -46095,6 +46104,12 @@
     {
       "player": "Marcos Fernández",
       "team": "Espanyol",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Mario Soriano",
+      "team": "Deportivo",
       "goals": 1,
       "penalties": null
     },
