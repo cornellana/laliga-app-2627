@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T14:50:17Z",
+  "lastUpdated": "2026-10-11T14:51:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40852,9 +40852,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "33'",
+          "clock": "34'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41244,6 +41244,15 @@
                 "minute": 29,
                 "extraTime": null,
                 "playerName": "Jon Martín",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "53487749_2",
+                "type": "GOAL",
+                "minute": 34,
+                "extraTime": null,
+                "playerName": "Arsen Zakharyan",
                 "teamName": "R. Sociedad",
                 "text": null
               }
@@ -45774,6 +45783,12 @@
     {
       "player": "Arda Güler",
       "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Arsen Zakharyan",
+      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
