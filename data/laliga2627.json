@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T13:30:37Z",
+  "lastUpdated": "2026-10-11T13:31:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40340,7 +40340,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -40759,6 +40759,51 @@
                 "playerName": "Borja Iglesias",
                 "teamName": "Celta",
                 "text": "Pablo Durán"
+              },
+              {
+                "id": "53479305_11",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Williot Swedberg",
+                "teamName": "Celta",
+                "text": "Ferran Jutglà"
+              },
+              {
+                "id": "53479306_12",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Couhaib Driouech",
+                "teamName": "Celta",
+                "text": "Hugo Álvarez"
+              },
+              {
+                "id": "53479307_13",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Sergio Carreira",
+                "teamName": "Celta",
+                "text": "Javi Galán"
+              },
+              {
+                "id": "53479308_14",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Martim Neto",
+                "teamName": "Elche",
+                "text": "Gonzalo Villar"
+              },
+              {
+                "id": "53479309_15",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Lucas Cepeda",
+                "teamName": "Elche",
+                "text": "Fer Niño"
               }
             ]
           }
