@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:44:30Z",
+  "lastUpdated": "2026-10-11T15:45:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41351,8 +41351,17 @@
                 "type": "PENALTY",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Yeremay Hernández",
                 "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "53491494_18",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
@@ -46280,6 +46289,12 @@
       "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
+    },
+    {
+      "player": "Yeremay Hernández",
+      "team": "Deportivo",
+      "goals": 1,
+      "penalties": 1
     },
     {
       "player": "Youssouf Fofana",
