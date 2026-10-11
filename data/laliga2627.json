@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:04:58Z",
+  "lastUpdated": "2026-10-11T18:06:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,8 +41422,8 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "70'",
-          "statusText": "Second Half",
+          "clock": "72'",
+          "statusText": "In Progress",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
