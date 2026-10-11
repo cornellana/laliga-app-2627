@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:51:00Z",
+  "lastUpdated": "2026-10-11T17:52:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41420,9 +41420,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "3-1",
+          "result": "3-2",
           "state": "in",
-          "clock": "56'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41846,10 +41846,10 @@
               },
               {
                 "id": "53500690_9",
-                "type": "GOAL",
+                "type": "OWN_GOAL",
                 "minute": 48,
                 "extraTime": null,
-                "playerName": "Diego Llorente",
+                "playerName": "Ante Budimir",
                 "teamName": "Betis",
                 "text": null
               },
@@ -41859,6 +41859,15 @@
                 "minute": 51,
                 "extraTime": null,
                 "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "53501181_15",
+                "type": "GOAL",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Raúl García",
                 "teamName": "Osasuna",
                 "text": null
               }
@@ -46443,12 +46452,6 @@
       "penalties": null
     },
     {
-      "player": "Diego Llorente",
-      "team": "Betis",
-      "goals": 1,
-      "penalties": null
-    },
-    {
       "player": "Diego Villares",
       "team": "Deportivo",
       "goals": 1,
@@ -46709,6 +46712,12 @@
     {
       "player": "Ramón Terrats",
       "team": "Getafe",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Raúl García",
+      "team": "Osasuna",
       "goals": 1,
       "penalties": null
     },
