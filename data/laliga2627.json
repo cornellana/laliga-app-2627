@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:22:31Z",
+  "lastUpdated": "2026-10-11T17:23:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41423,7 +41423,7 @@
           "result": "2-0",
           "state": "in",
           "clock": "45'+3'",
-          "statusText": "First Half",
+          "statusText": "Halftime",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
@@ -41824,6 +41824,15 @@
                 "extraTime": null,
                 "playerName": "Unai Santos",
                 "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "53499662_5",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Cucho Hernández",
+                "teamName": "Betis",
                 "text": null
               }
             ]
