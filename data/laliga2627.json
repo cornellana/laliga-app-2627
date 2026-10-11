@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:22:22Z",
+  "lastUpdated": "2026-10-11T20:23:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,8 +42019,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "62'",
-          "statusText": "Second Half",
+          "clock": "63'",
+          "statusText": "In Progress",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -42492,6 +42492,24 @@
                 "playerName": "Harvey Elliott",
                 "teamName": "Valencia",
                 "text": "Dani Raba"
+              },
+              {
+                "id": "53513243_19",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "53513244_20",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
