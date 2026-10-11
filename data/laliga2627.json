@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:23:36Z",
+  "lastUpdated": "2026-10-11T17:40:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,8 +41422,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "In Progress",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
@@ -41834,6 +41834,15 @@
                 "playerName": "Cucho Hernández",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "53500501_7",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Asier Osambela",
+                "teamName": "Osasuna",
+                "text": "Unai Santos"
               }
             ]
           }
