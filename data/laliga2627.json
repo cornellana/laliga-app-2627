@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T16:35:17Z",
+  "lastUpdated": "2026-10-11T16:36:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41692,17 +41692,17 @@
                   "events": null
                 },
                 {
-                  "id": "207288",
-                  "jersey": 17,
-                  "name": "Ante Budimir",
+                  "id": "296163",
+                  "jersey": 9,
+                  "name": "Raúl García",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "296163",
-                  "jersey": 9,
-                  "name": "Raúl García",
+                  "id": "207288",
+                  "jersey": 17,
+                  "name": "Ante Budimir",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
