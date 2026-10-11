@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:48:21Z",
+  "lastUpdated": "2026-10-11T20:49:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,7 +42019,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42555,6 +42555,15 @@
                 "playerName": "Arnau Martínez",
                 "teamName": "Valencia",
                 "text": "Pablo Maffeo"
+              },
+              {
+                "id": "53517093_26",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Asier Villalibre",
+                "teamName": "Racing",
+                "text": "Yassir Zabiri"
               }
             ]
           }
