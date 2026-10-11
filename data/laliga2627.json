@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T14:32:02Z",
+  "lastUpdated": "2026-10-11T14:33:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "15'",
+          "clock": "16'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41108,9 +41108,9 @@
                   "events": null
                 },
                 {
-                  "id": "324166",
-                  "jersey": 19,
-                  "name": "Luismi Cruz",
+                  "id": "312392",
+                  "jersey": 10,
+                  "name": "Yeremay Hernández",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -41132,9 +41132,9 @@
                   "events": null
                 },
                 {
-                  "id": "312392",
-                  "jersey": 10,
-                  "name": "Yeremay Hernández",
+                  "id": "324166",
+                  "jersey": 19,
+                  "name": "Luismi Cruz",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
