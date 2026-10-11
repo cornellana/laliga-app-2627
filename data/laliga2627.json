@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:15:00Z",
+  "lastUpdated": "2026-10-11T17:16:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "41'",
+          "clock": "42'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41806,6 +41806,15 @@
                 "extraTime": null,
                 "playerName": "Abde Ezzalzouli",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "53499215_3",
+                "type": "YELLOW_CARD",
+                "minute": 41,
+                "extraTime": null,
+                "playerName": "Jon Moncayola",
+                "teamName": "Osasuna",
                 "text": null
               }
             ]
