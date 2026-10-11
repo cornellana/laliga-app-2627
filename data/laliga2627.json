@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T13:20:58Z",
+  "lastUpdated": "2026-10-11T13:22:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40340,7 +40340,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -40743,7 +40743,16 @@
                 "text": null
               },
               {
-                "id": "53477960_9",
+                "id": "53478211_9",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "53477960_10",
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
