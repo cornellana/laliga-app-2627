@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:20:22Z",
+  "lastUpdated": "2026-10-11T17:21:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+1'",
+          "clock": "45'+2'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41814,6 +41814,15 @@
                 "minute": 41,
                 "extraTime": null,
                 "playerName": "Jon Moncayola",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "53499537_4",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Unai Santos",
                 "teamName": "Osasuna",
                 "text": null
               }
