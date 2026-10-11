@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:45:34Z",
+  "lastUpdated": "2026-10-11T15:46:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41360,9 +41360,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Igor Zubeldia",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Carlos Soler"
               }
             ]
           }
