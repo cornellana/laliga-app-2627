@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T19:48:20Z",
+  "lastUpdated": "2026-10-11T19:49:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,7 +42019,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "45'+3'",
+          "clock": "45'+4'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42427,6 +42427,24 @@
                 "minute": 32,
                 "extraTime": null,
                 "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "53509793_8",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Guido Rodríguez",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "53509794_9",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Jorge Salinas",
                 "teamName": "Racing",
                 "text": null
               }
