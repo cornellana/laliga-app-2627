@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:05:20Z",
+  "lastUpdated": "2026-10-11T15:20:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41262,6 +41262,15 @@
                 "minute": 40,
                 "extraTime": null,
                 "playerName": "David Mella",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "53489764_5",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Deportivo",
                 "text": null
               }
