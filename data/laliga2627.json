@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T19:49:25Z",
+  "lastUpdated": "2026-10-11T19:50:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42020,7 +42020,7 @@
           "result": "1-1",
           "state": "in",
           "clock": "45'+4'",
-          "statusText": "First Half",
+          "statusText": "Halftime",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -42446,6 +42446,15 @@
                 "extraTime": 2,
                 "playerName": "Jorge Salinas",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "53509933_10",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 4,
+                "playerName": "Mouctar Diakhaby",
+                "teamName": "Valencia",
                 "text": null
               }
             ]
