@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:31:40Z",
+  "lastUpdated": "2026-10-11T15:32:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41282,6 +41282,24 @@
                 "playerName": "Gonçalo Guedes",
                 "teamName": "R. Sociedad",
                 "text": null
+              },
+              {
+                "id": "53490508_8",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Job Ochieng",
+                "teamName": "R. Sociedad",
+                "text": "Gonçalo Guedes"
+              },
+              {
+                "id": "53490509_9",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Mikel Oyarzabal",
+                "teamName": "R. Sociedad",
+                "text": "Arsen Zakharyan"
               }
             ]
           }
