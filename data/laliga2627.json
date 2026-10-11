@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:30:36Z",
+  "lastUpdated": "2026-10-11T15:31:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "55'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41279,7 +41279,7 @@
                 "type": "GOAL",
                 "minute": 54,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gonçalo Guedes",
                 "teamName": "R. Sociedad",
                 "text": null
               }
@@ -45912,6 +45912,12 @@
     {
       "player": "Germán Valera",
       "team": "Elche",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Gonçalo Guedes",
+      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
