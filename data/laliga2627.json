@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:01:45Z",
+  "lastUpdated": "2026-10-11T18:02:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41420,9 +41420,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "3-2",
+          "result": "4-2",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41896,6 +41896,15 @@
                 "extraTime": null,
                 "playerName": "Lucas Torró",
                 "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "53501626_19",
+                "type": "GOAL",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
                 "text": null
               }
             ]
