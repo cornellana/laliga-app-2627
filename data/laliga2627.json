@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T14:19:08Z",
+  "lastUpdated": "2026-10-11T14:20:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -40919,9 +40919,9 @@
                   "events": null
                 },
                 {
-                  "id": "307487",
-                  "jersey": 23,
-                  "name": "Arsen Zakharyan",
+                  "id": "213141",
+                  "jersey": 11,
+                  "name": "Gonçalo Guedes",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -40935,17 +40935,17 @@
                   "events": null
                 },
                 {
-                  "id": "306263",
-                  "jersey": 24,
-                  "name": "Luka Sucic",
+                  "id": "307487",
+                  "jersey": 23,
+                  "name": "Arsen Zakharyan",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "213141",
-                  "jersey": 11,
-                  "name": "Gonçalo Guedes",
+                  "id": "306263",
+                  "jersey": 24,
+                  "name": "Luka Sucic",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
