@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:42:24Z",
+  "lastUpdated": "2026-10-11T17:43:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41420,9 +41420,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "3-0",
           "state": "in",
-          "clock": "48'",
+          "clock": "49'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41843,6 +41843,15 @@
                 "playerName": "Asier Osambela",
                 "teamName": "Osasuna",
                 "text": "Unai Santos"
+              },
+              {
+                "id": "53500690_9",
+                "type": "GOAL",
+                "minute": 48,
+                "extraTime": null,
+                "playerName": "Diego Llorente",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
@@ -46421,6 +46430,12 @@
     {
       "player": "Cristian Romero",
       "team": "Atlético",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Diego Llorente",
+      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
