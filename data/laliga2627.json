@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T13:18:48Z",
+  "lastUpdated": "2026-10-11T13:19:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40340,7 +40340,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -40732,6 +40732,24 @@
                 "playerName": "Yoel Lago",
                 "teamName": "Celta",
                 "text": null
+              },
+              {
+                "id": "53477891_8",
+                "type": "YELLOW_CARD",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Javi Rueda",
+                "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "53477960_9",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Borja Iglesias",
+                "teamName": "Celta",
+                "text": "Pablo Durán"
               }
             ]
           }
