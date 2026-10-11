@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T12:38:25Z",
+  "lastUpdated": "2026-10-11T12:39:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40340,7 +40340,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "36'",
+          "clock": "37'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -40723,7 +40723,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53473899_1",
+                "type": "YELLOW_CARD",
+                "minute": 37,
+                "extraTime": null,
+                "playerName": "Yoel Lago",
+                "teamName": "Celta",
+                "text": null
+              }
+            ]
           }
         },
         {
