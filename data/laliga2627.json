@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T19:03:07Z",
+  "lastUpdated": "2026-10-11T19:04:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,7 +42019,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42402,7 +42402,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53504760_1",
+                "type": "GOAL",
+                "minute": 2,
+                "extraTime": null,
+                "playerName": "Dani Raba",
+                "teamName": "Valencia",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -46969,6 +46979,12 @@
     {
       "player": "Cristian Romero",
       "team": "Atlético",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Dani Raba",
+      "team": "Valencia",
       "goals": 1,
       "penalties": null
     },
