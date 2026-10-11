@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:47:16Z",
+  "lastUpdated": "2026-10-11T20:48:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,7 +42019,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42543,18 +42543,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 85,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Aliou Dieng",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Javi Guerra"
               },
               {
                 "id": "53516907_25",
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Arnau Martínez",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Pablo Maffeo"
               }
             ]
           }
