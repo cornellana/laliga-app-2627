@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:54:50Z",
+  "lastUpdated": "2026-10-11T20:55:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42016,11 +42016,11 @@
           "away": "Valencia",
           "jornada": 8,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-2",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
