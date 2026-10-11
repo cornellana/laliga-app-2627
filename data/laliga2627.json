@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:55:14Z",
+  "lastUpdated": "2026-10-11T15:56:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41378,9 +41378,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 79,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jonathan Asp Jensen",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Giacomo Quagliata"
               }
             ]
           }
