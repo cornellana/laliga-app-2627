@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:32:45Z",
+  "lastUpdated": "2026-10-11T15:33:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,7 +40854,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41300,6 +41300,33 @@
                 "playerName": "Mikel Oyarzabal",
                 "teamName": "R. Sociedad",
                 "text": "Arsen Zakharyan"
+              },
+              {
+                "id": "53490584_10",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Adrià Alti",
+                "teamName": "Deportivo",
+                "text": "Ximo Navarro"
+              },
+              {
+                "id": "53490585_11",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Lorenzo Amatucci",
+                "teamName": "Deportivo",
+                "text": "Diego Villares"
+              },
+              {
+                "id": "53490586_12",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Adama Traoré",
+                "teamName": "Deportivo",
+                "text": "Luismi Cruz"
               }
             ]
           }
