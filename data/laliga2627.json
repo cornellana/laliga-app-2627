@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:34:13Z",
+  "lastUpdated": "2026-10-11T20:35:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42517,6 +42517,15 @@
                 "minute": 65,
                 "extraTime": null,
                 "playerName": "David Otorbi",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "53514844_22",
+                "type": "YELLOW_CARD",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Pablo Maffeo",
                 "teamName": "Valencia",
                 "text": null
               }
