@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T19:22:30Z",
+  "lastUpdated": "2026-10-11T19:23:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,7 +42019,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "22'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42410,6 +42410,15 @@
                 "extraTime": null,
                 "playerName": "Dani Raba",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "53507182_6",
+                "type": "YELLOW_CARD",
+                "minute": 22,
+                "extraTime": null,
+                "playerName": "Pablo Ramón",
+                "teamName": "Racing",
                 "text": null
               }
             ]
