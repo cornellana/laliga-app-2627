@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:58:32Z",
+  "lastUpdated": "2026-10-11T17:59:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41868,6 +41868,33 @@
                 "minute": 56,
                 "extraTime": null,
                 "playerName": "Raúl García",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "53501478_16",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Valentin Rosier",
+                "teamName": "Osasuna",
+                "text": "Iñigo Arguibide"
+              },
+              {
+                "id": "53501479_17",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Mauro Echegoyen",
+                "teamName": "Osasuna",
+                "text": "Jon Moncayola"
+              },
+              {
+                "id": "53501503_18",
+                "type": "YELLOW_CARD",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Lucas Torró",
                 "teamName": "Osasuna",
                 "text": null
               }
