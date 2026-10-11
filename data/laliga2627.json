@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T19:07:25Z",
+  "lastUpdated": "2026-10-11T19:08:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,7 +42019,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "7'",
+          "clock": "8'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42214,13 +42214,21 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-5-1",
+              "formation": "5-4-1",
               "players": [
                 {
                   "id": "165334",
                   "jersey": 1,
                   "name": "Stole Dimitrievski",
                   "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "231603",
+                  "jersey": 18,
+                  "name": "Pepelu",
+                  "position": "CD",
                   "isStarter": true,
                   "events": null
                 },
@@ -42257,9 +42265,9 @@
                   "events": null
                 },
                 {
-                  "id": "231603",
-                  "jersey": 18,
-                  "name": "Pepelu",
+                  "id": "212185",
+                  "jersey": 2,
+                  "name": "Guido Rodríguez",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -42269,14 +42277,6 @@
                   "jersey": 8,
                   "name": "Javier Guerra",
                   "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "212185",
-                  "jersey": 2,
-                  "name": "Guido Rodríguez",
-                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
