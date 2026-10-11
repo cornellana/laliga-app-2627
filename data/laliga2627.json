@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T12:07:19Z",
+  "lastUpdated": "2026-10-11T12:08:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40340,7 +40340,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -40397,18 +40397,10 @@
                   "events": null
                 },
                 {
-                  "id": "273424",
-                  "jersey": 12,
-                  "name": "Gonzalo Villar",
-                  "position": "CM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "301406",
                   "jersey": 8,
                   "name": "Marc Aguado",
-                  "position": "CM-L",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
@@ -40416,6 +40408,14 @@
                   "id": "190291",
                   "jersey": 18,
                   "name": "Thomas Lemar",
+                  "position": "CM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "273424",
+                  "jersey": 12,
+                  "name": "Gonzalo Villar",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
