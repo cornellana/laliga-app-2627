@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T13:23:07Z",
+  "lastUpdated": "2026-10-11T13:24:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40340,7 +40340,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -40747,9 +40747,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 59,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Abiel Osorio",
                 "teamName": "Elche",
-                "text": null
+                "text": "Tete Morente"
               },
               {
                 "id": "53477960_10",
