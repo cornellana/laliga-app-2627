@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:31:51Z",
+  "lastUpdated": "2026-10-11T18:33:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41419,11 +41419,11 @@
           "away": "Osasuna",
           "jornada": 8,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "5-2",
-          "state": "in",
-          "clock": "90'+8'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
