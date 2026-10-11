@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:43:26Z",
+  "lastUpdated": "2026-10-11T15:44:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40852,9 +40852,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "3-1",
+          "result": "3-2",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -41344,6 +41344,15 @@
                 "extraTime": null,
                 "playerName": "Pablo Marín",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "53491408_17",
+                "type": "PENALTY",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
