@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:20:57Z",
+  "lastUpdated": "2026-10-11T15:22:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -40854,8 +40854,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -41270,9 +41270,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Riki Rodríguez",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "David Mella"
               }
             ]
           }
