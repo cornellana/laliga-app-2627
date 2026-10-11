@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:16:47Z",
+  "lastUpdated": "2026-10-11T18:17:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41942,6 +41942,33 @@
                 "playerName": "Iker Muñoz",
                 "teamName": "Osasuna",
                 "text": "Raúl García because of an injury"
+              },
+              {
+                "id": "53502342_24",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Marc Roca",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "53502361_25",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Troy Parrott",
+                "teamName": "Betis",
+                "text": "Cucho Hernández"
+              },
+              {
+                "id": "53502362_26",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Nelson Deossa",
+                "teamName": "Betis",
+                "text": "Pablo Fornals"
               }
             ]
           }
