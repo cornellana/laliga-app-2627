@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:26:28Z",
+  "lastUpdated": "2026-10-11T18:27:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41978,6 +41978,15 @@
                 "playerName": "Valentin Rosier",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "53502952_28",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "José Antonio Morante",
+                "teamName": "Betis",
+                "text": "Abde Ezzalzouli"
               }
             ]
           }
