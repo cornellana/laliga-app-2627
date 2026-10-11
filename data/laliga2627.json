@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:30:46Z",
+  "lastUpdated": "2026-10-11T18:31:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "5-2",
           "state": "in",
-          "clock": "90'+6'",
+          "clock": "90'+8'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41995,6 +41995,15 @@
                 "extraTime": 6,
                 "playerName": "José Antonio Morante",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "53503213_30",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "Alejandro Catena",
+                "teamName": "Osasuna",
                 "text": null
               }
             ]
