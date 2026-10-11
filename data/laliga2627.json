@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:49:26Z",
+  "lastUpdated": "2026-10-11T20:50:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,7 +42019,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42557,7 +42557,16 @@
                 "text": "Pablo Maffeo"
               },
               {
-                "id": "53517093_26",
+                "id": "53517419_26",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Maguette Gueye",
+                "teamName": "Racing",
+                "text": "Matteo Prati"
+              },
+              {
+                "id": "53517093_27",
                 "type": "SUBSTITUTION",
                 "minute": 87,
                 "extraTime": null,
