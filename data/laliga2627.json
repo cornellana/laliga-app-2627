@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:35:18Z",
+  "lastUpdated": "2026-10-11T20:36:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,7 +42019,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "74'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -42527,6 +42527,15 @@
                 "extraTime": null,
                 "playerName": "Pablo Maffeo",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "53515069_23",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
                 "text": null
               }
             ]
