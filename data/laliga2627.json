@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T20:08:21Z",
+  "lastUpdated": "2026-10-11T20:09:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42017,10 +42017,10 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "2-1",
           "state": "in",
-          "clock": "48'",
-          "statusText": "Second Half",
+          "clock": "49'",
+          "statusText": "In Progress",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -42449,22 +42449,31 @@
                 "text": null
               },
               {
-                "id": "53509933_10",
-                "type": "YELLOW_CARD",
-                "minute": 45,
-                "extraTime": 4,
-                "playerName": "Mouctar Diakhaby",
-                "teamName": "Valencia",
-                "text": null
-              },
-              {
-                "id": "53511241_12",
+                "id": "53511241_11",
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
                 "playerName": "Arnaut Danjuma",
                 "teamName": "Valencia",
                 "text": "Mouctar Diakhaby"
+              },
+              {
+                "id": "53511460_14",
+                "type": "GOAL",
+                "minute": 47,
+                "extraTime": null,
+                "playerName": "Iván Martín",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "53511470_16",
+                "type": "YELLOW_CARD",
+                "minute": 49,
+                "extraTime": null,
+                "playerName": "Dani Raba",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
@@ -47111,6 +47120,12 @@
     {
       "player": "Iván Azón",
       "team": "Getafe",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Iván Martín",
+      "team": "Racing",
       "goals": 1,
       "penalties": null
     },
