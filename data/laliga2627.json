@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T19:19:16Z",
+  "lastUpdated": "2026-10-11T19:20:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42019,13 +42019,13 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "19'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
             "homeLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "323970",
@@ -42052,6 +42052,14 @@
                   "events": null
                 },
                 {
+                  "id": "107960",
+                  "jersey": 18,
+                  "name": "Matteo Prati",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "178237",
                   "jersey": 17,
                   "name": "Jorge Salinas",
@@ -42071,15 +42079,7 @@
                   "id": "286604",
                   "jersey": 8,
                   "name": "André Almeida",
-                  "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "107960",
-                  "jersey": 18,
-                  "name": "Matteo Prati",
-                  "position": "LM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -42087,6 +42087,22 @@
                   "id": "330545",
                   "jersey": 23,
                   "name": "Iván Martín",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "284699",
+                  "jersey": 10,
+                  "name": "Iñigo Vicente",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "125383",
+                  "jersey": 20,
+                  "name": "Sergio Canales",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -42096,22 +42112,6 @@
                   "jersey": 21,
                   "name": "Yassir Zabiri",
                   "position": "F",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "284699",
-                  "jersey": 10,
-                  "name": "Iñigo Vicente",
-                  "position": "AM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "125383",
-                  "jersey": 20,
-                  "name": "Sergio Canales",
-                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -42273,10 +42273,18 @@
                   "events": null
                 },
                 {
+                  "id": "248681",
+                  "jersey": 23,
+                  "name": "Filip Ugrinic",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "16340",
                   "jersey": 8,
                   "name": "Javier Guerra",
-                  "position": "CM-R",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -42284,14 +42292,6 @@
                   "id": "253763",
                   "jersey": 19,
                   "name": "Dani Raba",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "248681",
-                  "jersey": 23,
-                  "name": "Filip Ugrinic",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
