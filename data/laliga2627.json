@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:22:10Z",
+  "lastUpdated": "2026-10-11T18:23:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "87'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41969,6 +41969,15 @@
                 "playerName": "Nelson Deossa",
                 "teamName": "Betis",
                 "text": "Pablo Fornals"
+              },
+              {
+                "id": "53502720_27",
+                "type": "YELLOW_CARD",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Valentin Rosier",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
