@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:13:34Z",
+  "lastUpdated": "2026-10-11T18:14:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -41422,7 +41422,7 @@
           "done": false,
           "result": "4-2",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -41933,6 +41933,15 @@
                 "playerName": "Jonathan Dubasin",
                 "teamName": "Osasuna",
                 "text": "Rubén García"
+              },
+              {
+                "id": "53502148_23",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
