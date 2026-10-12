@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:50:46Z",
+  "lastUpdated": "2026-10-12T20:51:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,7 +42602,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -43112,6 +43112,24 @@
                 "playerName": "Jon Guridi",
                 "teamName": "Sevilla",
                 "text": "Giorgi Kochorashvili"
+              },
+              {
+                "id": "53563417_28",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Nacho Pérez",
+                "teamName": "Levante",
+                "text": "Jeremy Toljan"
+              },
+              {
+                "id": "53563418_29",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Paco Cortés",
+                "teamName": "Levante",
+                "text": "Jon Ander Olasagasti"
               }
             ]
           }
