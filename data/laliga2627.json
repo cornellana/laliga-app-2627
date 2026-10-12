@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:59:21Z",
+  "lastUpdated": "2026-10-12T21:00:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42600,9 +42600,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "2-3",
+          "result": "3-3",
           "state": "in",
-          "clock": "90'+10'",
+          "clock": "90'+11'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -43174,6 +43174,15 @@
                 "extraTime": 6,
                 "playerName": "Second yellow card to Isaac Romero",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "53564173_35",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 10,
+                "playerName": "Ifeanyi Ndukwe",
+                "teamName": "Levante",
                 "text": null
               }
             ]
@@ -47799,6 +47808,12 @@
     {
       "player": "Iago Aspas",
       "team": "Celta",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Ifeanyi Ndukwe",
+      "team": "Levante",
       "goals": 1,
       "penalties": null
     },
