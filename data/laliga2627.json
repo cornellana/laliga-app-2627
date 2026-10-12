@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:29:16Z",
+  "lastUpdated": "2026-10-12T20:30:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,7 +42602,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -43067,6 +43067,15 @@
                 "playerName": "Isaac Romero",
                 "teamName": "Sevilla",
                 "text": "Robbie Ure"
+              },
+              {
+                "id": "53560883_21",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Dani Requena",
+                "teamName": "Levante",
+                "text": "Oriol Rey"
               }
             ]
           }
