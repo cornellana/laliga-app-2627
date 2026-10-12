@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:57:12Z",
+  "lastUpdated": "2026-10-12T20:58:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,8 +42602,8 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "90'+8'",
-          "statusText": "In Progress",
+          "clock": "90'+9'",
+          "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
@@ -43155,6 +43155,24 @@
                 "minute": 90,
                 "extraTime": 5,
                 "playerName": "Isaac Romero",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "53563942_33",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "Juan Iglesias",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "53563943_34",
+                "type": "RED_CARD",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "Second yellow card to Isaac Romero",
                 "teamName": "Sevilla",
                 "text": null
               }
