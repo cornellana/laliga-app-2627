@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:44:18Z",
+  "lastUpdated": "2026-10-12T20:45:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,7 +42602,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -43093,6 +43093,15 @@
                 "extraTime": null,
                 "playerName": "Dani Requena",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "53562677_26",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Alfon González",
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
