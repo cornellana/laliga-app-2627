@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T19:15:27Z",
+  "lastUpdated": "2026-10-12T19:16:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42600,9 +42600,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "13'",
+          "clock": "14'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -42651,17 +42651,17 @@
                   "events": null
                 },
                 {
-                  "id": "269339",
-                  "jersey": 20,
-                  "name": "Orio Rey",
+                  "id": "317784",
+                  "jersey": 8,
+                  "name": "Jon Ander Olasagasti",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "317784",
-                  "jersey": 8,
-                  "name": "Jon Ander Olasagasti",
+                  "id": "269339",
+                  "jersey": 20,
+                  "name": "Orio Rey",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -42977,7 +42977,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53552833_1",
+                "type": "GOAL",
+                "minute": 13,
+                "extraTime": null,
+                "playerName": "Robbie Ure",
+                "teamName": "Sevilla",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -47810,6 +47820,12 @@
     {
       "player": "Raúl García",
       "team": "Osasuna",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Robbie Ure",
+      "team": "Sevilla",
       "goals": 1,
       "penalties": null
     },
