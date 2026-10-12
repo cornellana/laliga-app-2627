@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:55:03Z",
+  "lastUpdated": "2026-10-12T20:56:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,8 +42602,8 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "clock": "90'+7'",
+          "statusText": "In Progress",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
@@ -43154,7 +43154,7 @@
                 "type": "GOAL",
                 "minute": 90,
                 "extraTime": 5,
-                "playerName": null,
+                "playerName": "Isaac Romero",
                 "teamName": "Sevilla",
                 "text": null
               }
@@ -47515,6 +47515,12 @@
       "penalties": null
     },
     {
+      "player": "Isaac Romero",
+      "team": "Sevilla",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Isco",
       "team": "Betis",
       "goals": 2,
@@ -47781,12 +47787,6 @@
     {
       "player": "Ilaix Moriba",
       "team": "Celta",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Isaac Romero",
-      "team": "Sevilla",
       "goals": 1,
       "penalties": null
     },
