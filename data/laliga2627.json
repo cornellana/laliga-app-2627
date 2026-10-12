@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:15:16Z",
+  "lastUpdated": "2026-10-12T20:16:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,7 +42602,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -43004,6 +43004,33 @@
                 "playerName": "Félix Correia",
                 "teamName": "Sevilla",
                 "text": null
+              },
+              {
+                "id": "53559219_6",
+                "type": "GOAL",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Félix Correia",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "53559315_9",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Petar Ratkov",
+                "teamName": "Levante",
+                "text": "Yanis Musuayi"
+              },
+              {
+                "id": "53559316_10",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Thiago Fernández",
+                "teamName": "Levante",
+                "text": "Víctor García"
               }
             ]
           }
@@ -47592,6 +47619,12 @@
     {
       "player": "Ferran Jutglà",
       "team": "Celta",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Félix Correia",
+      "team": "Sevilla",
       "goals": 1,
       "penalties": null
     },
