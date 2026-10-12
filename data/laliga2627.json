@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:40:00Z",
+  "lastUpdated": "2026-10-12T20:41:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,7 +42602,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -43085,6 +43085,15 @@
                 "playerName": "Julio Díaz",
                 "teamName": "Sevilla",
                 "text": "Félix Correia because of an injury"
+              },
+              {
+                "id": "53562176_25",
+                "type": "YELLOW_CARD",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Dani Requena",
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
