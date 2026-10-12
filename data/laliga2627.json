@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T19:13:18Z",
+  "lastUpdated": "2026-10-12T19:14:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,13 +42602,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "11'",
+          "clock": "12'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
             "homeLineup": {
-              "formation": "4-3-3",
+              "formation": "4-4-2",
               "players": [
                 {
                   "id": "141438",
@@ -42651,42 +42651,18 @@
                   "events": null
                 },
                 {
-                  "id": "317784",
-                  "jersey": 8,
-                  "name": "Jon Ander Olasagasti",
-                  "position": "CM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "203680",
-                  "jersey": 17,
-                  "name": "Víctor García",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "269339",
                   "jersey": 20,
                   "name": "Orio Rey",
-                  "position": "RM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "311054",
-                  "jersey": 9,
-                  "name": "Iván Romero",
-                  "position": "F",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "3102194",
-                  "jersey": 11,
-                  "name": "Yanis Kasonga Musuayi",
-                  "position": "LF",
+                  "id": "317784",
+                  "jersey": 8,
+                  "name": "Jon Ander Olasagasti",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -42694,7 +42670,31 @@
                   "id": "267591",
                   "jersey": 7,
                   "name": "Roger Brugué",
-                  "position": "RF",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "203680",
+                  "jersey": 17,
+                  "name": "Víctor García",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "3102194",
+                  "jersey": 11,
+                  "name": "Yanis Kasonga Musuayi",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "311054",
+                  "jersey": 9,
+                  "name": "Iván Romero",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
