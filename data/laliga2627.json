@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:51:50Z",
+  "lastUpdated": "2026-10-12T20:52:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42600,9 +42600,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "1-2",
+          "result": "2-2",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -43130,6 +43130,24 @@
                 "playerName": "Paco Cortés",
                 "teamName": "Levante",
                 "text": "Jon Ander Olasagasti"
+              },
+              {
+                "id": "53563450_30",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Isaac Romero",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "53563465_31",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Adrián de la Fuente",
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
@@ -47434,6 +47452,12 @@
       "penalties": null
     },
     {
+      "player": "Adrián de la Fuente",
+      "team": "Levante",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Alberto Moleiro",
       "team": "Villarreal",
       "goals": 2,
@@ -47562,12 +47586,6 @@
     {
       "player": "Adrià Pedrosa",
       "team": "Rayo",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Adrián de la Fuente",
-      "team": "Levante",
       "goals": 1,
       "penalties": null
     },
