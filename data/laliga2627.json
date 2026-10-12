@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:27:07Z",
+  "lastUpdated": "2026-10-12T20:28:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,8 +42602,8 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "68'",
-          "statusText": "Second Half",
+          "clock": "69'",
+          "statusText": "In Progress",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
@@ -43049,6 +43049,24 @@
                 "playerName": "Andrés Castrín",
                 "teamName": "Sevilla",
                 "text": null
+              },
+              {
+                "id": "53560611_19",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Alfon González",
+                "teamName": "Sevilla",
+                "text": "Miguel Sierra because of an injury"
+              },
+              {
+                "id": "53560612_20",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Isaac Romero",
+                "teamName": "Sevilla",
+                "text": "Robbie Ure"
               }
             ]
           }
