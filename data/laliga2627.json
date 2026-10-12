@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T19:49:58Z",
+  "lastUpdated": "2026-10-12T20:05:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,8 +42602,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "45'+1'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
