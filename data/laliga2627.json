@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:07:44Z",
+  "lastUpdated": "2026-10-12T20:08:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42603,7 +42603,7 @@
           "result": "0-1",
           "state": "in",
           "clock": "49'",
-          "statusText": "In Progress",
+          "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
@@ -42994,6 +42994,15 @@
                 "extraTime": null,
                 "playerName": "Adrián de la Fuente",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "53558450_5",
+                "type": "YELLOW_CARD",
+                "minute": 48,
+                "extraTime": null,
+                "playerName": "Felix Correia",
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
