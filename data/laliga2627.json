@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T19:42:21Z",
+  "lastUpdated": "2026-10-12T19:43:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,7 +42602,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -42985,6 +42985,15 @@
                 "extraTime": null,
                 "playerName": "Robbie Ure",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "53555900_2",
+                "type": "YELLOW_CARD",
+                "minute": 39,
+                "extraTime": null,
+                "playerName": "Adrián de la Fuente",
+                "teamName": "Levante",
                 "text": null
               }
             ]
