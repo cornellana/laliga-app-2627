@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:23:52Z",
+  "lastUpdated": "2026-10-12T20:24:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,7 +42602,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -43039,6 +43039,15 @@
                 "extraTime": null,
                 "playerName": "Iván Romero",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "53560153_16",
+                "type": "YELLOW_CARD",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Andrés Castrín",
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
