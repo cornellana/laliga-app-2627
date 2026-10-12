@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:08:49Z",
+  "lastUpdated": "2026-10-12T20:09:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,7 +42602,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "49'",
+          "clock": "51'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -43001,7 +43001,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 48,
                 "extraTime": null,
-                "playerName": "Felix Correia",
+                "playerName": "Félix Correia",
                 "teamName": "Sevilla",
                 "text": null
               }
