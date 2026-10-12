@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T19:19:45Z",
+  "lastUpdated": "2026-10-12T19:20:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42840,17 +42840,17 @@
                   "events": null
                 },
                 {
-                  "id": "258923",
-                  "jersey": 8,
-                  "name": "Giorgi Kochorashvili",
+                  "id": "282289",
+                  "jersey": 6,
+                  "name": "Lucien Agoumé",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "282289",
-                  "jersey": 6,
-                  "name": "Lucien Agoumé",
+                  "id": "258923",
+                  "jersey": 8,
+                  "name": "Giorgi Kochorashvili",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
