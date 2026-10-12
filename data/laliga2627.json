@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:32:29Z",
+  "lastUpdated": "2026-10-12T20:33:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42602,7 +42602,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -43076,6 +43076,15 @@
                 "playerName": "Dani Requena",
                 "teamName": "Levante",
                 "text": "Oriol Rey"
+              },
+              {
+                "id": "53561278_24",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Julio Díaz",
+                "teamName": "Sevilla",
+                "text": "Félix Correia because of an injury"
               }
             ]
           }
