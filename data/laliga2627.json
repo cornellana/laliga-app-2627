@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:16:20Z",
+  "lastUpdated": "2026-10-12T20:17:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -42600,9 +42600,9 @@
           "jornada": 8,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "1-2",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -43031,6 +43031,15 @@
                 "playerName": "Thiago Fernández",
                 "teamName": "Levante",
                 "text": "Víctor García"
+              },
+              {
+                "id": "53559390_11",
+                "type": "GOAL",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Iván Romero",
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
@@ -47281,6 +47290,12 @@
       "penalties": 2
     },
     {
+      "player": "Iván Romero",
+      "team": "Levante",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Jonathan David",
       "team": "Atlético",
       "goals": 3,
@@ -47381,12 +47396,6 @@
       "team": "Betis",
       "goals": 2,
       "penalties": 1
-    },
-    {
-      "player": "Iván Romero",
-      "team": "Levante",
-      "goals": 2,
-      "penalties": null
     },
     {
       "player": "Karim Adeyemi",
