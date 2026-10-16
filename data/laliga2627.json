@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T20:50:41Z",
+  "lastUpdated": "2026-10-16T20:51:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43204,7 +43204,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -43687,6 +43687,15 @@
                 "playerName": "Miguel Loureiro",
                 "teamName": "Deportivo",
                 "text": "Bright Ede"
+              },
+              {
+                "id": "53740338_27",
+                "type": "YELLOW_CARD",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Adrián de la Fuente",
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
