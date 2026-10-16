@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T20:43:11Z",
+  "lastUpdated": "2026-10-16T20:44:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43202,10 +43202,10 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "82'",
-          "statusText": "In Progress",
+          "clock": "83'",
+          "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
@@ -43657,17 +43657,26 @@
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jonathan Asp Jensen",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Yeremay Hernández because of an injury"
               },
               {
                 "id": "53740039_22",
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Angeliño",
                 "teamName": "Deportivo",
+                "text": "Riki Rodríguez"
+              },
+              {
+                "id": "53740098_23",
+                "type": "GOAL",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Dani Requena",
+                "teamName": "Levante",
                 "text": null
               }
             ]
@@ -48217,6 +48226,12 @@
     {
       "player": "Dani Raba",
       "team": "Valencia",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Dani Requena",
+      "team": "Levante",
       "goals": 1,
       "penalties": null
     },
