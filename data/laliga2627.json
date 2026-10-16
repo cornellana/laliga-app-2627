@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T20:46:24Z",
+  "lastUpdated": "2026-10-16T20:47:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43204,7 +43204,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -43677,6 +43677,15 @@
                 "extraTime": null,
                 "playerName": "Dani Requena",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "53740126_24",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
