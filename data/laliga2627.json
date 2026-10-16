@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T19:45:52Z",
+  "lastUpdated": "2026-10-16T19:46:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43204,7 +43204,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "43'",
+          "clock": "44'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -43587,6 +43587,15 @@
                 "extraTime": null,
                 "playerName": "Iván Romero",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "53736657_2",
+                "type": "YELLOW_CARD",
+                "minute": 42,
+                "extraTime": null,
+                "playerName": "Luismi Cruz",
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
