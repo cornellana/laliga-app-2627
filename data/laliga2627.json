@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T20:31:22Z",
+  "lastUpdated": "2026-10-16T20:32:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43204,7 +43204,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -43624,6 +43624,24 @@
                 "playerName": "Bil Nsongo",
                 "teamName": "Deportivo",
                 "text": null
+              },
+              {
+                "id": "53739503_14",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Petar Ratkov",
+                "teamName": "Levante",
+                "text": "Oriol Rey"
+              },
+              {
+                "id": "53739504_15",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Jon Ander Olasagasti",
+                "teamName": "Levante",
+                "text": "Enzo Bardeli"
               }
             ]
           }
