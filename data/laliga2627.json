@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T20:41:02Z",
+  "lastUpdated": "2026-10-16T20:42:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43204,7 +43204,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -43651,6 +43651,24 @@
                 "playerName": "Jeremy Toljan",
                 "teamName": "Levante",
                 "text": "Nacho Pérez"
+              },
+              {
+                "id": "53740038_21",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "53740039_22",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
