@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T21:04:44Z",
+  "lastUpdated": "2026-10-16T00:00:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43191,6 +43191,28 @@
       ]
     },
     {
+      "date": "2026-10-16",
+      "jornada": 9,
+      "games": [
+        {
+          "id": "401882844",
+          "time": "21:00",
+          "home": "Deportivo",
+          "away": "Levante",
+          "jornada": 9,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Riazor",
+          "venueCity": "La Coruña",
+          "details": null
+        }
+      ]
+    },
+    {
       "date": "2026-10-18",
       "jornada": 9,
       "games": [
@@ -43208,22 +43230,6 @@
           "statusText": null,
           "stadium": "Balaidos",
           "venueCity": "Vigo",
-          "details": null
-        },
-        {
-          "id": "401882844",
-          "time": "20:00",
-          "home": "Deportivo",
-          "away": "Levante",
-          "jornada": 9,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Riazor",
-          "venueCity": "La Coruña",
           "details": null
         },
         {
