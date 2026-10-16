@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T20:38:53Z",
+  "lastUpdated": "2026-10-16T20:39:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43642,6 +43642,15 @@
                 "playerName": "Jon Ander Olasagasti",
                 "teamName": "Levante",
                 "text": "Enzo Bardeli"
+              },
+              {
+                "id": "53739907_20",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Jeremy Toljan",
+                "teamName": "Levante",
+                "text": "Nacho Pérez"
               }
             ]
           }
