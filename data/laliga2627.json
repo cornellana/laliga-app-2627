@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T20:22:47Z",
+  "lastUpdated": "2026-10-16T20:23:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43204,8 +43204,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "62'",
-          "statusText": "In Progress",
+          "clock": "63'",
+          "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
@@ -43595,6 +43595,15 @@
                 "minute": 42,
                 "extraTime": null,
                 "playerName": "Luismi Cruz",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "53739008_11",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Deportivo",
                 "text": null
               }
