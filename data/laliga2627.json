@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T20:23:51Z",
+  "lastUpdated": "2026-10-16T20:24:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43202,9 +43202,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -43606,6 +43606,24 @@
                 "playerName": "Adrià Alti",
                 "teamName": "Deportivo",
                 "text": "Ximo Navarro"
+              },
+              {
+                "id": "53739045_12",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Adama Traoré",
+                "teamName": "Deportivo",
+                "text": "Luismi Cruz"
+              },
+              {
+                "id": "53739044_13",
+                "type": "GOAL",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Bil Nsongo",
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
@@ -48088,6 +48106,12 @@
     {
       "player": "Ayoze Pérez",
       "team": "Villarreal",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Bil Nsongo",
+      "team": "Deportivo",
       "goals": 1,
       "penalties": null
     },
