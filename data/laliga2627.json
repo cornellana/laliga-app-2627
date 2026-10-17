@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T16:11:11Z",
+  "lastUpdated": "2026-10-17T16:12:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44290,11 +44290,11 @@
           "away": "Elche",
           "jornada": 9,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-0",
-          "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
