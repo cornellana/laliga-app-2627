@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:49:03Z",
+  "lastUpdated": "2026-10-17T13:50:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43732,9 +43732,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44269,6 +44269,15 @@
                 "extraTime": null,
                 "playerName": "Unai Núñez",
                 "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "53778483_20",
+                "type": "GOAL",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
                 "text": null
               }
             ]
