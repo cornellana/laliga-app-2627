@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:26:16Z",
+  "lastUpdated": "2026-10-17T13:27:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44180,6 +44180,15 @@
                 "playerName": "Unai Núñez",
                 "teamName": "Espanyol",
                 "text": "Vanja Drkusic"
+              },
+              {
+                "id": "53775564_10",
+                "type": "YELLOW_CARD",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Cristian Romero",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
