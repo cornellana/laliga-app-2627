@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T15:54:55Z",
+  "lastUpdated": "2026-10-17T15:56:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,7 +44293,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -44775,6 +44775,15 @@
                 "playerName": "Gerard Moreno",
                 "teamName": "Villarreal",
                 "text": "Ilias Akhomach"
+              },
+              {
+                "id": "53804843_16",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Alex Freeman",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
