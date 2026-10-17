@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:27:21Z",
+  "lastUpdated": "2026-10-17T13:28:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44189,6 +44189,15 @@
                 "playerName": "Cristian Romero",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "53775684_11",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Rodrigo Mendoza",
+                "teamName": "Atlético",
+                "text": "Cristian Romero"
               }
             ]
           }
