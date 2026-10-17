@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:41:26Z",
+  "lastUpdated": "2026-10-17T13:42:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44233,6 +44233,15 @@
                 "extraTime": null,
                 "playerName": "Rodrigo Mendoza",
                 "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "53777423_16",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Roger Hinojo",
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
