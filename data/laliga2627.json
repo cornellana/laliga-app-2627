@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T12:05:07Z",
+  "lastUpdated": "2026-10-17T12:06:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "5'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -43815,17 +43815,17 @@
                   "events": null
                 },
                 {
-                  "id": "367946",
-                  "jersey": 28,
-                  "name": "Javi Hernandez",
+                  "id": "318773",
+                  "jersey": 9,
+                  "name": "Roberto Fernández",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "318773",
-                  "jersey": 9,
-                  "name": "Roberto Fernández",
+                  "id": "367946",
+                  "jersey": 28,
+                  "name": "Javi Hernandez",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
