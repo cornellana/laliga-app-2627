@@ -14,6 +14,7 @@ import sys
 import unicodedata
 import requests
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 
 # ── Configuración ────────────────────────────────────────────────────────────
 
@@ -136,11 +137,21 @@ PENALTY_TYPE_ID  = "98"
 
 # ── Utilidades ───────────────────────────────────────────────────────────────
 
+MADRID = ZoneInfo("Europe/Madrid")
+
 def madrid_date_from_utc(utc_str):
-    """Convierte timestamp ESPN UTC a fecha y hora en Madrid."""
+    """Convierte timestamp ESPN UTC a fecha y hora en Madrid.
+
+    Con la zona horaria de verdad, no con un offset por meses. Antes se sumaban
+    dos horas de marzo a octubre y una el resto, pero el cambio de hora cae en
+    el último domingo de cada uno de esos dos meses, no el día 1: del 25 al 31
+    de octubre de 2026 y del 1 al 28 de marzo de 2027 España está en CET, y
+    todos esos partidos salían una hora tarde. Se vio en la jornada 10: el
+    Barcelona - Real Madrid del 25/10 aparecía a las 22:00 cuando es a las
+    21:00, y los otros tres de ese día igual de desplazados.
+    """
     dt = datetime.fromisoformat(utc_str.replace("Z", "+00:00"))
-    offset = 2 if dt.month in range(3, 11) else 1
-    madrid = dt + timedelta(hours=offset)
+    madrid = dt.astimezone(MADRID)
     return madrid.strftime("%Y-%m-%d"), madrid.strftime("%H:%M")
 
 _warned_teams = set()

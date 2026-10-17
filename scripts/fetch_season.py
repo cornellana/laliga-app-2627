@@ -9,6 +9,9 @@ Uso:
 
 import json, time, datetime, sys, os
 import urllib.request, urllib.error
+from zoneinfo import ZoneInfo
+
+MADRID = ZoneInfo("Europe/Madrid")
 
 LEAGUE = "esp.1"
 BASE = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{LEAGUE}"
@@ -162,15 +165,16 @@ def fetch_season(year: int):
                 away_score = int(away.get("score", 0) or 0) if is_done else None
                 result = f"{home_score}-{away_score}" if is_done and home_score is not None else None
 
-                # Hora en Madrid (UTC+1 invierno / UTC+2 verano)
+                # Hora en Madrid, con la zona horaria de verdad: el cambio de
+                # hora cae en el último domingo de marzo y de octubre, no el
+                # día 1, así que un offset por meses desplaza una hora los
+                # partidos del 25 al 31 de octubre y del 1 al 28 de marzo.
                 event_date = event.get("date", "")
                 match_time = ""
                 if event_date:
                     try:
                         dt_utc = datetime.datetime.fromisoformat(event_date.replace("Z", "+00:00"))
-                        month = dt_utc.month
-                        offset = 2 if 3 <= month <= 10 else 1
-                        dt_madrid = dt_utc + datetime.timedelta(hours=offset)
+                        dt_madrid = dt_utc.astimezone(MADRID)
                         match_time = dt_madrid.strftime("%H:%M")
                     except Exception:
                         pass
