@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T14:55:44Z",
+  "lastUpdated": "2026-10-17T14:56:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,7 +44293,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -44685,6 +44685,15 @@
                 "playerName": "Federico Redondo",
                 "teamName": "Elche",
                 "text": "Marc Aguado because of an injury"
+              },
+              {
+                "id": "53792321_2",
+                "type": "YELLOW_CARD",
+                "minute": 38,
+                "extraTime": null,
+                "playerName": "Gonzalo Villar",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
