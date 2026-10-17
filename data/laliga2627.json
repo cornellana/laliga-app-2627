@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T12:11:37Z",
+  "lastUpdated": "2026-10-17T12:12:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -43929,7 +43929,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-3-1-2",
               "players": [
                 {
                   "id": "149622",
