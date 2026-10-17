@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T15:03:21Z",
+  "lastUpdated": "2026-10-17T15:20:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,8 +44293,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+1'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
@@ -44488,7 +44488,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "5-3-2",
+              "formation": "5-4-1",
               "players": [
                 {
                   "id": "173749",
@@ -44542,14 +44542,6 @@
                   "id": "301406",
                   "jersey": 8,
                   "name": "Marc Aguado",
-                  "position": "CM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "190291",
-                  "jersey": 18,
-                  "name": "Thomas Lemar",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -44563,10 +44555,18 @@
                   "events": null
                 },
                 {
+                  "id": "190291",
+                  "jersey": 18,
+                  "name": "Thomas Lemar",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "320648",
                   "jersey": 21,
                   "name": "Lucas Cepeda",
-                  "position": "CF-L",
+                  "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
@@ -44574,7 +44574,7 @@
                   "id": "336840",
                   "jersey": 24,
                   "name": "Abiel Osorio",
-                  "position": "CF-R",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
