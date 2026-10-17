@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T16:59:20Z",
+  "lastUpdated": "2026-10-17T17:00:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44832,9 +44832,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "27'",
+          "clock": "29'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45242,6 +45242,15 @@
                 "minute": 22,
                 "extraTime": null,
                 "playerName": "Héctor Bellerín",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "53809274_4",
+                "type": "GOAL",
+                "minute": 27,
+                "extraTime": null,
+                "playerName": "Valentín Gómez",
                 "teamName": "Betis",
                 "text": null
               }
@@ -50350,6 +50359,12 @@
     {
       "player": "Umar Sadiq",
       "team": "Valencia",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Valentín Gómez",
+      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
