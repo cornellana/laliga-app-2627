@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T17:13:26Z",
+  "lastUpdated": "2026-10-17T17:14:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44832,9 +44832,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "41'",
+          "clock": "42'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45259,7 +45259,7 @@
                 "type": "GOAL",
                 "minute": 41,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Rodri",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -50332,6 +50332,12 @@
     {
       "player": "Robin Le Normand",
       "team": "Atlético",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Rodri",
+      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
