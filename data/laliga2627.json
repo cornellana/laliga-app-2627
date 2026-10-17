@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T14:36:10Z",
+  "lastUpdated": "2026-10-17T14:37:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,7 +44293,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "20'",
+          "clock": "21'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -44358,9 +44358,9 @@
                   "events": null
                 },
                 {
-                  "id": "307390",
-                  "jersey": 10,
-                  "name": "Alberto Moleiro",
+                  "id": "294039",
+                  "jersey": 21,
+                  "name": "Tani Oluwaseyi",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -44374,9 +44374,9 @@
                   "events": null
                 },
                 {
-                  "id": "294039",
-                  "jersey": 21,
-                  "name": "Tani Oluwaseyi",
+                  "id": "307390",
+                  "jersey": 10,
+                  "name": "Alberto Moleiro",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
