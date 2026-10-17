@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T12:12:43Z",
+  "lastUpdated": "2026-10-17T12:13:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "11'",
+          "clock": "12'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -43932,6 +43932,102 @@
               "formation": "4-3-1-2",
               "players": [
                 {
+                  "id": "74630",
+                  "jersey": 4,
+                  "name": "Rodrigo Mendoza",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "184757",
+                  "jersey": 46,
+                  "name": "Jorge Castillo",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "318554",
+                  "jersey": 3,
+                  "name": "Obed Vargas",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "277206",
+                  "jersey": 19,
+                  "name": "Julián Álvarez",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "166396",
+                  "jersey": 22,
+                  "name": "Alejandro Grimaldo",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "354378",
+                  "jersey": 27,
+                  "name": "Jorge Domínguez",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "297373",
+                  "jersey": 10,
+                  "name": "Álex Baena",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "177927",
+                  "jersey": 1,
+                  "name": "Juan Musso",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "214888",
+                  "jersey": 24,
+                  "name": "Robin Le Normand",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "328289",
+                  "jersey": 16,
+                  "name": "Arnau Ortiz",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "206474",
+                  "jersey": 14,
+                  "name": "Marcos Llorente",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "188230",
+                  "jersey": 9,
+                  "name": "Alexander Sørloth",
+                  "position": null,
+                  "isStarter": false,
+                  "events": null
+                },
+                {
                   "id": "149622",
                   "jersey": 13,
                   "name": "Jan Oblak",
@@ -43972,10 +44068,10 @@
                   "events": null
                 },
                 {
-                  "id": "274911",
-                  "jersey": 23,
-                  "name": "Morten Hjulmand",
-                  "position": "CM-L",
+                  "id": "229645",
+                  "jersey": 11,
+                  "name": "Ademola Lookman",
+                  "position": "M",
                   "isStarter": true,
                   "events": null
                 },
@@ -43983,7 +44079,7 @@
                   "id": "336634",
                   "jersey": 8,
                   "name": "Pablo Barrios",
-                  "position": "CM-R",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
@@ -43991,6 +44087,14 @@
                   "id": "274197",
                   "jersey": 7,
                   "name": "Lee Kang-In",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "274911",
+                  "jersey": 23,
+                  "name": "Morten Hjulmand",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -44004,115 +44108,11 @@
                   "events": null
                 },
                 {
-                  "id": "229645",
-                  "jersey": 11,
-                  "name": "Ademola Lookman",
-                  "position": "CF-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "273499",
                   "jersey": 15,
                   "name": "Jonathan David",
                   "position": "CF-R",
                   "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "74630",
-                  "jersey": 4,
-                  "name": "Rodrigo Mendoza",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "184757",
-                  "jersey": 46,
-                  "name": "Jorge Castillo",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "318554",
-                  "jersey": 3,
-                  "name": "Obed Vargas",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "277206",
-                  "jersey": 19,
-                  "name": "Julián Álvarez",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "166396",
-                  "jersey": 22,
-                  "name": "Alejandro Grimaldo",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "354378",
-                  "jersey": 27,
-                  "name": "Jorge Domínguez",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "297373",
-                  "jersey": 10,
-                  "name": "Álex Baena",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "177927",
-                  "jersey": 1,
-                  "name": "Juan Musso",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "214888",
-                  "jersey": 24,
-                  "name": "Robin Le Normand",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "328289",
-                  "jersey": 16,
-                  "name": "Arnau Ortiz",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "206474",
-                  "jersey": 14,
-                  "name": "Marcos Llorente",
-                  "position": "SUB",
-                  "isStarter": false,
-                  "events": null
-                },
-                {
-                  "id": "188230",
-                  "jersey": 9,
-                  "name": "Alexander Sørloth",
-                  "position": "SUB",
-                  "isStarter": false,
                   "events": null
                 }
               ]
