@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:33:50Z",
+  "lastUpdated": "2026-10-17T13:34:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44206,6 +44206,24 @@
                 "extraTime": null,
                 "playerName": "Álex Baena",
                 "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "53776389_13",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "53776390_14",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
