@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T16:52:47Z",
+  "lastUpdated": "2026-10-17T16:53:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44834,7 +44834,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "21'",
+          "clock": "22'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45224,6 +45224,15 @@
                 "minute": 10,
                 "extraTime": null,
                 "playerName": "Lamine Yamal",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "53808793_4",
+                "type": "YELLOW_CARD",
+                "minute": 20,
+                "extraTime": null,
+                "playerName": "Fermín López",
                 "teamName": "FC Barcelona",
                 "text": null
               }
