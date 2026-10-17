@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:54:28Z",
+  "lastUpdated": "2026-10-17T13:55:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43731,11 +43731,11 @@
           "away": "Atlético",
           "jornada": 9,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-1",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
