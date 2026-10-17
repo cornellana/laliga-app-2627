@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T15:39:43Z",
+  "lastUpdated": "2026-10-17T15:40:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,7 +44293,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -44703,6 +44703,33 @@
                 "playerName": "Tete Morente",
                 "teamName": "Elche",
                 "text": "Lucas Cepeda"
+              },
+              {
+                "id": "53801815_8",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Martim Neto",
+                "teamName": "Elche",
+                "text": "Thomas Lemar"
+              },
+              {
+                "id": "53801816_9",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Fer Niño",
+                "teamName": "Elche",
+                "text": "Abiel Osorio"
+              },
+              {
+                "id": "53801817_10",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Georges Mikautadze",
+                "teamName": "Villarreal",
+                "text": "Santi Comesaña"
               }
             ]
           }
