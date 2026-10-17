@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T12:45:24Z",
+  "lastUpdated": "2026-10-17T12:46:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,8 +43734,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "44'",
-          "statusText": "In Progress",
+          "clock": "45'",
+          "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
@@ -44124,6 +44124,15 @@
                 "minute": 22,
                 "extraTime": null,
                 "playerName": "Morten Hjulmand",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "53770582_2",
+                "type": "YELLOW_CARD",
+                "minute": 43,
+                "extraTime": null,
+                "playerName": "Lee Kang-In",
                 "teamName": "Atlético",
                 "text": null
               }
