@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T17:49:49Z",
+  "lastUpdated": "2026-10-17T17:50:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44832,10 +44832,10 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "1-3",
+          "result": "2-3",
           "state": "in",
-          "clock": "53'",
-          "statusText": "In Progress",
+          "clock": "54'",
+          "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
@@ -45284,7 +45284,7 @@
               {
                 "id": "53812247_12",
                 "type": "GOAL",
-                "minute": 52,
+                "minute": 51,
                 "extraTime": null,
                 "playerName": "Gabriel Jesus",
                 "teamName": "FC Barcelona",
