@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:46:52Z",
+  "lastUpdated": "2026-10-17T13:47:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44261,6 +44261,15 @@
                 "playerName": "Marcos Fernández",
                 "teamName": "Espanyol",
                 "text": "Roberto Fernández"
+              },
+              {
+                "id": "53778151_19",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Unai Núñez",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
