@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T21:00:20Z",
+  "lastUpdated": "2026-10-17T00:01:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43721,6 +43721,76 @@
       ]
     },
     {
+      "date": "2026-10-17",
+      "jornada": 9,
+      "games": [
+        {
+          "id": "401882843",
+          "time": "14:00",
+          "home": "Espanyol",
+          "away": "Atlético",
+          "jornada": 9,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "RCDE Stadium",
+          "venueCity": "Barcelona",
+          "details": null
+        },
+        {
+          "id": "401882837",
+          "time": "16:15",
+          "home": "Villarreal",
+          "away": "Elche",
+          "jornada": 9,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
+          "details": null
+        },
+        {
+          "id": "401882846",
+          "time": "18:00",
+          "home": "Betis",
+          "away": "FC Barcelona",
+          "jornada": 9,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "details": null
+        },
+        {
+          "id": "401882838",
+          "time": "21:00",
+          "home": "Valencia",
+          "away": "Athletic",
+          "jornada": 9,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "details": null
+        }
+      ]
+    },
+    {
       "date": "2026-10-18",
       "jornada": 9,
       "games": [
@@ -43738,22 +43808,6 @@
           "statusText": null,
           "stadium": "Balaidos",
           "venueCity": "Vigo",
-          "details": null
-        },
-        {
-          "id": "401882843",
-          "time": "20:00",
-          "home": "Espanyol",
-          "away": "Atlético",
-          "jornada": 9,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "RCDE Stadium",
-          "venueCity": "Barcelona",
           "details": null
         },
         {
@@ -43805,22 +43859,6 @@
           "details": null
         },
         {
-          "id": "401882846",
-          "time": "20:00",
-          "home": "Betis",
-          "away": "FC Barcelona",
-          "jornada": 9,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Estadio La Cartuja",
-          "venueCity": "Sevilla",
-          "details": null
-        },
-        {
           "id": "401882839",
           "time": "20:00",
           "home": "Real Madrid",
@@ -43834,38 +43872,6 @@
           "statusText": null,
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
-          "details": null
-        },
-        {
-          "id": "401882838",
-          "time": "20:00",
-          "home": "Valencia",
-          "away": "Athletic",
-          "jornada": 9,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Mestalla Stadium",
-          "venueCity": "Manises",
-          "details": null
-        },
-        {
-          "id": "401882837",
-          "time": "20:00",
-          "home": "Villarreal",
-          "away": "Elche",
-          "jornada": 9,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Estadio de la Cerámica",
-          "venueCity": "Villarreal",
           "details": null
         }
       ]
