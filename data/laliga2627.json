@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:43:37Z",
+  "lastUpdated": "2026-10-17T13:44:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44241,6 +44241,24 @@
                 "minute": 81,
                 "extraTime": null,
                 "playerName": "Roger Hinojo",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "53777697_17",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "53777698_18",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Espanyol",
                 "text": null
               }
