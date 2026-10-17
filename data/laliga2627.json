@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T15:49:29Z",
+  "lastUpdated": "2026-10-17T15:50:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,8 +44293,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "76'",
-          "statusText": "In Progress",
+          "clock": "77'",
+          "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
@@ -44757,6 +44757,24 @@
                 "playerName": "Tete Morente",
                 "teamName": "Elche",
                 "text": null
+              },
+              {
+                "id": "53803839_14",
+                "type": "YELLOW_CARD",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Roy Revivo",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "53804025_15",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Gerard Moreno",
+                "teamName": "Villarreal",
+                "text": "Ilias Akhomach"
               }
             ]
           }
