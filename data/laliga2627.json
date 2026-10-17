@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T17:15:36Z",
+  "lastUpdated": "2026-10-17T17:16:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44834,8 +44834,8 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "44'",
-          "statusText": "First Half",
+          "clock": "45'",
+          "statusText": "In Progress",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
@@ -45261,6 +45261,15 @@
                 "extraTime": null,
                 "playerName": "Rodri",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "53810525_6",
+                "type": "GOAL",
+                "minute": 43,
+                "extraTime": null,
+                "playerName": "Giovani Lo Celso",
+                "teamName": "Betis",
                 "text": null
               }
             ]
@@ -50080,6 +50089,12 @@
     {
       "player": "Germán Valera",
       "team": "Elche",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Giovani Lo Celso",
+      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
