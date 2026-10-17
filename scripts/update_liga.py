@@ -43,15 +43,13 @@ PRE_MATCH_MINUTES = int(os.environ.get("PRE_MATCH_MINUTES", "20"))
 # se retrasan de verdad.
 POST_KICKOFF_MINUTES = int(os.environ.get("POST_KICKOFF_MINUTES", "20"))
 
-# Cuántos días hacia delante se piden a ESPN. Antes se consultaba una fecha
-# suelta por petición y la ventana era de cuatro días, así que un partido a más
-# de cuatro días de vista conservaba para siempre la fecha y la hora
-# provisionales con que se creó: la jornada entera aparecía el mismo día a las
-# 20:00 y no se corregía hasta la semana del partido. ESPN acepta un rango en
-# una sola petición —`dates=20260906-20261020` devuelve los 55 partidos— y
-# publica los horarios definitivos con más de un mes de antelación, así que
-# ahora se pide todo de golpe: menos peticiones que antes y el calendario
-# correcto desde el primer momento.
+# Cuántos días hacia delante se piden a ESPN. Antes la ventana era de cuatro
+# días y una petición por fecha, así que un partido a más de cuatro días de
+# vista conservaba para siempre la fecha y la hora provisionales con que se
+# creó: la jornada entera aparecía el mismo día a las 20:00 y no se corregía
+# hasta la semana del partido. ESPN publica los horarios definitivos con más de
+# un mes de antelación, así que conviene mirar lejos; se pide por meses
+# completos (ver más abajo) y con dos o tres peticiones se cubre el horizonte.
 DIAS_FUTURO = int(os.environ.get("LALIGA_DIAS_FUTURO", "45"))
 
 # Días hacia atrás. Cubre los partidos que acaban de terminar y los que se
@@ -444,7 +442,11 @@ def save_data(data):
 # ── ESPN fetching ─────────────────────────────────────────────────────────────
 
 def fetch_scoreboard(dates):
-    """Obtiene partidos para una fecha YYYYMMDD o un rango YYYYMMDD-YYYYMMDD."""
+    """Obtiene partidos para una fecha YYYYMMDD o un mes YYYYMM.
+
+    Los rangos con guion (`YYYYMMDD-YYYYMMDD`) funcionaron hasta el 15/09/26;
+    desde entonces ESPN contesta 400 a todos, incluso a los de un solo día.
+    """
     try:
         resp = requests.get(ESPN_SCOREBOARD, params={"dates": dates}, timeout=30)
         resp.raise_for_status()
@@ -654,30 +656,47 @@ def main():
             if game.get("id"):
                 existing_por_id[game["id"]] = game
 
-    # Un único rango: los días pasados que aún pueden cambiar y el calendario
-    # futuro completo, para que las fechas y horas provisionales se corrijan en
-    # cuanto ESPN publique las definitivas y no la semana del partido.
+    # El calendario se pide por meses completos. Antes se pedía con un rango
+    # `20261013-20261201`, pero ESPN dejó de aceptar el guion el 15/09/26: desde
+    # entonces contesta 400 a cualquier rango, incluso a uno de un solo día
+    # (`20261017-20261017`), y el calendario futuro se quedó congelado un mes
+    # —la jornada 9 seguía entera el 18/10 a las 20:00 cuando ESPN ya la tenía
+    # repartida entre el 17 y el 19 con sus horas. El formato `YYYYMM` sí
+    # funciona y devuelve el mes entero, así que dos o tres peticiones cubren el
+    # mismo horizonte.
     today = datetime.now(timezone.utc)
-    desde = (today - timedelta(days=DIAS_PASADO)).strftime("%Y%m%d")
-    hasta = (today + timedelta(days=DIAS_FUTURO)).strftime("%Y%m%d")
-    rango = f"{desde}-{hasta}"
+    desde = today - timedelta(days=DIAS_PASADO)
+    hasta = today + timedelta(days=DIAS_FUTURO)
+    meses = []
+    mes = desde.replace(day=1)
+    while mes <= hasta:
+        meses.append(mes.strftime("%Y%m"))
+        mes = (mes.replace(day=28) + timedelta(days=4)).replace(day=1)
 
     changed = False
     new_days = {}
     active_matches = []
     ids_vistos = set()
 
-    print(f"Consultando ESPN del {desde} al {hasta}...")
-    events = fetch_scoreboard(rango)
-    print(f"  {len(events)} partidos en el rango")
+    print(f"Consultando ESPN: {', '.join(meses)}")
+    por_id = {}
+    sueltos = []
+    for m in meses:
+        for e in fetch_scoreboard(m):
+            if e.get("id"):
+                por_id[e["id"]] = e
+            else:
+                sueltos.append(e)
+    events = list(por_id.values()) + sueltos
+    print(f"  {len(events)} partidos en el calendario")
 
-    # El rango vale para el calendario, pero no para el directo: ESPN lo contesta
+    # El calendario vale para fechas y horas, pero no para el directo: ESPN lo contesta
     # desde una caché que va atrasada. Medido el 15/09/26 a las 21:56, pidiendo
     # a la vez las dos cosas: con la fecha suelta, Rayo–Espanyol (2-1) y
     # Alavés–Valencia (0-1) estaban terminados y el Elche–Real Madrid iba por el
     # 26'; con un rango que incluía ese día, los dos primeros seguían en el 90'+2'
     # y en el 45'+3' con 0-0, y el tercero sin empezar. La app se quedó así toda
-    # la noche. Por eso hoy y ayer se piden aparte y mandan sobre el rango. Ayer
+    # la noche. Por eso hoy y ayer se piden aparte y mandan sobre lo mensual. Ayer
     # también, porque un partido de noche sigue en juego pasada la medianoche UTC.
     frescos = {}
     for dia in (today - timedelta(days=1), today):
