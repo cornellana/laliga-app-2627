@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T10:57:12Z",
+  "lastUpdated": "2026-10-17T11:35:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44002,7 +44002,7 @@
       "games": [
         {
           "id": "401882835",
-          "time": "15:00",
+          "time": "14:00",
           "home": "Athletic",
           "away": "Getafe",
           "jornada": 10,
@@ -44018,7 +44018,7 @@
         },
         {
           "id": "401882833",
-          "time": "17:15",
+          "time": "16:15",
           "home": "Celta",
           "away": "Betis",
           "jornada": 10,
@@ -44034,7 +44034,7 @@
         },
         {
           "id": "401882829",
-          "time": "19:30",
+          "time": "18:30",
           "home": "R. Sociedad",
           "away": "Levante",
           "jornada": 10,
@@ -44050,7 +44050,7 @@
         },
         {
           "id": "401882832",
-          "time": "22:00",
+          "time": "21:00",
           "home": "FC Barcelona",
           "away": "Real Madrid",
           "jornada": 10,
@@ -44072,7 +44072,7 @@
       "games": [
         {
           "id": "401882828",
-          "time": "22:00",
+          "time": "21:00",
           "home": "Sevilla",
           "away": "Osasuna",
           "jornada": 10,
@@ -44094,7 +44094,7 @@
       "games": [
         {
           "id": "401882817",
-          "time": "22:00",
+          "time": "21:00",
           "home": "Villarreal",
           "away": "Espanyol",
           "jornada": 11,
@@ -44116,7 +44116,7 @@
       "games": [
         {
           "id": "401882820",
-          "time": "15:00",
+          "time": "14:00",
           "home": "Levante",
           "away": "Atlético",
           "jornada": 11,
@@ -44132,7 +44132,7 @@
         },
         {
           "id": "401882818",
-          "time": "17:15",
+          "time": "16:15",
           "home": "Rayo",
           "away": "Celta",
           "jornada": 11,
@@ -44148,7 +44148,7 @@
         },
         {
           "id": "401882825",
-          "time": "19:30",
+          "time": "18:30",
           "home": "Betis",
           "away": "Málaga",
           "jornada": 11,
@@ -44164,7 +44164,7 @@
         },
         {
           "id": "401882822",
-          "time": "22:00",
+          "time": "21:00",
           "home": "FC Barcelona",
           "away": "Alavés",
           "jornada": 11,
