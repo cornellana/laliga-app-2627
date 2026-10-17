@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T20:36:19Z",
+  "lastUpdated": "2026-10-17T20:51:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45429,7 +45429,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -45920,6 +45920,42 @@
                 "playerName": "Harvey Elliott",
                 "teamName": "Valencia",
                 "text": "Justin de Haas because of an injury"
+              },
+              {
+                "id": "53828477_29",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Jesús Vázquez",
+                "teamName": "Valencia",
+                "text": "José Gayà"
+              },
+              {
+                "id": "53828576_30",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Filip Ugrinic",
+                "teamName": "Valencia",
+                "text": "Guido Rodríguez"
+              },
+              {
+                "id": "53828626_31",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Pepelu",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "53829003_32",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "César Tárrega",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
