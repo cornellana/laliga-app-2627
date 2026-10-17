@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T16:04:41Z",
+  "lastUpdated": "2026-10-17T16:05:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,8 +44293,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "90'+1'",
-          "statusText": "In Progress",
+          "clock": "90'+2'",
+          "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
@@ -44802,6 +44802,24 @@
                 "playerName": "Nizar",
                 "teamName": "Villarreal",
                 "text": "Ayoze Pérez"
+              },
+              {
+                "id": "53805873_19",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Juan Foyth",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "53805875_20",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Víctor Chust",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
