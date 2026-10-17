@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T19:04:55Z",
+  "lastUpdated": "2026-10-17T19:06:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45429,7 +45429,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -45478,18 +45478,10 @@
                   "events": null
                 },
                 {
-                  "id": "267477",
-                  "jersey": 9,
-                  "name": "Hugo Duro",
+                  "id": "16340",
+                  "jersey": 8,
+                  "name": "Javier Guerra",
                   "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "231603",
-                  "jersey": 18,
-                  "name": "Pepelu",
-                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -45497,14 +45489,22 @@
                   "id": "212185",
                   "jersey": 2,
                   "name": "Guido Rodríguez",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "231603",
+                  "jersey": 18,
+                  "name": "Pepelu",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "16340",
-                  "jersey": 8,
-                  "name": "Javier Guerra",
+                  "id": "267477",
+                  "jersey": 9,
+                  "name": "Hugo Duro",
                   "position": "F",
                   "isStarter": true,
                   "events": null
