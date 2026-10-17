@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T19:24:29Z",
+  "lastUpdated": "2026-10-17T19:25:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45429,8 +45429,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "23'",
-          "statusText": "In Progress",
+          "clock": "24'",
+          "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -45675,17 +45675,17 @@
                   "events": null
                 },
                 {
-                  "id": "388803",
-                  "jersey": 24,
-                  "name": "Beñat Gerenabarrena",
+                  "id": "157708",
+                  "jersey": 16,
+                  "name": "Iñigo Ruiz de Galarreta",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "157708",
-                  "jersey": 16,
-                  "name": "Iñigo Ruiz de Galarreta",
+                  "id": "388803",
+                  "jersey": 24,
+                  "name": "Beñat Gerenabarrena",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
