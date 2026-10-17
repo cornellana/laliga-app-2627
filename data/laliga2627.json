@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:50:08Z",
+  "lastUpdated": "2026-10-17T13:51:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44276,7 +44276,7 @@
                 "type": "GOAL",
                 "minute": 89,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Álex Baena",
                 "teamName": "Atlético",
                 "text": null
               }
@@ -48743,14 +48743,14 @@
       "penalties": null
     },
     {
-      "player": "Fermín López",
-      "team": "FC Barcelona",
-      "goals": 4,
+      "player": "Álex Baena",
+      "team": "Atlético",
+      "goals": 5,
       "penalties": null
     },
     {
-      "player": "Álex Baena",
-      "team": "Atlético",
+      "player": "Fermín López",
+      "team": "FC Barcelona",
       "goals": 4,
       "penalties": null
     },
