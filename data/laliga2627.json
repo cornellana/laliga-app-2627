@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:14:20Z",
+  "lastUpdated": "2026-10-17T13:15:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,8 +43734,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "55'",
-          "statusText": "In Progress",
+          "clock": "56'",
+          "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
@@ -44153,6 +44153,15 @@
                 "playerName": "Alejandro Grimaldo",
                 "teamName": "Atlético",
                 "text": "Dani Martinez"
+              },
+              {
+                "id": "53774056_7",
+                "type": "SUBSTITUTION",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": "Marcos Llorente",
+                "teamName": "Atlético",
+                "text": "Pablo Barrios"
               }
             ]
           }
