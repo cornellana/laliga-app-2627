@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T17:12:21Z",
+  "lastUpdated": "2026-10-17T17:13:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44834,7 +44834,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45252,6 +45252,15 @@
                 "extraTime": null,
                 "playerName": "Valentín Gómez",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "53810403_5",
+                "type": "GOAL",
+                "minute": 41,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
