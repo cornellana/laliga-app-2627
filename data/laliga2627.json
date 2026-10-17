@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T18:18:04Z",
+  "lastUpdated": "2026-10-17T18:19:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44832,9 +44832,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "2-4",
+          "result": "2-5",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45403,7 +45403,16 @@
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gavi",
+                "teamName": "FC Barcelona",
+                "text": "Gabriel Jesus because of an injury"
+              },
+              {
+                "id": "53814708_26",
+                "type": "GOAL",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Dani Olmo",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -50164,6 +50173,12 @@
     {
       "player": "Cristian Romero",
       "team": "Atlético",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Dani Olmo",
+      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
