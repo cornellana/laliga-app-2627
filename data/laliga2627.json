@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:44:42Z",
+  "lastUpdated": "2026-10-17T13:45:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44249,18 +44249,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 82,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Javi Puado",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Bryan Zaragoza"
               },
               {
                 "id": "53777698_18",
                 "type": "SUBSTITUTION",
                 "minute": 82,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Marcos Fernández",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Roberto Fernández"
               }
             ]
           }
