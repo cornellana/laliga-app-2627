@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T19:03:49Z",
+  "lastUpdated": "2026-10-17T19:04:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45429,13 +45429,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
             "homeLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "165334",
@@ -45446,17 +45446,17 @@
                   "events": null
                 },
                 {
-                  "id": "330552",
-                  "jersey": 5,
-                  "name": "César Tárrega",
+                  "id": "282086",
+                  "jersey": 12,
+                  "name": "Justin de Haas",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "231603",
-                  "jersey": 18,
-                  "name": "Pepelu",
+                  "id": "330552",
+                  "jersey": 5,
+                  "name": "César Tárrega",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -45478,42 +45478,18 @@
                   "events": null
                 },
                 {
-                  "id": "16340",
-                  "jersey": 8,
-                  "name": "Javier Guerra",
-                  "position": "CM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "282086",
-                  "jersey": 12,
-                  "name": "Justin de Haas",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "231618",
-                  "jersey": 7,
-                  "name": "Arnaut Danjuma",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "253763",
-                  "jersey": 19,
-                  "name": "Dani Raba",
-                  "position": "RM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "267477",
                   "jersey": 9,
                   "name": "Hugo Duro",
-                  "position": "CF-L",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "231603",
+                  "jersey": 18,
+                  "name": "Pepelu",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -45521,7 +45497,31 @@
                   "id": "212185",
                   "jersey": 2,
                   "name": "Guido Rodríguez",
-                  "position": "CF-R",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "16340",
+                  "jersey": 8,
+                  "name": "Javier Guerra",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "231618",
+                  "jersey": 7,
+                  "name": "Arnaut Danjuma",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "253763",
+                  "jersey": 19,
+                  "name": "Dani Raba",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
