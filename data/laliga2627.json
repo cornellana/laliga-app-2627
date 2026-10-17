@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T18:00:40Z",
+  "lastUpdated": "2026-10-17T18:01:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44834,7 +44834,7 @@
           "done": false,
           "result": "2-4",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45352,6 +45352,24 @@
                 "playerName": "Eric García",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "53813077_20",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Troy Parrott",
+                "teamName": "Betis",
+                "text": "Cucho Hernández"
+              },
+              {
+                "id": "53813078_21",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Rodrigo Riquelme",
+                "teamName": "Betis",
+                "text": "Giovani Lo Celso"
               }
             ]
           }
