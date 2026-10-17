@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T17:48:43Z",
+  "lastUpdated": "2026-10-17T17:49:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44832,10 +44832,10 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "1-2",
+          "result": "1-3",
           "state": "in",
-          "clock": "51'",
-          "statusText": "Second Half",
+          "clock": "53'",
+          "statusText": "In Progress",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
@@ -45280,6 +45280,15 @@
                 "playerName": "Nelson Deossa",
                 "teamName": "Betis",
                 "text": "Dani Ceballos"
+              },
+              {
+                "id": "53812247_12",
+                "type": "GOAL",
+                "minute": 52,
+                "extraTime": null,
+                "playerName": "Gabriel Jesus",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -49730,6 +49739,12 @@
       "penalties": 2
     },
     {
+      "player": "Gabriel Jesus",
+      "team": "FC Barcelona",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Iván Romero",
       "team": "Levante",
       "goals": 3,
@@ -49810,12 +49825,6 @@
     {
       "player": "Cucho Hernández",
       "team": "Betis",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Gabriel Jesus",
-      "team": "FC Barcelona",
       "goals": 2,
       "penalties": null
     },
