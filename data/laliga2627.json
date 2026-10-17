@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T15:37:33Z",
+  "lastUpdated": "2026-10-17T15:38:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,7 +44293,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -44693,15 +44693,6 @@
                 "extraTime": null,
                 "playerName": "Gonzalo Villar",
                 "teamName": "Elche",
-                "text": null
-              },
-              {
-                "id": "53801183_5",
-                "type": "YELLOW_CARD",
-                "minute": 61,
-                "extraTime": null,
-                "playerName": "Alberto Moleiro",
-                "teamName": "Villarreal",
                 "text": null
               }
             ]
