@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T17:25:23Z",
+  "lastUpdated": "2026-10-17T17:43:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44834,8 +44834,8 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "45'+7'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
@@ -45261,6 +45261,24 @@
                 "extraTime": null,
                 "playerName": "Rodri",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "53811740_9",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Eric García",
+                "teamName": "FC Barcelona",
+                "text": "Gerard Martín"
+              },
+              {
+                "id": "53811783_10",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
                 "text": null
               }
             ]
