@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T17:52:00Z",
+  "lastUpdated": "2026-10-17T17:53:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44834,7 +44834,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "55'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45297,6 +45297,24 @@
                 "extraTime": null,
                 "playerName": "Abde Ezzalzouli",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "53812517_14",
+                "type": "RED_CARD",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Facundo Bernal",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "53812518_15",
+                "type": "YELLOW_CARD",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": "Lamine Yamal",
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
