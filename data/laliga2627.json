@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T18:07:11Z",
+  "lastUpdated": "2026-10-17T18:08:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44834,7 +44834,7 @@
           "done": false,
           "result": "2-4",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45370,6 +45370,15 @@
                 "playerName": "Rodrigo Riquelme",
                 "teamName": "Betis",
                 "text": "Giovani Lo Celso"
+              },
+              {
+                "id": "53813604_22",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
+                "text": "Lamine Yamal"
               }
             ]
           }
