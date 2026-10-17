@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T15:01:10Z",
+  "lastUpdated": "2026-10-17T15:02:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,8 +44293,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'",
-          "statusText": "First Half",
+          "clock": "45'+1'",
+          "statusText": "In Progress",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
