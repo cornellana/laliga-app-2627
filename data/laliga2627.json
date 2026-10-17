@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:39:16Z",
+  "lastUpdated": "2026-10-17T13:40:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44225,6 +44225,15 @@
                 "playerName": "Gabriel Moscardo",
                 "teamName": "Espanyol",
                 "text": "Javi Hernández"
+              },
+              {
+                "id": "53777069_15",
+                "type": "YELLOW_CARD",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Rodrigo Mendoza",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
