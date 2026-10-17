@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T17:58:30Z",
+  "lastUpdated": "2026-10-17T17:59:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44834,7 +44834,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45316,6 +45316,33 @@
                 "playerName": "Lamine Yamal",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "53812990_16",
+                "type": "YELLOW_CARD",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Diego Llorente",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "53812991_17",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Dani Olmo",
+                "teamName": "FC Barcelona",
+                "text": "Fermín López"
+              },
+              {
+                "id": "53812992_18",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Anthony Gordon",
+                "teamName": "FC Barcelona",
+                "text": "Karim Adeyemi"
               }
             ]
           }
