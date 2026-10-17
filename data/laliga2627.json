@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T17:59:35Z",
+  "lastUpdated": "2026-10-17T18:00:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44832,9 +44832,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "2-3",
+          "result": "2-4",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45343,6 +45343,15 @@
                 "playerName": "Anthony Gordon",
                 "teamName": "FC Barcelona",
                 "text": "Karim Adeyemi"
+              },
+              {
+                "id": "53813042_19",
+                "type": "GOAL",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Eric García",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -50137,6 +50146,12 @@
     {
       "player": "Enzo Bardeli",
       "team": "Levante",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Eric García",
+      "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
     },
