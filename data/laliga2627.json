@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T19:42:56Z",
+  "lastUpdated": "2026-10-17T20:36:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45429,8 +45429,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "41'",
-          "statusText": "First Half",
+          "clock": "77'",
+          "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -45830,6 +45830,96 @@
                 "playerName": "Aymeric Laporte",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "53822186_11",
+                "type": "YELLOW_CARD",
+                "minute": 42,
+                "extraTime": null,
+                "playerName": "Beñat Gerenabarrena",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "53824040_13",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Mikel Jauregizar",
+                "teamName": "Athletic",
+                "text": "Beñat Gerenabarrena"
+              },
+              {
+                "id": "53825024_17",
+                "type": "SUBSTITUTION",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Luis Rioja",
+                "teamName": "Valencia",
+                "text": "Dani Raba"
+              },
+              {
+                "id": "53824878_18",
+                "type": "SUBSTITUTION",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "David Otorbi",
+                "teamName": "Valencia",
+                "text": "Hugo Duro"
+              },
+              {
+                "id": "53825300_19",
+                "type": "YELLOW_CARD",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Íñigo Ruiz de Galarreta",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "53825947_20",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Jesús Areso",
+                "teamName": "Athletic",
+                "text": "Johaneko Louis-Jean"
+              },
+              {
+                "id": "53825948_21",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Gorka Guruzeta",
+                "teamName": "Athletic",
+                "text": "Iñaki Williams"
+              },
+              {
+                "id": "53825949_22",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Alejandro Rego",
+                "teamName": "Athletic",
+                "text": "Íñigo Ruiz de Galarreta"
+              },
+              {
+                "id": "53826415_27",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Maroan Sannadi",
+                "teamName": "Athletic",
+                "text": "Gorka Guruzeta because of an injury"
+              },
+              {
+                "id": "53827223_28",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Harvey Elliott",
+                "teamName": "Valencia",
+                "text": "Justin de Haas because of an injury"
               }
             ]
           }
