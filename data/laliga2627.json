@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T15:27:46Z",
+  "lastUpdated": "2026-10-17T15:28:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,7 +44293,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -44700,7 +44700,7 @@
         },
         {
           "id": "401882846",
-          "time": "18:00",
+          "time": "18:30",
           "home": "Betis",
           "away": "FC Barcelona",
           "jornada": 9,
