@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T15:41:53Z",
+  "lastUpdated": "2026-10-17T15:42:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,7 +44293,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -44730,6 +44730,24 @@
                 "playerName": "Georges Mikautadze",
                 "teamName": "Villarreal",
                 "text": "Santi Comesaña"
+              },
+              {
+                "id": "53802263_11",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Pape Gueye",
+                "teamName": "Villarreal",
+                "text": "Tani Oluwaseyi"
+              },
+              {
+                "id": "53802262_12",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Nathan Saliba",
+                "teamName": "Villarreal",
+                "text": "Carlos Maciá"
               }
             ]
           }
