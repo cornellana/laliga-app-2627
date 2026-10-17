@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:23:00Z",
+  "lastUpdated": "2026-10-17T13:24:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44168,9 +44168,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Álex Baena",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Lee Kang-In"
               }
             ]
           }
