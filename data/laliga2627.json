@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T12:06:11Z",
+  "lastUpdated": "2026-10-17T12:07:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,13 +43734,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
             "homeLineup": {
-              "formation": "5-3-2",
+              "formation": "5-4-1",
               "players": [
                 {
                   "id": "307419",
@@ -43794,14 +43794,6 @@
                   "id": "260242",
                   "jersey": 10,
                   "name": "Pol Lozano",
-                  "position": "CM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "311571",
-                  "jersey": 15,
-                  "name": "Bryan Zaragoza",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -43815,10 +43807,10 @@
                   "events": null
                 },
                 {
-                  "id": "318773",
-                  "jersey": 9,
-                  "name": "Roberto Fernández",
-                  "position": "CF-L",
+                  "id": "311571",
+                  "jersey": 15,
+                  "name": "Bryan Zaragoza",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -43826,7 +43818,15 @@
                   "id": "367946",
                   "jersey": 28,
                   "name": "Javi Hernandez",
-                  "position": "CF-R",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "318773",
+                  "jersey": 9,
+                  "name": "Roberto Fernández",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
