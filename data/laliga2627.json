@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:29:30Z",
+  "lastUpdated": "2026-10-17T13:30:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44198,6 +44198,15 @@
                 "playerName": "Rodrigo Mendoza",
                 "teamName": "Atlético",
                 "text": "Cristian Romero"
+              },
+              {
+                "id": "53775826_12",
+                "type": "YELLOW_CARD",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Álex Baena",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
