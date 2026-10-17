@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:24:06Z",
+  "lastUpdated": "2026-10-17T13:25:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44171,6 +44171,15 @@
                 "playerName": "Álex Baena",
                 "teamName": "Atlético",
                 "text": "Lee Kang-In"
+              },
+              {
+                "id": "53775262_9",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Unai Núñez",
+                "teamName": "Espanyol",
+                "text": "Vanja Drkusic"
               }
             ]
           }
