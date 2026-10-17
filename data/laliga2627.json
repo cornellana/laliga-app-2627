@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T16:41:56Z",
+  "lastUpdated": "2026-10-17T16:43:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44832,9 +44832,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45217,7 +45217,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53807838_3",
+                "type": "GOAL",
+                "minute": 10,
+                "extraTime": null,
+                "playerName": "Lamine Yamal",
+                "teamName": "FC Barcelona",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -49594,14 +49604,14 @@
       "penalties": 3
     },
     {
-      "player": "Kylian Mbappé",
-      "team": "Real Madrid",
-      "goals": 7,
+      "player": "Lamine Yamal",
+      "team": "FC Barcelona",
+      "goals": 8,
       "penalties": 1
     },
     {
-      "player": "Lamine Yamal",
-      "team": "FC Barcelona",
+      "player": "Kylian Mbappé",
+      "team": "Real Madrid",
       "goals": 7,
       "penalties": 1
     },
