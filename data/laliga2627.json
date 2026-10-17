@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T15:46:13Z",
+  "lastUpdated": "2026-10-17T15:47:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,7 +44293,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -44748,6 +44748,15 @@
                 "playerName": "Nathan Saliba",
                 "teamName": "Villarreal",
                 "text": "Carlos Maciá"
+              },
+              {
+                "id": "53803151_13",
+                "type": "YELLOW_CARD",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "José Antonio Morente",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
