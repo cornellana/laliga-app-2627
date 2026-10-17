@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:21:56Z",
+  "lastUpdated": "2026-10-17T13:23:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44162,6 +44162,15 @@
                 "playerName": "Marcos Llorente",
                 "teamName": "Atlético",
                 "text": "Pablo Barrios"
+              },
+              {
+                "id": "53775070_8",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
