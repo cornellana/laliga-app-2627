@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T12:23:37Z",
+  "lastUpdated": "2026-10-17T12:24:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "22'",
+          "clock": "23'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44117,7 +44117,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53768602_1",
+                "type": "YELLOW_CARD",
+                "minute": 22,
+                "extraTime": null,
+                "playerName": "Morten Hjulmand",
+                "teamName": "Atlético",
+                "text": null
+              }
+            ]
           }
         },
         {
