@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T15:59:16Z",
+  "lastUpdated": "2026-10-17T16:00:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,7 +44293,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -44782,6 +44782,24 @@
                 "minute": 81,
                 "extraTime": null,
                 "playerName": "Alex Freeman",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "53805399_17",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "53805400_18",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Villarreal",
                 "text": null
               }
