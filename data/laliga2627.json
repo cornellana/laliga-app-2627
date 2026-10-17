@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:34:55Z",
+  "lastUpdated": "2026-10-17T13:36:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -43734,7 +43734,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -44213,18 +44213,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 73,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Cala",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Edu Expósito"
               },
               {
                 "id": "53776390_14",
                 "type": "SUBSTITUTION",
                 "minute": 73,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gabriel Moscardo",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Javi Hernández"
               }
             ]
           }
