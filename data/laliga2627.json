@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T17:50:54Z",
+  "lastUpdated": "2026-10-17T17:52:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44834,7 +44834,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -45288,6 +45288,15 @@
                 "extraTime": null,
                 "playerName": "Gabriel Jesus",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "53812442_13",
+                "type": "GOAL",
+                "minute": 53,
+                "extraTime": null,
+                "playerName": "Abde Ezzalzouli",
+                "teamName": "Betis",
                 "text": null
               }
             ]
@@ -49733,6 +49742,12 @@
       "penalties": null
     },
     {
+      "player": "Abde Ezzalzouli",
+      "team": "Betis",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Alejandro Grimaldo",
       "team": "Atlético",
       "goals": 3,
@@ -49784,12 +49799,6 @@
       "player": "Roger Brugué",
       "team": "Levante",
       "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Abde Ezzalzouli",
-      "team": "Betis",
-      "goals": 2,
       "penalties": null
     },
     {
