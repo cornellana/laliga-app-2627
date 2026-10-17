@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T16:00:21Z",
+  "lastUpdated": "2026-10-17T16:01:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -44293,7 +44293,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -44790,18 +44790,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Rubén Sánchez",
                 "teamName": "Elche",
-                "text": null
+                "text": "Buba Sangaré"
               },
               {
                 "id": "53805400_18",
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Nizar",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Ayoze Pérez"
               }
             ]
           }
