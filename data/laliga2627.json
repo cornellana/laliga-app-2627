@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T13:36:51Z",
+  "lastUpdated": "2026-10-18T13:37:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45976,7 +45976,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -46440,6 +46440,24 @@
                 "playerName": "Pablo García",
                 "teamName": "Racing",
                 "text": "Sergio Canales"
+              },
+              {
+                "id": "53895076_20",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "53895077_21",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
