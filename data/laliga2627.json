@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T13:42:16Z",
+  "lastUpdated": "2026-10-18T13:43:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45976,7 +45976,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -46458,6 +46458,24 @@
                 "playerName": "Iñigo Arguibide",
                 "teamName": "Osasuna",
                 "text": "Valentin Rosier"
+              },
+              {
+                "id": "53895910_22",
+                "type": "YELLOW_CARD",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Iván Martín",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "53896061_23",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Aarón Martín",
+                "teamName": "Racing",
+                "text": "Jorge Salinas"
               }
             ]
           }
