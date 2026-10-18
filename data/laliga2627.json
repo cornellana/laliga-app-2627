@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:12:58Z",
+  "lastUpdated": "2026-10-18T17:14:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47058,7 +47058,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "42'",
+          "clock": "43'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -47107,17 +47107,17 @@
                   "events": null
                 },
                 {
-                  "id": "324098",
-                  "jersey": 8,
-                  "name": "Carlos Dotor",
+                  "id": "371564",
+                  "jersey": 23,
+                  "name": "Izan Merino",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "371564",
-                  "jersey": 23,
-                  "name": "Izan Merino",
+                  "id": "324098",
+                  "jersey": 8,
+                  "name": "Carlos Dotor",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
