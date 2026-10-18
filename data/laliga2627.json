@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T19:06:11Z",
+  "lastUpdated": "2026-10-18T19:07:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,8 +47626,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
-          "statusText": "In Progress",
+          "clock": "3'",
+          "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -47675,9 +47675,9 @@
                   "events": null
                 },
                 {
-                  "id": "310452",
-                  "jersey": 15,
-                  "name": "Arda Güler",
+                  "id": "291281",
+                  "jersey": 5,
+                  "name": "Jude Bellingham",
                   "position": "AM",
                   "isStarter": true,
                   "events": null
@@ -47691,9 +47691,9 @@
                   "events": null
                 },
                 {
-                  "id": "291281",
-                  "jersey": 5,
-                  "name": "Jude Bellingham",
+                  "id": "310452",
+                  "jersey": 15,
+                  "name": "Arda Güler",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
