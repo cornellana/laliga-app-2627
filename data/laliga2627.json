@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T18:07:52Z",
+  "lastUpdated": "2026-10-18T18:08:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47058,7 +47058,7 @@
           "done": false,
           "result": "2-5",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -47592,6 +47592,15 @@
                 "minute": 73,
                 "extraTime": null,
                 "playerName": "Gonçalo Guedes",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "53921900_20",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "R. Sociedad",
                 "text": null
               }
