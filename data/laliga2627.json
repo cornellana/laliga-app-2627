@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T15:44:33Z",
+  "lastUpdated": "2026-10-18T15:45:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46524,9 +46524,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "71'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -46996,9 +46996,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 70,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Andrés Antañón",
                 "teamName": "Celta",
-                "text": null
+                "text": "Hugo Burcio"
               },
               {
                 "id": "53910434_13",
