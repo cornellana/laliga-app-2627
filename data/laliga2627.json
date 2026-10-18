@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T18:24:12Z",
+  "lastUpdated": "2026-10-18T18:25:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47055,11 +47055,11 @@
           "away": "R. Sociedad",
           "jornada": 9,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-5",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
