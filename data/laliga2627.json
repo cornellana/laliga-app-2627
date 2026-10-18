@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T20:46:37Z",
+  "lastUpdated": "2026-10-18T20:47:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,7 +47626,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48133,6 +48133,15 @@
                 "minute": 73,
                 "extraTime": null,
                 "playerName": "Marc Cucurella",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "53938651_21",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Real Madrid",
                 "text": null
               }
