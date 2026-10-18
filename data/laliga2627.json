@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T15:33:40Z",
+  "lastUpdated": "2026-10-18T15:34:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46526,7 +46526,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -46954,6 +46954,24 @@
                 "playerName": "Ferran Jutglà",
                 "teamName": "Celta",
                 "text": null
+              },
+              {
+                "id": "53909421_8",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Hugo Novoa",
+                "teamName": "Alavés",
+                "text": "Jonny Otto"
+              },
+              {
+                "id": "53909422_9",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Mariano Díaz",
+                "teamName": "Alavés",
+                "text": "Toni Martínez"
               }
             ]
           }
