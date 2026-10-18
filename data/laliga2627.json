@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:51:35Z",
+  "lastUpdated": "2026-10-18T17:52:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47058,8 +47058,8 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "64'",
-          "statusText": "Second Half",
+          "clock": "65'",
+          "statusText": "In Progress",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -47522,6 +47522,15 @@
                 "playerName": "Igor Zubeldia",
                 "teamName": "R. Sociedad",
                 "text": "Héctor Fort"
+              },
+              {
+                "id": "53920911_12",
+                "type": "YELLOW_CARD",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Mamadou Sarr",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
