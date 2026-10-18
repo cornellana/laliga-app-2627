@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T15:59:48Z",
+  "lastUpdated": "2026-10-18T16:00:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46526,7 +46526,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -47017,6 +47017,15 @@
                 "playerName": "Marcos Alonso",
                 "teamName": "Celta",
                 "text": "Sebastián Cáceres"
+              },
+              {
+                "id": "53912085_15",
+                "type": "GOAL",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Hugo Novoa",
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
@@ -51813,6 +51822,12 @@
       "team": "Celta",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Hugo Novoa",
+      "team": "Alavés",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Iago Aspas",
