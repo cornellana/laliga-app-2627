@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T19:26:52Z",
+  "lastUpdated": "2026-10-18T19:27:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,7 +47626,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "23'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48009,7 +48009,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53929635_2",
+                "type": "YELLOW_CARD",
+                "minute": 23,
+                "extraTime": null,
+                "playerName": "Dean Huijsen",
+                "teamName": "Real Madrid",
+                "text": null
+              }
+            ]
           }
         }
       ]
