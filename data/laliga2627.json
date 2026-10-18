@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T13:28:06Z",
+  "lastUpdated": "2026-10-18T13:29:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45976,7 +45976,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -46419,9 +46419,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Asier Osambela",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Moi Gómez"
+              },
+              {
+                "id": "53893339_18",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Lucas Torró",
+                "teamName": "Osasuna",
+                "text": "Iker Muñoz"
               }
             ]
           }
