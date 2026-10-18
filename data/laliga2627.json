@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T15:51:05Z",
+  "lastUpdated": "2026-10-18T15:52:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46526,7 +46526,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -47014,9 +47014,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Marcos Alonso",
                 "teamName": "Celta",
-                "text": null
+                "text": "Sebastián Cáceres"
               }
             ]
           }
