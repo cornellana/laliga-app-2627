@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T15:35:50Z",
+  "lastUpdated": "2026-10-18T15:36:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46526,7 +46526,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -46972,6 +46972,15 @@
                 "playerName": "Mariano Díaz",
                 "teamName": "Alavés",
                 "text": "Toni Martínez"
+              },
+              {
+                "id": "53909540_10",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
