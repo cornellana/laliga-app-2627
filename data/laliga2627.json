@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:55:55Z",
+  "lastUpdated": "2026-10-18T17:56:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47056,9 +47056,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "2-3",
+          "result": "2-4",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -47546,9 +47546,27 @@
                 "type": "GOAL",
                 "minute": 66,
                 "extraTime": null,
-                "playerName": "Ángel Recio",
+                "playerName": "Pablo Martínez",
                 "teamName": "Málaga",
                 "text": null
+              },
+              {
+                "id": "53921126_15",
+                "type": "GOAL",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Mikel Oyarzabal",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "53921224_16",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Joaquín Muñoz",
+                "teamName": "Málaga",
+                "text": "David Larrubia"
               }
             ]
           }
@@ -52073,6 +52091,12 @@
       "penalties": null
     },
     {
+      "player": "Mikel Oyarzabal",
+      "team": "R. Sociedad",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Nicolas Pepe",
       "team": "Villarreal",
       "goals": 2,
@@ -52505,12 +52529,6 @@
       "penalties": null
     },
     {
-      "player": "Mikel Oyarzabal",
-      "team": "R. Sociedad",
-      "goals": 1,
-      "penalties": null
-    },
-    {
       "player": "Mikel Rodríguez",
       "team": "Alavés",
       "goals": 1,
@@ -52549,6 +52567,12 @@
     {
       "player": "Pablo Ibáñez",
       "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Pablo Martínez",
+      "team": "Málaga",
       "goals": 1,
       "penalties": null
     },
@@ -52693,12 +52717,6 @@
     {
       "player": "Álvaro Carreras",
       "team": "Real Madrid",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Ángel Recio",
-      "team": "Málaga",
       "goals": 1,
       "penalties": null
     }
