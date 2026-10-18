@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T19:42:04Z",
+  "lastUpdated": "2026-10-18T19:43:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,7 +47626,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "38'",
+          "clock": "39'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48034,6 +48034,15 @@
                 "minute": 30,
                 "extraTime": null,
                 "playerName": "Arda Güler",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "53932037_6",
+                "type": "GOAL",
+                "minute": 37,
+                "extraTime": null,
+                "playerName": "Kylian Mbappé",
                 "teamName": "Real Madrid",
                 "text": null
               }
@@ -52328,6 +52337,12 @@
       "penalties": 3
     },
     {
+      "player": "Kylian Mbappé",
+      "team": "Real Madrid",
+      "goals": 8,
+      "penalties": 1
+    },
+    {
       "player": "Lamine Yamal",
       "team": "FC Barcelona",
       "goals": 8,
@@ -52338,12 +52353,6 @@
       "team": "Osasuna",
       "goals": 7,
       "penalties": 4
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "Real Madrid",
-      "goals": 7,
-      "penalties": 1
     },
     {
       "player": "Sergio Camello",
