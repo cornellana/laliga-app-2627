@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:19:29Z",
+  "lastUpdated": "2026-10-18T17:34:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47058,8 +47058,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -47467,6 +47467,24 @@
                 "extraTime": null,
                 "playerName": "Jon Martín",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "53920031_5",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "53920032_6",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
                 "text": null
               }
             ]
