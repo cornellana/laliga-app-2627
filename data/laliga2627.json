@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T13:20:30Z",
+  "lastUpdated": "2026-10-18T13:21:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45976,7 +45976,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -46403,6 +46403,15 @@
                 "extraTime": null,
                 "playerName": "Jorge Salinas",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "53892190_16",
+                "type": "YELLOW_CARD",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
                 "text": null
               }
             ]
