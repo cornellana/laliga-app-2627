@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T16:00:53Z",
+  "lastUpdated": "2026-10-18T16:01:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46526,8 +46526,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "88'",
-          "statusText": "Second Half",
+          "clock": "89'",
+          "statusText": "In Progress",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -47026,6 +47026,24 @@
                 "playerName": "Hugo Novoa",
                 "teamName": "Alavés",
                 "text": null
+              },
+              {
+                "id": "53912233_16",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Aitor Mañas",
+                "teamName": "Alavés",
+                "text": "Abde Rebbach"
+              },
+              {
+                "id": "53912234_17",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Ander Guevara",
+                "teamName": "Alavés",
+                "text": "Antonio Blanco"
               }
             ]
           }
