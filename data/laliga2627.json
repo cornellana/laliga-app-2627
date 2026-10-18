@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:48:20Z",
+  "lastUpdated": "2026-10-18T17:49:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47058,7 +47058,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -47504,6 +47504,24 @@
                 "playerName": "Mikel Oyarzabal",
                 "teamName": "R. Sociedad",
                 "text": null
+              },
+              {
+                "id": "53920802_10",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Gonçalo Guedes",
+                "teamName": "R. Sociedad",
+                "text": "Ander Barrenetxea"
+              },
+              {
+                "id": "53920803_11",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Igor Zubeldia",
+                "teamName": "R. Sociedad",
+                "text": "Héctor Fort"
               }
             ]
           }
