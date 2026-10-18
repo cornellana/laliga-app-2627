@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T20:37:53Z",
+  "lastUpdated": "2026-10-18T20:38:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,7 +47626,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48081,6 +48081,33 @@
                 "playerName": "Kylian Mbappé",
                 "teamName": "Real Madrid",
                 "text": null
+              },
+              {
+                "id": "53937882_15",
+                "type": "YELLOW_CARD",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Juan Iglesias",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "53937906_16",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Brahim Díaz",
+                "teamName": "Real Madrid",
+                "text": "Endrick"
+              },
+              {
+                "id": "53937907_17",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Bernardo Silva",
+                "teamName": "Real Madrid",
+                "text": "Jude Bellingham"
               }
             ]
           }
