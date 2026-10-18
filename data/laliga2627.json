@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T13:11:47Z",
+  "lastUpdated": "2026-10-18T13:12:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45976,7 +45976,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "52'",
+          "clock": "53'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -46395,6 +46395,15 @@
                 "playerName": "Andrés Martín",
                 "teamName": "Racing",
                 "text": "André Almeida"
+              },
+              {
+                "id": "53890874_15",
+                "type": "YELLOW_CARD",
+                "minute": 51,
+                "extraTime": null,
+                "playerName": "Jorge Salinas",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
