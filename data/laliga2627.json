@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T19:56:07Z",
+  "lastUpdated": "2026-10-18T20:13:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,8 +47626,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -48044,6 +48044,15 @@
                 "extraTime": null,
                 "playerName": "Kylian Mbappé",
                 "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "53934765_10",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
