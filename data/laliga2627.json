@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T20:25:57Z",
+  "lastUpdated": "2026-10-18T20:27:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,7 +47626,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48069,9 +48069,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 56,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Manu Bueno",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Peque Fernández"
               }
             ]
           }
