@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T20:50:59Z",
+  "lastUpdated": "2026-10-18T20:52:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,7 +47626,7 @@
           "done": false,
           "result": "4-1",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48152,6 +48152,15 @@
                 "extraTime": null,
                 "playerName": "Manu Bueno",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "53939034_23",
+                "type": "GOAL",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Yan Diomande",
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
@@ -52715,6 +52724,12 @@
       "penalties": null
     },
     {
+      "player": "Yan Diomande",
+      "team": "Real Madrid",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Álvaro García",
       "team": "Rayo",
       "goals": 2,
@@ -53257,12 +53272,6 @@
     {
       "player": "Xavi Espart",
       "team": "FC Barcelona",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Yan Diomande",
-      "team": "Real Madrid",
       "goals": 1,
       "penalties": null
     },
