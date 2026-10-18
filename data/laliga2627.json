@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T15:27:07Z",
+  "lastUpdated": "2026-10-18T15:28:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46524,9 +46524,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -46945,6 +46945,15 @@
                 "playerName": "Javi Rueda",
                 "teamName": "Celta",
                 "text": "Williot Swedberg"
+              },
+              {
+                "id": "53908785_7",
+                "type": "GOAL",
+                "minute": 53,
+                "extraTime": null,
+                "playerName": "Ferran Jutglà",
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
@@ -51431,6 +51440,12 @@
       "penalties": null
     },
     {
+      "player": "Ferran Jutglà",
+      "team": "Celta",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Georges Mikautadze",
       "team": "Villarreal",
       "goals": 2,
@@ -51711,12 +51726,6 @@
       "team": "Elche",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "Ferran Jutglà",
-      "team": "Celta",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Félix Correia",
