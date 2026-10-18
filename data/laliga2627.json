@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T13:45:32Z",
+  "lastUpdated": "2026-10-18T13:46:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45976,7 +45976,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -46482,9 +46482,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Asier Villalibre",
                 "teamName": "Racing",
-                "text": null
+                "text": "Iván Martín"
               }
             ]
           }
