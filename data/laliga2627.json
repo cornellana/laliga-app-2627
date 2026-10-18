@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:41:49Z",
+  "lastUpdated": "2026-10-18T17:42:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47056,9 +47056,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "1-2",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -47486,6 +47486,15 @@
                 "playerName": "Adam Aznou",
                 "teamName": "Málaga",
                 "text": "José Salinas"
+              },
+              {
+                "id": "53920484_8",
+                "type": "GOAL",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Adrián Niño",
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
@@ -51866,6 +51875,12 @@
       "penalties": null
     },
     {
+      "player": "Adrián Niño",
+      "team": "Málaga",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Alejandro Grimaldo",
       "team": "Atlético",
       "goals": 3,
@@ -51917,12 +51932,6 @@
       "player": "Roger Brugué",
       "team": "Levante",
       "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Adrián Niño",
-      "team": "Málaga",
-      "goals": 2,
       "penalties": null
     },
     {
