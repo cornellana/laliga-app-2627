@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T15:43:27Z",
+  "lastUpdated": "2026-10-18T15:44:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46990,6 +46990,24 @@
                 "playerName": "Iago Aspas",
                 "teamName": "Celta",
                 "text": "Couhaib Driouech"
+              },
+              {
+                "id": "53910458_12",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "53910434_13",
+                "type": "GOAL",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Javi Rodríguez",
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
@@ -51820,6 +51838,12 @@
     {
       "player": "Iñaki Williams",
       "team": "Athletic",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Javi Rodríguez",
+      "team": "Celta",
       "goals": 1,
       "penalties": null
     },
