@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T20:40:04Z",
+  "lastUpdated": "2026-10-18T20:41:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,7 +47626,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48108,6 +48108,15 @@
                 "playerName": "Bernardo Silva",
                 "teamName": "Real Madrid",
                 "text": "Jude Bellingham"
+              },
+              {
+                "id": "53938150_18",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
