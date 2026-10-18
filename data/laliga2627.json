@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T18:02:26Z",
+  "lastUpdated": "2026-10-18T18:03:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47058,8 +47058,8 @@
           "done": false,
           "result": "2-5",
           "state": "in",
-          "clock": "74'",
-          "statusText": "In Progress",
+          "clock": "75'",
+          "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -47585,6 +47585,15 @@
                 "playerName": "Job Ochieng",
                 "teamName": "R. Sociedad",
                 "text": "Takefusa Kubo"
+              },
+              {
+                "id": "53921465_19",
+                "type": "GOAL",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Gonçalo Guedes",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
@@ -52079,6 +52088,12 @@
       "penalties": null
     },
     {
+      "player": "Gonçalo Guedes",
+      "team": "R. Sociedad",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Isaac Romero",
       "team": "Sevilla",
       "goals": 2,
@@ -52363,12 +52378,6 @@
     {
       "player": "Germán Valera",
       "team": "Elche",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Gonçalo Guedes",
-      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
