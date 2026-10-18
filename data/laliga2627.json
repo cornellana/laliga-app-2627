@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T16:57:45Z",
+  "lastUpdated": "2026-10-18T16:58:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47058,8 +47058,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "27'",
-          "statusText": "First Half",
+          "clock": "28'",
+          "statusText": "In Progress",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -47448,6 +47448,15 @@
                 "minute": 3,
                 "extraTime": null,
                 "playerName": "Takefusa Kubo",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "53917362_2",
+                "type": "GOAL",
+                "minute": 26,
+                "extraTime": null,
+                "playerName": "Orri Óskarsson",
                 "teamName": "R. Sociedad",
                 "text": null
               }
@@ -51980,6 +51989,12 @@
       "penalties": null
     },
     {
+      "player": "Orri Óskarsson",
+      "team": "R. Sociedad",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Pablo Durán",
       "team": "Celta",
       "goals": 2,
@@ -52426,12 +52441,6 @@
     {
       "player": "Oihan Sancet",
       "team": "Athletic",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Orri Óskarsson",
-      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
