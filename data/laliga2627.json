@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T20:42:15Z",
+  "lastUpdated": "2026-10-18T20:43:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,7 +47626,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48117,6 +48117,24 @@
                 "playerName": "José Ángel Carmona",
                 "teamName": "Sevilla",
                 "text": "Juan Iglesias"
+              },
+              {
+                "id": "53938264_19",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Alfon González",
+                "teamName": "Sevilla",
+                "text": "Félix Correia"
+              },
+              {
+                "id": "53938260_20",
+                "type": "YELLOW_CARD",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Marc Cucurella",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
