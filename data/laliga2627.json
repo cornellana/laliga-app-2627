@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T15:18:24Z",
+  "lastUpdated": "2026-10-18T15:19:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46526,7 +46526,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -46936,6 +46936,15 @@
                 "playerName": "Aleix Febas",
                 "teamName": "Celta",
                 "text": "Ilaix Moriba"
+              },
+              {
+                "id": "53907854_5",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Javi Rueda",
+                "teamName": "Celta",
+                "text": "Williot Swedberg"
               }
             ]
           }
