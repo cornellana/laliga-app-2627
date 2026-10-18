@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T19:34:28Z",
+  "lastUpdated": "2026-10-18T19:35:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47624,9 +47624,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "30'",
+          "clock": "31'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48025,6 +48025,15 @@
                 "minute": 23,
                 "extraTime": null,
                 "playerName": "Dean Huijsen",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "53931016_5",
+                "type": "GOAL",
+                "minute": 30,
+                "extraTime": null,
+                "playerName": "Arda Güler",
                 "teamName": "Real Madrid",
                 "text": null
               }
@@ -52469,6 +52478,12 @@
       "penalties": null
     },
     {
+      "player": "Arda Güler",
+      "team": "Real Madrid",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Carlos Espí",
       "team": "Real Madrid",
       "goals": 2,
@@ -52644,12 +52659,6 @@
     },
     {
       "player": "Antonio Rüdiger",
-      "team": "Real Madrid",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Arda Güler",
       "team": "Real Madrid",
       "goals": 1,
       "penalties": null
