@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T12:50:37Z",
+  "lastUpdated": "2026-10-18T13:06:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45976,8 +45976,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'+5'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": {
@@ -46386,6 +46386,15 @@
                 "playerName": "Valentin Rosier",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "53889555_13",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Andrés Martín",
+                "teamName": "Racing",
+                "text": "André Almeida"
               }
             ]
           }
