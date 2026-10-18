@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T18:12:13Z",
+  "lastUpdated": "2026-10-18T18:13:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47058,8 +47058,8 @@
           "done": false,
           "result": "2-5",
           "state": "in",
-          "clock": "84'",
-          "statusText": "In Progress",
+          "clock": "85'",
+          "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -47609,9 +47609,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 82,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Carlos Puga",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Adrián Niño"
               }
             ]
           }
