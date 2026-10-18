@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T18:01:20Z",
+  "lastUpdated": "2026-10-18T18:02:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47056,10 +47056,10 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "2-4",
+          "result": "2-5",
           "state": "in",
-          "clock": "73'",
-          "statusText": "Second Half",
+          "clock": "74'",
+          "statusText": "In Progress",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -47567,6 +47567,24 @@
                 "playerName": "Joaquín Muñoz",
                 "teamName": "Málaga",
                 "text": "David Larrubia"
+              },
+              {
+                "id": "53921488_17",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Sergio Gómez",
+                "teamName": "R. Sociedad",
+                "text": "Aihen Muñoz"
+              },
+              {
+                "id": "53921489_18",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Job Ochieng",
+                "teamName": "R. Sociedad",
+                "text": "Takefusa Kubo"
               }
             ]
           }
