@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T20:47:42Z",
+  "lastUpdated": "2026-10-18T20:48:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47624,9 +47624,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "3-0",
+          "result": "3-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48141,8 +48141,17 @@
                 "type": "SUBSTITUTION",
                 "minute": 78,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Eduardo Camavinga",
                 "teamName": "Real Madrid",
+                "text": "Arda Güler"
+              },
+              {
+                "id": "53938803_22",
+                "type": "GOAL",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Manu Bueno",
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
@@ -53044,6 +53053,12 @@
     {
       "player": "Maguette Gueye",
       "team": "Racing",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Manu Bueno",
+      "team": "Sevilla",
       "goals": 1,
       "penalties": null
     },
