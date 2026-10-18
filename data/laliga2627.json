@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T20:41:09Z",
+  "lastUpdated": "2026-10-18T20:42:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,7 +47626,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48114,9 +48114,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 72,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "José Ángel Carmona",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Juan Iglesias"
               }
             ]
           }
