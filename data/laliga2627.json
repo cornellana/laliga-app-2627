@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T13:29:12Z",
+  "lastUpdated": "2026-10-18T13:30:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45976,7 +45976,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -46431,6 +46431,15 @@
                 "playerName": "Lucas Torró",
                 "teamName": "Osasuna",
                 "text": "Iker Muñoz"
+              },
+              {
+                "id": "53893581_19",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
