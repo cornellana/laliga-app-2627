@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:53:44Z",
+  "lastUpdated": "2026-10-18T17:54:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47056,10 +47056,10 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "1-3",
+          "result": "2-3",
           "state": "in",
-          "clock": "66'",
-          "statusText": "In Progress",
+          "clock": "67'",
+          "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -47540,6 +47540,15 @@
                 "playerName": "Dani Lorenzo",
                 "teamName": "Málaga",
                 "text": "Carlos Dotor"
+              },
+              {
+                "id": "53921075_14",
+                "type": "GOAL",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Ángel Recio",
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
@@ -52684,6 +52693,12 @@
     {
       "player": "Álvaro Carreras",
       "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Ángel Recio",
+      "team": "Málaga",
       "goals": 1,
       "penalties": null
     }
