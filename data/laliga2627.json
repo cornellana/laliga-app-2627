@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:47:15Z",
+  "lastUpdated": "2026-10-18T17:48:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47056,9 +47056,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "1-2",
+          "result": "1-3",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -47494,6 +47494,15 @@
                 "extraTime": null,
                 "playerName": "Adrián Niño",
                 "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "53920747_9",
+                "type": "GOAL",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Mikel Oyarzabal",
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
@@ -52447,6 +52456,12 @@
     {
       "player": "Miguel Román",
       "team": "Celta",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Mikel Oyarzabal",
+      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
