@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T21:01:53Z",
+  "lastUpdated": "2026-10-18T21:02:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47623,11 +47623,11 @@
           "away": "Sevilla",
           "jornada": 9,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "4-1",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
