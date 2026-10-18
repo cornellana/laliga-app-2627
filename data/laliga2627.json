@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T16:08:25Z",
+  "lastUpdated": "2026-10-18T16:09:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46523,11 +46523,11 @@
           "away": "Alavés",
           "jornada": 9,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-1",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
