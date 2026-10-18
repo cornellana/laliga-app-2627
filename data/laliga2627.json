@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T15:03:37Z",
+  "lastUpdated": "2026-10-18T15:18:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46526,8 +46526,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+1'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -46927,6 +46927,15 @@
                 "playerName": "Toni Martínez",
                 "teamName": "Alavés",
                 "text": null
+              },
+              {
+                "id": "53907747_4",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Aleix Febas",
+                "teamName": "Celta",
+                "text": "Ilaix Moriba"
               }
             ]
           }
