@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T14:19:32Z",
+  "lastUpdated": "2026-10-18T14:20:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46526,7 +46526,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -46583,17 +46583,17 @@
                   "events": null
                 },
                 {
-                  "id": "298343",
-                  "jersey": 5,
-                  "name": "Sergio Carreira",
+                  "id": "188391",
+                  "jersey": 23,
+                  "name": "Hugo Álvarez",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "188391",
-                  "jersey": 23,
-                  "name": "Hugo Álvarez",
+                  "id": "298343",
+                  "jersey": 5,
+                  "name": "Sergio Carreira",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -46732,9 +46732,9 @@
                   "events": null
                 },
                 {
-                  "id": "262491",
-                  "jersey": 14,
-                  "name": "Nahuel Tenaglia",
+                  "id": "149306",
+                  "jersey": 16,
+                  "name": "Ville Koski",
                   "position": "CD",
                   "isStarter": true,
                   "events": null
@@ -46764,9 +46764,9 @@
                   "events": null
                 },
                 {
-                  "id": "149306",
-                  "jersey": 16,
-                  "name": "Ville Koski",
+                  "id": "262491",
+                  "jersey": 14,
+                  "name": "Nahuel Tenaglia",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
@@ -46780,17 +46780,17 @@
                   "events": null
                 },
                 {
-                  "id": "106326",
-                  "jersey": 19,
-                  "name": "Pablo Ibáñez",
+                  "id": "233802",
+                  "jersey": 10,
+                  "name": "Carles Aleñá",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "233802",
-                  "jersey": 10,
-                  "name": "Carles Aleñá",
+                  "id": "106326",
+                  "jersey": 19,
+                  "name": "Pablo Ibáñez",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
