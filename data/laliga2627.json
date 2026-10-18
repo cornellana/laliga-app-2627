@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:08:38Z",
+  "lastUpdated": "2026-10-18T17:09:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47058,7 +47058,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "38'",
+          "clock": "39'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -47457,6 +47457,15 @@
                 "minute": 26,
                 "extraTime": null,
                 "playerName": "Orri Óskarsson",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "53918443_3",
+                "type": "YELLOW_CARD",
+                "minute": 37,
+                "extraTime": null,
+                "playerName": "Jon Martín",
                 "teamName": "R. Sociedad",
                 "text": null
               }
