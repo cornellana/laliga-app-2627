@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T15:42:21Z",
+  "lastUpdated": "2026-10-18T15:43:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -46526,7 +46526,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "69'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -46981,6 +46981,15 @@
                 "playerName": "Denis Suárez",
                 "teamName": "Alavés",
                 "text": "Carles Aleñá"
+              },
+              {
+                "id": "53910345_11",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Iago Aspas",
+                "teamName": "Celta",
+                "text": "Couhaib Driouech"
               }
             ]
           }
