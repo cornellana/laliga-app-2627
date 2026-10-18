@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:34:13Z",
+  "lastUpdated": "2026-10-18T17:35:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47058,7 +47058,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -47474,18 +47474,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ramón Enríquez",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Izan Merino"
               },
               {
                 "id": "53920032_6",
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Adam Aznou",
                 "teamName": "Málaga",
-                "text": null
+                "text": "José Salinas"
               }
             ]
           }
