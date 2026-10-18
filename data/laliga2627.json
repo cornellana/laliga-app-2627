@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T20:13:57Z",
+  "lastUpdated": "2026-10-18T20:15:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,7 +47626,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48051,9 +48051,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Chidera Ejuke",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Rubén Vargas"
               }
             ]
           }
