@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T20:31:24Z",
+  "lastUpdated": "2026-10-18T20:32:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47624,9 +47624,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "3-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48072,6 +48072,15 @@
                 "playerName": "Manu Bueno",
                 "teamName": "Sevilla",
                 "text": "Peque Fernández"
+              },
+              {
+                "id": "53936980_14",
+                "type": "PENALTY",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -52366,8 +52375,8 @@
     {
       "player": "Kylian Mbappé",
       "team": "Real Madrid",
-      "goals": 8,
-      "penalties": 1
+      "goals": 9,
+      "penalties": 2
     },
     {
       "player": "Lamine Yamal",
