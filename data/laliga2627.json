@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T19:29:02Z",
+  "lastUpdated": "2026-10-18T19:30:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,7 +47626,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -48011,7 +48011,16 @@
             },
             "events": [
               {
-                "id": "53929635_2",
+                "id": "53929869_1",
+                "type": "YELLOW_CARD",
+                "minute": 23,
+                "extraTime": null,
+                "playerName": "Félix Correia",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "53929635_3",
                 "type": "YELLOW_CARD",
                 "minute": 23,
                 "extraTime": null,
