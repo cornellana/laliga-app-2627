@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T19:05:06Z",
+  "lastUpdated": "2026-10-18T19:06:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -47626,8 +47626,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
-          "statusText": "First Half",
+          "clock": "2'",
+          "statusText": "In Progress",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
