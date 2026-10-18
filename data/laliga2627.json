@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T13:30:18Z",
+  "lastUpdated": "2026-10-18T13:31:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45976,7 +45976,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -46437,9 +46437,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo García",
                 "teamName": "Racing",
-                "text": null
+                "text": "Sergio Canales"
               }
             ]
           }
