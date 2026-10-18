@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T12:15:47Z",
+  "lastUpdated": "2026-10-18T12:16:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45976,7 +45976,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "16'",
+          "clock": "17'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -45993,17 +45993,17 @@
                   "events": null
                 },
                 {
-                  "id": "264175",
-                  "jersey": 24,
-                  "name": "Alejandro Catena",
+                  "id": "307905",
+                  "jersey": 22,
+                  "name": "Enzo Boyomo",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "307905",
-                  "jersey": 22,
-                  "name": "Enzo Boyomo",
+                  "id": "264175",
+                  "jersey": 24,
+                  "name": "Alejandro Catena",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
