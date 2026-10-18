@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T13:53:10Z",
+  "lastUpdated": "2026-10-18T13:54:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45973,11 +45973,11 @@
           "away": "Racing",
           "jornada": 9,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-0",
-          "state": "in",
-          "clock": "90'+3'",
-          "statusText": "In Progress",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": {
@@ -46503,6 +46503,15 @@
                 "playerName": "Raúl García",
                 "teamName": "Osasuna",
                 "text": "Rubén García"
+              },
+              {
+                "id": "53897642_27",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Giorgi Guliashvili",
+                "teamName": "Racing",
+                "text": "Yassir Zabiri"
               }
             ]
           }
