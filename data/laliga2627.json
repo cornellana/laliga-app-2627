@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T12:08:12Z",
+  "lastUpdated": "2026-10-18T12:09:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -45974,9 +45974,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "8'",
+          "clock": "9'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -46359,7 +46359,26 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53885270_4",
+                "type": "YELLOW_CARD",
+                "minute": 6,
+                "extraTime": null,
+                "playerName": "Álvaro Mantilla",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "53885272_6",
+                "type": "PENALTY",
+                "minute": 9,
+                "extraTime": null,
+                "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -50704,6 +50723,12 @@
       "penalties": 1
     },
     {
+      "player": "Ante Budimir",
+      "team": "Osasuna",
+      "goals": 7,
+      "penalties": 4
+    },
+    {
       "player": "Kylian Mbappé",
       "team": "Real Madrid",
       "goals": 7,
@@ -50720,12 +50745,6 @@
       "team": "Racing",
       "goals": 7,
       "penalties": null
-    },
-    {
-      "player": "Ante Budimir",
-      "team": "Osasuna",
-      "goals": 6,
-      "penalties": 3
     },
     {
       "player": "Roberto Fernández",
