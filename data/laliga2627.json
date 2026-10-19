@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T19:47:56Z",
+  "lastUpdated": "2026-10-19T19:49:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,8 +48200,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "45'+2'",
-          "statusText": "First Half",
+          "clock": "45'+3'",
+          "statusText": "Halftime",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -48612,6 +48612,15 @@
                 "playerName": "Abdel Abqar",
                 "teamName": "Getafe",
                 "text": "Ramón Terrats"
+              },
+              {
+                "id": "53964232_10",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 1,
+                "playerName": "Iván Balliu",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
