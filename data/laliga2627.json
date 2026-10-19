@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T19:29:24Z",
+  "lastUpdated": "2026-10-19T19:30:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,8 +48200,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "29'",
-          "statusText": "In Progress",
+          "clock": "30'",
+          "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -48592,6 +48592,15 @@
                 "minute": 16,
                 "extraTime": null,
                 "playerName": "Djené Dakonam",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "53963341_4",
+                "type": "RED_CARD",
+                "minute": 28,
+                "extraTime": null,
+                "playerName": "Djené",
                 "teamName": "Getafe",
                 "text": null
               }
