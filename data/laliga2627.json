@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:17:53Z",
+  "lastUpdated": "2026-10-19T20:18:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48654,7 +48654,7 @@
                 "type": "GOAL",
                 "minute": 56,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Martín Satriano",
                 "teamName": "Getafe",
                 "text": null
               }
@@ -53155,6 +53155,12 @@
       "penalties": null
     },
     {
+      "player": "Martín Satriano",
+      "team": "Getafe",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Miguel Sierra",
       "team": "Sevilla",
       "goals": 2,
@@ -53577,12 +53583,6 @@
     {
       "player": "Mario Soriano",
       "team": "Deportivo",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Martín Satriano",
-      "team": "Getafe",
       "goals": 1,
       "penalties": null
     },
