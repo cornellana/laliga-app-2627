@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:40:50Z",
+  "lastUpdated": "2026-10-19T20:41:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48702,6 +48702,15 @@
                 "playerName": "Dani Carvajal",
                 "teamName": "Getafe",
                 "text": null
+              },
+              {
+                "id": "53966491_26",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Sebastián Boselli",
+                "teamName": "Getafe",
+                "text": "Dani Carvajal"
               }
             ]
           }
