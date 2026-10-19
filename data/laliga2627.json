@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:30:59Z",
+  "lastUpdated": "2026-10-19T20:32:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48684,6 +48684,15 @@
                 "playerName": "Giorgi Tsitaishvili",
                 "teamName": "Rayo",
                 "text": "Jorge de Frutos"
+              },
+              {
+                "id": "53965947_24",
+                "type": "YELLOW_CARD",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Pathé Ciss",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
