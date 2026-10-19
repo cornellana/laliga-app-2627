@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T19:11:37Z",
+  "lastUpdated": "2026-10-19T19:12:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48198,9 +48198,9 @@
           "jornada": 9,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "11'",
+          "clock": "12'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48575,6 +48575,15 @@
                 "extraTime": null,
                 "playerName": "Kiko Femenía",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "53962328_2",
+                "type": "GOAL",
+                "minute": 11,
+                "extraTime": null,
+                "playerName": "Álvaro García",
+                "teamName": "Rayo",
                 "text": null
               }
             ]
@@ -52978,6 +52987,12 @@
       "penalties": null
     },
     {
+      "player": "Álvaro García",
+      "team": "Rayo",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Adrián de la Fuente",
       "team": "Levante",
       "goals": 2,
@@ -53118,12 +53133,6 @@
     {
       "player": "Yan Diomande",
       "team": "Real Madrid",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Álvaro García",
-      "team": "Rayo",
       "goals": 2,
       "penalties": null
     },
