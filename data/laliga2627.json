@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:48:33Z",
+  "lastUpdated": "2026-10-19T20:49:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48744,7 +48744,16 @@
                 "type": "SUBSTITUTION",
                 "minute": 87,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Borja Mayoral",
+                "teamName": "Getafe",
+                "text": "Enes Ünal"
+              },
+              {
+                "id": "53966859_31",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Nemanja Gudelj",
                 "teamName": "Getafe",
                 "text": null
               }
