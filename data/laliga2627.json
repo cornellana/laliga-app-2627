@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:26:36Z",
+  "lastUpdated": "2026-10-19T20:27:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,8 +48200,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "66'",
-          "statusText": "In Progress",
+          "clock": "67'",
+          "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -48675,6 +48675,15 @@
                 "playerName": "Pedro Díaz",
                 "teamName": "Rayo",
                 "text": "Iván Balliu"
+              },
+              {
+                "id": "53965699_23",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
