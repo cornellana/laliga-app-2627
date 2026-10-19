@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T19:34:50Z",
+  "lastUpdated": "2026-10-19T19:35:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "34'",
+          "clock": "36'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48609,9 +48609,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 32,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Abdel Abqar",
                 "teamName": "Getafe",
-                "text": null
+                "text": "Ramón Terrats"
               }
             ]
           }
