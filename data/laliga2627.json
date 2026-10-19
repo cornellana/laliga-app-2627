@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:39:44Z",
+  "lastUpdated": "2026-10-19T20:40:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48692,6 +48692,15 @@
                 "extraTime": null,
                 "playerName": "Pathé Ciss",
                 "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "53966475_25",
+                "type": "YELLOW_CARD",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Dani Carvajal",
+                "teamName": "Getafe",
                 "text": null
               }
             ]
