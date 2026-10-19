@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:41:56Z",
+  "lastUpdated": "2026-10-19T20:43:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48704,7 +48704,25 @@
                 "text": null
               },
               {
-                "id": "53966491_26",
+                "id": "53966520_26",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Alemão",
+                "teamName": "Rayo",
+                "text": "Álvaro García"
+              },
+              {
+                "id": "53966521_27",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Fran Pérez",
+                "teamName": "Rayo",
+                "text": "Unai López"
+              },
+              {
+                "id": "53966491_28",
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
