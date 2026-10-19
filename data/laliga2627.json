@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:20:03Z",
+  "lastUpdated": "2026-10-19T20:21:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48666,6 +48666,15 @@
                 "playerName": "Óscar Valentín",
                 "teamName": "Rayo",
                 "text": "Isi Palazón"
+              },
+              {
+                "id": "53965403_22",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Pedro Díaz",
+                "teamName": "Rayo",
+                "text": "Iván Balliu"
               }
             ]
           }
