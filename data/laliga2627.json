@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:55:11Z",
+  "lastUpdated": "2026-10-19T20:56:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48197,11 +48197,11 @@
           "away": "Rayo",
           "jornada": 9,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-1",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -48713,22 +48713,22 @@
                 "text": "Álvaro García"
               },
               {
-                "id": "53966521_27",
-                "type": "SUBSTITUTION",
-                "minute": 80,
-                "extraTime": null,
-                "playerName": "Fran Pérez",
-                "teamName": "Rayo",
-                "text": "Unai López"
-              },
-              {
-                "id": "53966491_28",
+                "id": "53966491_27",
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
                 "playerName": "Sebastián Boselli",
                 "teamName": "Getafe",
                 "text": "Dani Carvajal"
+              },
+              {
+                "id": "53966521_28",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Fran Pérez",
+                "teamName": "Rayo",
+                "text": "Unai López"
               },
               {
                 "id": "53966738_29",
