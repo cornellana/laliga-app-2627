@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T19:49:01Z",
+  "lastUpdated": "2026-10-19T20:06:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,8 +48200,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "47'",
+          "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -48621,6 +48621,24 @@
                 "playerName": "Iván Balliu",
                 "teamName": "Rayo",
                 "text": null
+              },
+              {
+                "id": "53964848_12",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Francho Serrano",
+                "teamName": "Getafe",
+                "text": "Kiko Femenía"
+              },
+              {
+                "id": "53964849_13",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Andrés García",
+                "teamName": "Getafe",
+                "text": "Mario Martín"
               }
             ]
           }
