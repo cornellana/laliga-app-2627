@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:27:42Z",
+  "lastUpdated": "2026-10-19T20:28:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48681,9 +48681,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 65,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Giorgi Tsitaishvili",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Jorge de Frutos"
               }
             ]
           }
