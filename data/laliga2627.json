@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:12:25Z",
+  "lastUpdated": "2026-10-19T20:13:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "52'",
+          "clock": "53'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48639,6 +48639,15 @@
                 "playerName": "Andrés García",
                 "teamName": "Getafe",
                 "text": "Mario Martín"
+              },
+              {
+                "id": "53965126_15",
+                "type": "YELLOW_CARD",
+                "minute": 51,
+                "extraTime": null,
+                "playerName": "Francho Serrano",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
