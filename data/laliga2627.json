@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:45:13Z",
+  "lastUpdated": "2026-10-19T20:46:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48729,6 +48729,15 @@
                 "playerName": "Sebastián Boselli",
                 "teamName": "Getafe",
                 "text": "Dani Carvajal"
+              },
+              {
+                "id": "53966738_29",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Enes Ünal",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
