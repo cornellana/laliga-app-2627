@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T19:01:47Z",
+  "lastUpdated": "2026-10-19T19:02:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48200,7 +48200,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -48567,7 +48567,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "53961883_1",
+                "type": "YELLOW_CARD",
+                "minute": 1,
+                "extraTime": null,
+                "playerName": "Kiko Femenía",
+                "teamName": "Getafe",
+                "text": null
+              }
+            ]
           }
         }
       ]
