@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:59:47Z",
+  "lastUpdated": "2026-10-21T20:00:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48783,9 +48783,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "3-1",
           "state": "in",
-          "clock": "90'+8'",
+          "clock": "90'+9'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -49317,7 +49317,7 @@
                 "id": "54015891_29",
                 "type": "YELLOW_CARD",
                 "minute": 90,
-                "extraTime": 7,
+                "extraTime": 6,
                 "playerName": "Yuri Berchiche",
                 "teamName": "Athletic",
                 "text": null
