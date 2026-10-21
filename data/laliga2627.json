@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:57:37Z",
+  "lastUpdated": "2026-10-21T19:58:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48785,7 +48785,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "90'+6'",
+          "clock": "90'+7'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -49312,6 +49312,15 @@
                 "playerName": "Paco Cortés",
                 "teamName": "Levante",
                 "text": "Thiago Fernández"
+              },
+              {
+                "id": "54015891_29",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 7,
+                "playerName": "Yuri Berchiche",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
