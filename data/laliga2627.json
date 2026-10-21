@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:07:26Z",
+  "lastUpdated": "2026-10-21T19:08:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48785,8 +48785,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
@@ -49195,6 +49195,15 @@
                 "playerName": "Peio Canales",
                 "teamName": "Athletic",
                 "text": "Johaneko Louis-Jean"
+              },
+              {
+                "id": "54010328_5",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Iñaki Williams",
+                "teamName": "Athletic",
+                "text": "Mikel Jauregizar"
               }
             ]
           }
