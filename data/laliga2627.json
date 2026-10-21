@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T20:00:53Z",
+  "lastUpdated": "2026-10-21T20:01:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48785,7 +48785,7 @@
           "done": false,
           "result": "3-1",
           "state": "in",
-          "clock": "90'+9'",
+          "clock": "90'+10'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -49320,6 +49320,15 @@
                 "extraTime": 6,
                 "playerName": "Yuri Berchiche",
                 "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "54015912_30",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 8,
+                "playerName": "Karl Etta Eyong",
+                "teamName": "Levante",
                 "text": null
               }
             ]
@@ -54177,6 +54186,12 @@
     {
       "player": "Jules Koundé",
       "team": "FC Barcelona",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Karl Etta Eyong",
+      "team": "Levante",
       "goals": 1,
       "penalties": null
     },
