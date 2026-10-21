@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:47:47Z",
+  "lastUpdated": "2026-10-21T19:48:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48785,7 +48785,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -49260,7 +49260,7 @@
                 "text": null
               },
               {
-                "id": "54015059_22",
+                "id": "54015059_23",
                 "type": "YELLOW_CARD",
                 "minute": 80,
                 "extraTime": null,
@@ -49269,7 +49269,7 @@
                 "text": null
               },
               {
-                "id": "54015192_23",
+                "id": "54015192_24",
                 "type": "SUBSTITUTION",
                 "minute": 81,
                 "extraTime": null,
@@ -49278,7 +49278,7 @@
                 "text": "Íñigo Ruiz de Galarreta"
               },
               {
-                "id": "54015191_24",
+                "id": "54015191_25",
                 "type": "SUBSTITUTION",
                 "minute": 81,
                 "extraTime": null,
@@ -49287,7 +49287,7 @@
                 "text": "Hugo Rincón"
               },
               {
-                "id": "54015081_25",
+                "id": "54015081_26",
                 "type": "SUBSTITUTION",
                 "minute": 81,
                 "extraTime": null,
@@ -49303,6 +49303,15 @@
                 "playerName": "Nacho Pérez",
                 "teamName": "Levante",
                 "text": "Jeremy Toljan"
+              },
+              {
+                "id": "54015595_28",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
