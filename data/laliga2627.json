@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:33:37Z",
+  "lastUpdated": "2026-10-21T19:34:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48785,7 +48785,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -49213,6 +49213,15 @@
                 "playerName": "Alex Berenguer",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "54013837_14",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Víctor García",
+                "teamName": "Levante",
+                "text": "Roger Brugué"
               }
             ]
           }
