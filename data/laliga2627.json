@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:35:47Z",
+  "lastUpdated": "2026-10-21T19:36:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48785,7 +48785,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -49215,13 +49215,40 @@
                 "text": null
               },
               {
-                "id": "54013837_14",
+                "id": "54013996_14",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Karl Etta Eyong",
+                "teamName": "Levante",
+                "text": "Petar Ratkov"
+              },
+              {
+                "id": "54013995_15",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Oriol Rey",
+                "teamName": "Levante",
+                "text": "Iván Romero"
+              },
+              {
+                "id": "54013837_16",
                 "type": "SUBSTITUTION",
                 "minute": 72,
                 "extraTime": null,
                 "playerName": "Víctor García",
                 "teamName": "Levante",
                 "text": "Roger Brugué"
+              },
+              {
+                "id": "54014112_17",
+                "type": "RED_CARD",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Aymeric Laporte",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
