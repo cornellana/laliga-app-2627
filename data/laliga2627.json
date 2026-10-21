@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T18:24:30Z",
+  "lastUpdated": "2026-10-21T18:25:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48783,9 +48783,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "21'",
+          "clock": "22'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -49173,6 +49173,15 @@
                 "id": "54008808_1",
                 "type": "GOAL",
                 "minute": 20,
+                "extraTime": null,
+                "playerName": "Roger Brugué",
+                "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "54008867_2",
+                "type": "GOAL",
+                "minute": 22,
                 "extraTime": null,
                 "playerName": "Roger Brugué",
                 "teamName": "Levante",
@@ -53497,6 +53506,12 @@
       "penalties": null
     },
     {
+      "player": "Roger Brugué",
+      "team": "Levante",
+      "goals": 5,
+      "penalties": null
+    },
+    {
       "player": "Álex Baena",
       "team": "Atlético",
       "goals": 5,
@@ -53505,12 +53520,6 @@
     {
       "player": "Fermín López",
       "team": "FC Barcelona",
-      "goals": 4,
-      "penalties": null
-    },
-    {
-      "player": "Roger Brugué",
-      "team": "Levante",
       "goals": 4,
       "penalties": null
     },
