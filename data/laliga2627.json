@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T18:51:36Z",
+  "lastUpdated": "2026-10-21T19:07:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49186,6 +49186,15 @@
                 "playerName": "Roger Brugué",
                 "teamName": "Levante",
                 "text": null
+              },
+              {
+                "id": "54010243_4",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Peio Canales",
+                "teamName": "Athletic",
+                "text": "Johaneko Louis-Jean"
               }
             ]
           }
