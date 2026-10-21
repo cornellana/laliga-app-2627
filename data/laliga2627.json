@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T20:01:59Z",
+  "lastUpdated": "2026-10-21T20:03:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48782,11 +48782,11 @@
           "away": "Athletic",
           "jornada": 6,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "3-1",
-          "state": "in",
-          "clock": "90'+10'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
