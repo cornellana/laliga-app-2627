@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:40:10Z",
+  "lastUpdated": "2026-10-21T19:41:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48785,7 +48785,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -49255,7 +49255,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 77,
                 "extraTime": null,
-                "playerName": "Etta Eyong",
+                "playerName": "Karl Etta Eyong",
                 "teamName": "Levante",
                 "text": null
               }
