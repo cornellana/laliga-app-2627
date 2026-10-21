@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:43:26Z",
+  "lastUpdated": "2026-10-21T19:44:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48785,7 +48785,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -49276,6 +49276,24 @@
                 "playerName": "Nico Williams",
                 "teamName": "Athletic",
                 "text": "Robert Navarro"
+              },
+              {
+                "id": "54015191_24",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "54015192_25",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
