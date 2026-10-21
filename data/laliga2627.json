@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T20:56:18Z",
+  "lastUpdated": "2026-10-21T14:58:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49340,25 +49340,9 @@
       ]
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-20",
       "jornada": 13,
       "games": [
-        {
-          "id": "401882806",
-          "time": "21:00",
-          "home": "Alavés",
-          "away": "Deportivo",
-          "jornada": 13,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Mendizorrotza",
-          "venueCity": "Vitoria-Gasteiz",
-          "details": null
-        },
         {
           "id": "401882805",
           "time": "21:00",
@@ -49374,12 +49358,18 @@
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": null
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "jornada": 13,
+      "games": [
         {
-          "id": "401882804",
-          "time": "21:00",
-          "home": "FC Barcelona",
-          "away": "Villarreal",
+          "id": "401882806",
+          "time": "14:00",
+          "home": "Alavés",
+          "away": "Deportivo",
           "jornada": 13,
           "tv": null,
           "done": false,
@@ -49387,77 +49377,13 @@
           "state": "pre",
           "clock": null,
           "statusText": null,
-          "stadium": "Spotify Camp Nou",
-          "venueCity": "Barcelona",
-          "details": null
-        },
-        {
-          "id": "401882803",
-          "time": "21:00",
-          "home": "Getafe",
-          "away": "Atlético",
-          "jornada": 13,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Estadio Coliseum",
-          "venueCity": "Getafe",
-          "details": null
-        },
-        {
-          "id": "401882802",
-          "time": "21:00",
-          "home": "Levante",
-          "away": "Elche",
-          "jornada": 13,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Estadi Ciutat de València",
-          "venueCity": "Manises",
-          "details": null
-        },
-        {
-          "id": "401882801",
-          "time": "21:00",
-          "home": "Osasuna",
-          "away": "Málaga",
-          "jornada": 13,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "El Sadar",
-          "venueCity": "Pamplona",
-          "details": null
-        },
-        {
-          "id": "401882800",
-          "time": "21:00",
-          "home": "Racing",
-          "away": "R. Sociedad",
-          "jornada": 13,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "El Sardineros",
-          "venueCity": "Santander",
+          "stadium": "Mendizorrotza",
+          "venueCity": "Vitoria-Gasteiz",
           "details": null
         },
         {
           "id": "401882799",
-          "time": "21:00",
+          "time": "16:15",
           "home": "Rayo",
           "away": "Valencia",
           "jornada": 13,
@@ -49469,6 +49395,22 @@
           "statusText": null,
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
+          "details": null
+        },
+        {
+          "id": "401882797",
+          "time": "18:30",
+          "home": "Sevilla",
+          "away": "Betis",
+          "jornada": 13,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "venueCity": "Sevilla",
           "details": null
         },
         {
@@ -49486,12 +49428,18 @@
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": null
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "jornada": 13,
+      "games": [
         {
-          "id": "401882797",
-          "time": "21:00",
-          "home": "Sevilla",
-          "away": "Betis",
+          "id": "401882804",
+          "time": "14:00",
+          "home": "FC Barcelona",
+          "away": "Villarreal",
           "jornada": 13,
           "tv": null,
           "done": false,
@@ -49499,8 +49447,78 @@
           "state": "pre",
           "clock": null,
           "statusText": null,
-          "stadium": "Ramón Sánchez Pizjuán Stadium",
-          "venueCity": "Sevilla",
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "Barcelona",
+          "details": null
+        },
+        {
+          "id": "401882800",
+          "time": "16:15",
+          "home": "Racing",
+          "away": "R. Sociedad",
+          "jornada": 13,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "El Sardineros",
+          "venueCity": "Santander",
+          "details": null
+        },
+        {
+          "id": "401882801",
+          "time": "18:30",
+          "home": "Osasuna",
+          "away": "Málaga",
+          "jornada": 13,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "El Sadar",
+          "venueCity": "Pamplona",
+          "details": null
+        },
+        {
+          "id": "401882803",
+          "time": "21:00",
+          "home": "Getafe",
+          "away": "Atlético",
+          "jornada": 13,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
+          "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "jornada": 13,
+      "games": [
+        {
+          "id": "401882802",
+          "time": "21:00",
+          "home": "Levante",
+          "away": "Elche",
+          "jornada": 13,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadi Ciutat de València",
+          "venueCity": "Manises",
           "details": null
         }
       ]
