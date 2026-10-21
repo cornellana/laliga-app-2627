@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T18:23:25Z",
+  "lastUpdated": "2026-10-21T18:24:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48783,9 +48783,9 @@
           "jornada": 6,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "20'",
+          "clock": "21'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -49168,7 +49168,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54008808_1",
+                "type": "GOAL",
+                "minute": 20,
+                "extraTime": null,
+                "playerName": "Roger Brugué",
+                "teamName": "Levante",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -53499,6 +53509,12 @@
       "penalties": null
     },
     {
+      "player": "Roger Brugué",
+      "team": "Levante",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Abde Ezzalzouli",
       "team": "Betis",
       "goals": 3,
@@ -53557,12 +53573,6 @@
       "team": "Villarreal",
       "goals": 3,
       "penalties": 1
-    },
-    {
-      "player": "Roger Brugué",
-      "team": "Levante",
-      "goals": 3,
-      "penalties": null
     },
     {
       "player": "Álvaro García",
