@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:29:17Z",
+  "lastUpdated": "2026-10-21T19:30:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48785,7 +48785,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -49204,6 +49204,15 @@
                 "playerName": "Iñaki Williams",
                 "teamName": "Athletic",
                 "text": "Mikel Jauregizar"
+              },
+              {
+                "id": "54013296_13",
+                "type": "PENALTY",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Alex Berenguer",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
@@ -53620,6 +53629,12 @@
       "penalties": null
     },
     {
+      "player": "Alex Berenguer",
+      "team": "Athletic",
+      "goals": 2,
+      "penalties": 1
+    },
+    {
       "player": "Ander Barrenetxea",
       "team": "R. Sociedad",
       "goals": 2,
@@ -53783,12 +53798,6 @@
     },
     {
       "player": "Aitor Paredes",
-      "team": "Athletic",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Alex Berenguer",
       "team": "Athletic",
       "goals": 1,
       "penalties": null
