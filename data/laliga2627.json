@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T18:16:56Z",
+  "lastUpdated": "2026-10-21T18:18:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -48785,7 +48785,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "14'",
+          "clock": "15'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -48866,17 +48866,17 @@
                   "events": null
                 },
                 {
-                  "id": "342136",
-                  "jersey": 10,
-                  "name": "Petar Ratkov",
+                  "id": "311054",
+                  "jersey": 9,
+                  "name": "Iván Romero",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "311054",
-                  "jersey": 9,
-                  "name": "Iván Romero",
+                  "id": "342136",
+                  "jersey": 10,
+                  "name": "Petar Ratkov",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
