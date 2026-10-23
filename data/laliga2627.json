@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T20:35:46Z",
+  "lastUpdated": "2026-10-23T20:36:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49350,7 +49350,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -49823,6 +49823,24 @@
                 "playerName": "Aitor Mañas",
                 "teamName": "Alavés",
                 "text": "Antonio Blanco"
+              },
+              {
+                "id": "54104550_15",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Juan Berrocal",
+                "teamName": "Málaga",
+                "text": "Carlos Puga"
+              },
+              {
+                "id": "54104551_16",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Chupe",
+                "teamName": "Málaga",
+                "text": "Adrián Niño"
               }
             ]
           }
