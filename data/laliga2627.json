@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T20:53:12Z",
+  "lastUpdated": "2026-10-23T20:54:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49347,11 +49347,11 @@
           "away": "Málaga",
           "jornada": 10,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-1",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
