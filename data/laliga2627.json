@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T20:45:34Z",
+  "lastUpdated": "2026-10-23T20:46:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49350,7 +49350,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -49856,9 +49856,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 87,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jens Cajuste",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Carlos Dotor"
               }
             ]
           }
