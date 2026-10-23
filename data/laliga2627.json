@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T20:05:11Z",
+  "lastUpdated": "2026-10-23T20:06:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49350,7 +49350,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "47'",
+          "clock": "48'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -49757,9 +49757,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Hugo Novoa",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Carles Aleñá"
               }
             ]
           }
