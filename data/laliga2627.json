@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T20:24:50Z",
+  "lastUpdated": "2026-10-23T20:25:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49350,7 +49350,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -49778,6 +49778,15 @@
                 "playerName": "Denis Suárez",
                 "teamName": "Alavés",
                 "text": "Abde Rebbach"
+              },
+              {
+                "id": "54103556_10",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Toni Martínez",
+                "teamName": "Alavés",
+                "text": "Mariano Díaz"
               }
             ]
           }
