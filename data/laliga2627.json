@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T20:47:45Z",
+  "lastUpdated": "2026-10-23T20:48:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49348,9 +49348,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -49859,6 +49859,15 @@
                 "playerName": "Jens Cajuste",
                 "teamName": "Málaga",
                 "text": "Carlos Dotor"
+              },
+              {
+                "id": "54105221_19",
+                "type": "GOAL",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Aitor Mañas",
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
@@ -54417,6 +54426,12 @@
     {
       "player": "Adrià Pedrosa",
       "team": "Rayo",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Aitor Mañas",
+      "team": "Alavés",
       "goals": 1,
       "penalties": null
     },
