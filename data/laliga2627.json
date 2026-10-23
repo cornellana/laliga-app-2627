@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T20:27:01Z",
+  "lastUpdated": "2026-10-23T20:28:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49350,7 +49350,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -49787,6 +49787,15 @@
                 "playerName": "Toni Martínez",
                 "teamName": "Alavés",
                 "text": "Mariano Díaz"
+              },
+              {
+                "id": "54103735_11",
+                "type": "YELLOW_CARD",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Nahuel Tenaglia",
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
