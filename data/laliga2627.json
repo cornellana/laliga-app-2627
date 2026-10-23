@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T19:46:10Z",
+  "lastUpdated": "2026-10-23T19:47:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49348,10 +49348,10 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "45'+1'",
-          "statusText": "In Progress",
+          "clock": "45'+2'",
+          "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
@@ -49741,6 +49741,15 @@
                 "extraTime": null,
                 "playerName": "Lucas Boyé",
                 "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "54100216_2",
+                "type": "GOAL",
+                "minute": 44,
+                "extraTime": null,
+                "playerName": "Adrián Niño",
+                "teamName": "Málaga",
                 "text": null
               }
             ]
@@ -54052,6 +54061,12 @@
       "penalties": null
     },
     {
+      "player": "Adrián Niño",
+      "team": "Málaga",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Fermín López",
       "team": "FC Barcelona",
       "goals": 4,
@@ -54060,12 +54075,6 @@
     {
       "player": "Abde Ezzalzouli",
       "team": "Betis",
-      "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Adrián Niño",
-      "team": "Málaga",
       "goals": 3,
       "penalties": null
     },
