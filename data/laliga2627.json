@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T19:05:48Z",
+  "lastUpdated": "2026-10-23T19:06:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49350,7 +49350,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -49596,17 +49596,17 @@
                   "events": null
                 },
                 {
-                  "id": "324098",
-                  "jersey": 8,
-                  "name": "Carlos Dotor",
+                  "id": "331533",
+                  "jersey": 22,
+                  "name": "Daniel Lorenzo",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "331533",
-                  "jersey": 22,
-                  "name": "Daniel Lorenzo",
+                  "id": "324098",
+                  "jersey": 8,
+                  "name": "Carlos Dotor",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
