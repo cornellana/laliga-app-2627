@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T18:02:44Z",
+  "lastUpdated": "2026-10-24T18:03:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,8 +51024,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "70'",
-          "statusText": "Second Half",
+          "clock": "72'",
+          "statusText": "In Progress",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -51514,6 +51514,24 @@
                 "extraTime": null,
                 "playerName": "Alex Freeman",
                 "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "54194747_21",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "54194748_22",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
                 "text": null
               }
             ]
