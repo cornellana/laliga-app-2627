@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T12:49:56Z",
+  "lastUpdated": "2026-10-24T12:51:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,8 +49888,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "In Progress",
+          "clock": "45'+4'",
+          "statusText": "First Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
           "details": {
