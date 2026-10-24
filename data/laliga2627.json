@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T14:27:56Z",
+  "lastUpdated": "2026-10-24T14:29:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50456,7 +50456,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "12'",
+          "clock": "13'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50513,17 +50513,17 @@
                   "events": null
                 },
                 {
-                  "id": "107960",
-                  "jersey": 18,
-                  "name": "Matteo Prati",
+                  "id": "330545",
+                  "jersey": 23,
+                  "name": "Iván Martín",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "330545",
-                  "jersey": 23,
-                  "name": "Iván Martín",
+                  "id": "107960",
+                  "jersey": 18,
+                  "name": "Matteo Prati",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
