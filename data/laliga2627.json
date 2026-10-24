@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T18:29:22Z",
+  "lastUpdated": "2026-10-24T18:30:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,8 +51024,8 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "clock": "90'+8'",
+          "statusText": "In Progress",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -51535,7 +51535,7 @@
                 "text": "Javi Guerra"
               },
               {
-                "id": "54195528_24",
+                "id": "54195528_25",
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
@@ -51544,7 +51544,7 @@
                 "text": "Pablo Maffeo"
               },
               {
-                "id": "54195529_25",
+                "id": "54195529_26",
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
