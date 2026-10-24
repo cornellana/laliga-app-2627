@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T13:48:17Z",
+  "lastUpdated": "2026-10-24T13:49:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "81'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50424,6 +50424,15 @@
                 "playerName": "Gnangoro",
                 "teamName": "Rayo",
                 "text": "Iván Balliu"
+              },
+              {
+                "id": "54156883_39",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Álvaro García",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
