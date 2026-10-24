@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T18:13:34Z",
+  "lastUpdated": "2026-10-24T18:14:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51553,7 +51553,7 @@
                 "text": "Justin de Haas"
               },
               {
-                "id": "54195810_30",
+                "id": "54195810_29",
                 "type": "RED_CARD",
                 "minute": 79,
                 "extraTime": null,
