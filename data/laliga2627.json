@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T12:33:37Z",
+  "lastUpdated": "2026-10-24T12:34:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "31'",
+          "clock": "32'",
           "statusText": "First Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50285,6 +50285,24 @@
                 "id": "54149323_6",
                 "type": "PENALTY",
                 "minute": 23,
+                "extraTime": null,
+                "playerName": "Federico Redondo",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "54149564_7",
+                "type": "YELLOW_CARD",
+                "minute": 30,
+                "extraTime": null,
+                "playerName": "Gonzalo Villar",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "54149565_8",
+                "type": "YELLOW_CARD",
+                "minute": 31,
                 "extraTime": null,
                 "playerName": "Federico Redondo",
                 "teamName": "Elche",
