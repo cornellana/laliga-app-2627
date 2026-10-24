@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T13:50:28Z",
+  "lastUpdated": "2026-10-24T13:51:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50439,9 +50439,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pedro Bigas",
                 "teamName": "Elche",
-                "text": null
+                "text": "Federico Redondo"
               }
             ]
           }
