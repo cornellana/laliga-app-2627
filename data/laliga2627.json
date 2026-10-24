@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T12:36:53Z",
+  "lastUpdated": "2026-10-24T12:37:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "35'",
+          "clock": "36'",
           "statusText": "First Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50302,7 +50302,7 @@
               {
                 "id": "54149565_8",
                 "type": "YELLOW_CARD",
-                "minute": 31,
+                "minute": 30,
                 "extraTime": null,
                 "playerName": "Federico Redondo",
                 "teamName": "Elche",
