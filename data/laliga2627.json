@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T19:49:11Z",
+  "lastUpdated": "2026-10-24T20:08:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51619,8 +51619,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+2'",
-          "statusText": "Halftime",
+          "clock": "48'",
+          "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": {
@@ -52011,6 +52011,24 @@
                 "playerName": "Marc Pubill",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "54206896_7",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Giuliano Simeone",
+                "teamName": "Atlético",
+                "text": "Pablo Barrios"
+              },
+              {
+                "id": "54206983_8",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Robin Le Normand",
+                "teamName": "Atlético",
+                "text": "Ademola Lookman"
               }
             ]
           }
