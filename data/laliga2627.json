@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T13:22:09Z",
+  "lastUpdated": "2026-10-24T13:23:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50361,6 +50361,15 @@
                 "playerName": "Alemão",
                 "teamName": "Rayo",
                 "text": "Sergio Camello"
+              },
+              {
+                "id": "54153654_27",
+                "type": "YELLOW_CARD",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Adrià Pedrosa",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
