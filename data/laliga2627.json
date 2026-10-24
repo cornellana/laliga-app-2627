@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T18:22:48Z",
+  "lastUpdated": "2026-10-24T18:23:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,8 +51024,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "90'",
-          "statusText": "Second Half",
+          "clock": "90'+2'",
+          "statusText": "In Progress",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -51578,6 +51578,24 @@
                 "playerName": "Pau Navarro",
                 "teamName": "Villarreal",
                 "text": "Tajon Buchanan"
+              },
+              {
+                "id": "54196978_34",
+                "type": "YELLOW_CARD",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Harvey Elliott",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "54196979_35",
+                "type": "RED_CARD",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Second yellow card to Harvey Elliott",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
