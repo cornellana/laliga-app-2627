@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T12:39:03Z",
+  "lastUpdated": "2026-10-24T12:40:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "37'",
+          "clock": "38'",
           "statusText": "First Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50309,7 +50309,7 @@
                 "text": null
               },
               {
-                "id": "54149794_11",
+                "id": "54149794_15",
                 "type": "YELLOW_CARD",
                 "minute": 35,
                 "extraTime": null,
@@ -50322,7 +50322,7 @@
                 "type": "PENALTY",
                 "minute": 36,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Fer Niño",
                 "teamName": "Elche",
                 "text": null
               }
@@ -54577,15 +54577,15 @@
       "penalties": null
     },
     {
+      "player": "Fer Niño",
+      "team": "Elche",
+      "goals": 6,
+      "penalties": 1
+    },
+    {
       "player": "Roberto Fernández",
       "team": "Espanyol",
       "goals": 6,
-      "penalties": null
-    },
-    {
-      "player": "Fer Niño",
-      "team": "Elche",
-      "goals": 5,
       "penalties": null
     },
     {
