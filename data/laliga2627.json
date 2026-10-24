@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T20:35:42Z",
+  "lastUpdated": "2026-10-24T20:38:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51619,7 +51619,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "75'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -52065,6 +52065,15 @@
                 "playerName": "Alexander Sørloth",
                 "teamName": "Atlético",
                 "text": "Lee Kang-In"
+              },
+              {
+                "id": "54211559_18",
+                "type": "YELLOW_CARD",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Yeremay Hernández",
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
