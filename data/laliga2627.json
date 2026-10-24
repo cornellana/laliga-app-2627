@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T17:10:16Z",
+  "lastUpdated": "2026-10-24T17:11:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "38'",
+          "clock": "39'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51423,6 +51423,24 @@
                 "minute": 34,
                 "extraTime": null,
                 "playerName": "Dani Raba",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "54189621_9",
+                "type": "YELLOW_CARD",
+                "minute": 37,
+                "extraTime": null,
+                "playerName": "Renato Veiga",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "54189622_10",
+                "type": "PENALTY",
+                "minute": 38,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Valencia",
                 "text": null
               }
