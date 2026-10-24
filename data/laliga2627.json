@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T20:43:13Z",
+  "lastUpdated": "2026-10-24T20:46:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51619,7 +51619,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -52110,6 +52110,15 @@
                 "playerName": "Rodrigo Mendoza",
                 "teamName": "Atlético",
                 "text": "Morten Hjulmand"
+              },
+              {
+                "id": "54212756_23",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
