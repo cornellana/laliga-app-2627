@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T16:46:29Z",
+  "lastUpdated": "2026-10-24T16:47:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "14'",
+          "clock": "15'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51407,7 +51407,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54187409_3",
+                "type": "SUBSTITUTION",
+                "minute": 14,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
+                "text": null
+              }
+            ]
           }
         },
         {
