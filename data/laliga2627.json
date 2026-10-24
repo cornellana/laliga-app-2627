@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T17:59:29Z",
+  "lastUpdated": "2026-10-24T18:00:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51492,7 +51492,7 @@
               {
                 "id": "54194420_18",
                 "type": "SUBSTITUTION",
-                "minute": 66,
+                "minute": 65,
                 "extraTime": null,
                 "playerName": "Alberto Moleiro",
                 "teamName": "Villarreal",
