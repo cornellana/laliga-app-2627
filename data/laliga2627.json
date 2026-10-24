@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T17:16:45Z",
+  "lastUpdated": "2026-10-24T17:17:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "44'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51442,6 +51442,15 @@
                 "extraTime": null,
                 "playerName": "Pepelu",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "54190330_11",
+                "type": "YELLOW_CARD",
+                "minute": 43,
+                "extraTime": null,
+                "playerName": "Ayoze Pérez",
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
