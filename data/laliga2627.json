@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T15:35:45Z",
+  "lastUpdated": "2026-10-24T15:36:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50454,9 +50454,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50855,6 +50855,15 @@
                 "minute": 17,
                 "extraTime": null,
                 "playerName": "Pol Lozano",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "54179769_9",
+                "type": "GOAL",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Edu Expósito",
                 "teamName": "Espanyol",
                 "text": null
               }
@@ -55527,6 +55536,12 @@
     {
       "player": "Diego Villares",
       "team": "Deportivo",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Edu Expósito",
+      "team": "Espanyol",
       "goals": 1,
       "penalties": null
     },
