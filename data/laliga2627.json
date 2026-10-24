@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T13:28:41Z",
+  "lastUpdated": "2026-10-24T13:29:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50372,13 +50372,31 @@
                 "text": null
               },
               {
-                "id": "54154273_29",
+                "id": "54154273_30",
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
                 "playerName": "Jozhua Vertrouwd",
                 "teamName": "Rayo",
                 "text": "Adrià Pedrosa"
+              },
+              {
+                "id": "54154406_31",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Isi Palazón",
+                "teamName": "Rayo",
+                "text": "Pedro Díaz"
+              },
+              {
+                "id": "54154407_34",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Abiel Osorio",
+                "teamName": "Elche",
+                "text": "Fer Niño because of an injury"
               }
             ]
           }
