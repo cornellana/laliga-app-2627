@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T14:17:05Z",
+  "lastUpdated": "2026-10-24T14:18:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50456,7 +50456,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50473,17 +50473,17 @@
                   "events": null
                 },
                 {
-                  "id": "282672",
-                  "jersey": 5,
-                  "name": "Pablo Ramon",
+                  "id": "333927",
+                  "jersey": 24,
+                  "name": "Jeanuël Belocian",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "333927",
-                  "jersey": 24,
-                  "name": "Jeanuël Belocian",
+                  "id": "282672",
+                  "jersey": 5,
+                  "name": "Pablo Ramon",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
