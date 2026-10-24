@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T16:01:45Z",
+  "lastUpdated": "2026-10-24T16:02:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50456,7 +50456,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50974,6 +50974,15 @@
                 "playerName": "Marcos Fernández",
                 "teamName": "Espanyol",
                 "text": "Cala"
+              },
+              {
+                "id": "54184113_30",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
