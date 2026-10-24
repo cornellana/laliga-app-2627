@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T12:25:59Z",
+  "lastUpdated": "2026-10-24T12:27:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49886,9 +49886,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "23'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50278,6 +50278,15 @@
                 "minute": 10,
                 "extraTime": null,
                 "playerName": "Javi Morcillo",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "54149323_6",
+                "type": "PENALTY",
+                "minute": 23,
+                "extraTime": null,
+                "playerName": "Federico Redondo",
                 "teamName": "Elche",
                 "text": null
               }
@@ -54983,6 +54992,12 @@
     },
     {
       "player": "Facundo Buonanotte",
+      "team": "Elche",
+      "goals": 1,
+      "penalties": 1
+    },
+    {
+      "player": "Federico Redondo",
       "team": "Elche",
       "goals": 1,
       "penalties": 1
