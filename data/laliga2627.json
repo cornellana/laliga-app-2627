@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T18:12:29Z",
+  "lastUpdated": "2026-10-24T18:13:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51551,6 +51551,15 @@
                 "playerName": "Hugo Duro",
                 "teamName": "Valencia",
                 "text": "Justin de Haas"
+              },
+              {
+                "id": "54195810_30",
+                "type": "RED_CARD",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Pape Gueye",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
