@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T14:25:45Z",
+  "lastUpdated": "2026-10-24T14:26:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50456,7 +50456,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50839,7 +50839,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54164084_1",
+                "type": "YELLOW_CARD",
+                "minute": 8,
+                "extraTime": null,
+                "playerName": "Iñigo Vicente",
+                "teamName": "Racing",
+                "text": null
+              }
+            ]
           }
         },
         {
