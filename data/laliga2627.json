@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T20:28:45Z",
+  "lastUpdated": "2026-10-24T20:32:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51619,7 +51619,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "68'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -52056,6 +52056,15 @@
                 "playerName": "Luismi Cruz",
                 "teamName": "Deportivo",
                 "text": "Diego Villares"
+              },
+              {
+                "id": "54210623_17",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Alexander Sørloth",
+                "teamName": "Atlético",
+                "text": "Lee Kang-In"
               }
             ]
           }
