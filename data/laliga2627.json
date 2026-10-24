@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T17:11:21Z",
+  "lastUpdated": "2026-10-24T17:12:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "39'",
+          "clock": "40'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51440,7 +51440,7 @@
                 "type": "PENALTY",
                 "minute": 38,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pepelu",
                 "teamName": "Valencia",
                 "text": null
               }
@@ -56381,6 +56381,12 @@
       "team": "FC Barcelona",
       "goals": 1,
       "penalties": null
+    },
+    {
+      "player": "Pepelu",
+      "team": "Valencia",
+      "goals": 1,
+      "penalties": 1
     },
     {
       "player": "Peque Fernández",
