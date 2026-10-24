@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T19:06:21Z",
+  "lastUpdated": "2026-10-24T19:07:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51619,7 +51619,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "4'",
+          "clock": "5'",
           "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -51814,13 +51814,21 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-2-3-1",
+              "formation": "5-3-2",
               "players": [
                 {
                   "id": "300926",
                   "jersey": 13,
                   "name": "Leo Román",
                   "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "188398",
+                  "jersey": 20,
+                  "name": "José María Giménez",
+                  "position": "CD",
                   "isStarter": true,
                   "events": null
                 },
@@ -51833,9 +51841,9 @@
                   "events": null
                 },
                 {
-                  "id": "188398",
-                  "jersey": 20,
-                  "name": "José María Giménez",
+                  "id": "308006",
+                  "jersey": 2,
+                  "name": "Adrià Altimira",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -51849,18 +51857,10 @@
                   "events": null
                 },
                 {
-                  "id": "308006",
-                  "jersey": 2,
-                  "name": "Adrià Altimira",
+                  "id": "375390",
+                  "jersey": 11,
+                  "name": "David Mella",
                   "position": "RB",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "297353",
-                  "jersey": 21,
-                  "name": "Mario Soriano Carreno",
-                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -51868,7 +51868,7 @@
                   "id": "356639",
                   "jersey": 16,
                   "name": "Lorenzo Amatucci",
-                  "position": "LM",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
@@ -51876,15 +51876,15 @@
                   "id": "331742",
                   "jersey": 8,
                   "name": "Diego Villares",
-                  "position": "RM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "414299",
-                  "jersey": 32,
-                  "name": "Bil Nsongo",
-                  "position": "F",
+                  "id": "297353",
+                  "jersey": 21,
+                  "name": "Mario Soriano Carreno",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -51892,15 +51892,15 @@
                   "id": "312392",
                   "jersey": 10,
                   "name": "Yeremay Hernández",
-                  "position": "AM-L",
+                  "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "375390",
-                  "jersey": 11,
-                  "name": "David Mella",
-                  "position": "AM-R",
+                  "id": "414299",
+                  "jersey": 32,
+                  "name": "Bil Nsongo",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
