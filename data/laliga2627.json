@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T13:42:51Z",
+  "lastUpdated": "2026-10-24T13:43:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50415,6 +50415,15 @@
                 "playerName": "Tete Morente",
                 "teamName": "Elche",
                 "text": "Lucas Cepeda"
+              },
+              {
+                "id": "54156198_38",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Gnangoro",
+                "teamName": "Rayo",
+                "text": "Iván Balliu"
               }
             ]
           }
