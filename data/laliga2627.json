@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T17:51:55Z",
+  "lastUpdated": "2026-10-24T17:52:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51451,6 +51451,24 @@
                 "extraTime": null,
                 "playerName": "Ayoze Pérez",
                 "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "54193563_14",
+                "type": "YELLOW_CARD",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Tajon Buchanan",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "54193564_15",
+                "type": "YELLOW_CARD",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Pablo Maffeo",
+                "teamName": "Valencia",
                 "text": null
               }
             ]
