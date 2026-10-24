@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T20:40:08Z",
+  "lastUpdated": "2026-10-24T20:43:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51619,7 +51619,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "79'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -52074,6 +52074,42 @@
                 "playerName": "Yeremay Hernández",
                 "teamName": "Deportivo",
                 "text": null
+              },
+              {
+                "id": "54211984_19",
+                "type": "YELLOW_CARD",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Giacomo Quagliata",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "54212286_20",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Kevin Sánchez",
+                "teamName": "Deportivo",
+                "text": "Bil Nsongo"
+              },
+              {
+                "id": "54212106_21",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Jonathan Asp Jensen",
+                "teamName": "Deportivo",
+                "text": "Giacomo Quagliata"
+              },
+              {
+                "id": "54212287_22",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Rodrigo Mendoza",
+                "teamName": "Atlético",
+                "text": "Morten Hjulmand"
               }
             ]
           }
