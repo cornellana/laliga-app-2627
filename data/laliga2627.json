@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T17:57:18Z",
+  "lastUpdated": "2026-10-24T17:58:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51478,6 +51478,15 @@
                 "extraTime": null,
                 "playerName": "Guido Rodríguez",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "54194219_17",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
