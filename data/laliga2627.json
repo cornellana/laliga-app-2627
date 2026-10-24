@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T17:05:57Z",
+  "lastUpdated": "2026-10-24T17:07:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "34'",
+          "clock": "35'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51416,6 +51416,15 @@
                 "playerName": "Dani Raba",
                 "teamName": "Valencia",
                 "text": "David Otorbi because of an injury"
+              },
+              {
+                "id": "54189242_6",
+                "type": "YELLOW_CARD",
+                "minute": 34,
+                "extraTime": null,
+                "playerName": "Dani Raba",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
