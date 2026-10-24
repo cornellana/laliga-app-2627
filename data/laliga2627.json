@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T20:55:47Z",
+  "lastUpdated": "2026-10-24T20:58:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51616,11 +51616,11 @@
           "away": "Deportivo",
           "jornada": 10,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-0",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": {
