@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T18:28:16Z",
+  "lastUpdated": "2026-10-24T18:29:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51022,9 +51022,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "90'+6'",
+          "clock": "90'+7'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51595,6 +51595,15 @@
                 "extraTime": null,
                 "playerName": "Second yellow card to Harvey Elliott",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "54197471_36",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "Georges Mikautadze",
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
@@ -55882,6 +55891,12 @@
       "penalties": null
     },
     {
+      "player": "Georges Mikautadze",
+      "team": "Villarreal",
+      "goals": 3,
+      "penalties": 1
+    },
+    {
       "player": "Iván Romero",
       "team": "Levante",
       "goals": 3,
@@ -55970,12 +55985,6 @@
       "team": "Celta",
       "goals": 2,
       "penalties": null
-    },
-    {
-      "player": "Georges Mikautadze",
-      "team": "Villarreal",
-      "goals": 2,
-      "penalties": 1
     },
     {
       "player": "Gerard Moreno",
