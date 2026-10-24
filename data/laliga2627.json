@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T18:03:48Z",
+  "lastUpdated": "2026-10-24T18:04:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "In Progress",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51521,18 +51521,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 70,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Arnau Martínez",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Dani Raba"
               },
               {
                 "id": "54194748_22",
                 "type": "SUBSTITUTION",
                 "minute": 70,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Harvey Elliott",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Javi Guerra"
               }
             ]
           }
