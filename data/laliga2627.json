@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T20:08:52Z",
+  "lastUpdated": "2026-10-24T20:12:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51617,9 +51617,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "48'",
+          "clock": "52'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -52029,6 +52029,15 @@
                 "playerName": "Robin Le Normand",
                 "teamName": "Atlético",
                 "text": "Ademola Lookman"
+              },
+              {
+                "id": "54207368_10",
+                "type": "GOAL",
+                "minute": 48,
+                "extraTime": null,
+                "playerName": "Julián Alvarez",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
@@ -56823,6 +56832,12 @@
     {
       "player": "Jules Koundé",
       "team": "FC Barcelona",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Julián Alvarez",
+      "team": "Atlético",
       "goals": 1,
       "penalties": null
     },
