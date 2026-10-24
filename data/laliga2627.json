@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T17:58:24Z",
+  "lastUpdated": "2026-10-24T17:59:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51485,9 +51485,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 65,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Sergi Cardona",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Juan Foyth"
+              },
+              {
+                "id": "54194420_18",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Alberto Moleiro",
+                "teamName": "Villarreal",
+                "text": "Ilias Akhomach"
+              },
+              {
+                "id": "54194421_19",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Georges Mikautadze",
+                "teamName": "Villarreal",
+                "text": "Ayoze Pérez"
               }
             ]
           }
