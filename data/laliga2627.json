@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T13:27:36Z",
+  "lastUpdated": "2026-10-24T13:28:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50370,6 +50370,15 @@
                 "playerName": "Adrià Pedrosa",
                 "teamName": "Rayo",
                 "text": null
+              },
+              {
+                "id": "54154273_29",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Jozhua Vertrouwd",
+                "teamName": "Rayo",
+                "text": "Adrià Pedrosa"
               }
             ]
           }
