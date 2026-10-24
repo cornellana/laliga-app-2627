@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T18:09:13Z",
+  "lastUpdated": "2026-10-24T18:10:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51024,7 +51024,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51533,6 +51533,24 @@
                 "playerName": "Harvey Elliott",
                 "teamName": "Valencia",
                 "text": "Javi Guerra"
+              },
+              {
+                "id": "54195528_24",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Filip Ugrinic",
+                "teamName": "Valencia",
+                "text": "Pablo Maffeo"
+              },
+              {
+                "id": "54195529_25",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Hugo Duro",
+                "teamName": "Valencia",
+                "text": "Justin de Haas"
               }
             ]
           }
