@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T15:59:36Z",
+  "lastUpdated": "2026-10-24T16:00:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50456,7 +50456,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50956,6 +50956,24 @@
                 "playerName": "Yassir Zabiri",
                 "teamName": "Racing",
                 "text": null
+              },
+              {
+                "id": "54183895_28",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Urko González de Zárate",
+                "teamName": "Espanyol",
+                "text": "Pol Lozano"
+              },
+              {
+                "id": "54183896_29",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Marcos Fernández",
+                "teamName": "Espanyol",
+                "text": "Cala"
               }
             ]
           }
