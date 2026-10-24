@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T15:50:56Z",
+  "lastUpdated": "2026-10-24T15:52:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50456,7 +50456,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50913,13 +50913,22 @@
                 "text": null
               },
               {
-                "id": "54182451_19",
+                "id": "54182848_19",
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
                 "playerName": null,
                 "teamName": "Espanyol",
                 "text": null
+              },
+              {
+                "id": "54182451_20",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Javi Puado",
+                "teamName": "Espanyol",
+                "text": "Bryan Zaragoza"
               }
             ]
           }
