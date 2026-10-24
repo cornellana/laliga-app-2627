@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T20:18:38Z",
+  "lastUpdated": "2026-10-24T20:21:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51619,7 +51619,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "58'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -52038,6 +52038,24 @@
                 "playerName": "Julián Alvarez",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "54209571_11",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": "Adama Traoré",
+                "teamName": "Deportivo",
+                "text": "David Mella"
+              },
+              {
+                "id": "54209275_12",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": "Luismi Cruz",
+                "teamName": "Deportivo",
+                "text": "Diego Villares"
               }
             ]
           }
