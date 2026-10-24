@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T15:03:43Z",
+  "lastUpdated": "2026-10-24T15:04:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50456,8 +50456,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+2'",
-          "statusText": "First Half",
+          "clock": "45'+3'",
+          "statusText": "Halftime",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
