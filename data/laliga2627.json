@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T14:34:27Z",
+  "lastUpdated": "2026-10-24T14:35:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50456,7 +50456,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "18'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50847,6 +50847,15 @@
                 "extraTime": null,
                 "playerName": "Iñigo Vicente",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "54165993_2",
+                "type": "YELLOW_CARD",
+                "minute": 17,
+                "extraTime": null,
+                "playerName": "Pol Lozano",
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
