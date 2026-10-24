@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T20:48:24Z",
+  "lastUpdated": "2026-10-24T20:50:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51619,7 +51619,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "87'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -52135,6 +52135,15 @@
                 "minute": 86,
                 "extraTime": null,
                 "playerName": "Álex Baena",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "54213290_26",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Giuliano Simeone",
                 "teamName": "Atlético",
                 "text": null
               }
