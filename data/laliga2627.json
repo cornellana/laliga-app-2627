@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T12:43:25Z",
+  "lastUpdated": "2026-10-24T12:44:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "41'",
+          "clock": "42'",
           "statusText": "First Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50331,7 +50331,7 @@
                 "type": "MISSED_PENALTY",
                 "minute": 39,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pathé Ciss",
                 "teamName": "Rayo",
                 "text": null
               }
