@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T12:13:59Z",
+  "lastUpdated": "2026-10-24T12:15:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "11'",
+          "clock": "12'",
           "statusText": "First Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50277,7 +50277,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 10,
                 "extraTime": null,
-                "playerName": "Javier Morcillo",
+                "playerName": "Javi Morcillo",
                 "teamName": "Elche",
                 "text": null
               }
