@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T19:18:20Z",
+  "lastUpdated": "2026-10-24T19:19:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51619,13 +51619,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "16'",
+          "clock": "17'",
           "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": {
             "homeLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-3-3",
               "players": [
                 {
                   "id": "149622",
@@ -51668,17 +51668,17 @@
                   "events": null
                 },
                 {
-                  "id": "297373",
-                  "jersey": 10,
-                  "name": "Álex Baena",
-                  "position": "AM",
+                  "id": "274911",
+                  "jersey": 23,
+                  "name": "Morten Hjulmand",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "274911",
-                  "jersey": 23,
-                  "name": "Morten Hjulmand",
+                  "id": "297373",
+                  "jersey": 10,
+                  "name": "Álex Baena",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -51703,7 +51703,7 @@
                   "id": "229645",
                   "jersey": 11,
                   "name": "Ademola Lookman",
-                  "position": "AM-L",
+                  "position": "LF",
                   "isStarter": true,
                   "events": null
                 },
@@ -51711,7 +51711,7 @@
                   "id": "274197",
                   "jersey": 7,
                   "name": "Lee Kang-In",
-                  "position": "AM-R",
+                  "position": "RF",
                   "isStarter": true,
                   "events": null
                 },
