@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T20:46:04Z",
+  "lastUpdated": "2026-10-24T20:48:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51619,7 +51619,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "85'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -52116,8 +52116,26 @@
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Riki Rodríguez",
                 "teamName": "Deportivo",
+                "text": "Lorenzo Amatucci"
+              },
+              {
+                "id": "54213058_24",
+                "type": "YELLOW_CARD",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Alexander Sørloth",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "54213064_25",
+                "type": "YELLOW_CARD",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Álex Baena",
+                "teamName": "Atlético",
                 "text": null
               }
             ]
