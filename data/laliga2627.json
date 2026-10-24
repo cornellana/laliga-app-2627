@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T13:39:35Z",
+  "lastUpdated": "2026-10-24T13:40:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -49888,7 +49888,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -50397,6 +50397,24 @@
                 "playerName": "Germán Valera",
                 "teamName": "Elche",
                 "text": null
+              },
+              {
+                "id": "54155870_36",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Martim Neto",
+                "teamName": "Elche",
+                "text": "Thomas Lemar"
+              },
+              {
+                "id": "54155871_37",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Tete Morente",
+                "teamName": "Elche",
+                "text": "Lucas Cepeda"
               }
             ]
           }
