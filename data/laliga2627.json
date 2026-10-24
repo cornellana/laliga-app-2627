@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T18:01:39Z",
+  "lastUpdated": "2026-10-24T18:02:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -51022,9 +51022,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -51506,6 +51506,15 @@
                 "playerName": "Georges Mikautadze",
                 "teamName": "Villarreal",
                 "text": "Ayoze Pérez"
+              },
+              {
+                "id": "54194673_20",
+                "type": "GOAL",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Alex Freeman",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
@@ -56028,6 +56037,12 @@
     {
       "player": "Aitor Paredes",
       "team": "Athletic",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Alex Freeman",
+      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
