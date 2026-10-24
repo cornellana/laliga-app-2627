@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T15:26:03Z",
+  "lastUpdated": "2026-10-24T15:27:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50456,7 +50456,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "52'",
+          "clock": "53'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50651,7 +50651,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "307419",
@@ -50694,10 +50694,18 @@
                   "events": null
                 },
                 {
+                  "id": "355902",
+                  "jersey": 22,
+                  "name": "Cala",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "260242",
                   "jersey": 10,
                   "name": "Pol Lozano",
-                  "position": "CM-L",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -50705,31 +50713,7 @@
                   "id": "255272",
                   "jersey": 8,
                   "name": "Edu Expósito",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "311571",
-                  "jersey": 15,
-                  "name": "Bryan Zaragoza",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "367946",
-                  "jersey": 28,
-                  "name": "Javi Hernandez",
                   "position": "RM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "355902",
-                  "jersey": 22,
-                  "name": "Cala",
-                  "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -50737,7 +50721,23 @@
                   "id": "318773",
                   "jersey": 9,
                   "name": "Roberto Fernández",
-                  "position": "CF-R",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "311571",
+                  "jersey": 15,
+                  "name": "Bryan Zaragoza",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "367946",
+                  "jersey": 28,
+                  "name": "Javi Hernandez",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
