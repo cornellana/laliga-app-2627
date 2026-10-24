@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T15:43:19Z",
+  "lastUpdated": "2026-10-24T15:44:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50454,9 +50454,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50893,6 +50893,15 @@
                 "playerName": "Pablo García",
                 "teamName": "Racing",
                 "text": "Andrés Martín"
+              },
+              {
+                "id": "54181207_17",
+                "type": "GOAL",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Jeanuël Belocian",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
@@ -55659,6 +55668,12 @@
     {
       "player": "Javi Rodríguez",
       "team": "Celta",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Jeanuël Belocian",
+      "team": "Racing",
       "goals": 1,
       "penalties": null
     },
