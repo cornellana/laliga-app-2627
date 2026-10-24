@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T15:52:00Z",
+  "lastUpdated": "2026-10-24T15:53:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50456,7 +50456,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50917,9 +50917,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Tyrhys Dolan",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Javi Hernández"
               },
               {
                 "id": "54182451_20",
