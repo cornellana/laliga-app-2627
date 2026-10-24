@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T16:03:55Z",
+  "lastUpdated": "2026-10-24T16:05:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -50456,7 +50456,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -50983,6 +50983,24 @@
                 "playerName": "Maguette Gueye",
                 "teamName": "Racing",
                 "text": "Iñigo Vicente"
+              },
+              {
+                "id": "54184237_31",
+                "type": "YELLOW_CARD",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Javi Puado",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "54184247_32",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Edu Expósito",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
