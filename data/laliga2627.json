@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T13:03:32Z",
+  "lastUpdated": "2026-10-25T13:04:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52166,7 +52166,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52380,9 +52380,9 @@
                   "events": null
                 },
                 {
-                  "id": "357147",
-                  "jersey": 6,
-                  "name": "Mario Martín",
+                  "id": "395479",
+                  "jersey": 26,
+                  "name": "Jean Ives Valou",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
@@ -52404,17 +52404,17 @@
                   "events": null
                 },
                 {
-                  "id": "395479",
-                  "jersey": 26,
-                  "name": "Jean Ives Valou",
+                  "id": "125749",
+                  "jersey": 17,
+                  "name": "Kiko Femenía",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "310259",
-                  "jersey": 20,
-                  "name": "Ivan Azón",
+                  "id": "357147",
+                  "jersey": 6,
+                  "name": "Mario Martín",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -52428,25 +52428,25 @@
                   "events": null
                 },
                 {
-                  "id": "309838",
-                  "jersey": 11,
-                  "name": "Ramón Terrats",
+                  "id": "284854",
+                  "jersey": 10,
+                  "name": "Martín Satriano",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "125749",
-                  "jersey": 17,
-                  "name": "Kiko Femenía",
+                  "id": "309838",
+                  "jersey": 11,
+                  "name": "Ramón Terrats",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "284854",
-                  "jersey": 10,
-                  "name": "Martín Satriano",
+                  "id": "310259",
+                  "jersey": 20,
+                  "name": "Ivan Azón",
                   "position": "F",
                   "isStarter": true,
                   "events": null
