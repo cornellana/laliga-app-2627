@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:41:02Z",
+  "lastUpdated": "2026-10-25T16:42:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52718,7 +52718,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -53165,6 +53165,15 @@
                 "playerName": "Iago Aspas",
                 "teamName": "Celta",
                 "text": "Pablo Durán"
+              },
+              {
+                "id": "54296324_19",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
