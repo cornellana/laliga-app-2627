@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T19:02:55Z",
+  "lastUpdated": "2026-10-25T19:04:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,7 +53224,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "In Progress",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -53694,9 +53694,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Yangel Herrera",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Beñat Turrientes"
               }
             ]
           }
