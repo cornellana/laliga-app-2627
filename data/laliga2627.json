@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T18:54:17Z",
+  "lastUpdated": "2026-10-25T18:55:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,8 +53224,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "64'",
-          "statusText": "Second Half",
+          "clock": "66'",
+          "statusText": "In Progress",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -53679,6 +53679,15 @@
                 "playerName": "Axel Tape",
                 "teamName": "Levante",
                 "text": "Iván Romero"
+              },
+              {
+                "id": "54313201_13",
+                "type": "YELLOW_CARD",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Jon Martín",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
