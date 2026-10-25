@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:00:25Z",
+  "lastUpdated": "2026-10-25T16:01:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52718,7 +52718,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "44'",
+          "clock": "45'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -53101,6 +53101,15 @@
                 "extraTime": null,
                 "playerName": "Ilaix Moriba",
                 "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "54292013_6",
+                "type": "YELLOW_CARD",
+                "minute": 43,
+                "extraTime": null,
+                "playerName": "Diego Llorente",
+                "teamName": "Betis",
                 "text": null
               }
             ]
