@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:31:15Z",
+  "lastUpdated": "2026-10-25T16:32:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52718,7 +52718,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -53111,6 +53111,24 @@
                 "playerName": "Diego Llorente",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "54294789_9",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Ferran Jutglà",
+                "teamName": "Celta",
+                "text": "Hugo Álvarez"
+              },
+              {
+                "id": "54294790_10",
+                "type": "SUBSTITUTION",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": "Williot Swedberg",
+                "teamName": "Celta",
+                "text": "Hugo González"
               }
             ]
           }
