@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:31:03Z",
+  "lastUpdated": "2026-10-25T14:32:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52166,7 +52166,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52607,13 +52607,31 @@
                 "text": null
               },
               {
-                "id": "54276576_15",
+                "id": "54276825_15",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Christian Imga",
+                "teamName": "Athletic",
+                "text": "Nico Williams"
+              },
+              {
+                "id": "54276576_16",
                 "type": "SUBSTITUTION",
                 "minute": 68,
                 "extraTime": null,
                 "playerName": "Alejandro Rego",
                 "teamName": "Athletic",
                 "text": "Maroan Sannadi"
+              },
+              {
+                "id": "54276850_17",
+                "type": "GOAL",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
