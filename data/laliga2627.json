@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:44:17Z",
+  "lastUpdated": "2026-10-25T16:45:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52718,7 +52718,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -53180,9 +53180,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 68,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Giovani Lo Celso",
                 "teamName": "Betis",
-                "text": null
+                "text": "Isco"
               }
             ]
           }
