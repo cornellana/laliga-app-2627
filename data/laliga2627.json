@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T17:37:42Z",
+  "lastUpdated": "2026-10-25T17:38:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,7 +53224,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "7'",
+          "clock": "8'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -53607,7 +53607,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54303855_1",
+                "type": "GOAL",
+                "minute": 6,
+                "extraTime": null,
+                "playerName": "Orri Óskarsson",
+                "teamName": "R. Sociedad",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -57864,6 +57874,12 @@
       "penalties": null
     },
     {
+      "player": "Orri Óskarsson",
+      "team": "R. Sociedad",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Pape Gueye",
       "team": "Villarreal",
       "goals": 3,
@@ -57998,12 +58014,6 @@
     {
       "player": "Nicolas Pepe",
       "team": "Villarreal",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Orri Óskarsson",
-      "team": "R. Sociedad",
       "goals": 2,
       "penalties": null
     },
