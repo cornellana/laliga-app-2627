@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T17:57:16Z",
+  "lastUpdated": "2026-10-25T17:58:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53222,9 +53222,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "2-1",
           "state": "in",
-          "clock": "26'",
+          "clock": "28'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -53624,6 +53624,15 @@
                 "extraTime": null,
                 "playerName": "Nacho Pérez",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "54306691_5",
+                "type": "GOAL",
+                "minute": 27,
+                "extraTime": null,
+                "playerName": "Beñat Turrientes",
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
@@ -58131,6 +58140,12 @@
     {
       "player": "Ayoze Pérez",
       "team": "Villarreal",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Beñat Turrientes",
+      "team": "R. Sociedad",
       "goals": 1,
       "penalties": null
     },
