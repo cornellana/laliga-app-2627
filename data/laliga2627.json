@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T17:08:07Z",
+  "lastUpdated": "2026-10-25T17:31:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53222,13 +53222,393 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
+          "result": "0-0",
+          "state": "in",
+          "clock": "1'",
+          "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
-          "details": null
+          "details": {
+            "homeLineup": {
+              "formation": "4-4-2",
+              "players": [
+                {
+                  "id": "217319",
+                  "jersey": 1,
+                  "name": "Álex Remiro",
+                  "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "366885",
+                  "jersey": 6,
+                  "name": "Jon Martín",
+                  "position": "D",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "363039",
+                  "jersey": 22,
+                  "name": "Héctor Fort",
+                  "position": "D",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "355433",
+                  "jersey": 19,
+                  "name": "Mamadou Sarr",
+                  "position": "D",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "265993",
+                  "jersey": 17,
+                  "name": "Sergio Gómez",
+                  "position": "D",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "297371",
+                  "jersey": 8,
+                  "name": "Beñat Turrientes",
+                  "position": "M",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "306263",
+                  "jersey": 24,
+                  "name": "Luka Sucic",
+                  "position": "M",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "388601",
+                  "jersey": 4,
+                  "name": "Jon Gorrotxategi",
+                  "position": "M",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "213141",
+                  "jersey": 11,
+                  "name": "Gonçalo Guedes",
+                  "position": "M",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "229018",
+                  "jersey": 10,
+                  "name": "Mikel Oyarzabal",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "341367",
+                  "jersey": 9,
+                  "name": "Orri Óskarsson",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "235693",
+                  "jersey": 5,
+                  "name": "Igor Zubeldia",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "312011",
+                  "jersey": 13,
+                  "name": "Unai Marrero",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "235072",
+                  "jersey": 18,
+                  "name": "Carlos Soler",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "318063",
+                  "jersey": 2,
+                  "name": "Jon Aramburu",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "236185",
+                  "jersey": 21,
+                  "name": "Yangel Herrera",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "297359",
+                  "jersey": 16,
+                  "name": "Jon Pacheco",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "307487",
+                  "jersey": 23,
+                  "name": "Arsen Zakharyan",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "326900",
+                  "jersey": 15,
+                  "name": "Pablo Marín",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "283941",
+                  "jersey": 7,
+                  "name": "Ander Barrenetxea",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "283891",
+                  "jersey": 3,
+                  "name": "Aihen Muñoz",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "256587",
+                  "jersey": 14,
+                  "name": "Takefusa Kubo",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "406379",
+                  "jersey": 12,
+                  "name": "Job Ochieng",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                }
+              ]
+            },
+            "awayLineup": {
+              "formation": "4-4-2",
+              "players": [
+                {
+                  "id": "141438",
+                  "jersey": 13,
+                  "name": "Mathew Ryan",
+                  "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "150451",
+                  "jersey": 2,
+                  "name": "Aïssa Mandi",
+                  "position": "D",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "409383",
+                  "jersey": 29,
+                  "name": "Nacho Pérez",
+                  "position": "D",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "407397",
+                  "jersey": 3,
+                  "name": "Ifeanyi Ndukwe",
+                  "position": "D",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "300985",
+                  "jersey": 23,
+                  "name": "Manu Sánchez",
+                  "position": "D",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "267591",
+                  "jersey": 7,
+                  "name": "Roger Brugué",
+                  "position": "M",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "362752",
+                  "jersey": 6,
+                  "name": "Dani Requena",
+                  "position": "M",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "339195",
+                  "jersey": 24,
+                  "name": "Thiago Fernandez",
+                  "position": "M",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "317784",
+                  "jersey": 8,
+                  "name": "Jon Ander Olasagasti",
+                  "position": "M",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "311054",
+                  "jersey": 9,
+                  "name": "Iván Romero",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "342136",
+                  "jersey": 10,
+                  "name": "Petar Ratkov",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "346676",
+                  "jersey": 21,
+                  "name": "Etta Eyong",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "203680",
+                  "jersey": 17,
+                  "name": "Víctor García",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "396655",
+                  "jersey": 16,
+                  "name": "Axel Tape",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "381071",
+                  "jersey": 14,
+                  "name": "Jorge Cabello",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "316040",
+                  "jersey": 1,
+                  "name": "Pablo Cuñat",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "384985",
+                  "jersey": 27,
+                  "name": "Paco Cortés",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "319114",
+                  "jersey": 5,
+                  "name": "Hugo Sotelo",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "3129043",
+                  "jersey": 33,
+                  "name": "Marc Santos Gavilán",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "3102194",
+                  "jersey": 11,
+                  "name": "Yanis Kasonga Musuayi",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "340744",
+                  "jersey": 32,
+                  "name": "Alejandro Primo",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "269339",
+                  "jersey": 20,
+                  "name": "Orio Rey",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                },
+                {
+                  "id": "186024",
+                  "jersey": 22,
+                  "name": "Jeremy Toljan",
+                  "position": "SUB",
+                  "isStarter": false,
+                  "events": null
+                }
+              ]
+            },
+            "events": null
+          }
         },
         {
           "id": "401882832",
