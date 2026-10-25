@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T21:51:45Z",
+  "lastUpdated": "2026-10-25T21:54:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53772,9 +53772,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -54247,6 +54247,15 @@
                 "playerName": "Gabriel Jesus",
                 "teamName": "FC Barcelona",
                 "text": "Raphinha"
+              },
+              {
+                "id": "54329360_21",
+                "type": "GOAL",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -58353,7 +58362,7 @@
     {
       "player": "Kylian Mbappé",
       "team": "Real Madrid",
-      "goals": 10,
+      "goals": 11,
       "penalties": 2
     },
     {
