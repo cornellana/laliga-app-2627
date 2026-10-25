@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:28:52Z",
+  "lastUpdated": "2026-10-25T14:29:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52166,7 +52166,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52605,6 +52605,15 @@
                 "playerName": "Johan Mojica",
                 "teamName": "Getafe",
                 "text": null
+              },
+              {
+                "id": "54276576_15",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Alejandro Rego",
+                "teamName": "Athletic",
+                "text": "Maroan Sannadi"
               }
             ]
           }
