@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:45:11Z",
+  "lastUpdated": "2026-10-25T14:46:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52166,7 +52166,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52666,6 +52666,15 @@
                 "minute": 72,
                 "extraTime": null,
                 "playerName": "Beñat Gerenabarrena",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "54279917_22",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Athletic",
                 "text": null
               }
