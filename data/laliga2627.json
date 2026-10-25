@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T20:07:32Z",
+  "lastUpdated": "2026-10-25T20:08:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53774,7 +53774,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -53831,17 +53831,17 @@
                   "events": null
                 },
                 {
-                  "id": "354334",
-                  "jersey": 7,
-                  "name": "Fermín López",
+                  "id": "250465",
+                  "jersey": 8,
+                  "name": "Pedri",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "250465",
-                  "jersey": 8,
-                  "name": "Pedri",
+                  "id": "354334",
+                  "jersey": 7,
+                  "name": "Fermín López",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
