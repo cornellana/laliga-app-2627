@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T13:20:55Z",
+  "lastUpdated": "2026-10-25T13:22:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52166,7 +52166,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "19'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52548,9 +52548,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 18,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Beñat Gerenabarrena",
                 "teamName": "Athletic",
-                "text": null
+                "text": "Íñigo Ruiz de Galarreta because of an injury"
               }
             ]
           }
