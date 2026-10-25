@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T18:56:26Z",
+  "lastUpdated": "2026-10-25T18:57:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,7 +53224,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -53663,22 +53663,22 @@
                 "text": "Héctor Fort"
               },
               {
-                "id": "54313093_11",
-                "type": "SUBSTITUTION",
-                "minute": 62,
-                "extraTime": null,
-                "playerName": "Karl Etta Eyong",
-                "teamName": "Levante",
-                "text": "Petar Ratkov"
-              },
-              {
-                "id": "54313092_12",
+                "id": "54313092_11",
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
                 "playerName": "Axel Tape",
                 "teamName": "Levante",
                 "text": "Iván Romero"
+              },
+              {
+                "id": "54313093_12",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Karl Etta Eyong",
+                "teamName": "Levante",
+                "text": "Petar Ratkov"
               },
               {
                 "id": "54313201_13",
