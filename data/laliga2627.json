@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:35:36Z",
+  "lastUpdated": "2026-10-25T16:36:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52718,7 +52718,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -53135,18 +53135,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Troy Parrott",
                 "teamName": "Betis",
-                "text": null
+                "text": "Nelson Deossa"
               },
               {
                 "id": "54295502_16",
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo Fornals",
                 "teamName": "Betis",
-                "text": null
+                "text": "Antony"
               }
             ]
           }
