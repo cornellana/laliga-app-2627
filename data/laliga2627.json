@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T21:48:51Z",
+  "lastUpdated": "2026-10-25T21:50:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53774,7 +53774,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -54220,6 +54220,33 @@
                 "playerName": "Eduardo Camavinga",
                 "teamName": "Real Madrid",
                 "text": "Bernardo Silva"
+              },
+              {
+                "id": "54329108_18",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Anthony Gordon",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "54329127_19",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Karim Adeyemi",
+                "teamName": "FC Barcelona",
+                "text": "Anthony Gordon"
+              },
+              {
+                "id": "54329221_20",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Gabriel Jesus",
+                "teamName": "FC Barcelona",
+                "text": "Raphinha"
               }
             ]
           }
