@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T17:54:00Z",
+  "lastUpdated": "2026-10-25T17:55:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,7 +53224,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "23'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -53615,6 +53615,15 @@
                 "extraTime": null,
                 "playerName": "Orri Óskarsson",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "54306183_4",
+                "type": "GOAL",
+                "minute": 22,
+                "extraTime": null,
+                "playerName": "Nacho Pérez",
+                "teamName": "Levante",
                 "text": null
               }
             ]
@@ -58446,6 +58455,12 @@
     {
       "player": "Mikel Rodríguez",
       "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Nacho Pérez",
+      "team": "Levante",
       "goals": 1,
       "penalties": null
     },
