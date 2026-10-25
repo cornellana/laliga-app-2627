@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T13:40:30Z",
+  "lastUpdated": "2026-10-25T13:41:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52166,7 +52166,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "39'",
+          "clock": "40'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52559,6 +52559,15 @@
                 "extraTime": null,
                 "playerName": "Iñaki Williams",
                 "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "54270148_4",
+                "type": "YELLOW_CARD",
+                "minute": 39,
+                "extraTime": null,
+                "playerName": "Ramón Terrats",
+                "teamName": "Getafe",
                 "text": null
               }
             ]
