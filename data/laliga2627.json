@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T21:44:26Z",
+  "lastUpdated": "2026-10-25T21:46:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53774,7 +53774,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "81'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -54211,6 +54211,15 @@
                 "playerName": "Frenkie de Jong",
                 "teamName": "FC Barcelona",
                 "text": "Fermín López"
+              },
+              {
+                "id": "54328747_13",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Eduardo Camavinga",
+                "teamName": "Real Madrid",
+                "text": "Bernardo Silva"
               }
             ]
           }
