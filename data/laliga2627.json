@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:39:55Z",
+  "lastUpdated": "2026-10-25T16:41:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52718,7 +52718,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -53147,6 +53147,24 @@
                 "playerName": "Pablo Fornals",
                 "teamName": "Betis",
                 "text": "Antony"
+              },
+              {
+                "id": "54296260_17",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Sergio Carreira",
+                "teamName": "Celta",
+                "text": "Javi Rueda"
+              },
+              {
+                "id": "54296261_18",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Iago Aspas",
+                "teamName": "Celta",
+                "text": "Pablo Durán"
               }
             ]
           }
