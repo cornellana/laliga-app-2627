@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T19:09:25Z",
+  "lastUpdated": "2026-10-25T19:10:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,8 +53224,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "80'",
-          "statusText": "In Progress",
+          "clock": "81'",
+          "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -53704,6 +53704,24 @@
                 "minute": 75,
                 "extraTime": null,
                 "playerName": "Manu Sánchez",
+                "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "54314336_20",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "54314337_21",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Levante",
                 "text": null
               }
