@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T19:06:10Z",
+  "lastUpdated": "2026-10-25T19:07:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,8 +53224,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "76'",
-          "statusText": "Second Half",
+          "clock": "77'",
+          "statusText": "In Progress",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -53697,6 +53697,15 @@
                 "playerName": "Yangel Herrera",
                 "teamName": "R. Sociedad",
                 "text": "Beñat Turrientes"
+              },
+              {
+                "id": "54313856_19",
+                "type": "YELLOW_CARD",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Manu Sánchez",
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
