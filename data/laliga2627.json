@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T17:07:02Z",
+  "lastUpdated": "2026-10-25T17:08:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52715,11 +52715,11 @@
           "away": "Betis",
           "jornada": 10,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-0",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
