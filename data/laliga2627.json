@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T21:58:00Z",
+  "lastUpdated": "2026-10-25T22:00:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53774,7 +53774,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "90'+5'",
+          "clock": "90'+7'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -54265,6 +54265,33 @@
                 "playerName": "Marc Cucurella",
                 "teamName": "Real Madrid",
                 "text": null
+              },
+              {
+                "id": "54329781_23",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "54329774_24",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Trent Alexander-Arnold",
+                "teamName": "Real Madrid",
+                "text": "Arda Güler"
+              },
+              {
+                "id": "54329775_25",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 4,
+                "playerName": "Carlos Espí",
+                "teamName": "Real Madrid",
+                "text": "Yan Diomande"
               }
             ]
           }
