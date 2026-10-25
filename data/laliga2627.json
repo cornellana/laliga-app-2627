@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T13:19:50Z",
+  "lastUpdated": "2026-10-25T13:20:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52166,7 +52166,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "18'",
+          "clock": "19'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52533,7 +52533,26 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54269020_1",
+                "type": "GOAL",
+                "minute": 17,
+                "extraTime": null,
+                "playerName": "Alex Berenguer",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "54269127_2",
+                "type": "SUBSTITUTION",
+                "minute": 18,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -56774,6 +56793,12 @@
       "penalties": 2
     },
     {
+      "player": "Alex Berenguer",
+      "team": "Athletic",
+      "goals": 3,
+      "penalties": 1
+    },
+    {
       "player": "Gabriel Jesus",
       "team": "FC Barcelona",
       "goals": 3,
@@ -56838,12 +56863,6 @@
       "team": "Villarreal",
       "goals": 2,
       "penalties": null
-    },
-    {
-      "player": "Alex Berenguer",
-      "team": "Athletic",
-      "goals": 2,
-      "penalties": 1
     },
     {
       "player": "Ander Barrenetxea",
