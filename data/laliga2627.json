@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T17:36:37Z",
+  "lastUpdated": "2026-10-25T17:37:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53222,10 +53222,10 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "6'",
-          "statusText": "In Progress",
+          "clock": "7'",
+          "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
