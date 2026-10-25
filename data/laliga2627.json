@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T17:31:12Z",
+  "lastUpdated": "2026-10-25T17:32:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,7 +53224,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -53241,26 +53241,18 @@
                   "events": null
                 },
                 {
-                  "id": "366885",
-                  "jersey": 6,
-                  "name": "Jon Martín",
-                  "position": "D",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "363039",
-                  "jersey": 22,
-                  "name": "Héctor Fort",
-                  "position": "D",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "355433",
                   "jersey": 19,
                   "name": "Mamadou Sarr",
-                  "position": "D",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "366885",
+                  "jersey": 6,
+                  "name": "Jon Martín",
+                  "position": "CD-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -53268,7 +53260,15 @@
                   "id": "265993",
                   "jersey": 17,
                   "name": "Sergio Gómez",
-                  "position": "D",
+                  "position": "LB",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "363039",
+                  "jersey": 22,
+                  "name": "Héctor Fort",
+                  "position": "RB",
                   "isStarter": true,
                   "events": null
                 },
@@ -53276,15 +53276,7 @@
                   "id": "297371",
                   "jersey": 8,
                   "name": "Beñat Turrientes",
-                  "position": "M",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "306263",
-                  "jersey": 24,
-                  "name": "Luka Sucic",
-                  "position": "M",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -53292,7 +53284,7 @@
                   "id": "388601",
                   "jersey": 4,
                   "name": "Jon Gorrotxategi",
-                  "position": "M",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -53300,15 +53292,15 @@
                   "id": "213141",
                   "jersey": 11,
                   "name": "Gonçalo Guedes",
-                  "position": "M",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "229018",
-                  "jersey": 10,
-                  "name": "Mikel Oyarzabal",
-                  "position": "F",
+                  "id": "306263",
+                  "jersey": 24,
+                  "name": "Luka Sucic",
+                  "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
@@ -53316,7 +53308,15 @@
                   "id": "341367",
                   "jersey": 9,
                   "name": "Orri Óskarsson",
-                  "position": "F",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "229018",
+                  "jersey": 10,
+                  "name": "Mikel Oyarzabal",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -53430,26 +53430,18 @@
                   "events": null
                 },
                 {
-                  "id": "150451",
-                  "jersey": 2,
-                  "name": "Aïssa Mandi",
-                  "position": "D",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "409383",
-                  "jersey": 29,
-                  "name": "Nacho Pérez",
-                  "position": "D",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "407397",
                   "jersey": 3,
                   "name": "Ifeanyi Ndukwe",
-                  "position": "D",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "150451",
+                  "jersey": 2,
+                  "name": "Aïssa Mandi",
+                  "position": "CD-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -53457,15 +53449,15 @@
                   "id": "300985",
                   "jersey": 23,
                   "name": "Manu Sánchez",
-                  "position": "D",
+                  "position": "LB",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "267591",
-                  "jersey": 7,
-                  "name": "Roger Brugué",
-                  "position": "M",
+                  "id": "409383",
+                  "jersey": 29,
+                  "name": "Nacho Pérez",
+                  "position": "RB",
                   "isStarter": true,
                   "events": null
                 },
@@ -53473,15 +53465,7 @@
                   "id": "362752",
                   "jersey": 6,
                   "name": "Dani Requena",
-                  "position": "M",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "339195",
-                  "jersey": 24,
-                  "name": "Thiago Fernandez",
-                  "position": "M",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -53489,15 +53473,23 @@
                   "id": "317784",
                   "jersey": 8,
                   "name": "Jon Ander Olasagasti",
-                  "position": "M",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "311054",
-                  "jersey": 9,
-                  "name": "Iván Romero",
-                  "position": "F",
+                  "id": "339195",
+                  "jersey": 24,
+                  "name": "Thiago Fernandez",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "267591",
+                  "jersey": 7,
+                  "name": "Roger Brugué",
+                  "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
@@ -53505,7 +53497,15 @@
                   "id": "342136",
                   "jersey": 10,
                   "name": "Petar Ratkov",
-                  "position": "F",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "311054",
+                  "jersey": 9,
+                  "name": "Iván Romero",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
