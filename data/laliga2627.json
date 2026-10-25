@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:32:08Z",
+  "lastUpdated": "2026-10-25T14:33:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52164,9 +52164,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "3-0",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52629,9 +52629,27 @@
                 "type": "GOAL",
                 "minute": 70,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Aitor Paredes",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "54276963_18",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Borja Mayoral",
+                "teamName": "Getafe",
+                "text": "Ramón Terrats"
+              },
+              {
+                "id": "54276964_19",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Enes Ünal",
+                "teamName": "Getafe",
+                "text": "Iván Azón"
               }
             ]
           }
@@ -56940,6 +56958,12 @@
       "penalties": null
     },
     {
+      "player": "Aitor Paredes",
+      "team": "Athletic",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Alberto Moleiro",
       "team": "Villarreal",
       "goals": 2,
@@ -57116,12 +57140,6 @@
     {
       "player": "Aitor Mañas",
       "team": "Alavés",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Aitor Paredes",
-      "team": "Athletic",
       "goals": 1,
       "penalties": null
     },
