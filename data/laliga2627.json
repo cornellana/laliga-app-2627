@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T22:00:49Z",
+  "lastUpdated": "2026-10-25T22:02:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53771,11 +53771,11 @@
           "away": "Real Madrid",
           "jornada": 10,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-2",
-          "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -54292,6 +54292,24 @@
                 "playerName": "Carlos Espí",
                 "teamName": "Real Madrid",
                 "text": "Yan Diomande"
+              },
+              {
+                "id": "54329930_26",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "Karim Adeyemi",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "54329931_27",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 6,
+                "playerName": "Alejandro Balde",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
