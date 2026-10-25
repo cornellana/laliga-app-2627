@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:49:31Z",
+  "lastUpdated": "2026-10-25T14:50:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52164,9 +52164,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "3-0",
+          "result": "4-0",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52694,6 +52694,15 @@
                 "extraTime": null,
                 "playerName": "Mario Martín",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "54280577_29",
+                "type": "GOAL",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Yuri Berchiche",
+                "teamName": "Athletic",
                 "text": null
               }
             ]
@@ -57731,6 +57740,12 @@
     {
       "player": "Youssouf Fofana",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Yuri Berchiche",
+      "team": "Athletic",
       "goals": 1,
       "penalties": null
     },
