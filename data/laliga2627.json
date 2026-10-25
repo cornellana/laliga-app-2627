@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T20:44:14Z",
+  "lastUpdated": "2026-10-25T20:45:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53772,9 +53772,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "42'",
+          "clock": "43'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -54166,6 +54166,15 @@
                 "playerName": "Alejandro Balde",
                 "teamName": "FC Barcelona",
                 "text": "Xavi Espart because of an injury"
+              },
+              {
+                "id": "54323732_6",
+                "type": "GOAL",
+                "minute": 41,
+                "extraTime": null,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -58272,7 +58281,7 @@
     {
       "player": "Kylian Mbappé",
       "team": "Real Madrid",
-      "goals": 9,
+      "goals": 10,
       "penalties": 2
     },
     {
