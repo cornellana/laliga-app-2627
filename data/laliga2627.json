@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:34:18Z",
+  "lastUpdated": "2026-10-25T14:35:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52166,7 +52166,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52650,6 +52650,24 @@
                 "playerName": "Enes Ünal",
                 "teamName": "Getafe",
                 "text": "Iván Azón"
+              },
+              {
+                "id": "54277293_20",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Davinchi",
+                "teamName": "Getafe",
+                "text": "Johan Mojica"
+              },
+              {
+                "id": "54277270_21",
+                "type": "YELLOW_CARD",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Beñat Gerenabarrena",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
