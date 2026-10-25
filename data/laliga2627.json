@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:06:06Z",
+  "lastUpdated": "2026-10-25T14:07:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52166,8 +52166,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
@@ -52587,6 +52587,15 @@
                 "playerName": "Saba Sazonov",
                 "teamName": "Getafe",
                 "text": "Francho Serrano"
+              },
+              {
+                "id": "54272182_12",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Andrés García",
+                "teamName": "Getafe",
+                "text": "Kiko Femenía"
               }
             ]
           }
