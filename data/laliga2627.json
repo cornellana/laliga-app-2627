@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:48:27Z",
+  "lastUpdated": "2026-10-25T14:49:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52166,7 +52166,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52686,6 +52686,15 @@
                 "playerName": "Txus Vizcay",
                 "teamName": "Athletic",
                 "text": "Iñaki Williams"
+              },
+              {
+                "id": "54280497_24",
+                "type": "RED_CARD",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Mario Martín",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
