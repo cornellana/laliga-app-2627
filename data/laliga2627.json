@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T19:01:50Z",
+  "lastUpdated": "2026-10-25T19:02:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,8 +53224,8 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "72'",
-          "statusText": "Second Half",
+          "clock": "73'",
+          "statusText": "In Progress",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": {
@@ -53686,6 +53686,15 @@
                 "minute": 64,
                 "extraTime": null,
                 "playerName": "Jon Martín",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "54313513_18",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "R. Sociedad",
                 "text": null
               }
