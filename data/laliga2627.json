@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T20:03:13Z",
+  "lastUpdated": "2026-10-25T20:04:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53774,8 +53774,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
-          "statusText": "In Progress",
+          "clock": "2'",
+          "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -53969,7 +53969,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "257237",
@@ -54012,10 +54012,10 @@
                   "events": null
                 },
                 {
-                  "id": "199833",
-                  "jersey": 20,
-                  "name": "Bernardo Silva",
-                  "position": "CM-L",
+                  "id": "291281",
+                  "jersey": 5,
+                  "name": "Jude Bellingham",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -54023,31 +54023,15 @@
                   "id": "265919",
                   "jersey": 14,
                   "name": "Aurélien Tchouaméni",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "291281",
-                  "jersey": 5,
-                  "name": "Jude Bellingham",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "310452",
-                  "jersey": 15,
-                  "name": "Arda Güler",
+                  "id": "199833",
+                  "jersey": 20,
+                  "name": "Bernardo Silva",
                   "position": "RM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "402479",
-                  "jersey": 25,
-                  "name": "Yan Diomande",
-                  "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -54055,7 +54039,23 @@
                   "id": "231388",
                   "jersey": 10,
                   "name": "Kylian Mbappé",
-                  "position": "CF-R",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "402479",
+                  "jersey": 25,
+                  "name": "Yan Diomande",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "310452",
+                  "jersey": 15,
+                  "name": "Arda Güler",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
