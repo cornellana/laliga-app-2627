@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:42:07Z",
+  "lastUpdated": "2026-10-25T16:43:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52718,7 +52718,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "69'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -53168,6 +53168,15 @@
               },
               {
                 "id": "54296324_19",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Marc Bartra",
+                "teamName": "Betis",
+                "text": "Diego Llorente"
+              },
+              {
+                "id": "54296570_20",
                 "type": "SUBSTITUTION",
                 "minute": 68,
                 "extraTime": null,
