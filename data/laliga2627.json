@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T19:17:02Z",
+  "lastUpdated": "2026-10-25T19:18:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,7 +53224,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -53751,6 +53751,15 @@
                 "playerName": "Arsen Zakharyan",
                 "teamName": "R. Sociedad",
                 "text": "Orri Óskarsson"
+              },
+              {
+                "id": "54315209_25",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Víctor García",
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
