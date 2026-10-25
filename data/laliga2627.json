@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T18:53:12Z",
+  "lastUpdated": "2026-10-25T18:54:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53652,6 +53652,33 @@
                 "playerName": "Ander Barrenetxea",
                 "teamName": "R. Sociedad",
                 "text": "Luka Sucic"
+              },
+              {
+                "id": "54313091_10",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Jon Aramburu",
+                "teamName": "R. Sociedad",
+                "text": "Héctor Fort"
+              },
+              {
+                "id": "54313093_11",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Karl Etta Eyong",
+                "teamName": "Levante",
+                "text": "Petar Ratkov"
+              },
+              {
+                "id": "54313092_12",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Axel Tape",
+                "teamName": "Levante",
+                "text": "Iván Romero"
               }
             ]
           }
