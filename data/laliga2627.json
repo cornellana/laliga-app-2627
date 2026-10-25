@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:55:06Z",
+  "lastUpdated": "2026-10-25T16:56:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52718,8 +52718,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "82'",
-          "statusText": "In Progress",
+          "clock": "83'",
+          "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -53201,6 +53201,15 @@
                 "playerName": "Sergio Carreira",
                 "teamName": "Celta",
                 "text": null
+              },
+              {
+                "id": "54298504_23",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Hugo Burcio",
+                "teamName": "Celta",
+                "text": "Aleix Febas"
               }
             ]
           }
