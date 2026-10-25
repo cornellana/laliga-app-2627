@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T13:45:57Z",
+  "lastUpdated": "2026-10-25T13:47:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52166,7 +52166,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "44'",
+          "clock": "45'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -52567,6 +52567,15 @@
                 "minute": 39,
                 "extraTime": null,
                 "playerName": "Ramón Terrats",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "54270508_9",
+                "type": "YELLOW_CARD",
+                "minute": 43,
+                "extraTime": null,
+                "playerName": "Dani Carvajal",
                 "teamName": "Getafe",
                 "text": null
               }
