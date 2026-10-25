@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T13:37:14Z",
+  "lastUpdated": "2026-10-25T13:38:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52164,7 +52164,7 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
           "clock": "36'",
           "statusText": "First Half",
@@ -52551,6 +52551,15 @@
                 "playerName": "Beñat Gerenabarrena",
                 "teamName": "Athletic",
                 "text": "Íñigo Ruiz de Galarreta because of an injury"
+              },
+              {
+                "id": "54269963_3",
+                "type": "GOAL",
+                "minute": 35,
+                "extraTime": null,
+                "playerName": "Iñaki Williams",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
@@ -56931,6 +56940,12 @@
       "penalties": 1
     },
     {
+      "player": "Iñaki Williams",
+      "team": "Athletic",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Karim Adeyemi",
       "team": "FC Barcelona",
       "goals": 2,
@@ -57257,12 +57272,6 @@
     {
       "player": "Iván Martín",
       "team": "Racing",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Iñaki Williams",
-      "team": "Athletic",
       "goals": 1,
       "penalties": null
     },
