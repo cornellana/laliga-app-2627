@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:36:40Z",
+  "lastUpdated": "2026-10-25T16:37:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52718,7 +52718,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -52759,17 +52759,17 @@
                   "events": null
                 },
                 {
-                  "id": "297829",
-                  "jersey": 6,
-                  "name": "Ilaix Moriba",
+                  "id": "240235",
+                  "jersey": 14,
+                  "name": "Aleix Febas",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "240235",
-                  "jersey": 14,
-                  "name": "Aleix Febas",
+                  "id": "297829",
+                  "jersey": 6,
+                  "name": "Ilaix Moriba",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
