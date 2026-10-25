@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T21:35:26Z",
+  "lastUpdated": "2026-10-25T21:39:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53774,7 +53774,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "72'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -54202,6 +54202,15 @@
                 "playerName": "Denzel Dumfries",
                 "teamName": "Real Madrid",
                 "text": "Federico Valverde because of an injury"
+              },
+              {
+                "id": "54328300_12",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
