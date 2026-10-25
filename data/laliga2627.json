@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T20:32:24Z",
+  "lastUpdated": "2026-10-25T20:33:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53774,8 +53774,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "30'",
-          "statusText": "First Half",
+          "clock": "31'",
+          "statusText": "In Progress",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -54157,7 +54157,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54322459_5",
+                "type": "SUBSTITUTION",
+                "minute": 30,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
+              }
+            ]
           }
         }
       ]
