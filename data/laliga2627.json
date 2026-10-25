@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T19:14:51Z",
+  "lastUpdated": "2026-10-25T19:15:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,7 +53224,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -53732,6 +53732,24 @@
                 "extraTime": null,
                 "playerName": "Yanis Musuayi",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "54314988_23",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "54314989_24",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
