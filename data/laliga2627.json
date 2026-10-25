@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:54:02Z",
+  "lastUpdated": "2026-10-25T16:55:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52718,7 +52718,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "In Progress",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -53192,6 +53192,15 @@
                 "playerName": "Álvaro Fidalgo",
                 "teamName": "Betis",
                 "text": "Dani Ceballos"
+              },
+              {
+                "id": "54298323_22",
+                "type": "YELLOW_CARD",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Sergio Carreira",
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
