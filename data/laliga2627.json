@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:54:58Z",
+  "lastUpdated": "2026-10-25T14:56:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52163,11 +52163,11 @@
           "away": "Getafe",
           "jornada": 10,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "4-0",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
