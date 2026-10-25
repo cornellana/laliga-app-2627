@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T21:39:16Z",
+  "lastUpdated": "2026-10-25T21:42:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53774,7 +53774,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "76'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -54208,9 +54208,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Frenkie de Jong",
                 "teamName": "FC Barcelona",
-                "text": null
+                "text": "Fermín López"
               }
             ]
           }
