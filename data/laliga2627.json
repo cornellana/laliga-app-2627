@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:48:37Z",
+  "lastUpdated": "2026-10-25T16:49:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -52718,8 +52718,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "76'",
-          "statusText": "Second Half",
+          "clock": "77'",
+          "statusText": "In Progress",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -53189,9 +53189,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Álvaro Fidalgo",
                 "teamName": "Betis",
-                "text": null
+                "text": "Dani Ceballos"
               }
             ]
           }
