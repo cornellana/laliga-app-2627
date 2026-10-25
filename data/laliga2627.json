@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T21:24:16Z",
+  "lastUpdated": "2026-10-25T21:26:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53772,10 +53772,10 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "61'",
-          "statusText": "In Progress",
+          "clock": "62'",
+          "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -54182,6 +54182,24 @@
                 "minute": 46,
                 "extraTime": null,
                 "playerName": "Aurélien Tchouaméni",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "54327153_10",
+                "type": "GOAL",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "54327292_11",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Real Madrid",
                 "text": null
               }
@@ -58284,7 +58302,7 @@
     {
       "player": "Raphinha",
       "team": "FC Barcelona",
-      "goals": 12,
+      "goals": 13,
       "penalties": 3
     },
     {
