@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T19:11:36Z",
+  "lastUpdated": "2026-10-25T19:12:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -53224,7 +53224,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -53724,6 +53724,15 @@
                 "playerName": "Paco Cortés",
                 "teamName": "Levante",
                 "text": "Thiago Fernández"
+              },
+              {
+                "id": "54314480_22",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Yanis Musuayi",
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
