@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T21:44:02Z",
+  "lastUpdated": "2026-10-26T21:45:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54328,9 +54328,9 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -54821,6 +54821,15 @@
                 "playerName": "Iñigo Arguibide",
                 "teamName": "Osasuna",
                 "text": "Valentin Rosier"
+              },
+              {
+                "id": "54361158_19",
+                "type": "GOAL",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Félix Correia",
+                "teamName": "Sevilla",
+                "text": null
               }
             ]
           }
@@ -59113,6 +59122,12 @@
       "penalties": null
     },
     {
+      "player": "Félix Correia",
+      "team": "Sevilla",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Gerard Moreno",
       "team": "Villarreal",
       "goals": 2,
@@ -59423,12 +59438,6 @@
       "team": "Elche",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "Félix Correia",
-      "team": "Sevilla",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Hugo González",
