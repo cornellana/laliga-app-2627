@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T21:48:22Z",
+  "lastUpdated": "2026-10-26T21:49:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54330,8 +54330,8 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "87'",
-          "statusText": "In Progress",
+          "clock": "88'",
+          "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
@@ -54828,6 +54828,15 @@
                 "minute": 82,
                 "extraTime": null,
                 "playerName": "Félix Correia",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "54361239_20",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Sevilla",
                 "text": null
               }
