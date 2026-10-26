@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T20:32:05Z",
+  "lastUpdated": "2026-10-26T20:33:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54330,7 +54330,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "29'",
+          "clock": "30'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -54721,6 +54721,15 @@
                 "extraTime": null,
                 "playerName": "Isaac Romero",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "54358938_2",
+                "type": "YELLOW_CARD",
+                "minute": 29,
+                "extraTime": null,
+                "playerName": "Alejandro Catena",
+                "teamName": "Osasuna",
                 "text": null
               }
             ]
