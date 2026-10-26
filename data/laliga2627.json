@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T21:09:25Z",
+  "lastUpdated": "2026-10-26T21:10:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54330,7 +54330,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "47'",
+          "clock": "49'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -54379,17 +54379,17 @@
                   "events": null
                 },
                 {
-                  "id": "277307",
-                  "jersey": 24,
-                  "name": "Youssouf Fofana",
+                  "id": "282289",
+                  "jersey": 6,
+                  "name": "Lucien Agoumé",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "282289",
-                  "jersey": 6,
-                  "name": "Lucien Agoumé",
+                  "id": "277307",
+                  "jersey": 24,
+                  "name": "Youssouf Fofana",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
