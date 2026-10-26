@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T21:29:57Z",
+  "lastUpdated": "2026-10-26T21:31:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54330,7 +54330,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -54767,6 +54767,15 @@
                 "playerName": "Robbie Ure",
                 "teamName": "Sevilla",
                 "text": "Lucas Stassin"
+              },
+              {
+                "id": "54360753_13",
+                "type": "YELLOW_CARD",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Valentin Rosier",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
