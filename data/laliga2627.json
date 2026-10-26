@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T21:49:28Z",
+  "lastUpdated": "2026-10-26T21:50:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54330,7 +54330,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -54836,9 +54836,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "José Ángel Carmona",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Félix Correia"
               }
             ]
           }
