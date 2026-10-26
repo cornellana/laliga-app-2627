@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T21:08:19Z",
+  "lastUpdated": "2026-10-26T21:09:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54330,7 +54330,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -54411,17 +54411,17 @@
                   "events": null
                 },
                 {
-                  "id": "323033",
-                  "jersey": 19,
-                  "name": "Lucas Stassin",
+                  "id": "365821",
+                  "jersey": 16,
+                  "name": "Isaac Romero",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "365821",
-                  "jersey": 16,
-                  "name": "Isaac Romero",
+                  "id": "323033",
+                  "jersey": 19,
+                  "name": "Lucas Stassin",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
