@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T21:41:52Z",
+  "lastUpdated": "2026-10-26T21:42:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54330,7 +54330,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -54794,6 +54794,33 @@
                 "playerName": "Manu Bueno",
                 "teamName": "Sevilla",
                 "text": "Isaac Romero"
+              },
+              {
+                "id": "54361112_16",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Asier Osambela",
+                "teamName": "Osasuna",
+                "text": "Lucas Torró"
+              },
+              {
+                "id": "54361113_17",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Kike Barja",
+                "teamName": "Osasuna",
+                "text": "Moi Gómez"
+              },
+              {
+                "id": "54361114_18",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Iñigo Arguibide",
+                "teamName": "Osasuna",
+                "text": "Valentin Rosier"
               }
             ]
           }
