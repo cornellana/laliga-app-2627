@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T21:34:17Z",
+  "lastUpdated": "2026-10-26T21:35:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54330,8 +54330,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "73'",
-          "statusText": "Second Half",
+          "clock": "74'",
+          "statusText": "In Progress",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
@@ -54775,6 +54775,24 @@
                 "extraTime": null,
                 "playerName": "Valentin Rosier",
                 "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "54360886_14",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "54360887_15",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
