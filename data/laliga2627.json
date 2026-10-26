@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T20:27:43Z",
+  "lastUpdated": "2026-10-26T20:28:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54328,10 +54328,10 @@
           "jornada": 10,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "24'",
-          "statusText": "First Half",
+          "clock": "26'",
+          "statusText": "In Progress",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
@@ -54713,7 +54713,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54358797_1",
+                "type": "GOAL",
+                "minute": 24,
+                "extraTime": null,
+                "playerName": "Isaac Romero",
+                "teamName": "Sevilla",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -58902,6 +58912,12 @@
       "penalties": 1
     },
     {
+      "player": "Isaac Romero",
+      "team": "Sevilla",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Iván Romero",
       "team": "Levante",
       "goals": 3,
@@ -59018,12 +59034,6 @@
     {
       "player": "Gonçalo Guedes",
       "team": "R. Sociedad",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Isaac Romero",
-      "team": "Sevilla",
       "goals": 2,
       "penalties": null
     },
