@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:32:48Z",
+  "lastUpdated": "2026-10-30T21:33:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "75'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55300,6 +55300,15 @@
                 "playerName": "Pol Lozano",
                 "teamName": "Espanyol",
                 "text": "Rafel Bauzà"
+              },
+              {
+                "id": "54501766_19",
+                "type": "YELLOW_CARD",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Bryan Zaragoza",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
