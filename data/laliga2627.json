@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T20:42:02Z",
+  "lastUpdated": "2026-10-30T20:43:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "42'",
+          "clock": "43'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55226,6 +55226,15 @@
                 "minute": 21,
                 "extraTime": null,
                 "playerName": "Rafel Bauzà",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "54498783_5",
+                "type": "YELLOW_CARD",
+                "minute": 41,
+                "extraTime": null,
+                "playerName": "Roger Hinojo",
                 "teamName": "Espanyol",
                 "text": null
               }
