@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T20:22:20Z",
+  "lastUpdated": "2026-10-30T20:23:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "22'",
+          "clock": "23'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55219,6 +55219,15 @@
                 "playerName": "Nicolas Pepe",
                 "teamName": "Villarreal",
                 "text": "Gerard Moreno because of an injury"
+              },
+              {
+                "id": "54497394_2",
+                "type": "YELLOW_CARD",
+                "minute": 21,
+                "extraTime": null,
+                "playerName": "Rafael Bauza",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
