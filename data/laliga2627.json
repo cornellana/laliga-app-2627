@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:37:10Z",
+  "lastUpdated": "2026-10-30T21:38:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55327,6 +55327,15 @@
                 "playerName": "Jan Peries",
                 "teamName": "Espanyol",
                 "text": "Alejandro Santiago"
+              },
+              {
+                "id": "54502137_22",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Alex Freeman",
+                "teamName": "Villarreal",
+                "text": "Pau Navarro"
               }
             ]
           }
