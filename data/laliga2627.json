@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T21:57:02Z",
+  "lastUpdated": "2026-10-30T15:38:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -38655,22 +38655,6 @@
       "date": "2026-10-10",
       "jornada": 8,
       "games": [
-        {
-          "id": "401882849",
-          "time": "14:00",
-          "home": "Rayo",
-          "away": "Athletic",
-          "jornada": 8,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "post",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Estadio de Vallecas",
-          "venueCity": "Madrid",
-          "details": null
-        },
         {
           "id": "401882856",
           "time": "16:15",
