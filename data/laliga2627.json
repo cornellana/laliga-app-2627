@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:50:19Z",
+  "lastUpdated": "2026-10-30T21:51:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55354,6 +55354,15 @@
                 "playerName": "Gabriel Moscardo",
                 "teamName": "Espanyol",
                 "text": "Javi Hernández"
+              },
+              {
+                "id": "54503155_25",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Carlos Maciá",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
