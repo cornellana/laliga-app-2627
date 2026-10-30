@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T15:38:21Z",
+  "lastUpdated": "2026-10-30T15:48:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55703,6 +55703,29 @@
           "statusText": null,
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
+          "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-12-09",
+      "jornada": 1,
+      "games": [
+        {
+          "id": "401882849",
+          "time": "20:00",
+          "home": "Rayo",
+          "away": "Athletic",
+          "jornada": 1,
+          "jornadaEstimada": true,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "post",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio de Vallecas",
+          "venueCity": "Madrid",
           "details": null
         }
       ]
