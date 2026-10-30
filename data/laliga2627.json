@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:07:40Z",
+  "lastUpdated": "2026-10-30T21:08:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "50'",
+          "clock": "51'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55235,15 +55235,6 @@
                 "minute": 41,
                 "extraTime": null,
                 "playerName": "Roger Hinojo",
-                "teamName": "Espanyol",
-                "text": null
-              },
-              {
-                "id": "54500010_8",
-                "type": "GOAL",
-                "minute": 48,
-                "extraTime": null,
-                "playerName": null,
                 "teamName": "Espanyol",
                 "text": null
               }
