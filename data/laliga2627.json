@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:36:05Z",
+  "lastUpdated": "2026-10-30T21:37:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55315,9 +55315,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 77,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Javi Puado",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Bryan Zaragoza"
               },
               {
                 "id": "54501895_21",
