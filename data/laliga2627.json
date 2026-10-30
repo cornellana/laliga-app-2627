@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:41:32Z",
+  "lastUpdated": "2026-10-30T21:42:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55342,9 +55342,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Tani Oluwaseyi",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Tajon Buchanan"
               }
             ]
           }
