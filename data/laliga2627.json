@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:51:24Z",
+  "lastUpdated": "2026-10-30T21:52:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54840,11 +54840,11 @@
           "away": "Espanyol",
           "jornada": 11,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-1",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
