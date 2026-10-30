@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:45:56Z",
+  "lastUpdated": "2026-10-30T21:47:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55345,6 +55345,15 @@
                 "playerName": "Tani Oluwaseyi",
                 "teamName": "Villarreal",
                 "text": "Tajon Buchanan"
+              },
+              {
+                "id": "54502808_24",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Gabriel Moscardo",
+                "teamName": "Espanyol",
+                "text": "Javi Hernández"
               }
             ]
           }
