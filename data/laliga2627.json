@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:38:15Z",
+  "lastUpdated": "2026-10-30T21:39:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55336,6 +55336,15 @@
                 "playerName": "Alex Freeman",
                 "teamName": "Villarreal",
                 "text": "Pau Navarro"
+              },
+              {
+                "id": "54502225_23",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
