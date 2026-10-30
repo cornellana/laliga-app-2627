@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:21:51Z",
+  "lastUpdated": "2026-10-30T21:22:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55286,7 +55286,7 @@
               {
                 "id": "54500811_15",
                 "type": "SUBSTITUTION",
-                "minute": 62,
+                "minute": 61,
                 "extraTime": null,
                 "playerName": "José Ángel",
                 "teamName": "Espanyol",
@@ -55295,7 +55295,7 @@
               {
                 "id": "54500812_16",
                 "type": "SUBSTITUTION",
-                "minute": 62,
+                "minute": 61,
                 "extraTime": null,
                 "playerName": "Pol Lozano",
                 "teamName": "Espanyol",
