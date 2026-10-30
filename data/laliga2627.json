@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:13:06Z",
+  "lastUpdated": "2026-10-30T21:14:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55244,6 +55244,15 @@
                 "minute": 53,
                 "extraTime": null,
                 "playerName": "Sergi Cardona",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "54500477_11",
+                "type": "YELLOW_CARD",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Santi Comesaña",
                 "teamName": "Villarreal",
                 "text": null
               }
