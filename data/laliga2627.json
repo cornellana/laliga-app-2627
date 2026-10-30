@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:17:28Z",
+  "lastUpdated": "2026-10-30T21:18:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54841,9 +54841,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55254,6 +55254,33 @@
                 "extraTime": null,
                 "playerName": "Santi Comesaña",
                 "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "54500752_12",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Ayoze Pérez",
+                "teamName": "Villarreal",
+                "text": "Alberto Moleiro"
+              },
+              {
+                "id": "54500753_13",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Carlos Romero",
+                "teamName": "Villarreal",
+                "text": "Sergi Cardona"
+              },
+              {
+                "id": "54500756_14",
+                "type": "GOAL",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Leandro Cabrera",
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
@@ -59982,6 +60009,12 @@
     {
       "player": "Kike Barja",
       "team": "Osasuna",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Leandro Cabrera",
+      "team": "Espanyol",
       "goals": 1,
       "penalties": null
     },
