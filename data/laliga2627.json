@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:18:34Z",
+  "lastUpdated": "2026-10-30T21:19:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55280,6 +55280,24 @@
                 "minute": 60,
                 "extraTime": null,
                 "playerName": "Leandro Cabrera",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "54500811_15",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "54500812_16",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Espanyol",
                 "text": null
               }
