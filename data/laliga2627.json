@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:10:56Z",
+  "lastUpdated": "2026-10-30T21:12:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55236,6 +55236,15 @@
                 "extraTime": null,
                 "playerName": "Roger Hinojo",
                 "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "54500320_10",
+                "type": "YELLOW_CARD",
+                "minute": 53,
+                "extraTime": null,
+                "playerName": "Sergi Cardona",
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
