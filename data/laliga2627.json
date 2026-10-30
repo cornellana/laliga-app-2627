@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T20:23:26Z",
+  "lastUpdated": "2026-10-30T20:24:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "23'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55225,7 +55225,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 21,
                 "extraTime": null,
-                "playerName": "Rafael Bauza",
+                "playerName": "Rafel Bauzà",
                 "teamName": "Espanyol",
                 "text": null
               }
