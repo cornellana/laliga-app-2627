@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:19:40Z",
+  "lastUpdated": "2026-10-30T21:20:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,8 +54843,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "62'",
-          "statusText": "Second Half",
+          "clock": "64'",
+          "statusText": "In Progress",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
@@ -55288,18 +55288,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "José Ángel",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Roger Hinojo"
               },
               {
                 "id": "54500812_16",
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pol Lozano",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Rafel Bauzà"
               }
             ]
           }
