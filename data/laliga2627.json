@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T21:33:54Z",
+  "lastUpdated": "2026-10-30T21:34:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55309,6 +55309,15 @@
                 "playerName": "Bryan Zaragoza",
                 "teamName": "Espanyol",
                 "text": null
+              },
+              {
+                "id": "54501895_20",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Jan Peries",
+                "teamName": "Espanyol",
+                "text": "Alejandro Santiago"
               }
             ]
           }
