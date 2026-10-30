@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T20:20:09Z",
+  "lastUpdated": "2026-10-30T20:21:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -54843,7 +54843,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "20'",
+          "clock": "21'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -55216,9 +55216,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 18,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Nicolas Pepe",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Gerard Moreno because of an injury"
               }
             ]
           }
