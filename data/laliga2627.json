@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T20:44:16Z",
+  "lastUpdated": "2026-10-31T20:45:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56952,9 +56952,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "3-0",
           "state": "in",
-          "clock": "41'",
+          "clock": "42'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57371,6 +57371,15 @@
                 "minute": 40,
                 "extraTime": null,
                 "playerName": "Pedri",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "54596444_5",
+                "type": "GOAL",
+                "minute": 41,
+                "extraTime": null,
+                "playerName": "Raphinha",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -61382,7 +61391,7 @@
     {
       "player": "Raphinha",
       "team": "FC Barcelona",
-      "goals": 14,
+      "goals": 15,
       "penalties": 3
     },
     {
