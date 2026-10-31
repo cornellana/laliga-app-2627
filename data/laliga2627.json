@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:07:53Z",
+  "lastUpdated": "2026-10-31T16:24:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55879,8 +55879,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
           "details": {
@@ -56273,6 +56273,15 @@
                 "playerName": "Pablo Durán",
                 "teamName": "Celta",
                 "text": "Hugo González because of an injury"
+              },
+              {
+                "id": "54562501_9",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
