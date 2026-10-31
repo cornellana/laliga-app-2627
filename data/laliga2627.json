@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T14:30:07Z",
+  "lastUpdated": "2026-10-31T14:31:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55383,7 +55383,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -55802,6 +55802,42 @@
                 "playerName": "Alexander Sørloth",
                 "teamName": "Atlético",
                 "text": "Julián Alvarez"
+              },
+              {
+                "id": "54537904_9",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "54537905_10",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "54537906_11",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "54537907_12",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
