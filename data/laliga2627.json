@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T17:12:50Z",
+  "lastUpdated": "2026-10-31T17:13:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55876,11 +55876,11 @@
           "away": "Celta",
           "jornada": 11,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "3-0",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
           "details": {
