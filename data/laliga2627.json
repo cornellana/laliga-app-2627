@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:51:03Z",
+  "lastUpdated": "2026-10-31T16:52:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55879,7 +55879,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -56351,7 +56351,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 72,
                 "extraTime": null,
-                "playerName": "Gnangoro Bouare Samake",
+                "playerName": "Gnangoro",
                 "teamName": "Rayo",
                 "text": null
               }
