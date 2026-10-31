@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T19:17:34Z",
+  "lastUpdated": "2026-10-31T19:18:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56404,7 +56404,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56895,6 +56895,24 @@
                 "playerName": "Jens Cajuste",
                 "teamName": "Málaga",
                 "text": "Carlos Dotor"
+              },
+              {
+                "id": "54583929_19",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "54583930_20",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
