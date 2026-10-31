@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T20:25:49Z",
+  "lastUpdated": "2026-10-31T20:26:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56952,9 +56952,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "23'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57344,6 +57344,15 @@
                 "minute": 8,
                 "extraTime": null,
                 "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "54593225_2",
+                "type": "GOAL",
+                "minute": 23,
+                "extraTime": null,
+                "playerName": "Fermín López",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -61407,6 +61416,12 @@
       "penalties": null
     },
     {
+      "player": "Fermín López",
+      "team": "FC Barcelona",
+      "goals": 5,
+      "penalties": null
+    },
+    {
       "player": "Lucas Boyé",
       "team": "Alavés",
       "goals": 5,
@@ -61435,12 +61450,6 @@
       "team": "Atlético",
       "goals": 4,
       "penalties": 2
-    },
-    {
-      "player": "Fermín López",
-      "team": "FC Barcelona",
-      "goals": 4,
-      "penalties": null
     },
     {
       "player": "Abde Ezzalzouli",
