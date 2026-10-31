@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T14:26:51Z",
+  "lastUpdated": "2026-10-31T14:27:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55383,7 +55383,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -55784,6 +55784,24 @@
                 "playerName": "Giuliano Simeone",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "54537559_7",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Jonathan David",
+                "teamName": "Atlético",
+                "text": "Lee Kang-In"
+              },
+              {
+                "id": "54537560_8",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Alexander Sørloth",
+                "teamName": "Atlético",
+                "text": "Julián Alvarez"
               }
             ]
           }
