@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:23:52Z",
+  "lastUpdated": "2026-10-31T21:24:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56954,8 +56954,8 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "58'",
-          "statusText": "Second Half",
+          "clock": "59'",
+          "statusText": "In Progress",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -57436,6 +57436,15 @@
                 "playerName": "Aitor Mañas",
                 "teamName": "Alavés",
                 "text": "Abde Rebbach"
+              },
+              {
+                "id": "54602313_14",
+                "type": "YELLOW_CARD",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "João Cancelo",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
