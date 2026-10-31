@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:47:44Z",
+  "lastUpdated": "2026-10-31T21:48:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56954,7 +56954,7 @@
           "done": false,
           "result": "6-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57514,9 +57514,18 @@
                 "type": "GOAL",
                 "minute": 81,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Anthony Gordon",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "54605739_25",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Gerard Martín",
+                "teamName": "FC Barcelona",
+                "text": "Frenkie de Jong"
               }
             ]
           }
@@ -61722,6 +61731,12 @@
       "penalties": null
     },
     {
+      "player": "Anthony Gordon",
+      "team": "FC Barcelona",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Arda Güler",
       "team": "Real Madrid",
       "goals": 2,
@@ -61906,12 +61921,6 @@
       "team": "Racing",
       "goals": 1,
       "penalties": 1
-    },
-    {
-      "player": "Anthony Gordon",
-      "team": "FC Barcelona",
-      "goals": 1,
-      "penalties": null
     },
     {
       "player": "Antonio Rüdiger",
