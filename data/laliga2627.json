@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T18:56:55Z",
+  "lastUpdated": "2026-10-31T18:58:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56404,7 +56404,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56827,7 +56827,7 @@
               {
                 "id": "54580993_7",
                 "type": "SUBSTITUTION",
-                "minute": 61,
+                "minute": 60,
                 "extraTime": null,
                 "playerName": "Chupe",
                 "teamName": "Málaga",
@@ -56845,11 +56845,20 @@
               {
                 "id": "54580995_9",
                 "type": "SUBSTITUTION",
-                "minute": 62,
+                "minute": 61,
                 "extraTime": null,
                 "playerName": "Antony",
                 "teamName": "Betis",
                 "text": "Rodrigo Riquelme"
+              },
+              {
+                "id": "54581242_10",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
