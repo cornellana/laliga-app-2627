@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T19:27:18Z",
+  "lastUpdated": "2026-10-31T19:28:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56404,7 +56404,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56929,6 +56929,15 @@
                 "minute": 90,
                 "extraTime": 1,
                 "playerName": "Nelson Deossa",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "54585770_23",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Aitor Ruibal",
                 "teamName": "Betis",
                 "text": null
               }
