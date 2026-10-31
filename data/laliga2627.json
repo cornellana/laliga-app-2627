@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:59:50Z",
+  "lastUpdated": "2026-10-31T17:00:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55879,7 +55879,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -56378,9 +56378,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 79,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alemão",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Unai López"
               }
             ]
           }
