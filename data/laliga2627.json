@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:52:09Z",
+  "lastUpdated": "2026-10-31T16:53:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55877,9 +55877,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "2-0",
+          "result": "3-0",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -56352,6 +56352,15 @@
                 "minute": 72,
                 "extraTime": null,
                 "playerName": "Gnangoro",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "54568799_23",
+                "type": "GOAL",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Unai López",
                 "teamName": "Rayo",
                 "text": null
               }
@@ -61265,6 +61274,12 @@
     {
       "player": "Umar Sadiq",
       "team": "Valencia",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Unai López",
+      "team": "Rayo",
       "goals": 1,
       "penalties": null
     },
