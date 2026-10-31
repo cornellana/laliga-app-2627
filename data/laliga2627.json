@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:53:14Z",
+  "lastUpdated": "2026-10-31T16:54:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55879,7 +55879,7 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -56363,6 +56363,15 @@
                 "playerName": "Unai López",
                 "teamName": "Rayo",
                 "text": null
+              },
+              {
+                "id": "54569022_24",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Couhaib Driouech",
+                "teamName": "Celta",
+                "text": "Hugo Álvarez"
               }
             ]
           }
