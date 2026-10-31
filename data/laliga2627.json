@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T17:55:33Z",
+  "lastUpdated": "2026-10-31T17:56:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56404,7 +56404,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "21'",
+          "clock": "22'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56787,7 +56787,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54573762_1",
+                "type": "YELLOW_CARD",
+                "minute": 20,
+                "extraTime": null,
+                "playerName": "David Larrubia",
+                "teamName": "Málaga",
+                "text": null
+              }
+            ]
           }
         },
         {
