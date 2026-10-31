@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:41:14Z",
+  "lastUpdated": "2026-10-31T21:42:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56954,7 +56954,7 @@
           "done": false,
           "result": "5-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57490,6 +57490,24 @@
                 "playerName": "Anthony Gordon",
                 "teamName": "FC Barcelona",
                 "text": "Lamine Yamal"
+              },
+              {
+                "id": "54604743_22",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "54604744_23",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
