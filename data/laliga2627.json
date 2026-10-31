@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T19:14:18Z",
+  "lastUpdated": "2026-10-31T19:15:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56404,7 +56404,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56877,6 +56877,15 @@
                 "playerName": "Aitor Ruibal",
                 "teamName": "Betis",
                 "text": "Troy Parrott"
+              },
+              {
+                "id": "54583268_17",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Jens Cajuste",
+                "teamName": "Málaga",
+                "text": "Carlos Dotor"
               }
             ]
           }
