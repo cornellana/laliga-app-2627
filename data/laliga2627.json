@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:58:39Z",
+  "lastUpdated": "2026-10-31T21:59:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56951,11 +56951,11 @@
           "away": "Alavés",
           "jornada": 11,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "6-1",
-          "state": "in",
-          "clock": "90'+3'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
