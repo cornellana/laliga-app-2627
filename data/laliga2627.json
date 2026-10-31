@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:31:27Z",
+  "lastUpdated": "2026-10-31T21:32:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56952,9 +56952,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "4-0",
+          "result": "5-0",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57472,6 +57472,15 @@
                 "playerName": "Gabriel Jesus",
                 "teamName": "FC Barcelona",
                 "text": "Raphinha"
+              },
+              {
+                "id": "54603415_18",
+                "type": "GOAL",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
