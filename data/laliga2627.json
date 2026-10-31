@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T20:52:57Z",
+  "lastUpdated": "2026-10-31T20:54:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56955,7 +56955,7 @@
           "result": "4-0",
           "state": "in",
           "clock": "45'+5'",
-          "statusText": "First Half",
+          "statusText": "Halftime",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -57390,6 +57390,15 @@
                 "extraTime": 1,
                 "playerName": "Lamine Yamal",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "54597767_7",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 3,
+                "playerName": "Ángel Pérez",
+                "teamName": "Alavés",
                 "text": null
               }
             ]
