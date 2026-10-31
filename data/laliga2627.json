@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T17:00:54Z",
+  "lastUpdated": "2026-10-31T17:02:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55879,8 +55879,8 @@
           "done": false,
           "result": "3-0",
           "state": "in",
-          "clock": "82'",
-          "statusText": "Second Half",
+          "clock": "83'",
+          "statusText": "In Progress",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
           "details": {
@@ -56381,6 +56381,15 @@
                 "playerName": "Alemão",
                 "teamName": "Rayo",
                 "text": "Unai López"
+              },
+              {
+                "id": "54569876_26",
+                "type": "YELLOW_CARD",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Williot Swedberg",
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
