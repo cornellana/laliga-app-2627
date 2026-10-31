@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T15:54:49Z",
+  "lastUpdated": "2026-10-31T15:55:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55877,9 +55877,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "37'",
+          "clock": "38'",
           "statusText": "First Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -56253,6 +56253,15 @@
                 "minute": 26,
                 "extraTime": null,
                 "playerName": "Unai López",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "54555420_2",
+                "type": "GOAL",
+                "minute": 36,
+                "extraTime": null,
+                "playerName": "Jorge de Frutos",
                 "teamName": "Rayo",
                 "text": null
               }
@@ -60902,6 +60911,12 @@
     {
       "player": "Jon Martín",
       "team": "R. Sociedad",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Jorge de Frutos",
+      "team": "Rayo",
       "goals": 1,
       "penalties": null
     },
