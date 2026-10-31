@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T18:58:00Z",
+  "lastUpdated": "2026-10-31T18:59:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56404,7 +56404,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56856,9 +56856,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Dani Ceballos",
                 "teamName": "Betis",
-                "text": null
+                "text": "Isco"
               }
             ]
           }
