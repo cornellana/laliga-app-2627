@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T19:03:28Z",
+  "lastUpdated": "2026-10-31T19:04:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56404,7 +56404,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56859,6 +56859,15 @@
                 "playerName": "Dani Ceballos",
                 "teamName": "Betis",
                 "text": "Isco"
+              },
+              {
+                "id": "54581871_15",
+                "type": "GOAL",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Adrián Niño",
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
@@ -60930,6 +60939,12 @@
       "penalties": null
     },
     {
+      "player": "Adrián Niño",
+      "team": "Málaga",
+      "goals": 5,
+      "penalties": null
+    },
+    {
       "player": "Lucas Boyé",
       "team": "Alavés",
       "goals": 5,
@@ -60951,12 +60966,6 @@
       "player": "Álex Baena",
       "team": "Atlético",
       "goals": 5,
-      "penalties": null
-    },
-    {
-      "player": "Adrián Niño",
-      "team": "Málaga",
-      "goals": 4,
       "penalties": null
     },
     {
