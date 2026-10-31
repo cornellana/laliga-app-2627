@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T20:11:43Z",
+  "lastUpdated": "2026-10-31T20:12:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56952,9 +56952,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "9'",
+          "clock": "10'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57337,7 +57337,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54591030_1",
+                "type": "GOAL",
+                "minute": 8,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -61345,7 +61355,7 @@
     {
       "player": "Raphinha",
       "team": "FC Barcelona",
-      "goals": 13,
+      "goals": 14,
       "penalties": 3
     },
     {
