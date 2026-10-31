@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:26:02Z",
+  "lastUpdated": "2026-10-31T21:27:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56954,7 +56954,7 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57444,6 +57444,15 @@
                 "extraTime": null,
                 "playerName": "João Cancelo",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "54602622_15",
+                "type": "YELLOW_CARD",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Pablo Ibáñez",
+                "teamName": "Alavés",
                 "text": null
               }
             ]
