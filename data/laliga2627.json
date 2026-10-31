@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T19:20:50Z",
+  "lastUpdated": "2026-10-31T19:22:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56404,7 +56404,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56913,6 +56913,15 @@
                 "playerName": "Nelson Deossa",
                 "teamName": "Betis",
                 "text": "Pablo Fornals"
+              },
+              {
+                "id": "54584698_21",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Eneko Jauregi",
+                "teamName": "Málaga",
+                "text": "Adrián Niño"
               }
             ]
           }
