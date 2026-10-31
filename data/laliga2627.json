@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T20:54:02Z",
+  "lastUpdated": "2026-10-31T21:10:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57400,6 +57400,15 @@
                 "playerName": "Ángel Pérez",
                 "teamName": "Alavés",
                 "text": null
+              },
+              {
+                "id": "54599910_9",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Marc Bernal",
+                "teamName": "FC Barcelona",
+                "text": "Pedri"
               }
             ]
           }
