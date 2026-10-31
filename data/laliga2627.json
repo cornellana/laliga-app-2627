@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T20:43:11Z",
+  "lastUpdated": "2026-10-31T20:44:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56954,7 +56954,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "40'",
+          "clock": "41'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57363,6 +57363,15 @@
                 "extraTime": null,
                 "playerName": "Carlos Protesoni",
                 "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "54596306_4",
+                "type": "YELLOW_CARD",
+                "minute": 40,
+                "extraTime": null,
+                "playerName": "Pedri",
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
