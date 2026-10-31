@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:10:51Z",
+  "lastUpdated": "2026-10-31T21:11:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56954,8 +56954,8 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "45'+5'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
@@ -57409,6 +57409,15 @@
                 "playerName": "Marc Bernal",
                 "teamName": "FC Barcelona",
                 "text": "Pedri"
+              },
+              {
+                "id": "54600001_10",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
