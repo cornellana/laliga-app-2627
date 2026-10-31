@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T13:37:07Z",
+  "lastUpdated": "2026-10-31T13:38:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55381,9 +55381,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "35'",
+          "clock": "36'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -55768,11 +55768,11 @@
             },
             "events": [
               {
-                "id": "54532152_1",
+                "id": "54533201_3",
                 "type": "GOAL",
-                "minute": 16,
+                "minute": 36,
                 "extraTime": null,
-                "playerName": "Morten Hjulmand",
+                "playerName": "Alejandro Grimaldo",
                 "teamName": "Atlético",
                 "text": null
               }
@@ -59908,6 +59908,12 @@
       "penalties": null
     },
     {
+      "player": "Alejandro Grimaldo",
+      "team": "Atlético",
+      "goals": 4,
+      "penalties": 2
+    },
+    {
       "player": "Fermín López",
       "team": "FC Barcelona",
       "goals": 4,
@@ -59918,12 +59924,6 @@
       "team": "Betis",
       "goals": 3,
       "penalties": null
-    },
-    {
-      "player": "Alejandro Grimaldo",
-      "team": "Atlético",
-      "goals": 3,
-      "penalties": 2
     },
     {
       "player": "Alex Berenguer",
@@ -60558,12 +60558,6 @@
     {
       "player": "Mikel Rodríguez",
       "team": "Alavés",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Morten Hjulmand",
-      "team": "Atlético",
       "goals": 1,
       "penalties": null
     },
