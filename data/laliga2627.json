@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T18:12:57Z",
+  "lastUpdated": "2026-10-31T18:14:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56402,9 +56402,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "39'",
+          "clock": "40'",
           "statusText": "First Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56795,6 +56795,24 @@
                 "extraTime": null,
                 "playerName": "David Larrubia",
                 "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "54575567_2",
+                "type": "YELLOW_CARD",
+                "minute": 38,
+                "extraTime": null,
+                "playerName": "Rafita",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "54575569_3",
+                "type": "GOAL",
+                "minute": 38,
+                "extraTime": null,
+                "playerName": "Marc Bartra",
+                "teamName": "Betis",
                 "text": null
               }
             ]
@@ -61095,6 +61113,12 @@
       "penalties": null
     },
     {
+      "player": "Marc Bartra",
+      "team": "Betis",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Martín Satriano",
       "team": "Getafe",
       "goals": 2,
@@ -61517,12 +61541,6 @@
     {
       "player": "Marc Aguado",
       "team": "Elche",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Marc Bartra",
-      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
