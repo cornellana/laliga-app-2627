@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T19:26:12Z",
+  "lastUpdated": "2026-10-31T19:27:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56404,7 +56404,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56922,6 +56922,15 @@
                 "playerName": "Eneko Jauregi",
                 "teamName": "Málaga",
                 "text": "Adrián Niño"
+              },
+              {
+                "id": "54585563_22",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Nelson Deossa",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
