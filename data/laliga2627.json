@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:22:47Z",
+  "lastUpdated": "2026-10-31T21:23:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56954,7 +56954,7 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57424,18 +57424,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 55,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo Ibáñez",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Denis Suárez"
               },
               {
                 "id": "54602059_13",
                 "type": "SUBSTITUTION",
                 "minute": 55,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Aitor Mañas",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Abde Rebbach"
               }
             ]
           }
