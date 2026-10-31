@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T14:36:39Z",
+  "lastUpdated": "2026-10-31T14:37:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55383,7 +55383,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "77'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -55838,6 +55838,24 @@
                 "playerName": "Oriol Rey",
                 "teamName": "Levante",
                 "text": "Thiago Fernández"
+              },
+              {
+                "id": "54538686_13",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "54538687_14",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
