@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T18:21:39Z",
+  "lastUpdated": "2026-10-31T18:22:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56402,10 +56402,10 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "45'+2'",
-          "statusText": "First Half",
+          "clock": "45'+3'",
+          "statusText": "Halftime",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
@@ -56812,6 +56812,15 @@
                 "minute": 38,
                 "extraTime": null,
                 "playerName": "Marc Bartra",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "54576902_4",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Pablo Fornals",
                 "teamName": "Betis",
                 "text": null
               }
@@ -61607,6 +61616,12 @@
     {
       "player": "Oso",
       "team": "Sevilla",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Pablo Fornals",
+      "team": "Betis",
       "goals": 1,
       "penalties": null
     },
