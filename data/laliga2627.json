@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T18:55:50Z",
+  "lastUpdated": "2026-10-31T18:56:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56404,7 +56404,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56823,6 +56823,33 @@
                 "playerName": "Pablo Fornals",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "54580993_7",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Chupe",
+                "teamName": "Málaga",
+                "text": "David Larrubia"
+              },
+              {
+                "id": "54580994_8",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Rafa Rodríguez",
+                "teamName": "Málaga",
+                "text": "Ramón Enríquez"
+              },
+              {
+                "id": "54580995_9",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Antony",
+                "teamName": "Betis",
+                "text": "Rodrigo Riquelme"
               }
             ]
           }
