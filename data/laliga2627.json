@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:39:04Z",
+  "lastUpdated": "2026-10-31T16:40:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55879,7 +55879,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -56291,6 +56291,15 @@
                 "playerName": "Jorge de Frutos",
                 "teamName": "Rayo",
                 "text": null
+              },
+              {
+                "id": "54565732_12",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Jozhua Vertrouwd",
+                "teamName": "Rayo",
+                "text": "Adrià Pedrosa"
               }
             ]
           }
