@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T19:16:28Z",
+  "lastUpdated": "2026-10-31T19:17:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56404,7 +56404,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -56879,7 +56879,16 @@
                 "text": "Troy Parrott"
               },
               {
-                "id": "54583268_17",
+                "id": "54583518_17",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Juani",
+                "teamName": "Málaga",
+                "text": "Fernando Calero"
+              },
+              {
+                "id": "54583268_18",
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
