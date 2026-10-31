@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:43:25Z",
+  "lastUpdated": "2026-10-31T16:44:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55879,7 +55879,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -56336,6 +56336,15 @@
                 "playerName": "Williot Swedberg",
                 "teamName": "Celta",
                 "text": "Sebastián Cáceres"
+              },
+              {
+                "id": "54566750_21",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Gnangoro",
+                "teamName": "Rayo",
+                "text": "Óscar Valentín because of an injury"
               }
             ]
           }
