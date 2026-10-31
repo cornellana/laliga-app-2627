@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T13:04:30Z",
+  "lastUpdated": "2026-10-31T13:05:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55383,7 +55383,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -55432,10 +55432,18 @@
                   "events": null
                 },
                 {
-                  "id": "267591",
-                  "jersey": 7,
-                  "name": "Roger Brugué",
+                  "id": "311054",
+                  "jersey": 9,
+                  "name": "Iván Romero",
                   "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "362752",
+                  "jersey": 6,
+                  "name": "Dani Requena",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -55443,14 +55451,6 @@
                   "id": "317784",
                   "jersey": 8,
                   "name": "Jon Ander Olasagasti",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "311054",
-                  "jersey": 9,
-                  "name": "Iván Romero",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -55472,9 +55472,9 @@
                   "events": null
                 },
                 {
-                  "id": "362752",
-                  "jersey": 6,
-                  "name": "Dani Requena",
+                  "id": "267591",
+                  "jersey": 7,
+                  "name": "Roger Brugué",
                   "position": "AM-R",
                   "isStarter": true,
                   "events": null
