@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:52:07Z",
+  "lastUpdated": "2026-10-31T21:53:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57532,7 +57532,7 @@
                 "type": "GOAL",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Mariano Díaz",
                 "teamName": "Alavés",
                 "text": null
               }
@@ -61632,6 +61632,12 @@
       "penalties": 2
     },
     {
+      "player": "Mariano Díaz",
+      "team": "Alavés",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Abde Ezzalzouli",
       "team": "Betis",
       "goals": 3,
@@ -61688,12 +61694,6 @@
     {
       "player": "Luka Sucic",
       "team": "R. Sociedad",
-      "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Mariano Díaz",
-      "team": "Alavés",
       "goals": 3,
       "penalties": null
     },
