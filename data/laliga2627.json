@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T14:21:24Z",
+  "lastUpdated": "2026-10-31T14:22:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55383,7 +55383,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "62'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -55773,6 +55773,15 @@
                 "minute": 36,
                 "extraTime": null,
                 "playerName": "Alejandro Grimaldo",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "54537041_6",
+                "type": "GOAL",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Giuliano Simeone",
                 "teamName": "Atlético",
                 "text": null
               }
@@ -59944,6 +59953,12 @@
       "penalties": 1
     },
     {
+      "player": "Giuliano Simeone",
+      "team": "Atlético",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Isaac Romero",
       "team": "Sevilla",
       "goals": 3,
@@ -60060,12 +60075,6 @@
     {
       "player": "Germán Valera",
       "team": "Elche",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Giuliano Simeone",
-      "team": "Atlético",
       "goals": 2,
       "penalties": null
     },
