@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T20:29:03Z",
+  "lastUpdated": "2026-10-31T20:30:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56954,7 +56954,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57354,6 +57354,15 @@
                 "extraTime": null,
                 "playerName": "Fermín López",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "54593913_3",
+                "type": "YELLOW_CARD",
+                "minute": 27,
+                "extraTime": null,
+                "playerName": "Carlos Protesoni",
+                "teamName": "Alavés",
                 "text": null
               }
             ]
