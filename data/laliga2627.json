@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:21:41Z",
+  "lastUpdated": "2026-10-31T21:22:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56954,7 +56954,7 @@
           "done": false,
           "result": "4-0",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57418,6 +57418,24 @@
                 "playerName": "Toni Martínez",
                 "teamName": "Alavés",
                 "text": "Carlos Protesoni"
+              },
+              {
+                "id": "54602058_12",
+                "type": "SUBSTITUTION",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "54602059_13",
+                "type": "SUBSTITUTION",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
