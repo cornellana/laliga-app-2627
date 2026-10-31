@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:42:19Z",
+  "lastUpdated": "2026-10-31T21:43:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56954,7 +56954,7 @@
           "done": false,
           "result": "5-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57496,18 +57496,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Hugo Novoa",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Ángel Pérez"
               },
               {
                 "id": "54604744_23",
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Mariano Díaz",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Lucas Boyé"
               }
             ]
           }
