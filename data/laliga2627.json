@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:34:41Z",
+  "lastUpdated": "2026-10-31T16:35:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55879,7 +55879,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -56282,6 +56282,15 @@
                 "playerName": "Giorgi Tsitaishvili",
                 "teamName": "Rayo",
                 "text": "Álvaro García"
+              },
+              {
+                "id": "54564634_11",
+                "type": "GOAL",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": "Jorge de Frutos",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
@@ -60579,6 +60588,12 @@
       "penalties": null
     },
     {
+      "player": "Jorge de Frutos",
+      "team": "Rayo",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Karim Adeyemi",
       "team": "FC Barcelona",
       "goals": 2,
@@ -60929,12 +60944,6 @@
     {
       "player": "Jon Martín",
       "team": "R. Sociedad",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Jorge de Frutos",
-      "team": "Rayo",
       "goals": 1,
       "penalties": null
     },
