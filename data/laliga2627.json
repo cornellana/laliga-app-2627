@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T15:43:55Z",
+  "lastUpdated": "2026-10-31T15:44:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55879,7 +55879,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -56246,7 +56246,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54552722_1",
+                "type": "YELLOW_CARD",
+                "minute": 26,
+                "extraTime": null,
+                "playerName": "Unai López",
+                "teamName": "Rayo",
+                "text": null
+              }
+            ]
           }
         },
         {
