@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:46:39Z",
+  "lastUpdated": "2026-10-31T21:47:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56952,9 +56952,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "5-0",
+          "result": "6-0",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57508,6 +57508,15 @@
                 "playerName": "Mariano Díaz",
                 "teamName": "Alavés",
                 "text": "Lucas Boyé"
+              },
+              {
+                "id": "54605585_24",
+                "type": "GOAL",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
