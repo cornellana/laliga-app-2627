@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T21:49:56Z",
+  "lastUpdated": "2026-10-31T21:51:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56952,9 +56952,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "6-0",
+          "result": "6-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57526,6 +57526,15 @@
                 "playerName": "Gerard Martín",
                 "teamName": "FC Barcelona",
                 "text": "Frenkie de Jong"
+              },
+              {
+                "id": "54606054_26",
+                "type": "GOAL",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
