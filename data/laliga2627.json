@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T14:31:13Z",
+  "lastUpdated": "2026-10-31T14:32:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55383,7 +55383,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -55808,36 +55808,36 @@
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Adrián de la Fuente",
                 "teamName": "Levante",
-                "text": null
+                "text": "Jeremy Toljan"
               },
               {
                 "id": "54537905_10",
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Petar Ratkov",
                 "teamName": "Levante",
-                "text": null
+                "text": "Dani Requena"
               },
               {
                 "id": "54537906_11",
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Víctor García",
                 "teamName": "Levante",
-                "text": null
+                "text": "Karl Etta Eyong"
               },
               {
                 "id": "54537907_12",
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Oriol Rey",
                 "teamName": "Levante",
-                "text": null
+                "text": "Thiago Fernández"
               }
             ]
           }
