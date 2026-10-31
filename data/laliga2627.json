@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T13:17:34Z",
+  "lastUpdated": "2026-10-31T13:18:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55381,9 +55381,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "16'",
+          "clock": "17'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -55766,7 +55766,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54532152_1",
+                "type": "GOAL",
+                "minute": 16,
+                "extraTime": null,
+                "playerName": "Morten Hjulmand",
+                "teamName": "Atlético",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -60548,6 +60558,12 @@
     {
       "player": "Mikel Rodríguez",
       "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Morten Hjulmand",
+      "team": "Atlético",
       "goals": 1,
       "penalties": null
     },
