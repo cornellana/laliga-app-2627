@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T20:05:11Z",
+  "lastUpdated": "2026-10-31T20:06:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -56954,7 +56954,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -57149,7 +57149,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-5-1",
               "players": [
                 {
                   "id": "200910",
@@ -57192,10 +57192,18 @@
                   "events": null
                 },
                 {
+                  "id": "163068",
+                  "jersey": 4,
+                  "name": "Denis Suárez",
+                  "position": "CM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "253754",
                   "jersey": 23,
                   "name": "Carlos Protesoni",
-                  "position": "CM-L",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -57203,14 +57211,14 @@
                   "id": "260256",
                   "jersey": 6,
                   "name": "Ander Guevara",
-                  "position": "CM-R",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "163068",
-                  "jersey": 4,
-                  "name": "Denis Suárez",
+                  "id": "345991",
+                  "jersey": 21,
+                  "name": "Abde Rebbach",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -57224,18 +57232,10 @@
                   "events": null
                 },
                 {
-                  "id": "345991",
-                  "jersey": 21,
-                  "name": "Abde Rebbach",
-                  "position": "CF-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "207236",
                   "jersey": 15,
                   "name": "Lucas Boyé",
-                  "position": "CF-R",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
