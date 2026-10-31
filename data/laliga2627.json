@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T14:41:01Z",
+  "lastUpdated": "2026-10-31T14:42:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55383,7 +55383,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -55856,6 +55856,15 @@
                 "playerName": "Ademola Lookman",
                 "teamName": "Atlético",
                 "text": "Álex Baena"
+              },
+              {
+                "id": "54539245_15",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
