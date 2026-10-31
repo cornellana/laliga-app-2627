@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:41:15Z",
+  "lastUpdated": "2026-10-31T16:42:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55879,7 +55879,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -56293,13 +56293,49 @@
                 "text": null
               },
               {
-                "id": "54565732_12",
+                "id": "54565969_12",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Isi Palazón",
+                "teamName": "Rayo",
+                "text": "Sergio Camello"
+              },
+              {
+                "id": "54565970_13",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Iago Aspas",
+                "teamName": "Celta",
+                "text": "Javi Galán"
+              },
+              {
+                "id": "54565732_14",
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
                 "playerName": "Jozhua Vertrouwd",
                 "teamName": "Rayo",
                 "text": "Adrià Pedrosa"
+              },
+              {
+                "id": "54565971_15",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Sergio Carreira",
+                "teamName": "Celta",
+                "text": "Ferran Jutglà"
+              },
+              {
+                "id": "54565972_16",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Williot Swedberg",
+                "teamName": "Celta",
+                "text": "Sebastián Cáceres"
               }
             ]
           }
