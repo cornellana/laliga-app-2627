@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T13:03:25Z",
+  "lastUpdated": "2026-10-31T13:04:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -55383,13 +55383,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
             "homeLineup": {
-              "formation": "4-3-3",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "141438",
@@ -55432,10 +55432,18 @@
                   "events": null
                 },
                 {
+                  "id": "267591",
+                  "jersey": 7,
+                  "name": "Roger Brugué",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "317784",
                   "jersey": 8,
                   "name": "Jon Ander Olasagasti",
-                  "position": "CM",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -55443,14 +55451,6 @@
                   "id": "311054",
                   "jersey": 9,
                   "name": "Iván Romero",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "362752",
-                  "jersey": 6,
-                  "name": "Dani Requena",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -55467,15 +55467,15 @@
                   "id": "339195",
                   "jersey": 24,
                   "name": "Thiago Fernández",
-                  "position": "LF",
+                  "position": "AM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "267591",
-                  "jersey": 7,
-                  "name": "Roger Brugué",
-                  "position": "RF",
+                  "id": "362752",
+                  "jersey": 6,
+                  "name": "Dani Requena",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
