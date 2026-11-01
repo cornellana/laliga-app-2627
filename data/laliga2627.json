@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:39:44Z",
+  "lastUpdated": "2026-11-01T21:40:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59163,7 +59163,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59616,6 +59616,15 @@
                 "minute": 64,
                 "extraTime": null,
                 "playerName": "Mamadou Sarr",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "54683177_15",
+                "type": "YELLOW_CARD",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Jon Aramburu",
                 "teamName": "R. Sociedad",
                 "text": null
               }
