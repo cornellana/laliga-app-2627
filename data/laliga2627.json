@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T13:07:16Z",
+  "lastUpdated": "2026-11-01T13:08:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57555,7 +57555,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -57785,17 +57785,17 @@
                   "events": null
                 },
                 {
-                  "id": "277307",
-                  "jersey": 24,
-                  "name": "Youssouf Fofana",
+                  "id": "282289",
+                  "jersey": 6,
+                  "name": "Lucien Agoumé",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "282289",
-                  "jersey": 6,
-                  "name": "Lucien Agoumé",
+                  "id": "277307",
+                  "jersey": 24,
+                  "name": "Youssouf Fofana",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -57817,17 +57817,17 @@
                   "events": null
                 },
                 {
-                  "id": "323033",
-                  "jersey": 19,
-                  "name": "Lucas Stassin",
+                  "id": "365821",
+                  "jersey": 16,
+                  "name": "Isaac Romero",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "365821",
-                  "jersey": 16,
-                  "name": "Isaac Romero",
+                  "id": "323033",
+                  "jersey": 19,
+                  "name": "Lucas Stassin",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
