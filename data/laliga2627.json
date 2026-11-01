@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T20:19:20Z",
+  "lastUpdated": "2026-11-01T20:20:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59161,9 +59161,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "14'",
+          "clock": "15'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59555,6 +59555,15 @@
                 "playerName": "Robert Navarro",
                 "teamName": "Athletic",
                 "text": "Maroan Sannadi because of an injury"
+              },
+              {
+                "id": "54676897_6",
+                "type": "GOAL",
+                "minute": 14,
+                "extraTime": null,
+                "playerName": "Iñaki Williams",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
@@ -63636,6 +63645,12 @@
       "penalties": null
     },
     {
+      "player": "Iñaki Williams",
+      "team": "Athletic",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Jonathan David",
       "team": "Atlético",
       "goals": 3,
@@ -63766,12 +63781,6 @@
       "team": "Betis",
       "goals": 2,
       "penalties": 1
-    },
-    {
-      "player": "Iñaki Williams",
-      "team": "Athletic",
-      "goals": 2,
-      "penalties": null
     },
     {
       "player": "Jorge de Frutos",
