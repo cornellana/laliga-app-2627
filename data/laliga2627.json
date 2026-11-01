@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T19:18:59Z",
+  "lastUpdated": "2026-11-01T19:20:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -59125,6 +59125,15 @@
               },
               {
                 "id": "54672564_24",
+                "type": "SUBSTITUTION",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Jesús Vázquez",
+                "teamName": "Valencia",
+                "text": "Arnaut Danjuma"
+              },
+              {
+                "id": "54672655_25",
                 "type": "SUBSTITUTION",
                 "minute": 88,
                 "extraTime": null,
