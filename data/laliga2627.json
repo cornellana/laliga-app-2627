@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:29:57Z",
+  "lastUpdated": "2026-11-01T18:36:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,8 +58622,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+1'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
           "details": {
@@ -58639,25 +58639,25 @@
                   "events": null
                 },
                 {
-                  "id": "318181",
-                  "jersey": 5,
-                  "name": "Federico Redondo",
+                  "id": "265995",
+                  "jersey": 23,
+                  "name": "Víctor Chust",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "265995",
-                  "jersey": 23,
-                  "name": "Víctor Chust",
+                  "id": "318181",
+                  "jersey": 5,
+                  "name": "Federico Redondo",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "297358",
-                  "jersey": 11,
-                  "name": "Germán Valera",
+                  "id": "323286",
+                  "jersey": 3,
+                  "name": "Roy Revivo",
                   "position": "LB",
                   "isStarter": true,
                   "events": null
@@ -58671,10 +58671,18 @@
                   "events": null
                 },
                 {
-                  "id": "323286",
-                  "jersey": 3,
-                  "name": "Roy Revivo",
+                  "id": "421310",
+                  "jersey": 47,
+                  "name": "Javier Morcillo",
                   "position": "CM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "190291",
+                  "jersey": 18,
+                  "name": "Thomas Lemar",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -58682,14 +58690,6 @@
                   "id": "273424",
                   "jersey": 12,
                   "name": "Gonzalo Villar",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "320648",
-                  "jersey": 21,
-                  "name": "Lucas Cepeda",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -58703,17 +58703,17 @@
                   "events": null
                 },
                 {
-                  "id": "190291",
-                  "jersey": 18,
-                  "name": "Thomas Lemar",
+                  "id": "297358",
+                  "jersey": 11,
+                  "name": "Germán Valera",
                   "position": "LF",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "421310",
-                  "jersey": 47,
-                  "name": "Javier Morcillo",
+                  "id": "320648",
+                  "jersey": 21,
+                  "name": "Lucas Cepeda",
                   "position": "RF",
                   "isStarter": true,
                   "events": null
