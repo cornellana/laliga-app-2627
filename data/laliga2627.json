@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T13:23:31Z",
+  "lastUpdated": "2026-11-01T13:24:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57553,9 +57553,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "19'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -57930,7 +57930,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54635284_1",
+                "type": "GOAL",
+                "minute": 19,
+                "extraTime": null,
+                "playerName": "Kike Salas",
+                "teamName": "Sevilla",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -62576,6 +62586,12 @@
     {
       "player": "Kike Barja",
       "team": "Osasuna",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Kike Salas",
+      "team": "Sevilla",
       "goals": 1,
       "penalties": null
     },
