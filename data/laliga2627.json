@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T14:36:49Z",
+  "lastUpdated": "2026-11-01T14:37:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57555,7 +57555,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -57992,6 +57992,24 @@
                 "extraTime": null,
                 "playerName": "Enes Ünal",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "54642259_10",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "54642260_11",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
