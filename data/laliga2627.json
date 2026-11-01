@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T15:29:24Z",
+  "lastUpdated": "2026-11-01T15:30:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58122,9 +58122,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "12'",
+          "clock": "13'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -58491,7 +58491,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54649236_3",
+                "type": "PENALTY",
+                "minute": 11,
+                "extraTime": null,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -62467,8 +62477,8 @@
     {
       "player": "Kylian Mbappé",
       "team": "Real Madrid",
-      "goals": 11,
-      "penalties": 2
+      "goals": 12,
+      "penalties": 3
     },
     {
       "player": "Lamine Yamal",
