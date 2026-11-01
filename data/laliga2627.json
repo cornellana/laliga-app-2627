@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T17:57:40Z",
+  "lastUpdated": "2026-11-01T17:58:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,13 +58622,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
           "details": {
             "homeLineup": {
-              "formation": "5-3-2",
+              "formation": "5-4-1",
               "players": [
                 {
                   "id": "173749",
@@ -58682,14 +58682,6 @@
                   "id": "421310",
                   "jersey": 47,
                   "name": "Javier Morcillo",
-                  "position": "CM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "190291",
-                  "jersey": 18,
-                  "name": "Thomas Lemar",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -58703,10 +58695,10 @@
                   "events": null
                 },
                 {
-                  "id": "301684",
-                  "jersey": 14,
-                  "name": "Fer Niño",
-                  "position": "CF-L",
+                  "id": "190291",
+                  "jersey": 18,
+                  "name": "Thomas Lemar",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -58714,7 +58706,15 @@
                   "id": "320648",
                   "jersey": 21,
                   "name": "Lucas Cepeda",
-                  "position": "CF-R",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "301684",
+                  "jersey": 14,
+                  "name": "Fer Niño",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
@@ -59005,7 +59005,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54665832_5",
+                "type": "SUBSTITUTION",
+                "minute": 24,
+                "extraTime": null,
+                "playerName": "Facundo Buonanotte",
+                "teamName": "Elche",
+                "text": "Thomas Lemar because of an injury"
+              }
+            ]
           }
         },
         {
