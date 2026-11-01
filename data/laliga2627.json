@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:41:54Z",
+  "lastUpdated": "2026-11-01T21:43:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59163,7 +59163,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59633,18 +59633,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Takefusa Kubo",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Luka Sucic"
               },
               {
                 "id": "54683194_17",
                 "type": "SUBSTITUTION",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Beñat Turrientes",
                 "teamName": "R. Sociedad",
-                "text": null
+                "text": "Jon Gorrotxategi"
+              },
+              {
+                "id": "54683356_18",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Beñat Prados",
+                "teamName": "Athletic",
+                "text": "Peio Canales"
               }
             ]
           }
