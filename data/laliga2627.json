@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T19:03:47Z",
+  "lastUpdated": "2026-11-01T19:04:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -59084,6 +59084,15 @@
                 "minute": 69,
                 "extraTime": null,
                 "playerName": "Umar Sadiq",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "54671507_16",
+                "type": "YELLOW_CARD",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Javi Guerra",
                 "teamName": "Valencia",
                 "text": null
               }
