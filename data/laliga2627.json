@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:19:23Z",
+  "lastUpdated": "2026-11-01T18:20:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58860,17 +58860,17 @@
                   "events": null
                 },
                 {
-                  "id": "212185",
-                  "jersey": 2,
-                  "name": "Guido Rodríguez",
+                  "id": "419048",
+                  "jersey": 33,
+                  "name": "Aaron Mayol",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "419048",
-                  "jersey": 33,
-                  "name": "Aaron Mayol",
+                  "id": "212185",
+                  "jersey": 2,
+                  "name": "Guido Rodríguez",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
