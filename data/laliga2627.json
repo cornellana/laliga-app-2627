@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:16:08Z",
+  "lastUpdated": "2026-11-01T18:17:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "43'",
+          "clock": "44'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -59021,6 +59021,15 @@
                 "minute": 36,
                 "extraTime": null,
                 "playerName": "Germán Valera",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "54667928_7",
+                "type": "YELLOW_CARD",
+                "minute": 42,
+                "extraTime": null,
+                "playerName": "Víctor Chust",
                 "teamName": "Elche",
                 "text": null
               }
