@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T20:12:49Z",
+  "lastUpdated": "2026-11-01T20:13:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59163,7 +59163,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "8'",
+          "clock": "9'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59552,9 +59552,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 6,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Robert Navarro",
                 "teamName": "Athletic",
-                "text": null
+                "text": "Maroan Sannadi because of an injury"
               }
             ]
           }
