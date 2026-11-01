@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T14:47:41Z",
+  "lastUpdated": "2026-11-01T14:48:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57555,7 +57555,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -58065,6 +58065,15 @@
                 "playerName": "Kiko Femenía",
                 "teamName": "Getafe",
                 "text": "Ramón Terrats"
+              },
+              {
+                "id": "54644058_20",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Nemanja Gudelj",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
