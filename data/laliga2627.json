@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T20:54:34Z",
+  "lastUpdated": "2026-11-01T20:55:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59164,7 +59164,7 @@
           "result": "2-1",
           "state": "in",
           "clock": "45'+5'",
-          "statusText": "First Half",
+          "statusText": "Halftime",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
@@ -59580,6 +59580,15 @@
                 "minute": 45,
                 "extraTime": 2,
                 "playerName": "Alex Berenguer",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "54679113_9",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 4,
+                "playerName": "Iñaki Williams",
                 "teamName": "Athletic",
                 "text": null
               }
