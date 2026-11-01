@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T17:14:59Z",
+  "lastUpdated": "2026-11-01T17:16:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58121,11 +58121,11 @@
           "away": "Real Madrid",
           "jornada": 11,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-3",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
