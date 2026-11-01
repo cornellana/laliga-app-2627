@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T14:37:54Z",
+  "lastUpdated": "2026-11-01T14:38:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57555,7 +57555,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -57999,18 +57999,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 72,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Robbie Ure",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Youssouf Fofana"
               },
               {
                 "id": "54642260_11",
                 "type": "SUBSTITUTION",
                 "minute": 72,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Rubén Vargas",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Félix Correia"
               }
             ]
           }
