@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T14:22:43Z",
+  "lastUpdated": "2026-11-01T14:23:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57555,7 +57555,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -57975,6 +57975,15 @@
                 "playerName": "Davinchi",
                 "teamName": "Getafe",
                 "text": "Jean Valou"
+              },
+              {
+                "id": "54640416_8",
+                "type": "YELLOW_CARD",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Davinchi",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
