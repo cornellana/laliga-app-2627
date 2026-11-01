@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:59:25Z",
+  "lastUpdated": "2026-11-01T19:00:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -59077,6 +59077,15 @@
                 "playerName": "Abiel Osorio",
                 "teamName": "Elche",
                 "text": "Lucas Cepeda"
+              },
+              {
+                "id": "54671377_15",
+                "type": "GOAL",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Umar Sadiq",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
@@ -63378,6 +63387,12 @@
       "penalties": null
     },
     {
+      "player": "Umar Sadiq",
+      "team": "Valencia",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Aaron Mayol",
       "team": "Valencia",
       "goals": 1,
@@ -63914,12 +63929,6 @@
     {
       "player": "Tyrhys Dolan",
       "team": "Espanyol",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Umar Sadiq",
-      "team": "Valencia",
       "goals": 1,
       "penalties": null
     },
