@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T13:52:50Z",
+  "lastUpdated": "2026-11-01T14:08:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57957,6 +57957,15 @@
                 "playerName": "Manu Bueno",
                 "teamName": "Sevilla",
                 "text": "Isaac Romero because of an injury"
+              },
+              {
+                "id": "54638340_5",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
