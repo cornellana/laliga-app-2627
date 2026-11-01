@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T13:35:26Z",
+  "lastUpdated": "2026-11-01T13:36:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57555,7 +57555,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "31'",
+          "clock": "32'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -57954,9 +57954,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 27,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Manu Bueno",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Isaac Romero because of an injury"
               }
             ]
           }
