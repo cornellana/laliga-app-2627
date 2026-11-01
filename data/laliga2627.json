@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T13:33:16Z",
+  "lastUpdated": "2026-11-01T13:34:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57555,7 +57555,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "29'",
+          "clock": "30'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -57937,6 +57937,24 @@
                 "minute": 19,
                 "extraTime": null,
                 "playerName": "Kike Salas",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "54635667_2",
+                "type": "YELLOW_CARD",
+                "minute": 27,
+                "extraTime": null,
+                "playerName": "Gabriel Suazo",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "54635732_3",
+                "type": "SUBSTITUTION",
+                "minute": 27,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Sevilla",
                 "text": null
               }
