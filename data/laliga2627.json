@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:49:31Z",
+  "lastUpdated": "2026-11-01T21:50:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59163,7 +59163,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59654,6 +59654,15 @@
                 "playerName": "Beñat Prados",
                 "teamName": "Athletic",
                 "text": "Peio Canales"
+              },
+              {
+                "id": "54684432_19",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Hugo Rincón",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
