@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T20:06:19Z",
+  "lastUpdated": "2026-11-01T20:07:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59163,13 +59163,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
             "homeLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-4-2",
               "players": [
                 {
                   "id": "222375",
@@ -59212,10 +59212,10 @@
                   "events": null
                 },
                 {
-                  "id": "214412",
-                  "jersey": 9,
-                  "name": "Iñaki Williams",
-                  "position": "AM",
+                  "id": "388803",
+                  "jersey": 24,
+                  "name": "Beñat Gerenabarrena",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -59223,23 +59223,7 @@
                   "id": "388805",
                   "jersey": 28,
                   "name": "Peio Canales",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "388803",
-                  "jersey": 24,
-                  "name": "Beñat Gerenabarrena",
-                  "position": "RM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "393762",
-                  "jersey": 21,
-                  "name": "Maroan Sannadi",
-                  "position": "F",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -59247,7 +59231,7 @@
                   "id": "312146",
                   "jersey": 10,
                   "name": "Nico Williams",
-                  "position": "AM-L",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -59255,7 +59239,23 @@
                   "id": "209579",
                   "jersey": 7,
                   "name": "Álex Berenguer",
-                  "position": "AM-R",
+                  "position": "RM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "214412",
+                  "jersey": 9,
+                  "name": "Iñaki Williams",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "393762",
+                  "jersey": 21,
+                  "name": "Maroan Sannadi",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -59433,17 +59433,17 @@
                   "events": null
                 },
                 {
-                  "id": "306263",
-                  "jersey": 24,
-                  "name": "Luka Sucic",
+                  "id": "229018",
+                  "jersey": 10,
+                  "name": "Mikel Oyarzabal",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "229018",
-                  "jersey": 10,
-                  "name": "Mikel Oyarzabal",
+                  "id": "306263",
+                  "jersey": 24,
+                  "name": "Luka Sucic",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
