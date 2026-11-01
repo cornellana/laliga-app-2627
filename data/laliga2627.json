@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:59:17Z",
+  "lastUpdated": "2026-11-01T22:00:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59160,11 +59160,11 @@
           "away": "R. Sociedad",
           "jornada": 11,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-1",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
           "details": {
