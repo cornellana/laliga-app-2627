@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:21:11Z",
+  "lastUpdated": "2026-11-01T21:22:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59163,7 +59163,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59590,6 +59590,15 @@
                 "extraTime": 4,
                 "playerName": "Iñaki Williams",
                 "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "54681201_12",
+                "type": "YELLOW_CARD",
+                "minute": 55,
+                "extraTime": null,
+                "playerName": "Mikel Oyarzabal",
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
