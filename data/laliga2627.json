@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:53:52Z",
+  "lastUpdated": "2026-11-01T21:54:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59163,7 +59163,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59663,6 +59663,15 @@
                 "playerName": "Hugo Rincón",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "54684982_20",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Héctor Fort",
+                "teamName": "R. Sociedad",
+                "text": "Jon Aramburu"
               }
             ]
           }
