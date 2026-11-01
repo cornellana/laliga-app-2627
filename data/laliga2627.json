@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:26:40Z",
+  "lastUpdated": "2026-11-01T21:27:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59163,7 +59163,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59600,6 +59600,15 @@
                 "playerName": "Mikel Oyarzabal",
                 "teamName": "R. Sociedad",
                 "text": null
+              },
+              {
+                "id": "54681638_13",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Orri Óskarsson",
+                "teamName": "R. Sociedad",
+                "text": "Ander Barrenetxea"
               }
             ]
           }
