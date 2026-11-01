@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:58:20Z",
+  "lastUpdated": "2026-11-01T18:59:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58620,9 +58620,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -59052,7 +59052,25 @@
                 "text": null
               },
               {
-                "id": "54671368_12",
+                "id": "54671378_12",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Tete Morente",
+                "teamName": "Elche",
+                "text": "Germán Valera"
+              },
+              {
+                "id": "54671379_13",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Rubén Sánchez",
+                "teamName": "Elche",
+                "text": "Buba Sangaré"
+              },
+              {
+                "id": "54671368_14",
                 "type": "SUBSTITUTION",
                 "minute": 68,
                 "extraTime": null,
