@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T14:40:04Z",
+  "lastUpdated": "2026-11-01T14:41:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57553,9 +57553,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "2-1",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -58011,6 +58011,15 @@
                 "playerName": "Rubén Vargas",
                 "teamName": "Sevilla",
                 "text": "Félix Correia"
+              },
+              {
+                "id": "54642814_12",
+                "type": "GOAL",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Martín Satriano",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
@@ -62152,6 +62161,12 @@
       "penalties": null
     },
     {
+      "player": "Martín Satriano",
+      "team": "Getafe",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Orri Óskarsson",
       "team": "R. Sociedad",
       "goals": 3,
@@ -62286,12 +62301,6 @@
     {
       "player": "Marc Bartra",
       "team": "Betis",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Martín Satriano",
-      "team": "Getafe",
       "goals": 2,
       "penalties": null
     },
