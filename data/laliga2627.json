@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T15:40:14Z",
+  "lastUpdated": "2026-11-01T15:41:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58122,10 +58122,10 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "0-2",
           "state": "in",
-          "clock": "22'",
-          "statusText": "First Half",
+          "clock": "24'",
+          "statusText": "In Progress",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -58498,6 +58498,15 @@
                 "minute": 11,
                 "extraTime": null,
                 "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "54650838_4",
+                "type": "GOAL",
+                "minute": 21,
+                "extraTime": null,
+                "playerName": "Jude Bellingham",
                 "teamName": "Real Madrid",
                 "text": null
               }
@@ -62559,6 +62568,12 @@
       "penalties": 2
     },
     {
+      "player": "Jude Bellingham",
+      "team": "Real Madrid",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 4,
@@ -62609,12 +62624,6 @@
     {
       "player": "Jonathan David",
       "team": "Atlético",
-      "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Jude Bellingham",
-      "team": "Real Madrid",
       "goals": 3,
       "penalties": null
     },
