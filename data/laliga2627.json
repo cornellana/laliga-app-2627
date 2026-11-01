@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T19:08:11Z",
+  "lastUpdated": "2026-11-01T19:09:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -59095,6 +59095,24 @@
                 "playerName": "Javi Guerra",
                 "teamName": "Valencia",
                 "text": null
+              },
+              {
+                "id": "54671725_17",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Dani Raba",
+                "teamName": "Valencia",
+                "text": "Luis Rioja"
+              },
+              {
+                "id": "54671726_18",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Filip Ugrinic",
+                "teamName": "Valencia",
+                "text": "Aaron Mayol"
               }
             ]
           }
