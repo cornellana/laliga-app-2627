@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T17:33:53Z",
+  "lastUpdated": "2026-11-01T17:34:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -58828,17 +58828,17 @@
                   "events": null
                 },
                 {
-                  "id": "330552",
-                  "jersey": 5,
-                  "name": "César Tárrega",
+                  "id": "231603",
+                  "jersey": 18,
+                  "name": "Pepelu",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "231603",
-                  "jersey": 18,
-                  "name": "Pepelu",
+                  "id": "330552",
+                  "jersey": 5,
+                  "name": "César Tárrega",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
