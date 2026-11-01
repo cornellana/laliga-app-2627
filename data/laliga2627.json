@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:56:13Z",
+  "lastUpdated": "2026-11-01T18:58:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -59050,6 +59050,15 @@
                 "playerName": "Facundo Buonanotte",
                 "teamName": "Elche",
                 "text": null
+              },
+              {
+                "id": "54671368_12",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Abiel Osorio",
+                "teamName": "Elche",
+                "text": "Lucas Cepeda"
               }
             ]
           }
