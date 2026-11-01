@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T16:45:45Z",
+  "lastUpdated": "2026-11-01T16:46:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58124,7 +58124,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -58563,6 +58563,15 @@
                 "playerName": "Pablo García",
                 "teamName": "Racing",
                 "text": "Yassir Zabiri"
+              },
+              {
+                "id": "54658541_17",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
