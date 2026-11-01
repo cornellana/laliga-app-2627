@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:51:54Z",
+  "lastUpdated": "2026-11-01T18:52:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -59041,6 +59041,15 @@
                 "playerName": "Umar Sadiq",
                 "teamName": "Valencia",
                 "text": "Pablo Maffeo"
+              },
+              {
+                "id": "54671216_11",
+                "type": "YELLOW_CARD",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Facundo Buonanotte",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
