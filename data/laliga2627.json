@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:56:02Z",
+  "lastUpdated": "2026-11-01T21:57:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59163,7 +59163,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59667,11 +59667,47 @@
               {
                 "id": "54684982_20",
                 "type": "SUBSTITUTION",
-                "minute": 89,
+                "minute": 88,
                 "extraTime": null,
                 "playerName": "Héctor Fort",
                 "teamName": "R. Sociedad",
                 "text": "Jon Aramburu"
+              },
+              {
+                "id": "54685151_21",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Job Ochieng",
+                "teamName": "R. Sociedad",
+                "text": "Gonçalo Guedes"
+              },
+              {
+                "id": "54685148_22",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Johaneko Louis-Jean",
+                "teamName": "Athletic",
+                "text": "Robert Navarro"
+              },
+              {
+                "id": "54685149_23",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Oihan Sancet",
+                "teamName": "Athletic",
+                "text": "Nico Williams"
+              },
+              {
+                "id": "54685150_24",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Yeray Álvarez",
+                "teamName": "Athletic",
+                "text": "Yuri Berchiche"
               }
             ]
           }
