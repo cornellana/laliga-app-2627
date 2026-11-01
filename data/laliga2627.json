@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T17:51:10Z",
+  "lastUpdated": "2026-11-01T17:52:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "18'",
+          "clock": "19'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -58860,17 +58860,17 @@
                   "events": null
                 },
                 {
-                  "id": "419048",
-                  "jersey": 33,
-                  "name": "Aaron Mayol",
+                  "id": "212185",
+                  "jersey": 2,
+                  "name": "Guido Rodríguez",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "212185",
-                  "jersey": 2,
-                  "name": "Guido Rodríguez",
+                  "id": "419048",
+                  "jersey": 33,
+                  "name": "Aaron Mayol",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
