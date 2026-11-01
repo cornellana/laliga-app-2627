@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:50:49Z",
+  "lastUpdated": "2026-11-01T18:51:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -59032,6 +59032,15 @@
                 "playerName": "Víctor Chust",
                 "teamName": "Elche",
                 "text": null
+              },
+              {
+                "id": "54671151_10",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Umar Sadiq",
+                "teamName": "Valencia",
+                "text": "Pablo Maffeo"
               }
             ]
           }
