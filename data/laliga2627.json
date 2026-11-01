@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:20:28Z",
+  "lastUpdated": "2026-11-01T18:29:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58628,7 +58628,7 @@
           "venueCity": "Elche",
           "details": {
             "homeLineup": {
-              "formation": "5-4-1",
+              "formation": "4-3-3",
               "players": [
                 {
                   "id": "173749",
@@ -58639,25 +58639,17 @@
                   "events": null
                 },
                 {
-                  "id": "265995",
-                  "jersey": 23,
-                  "name": "Víctor Chust",
-                  "position": "CD",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "323286",
-                  "jersey": 3,
-                  "name": "Roy Revivo",
+                  "id": "318181",
+                  "jersey": 5,
+                  "name": "Federico Redondo",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "318181",
-                  "jersey": 5,
-                  "name": "Federico Redondo",
+                  "id": "265995",
+                  "jersey": 23,
+                  "name": "Víctor Chust",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -58679,10 +58671,10 @@
                   "events": null
                 },
                 {
-                  "id": "421310",
-                  "jersey": 47,
-                  "name": "Javier Morcillo",
-                  "position": "CM-L",
+                  "id": "323286",
+                  "jersey": 3,
+                  "name": "Roy Revivo",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
@@ -58690,14 +58682,6 @@
                   "id": "273424",
                   "jersey": 12,
                   "name": "Gonzalo Villar",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "190291",
-                  "jersey": 18,
-                  "name": "Thomas Lemar",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -58715,6 +58699,22 @@
                   "jersey": 14,
                   "name": "Fer Niño",
                   "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "190291",
+                  "jersey": 18,
+                  "name": "Thomas Lemar",
+                  "position": "LF",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "421310",
+                  "jersey": 47,
+                  "name": "Javier Morcillo",
+                  "position": "RF",
                   "isStarter": true,
                   "events": null
                 },
