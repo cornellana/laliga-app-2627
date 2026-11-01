@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T14:46:35Z",
+  "lastUpdated": "2026-11-01T14:47:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57555,7 +57555,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -58056,6 +58056,15 @@
                 "playerName": "Iván Azón",
                 "teamName": "Getafe",
                 "text": "Enes Ünal"
+              },
+              {
+                "id": "54643891_19",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Kiko Femenía",
+                "teamName": "Getafe",
+                "text": "Ramón Terrats"
               }
             ]
           }
