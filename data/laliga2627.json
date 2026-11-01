@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T14:31:24Z",
+  "lastUpdated": "2026-11-01T14:32:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57553,9 +57553,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -57982,6 +57982,15 @@
                 "minute": 59,
                 "extraTime": null,
                 "playerName": "Davinchi",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "54641517_9",
+                "type": "GOAL",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Enes Ünal",
                 "teamName": "Getafe",
                 "text": null
               }
@@ -62191,6 +62200,12 @@
       "penalties": null
     },
     {
+      "player": "Enes Ünal",
+      "team": "Getafe",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Ferran Jutglà",
       "team": "Celta",
       "goals": 2,
@@ -62481,12 +62496,6 @@
     {
       "player": "Edu Expósito",
       "team": "Espanyol",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Enes Ünal",
-      "team": "Getafe",
       "goals": 1,
       "penalties": null
     },
