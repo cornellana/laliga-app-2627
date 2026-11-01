@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:09:37Z",
+  "lastUpdated": "2026-11-01T18:10:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "37'",
+          "clock": "38'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -59014,6 +59014,15 @@
                 "playerName": "Facundo Buonanotte",
                 "teamName": "Elche",
                 "text": "Thomas Lemar because of an injury"
+              },
+              {
+                "id": "54667169_6",
+                "type": "YELLOW_CARD",
+                "minute": 36,
+                "extraTime": null,
+                "playerName": "Germán Valera",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
