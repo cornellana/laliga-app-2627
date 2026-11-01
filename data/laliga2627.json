@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T14:50:57Z",
+  "lastUpdated": "2026-11-01T14:52:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57555,7 +57555,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -58073,6 +58073,24 @@
                 "extraTime": null,
                 "playerName": "Nemanja Gudelj",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "54644454_21",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "54644455_22",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
