@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T20:52:23Z",
+  "lastUpdated": "2026-11-01T20:53:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59161,9 +59161,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "2-1",
           "state": "in",
-          "clock": "45'+2'",
+          "clock": "45'+3'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59572,6 +59572,15 @@
                 "extraTime": null,
                 "playerName": "Luka Sucic",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "54678970_8",
+                "type": "PENALTY",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Alex Berenguer",
+                "teamName": "Athletic",
                 "text": null
               }
             ]
@@ -63600,6 +63609,12 @@
       "penalties": 2
     },
     {
+      "player": "Alex Berenguer",
+      "team": "Athletic",
+      "goals": 4,
+      "penalties": 2
+    },
+    {
       "player": "Jude Bellingham",
       "team": "Real Madrid",
       "goals": 4,
@@ -63622,12 +63637,6 @@
       "team": "Betis",
       "goals": 3,
       "penalties": null
-    },
-    {
-      "player": "Alex Berenguer",
-      "team": "Athletic",
-      "goals": 3,
-      "penalties": 1
     },
     {
       "player": "Gabriel Jesus",
