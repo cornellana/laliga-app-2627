@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T14:08:36Z",
+  "lastUpdated": "2026-11-01T14:09:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -57555,8 +57555,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -57960,6 +57960,15 @@
               },
               {
                 "id": "54638340_5",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Orel Mangala",
+                "teamName": "Getafe",
+                "text": "Francho Serrano"
+              },
+              {
+                "id": "54638412_6",
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
