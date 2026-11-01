@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T17:00:54Z",
+  "lastUpdated": "2026-11-01T17:01:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58124,7 +58124,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -58581,6 +58581,15 @@
                 "playerName": "Eduardo Camavinga",
                 "teamName": "Real Madrid",
                 "text": "Bernardo Silva"
+              },
+              {
+                "id": "54660454_21",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Giorgi Guliashvili",
+                "teamName": "Racing",
+                "text": "Iñigo Vicente"
               }
             ]
           }
