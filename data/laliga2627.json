@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:40:49Z",
+  "lastUpdated": "2026-11-01T21:41:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59163,7 +59163,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59625,6 +59625,24 @@
                 "minute": 74,
                 "extraTime": null,
                 "playerName": "Jon Aramburu",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "54683193_16",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "54683194_17",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "R. Sociedad",
                 "text": null
               }
