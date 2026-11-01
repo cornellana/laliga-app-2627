@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T19:09:16Z",
+  "lastUpdated": "2026-11-01T19:10:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -58622,7 +58622,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -59113,6 +59113,15 @@
                 "playerName": "Filip Ugrinic",
                 "teamName": "Valencia",
                 "text": "Aaron Mayol"
+              },
+              {
+                "id": "54671752_19",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Grady Diangana",
+                "teamName": "Elche",
+                "text": "Javi Morcillo"
               }
             ]
           }
