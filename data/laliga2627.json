@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:27:44Z",
+  "lastUpdated": "2026-11-01T21:28:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59163,7 +59163,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59604,7 +59604,7 @@
               {
                 "id": "54681638_13",
                 "type": "SUBSTITUTION",
-                "minute": 62,
+                "minute": 61,
                 "extraTime": null,
                 "playerName": "Orri Óskarsson",
                 "teamName": "R. Sociedad",
