@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T20:35:37Z",
+  "lastUpdated": "2026-11-01T20:36:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59161,9 +59161,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "31'",
+          "clock": "32'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -59563,6 +59563,15 @@
                 "extraTime": null,
                 "playerName": "Iñaki Williams",
                 "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "54677934_7",
+                "type": "GOAL",
+                "minute": 30,
+                "extraTime": null,
+                "playerName": "Luka Sucic",
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
@@ -63597,6 +63606,12 @@
       "penalties": null
     },
     {
+      "player": "Luka Sucic",
+      "team": "R. Sociedad",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Mariano Díaz",
       "team": "Alavés",
       "goals": 4,
@@ -63653,12 +63668,6 @@
     {
       "player": "Jonathan David",
       "team": "Atlético",
-      "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Luka Sucic",
-      "team": "R. Sociedad",
       "goals": 3,
       "penalties": null
     },
