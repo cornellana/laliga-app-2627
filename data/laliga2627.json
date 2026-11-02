@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T20:08:53Z",
+  "lastUpdated": "2026-11-02T20:09:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59728,7 +59728,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "6'",
+          "clock": "7'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -59934,17 +59934,17 @@
                   "events": null
                 },
                 {
-                  "id": "264175",
-                  "jersey": 24,
-                  "name": "Alejandro Catena",
+                  "id": "307905",
+                  "jersey": 22,
+                  "name": "Enzo Boyomo",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "307905",
-                  "jersey": 22,
-                  "name": "Enzo Boyomo",
+                  "id": "264175",
+                  "jersey": 24,
+                  "name": "Alejandro Catena",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
