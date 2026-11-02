@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T21:48:28Z",
+  "lastUpdated": "2026-11-02T21:49:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59726,10 +59726,10 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "2-1",
           "state": "in",
-          "clock": "87'",
-          "statusText": "In Progress",
+          "clock": "88'",
+          "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
@@ -60218,6 +60218,15 @@
                 "extraTime": null,
                 "playerName": "Kike Barja",
                 "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "54736294_19",
+                "type": "GOAL",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Bil Nsongo",
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
@@ -64362,6 +64371,12 @@
       "penalties": null
     },
     {
+      "player": "Bil Nsongo",
+      "team": "Deportivo",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Carlos Espí",
       "team": "Real Madrid",
       "goals": 2,
@@ -64568,12 +64583,6 @@
     {
       "player": "Beñat Turrientes",
       "team": "R. Sociedad",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Bil Nsongo",
-      "team": "Deportivo",
       "goals": 1,
       "penalties": null
     },
