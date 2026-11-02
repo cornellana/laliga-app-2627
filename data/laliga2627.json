@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T21:43:03Z",
+  "lastUpdated": "2026-11-02T21:44:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59728,7 +59728,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -60201,6 +60201,15 @@
                 "playerName": "Raúl García",
                 "teamName": "Osasuna",
                 "text": "Ante Budimir"
+              },
+              {
+                "id": "54735862_17",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Abel Bretones",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
