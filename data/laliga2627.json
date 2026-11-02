@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T21:49:33Z",
+  "lastUpdated": "2026-11-02T21:50:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59728,7 +59728,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -60227,6 +60227,15 @@
                 "extraTime": null,
                 "playerName": "Bil Nsongo",
                 "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "54736479_20",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
                 "text": null
               }
             ]
