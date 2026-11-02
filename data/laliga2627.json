@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T20:36:13Z",
+  "lastUpdated": "2026-11-02T20:37:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59728,13 +59728,13 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "33'",
+          "clock": "34'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
             "homeLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "300926",
@@ -59777,10 +59777,10 @@
                   "events": null
                 },
                 {
-                  "id": "297353",
-                  "jersey": 21,
-                  "name": "Mario Soriano Carreno",
-                  "position": "CM-L",
+                  "id": "324166",
+                  "jersey": 19,
+                  "name": "Luismi Cruz",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -59788,22 +59788,14 @@
                   "id": "356639",
                   "jersey": 16,
                   "name": "Lorenzo Amatucci",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "312392",
-                  "jersey": 10,
-                  "name": "Yeremay Hernández",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "375390",
-                  "jersey": 11,
-                  "name": "David Mella",
+                  "id": "297353",
+                  "jersey": 21,
+                  "name": "Mario Soriano Carreno",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -59812,15 +59804,23 @@
                   "id": "414299",
                   "jersey": 32,
                   "name": "Bil Nsongo",
-                  "position": "CF-L",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "324166",
-                  "jersey": 19,
-                  "name": "Luismi Cruz",
-                  "position": "CF-R",
+                  "id": "312392",
+                  "jersey": 10,
+                  "name": "Yeremay Hernández",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "375390",
+                  "jersey": 11,
+                  "name": "David Mella",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
