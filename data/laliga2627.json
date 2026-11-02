@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T21:32:08Z",
+  "lastUpdated": "2026-11-02T21:33:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59728,7 +59728,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -60162,27 +60162,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pierre-Emerick Aubameyang",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Luismi Cruz"
               },
               {
                 "id": "54734468_13",
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Rubén García",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Jonathan Dubasin"
               },
               {
                 "id": "54734469_14",
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Asier Osambela",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Raúl Moro"
               }
             ]
           }
