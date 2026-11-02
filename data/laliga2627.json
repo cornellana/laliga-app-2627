@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T20:37:18Z",
+  "lastUpdated": "2026-11-02T20:39:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59728,7 +59728,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "34'",
+          "clock": "37'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -60118,6 +60118,15 @@
                 "minute": 32,
                 "extraTime": null,
                 "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "54729409_2",
+                "type": "YELLOW_CARD",
+                "minute": 35,
+                "extraTime": null,
+                "playerName": "Moi Gómez",
                 "teamName": "Osasuna",
                 "text": null
               }
