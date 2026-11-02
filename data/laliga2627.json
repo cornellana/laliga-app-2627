@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T21:47:23Z",
+  "lastUpdated": "2026-11-02T21:48:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59728,8 +59728,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "86'",
-          "statusText": "Second Half",
+          "clock": "87'",
+          "statusText": "In Progress",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
@@ -60216,7 +60216,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": "Enrique Barja",
+                "playerName": "Kike Barja",
                 "teamName": "Osasuna",
                 "text": null
               }
