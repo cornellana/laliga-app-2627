@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T21:25:36Z",
+  "lastUpdated": "2026-11-02T21:26:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59726,10 +59726,10 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "65'",
-          "statusText": "In Progress",
+          "clock": "66'",
+          "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
           "details": {
@@ -60138,6 +60138,15 @@
                 "playerName": "Adama Traoré",
                 "teamName": "Deportivo",
                 "text": "Giacomo Quagliata"
+              },
+              {
+                "id": "54733719_10",
+                "type": "GOAL",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Mario Soriano",
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
@@ -64359,6 +64368,12 @@
       "penalties": null
     },
     {
+      "player": "Mario Soriano",
+      "team": "Deportivo",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Miguel Sierra",
       "team": "Sevilla",
       "goals": 2,
@@ -64781,12 +64796,6 @@
     {
       "player": "Marcos Fernández",
       "team": "Espanyol",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Mario Soriano",
-      "team": "Deportivo",
       "goals": 1,
       "penalties": null
     },
