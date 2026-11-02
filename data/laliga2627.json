@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T21:46:18Z",
+  "lastUpdated": "2026-11-02T21:47:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59728,7 +59728,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -60208,6 +60208,15 @@
                 "minute": 81,
                 "extraTime": null,
                 "playerName": "Abel Bretones",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "54736098_18",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Enrique Barja",
                 "teamName": "Osasuna",
                 "text": null
               }
