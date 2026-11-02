@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T20:35:07Z",
+  "lastUpdated": "2026-11-02T20:36:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59726,9 +59726,9 @@
           "jornada": 11,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "32'",
+          "clock": "33'",
           "statusText": "First Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -60111,7 +60111,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54729195_1",
+                "type": "GOAL",
+                "minute": 32,
+                "extraTime": null,
+                "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -64043,16 +64053,16 @@
       "penalties": 1
     },
     {
+      "player": "Ante Budimir",
+      "team": "Osasuna",
+      "goals": 8,
+      "penalties": 4
+    },
+    {
       "player": "Yassir Zabiri",
       "team": "Racing",
       "goals": 8,
       "penalties": null
-    },
-    {
-      "player": "Ante Budimir",
-      "team": "Osasuna",
-      "goals": 7,
-      "penalties": 4
     },
     {
       "player": "Sergio Camello",
