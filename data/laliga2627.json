@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T21:50:39Z",
+  "lastUpdated": "2026-11-02T21:51:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59728,7 +59728,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -60234,9 +60234,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 89,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Kike Barja",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Valentin Rosier"
+              },
+              {
+                "id": "54736625_21",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Ximo Navarro",
+                "teamName": "Deportivo",
+                "text": "David Mella"
+              },
+              {
+                "id": "54736626_22",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Riki Rodríguez",
+                "teamName": "Deportivo",
+                "text": "Mario Soriano"
               }
             ]
           }
