@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T21:40:52Z",
+  "lastUpdated": "2026-11-02T21:41:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -59728,7 +59728,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Riazor",
           "venueCity": "La Coruña",
@@ -60192,6 +60192,15 @@
                 "playerName": "Iñigo Arguibide",
                 "teamName": "Osasuna",
                 "text": "Jon Moncayola"
+              },
+              {
+                "id": "54735545_16",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
