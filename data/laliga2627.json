@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T21:23:00Z",
+  "lastUpdated": "2026-11-06T21:24:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60275,7 +60275,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -60684,6 +60684,24 @@
                 "extraTime": null,
                 "playerName": "Arouna Sangante",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "54902966_22",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Chidera Ejuke",
+                "teamName": "Sevilla",
+                "text": "Rubén Vargas"
+              },
+              {
+                "id": "54903096_23",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
                 "text": null
               }
             ]
