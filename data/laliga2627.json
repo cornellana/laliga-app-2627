@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T21:39:18Z",
+  "lastUpdated": "2026-11-06T21:40:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60275,7 +60275,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -60754,9 +60754,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 74,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Mariano Díaz",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Toni Martínez"
               }
             ]
           }
