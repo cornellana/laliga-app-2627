@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T21:56:06Z",
+  "lastUpdated": "2026-11-06T15:12:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60624,73 +60624,9 @@
       ]
     },
     {
-      "date": "2026-11-29",
+      "date": "2026-11-27",
       "jornada": 14,
       "games": [
-        {
-          "id": "401882795",
-          "time": "21:00",
-          "home": "Celta",
-          "away": "Villarreal",
-          "jornada": 14,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Balaidos",
-          "venueCity": "Vigo",
-          "details": null
-        },
-        {
-          "id": "401882794",
-          "time": "21:00",
-          "home": "Deportivo",
-          "away": "FC Barcelona",
-          "jornada": 14,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Riazor",
-          "venueCity": "La Coruña",
-          "details": null
-        },
-        {
-          "id": "401882793",
-          "time": "21:00",
-          "home": "Elche",
-          "away": "Atlético",
-          "jornada": 14,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Estadio Martínez Valero",
-          "venueCity": "Elche",
-          "details": null
-        },
-        {
-          "id": "401882792",
-          "time": "21:00",
-          "home": "Espanyol",
-          "away": "Getafe",
-          "jornada": 14,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "RCDE Stadium",
-          "venueCity": "Barcelona",
-          "details": null
-        },
         {
           "id": "401882791",
           "time": "21:00",
@@ -60706,10 +60642,32 @@
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "jornada": 14,
+      "games": [
+        {
+          "id": "401882796",
+          "time": "14:00",
+          "home": "Betis",
+          "away": "Rayo",
+          "jornada": 14,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio La Cartuja",
+          "venueCity": "Sevilla",
+          "details": null
         },
         {
           "id": "401882790",
-          "time": "21:00",
+          "time": "16:15",
           "home": "Málaga",
           "away": "Athletic",
           "jornada": 14,
@@ -60724,10 +60682,10 @@
           "details": null
         },
         {
-          "id": "401882796",
-          "time": "21:00",
-          "home": "Betis",
-          "away": "Rayo",
+          "id": "401882793",
+          "time": "18:30",
+          "home": "Elche",
+          "away": "Atlético",
           "jornada": 14,
           "tv": null,
           "done": false,
@@ -60735,8 +60693,8 @@
           "state": "pre",
           "clock": null,
           "statusText": null,
-          "stadium": "Estadio La Cartuja",
-          "venueCity": "Sevilla",
+          "stadium": "Estadio Martínez Valero",
+          "venueCity": "Elche",
           "details": null
         },
         {
@@ -60754,6 +60712,60 @@
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "jornada": 14,
+      "games": [
+        {
+          "id": "401882787",
+          "time": "14:00",
+          "home": "Valencia",
+          "away": "Osasuna",
+          "jornada": 14,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Mestalla Stadium",
+          "venueCity": "Manises",
+          "details": null
+        },
+        {
+          "id": "401882794",
+          "time": "16:15",
+          "home": "Deportivo",
+          "away": "FC Barcelona",
+          "jornada": 14,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Riazor",
+          "venueCity": "La Coruña",
+          "details": null
+        },
+        {
+          "id": "401882795",
+          "time": "18:30",
+          "home": "Celta",
+          "away": "Villarreal",
+          "jornada": 14,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Balaidos",
+          "venueCity": "Vigo",
+          "details": null
         },
         {
           "id": "401882788",
@@ -60770,12 +60782,18 @@
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
           "details": null
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "jornada": 14,
+      "games": [
         {
-          "id": "401882787",
+          "id": "401882792",
           "time": "21:00",
-          "home": "Valencia",
-          "away": "Osasuna",
+          "home": "Espanyol",
+          "away": "Getafe",
           "jornada": 14,
           "tv": null,
           "done": false,
@@ -60783,8 +60801,8 @@
           "state": "pre",
           "clock": null,
           "statusText": null,
-          "stadium": "Mestalla Stadium",
-          "venueCity": "Manises",
+          "stadium": "RCDE Stadium",
+          "venueCity": "Barcelona",
           "details": null
         }
       ]
