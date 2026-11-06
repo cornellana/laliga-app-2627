@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T21:36:03Z",
+  "lastUpdated": "2026-11-06T21:37:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60275,7 +60275,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -60730,6 +60730,24 @@
                 "playerName": "Nicolás Valentini",
                 "teamName": "Alavés",
                 "text": null
+              },
+              {
+                "id": "54904370_27",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Robbie Ure",
+                "teamName": "Sevilla",
+                "text": "Isaac Romero"
+              },
+              {
+                "id": "54904371_28",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Andrés Castrín",
+                "teamName": "Sevilla",
+                "text": "Arouna Sangante"
               }
             ]
           }
