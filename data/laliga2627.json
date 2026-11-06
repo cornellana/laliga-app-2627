@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T21:38:12Z",
+  "lastUpdated": "2026-11-06T21:39:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60275,7 +60275,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -60748,6 +60748,15 @@
                 "playerName": "Andrés Castrín",
                 "teamName": "Sevilla",
                 "text": "Arouna Sangante"
+              },
+              {
+                "id": "54904494_29",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
