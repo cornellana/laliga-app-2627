@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T21:10:02Z",
+  "lastUpdated": "2026-11-06T21:11:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60275,7 +60275,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "47'",
+          "clock": "48'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -60674,6 +60674,15 @@
                 "minute": 32,
                 "extraTime": null,
                 "playerName": "Rubén Vargas",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "54901447_21",
+                "type": "YELLOW_CARD",
+                "minute": 47,
+                "extraTime": null,
+                "playerName": "Arouna Sangante",
                 "teamName": "Sevilla",
                 "text": null
               }
