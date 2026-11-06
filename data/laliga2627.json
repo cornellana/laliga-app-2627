@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T21:49:04Z",
+  "lastUpdated": "2026-11-06T21:50:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60757,6 +60757,33 @@
                 "playerName": "Mariano Díaz",
                 "teamName": "Alavés",
                 "text": "Toni Martínez"
+              },
+              {
+                "id": "54904973_34",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "54904974_35",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "54904975_36",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
               }
             ]
           }
