@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T20:33:48Z",
+  "lastUpdated": "2026-11-06T20:34:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60275,7 +60275,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "32'",
+          "clock": "33'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -60666,6 +60666,15 @@
                 "extraTime": null,
                 "playerName": "Pablo Ibáñez",
                 "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "54898299_14",
+                "type": "MISSED_PENALTY",
+                "minute": 32,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
