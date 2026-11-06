@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T21:50:09Z",
+  "lastUpdated": "2026-11-06T21:51:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60275,7 +60275,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "87'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -60763,27 +60763,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 85,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Aitor Mañas",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Lucas Boyé"
               },
               {
                 "id": "54904974_35",
                 "type": "SUBSTITUTION",
                 "minute": 85,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alfon González",
                 "teamName": "Sevilla",
-                "text": null
+                "text": "Félix Correia"
               },
               {
                 "id": "54904975_36",
                 "type": "SUBSTITUTION",
                 "minute": 85,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jonny Otto",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Youssef Enriquez"
               }
             ]
           }
