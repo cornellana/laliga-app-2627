@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T20:07:51Z",
+  "lastUpdated": "2026-11-06T20:08:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60275,7 +60275,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "7'",
+          "clock": "8'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -60505,17 +60505,17 @@
                   "events": null
                 },
                 {
-                  "id": "260256",
-                  "jersey": 6,
-                  "name": "Ander Guevara",
+                  "id": "106326",
+                  "jersey": 19,
+                  "name": "Pablo Ibáñez",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "106326",
-                  "jersey": 19,
-                  "name": "Pablo Ibáñez",
+                  "id": "260256",
+                  "jersey": 6,
+                  "name": "Ander Guevara",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
