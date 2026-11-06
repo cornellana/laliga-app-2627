@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T21:25:11Z",
+  "lastUpdated": "2026-11-06T21:26:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60275,7 +60275,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -60698,11 +60698,20 @@
               {
                 "id": "54903096_23",
                 "type": "SUBSTITUTION",
-                "minute": 61,
+                "minute": 60,
                 "extraTime": null,
                 "playerName": "Abde Rebbach",
                 "teamName": "Alavés",
                 "text": "Ángel Pérez"
+              },
+              {
+                "id": "54903285_24",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Carlos Protesoni",
+                "teamName": "Alavés",
+                "text": "Ander Guevara"
               }
             ]
           }
