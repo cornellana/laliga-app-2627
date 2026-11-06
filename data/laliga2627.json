@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T21:56:39Z",
+  "lastUpdated": "2026-11-06T21:57:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60272,11 +60272,11 @@
           "away": "Alavés",
           "jornada": 12,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-0",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
