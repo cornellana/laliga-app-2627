@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T15:12:38Z",
+  "lastUpdated": "2026-11-06T15:22:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60808,6 +60808,44 @@
       ]
     },
     {
+      "date": "2026-12-02",
+      "jornada": 23,
+      "games": [
+        {
+          "id": "401882698",
+          "time": "19:00",
+          "home": "R. Sociedad",
+          "away": "Real Madrid",
+          "jornada": 23,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Reale Arena",
+          "venueCity": "San Sebastian",
+          "details": null
+        },
+        {
+          "id": "401882700",
+          "time": "21:30",
+          "home": "FC Barcelona",
+          "away": "Atlético",
+          "jornada": 23,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Spotify Camp Nou",
+          "venueCity": "Barcelona",
+          "details": null
+        }
+      ]
+    },
+    {
       "date": "2026-12-06",
       "jornada": 15,
       "games": [
@@ -62039,19 +62077,6 @@
           "details": null
         },
         {
-          "id": "401882700",
-          "time": "21:00",
-          "home": "FC Barcelona",
-          "away": "Atlético",
-          "jornada": 23,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "stadium": "Spotify Camp Nou",
-          "venueCity": "Barcelona",
-          "details": null
-        },
-        {
           "id": "401882703",
           "time": "21:00",
           "home": "Deportivo",
@@ -62114,19 +62139,6 @@
           "result": null,
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
-          "details": null
-        },
-        {
-          "id": "401882698",
-          "time": "21:00",
-          "home": "R. Sociedad",
-          "away": "Real Madrid",
-          "jornada": 23,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "stadium": "Reale Arena",
-          "venueCity": "San Sebastian",
           "details": null
         },
         {
