@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T20:32:43Z",
+  "lastUpdated": "2026-11-06T20:33:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60275,7 +60275,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "31'",
+          "clock": "32'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -60658,7 +60658,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54898174_13",
+                "type": "YELLOW_CARD",
+                "minute": 30,
+                "extraTime": null,
+                "playerName": "Pablo Ibáñez",
+                "teamName": "Alavés",
+                "text": null
+              }
+            ]
           }
         }
       ]
