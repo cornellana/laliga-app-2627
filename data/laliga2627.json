@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:58:03Z",
+  "lastUpdated": "2026-11-07T22:00:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62487,11 +62487,11 @@
           "away": "Real Madrid",
           "jornada": 12,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-3",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
