@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T13:48:06Z",
+  "lastUpdated": "2026-11-07T13:49:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'+2'",
+          "clock": "45'+3'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61221,6 +61221,15 @@
                 "minute": 38,
                 "extraTime": null,
                 "playerName": "Adam Aznou",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "54938378_17",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 1,
+                "playerName": "Einar Galilea",
                 "teamName": "Málaga",
                 "text": null
               }
