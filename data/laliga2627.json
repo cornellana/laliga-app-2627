@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:49:23Z",
+  "lastUpdated": "2026-11-07T21:50:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -63023,27 +63023,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Brahim Díaz",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Yan Diomande"
               },
               {
                 "id": "55008147_32",
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Eduardo Camavinga",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Arda Güler"
               },
               {
                 "id": "55008148_33",
                 "type": "SUBSTITUTION",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Endrick",
                 "teamName": "Real Madrid",
-                "text": null
+                "text": "Bernardo Silva"
               }
             ]
           }
