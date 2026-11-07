@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T19:15:25Z",
+  "lastUpdated": "2026-11-07T19:16:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61947,9 +61947,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -62413,6 +62413,15 @@
                 "playerName": "Kike Barja",
                 "teamName": "Osasuna",
                 "text": "Rubén García"
+              },
+              {
+                "id": "54984272_16",
+                "type": "GOAL",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Nico Williams",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
@@ -66618,6 +66627,12 @@
       "penalties": null
     },
     {
+      "player": "Nico Williams",
+      "team": "Athletic",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Nicolas Pepe",
       "team": "Villarreal",
       "goals": 2,
@@ -67052,12 +67067,6 @@
     {
       "player": "Natan",
       "team": "Betis",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Nico Williams",
-      "team": "Athletic",
       "goals": 1,
       "penalties": null
     },
