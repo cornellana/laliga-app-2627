@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:44:51Z",
+  "lastUpdated": "2026-11-07T14:45:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61333,7 +61333,16 @@
                 "text": "Carlos Dotor"
               },
               {
-                "id": "54944643_33",
+                "id": "54944917_33",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "54944643_34",
                 "type": "SUBSTITUTION",
                 "minute": 82,
                 "extraTime": null,
