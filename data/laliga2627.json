@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T20:29:56Z",
+  "lastUpdated": "2026-11-07T20:31:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62488,9 +62488,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "27'",
+          "clock": "28'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62881,6 +62881,15 @@
                 "extraTime": null,
                 "playerName": "Pablo Maffeo",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "54993116_6",
+                "type": "GOAL",
+                "minute": 28,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
