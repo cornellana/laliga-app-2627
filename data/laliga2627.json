@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T13:40:29Z",
+  "lastUpdated": "2026-11-07T13:41:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "39'",
+          "clock": "40'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61213,6 +61213,15 @@
                 "extraTime": null,
                 "playerName": "Julen Agirrezabala",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "54937850_16",
+                "type": "YELLOW_CARD",
+                "minute": 38,
+                "extraTime": null,
+                "playerName": "Adam Aznou",
+                "teamName": "Málaga",
                 "text": null
               }
             ]
