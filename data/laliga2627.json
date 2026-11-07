@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:48:08Z",
+  "lastUpdated": "2026-11-07T16:49:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61827,6 +61827,15 @@
                 "playerName": "Javi Hernández",
                 "teamName": "Espanyol",
                 "text": "Cala"
+              },
+              {
+                "id": "54968202_13",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Marc Casadó",
+                "teamName": "Deportivo",
+                "text": "Lorenzo Amatucci"
               }
             ]
           }
