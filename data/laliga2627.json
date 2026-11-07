@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:22:11Z",
+  "lastUpdated": "2026-11-07T14:23:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60802,9 +60802,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61248,6 +61248,15 @@
                 "minute": 50,
                 "extraTime": null,
                 "playerName": "Iker Luque",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "54941987_24",
+                "type": "GOAL",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
                 "teamName": "Racing",
                 "text": null
               }
@@ -65169,16 +65178,16 @@
       "penalties": 1
     },
     {
+      "player": "Yassir Zabiri",
+      "team": "Racing",
+      "goals": 9,
+      "penalties": null
+    },
+    {
       "player": "Ante Budimir",
       "team": "Osasuna",
       "goals": 8,
       "penalties": 4
-    },
-    {
-      "player": "Yassir Zabiri",
-      "team": "Racing",
-      "goals": 8,
-      "penalties": null
     },
     {
       "player": "Sergio Camello",
