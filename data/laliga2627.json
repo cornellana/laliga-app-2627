@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:23:25Z",
+  "lastUpdated": "2026-11-07T21:24:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62927,6 +62927,15 @@
                 "playerName": "Guido Rodríguez",
                 "teamName": "Valencia",
                 "text": null
+              },
+              {
+                "id": "55002344_17",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Aimar Blázquez",
+                "teamName": "Valencia",
+                "text": "Umar Sadiq"
               }
             ]
           }
