@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T15:50:14Z",
+  "lastUpdated": "2026-11-07T15:51:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "33'",
+          "clock": "34'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61628,17 +61628,17 @@
                   "events": null
                 },
                 {
-                  "id": "297353",
-                  "jersey": 21,
-                  "name": "Mario Soriano Carreno",
+                  "id": "356639",
+                  "jersey": 16,
+                  "name": "Lorenzo Amatucci",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "356639",
-                  "jersey": 16,
-                  "name": "Lorenzo Amatucci",
+                  "id": "297353",
+                  "jersey": 21,
+                  "name": "Mario Soriano Carreno",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
