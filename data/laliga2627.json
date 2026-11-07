@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:46:08Z",
+  "lastUpdated": "2026-11-07T21:47:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "82'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62990,6 +62990,33 @@
                 "playerName": "Luis Rioja",
                 "teamName": "Valencia",
                 "text": null
+              },
+              {
+                "id": "55007500_28",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Pepelu",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "55007501_29",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "55007767_30",
+                "type": "SUBSTITUTION",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Jesús Vázquez",
+                "teamName": "Valencia",
+                "text": "Javi Guerra"
               }
             ]
           }
