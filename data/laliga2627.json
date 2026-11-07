@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:53:32Z",
+  "lastUpdated": "2026-11-07T16:54:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61843,6 +61843,15 @@
                 "minute": 73,
                 "extraTime": null,
                 "playerName": "Leandro Cabrera",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "54969291_15",
+                "type": "YELLOW_CARD",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Alejandro Santiago",
                 "teamName": "Espanyol",
                 "text": null
               }
