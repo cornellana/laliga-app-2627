@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:05:23Z",
+  "lastUpdated": "2026-11-07T16:17:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61585,7 +61585,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-3-2-1",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "300926",
@@ -61628,18 +61628,18 @@
                   "events": null
                 },
                 {
-                  "id": "297353",
-                  "jersey": 21,
-                  "name": "Mario Soriano Carreno",
-                  "position": "CM",
+                  "id": "324166",
+                  "jersey": 19,
+                  "name": "Luismi Cruz",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "356639",
-                  "jersey": 16,
-                  "name": "Lorenzo Amatucci",
-                  "position": "CM-L",
+                  "id": "297353",
+                  "jersey": 21,
+                  "name": "Mario Soriano Carreno",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -61647,7 +61647,7 @@
                   "id": "375390",
                   "jersey": 11,
                   "name": "David Mella",
-                  "position": "CM-R",
+                  "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
@@ -61663,15 +61663,15 @@
                   "id": "312392",
                   "jersey": 10,
                   "name": "Yeremay Hernández",
-                  "position": "CF-L",
+                  "position": "AM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "324166",
-                  "jersey": 19,
-                  "name": "Luismi Cruz",
-                  "position": "CF-R",
+                  "id": "356639",
+                  "jersey": 16,
+                  "name": "Lorenzo Amatucci",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
