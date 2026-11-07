@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:28:50Z",
+  "lastUpdated": "2026-11-07T21:29:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62951,9 +62951,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 63,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Arnau Martínez",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Pablo Maffeo"
               }
             ]
           }
