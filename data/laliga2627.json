@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T20:51:33Z",
+  "lastUpdated": "2026-11-07T21:09:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62908,6 +62908,15 @@
                 "extraTime": null,
                 "playerName": "Andrii Lunin",
                 "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "54998685_14",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
                 "text": null
               }
             ]
