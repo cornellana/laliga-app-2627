@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:53:38Z",
+  "lastUpdated": "2026-11-07T21:55:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -63044,6 +63044,15 @@
                 "playerName": "Endrick",
                 "teamName": "Real Madrid",
                 "text": "Bernardo Silva"
+              },
+              {
+                "id": "55009642_34",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Thiago Pitarch",
+                "teamName": "Real Madrid",
+                "text": "Jude Bellingham"
               }
             ]
           }
