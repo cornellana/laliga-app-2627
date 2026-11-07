@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T15:19:55Z",
+  "lastUpdated": "2026-11-07T15:21:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61431,17 +61431,17 @@
                   "events": null
                 },
                 {
-                  "id": "3111255",
-                  "jersey": 36,
-                  "name": "Alejandro Santiago Vargas",
+                  "id": "306520",
+                  "jersey": 24,
+                  "name": "Tyrhys Dolan",
                   "position": "LB",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "306520",
-                  "jersey": 24,
-                  "name": "Tyrhys Dolan",
+                  "id": "3111255",
+                  "jersey": 36,
+                  "name": "Alejandro Santiago Vargas",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
