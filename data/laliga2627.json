@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:49:13Z",
+  "lastUpdated": "2026-11-07T16:50:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61835,7 +61835,16 @@
                 "extraTime": null,
                 "playerName": "Marc Casadó",
                 "teamName": "Deportivo",
-                "text": "Lorenzo Amatucci"
+                "text": "Mario Soriano"
+              },
+              {
+                "id": "54968520_14",
+                "type": "YELLOW_CARD",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Leandro Cabrera",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
