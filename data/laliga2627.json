@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:45:55Z",
+  "lastUpdated": "2026-11-07T14:47:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61337,9 +61337,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 82,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Íñigo Sainz-Maza",
                 "teamName": "Racing",
-                "text": null
+                "text": "Pablo Ramón"
               },
               {
                 "id": "54944643_34",
