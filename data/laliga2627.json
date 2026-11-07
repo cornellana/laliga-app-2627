@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T20:48:18Z",
+  "lastUpdated": "2026-11-07T20:49:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+1'",
+          "clock": "45'+2'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62898,6 +62898,15 @@
                 "minute": 36,
                 "extraTime": null,
                 "playerName": "Arda Güler",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "54996052_12",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 2,
+                "playerName": "Andrii Lunin",
                 "teamName": "Real Madrid",
                 "text": null
               }
