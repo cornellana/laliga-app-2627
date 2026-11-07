@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:36:14Z",
+  "lastUpdated": "2026-11-07T16:37:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61809,6 +61809,15 @@
                 "playerName": "Pierre-Emerick Aubameyang",
                 "teamName": "Deportivo",
                 "text": "Yeremay Hernández"
+              },
+              {
+                "id": "54966229_11",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Adama Traoré",
+                "teamName": "Deportivo",
+                "text": "David Mella"
               }
             ]
           }
