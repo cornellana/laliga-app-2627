@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T20:38:36Z",
+  "lastUpdated": "2026-11-07T20:39:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62488,9 +62488,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "0-2",
           "state": "in",
-          "clock": "36'",
+          "clock": "37'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62889,6 +62889,15 @@
                 "minute": 28,
                 "extraTime": null,
                 "playerName": "Federico Valverde",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "54994305_7",
+                "type": "GOAL",
+                "minute": 36,
+                "extraTime": null,
+                "playerName": "Arda Güler",
                 "teamName": "Real Madrid",
                 "text": null
               }
@@ -66864,6 +66873,12 @@
       "penalties": null
     },
     {
+      "player": "Arda Güler",
+      "team": "Real Madrid",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Gabriel Jesus",
       "team": "FC Barcelona",
       "goals": 3,
@@ -66962,12 +66977,6 @@
     {
       "player": "Anthony Gordon",
       "team": "FC Barcelona",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Arda Güler",
-      "team": "Real Madrid",
       "goals": 2,
       "penalties": null
     },
