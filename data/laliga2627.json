@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T18:45:52Z",
+  "lastUpdated": "2026-11-07T18:46:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61949,7 +61949,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "55'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -62339,6 +62339,15 @@
                 "minute": 45,
                 "extraTime": 2,
                 "playerName": "Jon Moncayola",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "54980313_8",
+                "type": "YELLOW_CARD",
+                "minute": 54,
+                "extraTime": null,
+                "playerName": "Ante Budimir",
                 "teamName": "Osasuna",
                 "text": null
               }
