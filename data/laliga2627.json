@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T19:20:51Z",
+  "lastUpdated": "2026-11-07T19:21:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61947,10 +61947,10 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "90'+1'",
-          "statusText": "Second Half",
+          "clock": "90'+2'",
+          "statusText": "In Progress",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": {
@@ -62440,6 +62440,24 @@
                 "playerName": "Johaneko Louis-Jean",
                 "teamName": "Athletic",
                 "text": "Nico Williams because of an injury"
+              },
+              {
+                "id": "54985302_19",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Yeray Álvarez",
+                "teamName": "Athletic",
+                "text": "Alex Berenguer"
+              },
+              {
+                "id": "54985240_20",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Alejandro Catena",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
@@ -66713,6 +66731,12 @@
     {
       "player": "Aitor Mañas",
       "team": "Alavés",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Alejandro Catena",
+      "team": "Osasuna",
       "goals": 1,
       "penalties": null
     },
