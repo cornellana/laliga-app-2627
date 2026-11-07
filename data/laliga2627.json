@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T13:29:38Z",
+  "lastUpdated": "2026-11-07T13:30:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "29'",
+          "clock": "30'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61202,7 +61202,7 @@
                 "type": "GOAL",
                 "minute": 28,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Carlos Dotor",
                 "teamName": "Málaga",
                 "text": null
               }
@@ -65340,6 +65340,12 @@
       "penalties": null
     },
     {
+      "player": "Carlos Dotor",
+      "team": "Málaga",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Carlos Espí",
       "team": "Real Madrid",
       "goals": 2,
@@ -65570,12 +65576,6 @@
     {
       "player": "Carl Starfelt",
       "team": "Celta",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Carlos Dotor",
-      "team": "Málaga",
       "goals": 1,
       "penalties": null
     },
