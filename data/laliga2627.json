@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:40:33Z",
+  "lastUpdated": "2026-11-07T16:41:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61818,6 +61818,15 @@
                 "playerName": "Adama Traoré",
                 "teamName": "Deportivo",
                 "text": "David Mella"
+              },
+              {
+                "id": "54966912_12",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Javi Hernández",
+                "teamName": "Espanyol",
+                "text": "Cala"
               }
             ]
           }
