@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T13:52:25Z",
+  "lastUpdated": "2026-11-07T14:08:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,8 +60804,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'+5'",
-          "statusText": "Halftime",
+          "clock": "47'",
+          "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -61231,6 +61231,15 @@
                 "extraTime": 1,
                 "playerName": "Einar Galilea",
                 "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "54940107_19",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
                 "text": null
               }
             ]
