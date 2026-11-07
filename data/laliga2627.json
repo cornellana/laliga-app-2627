@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T20:49:24Z",
+  "lastUpdated": "2026-11-07T20:50:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+2'",
+          "clock": "45'+3'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62905,7 +62905,7 @@
                 "id": "54996052_12",
                 "type": "YELLOW_CARD",
                 "minute": 45,
-                "extraTime": 2,
+                "extraTime": null,
                 "playerName": "Andrii Lunin",
                 "teamName": "Real Madrid",
                 "text": null
