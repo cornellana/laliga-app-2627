@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:03:13Z",
+  "lastUpdated": "2026-11-07T16:04:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+1'",
+          "clock": "45'+2'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61628,6 +61628,14 @@
                   "events": null
                 },
                 {
+                  "id": "297353",
+                  "jersey": 21,
+                  "name": "Mario Soriano Carreno",
+                  "position": "CM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "356639",
                   "jersey": 16,
                   "name": "Lorenzo Amatucci",
@@ -61636,26 +61644,10 @@
                   "events": null
                 },
                 {
-                  "id": "297353",
-                  "jersey": 21,
-                  "name": "Mario Soriano Carreno",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "312392",
-                  "jersey": 10,
-                  "name": "Yeremay Hernández",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "375390",
                   "jersey": 11,
                   "name": "David Mella",
-                  "position": "RM",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -61663,6 +61655,14 @@
                   "id": "414299",
                   "jersey": 32,
                   "name": "Bil Nsongo",
+                  "position": "F",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "312392",
+                  "jersey": 10,
+                  "name": "Yeremay Hernández",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
