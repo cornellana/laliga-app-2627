@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:11:23Z",
+  "lastUpdated": "2026-11-07T14:12:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60802,9 +60802,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "50'",
+          "clock": "51'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61241,6 +61241,15 @@
                 "playerName": "Pablo García",
                 "teamName": "Racing",
                 "text": "Iván Martín"
+              },
+              {
+                "id": "54940628_21",
+                "type": "GOAL",
+                "minute": 50,
+                "extraTime": null,
+                "playerName": "Iker Luque",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
@@ -65720,6 +65729,12 @@
     {
       "player": "Ifeanyi Ndukwe",
       "team": "Levante",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Iker Luque",
+      "team": "Racing",
       "goals": 1,
       "penalties": null
     },
