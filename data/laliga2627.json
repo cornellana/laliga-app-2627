@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T17:05:24Z",
+  "lastUpdated": "2026-11-07T17:06:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61899,6 +61899,42 @@
                 "playerName": "Lorenzo Amatucci",
                 "teamName": "Deportivo",
                 "text": null
+              },
+              {
+                "id": "54970150_21",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Vanja Drkusic",
+                "teamName": "Espanyol",
+                "text": "Alejandro Santiago"
+              },
+              {
+                "id": "54970155_22",
+                "type": "YELLOW_CARD",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Gabriel Moscardo",
+                "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "54970156_23",
+                "type": "YELLOW_CARD",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Pierre-Emerick Aubameyang",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "54970224_24",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Riki Rodríguez",
+                "teamName": "Deportivo",
+                "text": "Lorenzo Amatucci"
               }
             ]
           }
