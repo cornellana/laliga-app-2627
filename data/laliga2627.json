@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:43:58Z",
+  "lastUpdated": "2026-11-07T21:45:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62980,6 +62980,15 @@
                 "extraTime": null,
                 "playerName": "Yan Diomande",
                 "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "55006993_27",
+                "type": "YELLOW_CARD",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Luis Rioja",
+                "teamName": "Valencia",
                 "text": null
               }
             ]
