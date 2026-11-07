@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:08:09Z",
+  "lastUpdated": "2026-11-07T14:09:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "47'",
+          "clock": "48'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61238,9 +61238,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo García",
                 "teamName": "Racing",
-                "text": null
+                "text": "Iván Martín"
               }
             ]
           }
