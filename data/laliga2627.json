@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T20:31:01Z",
+  "lastUpdated": "2026-11-07T20:32:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "28'",
+          "clock": "29'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62888,7 +62888,7 @@
                 "type": "GOAL",
                 "minute": 28,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Federico Valverde",
                 "teamName": "Real Madrid",
                 "text": null
               }
@@ -67312,6 +67312,12 @@
       "team": "Elche",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Federico Valverde",
+      "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Hugo González",
