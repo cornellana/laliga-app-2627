@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:58:54Z",
+  "lastUpdated": "2026-11-07T16:59:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61888,6 +61888,15 @@
                 "minute": 81,
                 "extraTime": null,
                 "playerName": "Diego Villares",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "54969773_20",
+                "type": "YELLOW_CARD",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Lorenzo Amatucci",
                 "teamName": "Deportivo",
                 "text": null
               }
