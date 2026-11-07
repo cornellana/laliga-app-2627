@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:26:30Z",
+  "lastUpdated": "2026-11-07T14:27:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61258,6 +61258,15 @@
                 "extraTime": null,
                 "playerName": "Yassir Zabiri",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "54942513_25",
+                "type": "RED_CARD",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Second yellow card to Adam Aznou",
+                "teamName": "Málaga",
                 "text": null
               }
             ]
