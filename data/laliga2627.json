@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:39:39Z",
+  "lastUpdated": "2026-11-07T21:40:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62960,7 +62960,7 @@
                 "type": "GOAL",
                 "minute": 75,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Kylian Mbappé",
                 "teamName": "Real Madrid",
                 "text": null
               }
@@ -66824,7 +66824,7 @@
     {
       "player": "Kylian Mbappé",
       "team": "Real Madrid",
-      "goals": 12,
+      "goals": 13,
       "penalties": 3
     },
     {
