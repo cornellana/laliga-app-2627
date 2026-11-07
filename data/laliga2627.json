@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:35:10Z",
+  "lastUpdated": "2026-11-07T14:36:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61289,6 +61289,15 @@
               },
               {
                 "id": "54943501_28",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "André Almeida",
+                "teamName": "Racing",
+                "text": "Sergio Canales"
+              },
+              {
+                "id": "54943724_29",
                 "type": "SUBSTITUTION",
                 "minute": 73,
                 "extraTime": null,
