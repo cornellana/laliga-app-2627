@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:48:19Z",
+  "lastUpdated": "2026-11-07T21:49:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -63017,6 +63017,33 @@
                 "playerName": "Jesús Vázquez",
                 "teamName": "Valencia",
                 "text": "Javi Guerra"
+              },
+              {
+                "id": "55008146_31",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "55008147_32",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "55008148_33",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
