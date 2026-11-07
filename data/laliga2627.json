@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:01:03Z",
+  "lastUpdated": "2026-11-07T16:02:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,8 +61390,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "44'",
-          "statusText": "First Half",
+          "clock": "45'",
+          "statusText": "In Progress",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
@@ -61781,6 +61781,15 @@
                 "extraTime": null,
                 "playerName": "Luismi Cruz",
                 "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "54959286_6",
+                "type": "YELLOW_CARD",
+                "minute": 44,
+                "extraTime": null,
+                "playerName": "Roberto Fernández",
+                "teamName": "Espanyol",
                 "text": null
               }
             ]
