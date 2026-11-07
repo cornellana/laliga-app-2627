@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T20:28:50Z",
+  "lastUpdated": "2026-11-07T20:29:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62873,7 +62873,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "54992994_5",
+                "type": "YELLOW_CARD",
+                "minute": 26,
+                "extraTime": null,
+                "playerName": "Pablo Maffeo",
+                "teamName": "Valencia",
+                "text": null
+              }
+            ]
           }
         }
       ]
