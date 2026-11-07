@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:17:56Z",
+  "lastUpdated": "2026-11-07T16:22:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,8 +61390,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+2'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
@@ -61644,9 +61644,9 @@
                   "events": null
                 },
                 {
-                  "id": "375390",
-                  "jersey": 11,
-                  "name": "David Mella",
+                  "id": "356639",
+                  "jersey": 16,
+                  "name": "Lorenzo Amatucci",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -61668,9 +61668,9 @@
                   "events": null
                 },
                 {
-                  "id": "356639",
-                  "jersey": 16,
-                  "name": "Lorenzo Amatucci",
+                  "id": "375390",
+                  "jersey": 11,
+                  "name": "David Mella",
                   "position": "AM-R",
                   "isStarter": true,
                   "events": null
@@ -61790,6 +61790,24 @@
                 "extraTime": null,
                 "playerName": "Roberto Fernández",
                 "teamName": "Espanyol",
+                "text": null
+              },
+              {
+                "id": "54963402_8",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Diego Villares",
+                "teamName": "Deportivo",
+                "text": "Luismi Cruz"
+              },
+              {
+                "id": "54963661_9",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
