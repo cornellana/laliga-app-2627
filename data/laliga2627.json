@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T19:05:21Z",
+  "lastUpdated": "2026-11-07T19:06:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61949,7 +61949,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -62386,6 +62386,15 @@
                 "playerName": "Jonathan Dubasin",
                 "teamName": "Osasuna",
                 "text": "Raúl Moro"
+              },
+              {
+                "id": "54982618_13",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Iker Muñoz",
+                "teamName": "Osasuna",
+                "text": "Moi Gómez"
               }
             ]
           }
