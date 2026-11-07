@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:42:42Z",
+  "lastUpdated": "2026-11-07T14:43:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61311,6 +61311,15 @@
                 "minute": 76,
                 "extraTime": null,
                 "playerName": "Adrián Niño",
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "54944498_31",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Chupe",
                 "teamName": "Málaga",
                 "text": null
               }
