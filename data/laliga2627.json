@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:22:09Z",
+  "lastUpdated": "2026-11-07T16:23:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61806,9 +61806,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pierre-Emerick Aubameyang",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Yeremay Hernández"
               }
             ]
           }
