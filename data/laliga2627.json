@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T18:55:36Z",
+  "lastUpdated": "2026-11-07T18:56:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61949,7 +61949,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -62350,6 +62350,24 @@
                 "playerName": "Ante Budimir",
                 "teamName": "Osasuna",
                 "text": null
+              },
+              {
+                "id": "54981687_9",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Oihan Sancet",
+                "teamName": "Athletic",
+                "text": "Robert Navarro"
+              },
+              {
+                "id": "54981688_10",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Iñigo Ruiz de Galarreta",
+                "teamName": "Athletic",
+                "text": "Beñat Gerenabarrena"
               }
             ]
           }
