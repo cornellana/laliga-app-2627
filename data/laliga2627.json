@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:33:00Z",
+  "lastUpdated": "2026-11-07T14:34:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "71'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61268,6 +61268,24 @@
                 "playerName": "Second yellow card to Adam Aznou",
                 "teamName": "Málaga",
                 "text": null
+              },
+              {
+                "id": "54943322_26",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "José Salinas",
+                "teamName": "Málaga",
+                "text": "Einar Galilea"
+              },
+              {
+                "id": "54943323_27",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Rafa Rodríguez",
+                "teamName": "Málaga",
+                "text": "Ramón Enríquez"
               }
             ]
           }
