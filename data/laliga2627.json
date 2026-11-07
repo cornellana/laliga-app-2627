@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T19:17:35Z",
+  "lastUpdated": "2026-11-07T19:18:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61949,7 +61949,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -62420,6 +62420,24 @@
                 "minute": 84,
                 "extraTime": null,
                 "playerName": "Nico Williams",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "54984708_17",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "54984709_18",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Athletic",
                 "text": null
               }
