@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T19:13:15Z",
+  "lastUpdated": "2026-11-07T19:14:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61949,7 +61949,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -62401,18 +62401,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Raúl García",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Ante Budimir"
               },
               {
                 "id": "54983820_15",
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Kike Barja",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Rubén García"
               }
             ]
           }
