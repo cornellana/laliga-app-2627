@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:34:05Z",
+  "lastUpdated": "2026-11-07T14:35:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61286,6 +61286,15 @@
                 "playerName": "Rafa Rodríguez",
                 "teamName": "Málaga",
                 "text": "Ramón Enríquez"
+              },
+              {
+                "id": "54943501_28",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
