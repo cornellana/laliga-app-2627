@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:42:54Z",
+  "lastUpdated": "2026-11-07T21:43:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62961,6 +62961,24 @@
                 "minute": 75,
                 "extraTime": null,
                 "playerName": "Kylian Mbappé",
+                "teamName": "Real Madrid",
+                "text": null
+              },
+              {
+                "id": "55006649_25",
+                "type": "RED_CARD",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "José Gayà",
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "55006763_26",
+                "type": "YELLOW_CARD",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Yan Diomande",
                 "teamName": "Real Madrid",
                 "text": null
               }
