@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:57:49Z",
+  "lastUpdated": "2026-11-07T16:58:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61881,6 +61881,15 @@
                 "playerName": "Gabriel Moscardo",
                 "teamName": "Espanyol",
                 "text": "Edu Expósito"
+              },
+              {
+                "id": "54969717_19",
+                "type": "YELLOW_CARD",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Diego Villares",
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
