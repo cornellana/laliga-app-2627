@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T16:54:37Z",
+  "lastUpdated": "2026-11-07T16:55:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,7 +61390,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "78'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
@@ -61854,6 +61854,33 @@
                 "playerName": "Alejandro Santiago",
                 "teamName": "Espanyol",
                 "text": null
+              },
+              {
+                "id": "54969331_16",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Marcos Fernández",
+                "teamName": "Espanyol",
+                "text": "Pere Milla"
+              },
+              {
+                "id": "54969411_17",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Bryan Zaragoza",
+                "teamName": "Espanyol",
+                "text": "Tyrhys Dolan"
+              },
+              {
+                "id": "54969332_18",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Gabriel Moscardo",
+                "teamName": "Espanyol",
+                "text": "Edu Expósito"
               }
             ]
           }
