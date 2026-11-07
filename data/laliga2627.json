@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:09:23Z",
+  "lastUpdated": "2026-11-07T21:10:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,8 +62490,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+4'",
-          "statusText": "Halftime",
+          "clock": "47'",
+          "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
@@ -62915,9 +62915,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Luis Rioja",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Justin de Haas"
               }
             ]
           }
