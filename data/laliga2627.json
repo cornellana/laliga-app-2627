@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:52:25Z",
+  "lastUpdated": "2026-11-07T14:53:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61366,6 +61366,15 @@
                 "extraTime": null,
                 "playerName": "Carlos Dotor",
                 "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "54945658_41",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Giorgi Guliashvili",
+                "teamName": "Racing",
                 "text": null
               }
             ]
