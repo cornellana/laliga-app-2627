@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T14:36:14Z",
+  "lastUpdated": "2026-11-07T14:37:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,7 +60804,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61301,9 +61301,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 73,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Giorgi Guliashvili",
                 "teamName": "Racing",
-                "text": null
+                "text": "Iñigo Vicente"
               }
             ]
           }
