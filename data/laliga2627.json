@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T15:22:05Z",
+  "lastUpdated": "2026-11-07T15:23:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61390,13 +61390,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
             "homeLineup": {
-              "formation": "5-4-1",
+              "formation": "3-4-1-2",
               "players": [
                 {
                   "id": "307419",
@@ -61431,18 +61431,10 @@
                   "events": null
                 },
                 {
-                  "id": "306520",
-                  "jersey": 24,
-                  "name": "Tyrhys Dolan",
-                  "position": "LB",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "3111255",
-                  "jersey": 36,
-                  "name": "Alejandro Santiago Vargas",
-                  "position": "RB",
+                  "id": "260242",
+                  "jersey": 10,
+                  "name": "Pol Lozano",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -61450,14 +61442,6 @@
                   "id": "255272",
                   "jersey": 8,
                   "name": "Edu Expósito",
-                  "position": "CM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "260242",
-                  "jersey": 10,
-                  "name": "Pol Lozano",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
@@ -61466,14 +61450,22 @@
                   "id": "355902",
                   "jersey": 22,
                   "name": "Cala",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "306520",
+                  "jersey": 24,
+                  "name": "Tyrhys Dolan",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "196914",
-                  "jersey": 11,
-                  "name": "Pere Milla",
+                  "id": "3111255",
+                  "jersey": 36,
+                  "name": "Alejandro Santiago Vargas",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -61482,7 +61474,15 @@
                   "id": "318773",
                   "jersey": 9,
                   "name": "Roberto Fernández",
-                  "position": "F",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "196914",
+                  "jersey": 11,
+                  "name": "Pere Milla",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
