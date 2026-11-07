@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T17:09:44Z",
+  "lastUpdated": "2026-11-07T17:10:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61387,11 +61387,11 @@
           "away": "Deportivo",
           "jornada": 12,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-0",
-          "state": "in",
-          "clock": "90'+3'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "RCDE Stadium",
           "venueCity": "Barcelona",
           "details": {
