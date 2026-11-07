@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T20:50:29Z",
+  "lastUpdated": "2026-11-07T20:51:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,8 +62490,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "First Half",
+          "clock": "45'+4'",
+          "statusText": "Halftime",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
           "details": {
