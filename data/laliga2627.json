@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T13:31:48Z",
+  "lastUpdated": "2026-11-07T13:32:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60804,8 +60804,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "31'",
-          "statusText": "First Half",
+          "clock": "32'",
+          "statusText": "In Progress",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -61204,6 +61204,15 @@
                 "extraTime": null,
                 "playerName": "Carlos Dotor",
                 "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "54937225_13",
+                "type": "YELLOW_CARD",
+                "minute": 31,
+                "extraTime": null,
+                "playerName": "Julen Agirrezabala",
+                "teamName": "Racing",
                 "text": null
               }
             ]
