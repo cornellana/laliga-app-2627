@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T17:32:48Z",
+  "lastUpdated": "2026-11-07T17:33:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61949,7 +61949,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -62195,17 +62195,17 @@
                   "events": null
                 },
                 {
-                  "id": "388805",
-                  "jersey": 28,
-                  "name": "Peio Canales",
+                  "id": "388803",
+                  "jersey": 24,
+                  "name": "Beñat Gerenabarrena",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "388803",
-                  "jersey": 24,
-                  "name": "Beñat Gerenabarrena",
+                  "id": "388805",
+                  "jersey": 28,
+                  "name": "Peio Canales",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
