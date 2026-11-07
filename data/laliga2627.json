@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:14:47Z",
+  "lastUpdated": "2026-11-07T21:15:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62490,7 +62490,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "51'",
+          "clock": "53'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62918,6 +62918,15 @@
                 "playerName": "Luis Rioja",
                 "teamName": "Valencia",
                 "text": "Justin de Haas"
+              },
+              {
+                "id": "54999951_16",
+                "type": "YELLOW_CARD",
+                "minute": 50,
+                "extraTime": null,
+                "playerName": "Guido Rodríguez",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
