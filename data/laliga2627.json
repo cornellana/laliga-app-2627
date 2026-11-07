@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T13:28:33Z",
+  "lastUpdated": "2026-11-07T13:29:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -60802,9 +60802,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "27'",
+          "clock": "29'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -61196,6 +61196,15 @@
                 "playerName": "David Larrubia",
                 "teamName": "Málaga",
                 "text": "Rafita because of an injury"
+              },
+              {
+                "id": "54937126_10",
+                "type": "GOAL",
+                "minute": 28,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
