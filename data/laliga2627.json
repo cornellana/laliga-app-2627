@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T18:58:51Z",
+  "lastUpdated": "2026-11-07T18:59:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -61949,7 +61949,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -62368,6 +62368,24 @@
                 "playerName": "Iñigo Ruiz de Galarreta",
                 "teamName": "Athletic",
                 "text": "Beñat Gerenabarrena"
+              },
+              {
+                "id": "54982053_11",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Asier Osambela",
+                "teamName": "Osasuna",
+                "text": "Jon Moncayola"
+              },
+              {
+                "id": "54982054_12",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Jonathan Dubasin",
+                "teamName": "Osasuna",
+                "text": "Raúl Moro"
               }
             ]
           }
