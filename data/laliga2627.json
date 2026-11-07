@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:38:34Z",
+  "lastUpdated": "2026-11-07T21:39:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -62488,9 +62488,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "0-3",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Mestalla Stadium",
           "venueCity": "Manises",
@@ -62954,6 +62954,15 @@
                 "playerName": "Arnau Martínez",
                 "teamName": "Valencia",
                 "text": "Pablo Maffeo"
+              },
+              {
+                "id": "55005790_24",
+                "type": "GOAL",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
