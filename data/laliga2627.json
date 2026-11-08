@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:33:42Z",
+  "lastUpdated": "2026-11-08T21:34:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,7 +65169,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65615,6 +65615,24 @@
                 "playerName": "Fermín López",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "55130035_14",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Morten Hjulmand",
+                "teamName": "Atlético",
+                "text": "Koke"
+              },
+              {
+                "id": "55130036_15",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Johnny Cardoso",
+                "teamName": "Atlético",
+                "text": "Álex Baena"
               }
             ]
           }
