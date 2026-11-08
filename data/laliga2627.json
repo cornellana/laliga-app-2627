@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:19:38Z",
+  "lastUpdated": "2026-11-08T18:20:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64546,7 +64546,7 @@
           "result": "0-0",
           "state": "in",
           "clock": "45'+3'",
-          "statusText": "First Half",
+          "statusText": "Halftime",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
