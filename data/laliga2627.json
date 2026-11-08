@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T16:48:10Z",
+  "lastUpdated": "2026-11-08T16:49:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "71'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -64050,6 +64050,24 @@
                 "minute": 67,
                 "extraTime": null,
                 "playerName": "Orri Óskarsson",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "55094746_20",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Job Ochieng",
+                "teamName": "R. Sociedad",
+                "text": "Ander Barrenetxea because of an injury"
+              },
+              {
+                "id": "55094759_21",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "R. Sociedad",
                 "text": null
               }
