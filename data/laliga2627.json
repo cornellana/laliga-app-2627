@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:06:37Z",
+  "lastUpdated": "2026-11-08T18:07:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "32'",
+          "clock": "33'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64522,7 +64522,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55107304_11",
+                "type": "YELLOW_CARD",
+                "minute": 32,
+                "extraTime": null,
+                "playerName": "Dani Requena",
+                "teamName": "Levante",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -64535,7 +64545,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "35'",
+          "clock": "36'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
