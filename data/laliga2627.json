@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T14:42:53Z",
+  "lastUpdated": "2026-11-08T14:43:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63082,7 +63082,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "86'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -63591,6 +63591,15 @@
                 "playerName": "Nelson Deossa",
                 "teamName": "Betis",
                 "text": "Isco"
+              },
+              {
+                "id": "55072762_27",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Javier Morcillo",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
