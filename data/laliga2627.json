@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T16:43:50Z",
+  "lastUpdated": "2026-11-08T16:44:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63621,9 +63621,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -64043,6 +64043,15 @@
                 "playerName": "Héctor Fort",
                 "teamName": "R. Sociedad",
                 "text": "Jon Aramburu"
+              },
+              {
+                "id": "55093882_16",
+                "type": "GOAL",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Orri Óskarsson",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
@@ -67972,6 +67981,12 @@
       "penalties": null
     },
     {
+      "player": "Orri Óskarsson",
+      "team": "R. Sociedad",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Abde Ezzalzouli",
       "team": "Betis",
       "goals": 3,
@@ -68034,12 +68049,6 @@
     {
       "player": "Martín Satriano",
       "team": "Getafe",
-      "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Orri Óskarsson",
-      "team": "R. Sociedad",
       "goals": 3,
       "penalties": null
     },
