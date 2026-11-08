@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:39:49Z",
+  "lastUpdated": "2026-11-08T18:40:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,8 +64147,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -64540,6 +64540,42 @@
                 "playerName": "Hugo Álvarez",
                 "teamName": "Celta",
                 "text": "Javi Rodríguez"
+              },
+              {
+                "id": "55111435_14",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Adrián de la Fuente",
+                "teamName": "Levante",
+                "text": "Ifeanyi Ndukwe"
+              },
+              {
+                "id": "55111437_15",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Iván Romero",
+                "teamName": "Levante",
+                "text": "Karl Etta Eyong"
+              },
+              {
+                "id": "55111438_16",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Oriol Rey",
+                "teamName": "Levante",
+                "text": "Hugo Sotelo"
+              },
+              {
+                "id": "55111441_17",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Javi Galán",
+                "teamName": "Celta",
+                "text": "Javi Rueda"
               }
             ]
           }
@@ -64554,7 +64590,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "51'",
+          "clock": "52'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
