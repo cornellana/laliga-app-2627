@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T14:17:57Z",
+  "lastUpdated": "2026-11-08T14:19:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63082,7 +63082,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -63474,6 +63474,15 @@
                 "playerName": "Grady Diangana",
                 "teamName": "Elche",
                 "text": "Ali Houary because of an injury"
+              },
+              {
+                "id": "55067661_14",
+                "type": "YELLOW_CARD",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Federico Redondo",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
