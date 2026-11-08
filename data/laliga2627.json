@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T17:54:37Z",
+  "lastUpdated": "2026-11-08T17:55:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "20'",
+          "clock": "21'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64765,9 +64765,9 @@
                   "events": null
                 },
                 {
-                  "id": "284854",
-                  "jersey": 10,
-                  "name": "Martín Satriano",
+                  "id": "357147",
+                  "jersey": 6,
+                  "name": "Mario Martín",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -64781,9 +64781,9 @@
                   "events": null
                 },
                 {
-                  "id": "357147",
-                  "jersey": 6,
-                  "name": "Mario Martín",
+                  "id": "284854",
+                  "jersey": 10,
+                  "name": "Martín Satriano",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
