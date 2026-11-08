@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T17:01:11Z",
+  "lastUpdated": "2026-11-08T17:03:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "85'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -64106,6 +64106,15 @@
                 "playerName": "Randy Nteka",
                 "teamName": "Rayo",
                 "text": "Sergio Camello"
+              },
+              {
+                "id": "55097191_27",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Sergio Gómez",
+                "teamName": "R. Sociedad",
+                "text": "Aihen Muñoz because of an injury"
               }
             ]
           }
