@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T16:50:20Z",
+  "lastUpdated": "2026-11-08T16:51:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -64054,7 +64054,7 @@
                 "text": null
               },
               {
-                "id": "55094746_20",
+                "id": "55094746_21",
                 "type": "SUBSTITUTION",
                 "minute": 71,
                 "extraTime": null,
@@ -64063,7 +64063,7 @@
                 "text": "Ander Barrenetxea because of an injury"
               },
               {
-                "id": "55094759_21",
+                "id": "55094759_22",
                 "type": "SUBSTITUTION",
                 "minute": 72,
                 "extraTime": null,
