@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:34:24Z",
+  "lastUpdated": "2026-11-08T18:35:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64545,13 +64545,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "47'",
+          "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
             "homeLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "119620",
@@ -64594,10 +64594,18 @@
                   "events": null
                 },
                 {
+                  "id": "307390",
+                  "jersey": 10,
+                  "name": "Alberto Moleiro",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "255889",
                   "jersey": 18,
                   "name": "Pape Gueye",
-                  "position": "CM-L",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -64605,22 +64613,6 @@
                   "id": "415438",
                   "jersey": 16,
                   "name": "Carlos Macià",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "307390",
-                  "jersey": 10,
-                  "name": "Alberto Moleiro",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "284769",
-                  "jersey": 17,
-                  "name": "Tajon Buchanan",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -64629,7 +64621,7 @@
                   "id": "300002",
                   "jersey": 9,
                   "name": "Georges Mikautadze",
-                  "position": "CF-L",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
@@ -64637,7 +64629,15 @@
                   "id": "294039",
                   "jersey": 21,
                   "name": "Tani Oluwaseyi",
-                  "position": "CF-R",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "284769",
+                  "jersey": 17,
+                  "name": "Tajon Buchanan",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -64927,9 +64927,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ramón Terrats",
                 "teamName": "Getafe",
-                "text": null
+                "text": "Mario Martín"
               }
             ]
           }
