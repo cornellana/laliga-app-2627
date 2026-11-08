@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T14:27:42Z",
+  "lastUpdated": "2026-11-08T14:28:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63082,7 +63082,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -63492,6 +63492,33 @@
                 "playerName": "Grady Diangana",
                 "teamName": "Elche",
                 "text": null
+              },
+              {
+                "id": "55069535_16",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Dani Ceballos",
+                "teamName": "Betis",
+                "text": "Pablo Fornals"
+              },
+              {
+                "id": "55069536_17",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Tete Morente",
+                "teamName": "Elche",
+                "text": "Germán Valera"
+              },
+              {
+                "id": "55069537_18",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Abiel Osorio",
+                "teamName": "Elche",
+                "text": "Fer Niño"
               }
             ]
           }
