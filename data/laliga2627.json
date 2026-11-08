@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T19:12:27Z",
+  "lastUpdated": "2026-11-08T19:13:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64621,6 +64621,15 @@
                 "playerName": "Hugo González",
                 "teamName": "Celta",
                 "text": "Iago Aspas"
+              },
+              {
+                "id": "55115300_26",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Marc Santos",
+                "teamName": "Levante",
+                "text": "Nacho Pérez"
               }
             ]
           }
@@ -64635,8 +64644,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "83'",
-          "statusText": "Second Half",
+          "clock": "84'",
+          "statusText": "In Progress",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
