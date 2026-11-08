@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T19:11:22Z",
+  "lastUpdated": "2026-11-08T19:12:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64603,6 +64603,24 @@
                 "playerName": "Hugo Burcio",
                 "teamName": "Celta",
                 "text": "Andrés Antañón"
+              },
+              {
+                "id": "55115116_24",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Williot Swedberg",
+                "teamName": "Celta",
+                "text": "Couhaib Driouech"
+              },
+              {
+                "id": "55115117_25",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Hugo González",
+                "teamName": "Celta",
+                "text": "Iago Aspas"
               }
             ]
           }
@@ -64617,7 +64635,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "82'",
+          "clock": "83'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
