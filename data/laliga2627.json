@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T14:43:59Z",
+  "lastUpdated": "2026-11-08T14:45:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63082,7 +63082,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -63597,7 +63597,7 @@
                 "type": "YELLOW_CARD",
                 "minute": 84,
                 "extraTime": null,
-                "playerName": "Javier Morcillo",
+                "playerName": "Javi Morcillo",
                 "teamName": "Elche",
                 "text": null
               }
