@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:00:03Z",
+  "lastUpdated": "2026-11-08T18:01:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64145,10 +64145,10 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "25'",
-          "statusText": "First Half",
+          "clock": "27'",
+          "statusText": "In Progress",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
           "details": {
@@ -64377,9 +64377,9 @@
                   "events": null
                 },
                 {
-                  "id": "267591",
-                  "jersey": 7,
-                  "name": "Roger Brugué",
+                  "id": "362752",
+                  "jersey": 6,
+                  "name": "Dani Requena",
                   "position": "AM",
                   "isStarter": true,
                   "events": null
@@ -64417,9 +64417,9 @@
                   "events": null
                 },
                 {
-                  "id": "362752",
-                  "jersey": 6,
-                  "name": "Dani Requena",
+                  "id": "267591",
+                  "jersey": 7,
+                  "name": "Roger Brugué",
                   "position": "AM-R",
                   "isStarter": true,
                   "events": null
@@ -64535,7 +64535,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "29'",
+          "clock": "30'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
