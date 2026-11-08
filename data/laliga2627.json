@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T19:05:56Z",
+  "lastUpdated": "2026-11-08T19:07:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "71'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64617,7 +64617,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -65054,6 +65054,15 @@
                 "minute": 76,
                 "extraTime": null,
                 "playerName": "Renato Veiga",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "55114372_19",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Villarreal",
                 "text": null
               }
