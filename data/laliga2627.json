@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:35:51Z",
+  "lastUpdated": "2026-11-08T21:36:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,7 +65169,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65633,6 +65633,15 @@
                 "playerName": "Johnny Cardoso",
                 "teamName": "Atlético",
                 "text": "Álex Baena"
+              },
+              {
+                "id": "55130203_16",
+                "type": "YELLOW_CARD",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Marc Bernal",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
