@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T20:46:33Z",
+  "lastUpdated": "2026-11-08T20:47:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65167,9 +65167,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65569,6 +65569,15 @@
                 "extraTime": null,
                 "playerName": "Álex Baena",
                 "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "55125817_7",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Fermín López",
+                "teamName": "FC Barcelona",
                 "text": null
               }
             ]
@@ -69379,6 +69388,12 @@
       "penalties": 1
     },
     {
+      "player": "Fermín López",
+      "team": "FC Barcelona",
+      "goals": 6,
+      "penalties": null
+    },
+    {
       "player": "Roberto Fernández",
       "team": "Espanyol",
       "goals": 6,
@@ -69387,12 +69402,6 @@
     {
       "player": "Adrián Niño",
       "team": "Málaga",
-      "goals": 5,
-      "penalties": null
-    },
-    {
-      "player": "Fermín López",
-      "team": "FC Barcelona",
       "goals": 5,
       "penalties": null
     },
