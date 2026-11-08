@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:28:17Z",
+  "lastUpdated": "2026-11-08T21:29:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65167,9 +65167,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65606,6 +65606,15 @@
                 "playerName": "Alexander Sørloth",
                 "teamName": "Atlético",
                 "text": "Lee Kang-In"
+              },
+              {
+                "id": "55129628_13",
+                "type": "GOAL",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Fermín López",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
@@ -69403,6 +69412,12 @@
       "penalties": 4
     },
     {
+      "player": "Fermín López",
+      "team": "FC Barcelona",
+      "goals": 7,
+      "penalties": null
+    },
+    {
       "player": "Sergio Camello",
       "team": "Rayo",
       "goals": 7,
@@ -69413,12 +69428,6 @@
       "team": "Elche",
       "goals": 6,
       "penalties": 1
-    },
-    {
-      "player": "Fermín López",
-      "team": "FC Barcelona",
-      "goals": 6,
-      "penalties": null
     },
     {
       "player": "Roberto Fernández",
