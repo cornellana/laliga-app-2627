@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T17:05:30Z",
+  "lastUpdated": "2026-11-08T17:06:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -64115,6 +64115,15 @@
                 "playerName": "Sergio Gómez",
                 "teamName": "R. Sociedad",
                 "text": "Aihen Muñoz because of an injury"
+              },
+              {
+                "id": "55097757_28",
+                "type": "YELLOW_CARD",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Gnangoro Bouare Samake",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
