@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T17:06:35Z",
+  "lastUpdated": "2026-11-08T17:07:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -64121,7 +64121,16 @@
                 "type": "YELLOW_CARD",
                 "minute": 88,
                 "extraTime": null,
-                "playerName": "Gnangoro Bouare Samake",
+                "playerName": "Gnangoro",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "55097945_29",
+                "type": "SUBSTITUTION",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Rayo",
                 "text": null
               }
