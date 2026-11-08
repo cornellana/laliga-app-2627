@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T13:05:55Z",
+  "lastUpdated": "2026-11-08T13:07:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63082,8 +63082,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "6'",
-          "statusText": "First Half",
+          "clock": "7'",
+          "statusText": "In Progress",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
           "details": {
@@ -63139,17 +63139,17 @@
                   "events": null
                 },
                 {
-                  "id": "340677",
-                  "jersey": 16,
-                  "name": "Martim Neto",
+                  "id": "376156",
+                  "jersey": 29,
+                  "name": "Ali Houary",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "376156",
-                  "jersey": 29,
-                  "name": "Ali Houary",
+                  "id": "340677",
+                  "jersey": 16,
+                  "name": "Martim Neto",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
