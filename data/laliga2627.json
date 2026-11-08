@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T19:04:51Z",
+  "lastUpdated": "2026-11-08T19:05:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64617,7 +64617,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -65045,6 +65045,15 @@
                 "minute": 67,
                 "extraTime": null,
                 "playerName": "Santi Comesaña",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "55114307_18",
+                "type": "YELLOW_CARD",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Renato Veiga",
                 "teamName": "Villarreal",
                 "text": null
               }
