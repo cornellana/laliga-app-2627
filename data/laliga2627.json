@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:38:44Z",
+  "lastUpdated": "2026-11-08T18:39:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64531,6 +64531,15 @@
                 "playerName": "Dani Requena",
                 "teamName": "Levante",
                 "text": null
+              },
+              {
+                "id": "55111344_13",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Hugo Álvarez",
+                "teamName": "Celta",
+                "text": "Javi Rodríguez"
               }
             ]
           }
@@ -64545,7 +64554,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "50'",
+          "clock": "51'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
