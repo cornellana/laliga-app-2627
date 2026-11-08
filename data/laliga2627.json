@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T19:13:31Z",
+  "lastUpdated": "2026-11-08T19:14:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64644,8 +64644,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "84'",
-          "statusText": "In Progress",
+          "clock": "85'",
+          "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
@@ -65128,6 +65128,15 @@
                 "playerName": "Kiko Femenía",
                 "teamName": "Getafe",
                 "text": "Andrés García"
+              },
+              {
+                "id": "55115470_24",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
