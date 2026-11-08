@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:22:53Z",
+  "lastUpdated": "2026-11-08T18:34:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64919,6 +64919,15 @@
                 "minute": 32,
                 "extraTime": null,
                 "playerName": "Mario Martín",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "55110819_11",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Getafe",
                 "text": null
               }
