@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T17:07:40Z",
+  "lastUpdated": "2026-11-08T17:08:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -64130,9 +64130,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 89,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alemão",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Jozhua Vertrouwd"
               }
             ]
           }
