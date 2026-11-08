@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T14:26:37Z",
+  "lastUpdated": "2026-11-08T14:27:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63082,7 +63082,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -63481,6 +63481,15 @@
                 "minute": 59,
                 "extraTime": null,
                 "playerName": "Federico Redondo",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "55069486_15",
+                "type": "YELLOW_CARD",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Grady Diangana",
                 "teamName": "Elche",
                 "text": null
               }
