@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T19:10:16Z",
+  "lastUpdated": "2026-11-08T19:11:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64617,7 +64617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -65074,6 +65074,33 @@
                 "playerName": "Tajon Buchanan",
                 "teamName": "Villarreal",
                 "text": null
+              },
+              {
+                "id": "55115037_21",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Iván Azón",
+                "teamName": "Getafe",
+                "text": "Orel Mangala"
+              },
+              {
+                "id": "55115038_22",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Francho Serrano",
+                "teamName": "Getafe",
+                "text": "Enes Ünal"
+              },
+              {
+                "id": "55115039_23",
+                "type": "SUBSTITUTION",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Kiko Femenía",
+                "teamName": "Getafe",
+                "text": "Andrés García"
               }
             ]
           }
