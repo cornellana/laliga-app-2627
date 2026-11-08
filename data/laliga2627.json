@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T20:06:27Z",
+  "lastUpdated": "2026-11-08T20:07:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,7 +65169,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65391,9 +65391,9 @@
                   "events": null
                 },
                 {
-                  "id": "250465",
-                  "jersey": 8,
-                  "name": "Pedri",
+                  "id": "376423",
+                  "jersey": 22,
+                  "name": "Marc Bernal",
                   "position": "DM",
                   "isStarter": true,
                   "events": null
@@ -65415,17 +65415,17 @@
                   "events": null
                 },
                 {
-                  "id": "354334",
-                  "jersey": 7,
-                  "name": "Fermín López",
+                  "id": "250465",
+                  "jersey": 8,
+                  "name": "Pedri",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "376423",
-                  "jersey": 22,
-                  "name": "Marc Bernal",
+                  "id": "354334",
+                  "jersey": 7,
+                  "name": "Fermín López",
                   "position": "CM-R",
                   "isStarter": true,
                   "events": null
