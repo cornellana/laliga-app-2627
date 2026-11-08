@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T14:28:47Z",
+  "lastUpdated": "2026-11-08T14:29:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63082,7 +63082,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "70'",
+          "clock": "72'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -63503,7 +63503,16 @@
                 "text": "Pablo Fornals"
               },
               {
-                "id": "55069536_17",
+                "id": "55069800_17",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "55069536_18",
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
@@ -63512,13 +63521,22 @@
                 "text": "Germán Valera"
               },
               {
-                "id": "55069537_18",
+                "id": "55069537_19",
                 "type": "SUBSTITUTION",
                 "minute": 69,
                 "extraTime": null,
                 "playerName": "Abiel Osorio",
                 "teamName": "Elche",
                 "text": "Fer Niño"
+              },
+              {
+                "id": "55069801_20",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
