@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:03:20Z",
+  "lastUpdated": "2026-11-08T18:04:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "29'",
+          "clock": "30'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64535,7 +64535,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "32'",
+          "clock": "33'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -64902,7 +64902,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55106848_5",
+                "type": "YELLOW_CARD",
+                "minute": 32,
+                "extraTime": null,
+                "playerName": "Mario Martín",
+                "teamName": "Getafe",
+                "text": null
+              }
+            ]
           }
         },
         {
