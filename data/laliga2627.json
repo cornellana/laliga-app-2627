@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T17:58:59Z",
+  "lastUpdated": "2026-11-08T18:00:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "24'",
+          "clock": "25'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64334,7 +64334,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-3-3",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "141438",
@@ -64377,10 +64377,18 @@
                   "events": null
                 },
                 {
+                  "id": "267591",
+                  "jersey": 7,
+                  "name": "Roger Brugué",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "319114",
                   "jersey": 5,
                   "name": "Hugo Sotelo",
-                  "position": "CM",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -64388,14 +64396,6 @@
                   "id": "317784",
                   "jersey": 8,
                   "name": "Jon Ander Olasagasti",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "362752",
-                  "jersey": 6,
-                  "name": "Dani Requena",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -64412,15 +64412,15 @@
                   "id": "339195",
                   "jersey": 24,
                   "name": "Thiago Fernández",
-                  "position": "LF",
+                  "position": "AM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "267591",
-                  "jersey": 7,
-                  "name": "Roger Brugué",
-                  "position": "RF",
+                  "id": "362752",
+                  "jersey": 6,
+                  "name": "Dani Requena",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -64535,7 +64535,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "28'",
+          "clock": "29'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
