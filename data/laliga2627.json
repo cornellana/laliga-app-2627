@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:49:54Z",
+  "lastUpdated": "2026-11-08T21:50:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,7 +65169,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65678,6 +65678,15 @@
                 "playerName": "Karim Adeyemi",
                 "teamName": "FC Barcelona",
                 "text": "Anthony Gordon"
+              },
+              {
+                "id": "55131534_21",
+                "type": "YELLOW_CARD",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Marcos Llorente",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
