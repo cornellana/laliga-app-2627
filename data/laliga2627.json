@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:22:52Z",
+  "lastUpdated": "2026-11-08T21:23:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,7 +65169,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65588,6 +65588,24 @@
                 "playerName": "Frenkie de Jong",
                 "teamName": "FC Barcelona",
                 "text": "Brian Fariñas"
+              },
+              {
+                "id": "55129254_11",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "55129255_12",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
