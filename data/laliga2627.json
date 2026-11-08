@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:55:17Z",
+  "lastUpdated": "2026-11-08T21:57:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65166,11 +65166,11 @@
           "away": "FC Barcelona",
           "jornada": 12,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-2",
-          "state": "in",
-          "clock": "90'+4'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": {
