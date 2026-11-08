@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T15:53:30Z",
+  "lastUpdated": "2026-11-08T15:54:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "35'",
+          "clock": "36'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -63998,7 +63998,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55085389_9",
+                "type": "YELLOW_CARD",
+                "minute": 34,
+                "extraTime": null,
+                "playerName": "Giorgi Tsitaishvili",
+                "teamName": "Rayo",
+                "text": null
+              }
+            ]
           }
         },
         {
