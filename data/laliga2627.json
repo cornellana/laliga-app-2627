@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T14:47:14Z",
+  "lastUpdated": "2026-11-08T14:48:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63080,9 +63080,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "0-2",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -63599,6 +63599,15 @@
                 "extraTime": null,
                 "playerName": "Javi Morcillo",
                 "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "55073433_28",
+                "type": "GOAL",
+                "minute": 89,
+                "extraTime": null,
+                "playerName": "Marc Bartra",
+                "teamName": "Betis",
                 "text": null
               }
             ]
@@ -67599,6 +67608,12 @@
       "penalties": null
     },
     {
+      "player": "Marc Bartra",
+      "team": "Betis",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Martín Satriano",
       "team": "Getafe",
       "goals": 3,
@@ -67745,12 +67760,6 @@
     {
       "player": "Lee Kang-In",
       "team": "Atlético",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Marc Bartra",
-      "team": "Betis",
       "goals": 2,
       "penalties": null
     },
