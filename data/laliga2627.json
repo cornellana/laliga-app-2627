@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T19:07:01Z",
+  "lastUpdated": "2026-11-08T19:08:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "72'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64617,7 +64617,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -65062,9 +65062,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Nicolas Pepe",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Tani Oluwaseyi"
               }
             ]
           }
