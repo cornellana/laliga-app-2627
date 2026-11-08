@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T16:28:39Z",
+  "lastUpdated": "2026-11-08T16:29:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "52'",
+          "clock": "53'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -64006,6 +64006,15 @@
                 "extraTime": null,
                 "playerName": "Giorgi Tsitaishvili",
                 "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "55091248_12",
+                "type": "YELLOW_CARD",
+                "minute": 50,
+                "extraTime": null,
+                "playerName": "Igor Zubeldia",
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
