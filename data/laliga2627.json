@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T16:55:46Z",
+  "lastUpdated": "2026-11-08T16:56:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -64070,6 +64070,42 @@
                 "playerName": "Jon Gorrotxategi",
                 "teamName": "R. Sociedad",
                 "text": "Beñat Turrientes"
+              },
+              {
+                "id": "55096312_23",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "55096313_24",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "55096314_25",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "55096315_26",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
