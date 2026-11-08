@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:51:49Z",
+  "lastUpdated": "2026-11-08T18:52:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64576,6 +64576,15 @@
                 "playerName": "Javi Galán",
                 "teamName": "Celta",
                 "text": "Javi Rueda"
+              },
+              {
+                "id": "55113037_19",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Víctor García",
+                "teamName": "Levante",
+                "text": "Thiago Fernández"
               }
             ]
           }
@@ -64590,7 +64599,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -64983,6 +64992,24 @@
                 "extraTime": null,
                 "playerName": "Nemanja Gudelj",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "55113099_14",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "55113100_15",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
