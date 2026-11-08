@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:41:15Z",
+  "lastUpdated": "2026-11-08T21:42:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,7 +65169,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65666,9 +65666,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 78,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jonathan David",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Pablo Barrios"
               }
             ]
           }
