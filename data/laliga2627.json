@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T20:11:52Z",
+  "lastUpdated": "2026-11-08T20:12:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,7 +65169,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65552,7 +65552,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55121885_1",
+                "type": "GOAL",
+                "minute": 10,
+                "extraTime": null,
+                "playerName": "Giuliano Simeone",
+                "teamName": "Atlético",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -69414,6 +69424,12 @@
       "penalties": 2
     },
     {
+      "player": "Giuliano Simeone",
+      "team": "Atlético",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Jude Bellingham",
       "team": "Real Madrid",
       "goals": 4,
@@ -69460,12 +69476,6 @@
       "team": "Villarreal",
       "goals": 3,
       "penalties": 1
-    },
-    {
-      "player": "Giuliano Simeone",
-      "team": "Atlético",
-      "goals": 3,
-      "penalties": null
     },
     {
       "player": "Isaac Romero",
