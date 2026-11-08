@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:55:03Z",
+  "lastUpdated": "2026-11-08T18:56:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64599,7 +64599,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -65017,9 +65017,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 64,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alex Freeman",
                 "teamName": "Villarreal",
-                "text": null
+                "text": "Santiago Mouriño"
               }
             ]
           }
