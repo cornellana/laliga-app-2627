@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:53:58Z",
+  "lastUpdated": "2026-11-08T18:55:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64599,7 +64599,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -65011,6 +65011,15 @@
                 "playerName": "Santi Comesaña",
                 "teamName": "Villarreal",
                 "text": "Carlos Maciá"
+              },
+              {
+                "id": "55113303_16",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
