@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T16:39:27Z",
+  "lastUpdated": "2026-11-08T16:40:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -64016,6 +64016,33 @@
                 "playerName": "Igor Zubeldia",
                 "teamName": "R. Sociedad",
                 "text": null
+              },
+              {
+                "id": "55092904_13",
+                "type": "YELLOW_CARD",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Beñat Turrientes",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "55093018_14",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Gonçalo Guedes",
+                "teamName": "R. Sociedad",
+                "text": "Takefusa Kubo"
+              },
+              {
+                "id": "55093019_15",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Héctor Fort",
+                "teamName": "R. Sociedad",
+                "text": "Jon Aramburu"
               }
             ]
           }
