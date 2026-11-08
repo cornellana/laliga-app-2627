@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:40:11Z",
+  "lastUpdated": "2026-11-08T21:41:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,7 +65169,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65660,6 +65660,15 @@
                 "playerName": "Gavi",
                 "teamName": "FC Barcelona",
                 "text": "Fermín López"
+              },
+              {
+                "id": "55130663_19",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
