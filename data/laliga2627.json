@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:36:56Z",
+  "lastUpdated": "2026-11-08T21:38:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,7 +65169,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65642,6 +65642,24 @@
                 "playerName": "Marc Bernal",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "55130239_17",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Eric García",
+                "teamName": "FC Barcelona",
+                "text": "Marc Bernal"
+              },
+              {
+                "id": "55130240_18",
+                "type": "SUBSTITUTION",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Gavi",
+                "teamName": "FC Barcelona",
+                "text": "Fermín López"
               }
             ]
           }
