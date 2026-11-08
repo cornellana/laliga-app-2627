@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T15:26:24Z",
+  "lastUpdated": "2026-11-08T15:27:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "7'",
+          "clock": "9'",
           "statusText": "First Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -63640,17 +63640,17 @@
                   "events": null
                 },
                 {
-                  "id": "366885",
-                  "jersey": 6,
-                  "name": "Jon Martín",
+                  "id": "235693",
+                  "jersey": 5,
+                  "name": "Igor Zubeldia",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "235693",
-                  "jersey": 5,
-                  "name": "Igor Zubeldia",
+                  "id": "366885",
+                  "jersey": 6,
+                  "name": "Jon Martín",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -63672,18 +63672,10 @@
                   "events": null
                 },
                 {
-                  "id": "256587",
-                  "jersey": 14,
-                  "name": "Takefusa Kubo",
+                  "id": "306263",
+                  "jersey": 24,
+                  "name": "Luka Sucic",
                   "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "297371",
-                  "jersey": 8,
-                  "name": "Beñat Turrientes",
-                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -63691,6 +63683,14 @@
                   "id": "235072",
                   "jersey": 18,
                   "name": "Carlos Soler",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "297371",
+                  "jersey": 8,
+                  "name": "Beñat Turrientes",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -63712,9 +63712,9 @@
                   "events": null
                 },
                 {
-                  "id": "306263",
-                  "jersey": 24,
-                  "name": "Luka Sucic",
+                  "id": "256587",
+                  "jersey": 14,
+                  "name": "Takefusa Kubo",
                   "position": "AM-R",
                   "isStarter": true,
                   "events": null
