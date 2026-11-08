@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:47:44Z",
+  "lastUpdated": "2026-11-08T21:48:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,7 +65169,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65675,9 +65675,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Karim Adeyemi",
                 "teamName": "FC Barcelona",
-                "text": null
+                "text": "Anthony Gordon"
               }
             ]
           }
