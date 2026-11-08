@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T19:20:04Z",
+  "lastUpdated": "2026-11-08T19:21:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64642,9 +64642,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "2-0",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -65137,6 +65137,15 @@
                 "playerName": "Nathan Saliba",
                 "teamName": "Villarreal",
                 "text": "Georges Mikautadze"
+              },
+              {
+                "id": "55116672_25",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
