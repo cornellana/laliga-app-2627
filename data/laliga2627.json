@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T17:53:32Z",
+  "lastUpdated": "2026-11-08T17:54:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "19'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64535,7 +64535,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "22'",
+          "clock": "24'",
           "statusText": "First Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -64714,7 +64714,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "196339",
@@ -64741,6 +64741,14 @@
                   "events": null
                 },
                 {
+                  "id": "136673",
+                  "jersey": 8,
+                  "name": "Nemanja Gudelj",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "173247",
                   "jersey": 22,
                   "name": "Johan Mojica",
@@ -64760,15 +64768,7 @@
                   "id": "284854",
                   "jersey": 10,
                   "name": "Martín Satriano",
-                  "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "136673",
-                  "jersey": 8,
-                  "name": "Nemanja Gudelj",
-                  "position": "LM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -64776,6 +64776,22 @@
                   "id": "228424",
                   "jersey": 23,
                   "name": "Orel Mangala",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "357147",
+                  "jersey": 6,
+                  "name": "Mario Martín",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "356080",
+                  "jersey": 21,
+                  "name": "Andrés García",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -64785,22 +64801,6 @@
                   "jersey": 19,
                   "name": "Enes Ünal",
                   "position": "F",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "357147",
-                  "jersey": 6,
-                  "name": "Mario Martín",
-                  "position": "AM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "356080",
-                  "jersey": 21,
-                  "name": "Andrés García",
-                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
