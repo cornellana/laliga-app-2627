@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:23:57Z",
+  "lastUpdated": "2026-11-08T21:25:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,7 +65169,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
@@ -65594,18 +65594,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Andreas Christensen",
                 "teamName": "FC Barcelona",
-                "text": null
+                "text": "João Cancelo"
               },
               {
                 "id": "55129255_12",
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alexander Sørloth",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Lee Kang-In"
               }
             ]
           }
