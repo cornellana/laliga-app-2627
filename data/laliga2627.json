@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T14:35:19Z",
+  "lastUpdated": "2026-11-08T14:36:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63082,7 +63082,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -63537,6 +63537,15 @@
                 "playerName": "Facundo Buonanotte",
                 "teamName": "Elche",
                 "text": "Lucas Cepeda"
+              },
+              {
+                "id": "55071192_21",
+                "type": "SUBSTITUTION",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Pedro Bigas",
+                "teamName": "Elche",
+                "text": "Roy Revivo"
               }
             ]
           }
