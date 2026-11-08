@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T19:21:09Z",
+  "lastUpdated": "2026-11-08T19:22:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64644,7 +64644,7 @@
           "done": false,
           "result": "2-0",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -65143,7 +65143,7 @@
                 "type": "GOAL",
                 "minute": 90,
                 "extraTime": 1,
-                "playerName": null,
+                "playerName": "Carlos Romero",
                 "teamName": "Villarreal",
                 "text": null
               }
@@ -69411,6 +69411,12 @@
     {
       "player": "Carl Starfelt",
       "team": "Celta",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Carlos Romero",
+      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
