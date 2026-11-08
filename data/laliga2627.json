@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:57:13Z",
+  "lastUpdated": "2026-11-08T18:58:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64585,6 +64585,15 @@
                 "playerName": "Víctor García",
                 "teamName": "Levante",
                 "text": "Thiago Fernández"
+              },
+              {
+                "id": "55113542_20",
+                "type": "YELLOW_CARD",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Adrián de la Fuente",
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
@@ -64599,7 +64608,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -65020,6 +65029,15 @@
                 "playerName": "Alex Freeman",
                 "teamName": "Villarreal",
                 "text": "Santiago Mouriño"
+              },
+              {
+                "id": "55113555_17",
+                "type": "YELLOW_CARD",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Santi Comesaña",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
