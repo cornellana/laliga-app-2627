@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:58:18Z",
+  "lastUpdated": "2026-11-08T18:59:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64594,6 +64594,15 @@
                 "playerName": "Adrián de la Fuente",
                 "teamName": "Levante",
                 "text": null
+              },
+              {
+                "id": "55113670_21",
+                "type": "SUBSTITUTION",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
@@ -64608,7 +64617,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
