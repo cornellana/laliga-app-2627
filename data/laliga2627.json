@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T18:50:44Z",
+  "lastUpdated": "2026-11-08T18:51:49Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64590,7 +64590,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -64975,6 +64975,15 @@
                 "playerName": "Ramón Terrats",
                 "teamName": "Getafe",
                 "text": "Mario Martín"
+              },
+              {
+                "id": "55113014_13",
+                "type": "YELLOW_CARD",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Nemanja Gudelj",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
