@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T19:22:14Z",
+  "lastUpdated": "2026-11-08T19:23:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64641,11 +64641,11 @@
           "away": "Getafe",
           "jornada": 12,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-0",
-          "state": "in",
-          "clock": "90'+3'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
           "details": {
