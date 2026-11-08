@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T14:39:39Z",
+  "lastUpdated": "2026-11-08T14:40:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63080,10 +63080,10 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "82'",
-          "statusText": "Second Half",
+          "clock": "83'",
+          "statusText": "In Progress",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
           "details": {
@@ -63564,6 +63564,15 @@
                 "playerName": "José Antonio Morante",
                 "teamName": "Betis",
                 "text": "Troy Parrott"
+              },
+              {
+                "id": "55071862_24",
+                "type": "GOAL",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Rodrigo Riquelme",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
@@ -67581,6 +67590,12 @@
       "penalties": 1
     },
     {
+      "player": "Rodrigo Riquelme",
+      "team": "Betis",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Yan Diomande",
       "team": "Real Madrid",
       "goals": 3,
@@ -67757,12 +67772,6 @@
     {
       "player": "Robert Navarro",
       "team": "Athletic",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Rodrigo Riquelme",
-      "team": "Betis",
       "goals": 2,
       "penalties": null
     },
