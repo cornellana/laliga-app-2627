@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T14:40:43Z",
+  "lastUpdated": "2026-11-08T14:41:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63082,8 +63082,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "83'",
-          "statusText": "In Progress",
+          "clock": "84'",
+          "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
           "details": {
@@ -63571,6 +63571,24 @@
                 "minute": 81,
                 "extraTime": null,
                 "playerName": "Rodrigo Riquelme",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "55072245_25",
+                "type": "YELLOW_CARD",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Martim Neto",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "55072308_26",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Betis",
                 "text": null
               }
