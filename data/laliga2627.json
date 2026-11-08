@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T16:56:51Z",
+  "lastUpdated": "2026-11-08T16:57:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -63623,7 +63623,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Reale Arena",
           "venueCity": "San Sebastian",
@@ -64076,36 +64076,36 @@
                 "type": "SUBSTITUTION",
                 "minute": 79,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jozhua Vertrouwd",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Adrià Pedrosa"
               },
               {
                 "id": "55096313_24",
                 "type": "SUBSTITUTION",
                 "minute": 79,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gnangoro",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Unai López"
               },
               {
                 "id": "55096314_25",
                 "type": "SUBSTITUTION",
                 "minute": 79,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Isi Palazón",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Mujaid Sadick"
               },
               {
                 "id": "55096315_26",
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Randy Nteka",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Sergio Camello"
               }
             ]
           }
