@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T19:09:12Z",
+  "lastUpdated": "2026-11-08T19:10:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -64147,7 +64147,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Balaidos",
           "venueCity": "Vigo",
@@ -64615,9 +64615,9 @@
           "jornada": 12,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Estadio de la Cerámica",
           "venueCity": "Villarreal",
@@ -65065,6 +65065,15 @@
                 "playerName": "Nicolas Pepe",
                 "teamName": "Villarreal",
                 "text": "Tani Oluwaseyi"
+              },
+              {
+                "id": "55114914_20",
+                "type": "GOAL",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Tajon Buchanan",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
@@ -69732,6 +69741,12 @@
     {
       "player": "Sergio Martínez",
       "team": "Racing",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Tajon Buchanan",
+      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
