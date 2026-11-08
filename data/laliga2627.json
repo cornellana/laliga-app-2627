@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T20:03:13Z",
+  "lastUpdated": "2026-11-08T20:04:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65169,8 +65169,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
-          "statusText": "First Half",
+          "clock": "3'",
+          "statusText": "In Progress",
           "stadium": "Riyadh Air Metropolitano",
           "venueCity": "Madrid",
           "details": {
@@ -65364,7 +65364,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-1-4-1",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "297362",
@@ -65407,18 +65407,10 @@
                   "events": null
                 },
                 {
-                  "id": "376423",
-                  "jersey": 22,
-                  "name": "Marc Bernal",
-                  "position": "CM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "354334",
                   "jersey": 7,
                   "name": "Fermín López",
-                  "position": "LM",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -65426,6 +65418,14 @@
                   "id": "250465",
                   "jersey": 8,
                   "name": "Pedri",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "376423",
+                  "jersey": 22,
+                  "name": "Marc Bernal",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -65442,7 +65442,7 @@
                   "id": "268782",
                   "jersey": 17,
                   "name": "Anthony Gordon",
-                  "position": "LF",
+                  "position": "AM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -65450,7 +65450,7 @@
                   "id": "362150",
                   "jersey": 10,
                   "name": "Lamine Yamal",
-                  "position": "RF",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
