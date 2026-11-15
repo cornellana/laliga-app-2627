@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:57:24Z",
+  "lastUpdated": "2026-11-15T18:46:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66109,7 +66109,7 @@
       ]
     },
     {
-      "date": "2026-12-06",
+      "date": "2026-12-04",
       "jornada": 15,
       "games": [
         {
@@ -66127,12 +66127,18 @@
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": null
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-12-05",
+      "jornada": 15,
+      "games": [
         {
-          "id": "401882785",
-          "time": "21:00",
-          "home": "Athletic",
-          "away": "Real Madrid",
+          "id": "401882780",
+          "time": "14:00",
+          "home": "Racing",
+          "away": "Deportivo",
           "jornada": 15,
           "tv": null,
           "done": false,
@@ -66140,15 +66146,15 @@
           "state": "pre",
           "clock": null,
           "statusText": null,
-          "stadium": "San Mamés",
-          "venueCity": "Bilbao",
+          "stadium": "El Sardineros",
+          "venueCity": "Santander",
           "details": null
         },
         {
-          "id": "401882784",
-          "time": "21:00",
-          "home": "Atlético",
-          "away": "Betis",
+          "id": "401882779",
+          "time": "16:15",
+          "home": "Rayo",
+          "away": "Levante",
           "jornada": 15,
           "tv": null,
           "done": false,
@@ -66156,8 +66162,24 @@
           "state": "pre",
           "clock": null,
           "statusText": null,
-          "stadium": "Riyadh Air Metropolitano",
+          "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
+          "details": null
+        },
+        {
+          "id": "401882777",
+          "time": "18:30",
+          "home": "Villarreal",
+          "away": "R. Sociedad",
+          "jornada": 15,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Estadio de la Cerámica",
+          "venueCity": "Villarreal",
           "details": null
         },
         {
@@ -66175,26 +66197,16 @@
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": null
-        },
-        {
-          "id": "401882782",
-          "time": "21:00",
-          "home": "Getafe",
-          "away": "Valencia",
-          "jornada": 15,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Estadio Coliseum",
-          "venueCity": "Getafe",
-          "details": null
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-12-06",
+      "jornada": 15,
+      "games": [
         {
           "id": "401882781",
-          "time": "21:00",
+          "time": "14:00",
           "home": "Osasuna",
           "away": "Elche",
           "jornada": 15,
@@ -66209,10 +66221,10 @@
           "details": null
         },
         {
-          "id": "401882780",
-          "time": "21:00",
-          "home": "Racing",
-          "away": "Deportivo",
+          "id": "401882785",
+          "time": "16:15",
+          "home": "Athletic",
+          "away": "Real Madrid",
           "jornada": 15,
           "tv": null,
           "done": false,
@@ -66220,15 +66232,15 @@
           "state": "pre",
           "clock": null,
           "statusText": null,
-          "stadium": "El Sardineros",
-          "venueCity": "Santander",
+          "stadium": "San Mamés",
+          "venueCity": "Bilbao",
           "details": null
         },
         {
-          "id": "401882779",
-          "time": "21:00",
-          "home": "Rayo",
-          "away": "Levante",
+          "id": "401882782",
+          "time": "18:30",
+          "home": "Getafe",
+          "away": "Valencia",
           "jornada": 15,
           "tv": null,
           "done": false,
@@ -66236,10 +66248,32 @@
           "state": "pre",
           "clock": null,
           "statusText": null,
-          "stadium": "Estadio de Vallecas",
-          "venueCity": "Madrid",
+          "stadium": "Estadio Coliseum",
+          "venueCity": "Getafe",
           "details": null
         },
+        {
+          "id": "401882784",
+          "time": "21:00",
+          "home": "Atlético",
+          "away": "Betis",
+          "jornada": 15,
+          "tv": null,
+          "done": false,
+          "result": null,
+          "state": "pre",
+          "clock": null,
+          "statusText": null,
+          "stadium": "Riyadh Air Metropolitano",
+          "venueCity": "Madrid",
+          "details": null
+        }
+      ]
+    },
+    {
+      "date": "2026-12-07",
+      "jornada": 15,
+      "games": [
         {
           "id": "401882778",
           "time": "21:00",
@@ -66254,22 +66288,6 @@
           "statusText": null,
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
-          "details": null
-        },
-        {
-          "id": "401882777",
-          "time": "21:00",
-          "home": "Villarreal",
-          "away": "R. Sociedad",
-          "jornada": 15,
-          "tv": null,
-          "done": false,
-          "result": null,
-          "state": "pre",
-          "clock": null,
-          "statusText": null,
-          "stadium": "Estadio de la Cerámica",
-          "venueCity": "Villarreal",
           "details": null
         }
       ]
