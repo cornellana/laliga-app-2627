@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:30:07Z",
+  "lastUpdated": "2026-11-20T21:31:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66171,6 +66171,15 @@
                 "playerName": "Robert Navarro",
                 "teamName": "Athletic",
                 "text": "Hugo Rincón"
+              },
+              {
+                "id": "55413011_11",
+                "type": "YELLOW_CARD",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Iñigo Ruiz de Galarreta",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
