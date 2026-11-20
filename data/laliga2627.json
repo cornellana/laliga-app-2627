@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:48:37Z",
+  "lastUpdated": "2026-11-20T21:49:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66220,7 +66220,7 @@
               {
                 "id": "55413742_16",
                 "type": "SUBSTITUTION",
-                "minute": 86,
+                "minute": 85,
                 "extraTime": null,
                 "playerName": "Unai Núñez",
                 "teamName": "Espanyol",
