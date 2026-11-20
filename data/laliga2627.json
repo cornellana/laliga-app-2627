@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:26:52Z",
+  "lastUpdated": "2026-11-20T21:27:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66141,7 +66141,16 @@
                 "type": "SUBSTITUTION",
                 "minute": 65,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gabriel Moscardo",
+                "teamName": "Espanyol",
+                "text": "Roger Hinojo"
+              },
+              {
+                "id": "55412829_8",
+                "type": "GOAL",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Roberto Fernández",
                 "teamName": "Espanyol",
                 "text": null
               }
@@ -70093,6 +70102,12 @@
       "penalties": null
     },
     {
+      "player": "Roberto Fernández",
+      "team": "Espanyol",
+      "goals": 7,
+      "penalties": null
+    },
+    {
       "player": "Sergio Camello",
       "team": "Rayo",
       "goals": 7,
@@ -70103,12 +70118,6 @@
       "team": "Elche",
       "goals": 6,
       "penalties": 1
-    },
-    {
-      "player": "Roberto Fernández",
-      "team": "Espanyol",
-      "goals": 6,
-      "penalties": null
     },
     {
       "player": "Adrián Niño",
