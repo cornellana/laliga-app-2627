@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:52:58Z",
+  "lastUpdated": "2026-11-20T21:54:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66225,6 +66225,15 @@
                 "playerName": "Javi Puado",
                 "teamName": "Espanyol",
                 "text": "Quilindschy Hartman"
+              },
+              {
+                "id": "55413852_17",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Clemens Riedel",
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
