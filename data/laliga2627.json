@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T20:17:41Z",
+  "lastUpdated": "2026-11-20T20:18:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "15'",
+          "clock": "16'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -65773,17 +65773,17 @@
                   "events": null
                 },
                 {
-                  "id": "318785",
-                  "jersey": 6,
-                  "name": "Beñat Prados",
+                  "id": "388805",
+                  "jersey": 28,
+                  "name": "Peio Canales",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "388805",
-                  "jersey": 28,
-                  "name": "Peio Canales",
+                  "id": "318785",
+                  "jersey": 6,
+                  "name": "Beñat Prados",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
