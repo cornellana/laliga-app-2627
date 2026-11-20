@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:43:10Z",
+  "lastUpdated": "2026-11-20T21:44:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66178,6 +66178,15 @@
                 "minute": 70,
                 "extraTime": null,
                 "playerName": "Iñigo Ruiz de Galarreta",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "55413620_12",
+                "type": "YELLOW_CARD",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Yeray",
                 "teamName": "Athletic",
                 "text": null
               }
