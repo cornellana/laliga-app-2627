@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:20:20Z",
+  "lastUpdated": "2026-11-20T21:21:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66117,6 +66117,15 @@
                 "playerName": "Iñaki Williams",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "55412527_5",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Iñigo Ruiz de Galarreta",
+                "teamName": "Athletic",
+                "text": "Peio Canales"
               }
             ]
           }
