@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:18:10Z",
+  "lastUpdated": "2026-11-20T21:19:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66108,6 +66108,15 @@
                 "playerName": "Tyrhys Dolan",
                 "teamName": "Espanyol",
                 "text": "Pere Milla"
+              },
+              {
+                "id": "55412428_4",
+                "type": "YELLOW_CARD",
+                "minute": 58,
+                "extraTime": null,
+                "playerName": "Iñaki Williams",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
