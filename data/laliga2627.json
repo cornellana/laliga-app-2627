@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:17:04Z",
+  "lastUpdated": "2026-11-20T21:18:10Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66099,7 +66099,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55412376_3",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Tyrhys Dolan",
+                "teamName": "Espanyol",
+                "text": "Pere Milla"
+              }
+            ]
           }
         }
       ]
