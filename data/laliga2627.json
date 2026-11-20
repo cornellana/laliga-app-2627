@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:45:21Z",
+  "lastUpdated": "2026-11-20T21:46:26Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "85'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66189,6 +66189,15 @@
                 "playerName": "Yeray Álvarez",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "55413683_13",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Alejandro Rego",
+                "teamName": "Athletic",
+                "text": "Aymeric Laporte"
               }
             ]
           }
