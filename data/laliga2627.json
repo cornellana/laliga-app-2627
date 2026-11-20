@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:47:31Z",
+  "lastUpdated": "2026-11-20T21:48:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66215,16 +66215,16 @@
                 "extraTime": null,
                 "playerName": "Javi Puado",
                 "teamName": "Espanyol",
-                "text": "Roberto Fernández"
+                "text": "Quilindschy Hartman"
               },
               {
                 "id": "55413742_16",
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Unai Núñez",
                 "teamName": "Espanyol",
-                "text": null
+                "text": "Alejandro Santiago"
               }
             ]
           }
