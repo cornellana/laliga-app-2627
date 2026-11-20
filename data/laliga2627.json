@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:46:26Z",
+  "lastUpdated": "2026-11-20T21:47:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66198,6 +66198,33 @@
                 "playerName": "Alejandro Rego",
                 "teamName": "Athletic",
                 "text": "Aymeric Laporte"
+              },
+              {
+                "id": "55413700_14",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Txus Vizcay",
+                "teamName": "Athletic",
+                "text": "Oihan Sancet"
+              },
+              {
+                "id": "55413701_15",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Javi Puado",
+                "teamName": "Espanyol",
+                "text": "Roberto Fernández"
+              },
+              {
+                "id": "55413742_16",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
