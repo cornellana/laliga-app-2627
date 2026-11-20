@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T20:10:02Z",
+  "lastUpdated": "2026-11-20T20:11:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "8'",
+          "clock": "9'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -65946,9 +65946,9 @@
                   "events": null
                 },
                 {
-                  "id": "401377",
-                  "jersey": 21,
-                  "name": "Roger Hinojo",
+                  "id": "3111255",
+                  "jersey": 36,
+                  "name": "Alejandro Santiago",
                   "position": "LB",
                   "isStarter": true,
                   "events": null
@@ -65978,9 +65978,9 @@
                   "events": null
                 },
                 {
-                  "id": "3111255",
-                  "jersey": 36,
-                  "name": "Alejandro Santiago",
+                  "id": "401377",
+                  "jersey": 21,
+                  "name": "Roger Hinojo",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
