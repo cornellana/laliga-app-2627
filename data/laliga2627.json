@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:25:47Z",
+  "lastUpdated": "2026-11-20T21:26:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65714,9 +65714,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66126,6 +66126,24 @@
                 "playerName": "Iñigo Ruiz de Galarreta",
                 "teamName": "Athletic",
                 "text": "Peio Canales"
+              },
+              {
+                "id": "55412805_6",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Javi Hernández",
+                "teamName": "Espanyol",
+                "text": "Rafel Bauzà"
+              },
+              {
+                "id": "55412860_7",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Espanyol",
+                "text": null
               }
             ]
           }
