@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T21:29:02Z",
+  "lastUpdated": "2026-11-20T21:30:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -66153,6 +66153,24 @@
                 "playerName": "Roberto Fernández",
                 "teamName": "Espanyol",
                 "text": null
+              },
+              {
+                "id": "55412969_9",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Beñat Gerenabarrena",
+                "teamName": "Athletic",
+                "text": "Beñat Prados"
+              },
+              {
+                "id": "55412970_10",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Robert Navarro",
+                "teamName": "Athletic",
+                "text": "Hugo Rincón"
               }
             ]
           }
