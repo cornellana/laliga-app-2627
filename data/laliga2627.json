@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T20:11:08Z",
+  "lastUpdated": "2026-11-20T20:12:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -65716,7 +65716,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "9'",
+          "clock": "10'",
           "statusText": "First Half",
           "stadium": "San Mamés",
           "venueCity": "Bilbao",
@@ -65911,7 +65911,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "5-4-1",
+              "formation": "5-3-2",
               "players": [
                 {
                   "id": "307419",
@@ -65962,6 +65962,14 @@
                   "events": null
                 },
                 {
+                  "id": "260242",
+                  "jersey": 10,
+                  "name": "Pol Lozano",
+                  "position": "CM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "383900",
                   "jersey": 26,
                   "name": "Rafael Bauza",
@@ -65970,26 +65978,10 @@
                   "events": null
                 },
                 {
-                  "id": "260242",
-                  "jersey": 10,
-                  "name": "Pol Lozano",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "401377",
                   "jersey": 21,
                   "name": "Roger Hinojo",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "196914",
-                  "jersey": 11,
-                  "name": "Pere Milla",
-                  "position": "RM",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -65997,7 +65989,15 @@
                   "id": "318773",
                   "jersey": 9,
                   "name": "Roberto Fernández",
-                  "position": "F",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "196914",
+                  "jersey": 11,
+                  "name": "Pere Milla",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
