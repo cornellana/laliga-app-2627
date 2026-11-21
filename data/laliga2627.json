@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:55:06Z",
+  "lastUpdated": "2026-11-21T14:56:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66251,11 +66251,11 @@
           "away": "Deportivo",
           "jornada": 13,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "3-1",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
@@ -66449,7 +66449,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "5-3-2",
+              "formation": "4-5-1",
               "players": [
                 {
                   "id": "300926",
