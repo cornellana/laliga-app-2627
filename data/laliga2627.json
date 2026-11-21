@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T21:46:13Z",
+  "lastUpdated": "2026-11-21T21:47:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67949,7 +67949,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -68431,6 +68431,15 @@
                 "playerName": "Iago Aspas",
                 "teamName": "Celta",
                 "text": "Pablo Durán"
+              },
+              {
+                "id": "55507797_22",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Javi Rueda",
+                "teamName": "Celta",
+                "text": "Javi Galán"
               }
             ]
           }
