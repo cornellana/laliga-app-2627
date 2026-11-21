@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:37:42Z",
+  "lastUpdated": "2026-11-21T14:38:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66801,7 +66801,16 @@
                 "text": "Ángel Pérez"
               },
               {
-                "id": "55443192_21",
+                "id": "55443485_21",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Mariano Díaz",
+                "teamName": "Alavés",
+                "text": "Toni Martínez"
+              },
+              {
+                "id": "55443192_22",
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
