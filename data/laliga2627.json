@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:04:58Z",
+  "lastUpdated": "2026-11-21T16:06:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66859,7 +66859,7 @@
           "result": "0-1",
           "state": "in",
           "clock": "45'+3'",
-          "statusText": "First Half",
+          "statusText": "Halftime",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
           "details": {
@@ -67249,6 +67249,15 @@
                 "extraTime": null,
                 "playerName": "Copete",
                 "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "55462671_2",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": 1,
+                "playerName": "Sergio Camello",
+                "teamName": "Rayo",
                 "text": null
               }
             ]
