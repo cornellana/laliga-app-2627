@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T18:54:25Z",
+  "lastUpdated": "2026-11-21T18:55:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67827,6 +67827,24 @@
                 "playerName": "Giorgi Kochorashvili",
                 "teamName": "Sevilla",
                 "text": "Jon Guridi"
+              },
+              {
+                "id": "55485994_22",
+                "type": "YELLOW_CARD",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Andrés Castrín",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "55486007_23",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Troy Parrott",
+                "teamName": "Betis",
+                "text": "Aitor Ruibal"
               }
             ]
           }
