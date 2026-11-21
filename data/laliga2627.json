@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:44:39Z",
+  "lastUpdated": "2026-11-21T16:45:45Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67295,6 +67295,24 @@
                 "playerName": "Filip Ugrinic",
                 "teamName": "Valencia",
                 "text": "Dani Raba"
+              },
+              {
+                "id": "55473433_9",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Alemão",
+                "teamName": "Rayo",
+                "text": "Isi Palazón"
+              },
+              {
+                "id": "55473434_10",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Álvaro García",
+                "teamName": "Rayo",
+                "text": "Mujaid Sadick"
               }
             ]
           }
