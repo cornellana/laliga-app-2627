@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:40:18Z",
+  "lastUpdated": "2026-11-21T16:41:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,8 +66858,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "65'",
-          "statusText": "Second Half",
+          "clock": "66'",
+          "statusText": "In Progress",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
           "details": {
@@ -67277,6 +67277,15 @@
                 "playerName": "Pedro Díaz",
                 "teamName": "Rayo",
                 "text": "Randy Nteka"
+              },
+              {
+                "id": "55472297_7",
+                "type": "YELLOW_CARD",
+                "minute": 64,
+                "extraTime": null,
+                "playerName": "Javier Guerra",
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
