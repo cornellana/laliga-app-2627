@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T21:25:36Z",
+  "lastUpdated": "2026-11-21T21:26:43Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67949,7 +67949,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "58'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -68350,6 +68350,33 @@
                 "playerName": "Ferran Jutglà",
                 "teamName": "Celta",
                 "text": "Hugo Álvarez"
+              },
+              {
+                "id": "55504683_9",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Federico Valverde",
+                "teamName": "Real Madrid",
+                "text": "Bernardo Silva"
+              },
+              {
+                "id": "55504684_10",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Marc Cucurella",
+                "teamName": "Real Madrid",
+                "text": "Álvaro Carreras"
+              },
+              {
+                "id": "55504685_11",
+                "type": "SUBSTITUTION",
+                "minute": 57,
+                "extraTime": null,
+                "playerName": "Vinícius Júnior",
+                "teamName": "Real Madrid",
+                "text": "Trent Alexander-Arnold"
               }
             ]
           }
