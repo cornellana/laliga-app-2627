@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T21:39:42Z",
+  "lastUpdated": "2026-11-21T21:40:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67949,7 +67949,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "72'",
+          "clock": "73'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -68404,6 +68404,15 @@
                 "playerName": "Aleix Febas",
                 "teamName": "Celta",
                 "text": "Williot Swedberg"
+              },
+              {
+                "id": "55506937_19",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Endrick",
+                "teamName": "Real Madrid",
+                "text": "Yan Diomande"
               }
             ]
           }
