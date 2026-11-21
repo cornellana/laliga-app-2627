@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T19:01:59Z",
+  "lastUpdated": "2026-11-21T19:03:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67845,6 +67845,15 @@
                 "playerName": "Troy Parrott",
                 "teamName": "Betis",
                 "text": "Aitor Ruibal"
+              },
+              {
+                "id": "55486648_28",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Isaac Romero",
+                "teamName": "Sevilla",
+                "text": "Lucien Agoumé"
               }
             ]
           }
