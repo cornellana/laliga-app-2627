@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T15:18:12Z",
+  "lastUpdated": "2026-11-21T15:19:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -66939,17 +66939,17 @@
                   "events": null
                 },
                 {
-                  "id": "264197",
-                  "jersey": 7,
-                  "name": "Isi Palazón",
+                  "id": "260740",
+                  "jersey": 19,
+                  "name": "Jorge de Frutos",
                   "position": "LF",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "260740",
-                  "jersey": 19,
-                  "name": "Jorge de Frutos",
+                  "id": "264197",
+                  "jersey": 7,
+                  "name": "Isi Palazón",
                   "position": "RF",
                   "isStarter": true,
                   "events": null
