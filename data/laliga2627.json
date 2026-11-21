@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T17:02:03Z",
+  "lastUpdated": "2026-11-21T17:03:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "86'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67355,18 +67355,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Hugo Duro",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Umar Sadiq"
               },
               {
                 "id": "55476247_16",
                 "type": "SUBSTITUTION",
                 "minute": 83,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Aliou Dieng",
                 "teamName": "Valencia",
-                "text": null
+                "text": "Javi Guerra"
               }
             ]
           }
