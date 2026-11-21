@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T13:01:23Z",
+  "lastUpdated": "2026-11-21T13:02:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,8 +66254,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
-          "statusText": "In Progress",
+          "clock": "2'",
+          "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
@@ -66271,18 +66271,18 @@
                   "events": null
                 },
                 {
-                  "id": "262491",
-                  "jersey": 14,
-                  "name": "Nahuel Tenaglia",
-                  "position": "D",
+                  "id": "149306",
+                  "jersey": 16,
+                  "name": "Ville Koski",
+                  "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "176312",
-                  "jersey": 17,
-                  "name": "Jonny",
-                  "position": "D",
+                  "id": "262491",
+                  "jersey": 14,
+                  "name": "Nahuel Tenaglia",
+                  "position": "CD-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -66290,15 +66290,15 @@
                   "id": "345991",
                   "jersey": 21,
                   "name": "Abde Rebbach",
-                  "position": "D",
+                  "position": "LB",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "149306",
-                  "jersey": 16,
-                  "name": "Ville Koski",
-                  "position": "D",
+                  "id": "176312",
+                  "jersey": 17,
+                  "name": "Jonny",
+                  "position": "RB",
                   "isStarter": true,
                   "events": null
                 },
@@ -66306,15 +66306,7 @@
                   "id": "106326",
                   "jersey": 19,
                   "name": "Pablo Ibáñez",
-                  "position": "M",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "374621",
-                  "jersey": 7,
-                  "name": "Ángel Pérez",
-                  "position": "M",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -66322,7 +66314,7 @@
                   "id": "265997",
                   "jersey": 8,
                   "name": "Antonio Blanco",
-                  "position": "M",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -66330,15 +66322,15 @@
                   "id": "163068",
                   "jersey": 4,
                   "name": "Denis Suárez",
-                  "position": "M",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "207236",
-                  "jersey": 15,
-                  "name": "Lucas Boyé",
-                  "position": "F",
+                  "id": "374621",
+                  "jersey": 7,
+                  "name": "Ángel Pérez",
+                  "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
@@ -66346,7 +66338,15 @@
                   "id": "181757",
                   "jersey": 11,
                   "name": "Toni Martínez",
-                  "position": "F",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "207236",
+                  "jersey": 15,
+                  "name": "Lucas Boyé",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -66460,26 +66460,18 @@
                   "events": null
                 },
                 {
-                  "id": "259915",
-                  "jersey": 15,
-                  "name": "Miguel Loureiro",
-                  "position": "D",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "321112",
                   "jersey": 4,
                   "name": "Lucas Noubi",
-                  "position": "D",
+                  "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "157568",
-                  "jersey": 23,
-                  "name": "Ximo Navarro",
-                  "position": "D",
+                  "id": "259915",
+                  "jersey": 15,
+                  "name": "Miguel Loureiro",
+                  "position": "CD-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -66487,23 +66479,15 @@
                   "id": "275924",
                   "jersey": 12,
                   "name": "Giacomo Quagliata",
-                  "position": "D",
+                  "position": "LB",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "297353",
-                  "jersey": 21,
-                  "name": "Mario Soriano Carreno",
-                  "position": "M",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "279609",
-                  "jersey": 14,
-                  "name": "Riki Rodríguez",
-                  "position": "M",
+                  "id": "157568",
+                  "jersey": 23,
+                  "name": "Ximo Navarro",
+                  "position": "RB",
                   "isStarter": true,
                   "events": null
                 },
@@ -66511,7 +66495,15 @@
                   "id": "345489",
                   "jersey": 6,
                   "name": "Marc Casadó",
-                  "position": "M",
+                  "position": "CM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "279609",
+                  "jersey": 14,
+                  "name": "Riki Rodríguez",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -66519,15 +66511,15 @@
                   "id": "324166",
                   "jersey": 19,
                   "name": "Luismi Cruz",
-                  "position": "M",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "312392",
-                  "jersey": 10,
-                  "name": "Yeremay Hernández",
-                  "position": "F",
+                  "id": "297353",
+                  "jersey": 21,
+                  "name": "Mario Soriano Carreno",
+                  "position": "RM",
                   "isStarter": true,
                   "events": null
                 },
@@ -66535,7 +66527,15 @@
                   "id": "122260",
                   "jersey": 7,
                   "name": "Pierre-Emerick Aubameyang",
-                  "position": "F",
+                  "position": "CF-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "312392",
+                  "jersey": 10,
+                  "name": "Yeremay Hernández",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
