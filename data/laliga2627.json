@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T13:02:29Z",
+  "lastUpdated": "2026-11-21T13:03:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66252,9 +66252,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66449,13 +66449,21 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "5-3-2",
               "players": [
                 {
                   "id": "300926",
                   "jersey": 13,
                   "name": "Leo Román",
                   "position": "G",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "259915",
+                  "jersey": 15,
+                  "name": "Miguel Loureiro",
+                  "position": "CD",
                   "isStarter": true,
                   "events": null
                 },
@@ -66468,9 +66476,9 @@
                   "events": null
                 },
                 {
-                  "id": "259915",
-                  "jersey": 15,
-                  "name": "Miguel Loureiro",
+                  "id": "157568",
+                  "jersey": 23,
+                  "name": "Ximo Navarro",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -66484,9 +66492,9 @@
                   "events": null
                 },
                 {
-                  "id": "157568",
-                  "jersey": 23,
-                  "name": "Ximo Navarro",
+                  "id": "324166",
+                  "jersey": 19,
+                  "name": "Luismi Cruz",
                   "position": "RB",
                   "isStarter": true,
                   "events": null
@@ -66495,7 +66503,7 @@
                   "id": "345489",
                   "jersey": 6,
                   "name": "Marc Casadó",
-                  "position": "CM-L",
+                  "position": "CM",
                   "isStarter": true,
                   "events": null
                 },
@@ -66503,15 +66511,7 @@
                   "id": "279609",
                   "jersey": 14,
                   "name": "Riki Rodríguez",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "324166",
-                  "jersey": 19,
-                  "name": "Luismi Cruz",
-                  "position": "LM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -66519,7 +66519,7 @@
                   "id": "297353",
                   "jersey": 21,
                   "name": "Mario Soriano Carreno",
-                  "position": "RM",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -66637,7 +66637,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55435289_1",
+                "type": "GOAL",
+                "minute": 2,
+                "extraTime": null,
+                "playerName": "Ángel Pérez",
+                "teamName": "Alavés",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -71513,6 +71523,12 @@
     {
       "player": "Álvaro Carreras",
       "team": "Real Madrid",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Ángel Pérez",
+      "team": "Alavés",
       "goals": 1,
       "penalties": null
     }
