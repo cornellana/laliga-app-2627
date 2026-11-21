@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:49:39Z",
+  "lastUpdated": "2026-11-21T14:50:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66252,9 +66252,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "3-1",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66833,6 +66833,15 @@
                 "minute": 89,
                 "extraTime": null,
                 "playerName": "Ander Guevara",
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "55445056_29",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Denis Suárez",
                 "teamName": "Alavés",
                 "text": null
               }
@@ -71262,6 +71271,12 @@
     {
       "player": "David Otorbi",
       "team": "Valencia",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Denis Suárez",
+      "team": "Alavés",
       "goals": 1,
       "penalties": null
     },
