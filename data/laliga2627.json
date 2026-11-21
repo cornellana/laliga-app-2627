@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T21:12:33Z",
+  "lastUpdated": "2026-11-21T21:13:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67949,8 +67949,8 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
@@ -68347,9 +68347,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ferran Jutglà",
                 "teamName": "Celta",
-                "text": null
+                "text": "Hugo Álvarez"
               }
             ]
           }
