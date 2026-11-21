@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T17:47:50Z",
+  "lastUpdated": "2026-11-21T17:48:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "14'",
+          "clock": "15'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67770,7 +67770,16 @@
                 "type": "YELLOW_CARD",
                 "minute": 11,
                 "extraTime": null,
-                "playerName": "Diego Llorente",
+                "playerName": "Junior Firpo",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "55479548_10",
+                "type": "YELLOW_CARD",
+                "minute": 11,
+                "extraTime": null,
+                "playerName": "Cucho Hernández",
                 "teamName": "Betis",
                 "text": null
               }
