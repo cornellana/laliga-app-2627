@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:45:45Z",
+  "lastUpdated": "2026-11-21T16:46:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67297,7 +67297,16 @@
                 "text": "Dani Raba"
               },
               {
-                "id": "55473433_9",
+                "id": "55473434_9",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Álvaro García",
+                "teamName": "Rayo",
+                "text": "Mujaid Sadick"
+              },
+              {
+                "id": "55473433_10",
                 "type": "SUBSTITUTION",
                 "minute": 70,
                 "extraTime": null,
@@ -67306,13 +67315,13 @@
                 "text": "Isi Palazón"
               },
               {
-                "id": "55473434_10",
-                "type": "SUBSTITUTION",
-                "minute": 70,
+                "id": "55473731_11",
+                "type": "YELLOW_CARD",
+                "minute": 71,
                 "extraTime": null,
-                "playerName": "Álvaro García",
+                "playerName": "Jorge de Frutos",
                 "teamName": "Rayo",
-                "text": "Mujaid Sadick"
+                "text": null
               }
             ]
           }
