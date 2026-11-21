@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T20:56:47Z",
+  "lastUpdated": "2026-11-21T21:12:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68339,6 +68339,15 @@
                 "minute": 6,
                 "extraTime": null,
                 "playerName": "Pablo Durán",
+                "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "55501985_7",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Celta",
                 "text": null
               }
