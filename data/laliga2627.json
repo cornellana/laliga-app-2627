@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:56:35Z",
+  "lastUpdated": "2026-11-21T16:57:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67337,9 +67337,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 80,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Gnangoro",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Unai López"
               }
             ]
           }
