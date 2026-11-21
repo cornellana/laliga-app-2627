@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:05:06Z",
+  "lastUpdated": "2026-11-21T14:06:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66691,6 +66691,15 @@
                 "playerName": "Adama Traoré",
                 "teamName": "Deportivo",
                 "text": "Ximo Navarro"
+              },
+              {
+                "id": "55439785_8",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
