@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T19:30:11Z",
+  "lastUpdated": "2026-11-21T19:31:16Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67378,11 +67378,11 @@
           "away": "Betis",
           "jornada": 13,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "1-1",
-          "state": "in",
-          "clock": "90'+7'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
           "details": {
@@ -67910,7 +67910,7 @@
                 "text": null
               },
               {
-                "id": "55488539_36",
+                "id": "55488539_35",
                 "type": "YELLOW_CARD",
                 "minute": 86,
                 "extraTime": null,
