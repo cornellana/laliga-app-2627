@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T21:33:12Z",
+  "lastUpdated": "2026-11-21T21:34:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67947,9 +67947,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -68377,6 +68377,15 @@
                 "playerName": "Vinícius Júnior",
                 "teamName": "Real Madrid",
                 "text": "Trent Alexander-Arnold"
+              },
+              {
+                "id": "55506064_12",
+                "type": "GOAL",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Jude Bellingham",
+                "teamName": "Real Madrid",
+                "text": null
               }
             ]
           }
@@ -72286,6 +72295,12 @@
       "penalties": null
     },
     {
+      "player": "Jude Bellingham",
+      "team": "Real Madrid",
+      "goals": 5,
+      "penalties": null
+    },
+    {
       "player": "Pierre-Emerick Aubameyang",
       "team": "Deportivo",
       "goals": 5,
@@ -72318,12 +72333,6 @@
     {
       "player": "Giuliano Simeone",
       "team": "Atlético",
-      "goals": 4,
-      "penalties": null
-    },
-    {
-      "player": "Jude Bellingham",
-      "team": "Real Madrid",
       "goals": 4,
       "penalties": null
     },
