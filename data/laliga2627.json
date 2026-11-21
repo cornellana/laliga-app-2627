@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T19:03:03Z",
+  "lastUpdated": "2026-11-21T19:04:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67854,6 +67854,24 @@
                 "playerName": "Isaac Romero",
                 "teamName": "Sevilla",
                 "text": "Lucien Agoumé"
+              },
+              {
+                "id": "55486736_29",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Robbie Ure",
+                "teamName": "Sevilla",
+                "text": "Lucas Stassin"
+              },
+              {
+                "id": "55486737_30",
+                "type": "SUBSTITUTION",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Nelson Deossa",
+                "teamName": "Betis",
+                "text": "Abde Ezzalzouli"
               }
             ]
           }
