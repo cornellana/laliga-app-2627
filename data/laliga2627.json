@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T13:05:46Z",
+  "lastUpdated": "2026-11-21T13:06:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66645,6 +66645,15 @@
                 "extraTime": null,
                 "playerName": "Ángel Pérez",
                 "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "55435465_2",
+                "type": "YELLOW_CARD",
+                "minute": 5,
+                "extraTime": null,
+                "playerName": "Ximo Navarro",
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
