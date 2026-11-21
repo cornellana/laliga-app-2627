@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T19:20:26Z",
+  "lastUpdated": "2026-11-21T19:21:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67907,6 +67907,15 @@
                 "extraTime": null,
                 "playerName": "Robbie Ure",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "55488256_35",
+                "type": "YELLOW_CARD",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Pablo Fornals",
+                "teamName": "Betis",
                 "text": null
               }
             ]
