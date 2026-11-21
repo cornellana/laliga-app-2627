@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:15:59Z",
+  "lastUpdated": "2026-11-21T14:17:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "57'",
+          "clock": "58'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66716,6 +66716,24 @@
                 "minute": 55,
                 "extraTime": null,
                 "playerName": "Lucas Boyé",
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "55441032_13",
+                "type": "YELLOW_CARD",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Adama Traoré",
+                "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "55441033_14",
+                "type": "YELLOW_CARD",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Abde Rebbach",
                 "teamName": "Alavés",
                 "text": null
               }
