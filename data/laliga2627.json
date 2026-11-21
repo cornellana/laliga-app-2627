@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:21:24Z",
+  "lastUpdated": "2026-11-21T14:22:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66252,9 +66252,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "2-1",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66742,8 +66742,17 @@
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Lorenzo Amatucci",
                 "teamName": "Deportivo",
+                "text": "Mario Soriano"
+              },
+              {
+                "id": "55441812_15",
+                "type": "GOAL",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Lucas Boyé",
+                "teamName": "Alavés",
                 "text": null
               }
             ]
@@ -70690,16 +70699,16 @@
       "penalties": 1
     },
     {
+      "player": "Lucas Boyé",
+      "team": "Alavés",
+      "goals": 6,
+      "penalties": 1
+    },
+    {
       "player": "Adrián Niño",
       "team": "Málaga",
       "goals": 5,
       "penalties": null
-    },
-    {
-      "player": "Lucas Boyé",
-      "team": "Alavés",
-      "goals": 5,
-      "penalties": 1
     },
     {
       "player": "Pierre-Emerick Aubameyang",
