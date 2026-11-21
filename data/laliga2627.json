@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:17:04Z",
+  "lastUpdated": "2026-11-21T14:18:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "58'",
+          "clock": "59'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66720,7 +66720,7 @@
                 "text": null
               },
               {
-                "id": "55441032_13",
+                "id": "55441032_12",
                 "type": "YELLOW_CARD",
                 "minute": 56,
                 "extraTime": null,
@@ -66729,7 +66729,7 @@
                 "text": null
               },
               {
-                "id": "55441033_14",
+                "id": "55441033_13",
                 "type": "YELLOW_CARD",
                 "minute": 56,
                 "extraTime": null,
