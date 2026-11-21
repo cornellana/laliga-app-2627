@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T21:50:37Z",
+  "lastUpdated": "2026-11-21T21:51:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67949,7 +67949,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -68449,6 +68449,15 @@
                 "playerName": "Carlos Espí",
                 "teamName": "Real Madrid",
                 "text": "Eduardo Camavinga"
+              },
+              {
+                "id": "55508305_24",
+                "type": "YELLOW_CARD",
+                "minute": 82,
+                "extraTime": null,
+                "playerName": "Javi Rodríguez",
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
