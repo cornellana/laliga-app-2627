@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:29:01Z",
+  "lastUpdated": "2026-11-21T14:30:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "70'",
+          "clock": "71'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66787,9 +66787,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Youssef Enriquez",
                 "teamName": "Alavés",
-                "text": null
+                "text": "Abde Rebbach"
               },
               {
                 "id": "55442294_20",
