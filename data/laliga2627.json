@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T18:53:20Z",
+  "lastUpdated": "2026-11-21T18:54:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67809,6 +67809,24 @@
                 "playerName": "Antony",
                 "teamName": "Betis",
                 "text": null
+              },
+              {
+                "id": "55485962_20",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Chidera Ejuke",
+                "teamName": "Sevilla",
+                "text": "Félix Correia"
+              },
+              {
+                "id": "55485963_21",
+                "type": "SUBSTITUTION",
+                "minute": 59,
+                "extraTime": null,
+                "playerName": "Giorgi Kochorashvili",
+                "teamName": "Sevilla",
+                "text": "Jon Guridi"
               }
             ]
           }
