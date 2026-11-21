@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T13:03:35Z",
+  "lastUpdated": "2026-11-21T13:04:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,13 +66254,13 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
             "homeLineup": {
-              "formation": "4-4-2",
+              "formation": "3-5-2",
               "players": [
                 {
                   "id": "200910",
@@ -66274,6 +66274,14 @@
                   "id": "149306",
                   "jersey": 16,
                   "name": "Ville Koski",
+                  "position": "CD",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "176312",
+                  "jersey": 17,
+                  "name": "Jonny",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
@@ -66287,18 +66295,10 @@
                   "events": null
                 },
                 {
-                  "id": "345991",
-                  "jersey": 21,
-                  "name": "Abde Rebbach",
-                  "position": "LB",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "176312",
-                  "jersey": 17,
-                  "name": "Jonny",
-                  "position": "RB",
+                  "id": "163068",
+                  "jersey": 4,
+                  "name": "Denis Suárez",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -66306,7 +66306,7 @@
                   "id": "106326",
                   "jersey": 19,
                   "name": "Pablo Ibáñez",
-                  "position": "CM-L",
+                  "position": "CM-R",
                   "isStarter": true,
                   "events": null
                 },
@@ -66314,14 +66314,14 @@
                   "id": "265997",
                   "jersey": 8,
                   "name": "Antonio Blanco",
-                  "position": "CM-R",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "163068",
-                  "jersey": 4,
-                  "name": "Denis Suárez",
+                  "id": "345991",
+                  "jersey": 21,
+                  "name": "Abde Rebbach",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
