@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T17:53:15Z",
+  "lastUpdated": "2026-11-21T17:54:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "19'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67789,6 +67789,15 @@
                 "minute": 15,
                 "extraTime": null,
                 "playerName": "Lucien Agoumé",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "55480175_12",
+                "type": "YELLOW_CARD",
+                "minute": 18,
+                "extraTime": null,
+                "playerName": "Kike Salas",
                 "teamName": "Sevilla",
                 "text": null
               }
