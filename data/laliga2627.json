@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T22:02:33Z",
+  "lastUpdated": "2026-11-21T22:03:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67946,11 +67946,11 @@
           "away": "Celta",
           "jornada": 13,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "2-1",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
