@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T13:34:04Z",
+  "lastUpdated": "2026-11-21T13:35:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "34'",
+          "clock": "35'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66663,6 +66663,15 @@
                 "extraTime": null,
                 "playerName": "Giacomo Quagliata",
                 "teamName": "Deportivo",
+                "text": null
+              },
+              {
+                "id": "55437186_4",
+                "type": "YELLOW_CARD",
+                "minute": 32,
+                "extraTime": null,
+                "playerName": "Ángel Pérez",
+                "teamName": "Alavés",
                 "text": null
               }
             ]
