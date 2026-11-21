@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T19:23:41Z",
+  "lastUpdated": "2026-11-21T19:24:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67379,9 +67379,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67910,7 +67910,16 @@
                 "text": null
               },
               {
-                "id": "55488256_36",
+                "id": "55488539_36",
+                "type": "YELLOW_CARD",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Juan Iglesias",
+                "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "55488256_37",
                 "type": "YELLOW_CARD",
                 "minute": 86,
                 "extraTime": null,
