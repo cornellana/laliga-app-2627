@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:08:22Z",
+  "lastUpdated": "2026-11-21T14:09:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "49'",
+          "clock": "50'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66700,6 +66700,15 @@
                 "playerName": "José María Giménez",
                 "teamName": "Deportivo",
                 "text": "Riki Rodríguez"
+              },
+              {
+                "id": "55440101_10",
+                "type": "YELLOW_CARD",
+                "minute": 48,
+                "extraTime": null,
+                "playerName": "Miguel Loureiro",
+                "teamName": "Deportivo",
+                "text": null
               }
             ]
           }
