@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T19:13:56Z",
+  "lastUpdated": "2026-11-21T19:15:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "81'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67872,6 +67872,33 @@
                 "playerName": "Nelson Deossa",
                 "teamName": "Betis",
                 "text": "Abde Ezzalzouli"
+              },
+              {
+                "id": "55487548_31",
+                "type": "YELLOW_CARD",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Héctor Bellerín",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "55487584_32",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Rodrigo Riquelme",
+                "teamName": "Betis",
+                "text": "Antony because of an injury"
+              },
+              {
+                "id": "55487585_33",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Peque Fernández",
+                "teamName": "Sevilla",
+                "text": "Rubén Vargas"
               }
             ]
           }
