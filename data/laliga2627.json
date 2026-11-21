@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T21:36:27Z",
+  "lastUpdated": "2026-11-21T21:37:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67949,7 +67949,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -68386,6 +68386,24 @@
                 "playerName": "Jude Bellingham",
                 "teamName": "Real Madrid",
                 "text": null
+              },
+              {
+                "id": "55506580_13",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Couhaib Driouech",
+                "teamName": "Celta",
+                "text": "Hugo Burcio"
+              },
+              {
+                "id": "55506581_14",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Aleix Febas",
+                "teamName": "Celta",
+                "text": "Williot Swedberg"
               }
             ]
           }
