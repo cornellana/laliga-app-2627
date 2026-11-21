@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:20:19Z",
+  "lastUpdated": "2026-11-21T14:21:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66735,6 +66735,15 @@
                 "extraTime": null,
                 "playerName": "Abde Rebbach",
                 "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "55441571_14",
+                "type": "SUBSTITUTION",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
