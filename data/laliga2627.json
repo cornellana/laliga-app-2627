@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:58:46Z",
+  "lastUpdated": "2026-11-21T16:59:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67340,6 +67340,15 @@
                 "playerName": "Gnangoro",
                 "teamName": "Rayo",
                 "text": "Unai López"
+              },
+              {
+                "id": "55476142_14",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": "Aaron Mayol",
+                "teamName": "Valencia",
+                "text": "Guido Rodríguez"
               }
             ]
           }
