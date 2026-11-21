@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:20:46Z",
+  "lastUpdated": "2026-11-21T16:21:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -66939,17 +66939,17 @@
                   "events": null
                 },
                 {
-                  "id": "276847",
-                  "jersey": 11,
-                  "name": "Randy Nteka",
+                  "id": "276652",
+                  "jersey": 10,
+                  "name": "Sergio Camello",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "276652",
-                  "jersey": 10,
-                  "name": "Sergio Camello",
+                  "id": "276847",
+                  "jersey": 11,
+                  "name": "Randy Nteka",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
