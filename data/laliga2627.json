@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T20:14:27Z",
+  "lastUpdated": "2026-11-21T20:15:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67947,9 +67947,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "6'",
+          "clock": "7'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -68332,7 +68332,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55494063_2",
+                "type": "GOAL",
+                "minute": 6,
+                "extraTime": null,
+                "playerName": "Pablo Durán",
+                "teamName": "Celta",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -72360,6 +72370,12 @@
       "penalties": null
     },
     {
+      "player": "Pablo Durán",
+      "team": "Celta",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Pape Gueye",
       "team": "Villarreal",
       "goals": 3,
@@ -72530,12 +72546,6 @@
     {
       "player": "Nicolas Pepe",
       "team": "Villarreal",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Pablo Durán",
-      "team": "Celta",
       "goals": 2,
       "penalties": null
     },
