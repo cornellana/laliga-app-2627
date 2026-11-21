@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T19:24:46Z",
+  "lastUpdated": "2026-11-21T19:25:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67925,6 +67925,15 @@
                 "extraTime": null,
                 "playerName": "Pablo Fornals",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "55488585_39",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Kike Salas",
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
@@ -72103,6 +72112,12 @@
       "penalties": null
     },
     {
+      "player": "Kike Salas",
+      "team": "Sevilla",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Lee Kang-In",
       "team": "Atlético",
       "goals": 2,
@@ -72507,12 +72522,6 @@
     {
       "player": "Kike Barja",
       "team": "Osasuna",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Kike Salas",
-      "team": "Sevilla",
       "goals": 1,
       "penalties": null
     },
