@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T13:41:40Z",
+  "lastUpdated": "2026-11-21T13:42:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66252,9 +66252,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "1-0",
+          "result": "1-1",
           "state": "in",
-          "clock": "41'",
+          "clock": "42'",
           "statusText": "First Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66672,6 +66672,15 @@
                 "extraTime": null,
                 "playerName": "Ángel Pérez",
                 "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "55437816_5",
+                "type": "OWN_GOAL",
+                "minute": 41,
+                "extraTime": null,
+                "playerName": "Nahuel Tenaglia",
+                "teamName": "Deportivo",
                 "text": null
               }
             ]
