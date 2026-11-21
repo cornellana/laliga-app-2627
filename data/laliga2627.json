@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T13:53:28Z",
+  "lastUpdated": "2026-11-21T14:05:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,8 +66254,8 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
           "details": {
@@ -66367,10 +66367,18 @@
                   "events": null
                 },
                 {
+                  "id": "149306",
+                  "jersey": 16,
+                  "name": "Ville Koski",
+                  "position": "CD",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "176312",
                   "jersey": 17,
                   "name": "Jonny",
-                  "position": "CD",
+                  "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -66378,23 +66386,7 @@
                   "id": "262491",
                   "jersey": 14,
                   "name": "Nahuel Tenaglia",
-                  "position": "CD-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "149306",
-                  "jersey": 16,
-                  "name": "Ville Koski",
                   "position": "CD-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "163068",
-                  "jersey": 4,
-                  "name": "Denis Suárez",
-                  "position": "SW",
                   "isStarter": true,
                   "events": null
                 },
@@ -66402,6 +66394,14 @@
                   "id": "265997",
                   "jersey": 8,
                   "name": "Antonio Blanco",
+                  "position": "SW",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "163068",
+                  "jersey": 4,
+                  "name": "Denis Suárez",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -66682,6 +66682,15 @@
                 "playerName": "Nahuel Tenaglia",
                 "teamName": "Deportivo",
                 "text": null
+              },
+              {
+                "id": "55439616_7",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Adama Traoré",
+                "teamName": "Deportivo",
+                "text": "Ximo Navarro"
               }
             ]
           }
