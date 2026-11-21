@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:39:53Z",
+  "lastUpdated": "2026-11-21T14:40:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "80'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66817,6 +66817,15 @@
                 "playerName": "Ander Guevara",
                 "teamName": "Alavés",
                 "text": "Pablo Ibáñez"
+              },
+              {
+                "id": "55443884_27",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Xanet Oláiz",
+                "teamName": "Alavés",
+                "text": "Hugo Novoa because of an injury"
               }
             ]
           }
