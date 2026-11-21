@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T21:42:57Z",
+  "lastUpdated": "2026-11-21T21:44:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67949,7 +67949,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -68413,6 +68413,24 @@
                 "playerName": "Endrick",
                 "teamName": "Real Madrid",
                 "text": "Yan Diomande"
+              },
+              {
+                "id": "55507323_20",
+                "type": "YELLOW_CARD",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Yoel Lago",
+                "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "55507416_21",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Celta",
+                "text": null
               }
             ]
           }
