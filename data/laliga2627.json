@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T17:44:34Z",
+  "lastUpdated": "2026-11-21T17:45:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "11'",
+          "clock": "12'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67764,7 +67764,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55479316_9",
+                "type": "YELLOW_CARD",
+                "minute": 11,
+                "extraTime": null,
+                "playerName": "Diego Llorente",
+                "teamName": "Betis",
+                "text": null
+              }
+            ]
           }
         },
         {
