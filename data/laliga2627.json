@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T15:58:26Z",
+  "lastUpdated": "2026-11-21T15:59:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66856,9 +66856,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "41'",
+          "clock": "43'",
           "statusText": "First Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67241,7 +67241,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55461856_1",
+                "type": "GOAL",
+                "minute": 41,
+                "extraTime": null,
+                "playerName": "Copete",
+                "teamName": "Valencia",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -71623,6 +71633,12 @@
       "team": "Málaga",
       "goals": 1,
       "penalties": 1
+    },
+    {
+      "player": "Copete",
+      "team": "Valencia",
+      "goals": 1,
+      "penalties": null
     },
     {
       "player": "Cristian Romero",
