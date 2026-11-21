@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:55:30Z",
+  "lastUpdated": "2026-11-21T16:56:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67331,6 +67331,15 @@
                 "playerName": "Mouctar Diakhaby",
                 "teamName": "Valencia",
                 "text": "Copete"
+              },
+              {
+                "id": "55475779_13",
+                "type": "SUBSTITUTION",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
