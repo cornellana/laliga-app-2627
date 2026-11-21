@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:38:07Z",
+  "lastUpdated": "2026-11-21T16:39:13Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67257,6 +67257,24 @@
                 "minute": 45,
                 "extraTime": 1,
                 "playerName": "Sergio Camello",
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "55471873_5",
+                "type": "SUBSTITUTION",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "55471874_6",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Rayo",
                 "text": null
               }
