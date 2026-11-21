@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:26:51Z",
+  "lastUpdated": "2026-11-21T14:27:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66769,18 +66769,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 66,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Jonathan Asp Jensen",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Luismi Cruz"
               },
               {
                 "id": "55442216_18",
                 "type": "SUBSTITUTION",
                 "minute": 66,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Bil Nsongo",
                 "teamName": "Deportivo",
-                "text": null
+                "text": "Yeremay Hernández"
+              },
+              {
+                "id": "55442294_19",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Hugo Novoa",
+                "teamName": "Alavés",
+                "text": "Ángel Pérez"
               }
             ]
           }
