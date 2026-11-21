@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T18:44:40Z",
+  "lastUpdated": "2026-11-21T18:45:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "52'",
+          "clock": "53'",
           "statusText": "Second Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67799,6 +67799,15 @@
                 "extraTime": null,
                 "playerName": "Kike Salas",
                 "teamName": "Sevilla",
+                "text": null
+              },
+              {
+                "id": "55485006_19",
+                "type": "GOAL",
+                "minute": 50,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
                 "text": null
               }
             ]
