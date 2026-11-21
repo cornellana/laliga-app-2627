@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T21:47:19Z",
+  "lastUpdated": "2026-11-21T21:48:24Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67949,7 +67949,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "80'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -68440,6 +68440,15 @@
                 "playerName": "Javi Rueda",
                 "teamName": "Celta",
                 "text": "Javi Galán"
+              },
+              {
+                "id": "55507958_23",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Carlos Espí",
+                "teamName": "Real Madrid",
+                "text": "Eduardo Camavinga"
               }
             ]
           }
