@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T17:48:55Z",
+  "lastUpdated": "2026-11-21T17:50:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67381,7 +67381,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "15'",
+          "clock": "16'",
           "statusText": "First Half",
           "stadium": "Ramón Sánchez Pizjuán Stadium",
           "venueCity": "Sevilla",
@@ -67781,6 +67781,15 @@
                 "extraTime": null,
                 "playerName": "Cucho Hernández",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "55479783_11",
+                "type": "YELLOW_CARD",
+                "minute": 15,
+                "extraTime": null,
+                "playerName": "Lucien Agoumé",
+                "teamName": "Sevilla",
                 "text": null
               }
             ]
