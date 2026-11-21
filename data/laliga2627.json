@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:59:52Z",
+  "lastUpdated": "2026-11-21T17:00:57Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67349,6 +67349,24 @@
                 "playerName": "Aaron Mayol",
                 "teamName": "Valencia",
                 "text": "Guido Rodríguez"
+              },
+              {
+                "id": "55476245_15",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
+                "text": null
+              },
+              {
+                "id": "55476247_16",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Valencia",
+                "text": null
               }
             ]
           }
