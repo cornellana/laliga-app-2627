@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T21:52:46Z",
+  "lastUpdated": "2026-11-21T21:53:52Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67947,9 +67947,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "2-1",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -68457,6 +68457,15 @@
                 "extraTime": null,
                 "playerName": "Javi Rodríguez",
                 "teamName": "Celta",
+                "text": null
+              },
+              {
+                "id": "55508549_25",
+                "type": "GOAL",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": "Carlos Espí",
+                "teamName": "Real Madrid",
                 "text": null
               }
             ]
@@ -72439,6 +72448,12 @@
       "penalties": null
     },
     {
+      "player": "Carlos Espí",
+      "team": "Real Madrid",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Gabriel Jesus",
       "team": "FC Barcelona",
       "goals": 3,
@@ -72555,12 +72570,6 @@
     {
       "player": "Carlos Dotor",
       "team": "Málaga",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Carlos Espí",
-      "team": "Real Madrid",
       "goals": 2,
       "penalties": null
     },
