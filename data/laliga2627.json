@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:39:13Z",
+  "lastUpdated": "2026-11-21T16:40:18Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67265,18 +67265,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Adrià Pedrosa",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Giorgi Tsitaishvili"
               },
               {
                 "id": "55471874_6",
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pedro Díaz",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Randy Nteka"
               }
             ]
           }
