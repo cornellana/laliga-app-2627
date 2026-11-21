@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:27:56Z",
+  "lastUpdated": "2026-11-21T14:29:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66254,7 +66254,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Mendizorrotza",
           "venueCity": "Vitoria-Gasteiz",
@@ -66783,7 +66783,16 @@
                 "text": "Yeremay Hernández"
               },
               {
-                "id": "55442294_19",
+                "id": "55442368_19",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Alavés",
+                "text": null
+              },
+              {
+                "id": "55442294_20",
                 "type": "SUBSTITUTION",
                 "minute": 68,
                 "extraTime": null,
