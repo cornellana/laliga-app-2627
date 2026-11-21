@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T20:12:16Z",
+  "lastUpdated": "2026-11-21T20:13:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67949,13 +67949,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "4'",
+          "clock": "5'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
           "details": {
             "homeLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "134283",
@@ -67982,6 +67982,14 @@
                   "events": null
                 },
                 {
+                  "id": "285150",
+                  "jersey": 6,
+                  "name": "Eduardo Camavinga",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "310637",
                   "jersey": 18,
                   "name": "Álvaro Carreras",
@@ -68001,15 +68009,7 @@
                   "id": "291281",
                   "jersey": 5,
                   "name": "Jude Bellingham",
-                  "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "285150",
-                  "jersey": 6,
-                  "name": "Eduardo Camavinga",
-                  "position": "LM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -68017,6 +68017,22 @@
                   "id": "199833",
                   "jersey": 20,
                   "name": "Bernardo Silva",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "402479",
+                  "jersey": 25,
+                  "name": "Yan Diomande",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "310452",
+                  "jersey": 15,
+                  "name": "Arda Güler",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -68026,22 +68042,6 @@
                   "jersey": 10,
                   "name": "Kylian Mbappé",
                   "position": "F",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "402479",
-                  "jersey": 25,
-                  "name": "Yan Diomande",
-                  "position": "AM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "310452",
-                  "jersey": 15,
-                  "name": "Arda Güler",
-                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
