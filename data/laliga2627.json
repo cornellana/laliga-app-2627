@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:49:00Z",
+  "lastUpdated": "2026-11-21T16:50:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67322,6 +67322,15 @@
                 "playerName": "Jorge de Frutos",
                 "teamName": "Rayo",
                 "text": null
+              },
+              {
+                "id": "55474596_12",
+                "type": "SUBSTITUTION",
+                "minute": 73,
+                "extraTime": null,
+                "playerName": "Mouctar Diakhaby",
+                "teamName": "Valencia",
+                "text": "Copete"
               }
             ]
           }
