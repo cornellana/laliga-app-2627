@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T16:43:33Z",
+  "lastUpdated": "2026-11-21T16:44:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66858,7 +66858,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
@@ -67283,9 +67283,18 @@
                 "type": "YELLOW_CARD",
                 "minute": 64,
                 "extraTime": null,
-                "playerName": "Javier Guerra",
+                "playerName": "Javi Guerra",
                 "teamName": "Valencia",
                 "text": null
+              },
+              {
+                "id": "55473260_8",
+                "type": "SUBSTITUTION",
+                "minute": 69,
+                "extraTime": null,
+                "playerName": "Filip Ugrinic",
+                "teamName": "Valencia",
+                "text": "Dani Raba"
               }
             ]
           }
