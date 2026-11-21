@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T20:09:01Z",
+  "lastUpdated": "2026-11-21T20:10:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -67949,7 +67949,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Santiago Bernabéu",
           "venueCity": "Madrid",
@@ -67966,17 +67966,17 @@
                   "events": null
                 },
                 {
-                  "id": "251634",
-                  "jersey": 16,
-                  "name": "Ibrahima Konaté",
+                  "id": "356000",
+                  "jersey": 4,
+                  "name": "Dean Huijsen",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "356000",
-                  "jersey": 4,
-                  "name": "Dean Huijsen",
+                  "id": "251634",
+                  "jersey": 16,
+                  "name": "Ibrahima Konaté",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -68006,17 +68006,17 @@
                   "events": null
                 },
                 {
-                  "id": "199833",
-                  "jersey": 20,
-                  "name": "Bernardo Silva",
+                  "id": "285150",
+                  "jersey": 6,
+                  "name": "Eduardo Camavinga",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "285150",
-                  "jersey": 6,
-                  "name": "Eduardo Camavinga",
+                  "id": "199833",
+                  "jersey": 20,
+                  "name": "Bernardo Silva",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
