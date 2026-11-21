@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T17:09:37Z",
+  "lastUpdated": "2026-11-21T17:10:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -66855,11 +66855,11 @@
           "away": "Valencia",
           "jornada": 13,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-1",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio de Vallecas",
           "venueCity": "Madrid",
           "details": {
