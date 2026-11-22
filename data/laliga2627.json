@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T19:04:34Z",
+  "lastUpdated": "2026-11-22T19:05:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70078,9 +70078,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Iker Muñoz",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Rubén García"
               }
             ]
           }
