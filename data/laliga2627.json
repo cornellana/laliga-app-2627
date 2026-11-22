@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T16:54:59Z",
+  "lastUpdated": "2026-11-22T16:56:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69075,7 +69075,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "80'",
+          "clock": "82'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -69549,6 +69549,15 @@
                 "playerName": "Arsen Zakharyan",
                 "teamName": "R. Sociedad",
                 "text": "Orri Óskarsson"
+              },
+              {
+                "id": "55556810_18",
+                "type": "YELLOW_CARD",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Mamadou Sarr",
+                "teamName": "R. Sociedad",
+                "text": null
               }
             ]
           }
