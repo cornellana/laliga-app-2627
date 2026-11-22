@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T16:43:01Z",
+  "lastUpdated": "2026-11-22T16:44:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69075,7 +69075,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -69504,6 +69504,24 @@
                 "playerName": "Sergio Canales",
                 "teamName": "Racing",
                 "text": null
+              },
+              {
+                "id": "55555844_9",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Takefusa Kubo",
+                "teamName": "R. Sociedad",
+                "text": "Carlos Soler"
+              },
+              {
+                "id": "55555845_10",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Jon Aramburu",
+                "teamName": "R. Sociedad",
+                "text": "Héctor Fort"
               }
             ]
           }
