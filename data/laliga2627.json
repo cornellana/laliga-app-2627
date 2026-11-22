@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T19:14:22Z",
+  "lastUpdated": "2026-11-22T19:15:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70108,6 +70108,15 @@
                 "playerName": "Juan Cruz",
                 "teamName": "Málaga",
                 "text": "David Larrubia"
+              },
+              {
+                "id": "55564495_23",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
