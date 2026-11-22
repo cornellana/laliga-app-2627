@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T16:52:49Z",
+  "lastUpdated": "2026-11-22T16:53:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69075,7 +69075,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -69537,9 +69537,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo García",
                 "teamName": "Racing",
-                "text": null
+                "text": "Sergio Canales"
+              },
+              {
+                "id": "55556569_17",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Arsen Zakharyan",
+                "teamName": "R. Sociedad",
+                "text": "Orri Óskarsson"
               }
             ]
           }
