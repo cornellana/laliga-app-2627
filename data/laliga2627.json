@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T20:48:45Z",
+  "lastUpdated": "2026-11-22T21:05:36Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70559,6 +70559,15 @@
                 "playerName": "Johnny Cardoso",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "55569911_5",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Kiko Femenía",
+                "teamName": "Getafe",
+                "text": "Ramón Terrats"
               }
             ]
           }
