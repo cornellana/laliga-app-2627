@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:30:16Z",
+  "lastUpdated": "2026-11-22T14:31:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "65'",
+          "clock": "66'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68944,6 +68944,15 @@
                 "playerName": "Carlos Romero",
                 "teamName": "Villarreal",
                 "text": null
+              },
+              {
+                "id": "55540193_15",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Carlos Maciá",
+                "teamName": "Villarreal",
+                "text": "Alberto Moleiro"
               }
             ]
           }
