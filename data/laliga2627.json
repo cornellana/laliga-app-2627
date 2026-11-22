@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T20:30:17Z",
+  "lastUpdated": "2026-11-22T20:31:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70147,9 +70147,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "0-2",
           "state": "in",
-          "clock": "29'",
+          "clock": "31'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70539,6 +70539,15 @@
                 "minute": 10,
                 "extraTime": null,
                 "playerName": "Álex Baena",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "55568272_2",
+                "type": "GOAL",
+                "minute": 30,
+                "extraTime": null,
+                "playerName": "Johnny Cardoso",
                 "teamName": "Atlético",
                 "text": null
               }
@@ -75000,6 +75009,12 @@
     {
       "player": "Job Ochieng",
       "team": "R. Sociedad",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Johnny Cardoso",
+      "team": "Atlético",
       "goals": 1,
       "penalties": null
     },
