@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:43:20Z",
+  "lastUpdated": "2026-11-22T14:44:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "78'",
+          "clock": "79'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68991,7 +68991,16 @@
                 "text": "Fermín López"
               },
               {
-                "id": "55542202_20",
+                "id": "55542184_20",
+                "type": "YELLOW_CARD",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "55542202_21",
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
@@ -69000,22 +69009,13 @@
                 "text": "Santi Comesaña"
               },
               {
-                "id": "55542203_21",
+                "id": "55542203_22",
                 "type": "SUBSTITUTION",
                 "minute": 76,
                 "extraTime": null,
                 "playerName": "Ayoze Pérez",
                 "teamName": "Villarreal",
                 "text": "Tajon Buchanan"
-              },
-              {
-                "id": "55542184_22",
-                "type": "YELLOW_CARD",
-                "minute": 77,
-                "extraTime": null,
-                "playerName": "Raphinha",
-                "teamName": "FC Barcelona",
-                "text": null
               }
             ]
           }
