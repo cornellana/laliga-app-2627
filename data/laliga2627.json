@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T21:36:10Z",
+  "lastUpdated": "2026-11-22T21:37:15Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70149,7 +70149,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70630,6 +70630,15 @@
                 "extraTime": null,
                 "playerName": "Djené Dakonam",
                 "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "55571911_16",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
                 "text": null
               }
             ]
