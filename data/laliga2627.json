@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T16:41:56Z",
+  "lastUpdated": "2026-11-22T16:43:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69073,9 +69073,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "2-2",
+          "result": "3-2",
           "state": "in",
-          "clock": "67'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -69494,6 +69494,15 @@
                 "extraTime": null,
                 "playerName": "Álex Remiro",
                 "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "55555778_8",
+                "type": "PENALTY",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Sergio Canales",
+                "teamName": "Racing",
                 "text": null
               }
             ]
@@ -73678,6 +73687,12 @@
       "penalties": null
     },
     {
+      "player": "Sergio Canales",
+      "team": "Racing",
+      "goals": 2,
+      "penalties": 1
+    },
+    {
       "player": "Tajon Buchanan",
       "team": "Villarreal",
       "goals": 2,
@@ -74208,12 +74223,6 @@
     {
       "player": "Rodri",
       "team": "FC Barcelona",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Sergio Canales",
-      "team": "Racing",
       "goals": 1,
       "penalties": null
     },
