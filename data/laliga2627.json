@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T15:00:40Z",
+  "lastUpdated": "2026-11-22T15:01:46Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68493,11 +68493,11 @@
           "away": "Villarreal",
           "jornada": 13,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "3-2",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
           "details": {
