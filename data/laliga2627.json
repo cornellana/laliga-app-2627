@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T21:51:25Z",
+  "lastUpdated": "2026-11-22T21:52:31Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70147,9 +70147,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "0-3",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70658,6 +70658,24 @@
                 "playerName": "Davinchi",
                 "teamName": "Getafe",
                 "text": "Andrés García because of an injury"
+              },
+              {
+                "id": "55573061_21",
+                "type": "RED_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Djené Dakonam",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "55573062_22",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Alejandro Grimaldo",
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
@@ -74503,6 +74521,12 @@
       "penalties": null
     },
     {
+      "player": "Alejandro Grimaldo",
+      "team": "Atlético",
+      "goals": 5,
+      "penalties": 2
+    },
+    {
       "player": "Jude Bellingham",
       "team": "Real Madrid",
       "goals": 5,
@@ -74519,12 +74543,6 @@
       "team": "Levante",
       "goals": 5,
       "penalties": null
-    },
-    {
-      "player": "Alejandro Grimaldo",
-      "team": "Atlético",
-      "goals": 4,
-      "penalties": 2
     },
     {
       "player": "Alex Berenguer",
