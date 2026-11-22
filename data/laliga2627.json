@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T17:05:57Z",
+  "lastUpdated": "2026-11-22T17:07:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69075,7 +69075,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "90'+1'",
+          "clock": "90'+2'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -69585,6 +69585,15 @@
                 "playerName": "André Almeida",
                 "teamName": "Racing",
                 "text": "Yassir Zabiri"
+              },
+              {
+                "id": "55557833_26",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Iñigo Vicente",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
