@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T21:45:59Z",
+  "lastUpdated": "2026-11-22T21:47:04Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70149,7 +70149,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70647,6 +70647,15 @@
                 "minute": 84,
                 "extraTime": null,
                 "playerName": "Mario Martín",
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "55572748_18",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Getafe",
                 "text": null
               }
