@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:59:34Z",
+  "lastUpdated": "2026-11-22T15:00:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "90'+5'",
+          "clock": "90'+6'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -69058,7 +69058,7 @@
                 "type": "RED_CARD",
                 "minute": 90,
                 "extraTime": 3,
-                "playerName": "Pau Navarro",
+                "playerName": "Second yellow card to Pau Navarro",
                 "teamName": "Villarreal",
                 "text": null
               }
