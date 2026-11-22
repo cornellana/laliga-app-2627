@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T17:33:29Z",
+  "lastUpdated": "2026-11-22T17:34:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -69847,9 +69847,9 @@
                   "events": null
                 },
                 {
-                  "id": "180444",
-                  "jersey": 11,
-                  "name": "Joaquín Muñoz",
+                  "id": "297828",
+                  "jersey": 10,
+                  "name": "David Larrubia",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -69879,9 +69879,9 @@
                   "events": null
                 },
                 {
-                  "id": "297828",
-                  "jersey": 10,
-                  "name": "David Larrubia",
+                  "id": "180444",
+                  "jersey": 11,
+                  "name": "Joaquín Muñoz",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
