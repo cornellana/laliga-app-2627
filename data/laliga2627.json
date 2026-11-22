@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T18:49:18Z",
+  "lastUpdated": "2026-11-22T18:50:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70042,9 +70042,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 60,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Dani Lorenzo",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Joaquín Muñoz"
               }
             ]
           }
