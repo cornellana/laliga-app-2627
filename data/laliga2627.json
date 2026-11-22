@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:44:25Z",
+  "lastUpdated": "2026-11-22T14:45:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "79'",
+          "clock": "81'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -69016,6 +69016,15 @@
                 "playerName": "Ayoze Pérez",
                 "teamName": "Villarreal",
                 "text": "Tajon Buchanan"
+              },
+              {
+                "id": "55542645_23",
+                "type": "YELLOW_CARD",
+                "minute": 80,
+                "extraTime": null,
+                "playerName": "Marc Bernal",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
