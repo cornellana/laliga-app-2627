@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T13:10:24Z",
+  "lastUpdated": "2026-11-22T13:11:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68494,9 +68494,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "0-2",
           "state": "in",
-          "clock": "7'",
+          "clock": "8'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68870,6 +68870,15 @@
                 "minute": 5,
                 "extraTime": null,
                 "playerName": "Tajon Buchanan",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "55532958_2",
+                "type": "GOAL",
+                "minute": 7,
+                "extraTime": null,
+                "playerName": "Tani Oluwaseyi",
                 "teamName": "Villarreal",
                 "text": null
               }
@@ -73613,6 +73622,12 @@
     {
       "player": "Takefusa Kubo",
       "team": "R. Sociedad",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Tani Oluwaseyi",
+      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
