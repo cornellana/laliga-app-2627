@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:58:28Z",
+  "lastUpdated": "2026-11-22T14:59:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+5'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -69043,6 +69043,24 @@
                 "playerName": "Santiago Mouriño",
                 "teamName": "Villarreal",
                 "text": "Georges Mikautadze"
+              },
+              {
+                "id": "55544161_28",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 1,
+                "playerName": "Gavi",
+                "teamName": "FC Barcelona",
+                "text": "Marc Bernal because of an injury"
+              },
+              {
+                "id": "55544195_31",
+                "type": "RED_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Pau Navarro",
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
