@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T18:52:34Z",
+  "lastUpdated": "2026-11-22T18:53:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "65'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70045,6 +70045,24 @@
                 "playerName": "Dani Lorenzo",
                 "teamName": "Málaga",
                 "text": "Joaquín Muñoz"
+              },
+              {
+                "id": "55563735_12",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Asier Osambela",
+                "teamName": "Osasuna",
+                "text": "Aimar Oroz"
+              },
+              {
+                "id": "55563736_13",
+                "type": "SUBSTITUTION",
+                "minute": 65,
+                "extraTime": null,
+                "playerName": "Raúl Moro",
+                "teamName": "Osasuna",
+                "text": "Kike Barja"
               }
             ]
           }
