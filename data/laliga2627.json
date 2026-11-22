@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T16:02:20Z",
+  "lastUpdated": "2026-11-22T16:03:25Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69075,7 +69075,7 @@
           "done": false,
           "result": "2-1",
           "state": "in",
-          "clock": "45'+2'",
+          "clock": "45'+3'",
           "statusText": "First Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -69467,6 +69467,15 @@
                 "extraTime": null,
                 "playerName": "Yassir Zabiri",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "55552916_3",
+                "type": "GOAL",
+                "minute": 45,
+                "extraTime": 1,
+                "playerName": "Mikel Oyarzabal",
+                "teamName": "R. Sociedad",
                 "text": null
               }
             ]
@@ -73465,6 +73474,12 @@
       "penalties": null
     },
     {
+      "player": "Mikel Oyarzabal",
+      "team": "R. Sociedad",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Pablo Durán",
       "team": "Celta",
       "goals": 3,
@@ -73617,12 +73632,6 @@
     {
       "player": "Miguel Sierra",
       "team": "Sevilla",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Mikel Oyarzabal",
-      "team": "R. Sociedad",
       "goals": 2,
       "penalties": null
     },
