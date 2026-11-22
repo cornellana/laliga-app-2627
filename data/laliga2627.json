@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T20:05:16Z",
+  "lastUpdated": "2026-11-22T20:06:21Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70149,7 +70149,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70395,17 +70395,17 @@
                   "events": null
                 },
                 {
-                  "id": "336634",
-                  "jersey": 8,
-                  "name": "Pablo Barrios",
+                  "id": "140791",
+                  "jersey": 6,
+                  "name": "Koke",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "140791",
-                  "jersey": 6,
-                  "name": "Koke",
+                  "id": "336634",
+                  "jersey": 8,
+                  "name": "Pablo Barrios",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
