@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T16:48:28Z",
+  "lastUpdated": "2026-11-22T16:49:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69075,7 +69075,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -69522,6 +69522,15 @@
                 "playerName": "Jon Aramburu",
                 "teamName": "R. Sociedad",
                 "text": "Héctor Fort"
+              },
+              {
+                "id": "55556270_11",
+                "type": "YELLOW_CARD",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Iker Luque",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
