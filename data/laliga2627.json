@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:42:14Z",
+  "lastUpdated": "2026-11-22T14:43:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68989,6 +68989,33 @@
                 "playerName": "Dani Olmo",
                 "teamName": "FC Barcelona",
                 "text": "Fermín López"
+              },
+              {
+                "id": "55542202_20",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Nicolas Pepe",
+                "teamName": "Villarreal",
+                "text": "Santi Comesaña"
+              },
+              {
+                "id": "55542203_21",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Ayoze Pérez",
+                "teamName": "Villarreal",
+                "text": "Tajon Buchanan"
+              },
+              {
+                "id": "55542184_22",
+                "type": "YELLOW_CARD",
+                "minute": 77,
+                "extraTime": null,
+                "playerName": "Raphinha",
+                "teamName": "FC Barcelona",
+                "text": null
               }
             ]
           }
