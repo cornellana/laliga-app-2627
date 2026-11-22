@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:48:43Z",
+  "lastUpdated": "2026-11-22T14:49:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "84'",
+          "clock": "85'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -69025,6 +69025,15 @@
                 "playerName": "Marc Bernal",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "55543394_24",
+                "type": "SUBSTITUTION",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Jules Koundé",
+                "teamName": "FC Barcelona",
+                "text": "Eric García"
               }
             ]
           }
