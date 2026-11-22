@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T19:05:39Z",
+  "lastUpdated": "2026-11-22T19:06:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70081,6 +70081,24 @@
                 "playerName": "Iker Muñoz",
                 "teamName": "Osasuna",
                 "text": "Rubén García"
+              },
+              {
+                "id": "55564030_20",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Lucas Torró",
+                "teamName": "Osasuna",
+                "text": "Moi Gómez"
+              },
+              {
+                "id": "55564031_21",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Chupe",
+                "teamName": "Málaga",
+                "text": "Pablo Martínez"
               }
             ]
           }
