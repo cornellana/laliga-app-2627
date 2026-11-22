@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T19:19:48Z",
+  "lastUpdated": "2026-11-22T19:20:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70124,6 +70124,15 @@
                 "minute": 88,
                 "extraTime": null,
                 "playerName": "Raúl García",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "55564800_25",
+                "type": "RED_CARD",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Alejandro Catena",
                 "teamName": "Osasuna",
                 "text": null
               }
