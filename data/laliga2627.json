@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T13:14:46Z",
+  "lastUpdated": "2026-11-22T13:15:51Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "11'",
+          "clock": "12'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68742,9 +68742,9 @@
                   "events": null
                 },
                 {
-                  "id": "307390",
-                  "jersey": 10,
-                  "name": "Alberto Moleiro",
+                  "id": "294039",
+                  "jersey": 21,
+                  "name": "Tani Oluwaseyi",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
@@ -68758,17 +68758,17 @@
                   "events": null
                 },
                 {
-                  "id": "300002",
-                  "jersey": 9,
-                  "name": "Georges Mikautadze",
+                  "id": "307390",
+                  "jersey": 10,
+                  "name": "Alberto Moleiro",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "294039",
-                  "jersey": 21,
-                  "name": "Tani Oluwaseyi",
+                  "id": "300002",
+                  "jersey": 9,
+                  "name": "Georges Mikautadze",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
