@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T19:15:27Z",
+  "lastUpdated": "2026-11-22T19:16:32Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70114,9 +70114,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Raúl García",
                 "teamName": "Osasuna",
-                "text": null
+                "text": "Ante Budimir"
               }
             ]
           }
