@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T20:10:42Z",
+  "lastUpdated": "2026-11-22T20:11:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70147,9 +70147,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70532,7 +70532,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55566795_1",
+                "type": "GOAL",
+                "minute": 10,
+                "extraTime": null,
+                "playerName": "Álex Baena",
+                "teamName": "Atlético",
+                "text": null
+              }
+            ]
           }
         }
       ]
@@ -74364,6 +74374,12 @@
       "penalties": 1
     },
     {
+      "player": "Álex Baena",
+      "team": "Atlético",
+      "goals": 6,
+      "penalties": null
+    },
+    {
       "player": "Adrián Niño",
       "team": "Málaga",
       "goals": 5,
@@ -74384,12 +74400,6 @@
     {
       "player": "Roger Brugué",
       "team": "Levante",
-      "goals": 5,
-      "penalties": null
-    },
-    {
-      "player": "Álex Baena",
-      "team": "Atlético",
       "goals": 5,
       "penalties": null
     },
