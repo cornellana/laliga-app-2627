@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T21:43:48Z",
+  "lastUpdated": "2026-11-22T21:44:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70149,7 +70149,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70640,6 +70640,15 @@
                 "playerName": "Alexander Sørloth",
                 "teamName": "Atlético",
                 "text": "Julián Alvarez"
+              },
+              {
+                "id": "55572635_17",
+                "type": "YELLOW_CARD",
+                "minute": 84,
+                "extraTime": null,
+                "playerName": "Mario Martín",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
