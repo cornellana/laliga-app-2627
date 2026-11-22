@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T20:13:57Z",
+  "lastUpdated": "2026-11-22T20:15:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70149,7 +70149,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "13'",
+          "clock": "14'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70344,7 +70344,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "149622",
@@ -70371,6 +70371,14 @@
                   "events": null
                 },
                 {
+                  "id": "140791",
+                  "jersey": 6,
+                  "name": "Koke",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "166396",
                   "jersey": 22,
                   "name": "Alejandro Grimaldo",
@@ -70390,15 +70398,7 @@
                   "id": "290802",
                   "jersey": 5,
                   "name": "Johnny Cardoso",
-                  "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "140791",
-                  "jersey": 6,
-                  "name": "Koke",
-                  "position": "LM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -70406,6 +70406,22 @@
                   "id": "336634",
                   "jersey": 8,
                   "name": "Pablo Barrios",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "297373",
+                  "jersey": 10,
+                  "name": "Álex Baena",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "323838",
+                  "jersey": 20,
+                  "name": "Giuliano Simeone",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -70415,22 +70431,6 @@
                   "jersey": 19,
                   "name": "Julián Álvarez",
                   "position": "F",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "297373",
-                  "jersey": 10,
-                  "name": "Álex Baena",
-                  "position": "AM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "323838",
-                  "jersey": 20,
-                  "name": "Giuliano Simeone",
-                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
