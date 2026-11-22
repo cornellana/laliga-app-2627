@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T17:00:29Z",
+  "lastUpdated": "2026-11-22T17:01:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69075,7 +69075,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -69558,6 +69558,15 @@
                 "playerName": "Mamadou Sarr",
                 "teamName": "R. Sociedad",
                 "text": null
+              },
+              {
+                "id": "55557253_23",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Aihen Muñoz",
+                "teamName": "R. Sociedad",
+                "text": "Sergio Gómez"
               }
             ]
           }
