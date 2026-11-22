@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T19:01:18Z",
+  "lastUpdated": "2026-11-22T19:02:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70063,6 +70063,15 @@
                 "playerName": "Raúl Moro",
                 "teamName": "Osasuna",
                 "text": "Kike Barja"
+              },
+              {
+                "id": "55563857_14",
+                "type": "YELLOW_CARD",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Asier Osambela",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
