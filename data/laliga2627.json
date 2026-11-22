@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T20:36:48Z",
+  "lastUpdated": "2026-11-22T20:37:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70149,7 +70149,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "36'",
+          "clock": "37'",
           "statusText": "First Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70546,6 +70546,15 @@
                 "id": "55568272_2",
                 "type": "GOAL",
                 "minute": 30,
+                "extraTime": null,
+                "playerName": "Johnny Cardoso",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "55568668_3",
+                "type": "YELLOW_CARD",
+                "minute": 36,
                 "extraTime": null,
                 "playerName": "Johnny Cardoso",
                 "teamName": "Atlético",
