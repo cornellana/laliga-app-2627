@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:51:58Z",
+  "lastUpdated": "2026-11-22T14:53:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -69034,6 +69034,15 @@
                 "playerName": "Jules Koundé",
                 "teamName": "FC Barcelona",
                 "text": "Eric García"
+              },
+              {
+                "id": "55543651_25",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Villarreal",
+                "text": null
               }
             ]
           }
