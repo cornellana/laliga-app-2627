@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T16:34:22Z",
+  "lastUpdated": "2026-11-22T16:35:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69073,9 +69073,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "2-1",
+          "result": "2-2",
           "state": "in",
-          "clock": "60'",
+          "clock": "61'",
           "statusText": "Second Half",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
@@ -69475,6 +69475,15 @@
                 "minute": 45,
                 "extraTime": 1,
                 "playerName": "Mikel Oyarzabal",
+                "teamName": "R. Sociedad",
+                "text": null
+              },
+              {
+                "id": "55555222_6",
+                "type": "GOAL",
+                "minute": 60,
+                "extraTime": null,
+                "playerName": "Gonçalo Guedes",
                 "teamName": "R. Sociedad",
                 "text": null
               }
@@ -73438,6 +73447,12 @@
       "penalties": 1
     },
     {
+      "player": "Gonçalo Guedes",
+      "team": "R. Sociedad",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Isaac Romero",
       "team": "Sevilla",
       "goals": 3,
@@ -73584,12 +73599,6 @@
     {
       "player": "Germán Valera",
       "team": "Elche",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Gonçalo Guedes",
-      "team": "R. Sociedad",
       "goals": 2,
       "penalties": null
     },
