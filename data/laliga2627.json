@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T21:05:36Z",
+  "lastUpdated": "2026-11-22T21:06:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70149,8 +70149,8 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "45'+3'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
           "details": {
@@ -70568,6 +70568,24 @@
                 "playerName": "Kiko Femenía",
                 "teamName": "Getafe",
                 "text": "Ramón Terrats"
+              },
+              {
+                "id": "55569983_6",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Getafe",
+                "text": null
+              },
+              {
+                "id": "55569985_7",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
               }
             ]
           }
