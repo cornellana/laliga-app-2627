@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T17:34:34Z",
+  "lastUpdated": "2026-11-22T17:35:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "4'",
+          "clock": "5'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -69812,7 +69812,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "3-5-2",
+              "formation": "4-4-2",
               "players": [
                 {
                   "id": "240624",
@@ -69823,10 +69823,26 @@
                   "events": null
                 },
                 {
+                  "id": "350947",
+                  "jersey": 16,
+                  "name": "Diego Murillo",
+                  "position": "CD-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "310869",
                   "jersey": 5,
                   "name": "Álex Pastor",
-                  "position": "CD",
+                  "position": "CD-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "184488",
+                  "jersey": 12,
+                  "name": "José Salinas",
+                  "position": "LB",
                   "isStarter": true,
                   "events": null
                 },
@@ -69834,22 +69850,14 @@
                   "id": "319783",
                   "jersey": 15,
                   "name": "Ángel Recio",
-                  "position": "CD-L",
+                  "position": "RB",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "350947",
-                  "jersey": 16,
-                  "name": "Diego Murillo",
-                  "position": "CD-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "297828",
-                  "jersey": 10,
-                  "name": "David Larrubia",
+                  "id": "271151",
+                  "jersey": 18,
+                  "name": "Pablo Martínez",
                   "position": "CM-L",
                   "isStarter": true,
                   "events": null
@@ -69863,17 +69871,9 @@
                   "events": null
                 },
                 {
-                  "id": "271151",
-                  "jersey": 18,
-                  "name": "Pablo Martínez",
-                  "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "184488",
-                  "jersey": 12,
-                  "name": "José Salinas",
+                  "id": "297828",
+                  "jersey": 10,
+                  "name": "David Larrubia",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
