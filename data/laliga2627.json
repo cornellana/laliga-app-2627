@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:28:05Z",
+  "lastUpdated": "2026-11-22T14:29:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "2-2",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68934,6 +68934,15 @@
                 "extraTime": null,
                 "playerName": "Fermín López",
                 "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "55540085_14",
+                "type": "YELLOW_CARD",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Carlos Romero",
+                "teamName": "Villarreal",
                 "text": null
               }
             ]
