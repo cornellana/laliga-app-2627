@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T13:08:14Z",
+  "lastUpdated": "2026-11-22T13:09:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68494,9 +68494,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "5'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68863,7 +68863,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55532792_1",
+                "type": "GOAL",
+                "minute": 5,
+                "extraTime": null,
+                "playerName": "Tajon Buchanan",
+                "teamName": "Villarreal",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -73061,6 +73071,12 @@
       "penalties": null
     },
     {
+      "player": "Tajon Buchanan",
+      "team": "Villarreal",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Umar Sadiq",
       "team": "Valencia",
       "goals": 2,
@@ -73591,12 +73607,6 @@
     {
       "player": "Sergio Martínez",
       "team": "Racing",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Tajon Buchanan",
-      "team": "Villarreal",
       "goals": 1,
       "penalties": null
     },
