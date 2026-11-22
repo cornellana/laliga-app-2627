@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T13:46:16Z",
+  "lastUpdated": "2026-11-22T13:47:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "43'",
+          "clock": "44'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68683,7 +68683,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-4-2",
+              "formation": "4-4-1-1",
               "players": [
                 {
                   "id": "119620",
@@ -68758,18 +68758,18 @@
                   "events": null
                 },
                 {
-                  "id": "307390",
-                  "jersey": 10,
-                  "name": "Alberto Moleiro",
-                  "position": "CF-L",
+                  "id": "300002",
+                  "jersey": 9,
+                  "name": "Georges Mikautadze",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "300002",
-                  "jersey": 9,
-                  "name": "Georges Mikautadze",
-                  "position": "CF-R",
+                  "id": "307390",
+                  "jersey": 10,
+                  "name": "Alberto Moleiro",
+                  "position": "RCF",
                   "isStarter": true,
                   "events": null
                 },
