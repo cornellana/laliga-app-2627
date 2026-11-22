@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T21:32:54Z",
+  "lastUpdated": "2026-11-22T21:34:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70149,7 +70149,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "73'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70597,7 +70597,7 @@
                 "text": null
               },
               {
-                "id": "55571267_11",
+                "id": "55571267_12",
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
@@ -70606,7 +70606,7 @@
                 "text": "Álex Baena"
               },
               {
-                "id": "55571268_12",
+                "id": "55571268_13",
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
@@ -70615,13 +70615,22 @@
                 "text": "Iván Azón"
               },
               {
-                "id": "55571269_13",
+                "id": "55571269_14",
                 "type": "SUBSTITUTION",
                 "minute": 67,
                 "extraTime": null,
                 "playerName": "Mario Martín",
                 "teamName": "Getafe",
                 "text": "Francho Serrano"
+              },
+              {
+                "id": "55571640_15",
+                "type": "YELLOW_CARD",
+                "minute": 71,
+                "extraTime": null,
+                "playerName": "Djené Dakonam",
+                "teamName": "Getafe",
+                "text": null
               }
             ]
           }
