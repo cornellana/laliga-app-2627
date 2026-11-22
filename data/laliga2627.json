@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:12:50Z",
+  "lastUpdated": "2026-11-22T14:13:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "48'",
+          "clock": "49'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68897,6 +68897,15 @@
                 "minute": 32,
                 "extraTime": null,
                 "playerName": "Alberto Moleiro",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "55537944_10",
+                "type": "YELLOW_CARD",
+                "minute": 47,
+                "extraTime": null,
+                "playerName": "Pau Navarro",
                 "teamName": "Villarreal",
                 "text": null
               }
