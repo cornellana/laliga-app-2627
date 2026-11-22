@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T13:15:51Z",
+  "lastUpdated": "2026-11-22T13:16:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "12'",
+          "clock": "14'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68879,6 +68879,15 @@
                 "minute": 7,
                 "extraTime": null,
                 "playerName": "Tani Oluwaseyi",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "55533318_3",
+                "type": "YELLOW_CARD",
+                "minute": 11,
+                "extraTime": null,
+                "playerName": "Pape Gueye",
                 "teamName": "Villarreal",
                 "text": null
               }
