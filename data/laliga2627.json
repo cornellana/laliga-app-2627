@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T19:16:32Z",
+  "lastUpdated": "2026-11-22T19:17:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'+1'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70117,6 +70117,15 @@
                 "playerName": "Raúl García",
                 "teamName": "Osasuna",
                 "text": "Ante Budimir"
+              },
+              {
+                "id": "55564591_24",
+                "type": "YELLOW_CARD",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": "Raúl García",
+                "teamName": "Osasuna",
+                "text": null
               }
             ]
           }
