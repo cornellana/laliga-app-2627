@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T17:07:02Z",
+  "lastUpdated": "2026-11-22T17:08:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69075,8 +69075,8 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "90'+2'",
-          "statusText": "Second Half",
+          "clock": "90'+4'",
+          "statusText": "In Progress",
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
@@ -69594,6 +69594,15 @@
                 "playerName": "Iñigo Vicente",
                 "teamName": "Racing",
                 "text": null
+              },
+              {
+                "id": "55557957_27",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Facu González",
+                "teamName": "Racing",
+                "text": "Iñigo Vicente"
               }
             ]
           }
