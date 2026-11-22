@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T18:17:08Z",
+  "lastUpdated": "2026-11-22T18:32:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,8 +69617,8 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'+1'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
           "details": {
@@ -70017,6 +70017,24 @@
                 "extraTime": null,
                 "playerName": "Alejandro Catena",
                 "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "55562950_8",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "55562951_9",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
                 "text": null
               }
             ]
