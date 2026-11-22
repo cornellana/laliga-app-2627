@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T19:03:28Z",
+  "lastUpdated": "2026-11-22T19:04:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "76'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70070,6 +70070,15 @@
                 "minute": 74,
                 "extraTime": null,
                 "playerName": "Asier Osambela",
+                "teamName": "Osasuna",
+                "text": null
+              },
+              {
+                "id": "55563951_17",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Osasuna",
                 "text": null
               }
