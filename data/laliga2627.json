@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T18:32:58Z",
+  "lastUpdated": "2026-11-22T18:34:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70024,18 +70024,18 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ramón Enríquez",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Rafa Rodríguez"
               },
               {
                 "id": "55562951_9",
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Carlos Puga",
                 "teamName": "Málaga",
-                "text": null
+                "text": "Álex Pastor"
               }
             ]
           }
