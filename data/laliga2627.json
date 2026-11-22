@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:25:55Z",
+  "lastUpdated": "2026-11-22T14:27:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68494,9 +68494,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "1-2",
+          "result": "2-2",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68924,6 +68924,15 @@
                 "minute": 57,
                 "extraTime": null,
                 "playerName": "Gerard Martín",
+                "teamName": "FC Barcelona",
+                "text": null
+              },
+              {
+                "id": "55539809_13",
+                "type": "GOAL",
+                "minute": 61,
+                "extraTime": null,
+                "playerName": "Fermín López",
                 "teamName": "FC Barcelona",
                 "text": null
               }
@@ -72779,7 +72788,7 @@
     {
       "player": "Fermín López",
       "team": "FC Barcelona",
-      "goals": 7,
+      "goals": 8,
       "penalties": null
     },
     {
