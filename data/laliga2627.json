@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T17:49:57Z",
+  "lastUpdated": "2026-11-22T17:51:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69615,9 +69615,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "20'",
+          "clock": "21'",
           "statusText": "First Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70000,7 +70000,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55560923_1",
+                "type": "GOAL",
+                "minute": 20,
+                "extraTime": null,
+                "playerName": "Ante Budimir",
+                "teamName": "Osasuna",
+                "text": null
+              }
+            ]
           }
         },
         {
@@ -73814,7 +73824,7 @@
     {
       "player": "Ante Budimir",
       "team": "Osasuna",
-      "goals": 8,
+      "goals": 9,
       "penalties": 4
     },
     {
