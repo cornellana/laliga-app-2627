@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:33:31Z",
+  "lastUpdated": "2026-11-22T14:34:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "3-2",
           "state": "in",
-          "clock": "69'",
+          "clock": "70'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68971,6 +68971,24 @@
                 "playerName": "Pau Navarro",
                 "teamName": "FC Barcelona",
                 "text": null
+              },
+              {
+                "id": "55540596_18",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Anthony Gordon",
+                "teamName": "FC Barcelona",
+                "text": "Karim Adeyemi"
+              },
+              {
+                "id": "55540597_19",
+                "type": "SUBSTITUTION",
+                "minute": 68,
+                "extraTime": null,
+                "playerName": "Dani Olmo",
+                "teamName": "FC Barcelona",
+                "text": "Fermín López"
               }
             ]
           }
