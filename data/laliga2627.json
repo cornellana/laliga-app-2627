@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T21:12:08Z",
+  "lastUpdated": "2026-11-22T21:13:14Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70149,7 +70149,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "52'",
+          "clock": "53'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70230,17 +70230,17 @@
                   "events": null
                 },
                 {
-                  "id": "218122",
-                  "jersey": 19,
-                  "name": "Enes Ünal",
+                  "id": "310259",
+                  "jersey": 20,
+                  "name": "Ivan Azón",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "310259",
-                  "jersey": 20,
-                  "name": "Ivan Azón",
+                  "id": "218122",
+                  "jersey": 19,
+                  "name": "Enes Ünal",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
