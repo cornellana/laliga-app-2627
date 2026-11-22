@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T14:15:01Z",
+  "lastUpdated": "2026-11-22T14:16:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "50'",
+          "clock": "51'",
           "statusText": "Second Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68906,6 +68906,15 @@
                 "minute": 47,
                 "extraTime": null,
                 "playerName": "Pau Navarro",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "55538128_11",
+                "type": "YELLOW_CARD",
+                "minute": 49,
+                "extraTime": null,
+                "playerName": "Alex Freeman",
                 "teamName": "Villarreal",
                 "text": null
               }
