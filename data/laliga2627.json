@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T19:10:00Z",
+  "lastUpdated": "2026-11-22T19:11:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69617,7 +69617,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "83'",
+          "clock": "84'",
           "statusText": "Second Half",
           "stadium": "El Sadar",
           "venueCity": "Pamplona",
@@ -70099,6 +70099,15 @@
                 "playerName": "Chupe",
                 "teamName": "Málaga",
                 "text": "Pablo Martínez"
+              },
+              {
+                "id": "55564258_22",
+                "type": "SUBSTITUTION",
+                "minute": 83,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
