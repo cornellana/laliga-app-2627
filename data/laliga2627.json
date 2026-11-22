@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T13:35:24Z",
+  "lastUpdated": "2026-11-22T13:36:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -68496,7 +68496,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "32'",
+          "clock": "33'",
           "statusText": "First Half",
           "stadium": "Spotify Camp Nou",
           "venueCity": "Barcelona",
@@ -68888,6 +68888,15 @@
                 "minute": 11,
                 "extraTime": null,
                 "playerName": "Pape Gueye",
+                "teamName": "Villarreal",
+                "text": null
+              },
+              {
+                "id": "55534676_7",
+                "type": "YELLOW_CARD",
+                "minute": 32,
+                "extraTime": null,
+                "playerName": "Alberto Moleiro",
                 "teamName": "Villarreal",
                 "text": null
               }
