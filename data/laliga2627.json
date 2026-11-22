@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T17:09:12Z",
+  "lastUpdated": "2026-11-22T17:10:17Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -69072,11 +69072,11 @@
           "away": "R. Sociedad",
           "jornada": 13,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "3-2",
-          "state": "in",
-          "clock": "90'+5'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "El Sardineros",
           "venueCity": "Santander",
           "details": {
