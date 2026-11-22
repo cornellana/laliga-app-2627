@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T21:28:32Z",
+  "lastUpdated": "2026-11-22T21:29:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70149,7 +70149,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "68'",
+          "clock": "69'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70595,6 +70595,33 @@
                 "playerName": "Robin Le Normand",
                 "teamName": "Atlético",
                 "text": null
+              },
+              {
+                "id": "55571267_10",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Rodrigo Mendoza",
+                "teamName": "Atlético",
+                "text": "Álex Baena"
+              },
+              {
+                "id": "55571268_11",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Borja Mayoral",
+                "teamName": "Getafe",
+                "text": "Iván Azón"
+              },
+              {
+                "id": "55571269_12",
+                "type": "SUBSTITUTION",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Mario Martín",
+                "teamName": "Getafe",
+                "text": "Francho Serrano"
               }
             ]
           }
