@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T21:52:31Z",
+  "lastUpdated": "2026-11-22T21:53:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70149,7 +70149,7 @@
           "done": false,
           "result": "0-3",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadio Coliseum",
           "venueCity": "Getafe",
@@ -70663,14 +70663,14 @@
                 "id": "55573061_21",
                 "type": "RED_CARD",
                 "minute": 90,
-                "extraTime": 1,
+                "extraTime": null,
                 "playerName": "Djené Dakonam",
                 "teamName": "Getafe",
                 "text": null
               },
               {
                 "id": "55573062_22",
-                "type": "GOAL",
+                "type": "PENALTY",
                 "minute": 90,
                 "extraTime": 2,
                 "playerName": "Alejandro Grimaldo",
@@ -74524,7 +74524,7 @@
       "player": "Alejandro Grimaldo",
       "team": "Atlético",
       "goals": 5,
-      "penalties": 2
+      "penalties": 3
     },
     {
       "player": "Jude Bellingham",
