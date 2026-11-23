@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T21:13:01Z",
+  "lastUpdated": "2026-11-23T21:14:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70696,7 +70696,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "54'",
+          "clock": "55'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71106,6 +71106,15 @@
                 "playerName": "Thomas Lemar",
                 "teamName": "Elche",
                 "text": "Abiel Osorio"
+              },
+              {
+                "id": "55600340_12",
+                "type": "YELLOW_CARD",
+                "minute": 53,
+                "extraTime": null,
+                "playerName": "Thiago Fernández",
+                "teamName": "Levante",
+                "text": null
               }
             ]
           }
