@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T21:21:42Z",
+  "lastUpdated": "2026-11-23T21:22:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70694,9 +70694,9 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "62'",
+          "clock": "63'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71124,6 +71124,15 @@
                 "playerName": "Marc Santos",
                 "teamName": "Levante",
                 "text": "Manu Sánchez because of an injury"
+              },
+              {
+                "id": "55600715_18",
+                "type": "GOAL",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": "Roy Revivo",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
@@ -75813,6 +75822,12 @@
     {
       "player": "Rodri",
       "team": "FC Barcelona",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Roy Revivo",
+      "team": "Elche",
       "goals": 1,
       "penalties": null
     },
