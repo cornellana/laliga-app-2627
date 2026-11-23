@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T20:03:58Z",
+  "lastUpdated": "2026-11-23T20:05:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70696,7 +70696,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "2'",
+          "clock": "3'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -70934,10 +70934,18 @@
                   "events": null
                 },
                 {
-                  "id": "320648",
-                  "jersey": 21,
-                  "name": "Lucas Cepeda",
+                  "id": "336840",
+                  "jersey": 24,
+                  "name": "Abiel Osorio",
                   "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "273424",
+                  "jersey": 12,
+                  "name": "Gonzalo Villar",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -70945,14 +70953,6 @@
                   "id": "421310",
                   "jersey": 47,
                   "name": "Javier Morcillo",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "336840",
-                  "jersey": 24,
-                  "name": "Abiel Osorio",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -70974,9 +70974,9 @@
                   "events": null
                 },
                 {
-                  "id": "273424",
-                  "jersey": 12,
-                  "name": "Gonzalo Villar",
+                  "id": "320648",
+                  "jersey": 21,
+                  "name": "Lucas Cepeda",
                   "position": "AM-R",
                   "isStarter": true,
                   "events": null
