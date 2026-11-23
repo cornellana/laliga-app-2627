@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T20:11:35Z",
+  "lastUpdated": "2026-11-23T20:12:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70696,13 +70696,13 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "10'",
+          "clock": "11'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
             "homeLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-1-4-1",
               "players": [
                 {
                   "id": "141438",
@@ -70729,6 +70729,14 @@
                   "events": null
                 },
                 {
+                  "id": "269339",
+                  "jersey": 20,
+                  "name": "Orio Rey",
+                  "position": "DM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "300985",
                   "jersey": 23,
                   "name": "Manu Sánchez",
@@ -70745,25 +70753,33 @@
                   "events": null
                 },
                 {
-                  "id": "362752",
-                  "jersey": 6,
-                  "name": "Dani Requena",
-                  "position": "AM",
+                  "id": "317784",
+                  "jersey": 8,
+                  "name": "Jon Ander Olasagasti",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "317784",
-                  "jersey": 8,
-                  "name": "Jon Ander Olasagasti",
+                  "id": "362752",
+                  "jersey": 6,
+                  "name": "Dani Requena",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "339195",
+                  "jersey": 24,
+                  "name": "Thiago Fernández",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "269339",
-                  "jersey": 20,
-                  "name": "Orio Rey",
+                  "id": "267591",
+                  "jersey": 7,
+                  "name": "Roger Brugué",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -70773,22 +70789,6 @@
                   "jersey": 9,
                   "name": "Iván Romero",
                   "position": "F",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "339195",
-                  "jersey": 24,
-                  "name": "Thiago Fernández",
-                  "position": "AM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "267591",
-                  "jersey": 7,
-                  "name": "Roger Brugué",
-                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
