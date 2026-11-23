@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T21:47:48Z",
+  "lastUpdated": "2026-11-23T21:48:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70696,7 +70696,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "89'",
+          "clock": "90'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71202,7 +71202,7 @@
                 "type": "GOAL",
                 "minute": 88,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Dani Requena",
                 "teamName": "Levante",
                 "text": null
               }
@@ -75256,6 +75256,12 @@
       "penalties": null
     },
     {
+      "player": "Dani Requena",
+      "team": "Levante",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Enes Ünal",
       "team": "Getafe",
       "goals": 2,
@@ -75528,12 +75534,6 @@
     {
       "player": "Dani Raba",
       "team": "Valencia",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Dani Requena",
-      "team": "Levante",
       "goals": 1,
       "penalties": null
     },
