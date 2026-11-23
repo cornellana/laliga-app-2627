@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T20:22:25Z",
+  "lastUpdated": "2026-11-23T20:23:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70696,7 +70696,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "21'",
+          "clock": "22'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71079,7 +71079,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55598276_3",
+                "type": "SUBSTITUTION",
+                "minute": 22,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
+                "text": null
+              }
+            ]
           }
         }
       ]
