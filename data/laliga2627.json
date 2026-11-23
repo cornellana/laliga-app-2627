@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T20:49:34Z",
+  "lastUpdated": "2026-11-23T21:04:19Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71096,6 +71096,15 @@
                 "extraTime": null,
                 "playerName": "Aïssa Mandi",
                 "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "55599964_10",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
                 "text": null
               }
             ]
