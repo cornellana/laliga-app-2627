@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T21:37:59Z",
+  "lastUpdated": "2026-11-23T21:39:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70696,7 +70696,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71160,6 +71160,15 @@
                 "playerName": "Petar Ratkov",
                 "teamName": "Levante",
                 "text": "Iván Romero"
+              },
+              {
+                "id": "55601801_22",
+                "type": "SUBSTITUTION",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Karl Etta Eyong",
+                "teamName": "Levante",
+                "text": "Oriol Rey"
               }
             ]
           }
