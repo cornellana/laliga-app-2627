@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T20:20:15Z",
+  "lastUpdated": "2026-11-23T20:21:20Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70696,7 +70696,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "18'",
+          "clock": "20'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -70891,7 +70891,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-2-3-1",
+              "formation": "4-4-2",
               "players": [
                 {
                   "id": "173749",
@@ -70934,18 +70934,10 @@
                   "events": null
                 },
                 {
-                  "id": "336840",
-                  "jersey": 24,
-                  "name": "Abiel Osorio",
-                  "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "273424",
                   "jersey": 12,
                   "name": "Gonzalo Villar",
-                  "position": "LM",
+                  "position": "CM-L",
                   "isStarter": true,
                   "events": null
                 },
@@ -70953,6 +70945,22 @@
                   "id": "421310",
                   "jersey": 47,
                   "name": "Javier Morcillo",
+                  "position": "CM-R",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "297358",
+                  "jersey": 11,
+                  "name": "Germán Valera",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "320648",
+                  "jersey": 21,
+                  "name": "Lucas Cepeda",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -70961,23 +70969,15 @@
                   "id": "301684",
                   "jersey": 14,
                   "name": "Fer Niño",
-                  "position": "F",
+                  "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "297358",
-                  "jersey": 11,
-                  "name": "Germán Valera",
-                  "position": "AM-L",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "320648",
-                  "jersey": 21,
-                  "name": "Lucas Cepeda",
-                  "position": "AM-R",
+                  "id": "336840",
+                  "jersey": 24,
+                  "name": "Abiel Osorio",
+                  "position": "CF-R",
                   "isStarter": true,
                   "events": null
                 },
