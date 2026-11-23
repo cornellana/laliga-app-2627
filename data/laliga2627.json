@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T20:02:52Z",
+  "lastUpdated": "2026-11-23T20:03:58Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70696,7 +70696,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -70713,17 +70713,17 @@
                   "events": null
                 },
                 {
-                  "id": "276841",
-                  "jersey": 4,
-                  "name": "Adrián de la Fuente",
+                  "id": "150451",
+                  "jersey": 2,
+                  "name": "Aïssa Mandi",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "150451",
-                  "jersey": 2,
-                  "name": "Aïssa Mandi",
+                  "id": "276841",
+                  "jersey": 4,
+                  "name": "Adrián de la Fuente",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
@@ -70891,7 +70891,7 @@
               ]
             },
             "awayLineup": {
-              "formation": "4-3-3",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "173749",
@@ -70934,10 +70934,18 @@
                   "events": null
                 },
                 {
+                  "id": "320648",
+                  "jersey": 21,
+                  "name": "Lucas Cepeda",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "421310",
                   "jersey": 47,
                   "name": "Javier Morcillo",
-                  "position": "CM",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -70945,14 +70953,6 @@
                   "id": "336840",
                   "jersey": 24,
                   "name": "Abiel Osorio",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "273424",
-                  "jersey": 12,
-                  "name": "Gonzalo Villar",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -70969,15 +70969,15 @@
                   "id": "297358",
                   "jersey": 11,
                   "name": "Germán Valera",
-                  "position": "LF",
+                  "position": "AM-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "320648",
-                  "jersey": 21,
-                  "name": "Lucas Cepeda",
-                  "position": "RF",
+                  "id": "273424",
+                  "jersey": 12,
+                  "name": "Gonzalo Villar",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
