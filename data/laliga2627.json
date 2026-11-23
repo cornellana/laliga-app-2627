@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T21:46:43Z",
+  "lastUpdated": "2026-11-23T21:47:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70694,10 +70694,10 @@
           "jornada": 13,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "1-1",
           "state": "in",
-          "clock": "88'",
-          "statusText": "In Progress",
+          "clock": "89'",
+          "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
@@ -71195,6 +71195,15 @@
                 "extraTime": null,
                 "playerName": "Federico Redondo",
                 "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "55602140_26",
+                "type": "GOAL",
+                "minute": 88,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
                 "text": null
               }
             ]
