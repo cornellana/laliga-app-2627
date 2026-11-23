@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T21:18:27Z",
+  "lastUpdated": "2026-11-23T21:19:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70696,7 +70696,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "59'",
+          "clock": "60'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71121,9 +71121,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 56,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Marc Santos",
                 "teamName": "Levante",
-                "text": null
+                "text": "Manu Sánchez because of an injury"
               }
             ]
           }
