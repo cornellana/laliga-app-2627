@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T21:24:58Z",
+  "lastUpdated": "2026-11-23T21:26:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70696,7 +70696,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71133,6 +71133,15 @@
                 "playerName": "Roy Revivo",
                 "teamName": "Elche",
                 "text": null
+              },
+              {
+                "id": "55601050_19",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Martim Neto",
+                "teamName": "Elche",
+                "text": "Gonzalo Villar"
               }
             ]
           }
