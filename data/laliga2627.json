@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T20:05:03Z",
+  "lastUpdated": "2026-11-23T20:06:08Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -70696,7 +70696,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "3'",
+          "clock": "4'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -70713,17 +70713,17 @@
                   "events": null
                 },
                 {
-                  "id": "150451",
-                  "jersey": 2,
-                  "name": "Aïssa Mandi",
+                  "id": "276841",
+                  "jersey": 4,
+                  "name": "Adrián de la Fuente",
                   "position": "CD-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "276841",
-                  "jersey": 4,
-                  "name": "Adrián de la Fuente",
+                  "id": "150451",
+                  "jersey": 2,
+                  "name": "Aïssa Mandi",
                   "position": "CD-R",
                   "isStarter": true,
                   "events": null
