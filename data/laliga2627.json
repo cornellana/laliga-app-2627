@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T21:54:22Z",
+  "lastUpdated": "2026-11-25T14:26:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71640,7 +71640,7 @@
           "tv": null,
           "done": false,
           "result": null,
-          "state": "post",
+          "state": "pre",
           "clock": null,
           "statusText": null,
           "stadium": "Estadio de Vallecas",
