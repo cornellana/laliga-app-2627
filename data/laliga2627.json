@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T21:04:35Z",
+  "lastUpdated": "2026-11-27T21:05:41Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71234,7 +71234,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71291,17 +71291,17 @@
                   "events": null
                 },
                 {
-                  "id": "362752",
-                  "jersey": 6,
-                  "name": "Dani Requena",
+                  "id": "317784",
+                  "jersey": 8,
+                  "name": "Jon Ander Olasagasti",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "317784",
-                  "jersey": 8,
-                  "name": "Jon Ander Olasagasti",
+                  "id": "362752",
+                  "jersey": 6,
+                  "name": "Dani Requena",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
