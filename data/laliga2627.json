@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T21:39:35Z",
+  "lastUpdated": "2026-11-27T21:40:40Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71232,10 +71232,10 @@
           "jornada": 14,
           "tv": null,
           "done": false,
-          "result": "1-1",
+          "result": "1-2",
           "state": "in",
-          "clock": "80'",
-          "statusText": "Second Half",
+          "clock": "81'",
+          "statusText": "In Progress",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
@@ -71725,6 +71725,15 @@
                 "playerName": "Asier Villalibre",
                 "teamName": "Racing",
                 "text": "Iker Luque"
+              },
+              {
+                "id": "55757199_23",
+                "type": "GOAL",
+                "minute": 81,
+                "extraTime": null,
+                "playerName": "Yassir Zabiri",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
@@ -75486,7 +75495,7 @@
     {
       "player": "Yassir Zabiri",
       "team": "Racing",
-      "goals": 11,
+      "goals": 12,
       "penalties": null
     },
     {
