@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T21:34:06Z",
+  "lastUpdated": "2026-11-27T21:35:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71234,7 +71234,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "75'",
+          "clock": "76'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71698,6 +71698,15 @@
                 "playerName": "Iker Luque",
                 "teamName": "Racing",
                 "text": null
+              },
+              {
+                "id": "55756676_16",
+                "type": "SUBSTITUTION",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Roger Brugué",
+                "teamName": "Levante",
+                "text": "Víctor García"
               }
             ]
           }
