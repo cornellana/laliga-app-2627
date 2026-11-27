@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T20:44:27Z",
+  "lastUpdated": "2026-11-27T20:45:33Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71234,7 +71234,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "43'",
+          "clock": "44'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71632,7 +71632,7 @@
                 "type": "GOAL",
                 "minute": 42,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Iván Romero",
                 "teamName": "Levante",
                 "text": null
               }
@@ -75490,6 +75490,12 @@
       "penalties": null
     },
     {
+      "player": "Iván Romero",
+      "team": "Levante",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Luka Sucic",
       "team": "R. Sociedad",
       "goals": 4,
@@ -75546,12 +75552,6 @@
     {
       "player": "Isaac Romero",
       "team": "Sevilla",
-      "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Iván Romero",
-      "team": "Levante",
       "goals": 3,
       "penalties": null
     },
