@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T20:43:21Z",
+  "lastUpdated": "2026-11-27T20:44:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71232,9 +71232,9 @@
           "jornada": 14,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "1-0",
           "state": "in",
-          "clock": "42'",
+          "clock": "43'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71625,6 +71625,15 @@
                 "extraTime": null,
                 "playerName": "Pedro Felipe",
                 "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "55751739_2",
+                "type": "GOAL",
+                "minute": 42,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Levante",
                 "text": null
               }
             ]
