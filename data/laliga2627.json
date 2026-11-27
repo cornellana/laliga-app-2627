@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T21:33:01Z",
+  "lastUpdated": "2026-11-27T21:34:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71234,7 +71234,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71687,6 +71687,15 @@
                 "minute": 66,
                 "extraTime": null,
                 "playerName": "Pablo García",
+                "teamName": "Racing",
+                "text": null
+              },
+              {
+                "id": "55756517_15",
+                "type": "YELLOW_CARD",
+                "minute": 74,
+                "extraTime": null,
+                "playerName": "Iker Luque",
                 "teamName": "Racing",
                 "text": null
               }
