@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T21:50:31Z",
+  "lastUpdated": "2026-11-27T21:51:37Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71234,7 +71234,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "90'+2'",
+          "clock": "90'+3'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71637,7 +71637,7 @@
                 "text": null
               },
               {
-                "id": "55753998_8",
+                "id": "55753998_9",
                 "type": "SUBSTITUTION",
                 "minute": 50,
                 "extraTime": null,
@@ -71743,6 +71743,15 @@
                 "playerName": "Yanis Musuayi",
                 "teamName": "Levante",
                 "text": "Dani Requena"
+              },
+              {
+                "id": "55757964_25",
+                "type": "SUBSTITUTION",
+                "minute": 90,
+                "extraTime": null,
+                "playerName": "Andrés Vallecillo",
+                "teamName": "Racing",
+                "text": "Yassir Zabiri"
               }
             ]
           }
