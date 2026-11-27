@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T21:38:29Z",
+  "lastUpdated": "2026-11-27T21:39:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71234,7 +71234,7 @@
           "done": false,
           "result": "1-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71716,6 +71716,15 @@
                 "playerName": "Karl Etta Eyong",
                 "teamName": "Levante",
                 "text": "Iván Romero"
+              },
+              {
+                "id": "55757160_18",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": "Asier Villalibre",
+                "teamName": "Racing",
+                "text": "Iker Luque"
               }
             ]
           }
