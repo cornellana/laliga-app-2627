@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T21:53:49Z",
+  "lastUpdated": "2026-11-27T21:54:55Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71234,7 +71234,7 @@
           "done": false,
           "result": "1-2",
           "state": "in",
-          "clock": "90'+5'",
+          "clock": "90'+6'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71752,6 +71752,24 @@
                 "playerName": "Andrés Vallecillo",
                 "teamName": "Racing",
                 "text": "Yassir Zabiri"
+              },
+              {
+                "id": "55758156_26",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Jon Ander Olasagasti",
+                "teamName": "Levante",
+                "text": null
+              },
+              {
+                "id": "55758185_27",
+                "type": "GOAL",
+                "minute": 90,
+                "extraTime": 5,
+                "playerName": "Pablo García",
+                "teamName": "Racing",
+                "text": null
               }
             ]
           }
@@ -75631,6 +75649,12 @@
       "penalties": null
     },
     {
+      "player": "Pablo García",
+      "team": "Betis",
+      "goals": 4,
+      "penalties": null
+    },
+    {
       "player": "Abde Ezzalzouli",
       "team": "Betis",
       "goals": 3,
@@ -75705,12 +75729,6 @@
     {
       "player": "Pablo Durán",
       "team": "Celta",
-      "goals": 3,
-      "penalties": null
-    },
-    {
-      "player": "Pablo García",
-      "team": "Betis",
       "goals": 3,
       "penalties": null
     },
