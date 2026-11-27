@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T20:46:38Z",
+  "lastUpdated": "2026-11-27T20:47:44Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71234,7 +71234,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "45'",
+          "clock": "45'+1'",
           "statusText": "First Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71472,18 +71472,10 @@
                   "events": null
                 },
                 {
-                  "id": "125383",
-                  "jersey": 20,
-                  "name": "Sergio Canales",
-                  "position": "AM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
                   "id": "330545",
                   "jersey": 23,
                   "name": "Iván Martín",
-                  "position": "LM",
+                  "position": "AM",
                   "isStarter": true,
                   "events": null
                 },
@@ -71491,6 +71483,14 @@
                   "id": "107960",
                   "jersey": 18,
                   "name": "Matteo Prati",
+                  "position": "LM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "125383",
+                  "jersey": 20,
+                  "name": "Sergio Canales",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
