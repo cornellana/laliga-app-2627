@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T21:08:56Z",
+  "lastUpdated": "2026-11-27T21:10:02Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71234,7 +71234,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "50'",
+          "clock": "51'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71635,6 +71635,15 @@
                 "playerName": "Iván Romero",
                 "teamName": "Levante",
                 "text": null
+              },
+              {
+                "id": "55753998_7",
+                "type": "SUBSTITUTION",
+                "minute": 50,
+                "extraTime": null,
+                "playerName": "Enzo Bardeli",
+                "teamName": "Levante",
+                "text": "Oriol Rey because of an injury"
               }
             ]
           }
