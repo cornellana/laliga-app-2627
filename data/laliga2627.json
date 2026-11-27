@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T21:22:06Z",
+  "lastUpdated": "2026-11-27T21:23:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71234,7 +71234,7 @@
           "done": false,
           "result": "1-0",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
@@ -71659,27 +71659,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "André Almeida",
                 "teamName": "Racing",
-                "text": null
+                "text": "Matteo Prati"
               },
               {
                 "id": "55755274_12",
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Hugo Pérez",
                 "teamName": "Racing",
-                "text": null
+                "text": "Pedro Felipe"
               },
               {
                 "id": "55755275_13",
                 "type": "SUBSTITUTION",
                 "minute": 61,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Pablo García",
                 "teamName": "Racing",
-                "text": null
+                "text": "Sergio Canales"
               }
             ]
           }
