@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T21:54:55Z",
+  "lastUpdated": "2026-11-27T21:56:00Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71231,11 +71231,11 @@
           "away": "Racing",
           "jornada": 14,
           "tv": null,
-          "done": false,
-          "result": "1-2",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "done": true,
+          "result": "1-3",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadi Ciutat de València",
           "venueCity": "Manises",
           "details": {
