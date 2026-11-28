@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T16:42:22Z",
+  "lastUpdated": "2026-11-28T16:43:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,7 +72331,7 @@
           "done": false,
           "result": "2-4",
           "state": "in",
-          "clock": "66'",
+          "clock": "67'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72813,6 +72813,15 @@
                 "playerName": "Robert Navarro",
                 "teamName": "Athletic",
                 "text": "Oihan Sancet"
+              },
+              {
+                "id": "55803585_18",
+                "type": "SUBSTITUTION",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
