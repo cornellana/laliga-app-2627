@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T18:57:24Z",
+  "lastUpdated": "2026-11-28T18:58:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73382,6 +73382,15 @@
                 "playerName": "Grady Diangana",
                 "teamName": "Elche",
                 "text": "Martim Neto"
+              },
+              {
+                "id": "55818290_13",
+                "type": "YELLOW_CARD",
+                "minute": 67,
+                "extraTime": null,
+                "playerName": "Roy Revivo",
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
