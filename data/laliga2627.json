@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T16:50:04Z",
+  "lastUpdated": "2026-11-28T16:51:09Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,7 +72331,7 @@
           "done": false,
           "result": "2-4",
           "state": "in",
-          "clock": "74'",
+          "clock": "75'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72822,6 +72822,33 @@
                 "playerName": "Ramón Enríquez",
                 "teamName": "Málaga",
                 "text": "Izan Merino"
+              },
+              {
+                "id": "55805260_19",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Beñat Prados",
+                "teamName": "Athletic",
+                "text": "Beñat Gerenabarrena"
+              },
+              {
+                "id": "55805262_20",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Alejandro Rego",
+                "teamName": "Athletic",
+                "text": "Alex Berenguer"
+              },
+              {
+                "id": "55805261_21",
+                "type": "SUBSTITUTION",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Rafa Rodríguez",
+                "teamName": "Málaga",
+                "text": "Jens Cajuste"
               }
             ]
           }
