@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T13:52:42Z",
+  "lastUpdated": "2026-11-28T14:08:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72189,6 +72189,15 @@
                 "minute": 45,
                 "extraTime": null,
                 "playerName": "Junior Firpo",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "55778628_4",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Betis",
                 "text": null
               }
