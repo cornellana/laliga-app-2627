@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T14:35:51Z",
+  "lastUpdated": "2026-11-28T14:36:56Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71788,9 +71788,9 @@
           "jornada": 14,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "72'",
+          "clock": "74'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -72244,6 +72244,15 @@
                 "extraTime": null,
                 "playerName": "Isco",
                 "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "55780594_15",
+                "type": "GOAL",
+                "minute": 72,
+                "extraTime": null,
+                "playerName": "Jorge de Frutos",
+                "teamName": "Rayo",
                 "text": null
               }
             ]
@@ -76162,6 +76171,12 @@
       "penalties": null
     },
     {
+      "player": "Jorge de Frutos",
+      "team": "Rayo",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Marc Bartra",
       "team": "Betis",
       "goals": 3,
@@ -76298,12 +76313,6 @@
       "team": "Betis",
       "goals": 2,
       "penalties": 1
-    },
-    {
-      "player": "Jorge de Frutos",
-      "team": "Rayo",
-      "goals": 2,
-      "penalties": null
     },
     {
       "player": "Karim Adeyemi",
