@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T13:51:36Z",
+  "lastUpdated": "2026-11-28T13:52:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72181,6 +72181,15 @@
                 "extraTime": null,
                 "playerName": "Sergio Camello",
                 "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "55777886_2",
+                "type": "YELLOW_CARD",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Junior Firpo",
+                "teamName": "Betis",
                 "text": null
               }
             ]
