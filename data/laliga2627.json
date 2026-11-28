@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T19:00:42Z",
+  "lastUpdated": "2026-11-28T19:08:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "70'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73389,6 +73389,42 @@
                 "minute": 67,
                 "extraTime": null,
                 "playerName": "Roy Revivo",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "55818601_14",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Johnny Cardoso",
+                "teamName": "Atlético",
+                "text": "Pablo Barrios"
+              },
+              {
+                "id": "55818600_15",
+                "type": "SUBSTITUTION",
+                "minute": 70,
+                "extraTime": null,
+                "playerName": "Rodrigo Mendoza",
+                "teamName": "Atlético",
+                "text": "Lee Kang-In"
+              },
+              {
+                "id": "55819065_16",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Josan",
+                "teamName": "Elche",
+                "text": "Gonzalo Villar"
+              },
+              {
+                "id": "55819077_17",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Elche",
                 "text": null
               }
