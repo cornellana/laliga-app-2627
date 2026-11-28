@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T14:51:06Z",
+  "lastUpdated": "2026-11-28T14:52:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71790,7 +71790,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -72314,9 +72314,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 86,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Óscar Valentín",
                 "teamName": "Rayo",
-                "text": null
+                "text": "Gnangoro"
               }
             ]
           }
