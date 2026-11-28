@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T18:38:44Z",
+  "lastUpdated": "2026-11-28T18:39:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72915,10 +72915,10 @@
           "jornada": 14,
           "tv": null,
           "done": false,
-          "result": "1-3",
+          "result": "2-3",
           "state": "in",
-          "clock": "49'",
-          "statusText": "Second Half",
+          "clock": "50'",
+          "statusText": "In Progress",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
           "details": {
@@ -73336,6 +73336,15 @@
                 "extraTime": null,
                 "playerName": "Marc Pubill",
                 "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "55816520_8",
+                "type": "GOAL",
+                "minute": 48,
+                "extraTime": null,
+                "playerName": "Buba Sangaré",
+                "teamName": "Elche",
                 "text": null
               }
             ]
@@ -77324,6 +77333,12 @@
       "penalties": null
     },
     {
+      "player": "Buba Sangaré",
+      "team": "Elche",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Carlos Dotor",
       "team": "Málaga",
       "goals": 2,
@@ -77536,12 +77551,6 @@
     {
       "player": "Bryan Zaragoza",
       "team": "Espanyol",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Buba Sangaré",
-      "team": "Elche",
       "goals": 1,
       "penalties": null
     },
