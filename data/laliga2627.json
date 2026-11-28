@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T15:53:42Z",
+  "lastUpdated": "2026-11-28T15:54:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72329,10 +72329,10 @@
           "jornada": 14,
           "tv": null,
           "done": false,
-          "result": "1-2",
+          "result": "1-3",
           "state": "in",
-          "clock": "38'",
-          "statusText": "First Half",
+          "clock": "39'",
+          "statusText": "In Progress",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -72749,6 +72749,15 @@
                 "extraTime": null,
                 "playerName": "Jens Cajuste",
                 "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "55794099_9",
+                "type": "GOAL",
+                "minute": 38,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
                 "text": null
               }
             ]
