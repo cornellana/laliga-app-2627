@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T17:31:56Z",
+  "lastUpdated": "2026-11-28T17:33:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "1'",
+          "clock": "2'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73187,17 +73187,17 @@
                   "events": null
                 },
                 {
-                  "id": "277206",
-                  "jersey": 19,
-                  "name": "Julián Álvarez",
+                  "id": "274197",
+                  "jersey": 7,
+                  "name": "Lee Kang-In",
                   "position": "CF-L",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "274197",
-                  "jersey": 7,
-                  "name": "Lee Kang-In",
+                  "id": "277206",
+                  "jersey": 19,
+                  "name": "Julián Álvarez",
                   "position": "CF-R",
                   "isStarter": true,
                   "events": null
