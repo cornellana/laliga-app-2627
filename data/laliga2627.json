@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T18:46:22Z",
+  "lastUpdated": "2026-11-28T18:47:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "56'",
+          "clock": "57'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73355,6 +73355,24 @@
                 "playerName": "Buba Sangaré",
                 "teamName": "Elche",
                 "text": null
+              },
+              {
+                "id": "55817208_10",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Jonathan David",
+                "teamName": "Atlético",
+                "text": "Álex Baena"
+              },
+              {
+                "id": "55817209_11",
+                "type": "SUBSTITUTION",
+                "minute": 56,
+                "extraTime": null,
+                "playerName": "Koke",
+                "teamName": "Atlético",
+                "text": "Morten Hjulmand"
               }
             ]
           }
