@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T15:54:48Z",
+  "lastUpdated": "2026-11-28T15:55:53Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,8 +72331,8 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "39'",
-          "statusText": "In Progress",
+          "clock": "40'",
+          "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -72756,7 +72756,7 @@
                 "type": "GOAL",
                 "minute": 38,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Nico Williams",
                 "teamName": "Athletic",
                 "text": null
               }
@@ -76684,6 +76684,12 @@
       "penalties": null
     },
     {
+      "player": "Nico Williams",
+      "team": "Athletic",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Pablo Durán",
       "team": "Celta",
       "goals": 3,
@@ -76830,12 +76836,6 @@
     {
       "player": "Miguel Sierra",
       "team": "Sevilla",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Nico Williams",
-      "team": "Athletic",
       "goals": 2,
       "penalties": null
     },
