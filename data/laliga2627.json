@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T16:25:57Z",
+  "lastUpdated": "2026-11-28T16:27:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72329,9 +72329,9 @@
           "jornada": 14,
           "tv": null,
           "done": false,
-          "result": "1-4",
+          "result": "2-4",
           "state": "in",
-          "clock": "49'",
+          "clock": "50'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72795,6 +72795,15 @@
                 "playerName": "Peio Canales",
                 "teamName": "Athletic",
                 "text": "Iñigo Ruiz de Galarreta"
+              },
+              {
+                "id": "55800278_16",
+                "type": "GOAL",
+                "minute": 49,
+                "extraTime": null,
+                "playerName": "Adrián Niño",
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
@@ -76552,6 +76561,12 @@
       "penalties": null
     },
     {
+      "player": "Adrián Niño",
+      "team": "Málaga",
+      "goals": 6,
+      "penalties": null
+    },
+    {
       "player": "Fer Niño",
       "team": "Elche",
       "goals": 6,
@@ -76567,12 +76582,6 @@
       "player": "Álex Baena",
       "team": "Atlético",
       "goals": 6,
-      "penalties": null
-    },
-    {
-      "player": "Adrián Niño",
-      "team": "Málaga",
-      "goals": 5,
       "penalties": null
     },
     {
