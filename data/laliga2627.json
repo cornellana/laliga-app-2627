@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T15:25:18Z",
+  "lastUpdated": "2026-11-28T15:26:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,7 +72331,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "9'",
+          "clock": "10'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72396,17 +72396,17 @@
                   "events": null
                 },
                 {
-                  "id": "297828",
-                  "jersey": 10,
-                  "name": "David Larrubia",
+                  "id": "180444",
+                  "jersey": 11,
+                  "name": "Joaquín Muñoz",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "180444",
-                  "jersey": 11,
-                  "name": "Joaquín Muñoz",
+                  "id": "297828",
+                  "jersey": 10,
+                  "name": "David Larrubia",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
