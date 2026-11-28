@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T15:40:34Z",
+  "lastUpdated": "2026-11-28T15:41:39Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,7 +72331,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "25'",
+          "clock": "26'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72714,7 +72714,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55791171_5",
+                "type": "YELLOW_CARD",
+                "minute": 24,
+                "extraTime": null,
+                "playerName": "Iñigo Ruiz de Galarreta",
+                "teamName": "Athletic",
+                "text": null
+              }
+            ]
           }
         },
         {
