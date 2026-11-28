@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T17:36:23Z",
+  "lastUpdated": "2026-11-28T17:37:29Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "6'",
+          "clock": "7'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73298,7 +73298,7 @@
                 "type": "PENALTY",
                 "minute": 5,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Alejandro Grimaldo",
                 "teamName": "Atlético",
                 "text": null
               }
@@ -77048,6 +77048,12 @@
       "penalties": null
     },
     {
+      "player": "Alejandro Grimaldo",
+      "team": "Atlético",
+      "goals": 6,
+      "penalties": 4
+    },
+    {
       "player": "Fer Niño",
       "team": "Elche",
       "goals": 6,
@@ -77064,12 +77070,6 @@
       "team": "Atlético",
       "goals": 6,
       "penalties": null
-    },
-    {
-      "player": "Alejandro Grimaldo",
-      "team": "Atlético",
-      "goals": 5,
-      "penalties": 3
     },
     {
       "player": "Alex Berenguer",
