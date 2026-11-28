@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T16:37:59Z",
+  "lastUpdated": "2026-11-28T16:39:03Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,7 +72331,7 @@
           "done": false,
           "result": "2-4",
           "state": "in",
-          "clock": "61'",
+          "clock": "62'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72803,6 +72803,15 @@
                 "extraTime": null,
                 "playerName": "Adrián Niño",
                 "teamName": "Málaga",
+                "text": null
+              },
+              {
+                "id": "55802736_17",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Athletic",
                 "text": null
               }
             ]
