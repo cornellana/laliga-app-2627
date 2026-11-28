@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T17:04:17Z",
+  "lastUpdated": "2026-11-28T17:05:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,7 +72331,7 @@
           "done": false,
           "result": "3-4",
           "state": "in",
-          "clock": "88'",
+          "clock": "89'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72876,6 +72876,15 @@
                 "playerName": "Adrián Niño",
                 "teamName": "Málaga",
                 "text": null
+              },
+              {
+                "id": "55807227_25",
+                "type": "SUBSTITUTION",
+                "minute": 87,
+                "extraTime": null,
+                "playerName": "Johaneko Louis-Jean",
+                "teamName": "Athletic",
+                "text": "Yuri Berchiche because of an injury"
               }
             ]
           }
