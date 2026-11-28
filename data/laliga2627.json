@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T14:08:29Z",
+  "lastUpdated": "2026-11-28T14:09:34Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71790,8 +71790,8 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "45'+1'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
@@ -72197,9 +72197,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 45,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Fran García",
                 "teamName": "Betis",
-                "text": null
+                "text": "Junior Firpo"
               }
             ]
           }
