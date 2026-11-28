@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T16:22:42Z",
+  "lastUpdated": "2026-11-28T16:23:47Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,7 +72331,7 @@
           "done": false,
           "result": "1-4",
           "state": "in",
-          "clock": "46'",
+          "clock": "47'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72777,6 +72777,24 @@
                 "playerName": "Chupe",
                 "teamName": "Málaga",
                 "text": "José Salinas"
+              },
+              {
+                "id": "55799606_13",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Pablo Martínez",
+                "teamName": "Málaga",
+                "text": "Dani Lorenzo"
+              },
+              {
+                "id": "55799609_14",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Peio Canales",
+                "teamName": "Athletic",
+                "text": "Iñigo Ruiz de Galarreta"
               }
             ]
           }
