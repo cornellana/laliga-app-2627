@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T14:50:01Z",
+  "lastUpdated": "2026-11-28T14:51:06Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71790,7 +71790,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -72299,6 +72299,24 @@
                 "playerName": "Nelson Deossa",
                 "teamName": "Betis",
                 "text": "Pablo Fornals"
+              },
+              {
+                "id": "55782009_25",
+                "type": "YELLOW_CARD",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": "Nelson Deossa",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "55782034_26",
+                "type": "SUBSTITUTION",
+                "minute": 86,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
