@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T16:07:59Z",
+  "lastUpdated": "2026-11-28T16:22:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,8 +72331,8 @@
           "done": false,
           "result": "1-4",
           "state": "in",
-          "clock": "45'+6'",
-          "statusText": "Halftime",
+          "clock": "46'",
+          "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -72768,6 +72768,15 @@
                 "playerName": "Hugo Rincón",
                 "teamName": "Athletic",
                 "text": null
+              },
+              {
+                "id": "55799423_12",
+                "type": "SUBSTITUTION",
+                "minute": 45,
+                "extraTime": null,
+                "playerName": "Chupe",
+                "teamName": "Málaga",
+                "text": "José Salinas"
               }
             ]
           }
