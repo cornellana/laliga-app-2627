@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T18:12:52Z",
+  "lastUpdated": "2026-11-28T18:13:59Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "1-3",
           "state": "in",
-          "clock": "42'",
+          "clock": "43'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73318,6 +73318,15 @@
                 "extraTime": null,
                 "playerName": "Martim Neto",
                 "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "55814048_4",
+                "type": "GOAL",
+                "minute": 41,
+                "extraTime": null,
+                "playerName": "Julián Alvarez",
+                "teamName": "Atlético",
                 "text": null
               }
             ]
@@ -77360,6 +77369,12 @@
       "penalties": 1
     },
     {
+      "player": "Julián Alvarez",
+      "team": "Atlético",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Karim Adeyemi",
       "team": "FC Barcelona",
       "goals": 2,
@@ -77764,12 +77779,6 @@
     {
       "player": "Jules Koundé",
       "team": "FC Barcelona",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Julián Alvarez",
-      "team": "Atlético",
       "goals": 1,
       "penalties": null
     },
