@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T16:55:34Z",
+  "lastUpdated": "2026-11-28T16:56:38Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,7 +72331,7 @@
           "done": false,
           "result": "2-4",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72858,6 +72858,15 @@
                 "playerName": "Juan Cruz",
                 "teamName": "Málaga",
                 "text": "Joaquín Muñoz because of an injury"
+              },
+              {
+                "id": "55806176_23",
+                "type": "YELLOW_CARD",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Robert Navarro",
+                "teamName": "Athletic",
+                "text": null
               }
             ]
           }
