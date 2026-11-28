@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T17:09:44Z",
+  "lastUpdated": "2026-11-28T17:10:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,7 +72331,7 @@
           "done": false,
           "result": "3-4",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72885,6 +72885,24 @@
                 "playerName": "Johaneko Louis-Jean",
                 "teamName": "Athletic",
                 "text": "Yuri Berchiche because of an injury"
+              },
+              {
+                "id": "55807822_26",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Nico Williams",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "55807823_27",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 2,
+                "playerName": "Diego Murillo",
+                "teamName": "Málaga",
+                "text": null
               }
             ]
           }
