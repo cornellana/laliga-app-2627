@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T19:23:23Z",
+  "lastUpdated": "2026-11-28T19:24:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "90'+3'",
+          "clock": "90'+4'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73471,6 +73471,15 @@
                 "extraTime": null,
                 "playerName": "Marcos Llorente",
                 "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "55820788_23",
+                "type": "YELLOW_CARD",
+                "minute": 90,
+                "extraTime": 3,
+                "playerName": "Ezequiel Ponce",
+                "teamName": "Elche",
                 "text": null
               }
             ]
