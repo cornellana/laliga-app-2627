@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T16:53:22Z",
+  "lastUpdated": "2026-11-28T16:54:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,7 +72331,7 @@
           "done": false,
           "result": "2-4",
           "state": "in",
-          "clock": "77'",
+          "clock": "78'",
           "statusText": "Second Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72849,6 +72849,15 @@
                 "playerName": "Rafa Rodríguez",
                 "teamName": "Málaga",
                 "text": "Jens Cajuste"
+              },
+              {
+                "id": "55805909_22",
+                "type": "SUBSTITUTION",
+                "minute": 76,
+                "extraTime": null,
+                "playerName": "Juan Cruz",
+                "teamName": "Málaga",
+                "text": "Joaquín Muñoz because of an injury"
               }
             ]
           }
