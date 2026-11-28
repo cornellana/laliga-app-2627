@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T18:52:58Z",
+  "lastUpdated": "2026-11-28T18:54:05Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "63'",
+          "clock": "64'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73373,6 +73373,15 @@
                 "playerName": "Koke",
                 "teamName": "Atlético",
                 "text": "Morten Hjulmand"
+              },
+              {
+                "id": "55817940_12",
+                "type": "SUBSTITUTION",
+                "minute": 62,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
+                "text": null
               }
             ]
           }
