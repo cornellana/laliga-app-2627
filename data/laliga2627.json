@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T17:57:28Z",
+  "lastUpdated": "2026-11-28T17:58:35Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72915,9 +72915,9 @@
           "jornada": 14,
           "tv": null,
           "done": false,
-          "result": "0-2",
+          "result": "1-2",
           "state": "in",
-          "clock": "26'",
+          "clock": "27'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73309,6 +73309,15 @@
                 "extraTime": null,
                 "playerName": "Lee Kang-In",
                 "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "55812175_3",
+                "type": "GOAL",
+                "minute": 26,
+                "extraTime": null,
+                "playerName": "Martim Neto",
+                "teamName": "Elche",
                 "text": null
               }
             ]
@@ -77827,6 +77836,12 @@
     {
       "player": "Marcos Fernández",
       "team": "Espanyol",
+      "goals": 1,
+      "penalties": null
+    },
+    {
+      "player": "Martim Neto",
+      "team": "Elche",
       "goals": 1,
       "penalties": null
     },
