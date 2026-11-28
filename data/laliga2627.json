@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T15:46:02Z",
+  "lastUpdated": "2026-11-28T15:47:07Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72331,13 +72331,13 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "30'",
+          "clock": "31'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
             "homeLineup": {
-              "formation": "4-4-2",
+              "formation": "4-2-3-1",
               "players": [
                 {
                   "id": "240624",
@@ -72380,10 +72380,18 @@
                   "events": null
                 },
                 {
+                  "id": "274971",
+                  "jersey": 2,
+                  "name": "Jens Cajuste",
+                  "position": "AM",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
                   "id": "331533",
                   "jersey": 22,
                   "name": "Daniel Lorenzo",
-                  "position": "CM-L",
+                  "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
@@ -72391,22 +72399,6 @@
                   "id": "371564",
                   "jersey": 23,
                   "name": "Izan Merino",
-                  "position": "CM-R",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "180444",
-                  "jersey": 11,
-                  "name": "Joaquín Muñoz",
-                  "position": "LM",
-                  "isStarter": true,
-                  "events": null
-                },
-                {
-                  "id": "297828",
-                  "jersey": 10,
-                  "name": "David Larrubia",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -72415,15 +72407,23 @@
                   "id": "373542",
                   "jersey": 21,
                   "name": "Adrián Niño",
-                  "position": "CF-L",
+                  "position": "F",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "274971",
-                  "jersey": 2,
-                  "name": "Jens Cajuste",
-                  "position": "CF-R",
+                  "id": "180444",
+                  "jersey": 11,
+                  "name": "Joaquín Muñoz",
+                  "position": "AM-L",
+                  "isStarter": true,
+                  "events": null
+                },
+                {
+                  "id": "297828",
+                  "jersey": 10,
+                  "name": "David Larrubia",
+                  "position": "AM-R",
                   "isStarter": true,
                   "events": null
                 },
