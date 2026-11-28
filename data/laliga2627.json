@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T14:27:05Z",
+  "lastUpdated": "2026-11-28T14:28:11Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71790,7 +71790,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -72200,6 +72200,33 @@
                 "playerName": "Fran García",
                 "teamName": "Betis",
                 "text": "Junior Firpo"
+              },
+              {
+                "id": "55779936_10",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Troy Parrott",
+                "teamName": "Betis",
+                "text": "Cucho Hernández"
+              },
+              {
+                "id": "55779937_11",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "Aitor Ruibal",
+                "teamName": "Betis",
+                "text": "Héctor Bellerín"
+              },
+              {
+                "id": "55779938_12",
+                "type": "SUBSTITUTION",
+                "minute": 63,
+                "extraTime": null,
+                "playerName": "José Antonio Morante",
+                "teamName": "Betis",
+                "text": "Antony"
               }
             ]
           }
