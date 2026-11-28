@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T14:58:42Z",
+  "lastUpdated": "2026-11-28T14:59:48Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71787,11 +71787,11 @@
           "away": "Rayo",
           "jornada": 14,
           "tv": null,
-          "done": false,
+          "done": true,
           "result": "0-1",
-          "state": "in",
-          "clock": "90'+6'",
-          "statusText": "Second Half",
+          "state": "post",
+          "clock": null,
+          "statusText": null,
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
           "details": {
