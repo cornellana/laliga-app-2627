@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T15:50:25Z",
+  "lastUpdated": "2026-11-28T15:51:30Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72329,9 +72329,9 @@
           "jornada": 14,
           "tv": null,
           "done": false,
-          "result": "0-1",
+          "result": "0-2",
           "state": "in",
-          "clock": "34'",
+          "clock": "35'",
           "statusText": "First Half",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
@@ -72730,6 +72730,15 @@
                 "minute": 27,
                 "extraTime": null,
                 "playerName": "Oihan Sancet",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "55793514_7",
+                "type": "GOAL",
+                "minute": 34,
+                "extraTime": null,
+                "playerName": "Alex Berenguer",
                 "teamName": "Athletic",
                 "text": null
               }
@@ -76519,6 +76528,12 @@
       "penalties": 3
     },
     {
+      "player": "Alex Berenguer",
+      "team": "Athletic",
+      "goals": 5,
+      "penalties": 2
+    },
+    {
       "player": "Jude Bellingham",
       "team": "Real Madrid",
       "goals": 5,
@@ -76535,12 +76550,6 @@
       "team": "Levante",
       "goals": 5,
       "penalties": null
-    },
-    {
-      "player": "Alex Berenguer",
-      "team": "Athletic",
-      "goals": 4,
-      "penalties": 2
     },
     {
       "player": "Giuliano Simeone",
