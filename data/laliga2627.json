@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T17:38:35Z",
+  "lastUpdated": "2026-11-28T17:39:42Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "0-2",
           "state": "in",
-          "clock": "8'",
+          "clock": "9'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73299,6 +73299,15 @@
                 "minute": 5,
                 "extraTime": null,
                 "playerName": "Alejandro Grimaldo",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "55810128_2",
+                "type": "GOAL",
+                "minute": 7,
+                "extraTime": null,
+                "playerName": "Lee Kang-In",
                 "teamName": "Atlético",
                 "text": null
               }
@@ -77192,6 +77201,12 @@
       "penalties": null
     },
     {
+      "player": "Lee Kang-In",
+      "team": "Atlético",
+      "goals": 3,
+      "penalties": null
+    },
+    {
       "player": "Marc Bartra",
       "team": "Betis",
       "goals": 3,
@@ -77344,12 +77359,6 @@
     {
       "player": "Kike Salas",
       "team": "Sevilla",
-      "goals": 2,
-      "penalties": null
-    },
-    {
-      "player": "Lee Kang-In",
-      "team": "Atlético",
       "goals": 2,
       "penalties": null
     },
