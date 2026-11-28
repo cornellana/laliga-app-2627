@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T15:42:45Z",
+  "lastUpdated": "2026-11-28T15:43:50Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72329,10 +72329,10 @@
           "jornada": 14,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "27'",
-          "statusText": "First Half",
+          "clock": "28'",
+          "statusText": "In Progress",
           "stadium": "La Rosaleda",
           "venueCity": "Malaga",
           "details": {
@@ -72721,6 +72721,15 @@
                 "minute": 24,
                 "extraTime": null,
                 "playerName": "Iñigo Ruiz de Galarreta",
+                "teamName": "Athletic",
+                "text": null
+              },
+              {
+                "id": "55791797_6",
+                "type": "GOAL",
+                "minute": 27,
+                "extraTime": null,
+                "playerName": "Oihan Sancet",
                 "teamName": "Athletic",
                 "text": null
               }
@@ -76810,6 +76819,12 @@
       "penalties": null
     },
     {
+      "player": "Oihan Sancet",
+      "team": "Athletic",
+      "goals": 2,
+      "penalties": null
+    },
+    {
       "player": "Robert Navarro",
       "team": "Athletic",
       "goals": 2,
@@ -77268,12 +77283,6 @@
     {
       "player": "Natan",
       "team": "Betis",
-      "goals": 1,
-      "penalties": null
-    },
-    {
-      "player": "Oihan Sancet",
-      "team": "Athletic",
       "goals": 1,
       "penalties": null
     },
