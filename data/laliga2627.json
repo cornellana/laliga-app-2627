@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T18:45:17Z",
+  "lastUpdated": "2026-11-28T18:46:22Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "55'",
+          "clock": "56'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73342,6 +73342,15 @@
                 "id": "55816520_8",
                 "type": "GOAL",
                 "minute": 48,
+                "extraTime": null,
+                "playerName": "Buba Sangaré",
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "55817095_9",
+                "type": "YELLOW_CARD",
+                "minute": 54,
                 "extraTime": null,
                 "playerName": "Buba Sangaré",
                 "teamName": "Elche",
