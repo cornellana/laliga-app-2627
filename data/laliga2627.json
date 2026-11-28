@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T14:30:23Z",
+  "lastUpdated": "2026-11-28T14:31:28Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71790,7 +71790,7 @@
           "done": false,
           "result": "0-0",
           "state": "in",
-          "clock": "67'",
+          "clock": "68'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -72236,6 +72236,15 @@
                 "playerName": "Giorgi Tsitaishvili",
                 "teamName": "Rayo",
                 "text": "Álvaro García"
+              },
+              {
+                "id": "55780084_14",
+                "type": "YELLOW_CARD",
+                "minute": 66,
+                "extraTime": null,
+                "playerName": "Isco",
+                "teamName": "Betis",
+                "text": null
               }
             ]
           }
