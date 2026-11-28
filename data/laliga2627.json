@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T19:17:54Z",
+  "lastUpdated": "2026-11-28T19:19:01Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "87'",
+          "clock": "88'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73442,27 +73442,27 @@
                 "type": "SUBSTITUTION",
                 "minute": 85,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Ezequiel Ponce",
                 "teamName": "Elche",
-                "text": null
+                "text": "Roy Revivo"
               },
               {
                 "id": "55820107_20",
                 "type": "SUBSTITUTION",
                 "minute": 85,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Abiel Osorio",
                 "teamName": "Elche",
-                "text": null
+                "text": "Fer Niño"
               },
               {
                 "id": "55820108_21",
                 "type": "SUBSTITUTION",
                 "minute": 85,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Robin Le Normand",
                 "teamName": "Atlético",
-                "text": null
+                "text": "Giuliano Simeone"
               }
             ]
           }
