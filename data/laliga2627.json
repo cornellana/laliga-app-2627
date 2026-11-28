@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T19:16:48Z",
+  "lastUpdated": "2026-11-28T19:17:54Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "86'",
+          "clock": "87'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73434,6 +73434,33 @@
                 "minute": 85,
                 "extraTime": null,
                 "playerName": "Alejandro Grimaldo",
+                "teamName": "Atlético",
+                "text": null
+              },
+              {
+                "id": "55820106_19",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "55820107_20",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Elche",
+                "text": null
+              },
+              {
+                "id": "55820108_21",
+                "type": "SUBSTITUTION",
+                "minute": 85,
+                "extraTime": null,
+                "playerName": null,
                 "teamName": "Atlético",
                 "text": null
               }
