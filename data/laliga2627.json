@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T14:39:07Z",
+  "lastUpdated": "2026-11-28T14:40:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71790,7 +71790,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "76'",
+          "clock": "77'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -72272,6 +72272,15 @@
                 "playerName": "Pedro Díaz",
                 "teamName": "Rayo",
                 "text": "Isi Palazón"
+              },
+              {
+                "id": "55780972_18",
+                "type": "YELLOW_CARD",
+                "minute": 75,
+                "extraTime": null,
+                "playerName": "Unai López",
+                "teamName": "Rayo",
+                "text": null
               }
             ]
           }
