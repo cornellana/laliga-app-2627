@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T18:54:05Z",
+  "lastUpdated": "2026-11-28T18:55:12Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72917,7 +72917,7 @@
           "done": false,
           "result": "2-3",
           "state": "in",
-          "clock": "64'",
+          "clock": "65'",
           "statusText": "Second Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -73379,9 +73379,9 @@
                 "type": "SUBSTITUTION",
                 "minute": 62,
                 "extraTime": null,
-                "playerName": null,
+                "playerName": "Grady Diangana",
                 "teamName": "Elche",
-                "text": null
+                "text": "Martim Neto"
               }
             ]
           }
