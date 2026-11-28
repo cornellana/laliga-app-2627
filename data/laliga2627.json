@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T14:42:22Z",
+  "lastUpdated": "2026-11-28T14:43:27Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -71790,7 +71790,7 @@
           "done": false,
           "result": "0-1",
           "state": "in",
-          "clock": "79'",
+          "clock": "80'",
           "statusText": "Second Half",
           "stadium": "Estadio La Cartuja",
           "venueCity": "Sevilla",
@@ -72280,6 +72280,24 @@
                 "extraTime": null,
                 "playerName": "Unai López",
                 "teamName": "Rayo",
+                "text": null
+              },
+              {
+                "id": "55781284_19",
+                "type": "YELLOW_CARD",
+                "minute": 78,
+                "extraTime": null,
+                "playerName": "Abde Ezzalzouli",
+                "teamName": "Betis",
+                "text": null
+              },
+              {
+                "id": "55781300_20",
+                "type": "SUBSTITUTION",
+                "minute": 79,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Betis",
                 "text": null
               }
             ]
