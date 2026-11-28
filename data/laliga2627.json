@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T17:35:13Z",
+  "lastUpdated": "2026-11-28T17:36:23Z",
   "season": "2026-27",
   "matchDays": [
     {
@@ -72915,9 +72915,9 @@
           "jornada": 14,
           "tv": null,
           "done": false,
-          "result": "0-0",
+          "result": "0-1",
           "state": "in",
-          "clock": "4'",
+          "clock": "6'",
           "statusText": "First Half",
           "stadium": "Estadio Martínez Valero",
           "venueCity": "Elche",
@@ -72974,17 +72974,17 @@
                   "events": null
                 },
                 {
-                  "id": "273424",
-                  "jersey": 12,
-                  "name": "Gonzalo Villar",
+                  "id": "340677",
+                  "jersey": 16,
+                  "name": "Martim Neto",
                   "position": "LM",
                   "isStarter": true,
                   "events": null
                 },
                 {
-                  "id": "340677",
-                  "jersey": 16,
-                  "name": "Martim Neto",
+                  "id": "273424",
+                  "jersey": 12,
+                  "name": "Gonzalo Villar",
                   "position": "RM",
                   "isStarter": true,
                   "events": null
@@ -73292,7 +73292,17 @@
                 }
               ]
             },
-            "events": null
+            "events": [
+              {
+                "id": "55809966_1",
+                "type": "PENALTY",
+                "minute": 5,
+                "extraTime": null,
+                "playerName": null,
+                "teamName": "Atlético",
+                "text": null
+              }
+            ]
           }
         },
         {
